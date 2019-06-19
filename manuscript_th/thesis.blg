@@ -1,0 +1,86 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: front.aux
+A level-1 auxiliary file: 1introduction/introduction.aux
+A level-1 auxiliary file: appendix.aux
+The style file: naturemag.bst
+Reallocated field_info (elt_size=4) to 11006 items from 5000.
+Database file #1: thesis_ref.bib
+Repeated entry---line 2645 of file thesis_ref.bib
+ : @article{Vuong2004
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2677 of file thesis_ref.bib
+ : @article{Wang2004
+ :                  ,
+I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--I didn't find a database entry for "AIreview"
+Warning--I didn't find a database entry for "history_medicine_review"
+Warning--I didn't find a database entry for "above"
+Warning--I didn't find a database entry for "other_review_early_drugs?"
+Warning--I didn't find a database entry for "drug_database"
+Warning--I didn't find a database entry for "review_drug_delivery"
+Warning--I didn't find a database entry for "WIDES_database"
+Warning--I didn't find a database entry for "Mitchess1945"
+Warning--I didn't find a database entry for "what?"
+Warning--I didn't find a database entry for "???"
+Warning--I didn't find a database entry for "McKellar1999???"
+Warning--I didn't find a database entry for "????"
+Warning--I didn't find a database entry for "Ebbensgaard2015PLOS???"
+Warning--I didn't find a database entry for "??"
+Warning--I didn't find a database entry for "verifyyyyy"
+Warning--I didn't find a database entry for "see_example_on_AMPR"
+Warning--I didn't find a database entry for "Loose2006"
+Warning--I didn't find a database entry for "IBMhttps://doi.org/10.1063/1.5027261"
+Warning--I didn't find a database entry for "Bolintineanu2011"
+Warning--I didn't find a database entry for "Khandelia2005"
+Warning--I didn't find a database entry for "Tsai2009"
+Warning--I didn't find a database entry for "Cherkasov2009"
+Warning--I didn't find a database entry for "Bishop:998831"
+Warning--I didn't find a database entry for "Williams:2006vz"
+Warning--empty booktitle in Pattni2015
+Warning--empty journal in Oneill2016
+You've used 207 entries,
+            2348 wiz_defined-function locations,
+            2561 strings with 76037 characters,
+and the built_in function-call counts, 88890 in all, are:
+= -- 6716
+> -- 2302
+< -- 0
++ -- 1152
+- -- 575
+* -- 11437
+:= -- 9950
+add.period$ -- 820
+call.type$ -- 207
+change.case$ -- 206
+chr.to.int$ -- 0
+cite$ -- 209
+duplicate$ -- 7527
+empty$ -- 7804
+format.name$ -- 762
+if$ -- 17507
+int.to.chr$ -- 0
+int.to.str$ -- 207
+missing$ -- 1795
+newline$ -- 1242
+num.names$ -- 205
+pop$ -- 985
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1235
+stack$ -- 0
+substring$ -- 4849
+swap$ -- 7738
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 575
+width$ -- 210
+write$ -- 2672
+(There were 2 error messages)

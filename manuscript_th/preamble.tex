@@ -1,0 +1,157 @@
+\documentclass[12pt,a4paper,openright,oneside,oldfontcommands]{memoir}
+%%% preamble %%%
+%\usepackage[natbibapa]{apacite} % for citations
+%\usepackage{cite}
+%\usepackage{biblatex}
+%\usepackage[dvips]{graphicx}  % this does not work with PDF images
+%\usepackage{times}   % this changes the font
+%\usepackage[dvips]{color} % original
+\setsecnumdepth{subsection} % this numbers also the subsections 
+\usepackage[comma,numbers,sort&compress]{natbib}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{type1cm}
+\usepackage{lettrine}
+\usepackage{mathrsfs}
+\usepackage{color}
+\usepackage{multirow}
+\usepackage{lscape}
+\usepackage{upgreek}
+\usepackage{longtable}
+\newsubfloat{figure}
+\usepackage{amssymb}
+%\usepackage{bbm}
+\usepackage{csquotes}
+\usepackage{etoolbox}
+\usepackage{nomencl}
+\usepackage{makecell}
+
+%%% set margins %%%
+%\setlrmarginsandblock{40mm}{20mm}{*}  % left right margins
+%\setulmarginsandblock{35mm}{40mm}{*}  % upper lower margins
+
+\setlrmarginsandblock{40mm}{30mm}{*}  % left right margins
+\setulmarginsandblock{35mm}{40mm}{*}  % upper lower margins
+\setheadfoot{\headheight}{15mm}
+\checkandfixthelayout  % this puts the layout into effect
+
+%----
+\usepackage{todonotes}
+%\reversemarginpar
+%----
+
+%%% customise chapter style %%%
+\makeatletter 
+\makechapterstyle{thesis}{%
+	\renewcommand{\chapnamefont}{\normalfont\LARGE\sffamily}
+	\renewcommand{\printchaptername}{\raggedleft\chapnamefont \@chapapp}
+	\renewcommand{\chapnumfont}{\normalfont\LARGE\sffamily}
+	\renewcommand{\chaptitlefont}{\normalfont\HUGE\sffamily}
+	\renewcommand{\printchaptertitle}[1]{%
+		\hrule \vskip\onelineskip \raggedleft \chaptitlefont ##1}
+	\renewcommand{\afterchaptertitle}{\vskip\onelineskip \hrule\vskip \afterchapskip}}
+\makeatother
+
+%%% set line spacing %%%
+\DisemulatePackage{setspace}
+\usepackage{setspace}
+\onehalfspacing
+
+%%% define custom commands %%%
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+
+\newcommand{\boldalpha}{\mbox{\boldmath$\alpha$}}
+\newcommand{\boldsigma}{\mbox{\boldmath$\sigma$}}
+\newcommand{\boldxi}{\mbox{\boldmath$\xi$}}
+
+\newcommand{\q}[1]{``#1''}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\argmax}{argmax}
+
+\chapterstyle{thesis}
+
+\setsecheadstyle{\Large\sffamily\raggedright} 
+\setsubsecheadstyle{\large\sffamily\raggedright} 
+\setsubsubsecheadstyle{\normalsize\sffamily\raggedright}
+
+\raggedbottomsectiontrue
+
+\usepackage[rm,small]{caption}
+\setlength {\captionmargin}{20 pt}
+
+%%% define graphics paths %%%
+\graphicspath{{./2gp/}{./3nkernels/}{./4covariant_kernels/}{./5model_selection/}{./6m_ffs/}{./7gp_wf/}}
+
+
+% La commande qui tue (mais qu'on peut probablement perfectionner):
+% 3 paramètres: - préfixe des images - suffixe (extension) des images - options d'affichage des images
+\makeatletter
+\newcommand\image[3]{
+  \@tempcnta\number161
+  \advance\@tempcnta-\value{page}
+  \divide\@tempcnta2
+  \IfFileExists{#1\number\@tempcnta .#2}
+  {\includegraphics[#3]{#1\number\@tempcnta .#2}}{}}
+\makeatother
+% Pb: il faut lui dire combien de page le document a...
+% (parce que je sais pas encore faire automatiquement)
+
+% Où l'on place les animations dans les coins.
+
+\setlength{\headwidth}{\textwidth} 
+%\addtolength{\headwidth}{\marginparsep} 
+\addtolength{\headwidth}{1cm}
+
+\copypagestyle{thesis}{ruled}
+
+\makerunningwidth{thesis}{\headwidth}
+
+\makeheadrule{thesis}{\headwidth}{\normalrulethickness}
+\makefootrule{thesis}{\headwidth}{\normalrulethickness}{\footruleskip}
+
+\makeheadposition{thesis}{flushright}{flushleft}{flushright}{flushleft}
+
+%\makeevenfoot{thesis}{}{\thepage}{}
+
+\makeoddfoot{thesis}{}{}{
+  \setlength\unitlength{1cm}
+  \begin{picture}(0,0)
+    \put(-3.5,-1.5){
+      \image{./flip/gr}{eps}{scale=0.09}
+    }
+  \end{picture}
+}
+
+\makeatletter
+\makepsmarks{thesis}{% 
+\let\@mkboth\markboth 
+\def\chaptermark##1{\markboth{##1}{##1}}% % left & right marks 
+\def\sectionmark##1{\markright{% % right mark 
+\ifnum \c@secnumdepth>\z@ 
+\thesection. % section number 
+\fi 
+##1}} 
+}
+\makeatother
+
+\makeevenhead{thesis}% 
+{\normalfont\sffamily\thepage}{}{\normalfont\sffamily\leftmark} 
+\makeoddhead{thesis}% 
+{\normalfont\sffamily\rightmark}{}{\normalfont\sffamily\thepage} 
+
+\makeevenfoot{thesis}{}{}{}
+
+
+%%% define hyperreferences links %%%
+\usepackage[hyphens]{url}
+\usepackage[naturalnames, breaklinks]{hyperref}
+%\hypersetup{colorlinks=true,breaklinks=true}
+%\hypersetup{		% customise hyperreff
+%	colorlinks   = true, 
+%	urlcolor     = blue, 
+%	linkcolor    = blue, 
+%	citecolor   = blue }

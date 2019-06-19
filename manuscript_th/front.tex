@@ -1,0 +1,252 @@
+% Title Page 
+%\thispagestyle{empty}
+
+%\begin{center}
+%\Large {\textsc{Multiscale Hybrid Simulation\\ of Brittle Fracture}}
+%\end{center}
+
+%\cleardoublepage
+
+\thispagestyle{empty}
+
+\begin{center}
+
+
+{\textsc {\Huge Elucidating self-assembly}}\\
+%
+\vspace{.15in}
+%
+{\textsc {\Huge and antimicrobial strategies}}\\
+%
+\vspace{.15in}
+%
+{\textsc {\Huge of synthetic peptides:}}\\
+%
+\vspace{.15in}
+%
+{\textsc {\Huge an in silico investigation}}
+%
+\vspace{1.5in}
+
+{\Large Irene Marzuoli}
+
+\vspace{.4in}
+
+{\textsc {\large Randall Centre of Cell and molecular Biophysics}}
+
+\vspace{0.15in}
+
+{\textsc {\large King's College London}}
+
+%\vspace{1.7in} original
+\vspace{1in}
+%\includegraphics[height=3cm]{pem.eps}
+%\hspace{1.5cm}
+\includegraphics[height=3cm]{KCL_logo.pdf}
+
+\vspace{1in}
+
+{\textsc {\large This dissertation is submitted for \\ 
+the degree of Doctor of Philosophy}}
+
+\vspace{0.5in}
+
+{\textsc {\large September 2019}}
+
+\end{center}
+
+\cleardoublepage
+
+%\onehalfspacing
+
+\makeatletter
+\renewcommand{\@pnumwidth}{2em}
+\renewcommand{\@tocrmarg}{3em}
+\setlength{\cftbeforechapterskip}{.9em}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+
+\begin{vplace}[0.15]
+
+\begin{center}
+%\large
+\it{To ....}
+\end{center} 
+
+\end{vplace}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+%%% empty page
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
+%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+\chapter*{Declaration}
+
+%\section*{Declaration of Originality} 
+
+\noindent This dissertation describes work I have carried out between October 2016 and September 2019 at the Randall Centre of King's College London, under the supervision of Professor Franca Fraternali (first supervisor) and Dr. Chris D. Lorenz (second supervisor).
+
+\vspace{.2cm}
+
+\noindent This dissertation contains material appearing in the following articles:
+
+\begin{itemize}
+%\end{itemize}}[(i)]
+\item ...
+\end{itemize}
+
+\noindent In addition to the above, I have contributed to the following publications during the course of my PhD:
+
+\begin{itemize}
+%
+\item ...
+%
+\end{itemize}
+%
+
+
+%\section*{Statement of Length}
+
+\vspace{.2cm}
+
+\noindent This dissertation is my own work and contains nothing which is the outcome of work done in collaboration with others, except as specified in the text and acknowledgements.
+%
+It has not been submitted in whole or in part for any degree or diploma at this or any other university.
+
+\vspace{1.5cm}
+
+\begin{raggedleft}
+Irene Marzuoli \\
+September 2019
+
+\end{raggedleft}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cleardoublepage
+%%%% empty page
+%\newpage
+%\thispagestyle{plain} % empty
+%\mbox{}
+%%%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+\chapter*{Acknowledgements}
+%
+...
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cleardoublepage
+%%%% empty page
+%\newpage
+%\thispagestyle{plain} % empty
+%\mbox{}
+%%%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+\chapter*{Summary}
+
+\begin{center}
+
+{\Large\sffamily Elucidating self-assembly and antimicrobial strategies of synthetic peptides an in silico investigation}
+
+\vspace{.2cm}
+
+{\large\sffamily Irene Marzuoli}
+
+\vspace{.03cm}
+
+{\large\sffamily King's College London}
+%
+\vspace{.2cm}
+
+\end{center}
+%
+\noindent
+%
+...
+%
+...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+%%% empty page
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
+%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\tableofcontents*
+
+\cleardoublepage
+
+\listoffigures*
+
+%%% List of symbols and acronyms %%%
+
+% name
+\renewcommand{\nomname}{List of symbols and acronyms}
+
+% spacing 
+\newlength{\nomitemorigsep}
+\setlength{\nomitemorigsep}{\nomitemsep}
+\setlength{\nomitemsep}{-\parsep}
+
+% groups
+\renewcommand{\nomgroup}[1]{
+%
+\itemsep\nomitemorigsep
+\ifthenelse{\equal{#1}{A}}{\item[\textbf{Acronyms}]}{
+%
+\ifthenelse{\equal{#1}{B}}{\item[\textbf{Math and Gaussian process conventions}]}{
+%
+\ifthenelse{\equal{#1}{K}}{\item[\textbf{Kernels for force field learning}]}{
+%
+\ifthenelse{\equal{#1}{W}}{\item[\textbf{Wave function learning}]}{
+%
+\ifthenelse{\equal{#1}{G}}{\item[\textbf{Gaussian processes}]}{
+%
+\ifthenelse{\equal{#1}{F}}{\item[\textbf{Force field learning}]}{
+%
+\ifthenelse{\equal{#1}{KW}}{\item[\textbf{Kernels for wave function learning}]}{
+%
+}}}}}}}
+\itemsep\nomitemsep}
+
+
+\printnomenclature[7.6em]
+
+\cleardoublepage
+%%% empty page
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
+%%
+
+
+\thispagestyle{empty}
+
+
+
+
+

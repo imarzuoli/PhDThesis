@@ -1,0 +1,2134 @@
+\begin{thebibliography}{100}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{AlphaGo}
+\bibinfo{title}{{Artificial intelligence: Go master Lee Se-dol wins against
+  AlphaGo program - BBC News}}.
+\newblock \urlprefix\url{https://www.bbc.co.uk/news/technology-35797102}.
+
+\bibitem{Rossi2018}
+\bibinfo{author}{Rossi, G.}, \bibinfo{author}{Manfrin, A.} \&
+  \bibinfo{author}{Lutolf, M.~P.}
+\newblock \bibinfo{title}{{Progress and potential in organoid research}}.
+\newblock \emph{\bibinfo{journal}{Nature Reviews Genetics}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{671--687}
+  (\bibinfo{year}{2018}).
+\newblock \urlprefix\url{http://www.nature.com/articles/s41576-018-0051-9}.
+
+\bibitem{ABXdatabaseJhopkins}
+\bibinfo{title}{{Hopkins ABX Guide}}.
+\newblock \urlprefix\url{http://www.hopkins-abxguide.org/}.
+
+\bibitem{Strebhardt2008}
+\bibinfo{author}{Strebhardt, K.} \& \bibinfo{author}{Ullrich, A.}
+\newblock \bibinfo{title}{{Paul Ehrlich's magic bullet concept: 100 years of
+  progress}}.
+\newblock \emph{\bibinfo{journal}{Nature Reviews Cancer}}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{473--480}
+  (\bibinfo{year}{2008}).
+\newblock \urlprefix\url{http://www.nature.com/articles/nrc2394}.
+
+\bibitem{Masaoka2006}
+\bibinfo{author}{Masaoka, Y.}, \bibinfo{author}{Tanaka, Y.},
+  \bibinfo{author}{Kataoka, M.}, \bibinfo{author}{Sakuma, S.} \&
+  \bibinfo{author}{Yamashita, S.}
+\newblock \bibinfo{title}{{Site of drug absorption after oral administration:
+  Assessment of membrane permeability and luminal concentration of drugs in
+  each segment of gastrointestinal tract}}.
+\newblock \emph{\bibinfo{journal}{European Journal of Pharmaceutical Sciences}}
+  \textbf{\bibinfo{volume}{29}}, \bibinfo{pages}{240--250}
+  (\bibinfo{year}{2006}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0928098706001709?via{\%}3Dihub}.
+
+\bibitem{Mitragotri2014}
+\bibinfo{author}{Mitragotri, S.}, \bibinfo{author}{Burke, P.~A.} \&
+  \bibinfo{author}{Langer, R.}
+\newblock \bibinfo{title}{{Overcoming the challenges in administering
+  biopharmaceuticals: formulation and delivery strategies}}.
+\newblock \emph{\bibinfo{journal}{Nature Reviews Drug Discovery}}
+  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{655--672}
+  (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://www.nature.com/articles/nrd4363}.
+
+\bibitem{Krol2012}
+\bibinfo{author}{Krol, S.}
+\newblock \bibinfo{title}{{Challenges in drug delivery to the brain: Nature is
+  against us}}.
+\newblock \emph{\bibinfo{journal}{Journal of Controlled Release}}
+  \textbf{\bibinfo{volume}{164}}, \bibinfo{pages}{145--155}
+  (\bibinfo{year}{2012}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0168365912003999}.
+
+\bibitem{Pattni2015}
+\bibinfo{author}{Pattni, B.~S.} \& \bibinfo{author}{Torchilin, V.~P.}
+\newblock \bibinfo{title}{{Targeted Drug Delivery Systems: Strategies and
+  Challenges}}.
+\newblock \bibinfo{pages}{3--38} (\bibinfo{publisher}{Springer, Cham},
+  \bibinfo{year}{2015}).
+\newblock
+  \urlprefix\url{http://link.springer.com/10.1007/978-3-319-11355-5{\_}1}.
+
+\bibitem{Jain2016}
+\bibinfo{author}{Jain, S.} \& \bibinfo{author}{Edwards, M.~J.}
+\newblock \bibinfo{title}{{Advances and challenges in the development of drug
+  delivery systems – A European perspective}} (\bibinfo{year}{2016}).
+\newblock
+  \urlprefix\url{https://www.semanticscholar.org/paper/Advances-and-challenges-in-the-development-of-drug-Jain-Edwards/51a16060d641078aac675e3a9c2ab8e7b1effbfa}.
+
+\bibitem{Hughes2005}
+\bibinfo{author}{Hughes, G.~A.}
+\newblock \bibinfo{title}{{Nanostructure-mediated drug delivery}}.
+\newblock \emph{\bibinfo{journal}{Nanomedicine: Nanotechnology, Biology and
+  Medicine}} \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{22--30}
+  (\bibinfo{year}{2005}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1549963405000122?via{\%}3Dihub}.
+
+\bibitem{Singh2018}
+\bibinfo{author}{Singh, P.} \emph{et~al.}
+\newblock \bibinfo{title}{{Gold Nanoparticles in Diagnostics and Therapeutics
+  for Human Cancer.}}
+\newblock \emph{\bibinfo{journal}{International journal of molecular sciences}}
+  \textbf{\bibinfo{volume}{19}} (\bibinfo{year}{2018}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/29986450
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC6073740}.
+
+\bibitem{Boisselier2009}
+\bibinfo{author}{Boisselier, E.} \& \bibinfo{author}{Astruc, D.}
+\newblock \bibinfo{title}{{Gold nanoparticles in nanomedicine: preparations,
+  imaging, diagnostics, therapies and toxicity}}.
+\newblock \emph{\bibinfo{journal}{Chemical Society Reviews}}
+  \textbf{\bibinfo{volume}{38}}, \bibinfo{pages}{1759} (\bibinfo{year}{2009}).
+\newblock \urlprefix\url{http://xlink.rsc.org/?DOI=b806051g}.
+
+\bibitem{Erol2017}
+\bibinfo{author}{Erol, O.} \emph{et~al.}
+\newblock \bibinfo{title}{{Recent Advances in Bioactive 1D and 2D Carbon
+  Nanomaterials for Biomedical Applications}}.
+\newblock \emph{\bibinfo{journal}{Nanomedicine: Nanotechnology, Biology and
+  Medicine}}  (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/28552644
+  http://linkinghub.elsevier.com/retrieve/pii/S1549963417300898}.
+
+\bibitem{Depan2011}
+\bibinfo{author}{Depan, D.}, \bibinfo{author}{Shah, J.} \&
+  \bibinfo{author}{Misra, R.}
+\newblock \bibinfo{title}{{Controlled release of drug from folate-decorated and
+  graphene mediated drug delivery system: Synthesis, loading efficiency, and
+  drug release response}}.
+\newblock \emph{\bibinfo{journal}{Materials Science and Engineering: C}}
+  \textbf{\bibinfo{volume}{31}}, \bibinfo{pages}{1305--1312}
+  (\bibinfo{year}{2011}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0928493111001159}.
+
+\bibitem{Lammers2009}
+\bibinfo{author}{Lammers, T.} \emph{et~al.}
+\newblock \bibinfo{title}{{Simultaneous delivery of doxorubicin and gemcitabine
+  to tumors in vivo using prototypic polymeric drug carriers}}.
+\newblock \emph{\bibinfo{journal}{Biomaterials}} \textbf{\bibinfo{volume}{30}},
+  \bibinfo{pages}{3466--3475} (\bibinfo{year}{2009}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/19304320
+  https://linkinghub.elsevier.com/retrieve/pii/S0142961209002324}.
+
+\bibitem{Liechty2010}
+\bibinfo{author}{Liechty, W.~B.}, \bibinfo{author}{Kryscio, D.~R.},
+  \bibinfo{author}{Slaughter, B.~V.} \& \bibinfo{author}{Peppas, N.~A.}
+\newblock \bibinfo{title}{{Polymers for drug delivery systems.}}
+\newblock \emph{\bibinfo{journal}{Annual review of chemical and biomolecular
+  engineering}} \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{149--73}
+  (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/22432577
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3438887}.
+
+\bibitem{Kawakatsu2004}
+\bibinfo{author}{Kawakatsu, T.}
+\newblock \emph{\bibinfo{title}{{Statistical Physics of Polymers : an
+  Introduction}}} (\bibinfo{publisher}{Springer Berlin Heidelberg},
+  \bibinfo{year}{2004}).
+
+\bibitem{Nicolas2013}
+\bibinfo{author}{Nicolas, J.}, \bibinfo{author}{Mura, S.},
+  \bibinfo{author}{Brambilla, D.}, \bibinfo{author}{Mackiewicz, N.} \&
+  \bibinfo{author}{Couvreur, P.}
+\newblock \bibinfo{title}{{Design, functionalization strategies and biomedical
+  applications of targeted biodegradable/biocompatible polymer-based
+  nanocarriers for drug delivery}}.
+\newblock \emph{\bibinfo{journal}{Chem. Soc. Rev.}}
+  \textbf{\bibinfo{volume}{42}}, \bibinfo{pages}{1147--1235}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://xlink.rsc.org/?DOI=C2CS35265F}.
+
+\bibitem{Nair2007}
+\bibinfo{author}{Nair, L.~S.} \& \bibinfo{author}{Laurencin, C.~T.}
+\newblock \bibinfo{title}{{Biodegradable polymers as biomaterials}}.
+\newblock \emph{\bibinfo{journal}{Progress in Polymer Science}}
+  \textbf{\bibinfo{volume}{32}}, \bibinfo{pages}{762--798}
+  (\bibinfo{year}{2007}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0079670007000664}.
+
+\bibitem{Rao2018}
+\bibinfo{author}{Rao, S.~H.}, \bibinfo{author}{Harini, B.},
+  \bibinfo{author}{Shadamarshan, R. P.~K.}, \bibinfo{author}{Balagangadharan,
+  K.} \& \bibinfo{author}{Selvamurugan, N.}
+\newblock \bibinfo{title}{{Natural and synthetic polymers/bioceramics/bioactive
+  compounds-mediated cell signalling in bone tissue engineering.}}
+\newblock \emph{\bibinfo{journal}{International journal of biological
+  macromolecules}} \textbf{\bibinfo{volume}{110}}, \bibinfo{pages}{88--96}
+  (\bibinfo{year}{2018}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/28917940}.
+
+\bibitem{Yoo2011}
+\bibinfo{author}{Yoo, J.-W.}, \bibinfo{author}{Irvine, D.~J.},
+  \bibinfo{author}{Discher, D.~E.} \& \bibinfo{author}{Mitragotri, S.}
+\newblock \bibinfo{title}{{Bio-inspired, bioengineered and biomimetic drug
+  delivery carriers}}.
+\newblock \emph{\bibinfo{journal}{Nature Reviews Drug Discovery}}
+  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{521--535}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.nature.com/articles/nrd3499}.
+
+\bibitem{Yingchoncharoen2016}
+\bibinfo{author}{Yingchoncharoen, P.}, \bibinfo{author}{Kalinowski, D.~S.} \&
+  \bibinfo{author}{Richardson, D.~R.}
+\newblock \bibinfo{title}{{Lipid-Based Drug Delivery Systems in Cancer Therapy:
+  What Is Available and What Is Yet to Come.}}
+\newblock \emph{\bibinfo{journal}{Pharmacological reviews}}
+  \textbf{\bibinfo{volume}{68}}, \bibinfo{pages}{701--87}
+  (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/27363439
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4931871}.
+
+\bibitem{Bunker2016}
+\bibinfo{author}{Bunker, A.}, \bibinfo{author}{Magarkar, A.} \&
+  \bibinfo{author}{Viitala, T.}
+\newblock \bibinfo{title}{{Rational design of liposomal drug delivery systems,
+  a review: Combined experimental and computational studies of lipid membranes,
+  liposomes and their PEGylation}}.
+\newblock \emph{\bibinfo{journal}{BBA - Biomembranes}}
+  \textbf{\bibinfo{volume}{1858}}, \bibinfo{pages}{2334--2352}
+  (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/j.bbamem.2016.02.025}.
+
+\bibitem{Pattni2015paper}
+\bibinfo{author}{Pattni, B.~S.}, \bibinfo{author}{Chupin, V.~V.} \&
+  \bibinfo{author}{Torchilin, V.~P.}
+\newblock \bibinfo{title}{{New Developments in Liposomal Drug Delivery}}.
+\newblock \emph{\bibinfo{journal}{Chemical Reviews}}
+  \textbf{\bibinfo{volume}{115}}, \bibinfo{pages}{10938--10966}
+  (\bibinfo{year}{2015}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/acs.chemrev.5b00046}.
+
+\bibitem{Jain2017}
+\bibinfo{author}{Jain, S.} \& \bibinfo{author}{Pillai, J.}
+\newblock \bibinfo{title}{{Bacterial membrane vesicles as novel nanosystems for
+  drug delivery.}}
+\newblock \emph{\bibinfo{journal}{International journal of nanomedicine}}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{6329--6341}
+  (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/28919737
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC5587191}.
+
+\bibitem{Linko2015}
+\bibinfo{author}{Linko, V.}, \bibinfo{author}{Ora, A.} \&
+  \bibinfo{author}{Kostiainen, M.~A.}
+\newblock \bibinfo{title}{{DNA Nanostructures as Smart Drug-Delivery Vehicles
+  and Molecular Devices}}.
+\newblock \emph{\bibinfo{journal}{Trends in Biotechnology}}
+  \textbf{\bibinfo{volume}{33}}, \bibinfo{pages}{586--594}
+  (\bibinfo{year}{2015}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0167779915001614}.
+
+\bibitem{Douglas2012}
+\bibinfo{author}{Douglas, S.~M.}, \bibinfo{author}{Bachelet, I.} \&
+  \bibinfo{author}{Church, G.~M.}
+\newblock \bibinfo{title}{{A Logic-Gated Nanorobot for Targeted Transport of
+  Molecular Payloads}}.
+\newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{335}},
+  \bibinfo{pages}{831--834} (\bibinfo{year}{2012}).
+\newblock
+  \urlprefix\url{http://www.sciencemag.org/cgi/doi/10.1126/science.1214081}.
+
+\bibitem{Zhang2014}
+\bibinfo{author}{Zhang, Q.} \emph{et~al.}
+\newblock \bibinfo{title}{{DNA Origami as an {\textless}i{\textgreater}In
+  Vivo{\textless}/i{\textgreater} Drug Delivery Vehicle for Cancer Therapy}}.
+\newblock \emph{\bibinfo{journal}{ACS Nano}} \textbf{\bibinfo{volume}{8}},
+  \bibinfo{pages}{6633--6643} (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/nn502058j}.
+
+\bibitem{Jiang2012}
+\bibinfo{author}{Jiang, Q.} \emph{et~al.}
+\newblock \bibinfo{title}{{DNA Origami as a Carrier for Circumvention of Drug
+  Resistance}}.
+\newblock \emph{\bibinfo{journal}{Journal of the American Chemical Society}}
+  \textbf{\bibinfo{volume}{134}}, \bibinfo{pages}{13396--13403}
+  (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/ja304263n}.
+
+\bibitem{Lobo2009}
+\bibinfo{author}{Lobo, F.~P.} \emph{et~al.}
+\newblock \bibinfo{title}{{Virus-Host Coevolution: Common Patterns of
+  Nucleotide Motif Usage in Flaviviridae and Their Hosts}}.
+\newblock \emph{\bibinfo{journal}{PLoS ONE}} \textbf{\bibinfo{volume}{4}},
+  \bibinfo{pages}{e6282} (\bibinfo{year}{2009}).
+\newblock \urlprefix\url{http://dx.plos.org/10.1371/journal.pone.0006282}.
+
+\bibitem{Lauer2017}
+\bibinfo{author}{Lauer, K.~B.}, \bibinfo{author}{Borrow, R.} \&
+  \bibinfo{author}{Blanchard, T.~J.}
+\newblock \bibinfo{title}{{Multivalent and Multipathogen Viral Vector
+  Vaccines}}.
+\newblock \emph{\bibinfo{journal}{Clinical and Vaccine Immunology}}
+  \textbf{\bibinfo{volume}{24}}, \bibinfo{pages}{e00298--16}
+  (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{https://cvi.asm.org/content/24/1/e00298-16}.
+
+\bibitem{Daya2008}
+\bibinfo{author}{Daya, S.} \& \bibinfo{author}{Berns, K.~I.}
+\newblock \bibinfo{title}{{Gene therapy using adeno-associated virus vectors.}}
+\newblock \emph{\bibinfo{journal}{Clinical microbiology reviews}}
+  \textbf{\bibinfo{volume}{21}}, \bibinfo{pages}{583--93}
+  (\bibinfo{year}{2008}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/18854481
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2570152}.
+
+\bibitem{Buning2015}
+\bibinfo{author}{B{\"{u}}ning, H.} \& \bibinfo{author}{Schmidt, M.}
+\newblock \bibinfo{title}{{Adeno-associated Vector Toxicity-To Be or Not to
+  Be?}}
+\newblock \emph{\bibinfo{journal}{Molecular therapy : the journal of the
+  American Society of Gene Therapy}} \textbf{\bibinfo{volume}{23}},
+  \bibinfo{pages}{1673--1675} (\bibinfo{year}{2015}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/26606658
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4817949}.
+
+\bibitem{Smalley2017}
+\bibinfo{author}{Smalley, E.}
+\newblock \bibinfo{title}{{First AAV gene therapy poised for landmark
+  approval}}.
+\newblock \emph{\bibinfo{journal}{Nature Biotechnology}}
+  \textbf{\bibinfo{volume}{35}}, \bibinfo{pages}{998--999}
+  (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{http://www.nature.com/articles/nbt1117-998}.
+
+\bibitem{Wu2009}
+\bibinfo{author}{Wu, W.}, \bibinfo{author}{Hsiao, S.~C.},
+  \bibinfo{author}{Carrico, Z.~M.} \& \bibinfo{author}{Francis, M.~B.}
+\newblock \bibinfo{title}{{Genome-free viral capsids as multivalent carriers
+  for taxol delivery.}}
+\newblock \emph{\bibinfo{journal}{Angewandte Chemie (International ed. in
+  English)}} \textbf{\bibinfo{volume}{48}}, \bibinfo{pages}{9493--7}
+  (\bibinfo{year}{2009}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/19921725
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2919582}.
+
+\bibitem{Fan2017}
+\bibinfo{author}{Fan, T.}, \bibinfo{author}{Yu, X.}, \bibinfo{author}{Shen, B.}
+  \& \bibinfo{author}{Sun, L.}
+\newblock \bibinfo{title}{{Peptide Self-Assembled Nanostructures for Drug
+  Delivery Applications}}.
+\newblock \emph{\bibinfo{journal}{Journal of Nanomaterials}}
+  \textbf{\bibinfo{volume}{2017}}, \bibinfo{pages}{1--16}
+  (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{https://www.hindawi.com/journals/jnm/2017/4562474/}.
+
+\bibitem{Habibi2016}
+\bibinfo{author}{Habibi, N.}, \bibinfo{author}{Kamaly, N.},
+  \bibinfo{author}{Memic, A.} \& \bibinfo{author}{Shafiee, H.}
+\newblock \bibinfo{title}{{Self-assembled peptide-based nanostructures: Smart
+  nanomaterials toward targeted drug delivery}}.
+\newblock \emph{\bibinfo{journal}{Nano Today}} \textbf{\bibinfo{volume}{11}},
+  \bibinfo{pages}{41--60} (\bibinfo{year}{2016}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1748013216300081}.
+
+\bibitem{Ma2012}
+\bibinfo{author}{Ma, Y.}, \bibinfo{author}{Nolte, R.~J.} \&
+  \bibinfo{author}{Cornelissen, J.~J.}
+\newblock \bibinfo{title}{{Virus-based nanocarriers for drug delivery}}.
+\newblock \emph{\bibinfo{journal}{Advanced Drug Delivery Reviews}}
+  \textbf{\bibinfo{volume}{64}}, \bibinfo{pages}{811--825}
+  (\bibinfo{year}{2012}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0169409X12000087}.
+
+\bibitem{Yan2010}
+\bibinfo{author}{Yan, X.}, \bibinfo{author}{Zhu, P.} \& \bibinfo{author}{Li,
+  J.}
+\newblock \bibinfo{title}{{Self-assembly and application of
+  diphenylalanine-based nanostructures}}.
+\newblock \emph{\bibinfo{journal}{Chemical Society Reviews}}
+  \textbf{\bibinfo{volume}{39}}, \bibinfo{pages}{1877} (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{http://xlink.rsc.org/?DOI=b915765b}.
+
+\bibitem{Silva2013}
+\bibinfo{author}{Silva, R.~F.}, \bibinfo{author}{Ara{\'{u}}jo, D.~R.},
+  \bibinfo{author}{Silva, E.~R.}, \bibinfo{author}{Ando, R.~A.} \&
+  \bibinfo{author}{Alves, W.~A.}
+\newblock \bibinfo{title}{{l -Diphenylalanine Microtubes As a Potential
+  Drug-Delivery System: Characterization, Release Kinetics, and Cytotoxicity}}.
+\newblock \emph{\bibinfo{journal}{Langmuir}} \textbf{\bibinfo{volume}{29}},
+  \bibinfo{pages}{10205--10212} (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/la4019162}.
+
+\bibitem{King2014}
+\bibinfo{author}{King, N.~P.} \emph{et~al.}
+\newblock \bibinfo{title}{{Accurate design of co-assembling multi-component
+  protein nanomaterials}}.
+\newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{510}}
+  (\bibinfo{year}{2014}).
+\newblock
+  \urlprefix\url{https://www.nature.com/nature/journal/v510/n7503/full/nature13404.html}.
+
+\bibitem{PDB}
+\bibinfo{author}{Berman, H.~M.} \emph{et~al.}
+\newblock \bibinfo{title}{The protein data bank}.
+\newblock \bibinfo{howpublished}{Nucleic Acids Research, 28: 235-242}
+  (\bibinfo{year}{2000}).
+\newblock \urlprefix\url{http://www.rcsb.org/}.
+
+\bibitem{Yeates2019}
+\bibinfo{author}{Yeates, T.~O.}
+\newblock \bibinfo{title}{{Protein assembles into Archimedean geometry}}.
+\newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{569}},
+  \bibinfo{pages}{340--342} (\bibinfo{year}{2019}).
+\newblock \urlprefix\url{http://www.nature.com/articles/d41586-019-01407-z}.
+
+\bibitem{Malay2019}
+\bibinfo{author}{Malay, A.~D.} \emph{et~al.}
+\newblock \bibinfo{title}{{An ultra-stable gold-coordinated protein cage
+  displaying reversible assembly}}.
+\newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{569}},
+  \bibinfo{pages}{438--442} (\bibinfo{year}{2019}).
+\newblock \urlprefix\url{http://www.nature.com/articles/s41586-019-1185-4}.
+
+\bibitem{Santos2017}
+\bibinfo{author}{Santos, R.} \emph{et~al.}
+\newblock \bibinfo{title}{{A comprehensive map of molecular drug targets}}.
+\newblock \emph{\bibinfo{journal}{Nature Reviews Drug Discovery}}
+  \textbf{\bibinfo{volume}{16}}, \bibinfo{pages}{19--34}
+  (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{http://www.nature.com/articles/nrd.2016.230}.
+
+\bibitem{Kapoor2017}
+\bibinfo{author}{Kapoor, G.}, \bibinfo{author}{Saigal, S.} \&
+  \bibinfo{author}{Elongavan, A.}
+\newblock \bibinfo{title}{{Action and resistance mechanisms of antibiotics: A
+  guide for clinicians.}}
+\newblock \emph{\bibinfo{journal}{Journal of anaesthesiology, clinical
+  pharmacology}} \textbf{\bibinfo{volume}{33}}, \bibinfo{pages}{300--305}
+  (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/29109626
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC5672523}.
+
+\bibitem{Blair2014}
+\bibinfo{author}{{A Blair}, J.~M.}, \bibinfo{author}{Webber, M.~A.},
+  \bibinfo{author}{Baylay, A.~J.}, \bibinfo{author}{Ogbolu, D.~O.} \&
+  \bibinfo{author}{{V Piddock}, L.~J.}
+\newblock \bibinfo{title}{{Molecular mechanisms of antibiotic resistance}}.
+\newblock \emph{\bibinfo{journal}{Nature Publishing Group}}
+  \textbf{\bibinfo{volume}{13}} (\bibinfo{year}{2014}).
+\newblock
+  \urlprefix\url{https://www.nature.com/nrmicro/journal/v13/n1/pdf/nrmicro3380.pdf}.
+
+\bibitem{Birkegard2018}
+\bibinfo{author}{Birkeg{\aa}rd, A.~C.}, \bibinfo{author}{Halasa, T.},
+  \bibinfo{author}{Toft, N.}, \bibinfo{author}{Folkesson, A.} \&
+  \bibinfo{author}{Gr{\ae}sb{\o}ll, K.}
+\newblock \bibinfo{title}{{Send more data: a systematic review of mathematical
+  models of antimicrobial resistance.}}
+\newblock \emph{\bibinfo{journal}{Antimicrobial resistance and infection
+  control}} \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{117}
+  (\bibinfo{year}{2018}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/30288257
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC6162961}.
+
+\bibitem{Niewiadomska2019}
+\bibinfo{author}{Niewiadomska, A.~M.} \emph{et~al.}
+\newblock \bibinfo{title}{{Population-level mathematical modeling of
+  antimicrobial resistance: a systematic review}}.
+\newblock \emph{\bibinfo{journal}{BMC Medicine}} \textbf{\bibinfo{volume}{17}},
+  \bibinfo{pages}{81} (\bibinfo{year}{2019}).
+\newblock
+  \urlprefix\url{https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1314-9}.
+
+\bibitem{Oneill2016}
+\bibinfo{author}{{O 'neill}, J.}
+\newblock \bibinfo{title}{{TACKLING DRUG-RESISTANT INFECTIONS GLOBALLY: FINAL
+  REPORT AND RECOMMENDATIONS THE REVIEW ON ANTIMICROBIAL RESISTANCE}}
+  (\bibinfo{year}{2016}).
+\newblock
+  \urlprefix\url{https://amr-review.org/sites/default/files/160525{\_}Final
+  paper{\_}with cover.pdf}.
+
+\bibitem{Delcour2009}
+\bibinfo{author}{Delcour, A.~H.}
+\newblock \bibinfo{title}{{Outer membrane permeability and antibiotic
+  resistance}}.
+\newblock \emph{\bibinfo{journal}{Biochimica et Biophysica Acta (BBA) -
+  Proteins and Proteomics}} \textbf{\bibinfo{volume}{1794}},
+  \bibinfo{pages}{808--816} (\bibinfo{year}{2009}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1570963908003592?via{\%}3Dihub}.
+
+\bibitem{Vargiu2012}
+\bibinfo{author}{Vargiu, A.~V.} \& \bibinfo{author}{Nikaido, H.}
+\newblock \bibinfo{title}{{Multidrug binding properties of the AcrB efflux pump
+  characterized by molecular dynamics simulations.}}
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences of the United States of America}} \textbf{\bibinfo{volume}{109}},
+  \bibinfo{pages}{20637--42} (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23175790
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3528587}.
+
+\bibitem{Kojima2013}
+\bibinfo{author}{Kojima, S.} \& \bibinfo{author}{Nikaido, H.}
+\newblock \bibinfo{title}{{Permeation rates of penicillins indicate that
+  Escherichia coli porins function principally as nonspecific channels}}.
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences}} \textbf{\bibinfo{volume}{110}}, \bibinfo{pages}{E2629--E2634}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23798411
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3710850
+  http://www.pnas.org/cgi/doi/10.1073/pnas.1310333110}.
+
+\bibitem{Tran2013}
+\bibinfo{author}{Tran, Q.-T.}, \bibinfo{author}{Williams, S.},
+  \bibinfo{author}{Farid, R.}, \bibinfo{author}{Erdemli, G.} \&
+  \bibinfo{author}{Pearlstein, R.}
+\newblock \bibinfo{title}{{The translocation kinetics of antibiotics through
+  porin OmpC: Insights from structure-based solvation mapping using WaterMap}}.
+\newblock \emph{\bibinfo{journal}{Proteins: Structure, Function, and
+  Bioinformatics}} \textbf{\bibinfo{volume}{81}}, \bibinfo{pages}{291--299}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://doi.wiley.com/10.1002/prot.24185}.
+
+\bibitem{Tamber2003}
+\bibinfo{author}{Tamber, S.} \& \bibinfo{author}{Hancock, R. E.~W.}
+\newblock \bibinfo{title}{{On the mechanism of solute uptake in Pseudomonas.}}
+\newblock \emph{\bibinfo{journal}{Frontiers in bioscience : a journal and
+  virtual library}} \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{s472--83}
+  (\bibinfo{year}{2003}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/12700103}.
+
+\bibitem{Baroud2013}
+\bibinfo{author}{Baroud, M.} \emph{et~al.}
+\newblock \bibinfo{title}{{Underlying mechanisms of carbapenem resistance in
+  extended-spectrum $\beta$-lactamase-producing Klebsiella pneumoniae and
+  Escherichia coli isolates at a tertiary care centre in Lebanon: role of
+  OXA-48 and NDM-1 carbapenemases}}.
+\newblock \emph{\bibinfo{journal}{International Journal of Antimicrobial
+  Agents}} \textbf{\bibinfo{volume}{41}}, \bibinfo{pages}{75--79}
+  (\bibinfo{year}{2013}).
+\newblock
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0924857912003470}.
+
+\bibitem{Lavigne2013}
+\bibinfo{author}{Lavigne, J.-P.} \emph{et~al.}
+\newblock \bibinfo{title}{{An adaptive response of Enterobacter aerogenes to
+  imipenem: regulation of porin balance in clinical isolates}}.
+\newblock \emph{\bibinfo{journal}{International Journal of Antimicrobial
+  Agents}} \textbf{\bibinfo{volume}{41}}, \bibinfo{pages}{130--136}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23280442
+  https://linkinghub.elsevier.com/retrieve/pii/S0924857912004219}.
+
+\bibitem{Poulou2013}
+\bibinfo{author}{Poulou, A.} \emph{et~al.}
+\newblock \bibinfo{title}{{Outbreak Caused by an Ertapenem-Resistant,
+  CTX-M-15-Producing Klebsiella pneumoniae Sequence Type 101 Clone Carrying an
+  OmpK36 Porin Variant}}.
+\newblock \emph{\bibinfo{journal}{Journal of Clinical Microbiology}}
+  \textbf{\bibinfo{volume}{51}}, \bibinfo{pages}{3176--3182}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23850951
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3811621
+  http://jcm.asm.org/cgi/doi/10.1128/JCM.01244-13}.
+
+\bibitem{Wozniak2012}
+\bibinfo{author}{Wozniak, A.} \emph{et~al.}
+\newblock \bibinfo{title}{{Porin alterations present in
+  non-carbapenemase-producing Enterobacteriaceae with high and intermediate
+  levels of carbapenem resistance in Chile}}.
+\newblock \emph{\bibinfo{journal}{Journal of Medical Microbiology}}
+  \textbf{\bibinfo{volume}{61}}, \bibinfo{pages}{1270--1279}
+  (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/22700549
+  http://jmm.microbiologyresearch.org/content/journal/jmm/10.1099/jmm.0.045799-0}.
+
+\bibitem{Novais2012}
+\bibinfo{author}{Novais, {\^{A}}.} \emph{et~al.}
+\newblock \bibinfo{title}{{Spread of an OmpK36-modified ST15 Klebsiella
+  pneumoniae variant during an outbreak involving multiple carbapenem-resistant
+  Enterobacteriaceae species and clones}}.
+\newblock \emph{\bibinfo{journal}{European Journal of Clinical Microbiology
+  {\&} Infectious Diseases}} \textbf{\bibinfo{volume}{31}},
+  \bibinfo{pages}{3057--3063} (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/22706513
+  http://link.springer.com/10.1007/s10096-012-1665-z}.
+
+\bibitem{Tangden2013}
+\bibinfo{author}{Tangden, T.}, \bibinfo{author}{Adler, M.},
+  \bibinfo{author}{Cars, O.}, \bibinfo{author}{Sandegren, L.} \&
+  \bibinfo{author}{Lowdin, E.}
+\newblock \bibinfo{title}{{Frequent emergence of porin-deficient subpopulations
+  with reduced carbapenem susceptibility in ESBL-producing Escherichia coli
+  during exposure to ertapenem in an in vitro pharmacokinetic model}}.
+\newblock \emph{\bibinfo{journal}{Journal of Antimicrobial Chemotherapy}}
+  \textbf{\bibinfo{volume}{68}}, \bibinfo{pages}{1319--1326}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23478794
+  https://academic.oup.com/jac/article-lookup/doi/10.1093/jac/dkt044}.
+
+\bibitem{Floyd2010}
+\bibinfo{author}{Floyd, J.~L.}, \bibinfo{author}{Smith, K.~P.},
+  \bibinfo{author}{Kumar, S.~H.}, \bibinfo{author}{Floyd, J.~T.} \&
+  \bibinfo{author}{Varela, M.~F.}
+\newblock \bibinfo{title}{{LmrS Is a Multidrug Efflux Pump of the Major
+  Facilitator Superfamily from Staphylococcus aureus}}.
+\newblock \emph{\bibinfo{journal}{Antimicrobial Agents and Chemotherapy}}
+  \textbf{\bibinfo{volume}{54}}, \bibinfo{pages}{5406--5412}
+  (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{http://aac.asm.org/cgi/doi/10.1128/AAC.00580-10}.
+
+\bibitem{Hu2012}
+\bibinfo{author}{Hu, R.-M.}, \bibinfo{author}{Liao, S.-T.},
+  \bibinfo{author}{Huang, C.-C.}, \bibinfo{author}{Huang, Y.-W.} \&
+  \bibinfo{author}{Yang, T.-C.}
+\newblock \bibinfo{title}{{An Inducible Fusaric Acid Tripartite Efflux Pump
+  Contributes to the Fusaric Acid Resistance in Stenotrophomonas maltophilia}}.
+\newblock \emph{\bibinfo{journal}{PLoS ONE}} \textbf{\bibinfo{volume}{7}},
+  \bibinfo{pages}{e51053} (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{https://dx.plos.org/10.1371/journal.pone.0051053}.
+
+\bibitem{Kim2013}
+\bibinfo{author}{Kim, C.} \emph{et~al.}
+\newblock \bibinfo{title}{{The Mechanism of Heterogeneous Beta-Lactam
+  Resistance in MRSA: Key Role of the Stringent Stress Response}}.
+\newblock \emph{\bibinfo{journal}{PLoS ONE}} \textbf{\bibinfo{volume}{8}},
+  \bibinfo{pages}{e82814} (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://dx.plos.org/10.1371/journal.pone.0082814}.
+
+\bibitem{Ogawa2012}
+\bibinfo{author}{Ogawa, W.}, \bibinfo{author}{Onishi, M.}, \bibinfo{author}{Ni,
+  R.}, \bibinfo{author}{Tsuchiya, T.} \& \bibinfo{author}{Kuroda, T.}
+\newblock \bibinfo{title}{{Functional study of the novel multidrug efflux pump
+  KexD from Klebsiella pneumoniae}}.
+\newblock \emph{\bibinfo{journal}{Gene}} \textbf{\bibinfo{volume}{498}},
+  \bibinfo{pages}{177--182} (\bibinfo{year}{2012}).
+\newblock
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0378111912002107}.
+
+\bibitem{Dolejska2013}
+\bibinfo{author}{Dolejska, M.}, \bibinfo{author}{Villa, L.},
+  \bibinfo{author}{Poirel, L.}, \bibinfo{author}{Nordmann, P.} \&
+  \bibinfo{author}{Carattoli, A.}
+\newblock \bibinfo{title}{{Complete sequencing of an IncHI1 plasmid encoding
+  the carbapenemase NDM-1, the ArmA 16S RNA methylase and a
+  resistance-nodulation-cell division/multidrug efflux pump}}.
+\newblock \emph{\bibinfo{journal}{Journal of Antimicrobial Chemotherapy}}
+  \textbf{\bibinfo{volume}{68}}, \bibinfo{pages}{34--39}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/22969080
+  https://academic.oup.com/jac/article-lookup/doi/10.1093/jac/dks357}.
+
+\bibitem{Abouzeed2008}
+\bibinfo{author}{Abouzeed, Y.~M.}, \bibinfo{author}{Baucheron, S.} \&
+  \bibinfo{author}{Cloeckaert, A.}
+\newblock \bibinfo{title}{{ramR mutations involved in efflux-mediated multidrug
+  resistance in Salmonella enterica serovar Typhimurium.}}
+\newblock \emph{\bibinfo{journal}{Antimicrobial agents and chemotherapy}}
+  \textbf{\bibinfo{volume}{52}}, \bibinfo{pages}{2428--34}
+  (\bibinfo{year}{2008}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/18443112
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2443889}.
+
+\bibitem{Baucheron2014}
+\bibinfo{author}{Baucheron, S.} \emph{et~al.}
+\newblock \bibinfo{title}{{Bile-mediated activation of the acrAB and tolC
+  multidrug efflux genes occurs mainly through transcriptional derepression of
+  ramA in Salmonella enterica serovar Typhimurium}}.
+\newblock \emph{\bibinfo{journal}{Journal of Antimicrobial Chemotherapy}}
+  \textbf{\bibinfo{volume}{69}}, \bibinfo{pages}{2400--2406}
+  (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/24816212
+  https://academic.oup.com/jac/article-lookup/doi/10.1093/jac/dku140}.
+
+\bibitem{Nikaido2011}
+\bibinfo{author}{Nikaido, E.}, \bibinfo{author}{Shirosaka, I.},
+  \bibinfo{author}{Yamaguchi, A.} \& \bibinfo{author}{Nishino, K.}
+\newblock \bibinfo{title}{{Regulation of the AcrAB multidrug efflux pump in
+  Salmonella enterica serovar Typhimurium in response to indole and paraquat}}.
+\newblock \emph{\bibinfo{journal}{Microbiology}}
+  \textbf{\bibinfo{volume}{157}}, \bibinfo{pages}{648--655}
+  (\bibinfo{year}{2011}).
+\newblock
+  \urlprefix\url{http://mic.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.045757-0}.
+
+\bibitem{Hirakawa2004}
+\bibinfo{author}{Hirakawa, H.}, \bibinfo{author}{Inazumi, Y.},
+  \bibinfo{author}{Masaki, T.}, \bibinfo{author}{Hirata, T.} \&
+  \bibinfo{author}{Yamaguchi, A.}
+\newblock \bibinfo{title}{{Indole induces the expression of multidrug exporter
+  genes in Escherichia coli}}.
+\newblock \emph{\bibinfo{journal}{Molecular Microbiology}}
+  \textbf{\bibinfo{volume}{55}}, \bibinfo{pages}{1113--1126}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15686558
+  http://doi.wiley.com/10.1111/j.1365-2958.2004.04449.x}.
+
+\bibitem{Billal2011}
+\bibinfo{author}{Billal, D.~S.}, \bibinfo{author}{Feng, J.},
+  \bibinfo{author}{Leprohon, P.}, \bibinfo{author}{L{\'{e}}gar{\'{e}}, D.} \&
+  \bibinfo{author}{Ouellette, M.}
+\newblock \bibinfo{title}{{Whole genome analysis of linezolid resistance in
+  Streptococcus pneumoniae reveals resistance and compensatory mutations}}.
+\newblock \emph{\bibinfo{journal}{BMC Genomics}} \textbf{\bibinfo{volume}{12}},
+  \bibinfo{pages}{512} (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/22004526
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3212830
+  http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-512}.
+
+\bibitem{Gao2010}
+\bibinfo{author}{Gao, W.} \emph{et~al.}
+\newblock \bibinfo{title}{{Two Novel Point Mutations in Clinical Staphylococcus
+  aureus Reduce Linezolid Susceptibility and Switch on the Stringent Response
+  to Promote Persistent Infection}}.
+\newblock \emph{\bibinfo{journal}{PLoS Pathogens}}
+  \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{e1000944}
+  (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{http://dx.plos.org/10.1371/journal.ppat.1000944}.
+
+\bibitem{Shore2011}
+\bibinfo{author}{Shore, A.~C.} \emph{et~al.}
+\newblock \bibinfo{title}{{Detection of Staphylococcal Cassette Chromosome
+  {\textless}i{\textgreater}mec{\textless}/i{\textgreater} Type XI Carrying
+  Highly Divergent {\textless}i{\textgreater}mecA{\textless}/i{\textgreater} ,
+  {\textless}i{\textgreater}mecI{\textless}/i{\textgreater} ,
+  {\textless}i{\textgreater}mecR1{\textless}/i{\textgreater} ,
+  {\textless}i{\textgreater}blaZ{\textless}/i{\textgreater} , and
+  {\textless}i{\textgreater}ccr{\textless}/i{\textgreater} Genes in Human
+  Clinical Isolates of Clonal Complex 130 Methicillin-Resistant
+  {\textless}i{\textgreater}Staphylococcus aureus{\textless}/i{\textgreater}}}.
+\newblock \emph{\bibinfo{journal}{Antimicrobial Agents and Chemotherapy}}
+  \textbf{\bibinfo{volume}{55}}, \bibinfo{pages}{3765--3773}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21636525
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3147645
+  http://aac.asm.org/lookup/doi/10.1128/AAC.00187-11}.
+
+\bibitem{Katayama2000}
+\bibinfo{author}{Katayama, Y.}, \bibinfo{author}{Ito, T.} \&
+  \bibinfo{author}{Hiramatsu, K.}
+\newblock \bibinfo{title}{{A new class of genetic element, staphylococcus
+  cassette chromosome mec, encodes methicillin resistance in Staphylococcus
+  aureus.}}
+\newblock \emph{\bibinfo{journal}{Antimicrobial agents and chemotherapy}}
+  \textbf{\bibinfo{volume}{44}}, \bibinfo{pages}{1549--55}
+  (\bibinfo{year}{2000}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/10817707
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC89911}.
+
+\bibitem{Kumar2014}
+\bibinfo{author}{Kumar, N.} \emph{et~al.}
+\newblock \bibinfo{title}{{Crystal structure of the transcriptional regulator
+  Rv1219c of {\textless}i{\textgreater}Mycobacterium
+  tuberculosis{\textless}/i{\textgreater}}}.
+\newblock \emph{\bibinfo{journal}{Protein Science}}
+  \textbf{\bibinfo{volume}{23}}, \bibinfo{pages}{423--432}
+  (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/24424575
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3970893
+  http://doi.wiley.com/10.1002/pro.2424}.
+
+\bibitem{Long2006}
+\bibinfo{author}{Long, K.~S.}, \bibinfo{author}{Poehlsgaard, J.},
+  \bibinfo{author}{Kehrenberg, C.}, \bibinfo{author}{Schwarz, S.} \&
+  \bibinfo{author}{Vester, B.}
+\newblock \bibinfo{title}{{The Cfr rRNA Methyltransferase Confers Resistance to
+  Phenicols, Lincosamides, Oxazolidinones, Pleuromutilins, and Streptogramin A
+  Antibiotics}}.
+\newblock \emph{\bibinfo{journal}{Antimicrobial Agents and Chemotherapy}}
+  \textbf{\bibinfo{volume}{50}}, \bibinfo{pages}{2500--2505}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/16801432
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1489768
+  http://aac.asm.org/cgi/doi/10.1128/AAC.00131-06}.
+
+\bibitem{Vetting2011}
+\bibinfo{author}{Vetting, M.~W.} \emph{et~al.}
+\newblock \bibinfo{title}{{Structure of QnrB1, a Plasmid-mediated
+  Fluoroquinolone Resistance Factor}}.
+\newblock \emph{\bibinfo{journal}{Journal of Biological Chemistry}}
+  \textbf{\bibinfo{volume}{286}}, \bibinfo{pages}{25265--25273}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21597116
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3137097
+  http://www.jbc.org/lookup/doi/10.1074/jbc.M111.226936}.
+
+\bibitem{Abraham1988}
+\bibinfo{author}{Abraham, E.~P.} \& \bibinfo{author}{Chain, E.}
+\newblock \bibinfo{title}{{An enzyme from bacteria able to destroy penicillin.
+  1940.}}
+\newblock \emph{\bibinfo{journal}{Reviews of infectious diseases}}
+  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{677--8}
+  (\bibinfo{year}{1988}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/3055168}.
+
+\bibitem{Livermore2008}
+\bibinfo{author}{Livermore, D.}
+\newblock \bibinfo{title}{{Defining an extended-spectrum $\beta$-lactamase}}.
+\newblock \emph{\bibinfo{journal}{Clinical Microbiology and Infection}}
+  \textbf{\bibinfo{volume}{14}}, \bibinfo{pages}{3--10} (\bibinfo{year}{2008}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/18154524
+  https://linkinghub.elsevier.com/retrieve/pii/S1198743X14604717}.
+
+\bibitem{Nordmann2011}
+\bibinfo{author}{Nordmann, P.}, \bibinfo{author}{Poirel, L.},
+  \bibinfo{author}{Walsh, T.~R.} \& \bibinfo{author}{Livermore, D.~M.}
+\newblock \bibinfo{title}{{The emerging NDM carbapenemases}}.
+\newblock \emph{\bibinfo{journal}{Trends in Microbiology}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{588--595}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/22078325
+  https://linkinghub.elsevier.com/retrieve/pii/S0966842X11001776}.
+
+\bibitem{Voulgari2013}
+\bibinfo{author}{Voulgari, E.}, \bibinfo{author}{Poulou, A.},
+  \bibinfo{author}{Koumaki, V.} \& \bibinfo{author}{Tsakris, A.}
+\newblock \bibinfo{title}{{Carbapenemase-producing
+  {\textless}i{\textgreater}Enterobacteriaceae{\textless}/i{\textgreater} : now
+  that the storm is finally here, how will timely detection help us fight
+  back?}}
+\newblock \emph{\bibinfo{journal}{Future Microbiology}}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{27--39} (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23252491
+  https://www.futuremedicine.com/doi/10.2217/fmb.12.130}.
+
+\bibitem{Woodford2011}
+\bibinfo{author}{Woodford, N.}, \bibinfo{author}{Turton, J.~F.} \&
+  \bibinfo{author}{Livermore, D.~M.}
+\newblock \bibinfo{title}{{Multiresistant Gram-negative bacteria: the role of
+  high-risk clones in the dissemination of antibiotic resistance}}.
+\newblock \emph{\bibinfo{journal}{FEMS Microbiology Reviews}}
+  \textbf{\bibinfo{volume}{35}}, \bibinfo{pages}{736--755}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21303394
+  https://academic.oup.com/femsre/article-lookup/doi/10.1111/j.1574-6976.2011.00268.x}.
+
+\bibitem{Woodford2013}
+\bibinfo{author}{Woodford, N.} \& \bibinfo{author}{Johnson, A.~P.}
+\newblock \bibinfo{title}{{Global spread of antibiotic resistance: the example
+  of New Delhi metallo-$\beta$-lactamase (NDM)-mediated carbapenem
+  resistance}}.
+\newblock \emph{\bibinfo{journal}{Journal of Medical Microbiology}}
+  \textbf{\bibinfo{volume}{62}}, \bibinfo{pages}{499--513}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23329317
+  http://www.microbiologyresearch.org/content/journal/jmm/10.1099/jmm.0.052555-0}.
+
+\bibitem{Lynch2013}
+\bibinfo{author}{Lynch, J.~P.}, \bibinfo{author}{Clark, N.~M.} \&
+  \bibinfo{author}{Zhanel, G.~G.}
+\newblock \bibinfo{title}{{Evolution of antimicrobial resistance among
+  Enterobacteriaceae (focus on extended spectrum $\beta$-lactamases and
+  carbapenemases)}}.
+\newblock \emph{\bibinfo{journal}{Expert Opinion on Pharmacotherapy}}
+  \textbf{\bibinfo{volume}{14}}, \bibinfo{pages}{199--210}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23321047
+  http://www.tandfonline.com/doi/full/10.1517/14656566.2013.763030}.
+
+\bibitem{Queenan2007}
+\bibinfo{author}{Queenan, A.~M.} \& \bibinfo{author}{Bush, K.}
+\newblock \bibinfo{title}{{Carbapenemases: the Versatile -Lactamases}}.
+\newblock \emph{\bibinfo{journal}{Clinical Microbiology Reviews}}
+  \textbf{\bibinfo{volume}{20}}, \bibinfo{pages}{440--458}
+  (\bibinfo{year}{2007}).
+\newblock \urlprefix\url{http://cmr.asm.org/cgi/doi/10.1128/CMR.00001-07}.
+
+\bibitem{Queenan2010}
+\bibinfo{author}{Queenan, A.~M.}, \bibinfo{author}{Shang, W.},
+  \bibinfo{author}{Flamm, R.} \& \bibinfo{author}{Bush, K.}
+\newblock \bibinfo{title}{{Hydrolysis and Inhibition Profiles of -Lactamases
+  from Molecular Classes A to D with Doripenem, Imipenem, and Meropenem}}.
+\newblock \emph{\bibinfo{journal}{Antimicrobial Agents and Chemotherapy}}
+  \textbf{\bibinfo{volume}{54}}, \bibinfo{pages}{565--569}
+  (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/19884379
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2798497
+  http://aac.asm.org/cgi/doi/10.1128/AAC.01004-09}.
+
+\bibitem{Tzouvelekis2012}
+\bibinfo{author}{Tzouvelekis, L.~S.}, \bibinfo{author}{Markogiannakis, A.},
+  \bibinfo{author}{Psichogiou, M.}, \bibinfo{author}{Tassios, P.~T.} \&
+  \bibinfo{author}{Daikos, G.~L.}
+\newblock \bibinfo{title}{{Carbapenemases in Klebsiella pneumoniae and Other
+  Enterobacteriaceae: an Evolving Crisis of Global Dimensions}}.
+\newblock \emph{\bibinfo{journal}{Clinical Microbiology Reviews}}
+  \textbf{\bibinfo{volume}{25}}, \bibinfo{pages}{682--707}
+  (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23034326
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3485753
+  http://cmr.asm.org/cgi/doi/10.1128/CMR.05035-11}.
+
+\bibitem{Wright2005}
+\bibinfo{author}{Wright, G.}
+\newblock \bibinfo{title}{{Bacterial resistance to antibiotics: Enzymatic
+  degradation and modification}}.
+\newblock \emph{\bibinfo{journal}{Advanced Drug Delivery Reviews}}
+  \textbf{\bibinfo{volume}{57}}, \bibinfo{pages}{1451--1470}
+  (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15950313
+  https://linkinghub.elsevier.com/retrieve/pii/S0169409X05000980}.
+
+\bibitem{Norris2013}
+\bibinfo{author}{Norris, A.~L.} \& \bibinfo{author}{Serpersu, E.~H.}
+\newblock \bibinfo{title}{{Ligand promiscuity through the eyes of the
+  aminoglycoside {\textless}i{\textgreater}N{\textless}/i{\textgreater} 3
+  acetyltransferase IIa}}.
+\newblock \emph{\bibinfo{journal}{Protein Science}}
+  \textbf{\bibinfo{volume}{22}}, \bibinfo{pages}{916--928}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23640799
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3719086
+  http://doi.wiley.com/10.1002/pro.2273}.
+
+\bibitem{Qin2012}
+\bibinfo{author}{Qin, S.} \emph{et~al.}
+\newblock \bibinfo{title}{{Identification of a Novel Genomic Island Conferring
+  Resistance to Multiple Aminoglycoside Antibiotics in Campylobacter coli}}.
+\newblock \emph{\bibinfo{journal}{Antimicrobial Agents and Chemotherapy}}
+  \textbf{\bibinfo{volume}{56}}, \bibinfo{pages}{5332} (\bibinfo{year}{2012}).
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3457361/}.
+
+\bibitem{Mantravadi2019}
+\bibinfo{author}{Mantravadi, P.}, \bibinfo{author}{Kalesh, K.},
+  \bibinfo{author}{Dobson, R.}, \bibinfo{author}{Hudson, A.} \&
+  \bibinfo{author}{Parthasarathy, A.}
+\newblock \bibinfo{title}{{The Quest for Novel Antimicrobial Compounds:
+  Emerging Trends in Research, Development, and Technologies}}.
+\newblock \emph{\bibinfo{journal}{Antibiotics}} \textbf{\bibinfo{volume}{8}},
+  \bibinfo{pages}{8} (\bibinfo{year}{2019}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/30682820
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC6466574
+  http://www.mdpi.com/2079-6382/8/1/8}.
+
+\bibitem{Nguyen2011}
+\bibinfo{author}{Nguyen, L.~T.}, \bibinfo{author}{Haney, E.~F.} \&
+  \bibinfo{author}{Vogel, H.~J.}
+\newblock \bibinfo{title}{{The expanding scope of antimicrobial peptide
+  structures and their modes of action}}.
+\newblock \emph{\bibinfo{journal}{Trends in Biotechnology}}
+  \textbf{\bibinfo{volume}{29}}, \bibinfo{pages}{464--472}
+  (\bibinfo{year}{2011}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0167779911000886?via{\%}3Dihub}.
+
+\bibitem{Bahar2013}
+\bibinfo{author}{Bahar, A.~A.} \& \bibinfo{author}{Ren, D.}
+\newblock \bibinfo{title}{{Antimicrobial peptides.}}
+\newblock \emph{\bibinfo{journal}{Pharmaceuticals (Basel, Switzerland)}}
+  \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{1543--75}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/24287494
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3873676}.
+
+\bibitem{Mahlapuu2016}
+\bibinfo{author}{Mahlapuu, M.}, \bibinfo{author}{H{\aa}kansson, J.},
+  \bibinfo{author}{Ringstad, L.} \& \bibinfo{author}{Bj{\"{o}}rn, C.}
+\newblock \bibinfo{title}{{Antimicrobial Peptides: An Emerging Category of
+  Therapeutic Agents}}.
+\newblock \emph{\bibinfo{journal}{Frontiers in Cellular and Infection
+  Microbiology}} \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{194}
+  (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/28083516
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC5186781}.
+
+\bibitem{Zhang2016}
+\bibinfo{author}{Zhang, L.-j.} \& \bibinfo{author}{Gallo, R.~L.}
+\newblock \bibinfo{title}{{Antimicrobial peptides}}.
+\newblock \emph{\bibinfo{journal}{Current Biology}}
+  \textbf{\bibinfo{volume}{26}}, \bibinfo{pages}{R14--R19}
+  (\bibinfo{year}{2016}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0960982215014098{\#}!}
+
+\bibitem{Brogden2005}
+\bibinfo{author}{Brogden, K.~A.}
+\newblock \bibinfo{title}{{Antimicrobial peptides: pore formers or metabolic
+  inhibitors in bacteria?}}
+\newblock \emph{\bibinfo{journal}{Nature Reviews Microbiology}}
+  \textbf{\bibinfo{volume}{3}}, \bibinfo{pages}{238--250}
+  (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{http://www.nature.com/articles/nrmicro1098}.
+
+\bibitem{Hancock2006}
+\bibinfo{author}{Hancock, R. E.~W.} \& \bibinfo{author}{Sahl, H.-G.}
+\newblock \bibinfo{title}{{Antimicrobial and host-defense peptides as new
+  anti-infective therapeutic strategies}}.
+\newblock \emph{\bibinfo{journal}{Nature Biotechnology}}
+  \textbf{\bibinfo{volume}{24}}, \bibinfo{pages}{1551--1557}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/17160061
+  http://www.nature.com/articles/nbt1267}.
+
+\bibitem{Malmsten2016}
+\bibinfo{author}{Malmsten, M.}
+\newblock \bibinfo{title}{{Interactions of Antimicrobial Peptides with
+  Bacterial Membranes and Membrane Components.}}
+\newblock \emph{\bibinfo{journal}{Current topics in medicinal chemistry}}
+  \textbf{\bibinfo{volume}{16}}, \bibinfo{pages}{16--24}
+  (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/26139113}.
+
+\bibitem{Zhang2001}
+\bibinfo{author}{Zhang, L.}, \bibinfo{author}{Rozek, A.} \&
+  \bibinfo{author}{Hancock, R.~E.}
+\newblock \bibinfo{title}{{Interaction of cationic antimicrobial peptides with
+  model membranes.}}
+\newblock \emph{\bibinfo{journal}{The Journal of biological chemistry}}
+  \textbf{\bibinfo{volume}{276}}, \bibinfo{pages}{35714--22}
+  (\bibinfo{year}{2001}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/11473117}.
+
+\bibitem{Schmitt2016}
+\bibinfo{author}{Schmitt, P.}, \bibinfo{author}{Rosa, R.~D.} \&
+  \bibinfo{author}{Destoumieux-Garz{\'{o}}n, D.}
+\newblock \bibinfo{title}{{An intimate link between antimicrobial peptide
+  sequence diversity and binding to essential components of bacterial
+  membranes}}.
+\newblock \emph{\bibinfo{journal}{Biochimica et Biophysica Acta (BBA) -
+  Biomembranes}} \textbf{\bibinfo{volume}{1858}}, \bibinfo{pages}{958--970}
+  (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/26498397
+  http://linkinghub.elsevier.com/retrieve/pii/S0005273615003430}.
+
+\bibitem{Lin2016}
+\bibinfo{author}{Lin, T.-Y.} \& \bibinfo{author}{Weibel, D.~B.}
+\newblock \bibinfo{title}{{Organization and function of anionic phospholipids
+  in bacteria}}.
+\newblock \emph{\bibinfo{journal}{Applied Microbiology and Biotechnology}}
+  \textbf{\bibinfo{volume}{100}}, \bibinfo{pages}{4255--4267}
+  (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{http://link.springer.com/10.1007/s00253-016-7468-x}.
+
+\bibitem{Glukhov2005}
+\bibinfo{author}{Glukhov, E.}, \bibinfo{author}{Stark, M.},
+  \bibinfo{author}{Burrows, L.~L.} \& \bibinfo{author}{Deber, C.~M.}
+\newblock \bibinfo{title}{{Basis for selectivity of cationic antimicrobial
+  peptides for bacterial versus mammalian membranes.}}
+\newblock \emph{\bibinfo{journal}{The Journal of biological chemistry}}
+  \textbf{\bibinfo{volume}{280}}, \bibinfo{pages}{33960--7}
+  (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/16043484}.
+
+\bibitem{Spector1985}
+\bibinfo{author}{Spector, A.~A.} \& \bibinfo{author}{Yorek, M.~A.}
+\newblock \bibinfo{title}{{Membrane lipid composition and cellular function.}}
+\newblock \emph{\bibinfo{journal}{Journal of lipid research}}
+  \textbf{\bibinfo{volume}{26}}, \bibinfo{pages}{1015--35}
+  (\bibinfo{year}{1985}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/3906008}.
+
+\bibitem{vanMeer2008}
+\bibinfo{author}{van Meer, G.}, \bibinfo{author}{Voelker, D.~R.} \&
+  \bibinfo{author}{Feigenson, G.~W.}
+\newblock \bibinfo{title}{{Membrane lipids: where they are and how they
+  behave.}}
+\newblock \emph{\bibinfo{journal}{Nature reviews. Molecular cell biology}}
+  \textbf{\bibinfo{volume}{9}}, \bibinfo{pages}{112--24}
+  (\bibinfo{year}{2008}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/18216768
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2642958}.
+
+\bibitem{Yeaman2003}
+\bibinfo{author}{Yeaman, M.~R.} \& \bibinfo{author}{Yount, N.~Y.}
+\newblock \bibinfo{title}{{Mechanisms of Antimicrobial Peptide Action and
+  Resistance}}.
+\newblock \emph{\bibinfo{journal}{Pharmacological Reviews}}
+  \textbf{\bibinfo{volume}{55}}, \bibinfo{pages}{27--55}
+  (\bibinfo{year}{2003}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/12615953
+  http://pharmrev.aspetjournals.org/cgi/doi/10.1124/pr.55.1.2}.
+
+\bibitem{Lai2009}
+\bibinfo{author}{Lai, Y.} \& \bibinfo{author}{Gallo, R.~L.}
+\newblock \bibinfo{title}{{AMPed up immunity: how antimicrobial peptides have
+  multiple roles in immune defense}}.
+\newblock \emph{\bibinfo{journal}{Trends in Immunology}}
+  \textbf{\bibinfo{volume}{30}}, \bibinfo{pages}{131--141}
+  (\bibinfo{year}{2009}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1471490609000052}.
+
+\bibitem{Zasloff2002}
+\bibinfo{author}{Zasloff, M.}
+\newblock \bibinfo{title}{{Antimicrobial peptides of multicellular organisms}}.
+\newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{415}},
+  \bibinfo{pages}{389--395} (\bibinfo{year}{2002}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/11807545
+  http://www.nature.com/articles/415389a}.
+
+\bibitem{Matsuzaki2009}
+\bibinfo{author}{Matsuzaki, K.}
+\newblock \bibinfo{title}{{Control of cell selectivity of antimicrobial
+  peptides}}.
+\newblock \emph{\bibinfo{journal}{Biochimica et Biophysica Acta (BBA) -
+  Biomembranes}} \textbf{\bibinfo{volume}{1788}}, \bibinfo{pages}{1687--1692}
+  (\bibinfo{year}{2009}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0005273608003076}.
+
+\bibitem{Ebenhan2014}
+\bibinfo{author}{Ebenhan, T.}, \bibinfo{author}{Gheysens, O.},
+  \bibinfo{author}{Kruger, H.~G.}, \bibinfo{author}{Zeevaart, J.~R.} \&
+  \bibinfo{author}{Sathekge, M.~M.}
+\newblock \bibinfo{title}{{Antimicrobial peptides: their role as
+  infection-selective tracers for molecular imaging.}}
+\newblock \emph{\bibinfo{journal}{BioMed research international}}
+  \textbf{\bibinfo{volume}{2014}}, \bibinfo{pages}{867381}
+  (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/25243191
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4163393}.
+
+\bibitem{Chan2006}
+\bibinfo{author}{Chan, D.~I.}, \bibinfo{author}{Prenner, E.~J.} \&
+  \bibinfo{author}{Vogel, H.~J.}
+\newblock \bibinfo{title}{{Tryptophan- and arginine-rich antimicrobial
+  peptides: Structures and mechanisms of action}}.
+\newblock \emph{\bibinfo{journal}{Biochimica et Biophysica Acta (BBA) -
+  Biomembranes}} \textbf{\bibinfo{volume}{1758}}, \bibinfo{pages}{1184--1202}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/16756942
+  http://linkinghub.elsevier.com/retrieve/pii/S0005273606001404}.
+
+\bibitem{Toke2005}
+\bibinfo{author}{Toke, O.}
+\newblock \bibinfo{title}{{Antimicrobial peptides: New candidates in the fight
+  against bacterial infections}}.
+\newblock \emph{\bibinfo{journal}{Biopolymers}} \textbf{\bibinfo{volume}{80}},
+  \bibinfo{pages}{717--735} (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15880793
+  http://doi.wiley.com/10.1002/bip.20286}.
+
+\bibitem{Yang2001}
+\bibinfo{author}{Yang, L.}, \bibinfo{author}{Harroun, T.~A.},
+  \bibinfo{author}{Weiss, T.~M.}, \bibinfo{author}{Ding, L.} \&
+  \bibinfo{author}{Huang, H.~W.}
+\newblock \bibinfo{title}{{Barrel-stave model or toroidal model? A case study
+  on melittin pores.}}
+\newblock \emph{\bibinfo{journal}{Biophysical journal}}
+  \textbf{\bibinfo{volume}{81}}, \bibinfo{pages}{1475--85}
+  (\bibinfo{year}{2001}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/11509361
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1301626}.
+
+\bibitem{Bertelsen2012}
+\bibinfo{author}{Bertelsen, K.}, \bibinfo{author}{Dorosz, J.},
+  \bibinfo{author}{Hansen, S.~K.}, \bibinfo{author}{Nielsen, N.~C.} \&
+  \bibinfo{author}{Vosegaard, T.}
+\newblock \bibinfo{title}{{Mechanisms of Peptide-Induced Pore Formation in
+  Lipid Bilayers Investigated by Oriented 31P Solid-State NMR Spectroscopy}}.
+\newblock \emph{\bibinfo{journal}{PLoS ONE}} \textbf{\bibinfo{volume}{7}},
+  \bibinfo{pages}{e47745} (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://dx.plos.org/10.1371/journal.pone.0047745}.
+
+\bibitem{Lee2004}
+\bibinfo{author}{Lee, M.-T.}, \bibinfo{author}{Chen, F.-Y.} \&
+  \bibinfo{author}{Huang, H.~W.}
+\newblock \bibinfo{title}{{Energetics of Pore Formation Induced by Membrane
+  Active Peptides
+  {\textless}sup{\textgreater}†{\textless}/sup{\textgreater}}}.
+\newblock \emph{\bibinfo{journal}{Biochemistry}} \textbf{\bibinfo{volume}{43}},
+  \bibinfo{pages}{3590--3599} (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15035629
+  https://pubs.acs.org/doi/10.1021/bi036153r}.
+
+\bibitem{Spaar2004}
+\bibinfo{author}{Spaar, A.}, \bibinfo{author}{M{\"{u}}nster, C.} \&
+  \bibinfo{author}{Salditt, T.}
+\newblock \bibinfo{title}{{Conformation of peptides in lipid membranes studied
+  by x-ray grazing incidence scattering.}}
+\newblock \emph{\bibinfo{journal}{Biophysical journal}}
+  \textbf{\bibinfo{volume}{87}}, \bibinfo{pages}{396--407}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15240474
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1304361}.
+
+\bibitem{Matsuzaki1996}
+\bibinfo{author}{Matsuzaki, K.}, \bibinfo{author}{Murase, O.},
+  \bibinfo{author}{Fujii, N.} \& \bibinfo{author}{Miyajima, K.}
+\newblock \bibinfo{title}{{An Antimicrobial Peptide, Magainin 2, Induced Rapid
+  Flip-Flop of Phospholipids Coupled with Pore Formation and Peptide
+  Translocation {\textless}sup{\textgreater}†{\textless}/sup{\textgreater}}}.
+\newblock \emph{\bibinfo{journal}{Biochemistry}} \textbf{\bibinfo{volume}{35}},
+  \bibinfo{pages}{11361--11368} (\bibinfo{year}{1996}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/8784191
+  https://pubs.acs.org/doi/10.1021/bi960016v}.
+
+\bibitem{Hallock2003}
+\bibinfo{author}{Hallock, K.~J.}, \bibinfo{author}{Lee, D.-K.} \&
+  \bibinfo{author}{Ramamoorthy, A.}
+\newblock \bibinfo{title}{{MSI-78, an analogue of the magainin antimicrobial
+  peptides, disrupts lipid bilayer structure via positive curvature strain.}}
+\newblock \emph{\bibinfo{journal}{Biophysical journal}}
+  \textbf{\bibinfo{volume}{84}}, \bibinfo{pages}{3052--60}
+  (\bibinfo{year}{2003}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/12719236
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1302867}.
+
+\bibitem{He1995}
+\bibinfo{author}{He, K.}, \bibinfo{author}{Ludtke, S.~J.},
+  \bibinfo{author}{Huang, H.~W.} \& \bibinfo{author}{Worcester, D.~L.}
+\newblock \bibinfo{title}{{Antimicrobial peptide pores in membranes detected by
+  neutron in-plane scattering.}}
+\newblock \emph{\bibinfo{journal}{Biochemistry}} \textbf{\bibinfo{volume}{34}},
+  \bibinfo{pages}{15614--8} (\bibinfo{year}{1995}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/7495788}.
+
+\bibitem{Matsuzaki1998}
+\bibinfo{author}{Matsuzaki, K.} \emph{et~al.}
+\newblock \bibinfo{title}{{Relationship of Membrane Curvature to the Formation
+  of Pores by Magainin 2
+  {\textless}sup{\textgreater}†{\textless}/sup{\textgreater}}}.
+\newblock \emph{\bibinfo{journal}{Biochemistry}} \textbf{\bibinfo{volume}{37}},
+  \bibinfo{pages}{11856--11863} (\bibinfo{year}{1998}).
+\newblock \urlprefix\url{https://pubs.acs.org/doi/10.1021/bi980539y}.
+
+\bibitem{Matsuzaki1997}
+\bibinfo{author}{Matsuzaki, K.}, \bibinfo{author}{Sugishita, K.-i.},
+  \bibinfo{author}{Harada, M.}, \bibinfo{author}{Fujii, N.} \&
+  \bibinfo{author}{Miyajima, K.}
+\newblock \bibinfo{title}{{Interactions of an antimicrobial peptide, magainin
+  2, with outer and inner membranes of Gram-negative bacteria}}.
+\newblock \emph{\bibinfo{journal}{Biochimica et Biophysica Acta (BBA) -
+  Biomembranes}} \textbf{\bibinfo{volume}{1327}}, \bibinfo{pages}{119--130}
+  (\bibinfo{year}{1997}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0005273697000515?via{\%}3Dihub}.
+
+\bibitem{Shai1999}
+\bibinfo{author}{Shai, Y.}
+\newblock \bibinfo{title}{{Mechanism of the binding, insertion and
+  destabilization of phospholipid bilayer membranes by $\alpha$-helical
+  antimicrobial and cell non-selective membrane-lytic peptides}}.
+\newblock \emph{\bibinfo{journal}{Biochimica et Biophysica Acta (BBA) -
+  Biomembranes}} \textbf{\bibinfo{volume}{1462}}, \bibinfo{pages}{55--70}
+  (\bibinfo{year}{1999}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S000527369900200X?via{\%}3Dihub}.
+
+\bibitem{Ladokhin2001}
+\bibinfo{author}{Ladokhin, A.~S.} \& \bibinfo{author}{White, S.~H.}
+\newblock \bibinfo{title}{{‘Detergent-like' permeabilization of anionic lipid
+  vesicles by melittin}}.
+\newblock \emph{\bibinfo{journal}{Biochimica et Biophysica Acta (BBA) -
+  Biomembranes}} \textbf{\bibinfo{volume}{1514}}, \bibinfo{pages}{253--260}
+  (\bibinfo{year}{2001}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0005273601003820}.
+
+\bibitem{Oren1998}
+\bibinfo{author}{Oren, Z.} \& \bibinfo{author}{Shai, Y.}
+\newblock \bibinfo{title}{{Mode of action of linear amphipathic
+  $\alpha$-helical antimicrobial peptides}}.
+\newblock \emph{\bibinfo{journal}{Biopolymers}} \textbf{\bibinfo{volume}{47}},
+  \bibinfo{pages}{451--463} (\bibinfo{year}{1998}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/10333737
+  http://doi.wiley.com/10.1002/{\%}28SICI{\%}291097-0282{\%}281998{\%}2947{\%}3A6{\%}3C451{\%}3A{\%}3AAID-BIP4{\%}3E3.0.CO{\%}3B2-F}.
+
+\bibitem{Gazit1995}
+\bibinfo{author}{Gazit, E.}, \bibinfo{author}{Boman, A.},
+  \bibinfo{author}{Boman, H.~G.} \& \bibinfo{author}{Shai, Y.}
+\newblock \bibinfo{title}{{Interaction of the mammalian antibacterial peptide
+  cecropin P1 with phospholipid vesicles.}}
+\newblock \emph{\bibinfo{journal}{Biochemistry}} \textbf{\bibinfo{volume}{34}},
+  \bibinfo{pages}{11479--88} (\bibinfo{year}{1995}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/7547876}.
+
+\bibitem{Yamaguchi2001}
+\bibinfo{author}{Yamaguchi, S.} \emph{et~al.}
+\newblock \bibinfo{title}{{Orientation and Dynamics of an Antimicrobial Peptide
+  in the Lipid Bilayer by Solid-State NMR Spectroscopy}}.
+\newblock \emph{\bibinfo{journal}{Biophysical Journal}}
+  \textbf{\bibinfo{volume}{81}}, \bibinfo{pages}{2203--2214}
+  (\bibinfo{year}{2001}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/11566791
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1301692
+  https://linkinghub.elsevier.com/retrieve/pii/S0006349501758687}.
+
+\bibitem{Tang2009}
+\bibinfo{author}{Tang, M.} \& \bibinfo{author}{Hong, M.}
+\newblock \bibinfo{title}{{Structure and mechanism of $\beta$-hairpin
+  antimicrobial peptides in lipid bilayers from solid-state NMR spectroscopy}}.
+\newblock \emph{\bibinfo{journal}{Molecular BioSystems}}
+  \textbf{\bibinfo{volume}{5}}, \bibinfo{pages}{317} (\bibinfo{year}{2009}).
+\newblock \urlprefix\url{http://xlink.rsc.org/?DOI=b820398a}.
+
+\bibitem{Lehrer2004}
+\bibinfo{author}{Lehrer, R.~I.}
+\newblock \bibinfo{title}{{Primate defensins}}.
+\newblock \emph{\bibinfo{journal}{Nature Reviews Microbiology}}
+  \textbf{\bibinfo{volume}{2}}, \bibinfo{pages}{727--738}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15372083
+  http://www.nature.com/articles/nrmicro976}.
+
+\bibitem{Fujii1993}
+\bibinfo{author}{Fujii, G.}, \bibinfo{author}{Eisenberg, D.} \&
+  \bibinfo{author}{Selsted, M.~E.}
+\newblock \bibinfo{title}{{Defensins promote fusion and lysis of negatively
+  charged membranes}}.
+\newblock \emph{\bibinfo{journal}{Protein Science}}
+  \textbf{\bibinfo{volume}{2}}, \bibinfo{pages}{1301--1312}
+  (\bibinfo{year}{1993}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/8401215
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2142441
+  http://doi.wiley.com/10.1002/pro.5560020813}.
+
+\bibitem{Kagan1990}
+\bibinfo{author}{Kagan, B.~L.}, \bibinfo{author}{Selsted, M.~E.},
+  \bibinfo{author}{Ganz, T.} \& \bibinfo{author}{Lehrer, R.~I.}
+\newblock \bibinfo{title}{{Antimicrobial defensin peptides form
+  voltage-dependent ion-permeable channels in planar lipid bilayer membranes.}}
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences}} \textbf{\bibinfo{volume}{87}}, \bibinfo{pages}{210--214}
+  (\bibinfo{year}{1990}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/1688654
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC53231
+  http://www.pnas.org/cgi/doi/10.1073/pnas.87.1.210}.
+
+\bibitem{Takeuchi2004}
+\bibinfo{author}{Takeuchi, K.} \emph{et~al.}
+\newblock \bibinfo{title}{{Channel-forming membrane permeabilization by an
+  antibacterial protein, sapecin: determination of membrane-buried and
+  oligomerization surfaces by NMR.}}
+\newblock \emph{\bibinfo{journal}{The Journal of biological chemistry}}
+  \textbf{\bibinfo{volume}{279}}, \bibinfo{pages}{4981--7}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/14630928}.
+
+\bibitem{Dathe1999}
+\bibinfo{author}{Dathe, M.} \& \bibinfo{author}{Wieprecht, T.}
+\newblock \bibinfo{title}{{Structural features of helical antimicrobial
+  peptides: their potential to modulate activity on model membranes and
+  biological cells.}}
+\newblock \emph{\bibinfo{journal}{Biochimica et biophysica acta}}
+  \textbf{\bibinfo{volume}{1462}}, \bibinfo{pages}{71--87}
+  (\bibinfo{year}{1999}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/10590303}.
+
+\bibitem{Yonezawa1992}
+\bibinfo{author}{Yonezawa, A.}, \bibinfo{author}{Kuwahara, J.},
+  \bibinfo{author}{Fujii, N.} \& \bibinfo{author}{Sugiura, Y.}
+\newblock \bibinfo{title}{{Binding of tachyplesin I to DNA revealed by
+  footprinting analysis: significant contribution of secondary structure to DNA
+  binding and implication for biological action}}.
+\newblock \emph{\bibinfo{journal}{Biochemistry}} \textbf{\bibinfo{volume}{31}},
+  \bibinfo{pages}{2998--3004} (\bibinfo{year}{1992}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/bi00126a022}.
+
+\bibitem{Gifford2005}
+\bibinfo{author}{Gifford, J.~L.}, \bibinfo{author}{Hunter, H.~N.} \&
+  \bibinfo{author}{Vogel, H.~J.}
+\newblock \bibinfo{title}{{Lactoferricin}}.
+\newblock \emph{\bibinfo{journal}{Cellular and Molecular Life Sciences}}
+  \textbf{\bibinfo{volume}{62}}, \bibinfo{pages}{2588--2598}
+  (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/16261252
+  http://link.springer.com/10.1007/s00018-005-5373-z}.
+
+\bibitem{Tomita1994}
+\bibinfo{author}{Tomita, M.}, \bibinfo{author}{Takase, M.},
+  \bibinfo{author}{Bellamy, W.} \& \bibinfo{author}{Shimamura, S.}
+\newblock \bibinfo{title}{{A review: the active peptide of lactoferrin.}}
+\newblock \emph{\bibinfo{journal}{Acta paediatrica Japonica : Overseas
+  edition}} \textbf{\bibinfo{volume}{36}}, \bibinfo{pages}{585--91}
+  (\bibinfo{year}{1994}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/7825467}.
+
+\bibitem{Hwang1998}
+\bibinfo{author}{Hwang, P.~M.}, \bibinfo{author}{Zhou, N.},
+  \bibinfo{author}{Shan, X.}, \bibinfo{author}{Arrowsmith, C.~H.} \&
+  \bibinfo{author}{Vogel, H.~J.}
+\newblock \bibinfo{title}{{Three-Dimensional Solution Structure of
+  Lactoferricin B, an Antimicrobial Peptide Derived from Bovine Lactoferrin
+  {\textless}sup{\textgreater}†{\textless}/sup{\textgreater}}}.
+\newblock \emph{\bibinfo{journal}{Biochemistry}} \textbf{\bibinfo{volume}{37}},
+  \bibinfo{pages}{4288--4298} (\bibinfo{year}{1998}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/9521752
+  http://pubs.acs.org/doi/abs/10.1021/bi972323m}.
+
+\bibitem{Schibli1999}
+\bibinfo{author}{Schibli, D.~J.}, \bibinfo{author}{Hwang, P.~M.} \&
+  \bibinfo{author}{Vogel, H.~J.}
+\newblock \bibinfo{title}{{The structure of the antimicrobial active center of
+  lactoferricin B bound to sodium dodecyl sulfate micelles}}.
+\newblock \emph{\bibinfo{journal}{FEBS Letters}}
+  \textbf{\bibinfo{volume}{446}}, \bibinfo{pages}{213--217}
+  (\bibinfo{year}{1999}).
+\newblock
+  \urlprefix\url{http://doi.wiley.com/10.1016/S0014-5793{\%}2899{\%}2900214-8}.
+
+\bibitem{Nguyen2005}
+\bibinfo{author}{Nguyen, L.~T.}, \bibinfo{author}{Schibli, D.~J.} \&
+  \bibinfo{author}{Vogel, H.~J.}
+\newblock \bibinfo{title}{{Structural studies and model membrane interactions
+  of two peptides derived from bovine lactoferricin}}.
+\newblock \emph{\bibinfo{journal}{Journal of Peptide Science}}
+  \textbf{\bibinfo{volume}{11}}, \bibinfo{pages}{379--389}
+  (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15635665
+  http://doi.wiley.com/10.1002/psc.629}.
+
+\bibitem{Peschel2006}
+\bibinfo{author}{Peschel, A.} \& \bibinfo{author}{Sahl, H.-G.}
+\newblock \bibinfo{title}{{The co-evolution of host cationic antimicrobial
+  peptides and microbial resistance}}.
+\newblock \emph{\bibinfo{journal}{Nature Reviews Microbiology}}
+  \textbf{\bibinfo{volume}{4}}, \bibinfo{pages}{529--536}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://www.nature.com/articles/nrmicro1441}.
+
+\bibitem{Juhas2015}
+\bibinfo{author}{Juhas, M.}
+\newblock \bibinfo{title}{{Horizontal gene transfer in human pathogens}}.
+\newblock \emph{\bibinfo{journal}{Critical Reviews in Microbiology}}
+  \textbf{\bibinfo{volume}{41}}, \bibinfo{pages}{101--108}
+  (\bibinfo{year}{2015}).
+\newblock
+  \urlprefix\url{http://www.tandfonline.com/doi/full/10.3109/1040841X.2013.804031}.
+
+\bibitem{Joo2016}
+\bibinfo{author}{Joo, H.-S.}, \bibinfo{author}{Fu, C.-I.} \&
+  \bibinfo{author}{Otto, M.}
+\newblock \bibinfo{title}{{Bacterial strategies of resistance to antimicrobial
+  peptides.}}
+\newblock \emph{\bibinfo{journal}{Philosophical transactions of the Royal
+  Society of London. Series B, Biological sciences}}
+  \textbf{\bibinfo{volume}{371}} (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/27160595
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4874390}.
+
+\bibitem{Sieprawska-Lupa2004}
+\bibinfo{author}{Sieprawska-Lupa, M.} \emph{et~al.}
+\newblock \bibinfo{title}{{Degradation of human antimicrobial peptide LL-37 by
+  Staphylococcus aureus-derived proteinases.}}
+\newblock \emph{\bibinfo{journal}{Antimicrobial agents and chemotherapy}}
+  \textbf{\bibinfo{volume}{48}}, \bibinfo{pages}{4673--9}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15561843
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC529204}.
+
+\bibitem{Teufel1993}
+\bibinfo{author}{Teufel, P.} \& \bibinfo{author}{G{\"{o}}tz, F.}
+\newblock \bibinfo{title}{{Characterization of an extracellular metalloprotease
+  with elastase activity from Staphylococcus epidermidis.}}
+\newblock \emph{\bibinfo{journal}{Journal of Bacteriology}}
+  \textbf{\bibinfo{volume}{175}}, \bibinfo{pages}{4218} (\bibinfo{year}{1993}).
+\newblock \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC204852/}.
+
+\bibitem{Schmidtchen2002}
+\bibinfo{author}{Schmidtchen, A.}, \bibinfo{author}{Frick, I.-M.},
+  \bibinfo{author}{Andersson, E.}, \bibinfo{author}{Tapper, H.} \&
+  \bibinfo{author}{Bj{\"{o}}rck, L.}
+\newblock \bibinfo{title}{{Proteinases of common pathogenic bacteria degrade
+  and inactivate the antibacterial peptide LL-37}}.
+\newblock \emph{\bibinfo{journal}{Molecular Microbiology}}
+  \textbf{\bibinfo{volume}{46}}, \bibinfo{pages}{157--168}
+  (\bibinfo{year}{2002}).
+\newblock
+  \urlprefix\url{http://doi.wiley.com/10.1046/j.1365-2958.2002.03146.x}.
+
+\bibitem{Baranska-Rybak2006}
+\bibinfo{author}{Bara{\'{n}}ska-Rybak, W.}, \bibinfo{author}{Sonesson, A.},
+  \bibinfo{author}{Nowicki, R.} \& \bibinfo{author}{Schmidtchen, A.}
+\newblock \bibinfo{title}{{Glycosaminoglycans inhibit the antibacterial
+  activity of LL-37 in biological fluids}}.
+\newblock \emph{\bibinfo{journal}{Journal of Antimicrobial Chemotherapy}}
+  \textbf{\bibinfo{volume}{57}}, \bibinfo{pages}{260--265}
+  (\bibinfo{year}{2006}).
+\newblock
+  \urlprefix\url{http://academic.oup.com/jac/article/57/2/260/804780/Glycosaminoglycans-inhibit-the-antibacterial}.
+
+\bibitem{Nelson2011}
+\bibinfo{author}{Nelson, D.~C.}, \bibinfo{author}{Garbe, J.} \&
+  \bibinfo{author}{Collin, M.}
+\newblock \bibinfo{title}{{Cysteine proteinase SpeB from Streptococcus pyogenes
+  – a potent modifier of immunologically important host and bacterial
+  proteins}}.
+\newblock \emph{\bibinfo{journal}{Biological Chemistry}}
+  \textbf{\bibinfo{volume}{392}}, \bibinfo{pages}{1077--88}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/22050223
+  https://www.degruyter.com/view/j/bchm.2011.392.issue-12/bc.2011.208/bc.2011.208.xml}.
+
+\bibitem{Frick2011}
+\bibinfo{author}{Frick, I.-M.} \emph{et~al.}
+\newblock \bibinfo{title}{{Constitutive and Inflammation-Dependent
+  Antimicrobial Peptides Produced by Epithelium Are Differentially Processed
+  and Inactivated by the Commensal {\textless}i{\textgreater}Finegoldia
+  magna{\textless}/i{\textgreater} and the Pathogen
+  {\textless}i{\textgreater}Streptococcus
+  pyogenes{\textless}/i{\textgreater}}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Immunology}}
+  \textbf{\bibinfo{volume}{187}}, \bibinfo{pages}{4300--4309}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21918193
+  http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1004179}.
+
+\bibitem{Selsted1989}
+\bibinfo{author}{Selsted, M.~E.} \& \bibinfo{author}{Harwig, S.~S.}
+\newblock \bibinfo{title}{{Determination of the disulfide array in the human
+  defensin HNP-2. A covalently cyclized peptide.}}
+\newblock \emph{\bibinfo{journal}{The Journal of biological chemistry}}
+  \textbf{\bibinfo{volume}{264}}, \bibinfo{pages}{4003--7}
+  (\bibinfo{year}{1989}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/2917986}.
+
+\bibitem{Stumpe1998}
+\bibinfo{author}{Stumpe, S.}, \bibinfo{author}{Schmid, R.},
+  \bibinfo{author}{Stephens, D.~L.}, \bibinfo{author}{Georgiou, G.} \&
+  \bibinfo{author}{Bakker, E.~P.}
+\newblock \bibinfo{title}{{Identification of OmpT as the protease that
+  hydrolyzes the antimicrobial peptide protamine before it enters growing cells
+  of Escherichia coli.}}
+\newblock \emph{\bibinfo{journal}{Journal of bacteriology}}
+  \textbf{\bibinfo{volume}{180}}, \bibinfo{pages}{4002--6}
+  (\bibinfo{year}{1998}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/9683502
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC107389}.
+
+\bibitem{Biegeleisen2006}
+\bibinfo{author}{Biegeleisen, K.}
+\newblock \bibinfo{title}{{The probable structure of the protamine–DNA
+  complex}}.
+\newblock \emph{\bibinfo{journal}{Journal of Theoretical Biology}}
+  \textbf{\bibinfo{volume}{241}}, \bibinfo{pages}{533--540}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/16442565
+  https://linkinghub.elsevier.com/retrieve/pii/S0022519305005473}.
+
+\bibitem{Sol2014}
+\bibinfo{author}{Sol, A.} \emph{et~al.}
+\newblock \bibinfo{title}{{Actin enables the antimicrobial action of LL-37
+  peptide in the presence of microbial proteases.}}
+\newblock \emph{\bibinfo{journal}{The Journal of biological chemistry}}
+  \textbf{\bibinfo{volume}{289}}, \bibinfo{pages}{22926--41}
+  (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/24947511
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4132794}.
+
+\bibitem{Groisman1992}
+\bibinfo{author}{Groisman, E.~A.}, \bibinfo{author}{Parra-Lopez, C.},
+  \bibinfo{author}{Salcedo, M.}, \bibinfo{author}{Lipps, C.~J.} \&
+  \bibinfo{author}{Heffron, F.}
+\newblock \bibinfo{title}{{Resistance to host antimicrobial peptides is
+  necessary for Salmonella virulence.}}
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences of the United States of America}} \textbf{\bibinfo{volume}{89}},
+  \bibinfo{pages}{11939} (\bibinfo{year}{1992}).
+\newblock \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC50673/}.
+
+\bibitem{Parra-Lopez1993}
+\bibinfo{author}{Parra-Lopez, C.}, \bibinfo{author}{Baer, M.~T.} \&
+  \bibinfo{author}{Groisman, E.~A.}
+\newblock \bibinfo{title}{{Molecular genetic analysis of a locus required for
+  resistance to antimicrobial peptides in Salmonella typhimurium.}}
+\newblock \emph{\bibinfo{journal}{The EMBO journal}}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{4053--62}
+  (\bibinfo{year}{1993}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/8223423
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC413698}.
+
+\bibitem{Mason2005}
+\bibinfo{author}{Mason, K.~M.}, \bibinfo{author}{Munson, R.~S.},
+  \bibinfo{author}{Jr.} \& \bibinfo{author}{Bakaletz, L.~O.}
+\newblock \bibinfo{title}{{A Mutation in the sap Operon Attenuates Survival of
+  Nontypeable Haemophilus influenzae in a Chinchilla Model of Otitis Media}}.
+\newblock \emph{\bibinfo{journal}{Infection and Immunity}}
+  \textbf{\bibinfo{volume}{73}}, \bibinfo{pages}{599} (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC538956/}.
+
+\bibitem{Taggart2003}
+\bibinfo{author}{Taggart, C.~C.} \emph{et~al.}
+\newblock \bibinfo{title}{{Inactivation of Human -Defensins 2 and 3 by
+  Elastolytic Cathepsins}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Immunology}}
+  \textbf{\bibinfo{volume}{171}}, \bibinfo{pages}{931--937}
+  (\bibinfo{year}{2003}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/12847264
+  http://www.jimmunol.org/cgi/doi/10.4049/jimmunol.171.2.931}.
+
+\bibitem{Bokarewa2004}
+\bibinfo{author}{Bokarewa, M.} \& \bibinfo{author}{Tarkowski, A.}
+\newblock \bibinfo{title}{{Human $\alpha$-defensins neutralize fibrinolytic
+  activity exerted by staphylokinase}}.
+\newblock \emph{\bibinfo{journal}{Thrombosis and Haemostasis}}
+  \textbf{\bibinfo{volume}{91}}, \bibinfo{pages}{991--999}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15116261
+  http://www.thieme-connect.de/DOI/DOI?10.1160/TH03-11-0696}.
+
+\bibitem{Jin2004}
+\bibinfo{author}{Jin, T.} \emph{et~al.}
+\newblock \bibinfo{title}{{Staphylococcus aureus Resists Human Defensins by
+  Production of Staphylokinase, a Novel Bacterial Evasion Mechanism}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Immunology}}
+  \textbf{\bibinfo{volume}{172}}, \bibinfo{pages}{1169--1176}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/14707093}.
+
+\bibitem{Costerton1999}
+\bibinfo{author}{Costerton, J.~W.}, \bibinfo{author}{Stewart, P.~S.} \&
+  \bibinfo{author}{Greenberg, E.~P.}
+\newblock \bibinfo{title}{{Bacterial biofilms: a common cause of persistent
+  infections.}}
+\newblock \emph{\bibinfo{journal}{Science (New York, N.Y.)}}
+  \textbf{\bibinfo{volume}{284}}, \bibinfo{pages}{1318--22}
+  (\bibinfo{year}{1999}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/10334980}.
+
+\bibitem{Jolivet-Gougeon2014}
+\bibinfo{author}{Jolivet-Gougeon, A.} \& \bibinfo{author}{Bonnaure-Mallet, M.}
+\newblock \bibinfo{title}{{Biofilms as a mechanism of bacterial resistance}}.
+\newblock \emph{\bibinfo{journal}{Drug Discovery Today: Technologies}}
+  \textbf{\bibinfo{volume}{11}}, \bibinfo{pages}{49--56}
+  (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/24847653
+  https://linkinghub.elsevier.com/retrieve/pii/S1740674914000043}.
+
+\bibitem{Nickel1985}
+\bibinfo{author}{Nickel, J.~C.}, \bibinfo{author}{Ruseska, I.},
+  \bibinfo{author}{Wright, J.~B.} \& \bibinfo{author}{Costerton, J.~W.}
+\newblock \bibinfo{title}{{Tobramycin resistance of Pseudomonas aeruginosa
+  cells growing as a biofilm on urinary catheter material.}}
+\newblock \emph{\bibinfo{journal}{Antimicrobial agents and chemotherapy}}
+  \textbf{\bibinfo{volume}{27}}, \bibinfo{pages}{619--24}
+  (\bibinfo{year}{1985}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/3923925
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC180108}.
+
+\bibitem{Mah2001}
+\bibinfo{author}{Mah, T.~F.} \& \bibinfo{author}{O'Toole, G.~A.}
+\newblock \bibinfo{title}{{Mechanisms of biofilm resistance to antimicrobial
+  agents.}}
+\newblock \emph{\bibinfo{journal}{Trends in microbiology}}
+  \textbf{\bibinfo{volume}{9}}, \bibinfo{pages}{34--9} (\bibinfo{year}{2001}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/11166241}.
+
+\bibitem{Wang2004}
+\bibinfo{author}{Wang, X.}, \bibinfo{author}{Preston, J.~F.} \&
+  \bibinfo{author}{Romeo, T.}
+\newblock \bibinfo{title}{{The pgaABCD locus of Escherichia coli promotes the
+  synthesis of a polysaccharide adhesin required for biofilm formation.}}
+\newblock \emph{\bibinfo{journal}{Journal of bacteriology}}
+  \textbf{\bibinfo{volume}{186}}, \bibinfo{pages}{2724--34}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15090514
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC387819}.
+
+\bibitem{Vuong2004}
+\bibinfo{author}{Vuong, C.} \emph{et~al.}
+\newblock \bibinfo{title}{{Polysaccharide intercellular adhesin (PIA) protects
+  Staphylococcus epidermidis against major components of the human innate
+  immune system.}}
+\newblock \emph{\bibinfo{journal}{Cellular microbiology}}
+  \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{269--75}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/14764110}.
+
+\bibitem{Campos2004}
+\bibinfo{author}{Campos, M.~A.} \emph{et~al.}
+\newblock \bibinfo{title}{{Capsule polysaccharide mediates bacterial resistance
+  to antimicrobial peptides.}}
+\newblock \emph{\bibinfo{journal}{Infection and immunity}}
+  \textbf{\bibinfo{volume}{72}}, \bibinfo{pages}{7107--14}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15557634
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC529140}.
+
+\bibitem{Llobet2008}
+\bibinfo{author}{Llobet, E.}, \bibinfo{author}{Tomas, J.~M.} \&
+  \bibinfo{author}{Bengoechea, J.~A.}
+\newblock \bibinfo{title}{{Capsule polysaccharide is a bacterial decoy for
+  antimicrobial peptides}}.
+\newblock \emph{\bibinfo{journal}{Microbiology}}
+  \textbf{\bibinfo{volume}{154}}, \bibinfo{pages}{3877--3886}
+  (\bibinfo{year}{2008}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/19047754
+  http://mic.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.2008/022301-0}.
+
+\bibitem{Batoni2011}
+\bibinfo{author}{Batoni, G.}, \bibinfo{author}{Maisetta, G.},
+  \bibinfo{author}{{Lisa Brancatisano}, F.}, \bibinfo{author}{Esin, S.} \&
+  \bibinfo{author}{Campa, M.}
+\newblock \bibinfo{title}{{Use of Antimicrobial Peptides Against Microbial
+  Biofilms: Advantages and Limits}}.
+\newblock \emph{\bibinfo{journal}{Current Medicinal Chemistry}}
+  \textbf{\bibinfo{volume}{18}}, \bibinfo{pages}{256--279}
+  (\bibinfo{year}{2011}).
+\newblock
+  \urlprefix\url{http://www.eurekaselect.com/openurl/content.php?genre=article{\&}issn=0929-8673{\&}volume=18{\&}issue=2{\&}spage=256}.
+
+\bibitem{Strempel2014}
+\bibinfo{author}{Strempel, N.}, \bibinfo{author}{Strehmel, J.} \&
+  \bibinfo{author}{Overhage, J.}
+\newblock \bibinfo{title}{{Potential Application of Antimicrobial Peptides in
+  the Treatment of Bacterial Biofilm Infections}}.
+\newblock \emph{\bibinfo{journal}{Current Pharmaceutical Design}}
+  \textbf{\bibinfo{volume}{21}}, \bibinfo{pages}{67--84}
+  (\bibinfo{year}{2014}).
+\newblock
+  \urlprefix\url{http://www.eurekaselect.com/openurl/content.php?genre=article{\&}issn=1381-6128{\&}volume=21{\&}issue=1{\&}spage=67}.
+
+\bibitem{Joo2012}
+\bibinfo{author}{Joo, H.-S.} \& \bibinfo{author}{Otto, M.}
+\newblock \bibinfo{title}{{Molecular Basis of In Vivo Biofilm Formation by
+  Bacterial Pathogens}}.
+\newblock \emph{\bibinfo{journal}{Chemistry {\&} Biology}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{1503--1513}
+  (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23261595
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3530155
+  https://linkinghub.elsevier.com/retrieve/pii/S1074552112004231}.
+
+\bibitem{DiLuca2014}
+\bibinfo{author}{{Di Luca}, M.}, \bibinfo{author}{Maccari, G.} \&
+  \bibinfo{author}{Nifos{\`{i}}, R.}
+\newblock \bibinfo{title}{{Treatment of microbial biofilms in the
+  post-antibiotic era: prophylactic and therapeutic use of antimicrobial
+  peptides and their design by bioinformatics tools}}.
+\newblock \emph{\bibinfo{journal}{Pathogens and Disease}}
+  \textbf{\bibinfo{volume}{70}}, \bibinfo{pages}{257--270}
+  (\bibinfo{year}{2014}).
+\newblock
+  \urlprefix\url{https://academic.oup.com/femspd/article-lookup/doi/10.1111/2049-632X.12151}.
+
+\bibitem{Peschel1999}
+\bibinfo{author}{Peschel, A.} \emph{et~al.}
+\newblock \bibinfo{title}{{Inactivation of the dlt operon in Staphylococcus
+  aureus confers sensitivity to defensins, protegrins, and other antimicrobial
+  peptides.}}
+\newblock \emph{\bibinfo{journal}{The Journal of biological chemistry}}
+  \textbf{\bibinfo{volume}{274}}, \bibinfo{pages}{8405--10}
+  (\bibinfo{year}{1999}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/10085071}.
+
+\bibitem{Fabretti2006}
+\bibinfo{author}{Fabretti, F.} \emph{et~al.}
+\newblock \bibinfo{title}{{Alanine Esters of Enterococcal Lipoteichoic Acid
+  Play a Role in Biofilm Formation and Resistance to Antimicrobial Peptides}}.
+\newblock \emph{\bibinfo{journal}{Infection and Immunity}}
+  \textbf{\bibinfo{volume}{74}}, \bibinfo{pages}{4164--4171}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/16790791
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1489678
+  http://iai.asm.org/cgi/doi/10.1128/IAI.00111-06}.
+
+\bibitem{Saar-Dover2012}
+\bibinfo{author}{Saar-Dover, R.} \emph{et~al.}
+\newblock \bibinfo{title}{{D-Alanylation of Lipoteichoic Acids Confers
+  Resistance to Cationic Peptides in Group B Streptococcus by Increasing the
+  Cell Wall Density}}.
+\newblock \emph{\bibinfo{journal}{PLoS Pathogens}}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{e1002891}
+  (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/22969424
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3435245
+  http://dx.plos.org/10.1371/journal.ppat.1002891}.
+
+\bibitem{Moskowitz2004}
+\bibinfo{author}{Moskowitz, S.~M.}, \bibinfo{author}{Ernst, R.~K.} \&
+  \bibinfo{author}{Miller, S.~I.}
+\newblock \bibinfo{title}{{PmrAB, a two-component regulatory system of
+  Pseudomonas aeruginosa that modulates resistance to cationic antimicrobial
+  peptides and addition of aminoarabinose to lipid A.}}
+\newblock \emph{\bibinfo{journal}{Journal of bacteriology}}
+  \textbf{\bibinfo{volume}{186}}, \bibinfo{pages}{575--9}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/14702327
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC305751}.
+
+\bibitem{Gunn1998}
+\bibinfo{author}{Gunn, J.~S.} \emph{et~al.}
+\newblock \bibinfo{title}{{PmrA-PmrB-regulated genes necessary for
+  4-aminoarabinose lipid A modification and polymyxin resistance.}}
+\newblock \emph{\bibinfo{journal}{Molecular microbiology}}
+  \textbf{\bibinfo{volume}{27}}, \bibinfo{pages}{1171--82}
+  (\bibinfo{year}{1998}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/9570402}.
+
+\bibitem{Wang2006}
+\bibinfo{author}{Wang, X.}, \bibinfo{author}{McGrath, S.~C.},
+  \bibinfo{author}{Cotter, R.~J.} \& \bibinfo{author}{Raetz, C. R.~H.}
+\newblock \bibinfo{title}{{Expression cloning and periplasmic orientation of
+  the Francisella novicida lipid A 4'-phosphatase LpxF.}}
+\newblock \emph{\bibinfo{journal}{The Journal of biological chemistry}}
+  \textbf{\bibinfo{volume}{281}}, \bibinfo{pages}{9321--30}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/16467300
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2758525}.
+
+\bibitem{Bugg1991}
+\bibinfo{author}{Bugg, T. D.~H.} \emph{et~al.}
+\newblock \bibinfo{title}{{Molecular basis for vancomycin resistance in
+  Enterococcus faecium BM4147: biosynthesis of a depsipeptide peptidoglycan
+  precursor by vancomycin resistance proteins VanH and VanA}}.
+\newblock \emph{\bibinfo{journal}{Biochemistry}} \textbf{\bibinfo{volume}{30}},
+  \bibinfo{pages}{10408--10415} (\bibinfo{year}{1991}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/bi00107a007}.
+
+\bibitem{Brotz1998}
+\bibinfo{author}{Br{\"{o}}tz, H.} \emph{et~al.}
+\newblock \bibinfo{title}{{Role of lipid-bound peptidoglycan precursors in the
+  formation of pores by nisin, epidermin and other lantibiotics.}}
+\newblock \emph{\bibinfo{journal}{Molecular microbiology}}
+  \textbf{\bibinfo{volume}{30}}, \bibinfo{pages}{317--27}
+  (\bibinfo{year}{1998}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/9791177}.
+
+\bibitem{Guo1998}
+\bibinfo{author}{Guo, L.} \emph{et~al.}
+\newblock \bibinfo{title}{{Lipid A acylation and bacterial resistance against
+  vertebrate antimicrobial peptides.}}
+\newblock \emph{\bibinfo{journal}{Cell}} \textbf{\bibinfo{volume}{95}},
+  \bibinfo{pages}{189--98} (\bibinfo{year}{1998}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/9790526}.
+
+\bibitem{Bishop2000}
+\bibinfo{author}{Bishop, R.~E.} \emph{et~al.}
+\newblock \bibinfo{title}{{Transfer of palmitate from phospholipids to lipid A
+  in outer membranes of gram-negative bacteria.}}
+\newblock \emph{\bibinfo{journal}{The EMBO journal}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{5071--80}
+  (\bibinfo{year}{2000}).
+\newblock
+  \urlprefix\url{http://emboj.embopress.org/cgi/doi/10.1093/emboj/19.19.5071
+  http://www.ncbi.nlm.nih.gov/pubmed/11013210
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC302101}.
+
+\bibitem{Silhavy2010}
+\bibinfo{author}{Silhavy, T.~J.}, \bibinfo{author}{Kahne, D.} \&
+  \bibinfo{author}{Walker, S.}
+\newblock \bibinfo{title}{{The Bacterial Cell Envelope}}.
+\newblock \emph{\bibinfo{journal}{Cold Spring Harbor Perspectives in Biology}}
+  \textbf{\bibinfo{volume}{2}}, \bibinfo{pages}{a000414--a000414}
+  (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/20452953
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2857177
+  http://cshperspectives.cshlp.org/lookup/doi/10.1101/cshperspect.a000414}.
+
+\bibitem{Loutet2006}
+\bibinfo{author}{Loutet, S.~A.}, \bibinfo{author}{Flannagan, R.~S.},
+  \bibinfo{author}{Kooi, C.}, \bibinfo{author}{Sokol, P.~A.} \&
+  \bibinfo{author}{Valvano, M.~A.}
+\newblock \bibinfo{title}{{A complete lipopolysaccharide inner core
+  oligosaccharide is required for resistance of Burkholderia cenocepacia to
+  antimicrobial peptides and bacterial survival in vivo.}}
+\newblock \emph{\bibinfo{journal}{Journal of bacteriology}}
+  \textbf{\bibinfo{volume}{188}}, \bibinfo{pages}{2073--80}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/16513737
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1428139}.
+
+\bibitem{Allen1998}
+\bibinfo{author}{Allen, C.~A.}, \bibinfo{author}{Adams, L.~G.} \&
+  \bibinfo{author}{Ficht, T.~A.}
+\newblock \bibinfo{title}{{Transposon-derived Brucella abortus rough mutants
+  are attenuated and exhibit reduced intracellular survival.}}
+\newblock \emph{\bibinfo{journal}{Infection and immunity}}
+  \textbf{\bibinfo{volume}{66}}, \bibinfo{pages}{1008--16}
+  (\bibinfo{year}{1998}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/9488389
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC108009}.
+
+\bibitem{Peschel2001}
+\bibinfo{author}{Peschel, A.} \emph{et~al.}
+\newblock \bibinfo{title}{{{\textless}i{\textgreater}Staphylococcus
+  aureus{\textless}/i{\textgreater} Resistance to Human Defensins and Evasion
+  of Neutrophil Killing via the Novel Virulence Factor Mprf Is Based on
+  Modification of Membrane Lipids with l-Lysine}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Experimental Medicine}}
+  \textbf{\bibinfo{volume}{193}}, \bibinfo{pages}{1067--1076}
+  (\bibinfo{year}{2001}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/11342591
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2193429
+  http://www.jem.org/lookup/doi/10.1084/jem.193.9.1067}.
+
+\bibitem{Thedieck2006}
+\bibinfo{author}{Thedieck, K.} \emph{et~al.}
+\newblock \bibinfo{title}{{The MprF protein is required for lysinylation of
+  phospholipids in listerial membranes and confers resistance to cationic
+  antimicrobial peptides (CAMPs) on Listeria monocytogenes}}.
+\newblock \emph{\bibinfo{journal}{Molecular Microbiology}}
+  \textbf{\bibinfo{volume}{62}}, \bibinfo{pages}{1325--1339}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/17042784
+  http://doi.wiley.com/10.1111/j.1365-2958.2006.05452.x}.
+
+\bibitem{Klein2009}
+\bibinfo{author}{Klein, S.} \emph{et~al.}
+\newblock \bibinfo{title}{{Adaptation of {\textless}i{\textgreater}Pseudomonas
+  aeruginosa{\textless}/i{\textgreater} to various conditions includes
+  tRNA-dependent formation of alanyl-phosphatidylglycerol}}.
+\newblock \emph{\bibinfo{journal}{Molecular Microbiology}}
+  \textbf{\bibinfo{volume}{71}}, \bibinfo{pages}{551--565}
+  (\bibinfo{year}{2009}).
+\newblock
+  \urlprefix\url{http://doi.wiley.com/10.1111/j.1365-2958.2008.06562.x}.
+
+\bibitem{Band2014}
+\bibinfo{author}{Band, V.} \& \bibinfo{author}{Weiss, D.}
+\newblock \bibinfo{title}{{Mechanisms of Antimicrobial Peptide Resistance in
+  Gram-Negative Bacteria}}.
+\newblock \emph{\bibinfo{journal}{Antibiotics}} \textbf{\bibinfo{volume}{4}},
+  \bibinfo{pages}{18--41} (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/25927010
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4410734
+  http://www.mdpi.com/2079-6382/4/1/18}.
+
+\bibitem{Kumariya2015}
+\bibinfo{author}{Kumariya, R.}, \bibinfo{author}{Sood, S.~K.},
+  \bibinfo{author}{Rajput, Y.~S.}, \bibinfo{author}{Saini, N.} \&
+  \bibinfo{author}{Garsa, A.~K.}
+\newblock \bibinfo{title}{{Increased membrane surface positive charge and
+  altered membrane fluidity leads to cationic antimicrobial peptide resistance
+  in Enterococcus faecalis.}}
+\newblock \emph{\bibinfo{journal}{Biochimica et biophysica acta}}
+  \textbf{\bibinfo{volume}{1848}}, \bibinfo{pages}{1367--75}
+  (\bibinfo{year}{2015}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/25782727}.
+
+\bibitem{Raetz2007}
+\bibinfo{author}{Raetz, C.~R.}, \bibinfo{author}{Reynolds, C.~M.},
+  \bibinfo{author}{Trent, M.~S.} \& \bibinfo{author}{Bishop, R.~E.}
+\newblock \bibinfo{title}{{Lipid A Modification Systems in Gram-Negative
+  Bacteria}}.
+\newblock \emph{\bibinfo{journal}{Annual Review of Biochemistry}}
+  \textbf{\bibinfo{volume}{76}}, \bibinfo{pages}{295--329}
+  (\bibinfo{year}{2007}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/17362200
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2569861
+  http://www.annualreviews.org/doi/10.1146/annurev.biochem.76.010307.145803}.
+
+\bibitem{Fjell2011}
+\bibinfo{author}{Fjell, C.~D.}, \bibinfo{author}{Hiss, J.~A.},
+  \bibinfo{author}{Hancock, R. E.~W.} \& \bibinfo{author}{Schneider, G.}
+\newblock \bibinfo{title}{{Designing antimicrobial peptides: form follows
+  function}}.
+\newblock \emph{\bibinfo{journal}{Nature Reviews Drug Discovery}}
+  \textbf{\bibinfo{volume}{11}}, \bibinfo{pages}{37} (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.nature.com/doifinder/10.1038/nrd3591}.
+
+\bibitem{Wiradharma2011}
+\bibinfo{author}{Wiradharma, N.} \emph{et~al.}
+\newblock \bibinfo{title}{{Synthetic cationic amphiphilic $\alpha$-helical
+  peptides as antimicrobial agents}}.
+\newblock \emph{\bibinfo{journal}{Biomaterials}} \textbf{\bibinfo{volume}{32}},
+  \bibinfo{pages}{2204--2212} (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21168911
+  https://linkinghub.elsevier.com/retrieve/pii/S0142961210015097}.
+
+\bibitem{Huang2010}
+\bibinfo{author}{Huang, Y.}, \bibinfo{author}{Huang, J.} \&
+  \bibinfo{author}{Chen, Y.}
+\newblock \bibinfo{title}{{Alpha-helical cationic antimicrobial peptides:
+  relationships of structure and function}}.
+\newblock \emph{\bibinfo{journal}{Protein {\&} Cell}}
+  \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{143--152}
+  (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21203984
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4875170
+  http://link.springer.com/10.1007/s13238-010-0004-3}.
+
+\bibitem{Pag2008}
+\bibinfo{author}{Pag, U.} \emph{et~al.}
+\newblock \bibinfo{title}{{Analysis of in vitro activities and modes of action
+  of synthetic antimicrobial peptides derived from an $\alpha$-helical
+  ‘sequence template'}}.
+\newblock \emph{\bibinfo{journal}{Journal of Antimicrobial Chemotherapy}}
+  \textbf{\bibinfo{volume}{61}}, \bibinfo{pages}{341--352}
+  (\bibinfo{year}{2008}).
+\newblock
+  \urlprefix\url{https://academic.oup.com/jac/article-lookup/doi/10.1093/jac/dkm479}.
+
+\bibitem{Wang2015}
+\bibinfo{author}{Wang, J.} \emph{et~al.}
+\newblock \bibinfo{title}{{High specific selectivity and Membrane-Active
+  Mechanism of the synthetic centrosymmetric $\alpha$-helical peptides with
+  Gly-Gly pairs.}}
+\newblock \emph{\bibinfo{journal}{Scientific reports}}
+  \textbf{\bibinfo{volume}{5}}, \bibinfo{pages}{15963} (\bibinfo{year}{2015}).
+\newblock \urlprefix\url{http://www.nature.com/articles/srep15963
+  http://www.ncbi.nlm.nih.gov/pubmed/26530005
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4632126}.
+
+\bibitem{Hilpert2005}
+\bibinfo{author}{Hilpert, K.}, \bibinfo{author}{Volkmer-Engert, R.},
+  \bibinfo{author}{Walter, T.} \& \bibinfo{author}{Hancock, R. E.~W.}
+\newblock \bibinfo{title}{{High-throughput generation of small antibacterial
+  peptides with improved activity}}.
+\newblock \emph{\bibinfo{journal}{Nature Biotechnology}}
+  \textbf{\bibinfo{volume}{23}}, \bibinfo{pages}{1008--1012}
+  (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/16041366
+  http://www.nature.com/articles/nbt1113}.
+
+\bibitem{Hilpert2006}
+\bibinfo{author}{Hilpert, K.} \emph{et~al.}
+\newblock \bibinfo{title}{{Sequence Requirements and an Optimization Strategy
+  for Short Antimicrobial Peptides}}.
+\newblock \emph{\bibinfo{journal}{Chemistry {\&} Biology}}
+  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{1101--1107}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/17052614
+  https://linkinghub.elsevier.com/retrieve/pii/S107455210600336X}.
+
+\bibitem{Migon2018}
+\bibinfo{author}{Migo{\'{n}}, D.} \emph{et~al.}
+\newblock \bibinfo{title}{{Alanine Scanning Studies of the Antimicrobial
+  Peptide Aurein 1.2}}.
+\newblock \emph{\bibinfo{journal}{Probiotics and Antimicrobial Proteins}}
+  \bibinfo{pages}{1--13} (\bibinfo{year}{2018}).
+\newblock \urlprefix\url{http://link.springer.com/10.1007/s12602-018-9501-0}.
+
+\bibitem{Grieco2011}
+\bibinfo{author}{Grieco, P.} \emph{et~al.}
+\newblock \bibinfo{title}{{Alanine scanning analysis and structure-function
+  relationships of the frog-skin antimicrobial peptide temporin-1Ta}}.
+\newblock \emph{\bibinfo{journal}{Journal of Peptide Science}}
+  \textbf{\bibinfo{volume}{17}}, \bibinfo{pages}{358--365}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21337476
+  http://doi.wiley.com/10.1002/psc.1350}.
+
+\bibitem{Xie2018}
+\bibinfo{author}{Xie, J.} \emph{et~al.}
+\newblock \bibinfo{title}{{Potent effects of amino acid scanned antimicrobial
+  peptide Feleucin-K3 analogs against both multidrug-resistant strains and
+  biofilms of Pseudomonas aeruginosa}}.
+\newblock \emph{\bibinfo{journal}{Amino Acids}} \textbf{\bibinfo{volume}{50}},
+  \bibinfo{pages}{1471--1483} (\bibinfo{year}{2018}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/30136030
+  http://link.springer.com/10.1007/s00726-018-2625-4}.
+
+\bibitem{Radzishevsky2005}
+\bibinfo{author}{Radzishevsky, I.~S.} \emph{et~al.}
+\newblock \bibinfo{title}{{Effects of acyl versus aminoacyl conjugation on the
+  properties of antimicrobial peptides.}}
+\newblock \emph{\bibinfo{journal}{Antimicrobial agents and chemotherapy}}
+  \textbf{\bibinfo{volume}{49}}, \bibinfo{pages}{2412--20}
+  (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15917541
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1140510}.
+
+\bibitem{Serrano2009}
+\bibinfo{author}{Serrano, G.~N.}, \bibinfo{author}{Zhanel, G.~G.} \&
+  \bibinfo{author}{Schweizer, F.}
+\newblock \bibinfo{title}{{Antibacterial Activity of Ultrashort Cationic Lipo-
+  -Peptides}}.
+\newblock \emph{\bibinfo{journal}{Antimicrobial Agents and Chemotherapy}}
+  \textbf{\bibinfo{volume}{53}}, \bibinfo{pages}{2215--2217}
+  (\bibinfo{year}{2009}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/19237652
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2681537
+  http://aac.asm.org/cgi/doi/10.1128/AAC.01100-08}.
+
+\bibitem{Avrahami2004}
+\bibinfo{author}{Avrahami, D.} \& \bibinfo{author}{Shai, Y.}
+\newblock \bibinfo{title}{{A New Group of Antifungal and Antibacterial
+  Lipopeptides Derived from Non-membrane Active Peptides Conjugated to Palmitic
+  Acid}}.
+\newblock \emph{\bibinfo{journal}{Journal of Biological Chemistry}}
+  \textbf{\bibinfo{volume}{279}}, \bibinfo{pages}{12277--12285}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/14709550
+  http://www.jbc.org/lookup/doi/10.1074/jbc.M312260200}.
+
+\bibitem{Liu2018}
+\bibinfo{author}{Liu, S.}, \bibinfo{author}{Bao, J.}, \bibinfo{author}{Lao, X.}
+  \& \bibinfo{author}{Zheng, H.}
+\newblock \bibinfo{title}{{Novel 3D Structure Based Model for Activity
+  Prediction and Design of Antimicrobial Peptides}}.
+\newblock \emph{\bibinfo{journal}{Scientific Reports}}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{11189} (\bibinfo{year}{2018}).
+\newblock \urlprefix\url{http://www.nature.com/articles/s41598-018-29566-5}.
+
+\bibitem{Jiang2011}
+\bibinfo{author}{Jiang, Z.}, \bibinfo{author}{Vasil, A.~I.},
+  \bibinfo{author}{Gera, L.}, \bibinfo{author}{Vasil, M.~L.} \&
+  \bibinfo{author}{Hodges, R.~S.}
+\newblock \bibinfo{title}{{Rational Design of $\alpha$-Helical Antimicrobial
+  Peptides to Target Gram-negative Pathogens, Acinetobacter baumannii and
+  Pseudomonas aeruginosa: Utilization of Charge, ‘Specificity Determinants,'
+  Total Hydrophobicity, Hydrophobe Type and Location as Design Para}}.
+\newblock \emph{\bibinfo{journal}{Chemical Biology {\&} Drug Design}}
+  \textbf{\bibinfo{volume}{77}}, \bibinfo{pages}{225--240}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21219588
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3063396
+  http://doi.wiley.com/10.1111/j.1747-0285.2011.01086.x}.
+
+\bibitem{Deslouches2005}
+\bibinfo{author}{Deslouches, B.} \emph{et~al.}
+\newblock \bibinfo{title}{{De Novo Generation of Cationic Antimicrobial
+  Peptides: Influence of Length and Tryptophan Substitution on Antimicrobial
+  Activity}}.
+\newblock \emph{\bibinfo{journal}{Antimicrobial Agents and Chemotherapy}}
+  \textbf{\bibinfo{volume}{49}}, \bibinfo{pages}{316--322}
+  (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15616311
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC538858
+  http://aac.asm.org/cgi/doi/10.1128/AAC.49.1.316-322.2005}.
+
+\bibitem{Schmidt2010}
+\bibinfo{author}{Schmidt, N.}, \bibinfo{author}{Mishra, A.},
+  \bibinfo{author}{Lai, G.~H.} \& \bibinfo{author}{Wong, G.~C.}
+\newblock \bibinfo{title}{{Arginine-rich cell-penetrating peptides}}.
+\newblock \emph{\bibinfo{journal}{FEBS Letters}}
+  \textbf{\bibinfo{volume}{584}}, \bibinfo{pages}{1806--1813}
+  (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{http://doi.wiley.com/10.1016/j.febslet.2009.11.046}.
+
+\bibitem{Farrotti2017}
+\bibinfo{author}{Farrotti, A.} \emph{et~al.}
+\newblock \bibinfo{title}{{Molecular Dynamics Simulations of the Host Defense
+  Peptide Temporin L and Its Q3K Derivative: An Atomic Level View from
+  Aggregation in Water to Bilayer Perturbation}}.
+\newblock \emph{\bibinfo{journal}{Molecules}} \textbf{\bibinfo{volume}{22}},
+  \bibinfo{pages}{1235} (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{http://www.mdpi.com/1420-3049/22/7/1235}.
+
+\bibitem{Lee2017}
+\bibinfo{author}{Lee, E.~Y.}, \bibinfo{author}{Lee, M.~W.},
+  \bibinfo{author}{Fulan, B.~M.}, \bibinfo{author}{Ferguson, A.~L.} \&
+  \bibinfo{author}{Wong, G. C.~L.}
+\newblock \bibinfo{title}{{What can machine learning do for antimicrobial
+  peptides, and what can antimicrobial peptides do for machine learning?}}
+\newblock \emph{\bibinfo{journal}{Interface Focus}}
+  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{20160153}
+  (\bibinfo{year}{2017}).
+\newblock
+  \urlprefix\url{http://rsfs.royalsocietypublishing.org/lookup/doi/10.1098/rsfs.2016.0153}.
+
+\bibitem{Ingolfsson2014}
+\bibinfo{author}{Ing{\'{o}}lfsson, H.~I.} \emph{et~al.}
+\newblock \bibinfo{title}{{Lipid Organization of the Plasma Membrane}}.
+\newblock \emph{\bibinfo{journal}{Journal of the American Chemical Society}}
+  \textbf{\bibinfo{volume}{136}}, \bibinfo{pages}{14554--14559}
+  (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/ja507832e}.
+
+\end{thebibliography}
