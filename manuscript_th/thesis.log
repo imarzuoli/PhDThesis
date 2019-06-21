@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  17 JUN 2019 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  21 JUN 2019 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1120,7 +1120,7 @@ LaTeX Info: Redefining \nameref on input line 14.
 \openout2 = `front.aux'.
 
  (./front.tex
-<KCL_logo.pdf, id=39, 282.656pt x 187.902pt>
+<KCL_logo.pdf, id=43, 282.656pt x 187.902pt>
 File: KCL_logo.pdf Graphic file (type pdf)
  <use KCL_logo.pdf>
 Package pdftex.def Info: KCL_logo.pdf used on input line 45.
@@ -1212,7 +1212,7 @@ ine 27.
 Package natbib Warning: Citation `what?' on page 12 undefined on input line 27.
 
 
-<pics/scheme_intro.pdf, id=117, 537.00626pt x 759.83875pt>
+<pics/scheme_intro.pdf, id=122, 537.00626pt x 759.83875pt>
 File: pics/scheme_intro.pdf Graphic file (type pdf)
 
 <use pics/scheme_intro.pdf>
@@ -1288,11 +1288,11 @@ Overfull \hbox (6.26108pt too wide) in paragraph at lines 209--216
 [25] [26]
 
 Package natbib Warning: Citation `Ebbensgaard2015PLOS???' on page 27 undefined 
-on input line 289.
+on input line 244.
 
 [27]
 
-Package natbib Warning: Citation `???' on page 28 undefined on input line 305.
+Package natbib Warning: Citation `???' on page 28 undefined on input line 260.
 
 [28] [29]
 Missing character: There is no â in font cmr12!
@@ -1303,13 +1303,13 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
  [30]
 
-Package natbib Warning: Citation `??' on page 31 undefined on input line 346.
+Package natbib Warning: Citation `??' on page 31 undefined on input line 301.
 
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 
-Package natbib Warning: Citation `???' on page 31 undefined on input line 364.
+Package natbib Warning: Citation `???' on page 31 undefined on input line 319.
 
 [31]
 Missing character: There is no â in font cmr12!
@@ -1320,23 +1320,23 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [32] [33] [34] [35]
 
-Package natbib Warning: Citation `???' on page 36 undefined on input line 453.
+Package natbib Warning: Citation `???' on page 36 undefined on input line 408.
 
 
 Package natbib Warning: Citation `verifyyyyy' on page 36 undefined on input lin
-e 456.
+e 411.
 
 
 Package natbib Warning: Citation `verifyyyyy' on page 36 undefined on input lin
-e 456.
+e 411.
 
 [36]
 
 Package natbib Warning: Citation `see_example_on_AMPR' on page 37 undefined on 
-input line 457.
+input line 412.
 
 
-Package natbib Warning: Citation `???' on page 37 undefined on input line 457.
+Package natbib Warning: Citation `???' on page 37 undefined on input line 412.
 
 [37]
 Missing character: There is no Â in font cmr12!
@@ -1345,7 +1345,7 @@ Missing character: There is no ­ in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
 
-Overfull \hbox (0.6029pt too wide) in paragraph at lines 493--494
+Overfull \hbox (0.6029pt too wide) in paragraph at lines 448--449
 \OT1/cmr/m/n/12 spec-trum AMP with high tox-i-c-ity, the po-si-tion-ing of pos-
 i-tively charged residues
  []
@@ -1354,11 +1354,11 @@ Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
 
 Package natbib Warning: Citation `Loose2006' on page 39 undefined on input line
- 505.
+ 460.
 
 
 Package natbib Warning: Citation `IBMhttps://doi.org/10.1063/1.5027261' on page
- 39 undefined on input line 506.
+ 39 undefined on input line 461.
 
 [39]
 Missing character: There is no Â in font cmr12!
@@ -1368,15 +1368,15 @@ Missing character: There is no ­ in font cmr12!
 
 
 Package natbib Warning: Citation `Bolintineanu2011' on page 40 undefined on inp
-ut line 522.
+ut line 477.
 
 
 Package natbib Warning: Citation `Khandelia2005' on page 40 undefined on input 
-line 524.
+line 479.
 
 
 Package natbib Warning: Citation `Tsai2009' on page 40 undefined on input line 
-524.
+479.
 
 [40]
 Missing character: There is no â in font cmr12!
@@ -1388,53 +1388,100 @@ Missing character: There is no ­ in font cmr12!
 
 
 Package natbib Warning: Citation `Cherkasov2009' on page 42 undefined on input 
-line 544.
+line 499.
 
 
 Package natbib Warning: Citation `Naafs2018' on page 42 undefined on input line
- 552.
+ 507.
 
 [42]
 
 Package natbib Warning: Citation `2_fjell' on page 43 undefined on input line 5
-54.
+09.
 
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ­ in font cmr12!
 
-Package natbib Warning: Citation `160' on page 43 undefined on input line 556.
+Package natbib Warning: Citation `160' on page 43 undefined on input line 511.
 
 
 Package natbib Warning: Citation `161_fjell' on page 43 undefined on input line
- 556.
+ 511.
 
-[43] [44] [45] [46
 
-]) [47
+Package natbib Warning: Citation `Anguela2019' on page 43 undefined on input li
+ne 517.
+
+
+Package natbib Warning: Citation `Barrangou2015' on page 43 undefined on input 
+line 525.
+
+
+Package natbib Warning: Citation `Zhang2014cas' on page 43 undefined on input l
+ine 526.
+
+
+Package natbib Warning: Citation `Shu2014' on page 43 undefined on input line 5
+26.
+
+
+Package natbib Warning: Citation `Oldfield1993' on page 43 undefined on input l
+ine 530.
+
+
+Package natbib Warning: Citation `Lawler2017' on page 43 undefined on input lin
+e 532.
+
+[43]
+
+Package natbib Warning: Citation `Naldini2011' on page 44 undefined on input li
+ne 537.
+
+
+Package natbib Warning: Citation `Mingozzi2011' on page 44 undefined on input l
+ine 537.
+
+
+Package natbib Warning: Citation `Anguela2019' on page 44 undefined on input li
+ne 541.
+
+[44] [45] [46]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no   in font cmr12!
+ [47] [48] [49
+
+]) [50
 
 ]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
 
-LaTeX Warning: Reference `eq:predictive_distribution' on page 48 undefined on i
+LaTeX Warning: Reference `eq:predictive_distribution' on page 51 undefined on i
 nput line 12.
 
 
-Package natbib Warning: Citation `Bishop:998831' on page 48 undefined on input 
+Package natbib Warning: Citation `Bishop:998831' on page 51 undefined on input 
 line 12.
 
 
-Package natbib Warning: Citation `Williams:2006vz' on page 48 undefined on inpu
+Package natbib Warning: Citation `Williams:2006vz' on page 51 undefined on inpu
 t line 12.
 
-) [48
+) [51
 
 
 
-] (./thesis.bbl [49
+] (./thesis.bbl [52
 
 
 
@@ -1513,7 +1560,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--139
  / pubmed / 19304320https :
  []
 
-[50]
+[53]
 Underfull \hbox (badness 5022) in paragraph at lines 141--149
 []\OT1/cmr/m/n/12 Liechty, W. B., Kryscio, D. R., Slaugh-ter, B. V. & Pep-
  []
@@ -1554,7 +1601,7 @@ Underfull \hbox (badness 2608) in paragraph at lines 199--208
  / pubmed / 27363439http : / / www .
  []
 
-[51]
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 230--238
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
@@ -1562,7 +1609,7 @@ rtid =
 
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 263.
-[52]
+[55]
 Underfull \hbox (badness 1259) in paragraph at lines 296--303
 []\OT1/cmr/m/n/12 Daya, S. & Berns, K. I.  Gene ther-apy us-ing adeno-associate
 d
@@ -1610,7 +1657,7 @@ Underfull \hbox (badness 2608) in paragraph at lines 324--333
  / pubmed / 19921725http : / / www .
  []
 
-[53]
+[56]
 Underfull \hbox (badness 2027) in paragraph at lines 365--372
 []\OT1/cmr/m/n/12 Yan, X., Zhu, P. & Li, J.  Self-assembly and ap-pli-ca-tion o
 f
@@ -1640,7 +1687,7 @@ Underfull \hbox (badness 2608) in paragraph at lines 423--432
  / pubmed / 29109626http : / / www .
  []
 
-[54]
+[57]
 Underfull \hbox (badness 2608) in paragraph at lines 444--454
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 30288257http : / / www .
@@ -1709,7 +1756,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 494--503
 / pnas .
  []
 
-[55]
+[58]
 Underfull \hbox (badness 10000) in paragraph at lines 536--544
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 23280442https :
@@ -1761,7 +1808,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 558--567
  content /
  []
 
-[56]
+[59]
 Underfull \hbox (badness 6047) in paragraph at lines 580--591
 \OT1/cmr/m/it/12 Jour-nal of An-timi-cro-bial Chemother-apy \OT1/cmr/bx/n/12 68
 \OT1/cmr/m/n/12 , 1319--1326 (2013).
@@ -1800,7 +1847,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 632--643
  / pubmed / 22969080https : / /
  []
 
-[57]
+[60]
 Underfull \hbox (badness 4739) in paragraph at lines 645--654
 []\OT1/cmr/m/n/12 Abouzeed, Y. M., Baucheron, S. & Cloeck-aert, A.  ramR
  []
@@ -1871,7 +1918,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 690--700
 les /
  []
 
-[58]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 712--728
 \OT1/cmr/m/n/12 mo-some \OML/cmm/m/it/12 <\OT1/cmr/m/n/12 i\OML/cmm/m/it/12 >\O
 T1/cmr/m/n/12 mec\OML/cmm/m/it/12 <\OT1/cmr/m/n/12 /i\OML/cmm/m/it/12 > \OT1/cm
@@ -1957,7 +2004,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 754--766
 rtid =
  []
 
-[59]
+[62]
 Underfull \hbox (badness 10000) in paragraph at lines 768--777
 \OT1/cmtt/m/n/12 21597116http : / / www . pubmedcentral . nih . gov / articlere
 nder .
@@ -2046,7 +2093,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 829--838
  / 10 . 1099 /
  []
 
-[60]
+[63]
 Underfull \hbox (badness 2221) in paragraph at lines 840--850
 []\OT1/cmr/m/n/12 Lynch, J. P., Clark, N. M. & Zhanel, G. G.  Evo-lu-tion of
  []
@@ -2157,7 +2204,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 885--893
 ii /
  []
 
-[61]
+[64]
 Underfull \hbox (badness 10000) in paragraph at lines 895--905
 \OT1/cmtt/m/n/12 23640799http : / / www . pubmedcentral . nih . gov / articlere
 nder .
@@ -2210,7 +2257,7 @@ Underfull \hbox (badness 2608) in paragraph at lines 948--957
  / pubmed / 28083516http : / / www .
  []
 
-[62]
+[65]
 Underfull \hbox (badness 1694) in paragraph at lines 1006--1016
 []\OT1/cmr/m/n/12 Schmitt, P., Rosa, R. D. & Destoumieux-Garz^^Son, D.  An in-
  []
@@ -2227,7 +2274,7 @@ Underfull \hbox (badness 2875) in paragraph at lines 1006--1016
 2 1858\OT1/cmr/m/n/12 , 958--970
  []
 
-[63]
+[66]
 Underfull \hbox (badness 3039) in paragraph at lines 1045--1054
 []\OT1/cmr/m/n/12 van Meer, G., Voelker, D. R. & Feigen-son, G. W.  Mem-
  []
@@ -2262,7 +2309,7 @@ Underfull \hbox (badness 2608) in paragraph at lines 1094--1104
  / pubmed / 25243191http : / / www .
  []
 
-[64]
+[67]
 Underfull \hbox (badness 1264) in paragraph at lines 1117--1124
 []\OT1/cmr/m/n/12 Toke, O.  An-timi-cro-bial pep-tides: New can-di-dates in the
  fight
@@ -2356,7 +2403,7 @@ Underfull \hbox (badness 2608) in paragraph at lines 1181--1190
  / pubmed / 12719236http : / / www .
  []
 
-[65]
+[68]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no   in font cmr12!
@@ -2429,7 +2476,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1243--1250
  .
  []
 
-[66]
+[69]
 Underfull \hbox (badness 10000) in paragraph at lines 1261--1270
 \OT1/cmtt/m/n/12 nlm . nih . gov / pubmed / 11566791http : / / www . pubmedcent
 ral . nih .
@@ -2482,7 +2529,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1301--1311
 rtid =
  []
 
-[67]
+[70]
 Underfull \hbox (badness 7415) in paragraph at lines 1343--1351
 []\OT1/cmr/m/n/12 Gifford, J. L., Hunter, H. N. & Vo-gel, H. J.  Lacto-
  []
@@ -2496,7 +2543,7 @@ Underfull \hbox (badness 2608) in paragraph at lines 1385--1394
  / pubmed / 15635665http : / / doi .
  []
 
-[68]
+[71]
 Underfull \hbox (badness 1097) in paragraph at lines 1414--1423
 []\OT1/cmr/m/n/12 Joo, H.-S., Fu, C.-I. & Otto, M.  Bac-te-rial strate-gies of 
 re-sis-
@@ -2520,7 +2567,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1425--1433
 http : / / www .
  []
 
-[69]
+[72]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -2631,7 +2678,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1524--1532
 http : / / www .
  []
 
-[70]
+[73]
 Underfull \hbox (badness 10000) in paragraph at lines 1545--1554
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 8223423http : / / www .
@@ -2643,7 +2690,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1575--1583
  10 . 1160 / TH03 -[]
  []
 
-[71]
+[74]
 Underfull \hbox (badness 1057) in paragraph at lines 1604--1611
 \OT1/cmr/m/n/12 a-nism of bac-te-rial re-sis-tance.  \OT1/cmr/m/it/12 Drug Dis-
 cov-ery To-day: Tech-nolo-
@@ -2709,7 +2756,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1663--1672
 ro / 10 .
  []
 
-[72]
+[75]
 Underfull \hbox (badness 2608) in paragraph at lines 1674--1684
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . eurekaselect . com / o
 penurl / content . php ? genre =
@@ -2763,7 +2810,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1730--1739
 rtid =
  []
 
-[73]
+[76]
 Underfull \hbox (badness 1048) in paragraph at lines 1741--1751
 []\OT1/cmr/m/n/12 Saar-Dover, R. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 D-Ala
 nylation of Lipote-i-choic Acids Con-
@@ -2793,7 +2840,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1774--1783
 rtid =
  []
 
-[74]
+[77]
 Underfull \hbox (badness 4291) in paragraph at lines 1811--1821
 []\OT1/cmr/m/n/12 Bishop, R. E. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 Trans-
 fer of palmi-tate from phos-pho-
@@ -2865,7 +2912,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1858--1869
 4 / jem . 193 .
  []
 
-[75]
+[78]
 Underfull \hbox (badness 1546) in paragraph at lines 1871--1880
 []\OT1/cmr/m/n/12 Thedieck, K. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 The Mpr
 F pro-tein is re-quired for lysiny-
@@ -2947,7 +2994,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1936--1943
  / pubmed / 21168911https :
  []
 
-[76]
+[79]
 Underfull \hbox (badness 10000) in paragraph at lines 1945--1955
 \OT1/cmtt/m/n/12 21203984http : / / www . pubmedcentral . nih . gov / articlere
 nder .
@@ -3021,7 +3068,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1990--1998
 rieve /
  []
 
-[77]
+[80]
 Underfull \hbox (badness 2903) in paragraph at lines 2028--2036
 \OT1/cmr/m/n/12 ju-ga-tion on the prop-er-ties of an-timi-cro-bial pep-tides.  
 \OT1/cmr/m/it/12 An-timi-
@@ -3113,7 +3160,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2070--2083
 -[] 0285 . 2011 .
  []
 
-[78]
+[81]
 Underfull \hbox (badness 10000) in paragraph at lines 2085--2095
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
@@ -3129,7 +3176,7 @@ AAC . 49 . 1 . 316 -[]
 
 Package natbib Warning: There were undefined citations.
 
-[79]
+[82]
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
@@ -3142,46 +3189,37 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
 (./appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: D858B104D55B2399111B691296D0E055;658.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: A58C62D65C0F6BD4952927BD513990DF;600
-(rerunfilecheck)             After:  4DD0F004524685D66C422DD6DA158B31;600.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 23829 strings out of 493029
- 416902 string characters out of 6136233
- 548851 words of memory out of 5000000
- 26578 multiletter control sequences out of 15000+600000
+ 23847 strings out of 493029
+ 417079 string characters out of 6136233
+ 548975 words of memory out of 5000000
+ 26588 multiletter control sequences out of 15000+600000
  18639 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,15n,92p,1378b,1309s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.33} has been referenced but does not exi
-st, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (79 pages, 3101743 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (82 pages, 3110657 bytes).
 PDF statistics:
- 1525 PDF objects out of 1728 (max. 8388607)
- 1386 compressed objects within 14 object streams
- 332 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1547 PDF objects out of 1728 (max. 8388607)
+ 1404 compressed objects within 15 object streams
+ 338 named destinations out of 1000 (max. 500000)
+ 95 words of extra memory for PDF output out of 10000 (max. 10000000)
 

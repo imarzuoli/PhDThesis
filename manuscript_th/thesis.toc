@@ -29,10 +29,11 @@
 \contentsline {paragraph}{Biophysical studies}{40}{section*.21}
 \contentsline {paragraph}{Virtual screening}{41}{section*.22}
 \contentsline {subsection}{\numberline {1.3.5}Clinical applications}{42}{subsection.1.3.5}
-\contentsline {section}{\numberline {1.4}Closing the circle: an antimicrobial drug delivery vehicle}{43}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Choice of the AMP lactoferricin}{45}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}A viable systems: experimental background}{45}{subsection.1.4.2}
-\contentsline {paragraph}{Bits}{47}{section*.23}
-\contentsline {appendix}{\chapternumberline {}Appendices}{48}{appendix.}
-\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{48}{section.A.1}
-\contentsline {chapter}{Bibliography}{49}{section*.25}
+\contentsline {section}{\numberline {1.4}Gene therapy}{43}{section.1.4}
+\contentsline {section}{\numberline {1.5}Closing the circle: an antimicrobial drug delivery vehicle}{45}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Capzip}{46}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}A viable systems: experimental background}{48}{subsection.1.5.2}
+\contentsline {paragraph}{Bits}{50}{section*.23}
+\contentsline {appendix}{\chapternumberline {}Appendices}{51}{appendix.}
+\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{51}{section.A.1}
+\contentsline {chapter}{Bibliography}{52}{section*.25}
