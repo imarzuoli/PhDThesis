@@ -32,6 +32,33 @@
   (\bibinfo{year}{2008}).
 \newblock \urlprefix\url{http://www.nature.com/articles/nrc2394}.
 
+\bibitem{poly}
+\bibinfo{author}{Toledo, M.}
+\newblock \bibinfo{title}{Polymerization reactions}.
+\newblock
+  \urlprefix\url{https://www.mt.com/au/en/home/applications/L1_AutoChem_Applications/L2_ReactionAnalysis/L2_Polymerization.html#publications}.
+
+\bibitem{Blair2014}
+\bibinfo{author}{{A Blair}, J.~M.}, \bibinfo{author}{Webber, M.~A.},
+  \bibinfo{author}{Baylay, A.~J.}, \bibinfo{author}{Ogbolu, D.~O.} \&
+  \bibinfo{author}{{V Piddock}, L.~J.}
+\newblock \bibinfo{title}{{Molecular mechanisms of antibiotic resistance}}.
+\newblock \emph{\bibinfo{journal}{Nature Publishing Group}}
+  \textbf{\bibinfo{volume}{13}} (\bibinfo{year}{2014}).
+\newblock
+  \urlprefix\url{https://www.nature.com/nrmicro/journal/v13/n1/pdf/nrmicro3380.pdf}.
+
+\bibitem{Nguyen2011}
+\bibinfo{author}{Nguyen, L.~T.}, \bibinfo{author}{Haney, E.~F.} \&
+  \bibinfo{author}{Vogel, H.~J.}
+\newblock \bibinfo{title}{{The expanding scope of antimicrobial peptide
+  structures and their modes of action}}.
+\newblock \emph{\bibinfo{journal}{Trends in Biotechnology}}
+  \textbf{\bibinfo{volume}{29}}, \bibinfo{pages}{464--472}
+  (\bibinfo{year}{2011}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0167779911000886?via{\%}3Dihub}.
+
 \bibitem{Masaoka2006}
 \bibinfo{author}{Masaoka, Y.}, \bibinfo{author}{Tanaka, Y.},
   \bibinfo{author}{Kataoka, M.}, \bibinfo{author}{Sakuma, S.} \&
@@ -430,16 +457,6 @@
 \newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/29109626
   http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC5672523}.
 
-\bibitem{Blair2014}
-\bibinfo{author}{{A Blair}, J.~M.}, \bibinfo{author}{Webber, M.~A.},
-  \bibinfo{author}{Baylay, A.~J.}, \bibinfo{author}{Ogbolu, D.~O.} \&
-  \bibinfo{author}{{V Piddock}, L.~J.}
-\newblock \bibinfo{title}{{Molecular mechanisms of antibiotic resistance}}.
-\newblock \emph{\bibinfo{journal}{Nature Publishing Group}}
-  \textbf{\bibinfo{volume}{13}} (\bibinfo{year}{2014}).
-\newblock
-  \urlprefix\url{https://www.nature.com/nrmicro/journal/v13/n1/pdf/nrmicro3380.pdf}.
-
 \bibitem{Birkegard2018}
 \bibinfo{author}{Birkeg{\aa}rd, A.~C.}, \bibinfo{author}{Halasa, T.},
   \bibinfo{author}{Toft, N.}, \bibinfo{author}{Folkesson, A.} \&
@@ -505,12 +522,8 @@
 \bibinfo{author}{Tran, Q.-T.}, \bibinfo{author}{Williams, S.},
   \bibinfo{author}{Farid, R.}, \bibinfo{author}{Erdemli, G.} \&
   \bibinfo{author}{Pearlstein, R.}
-\newblock \bibinfo{title}{{The translocation kinetics of antibiotics through
-  porin OmpC: Insights from structure-based solvation mapping using WaterMap}}.
 \newblock \emph{\bibinfo{journal}{Proteins: Structure, Function, and
-  Bioinformatics}} \textbf{\bibinfo{volume}{81}}, \bibinfo{pages}{291--299}
-  (\bibinfo{year}{2013}).
-\newblock \urlprefix\url{http://doi.wiley.com/10.1002/prot.24185}.
+  Bioinformatics}} .
 
 \bibitem{Tamber2003}
 \bibinfo{author}{Tamber, S.} \& \bibinfo{author}{Hancock, R. E.~W.}
@@ -923,17 +936,6 @@
 \newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/30682820
   http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC6466574
   http://www.mdpi.com/2079-6382/8/1/8}.
-
-\bibitem{Nguyen2011}
-\bibinfo{author}{Nguyen, L.~T.}, \bibinfo{author}{Haney, E.~F.} \&
-  \bibinfo{author}{Vogel, H.~J.}
-\newblock \bibinfo{title}{{The expanding scope of antimicrobial peptide
-  structures and their modes of action}}.
-\newblock \emph{\bibinfo{journal}{Trends in Biotechnology}}
-  \textbf{\bibinfo{volume}{29}}, \bibinfo{pages}{464--472}
-  (\bibinfo{year}{2011}).
-\newblock
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0167779911000886?via{\%}3Dihub}.
 
 \bibitem{Bahar2013}
 \bibinfo{author}{Bahar, A.~A.} \& \bibinfo{author}{Ren, D.}
@@ -2102,6 +2104,55 @@
   (\bibinfo{year}{2010}).
 \newblock \urlprefix\url{http://doi.wiley.com/10.1016/j.febslet.2009.11.046}.
 
+\bibitem{Loose2006}
+\bibinfo{author}{Loose, C.}, \bibinfo{author}{Jensen, K.},
+  \bibinfo{author}{Rigoutsos, I.} \& \bibinfo{author}{Stephanopoulos, G.}
+\newblock \bibinfo{title}{{A linguistic model for the rational design of
+  antimicrobial peptides}}.
+\newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{443}},
+  \bibinfo{pages}{867--869} (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/17051220
+  http://www.nature.com/articles/nature05233}.
+
+\bibitem{Cipcigan2018}
+\bibinfo{author}{Cipcigan, F.} \emph{et~al.}
+\newblock \bibinfo{title}{{Accelerating molecular discovery through data and
+  physical sciences: Applications to peptide-membrane interactions}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Chemical Physics}}
+  \textbf{\bibinfo{volume}{148}}, \bibinfo{pages}{241744}
+  (\bibinfo{year}{2018}).
+\newblock \urlprefix\url{http://aip.scitation.org/doi/10.1063/1.5027261}.
+
+\bibitem{Bolintineanu2011}
+\bibinfo{author}{Bolintineanu, D.~S.} \& \bibinfo{author}{Kaznessis, Y.~N.}
+\newblock \bibinfo{title}{{Computational studies of protegrin antimicrobial
+  peptides: A review}}.
+\newblock \emph{\bibinfo{journal}{Peptides}} \textbf{\bibinfo{volume}{32}},
+  \bibinfo{pages}{188--201} (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/20946928
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3013618
+  https://linkinghub.elsevier.com/retrieve/pii/S0196978110004419}.
+
+\bibitem{Khandelia2005}
+\bibinfo{author}{Khandelia, H.} \& \bibinfo{author}{Kaznessis, Y.~N.}
+\newblock \bibinfo{title}{{Molecular dynamics simulations of helical
+  antimicrobial peptides in SDS micelles: What do point mutations achieve?}}
+\newblock \emph{\bibinfo{journal}{Peptides}} \textbf{\bibinfo{volume}{26}},
+  \bibinfo{pages}{2037--2049} (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15979758
+  https://linkinghub.elsevier.com/retrieve/pii/S0196978105001610}.
+
+\bibitem{Tsai2009}
+\bibinfo{author}{Tsai, C.-W.} \emph{et~al.}
+\newblock \bibinfo{title}{{Coupling Molecular Dynamics Simulations with
+  Experiments for the Rational Design of Indolicidin-Analogous Antimicrobial
+  Peptides}}.
+\newblock \emph{\bibinfo{journal}{Journal of Molecular Biology}}
+  \textbf{\bibinfo{volume}{392}}, \bibinfo{pages}{837--854}
+  (\bibinfo{year}{2009}).
+\newblock
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0022283609008031}.
+
 \bibitem{Farrotti2017}
 \bibinfo{author}{Farrotti, A.} \emph{et~al.}
 \newblock \bibinfo{title}{{Molecular Dynamics Simulations of the Host Defense
@@ -2110,6 +2161,46 @@
 \newblock \emph{\bibinfo{journal}{Molecules}} \textbf{\bibinfo{volume}{22}},
   \bibinfo{pages}{1235} (\bibinfo{year}{2017}).
 \newblock \urlprefix\url{http://www.mdpi.com/1420-3049/22/7/1235}.
+
+\bibitem{Walters2005}
+\bibinfo{author}{Walters, W.~P.} \& \bibinfo{author}{Goldman, B.~B.}
+\newblock \bibinfo{title}{{Feature selection in quantitative structure-activity
+  relationships.}}
+\newblock \emph{\bibinfo{journal}{Current opinion in drug discovery {\&}
+  development}} \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{329--33}
+  (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15892248}.
+
+\bibitem{Gonzalez2008}
+\bibinfo{author}{Gonzalez, M.}, \bibinfo{author}{Teran, C.},
+  \bibinfo{author}{Saiz-Urra, L.} \& \bibinfo{author}{Teijeira, M.}
+\newblock \bibinfo{title}{{Variable Selection Methods in QSAR: An Overview}}.
+\newblock \emph{\bibinfo{journal}{Current Topics in Medicinal Chemistry}}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{1606--1627}
+  (\bibinfo{year}{2008}).
+\newblock
+  \urlprefix\url{http://www.eurekaselect.com/openurl/content.php?genre=article{\&}issn=1568-0266{\&}volume=8{\&}issue=18{\&}spage=1606}.
+
+\bibitem{Wimley2010}
+\bibinfo{author}{Wimley, W.~C.}
+\newblock \bibinfo{title}{{Describing the Mechanism of Antimicrobial Peptide
+  Action with the Interfacial Activity Model}}.
+\newblock \emph{\bibinfo{journal}{ACS Chemical Biology}}
+  \textbf{\bibinfo{volume}{5}}, \bibinfo{pages}{905--917}
+  (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/20698568
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2955829
+  http://pubs.acs.org/doi/10.1021/cb1001558}.
+
+\bibitem{Lewenza2005}
+\bibinfo{author}{Lewenza, S.}
+\newblock \bibinfo{title}{{Construction of a mini-Tn5-luxCDABE mutant library
+  in Pseudomonas aeruginosa PAO1: A tool for identifying differentially
+  regulated genes}}.
+\newblock \emph{\bibinfo{journal}{Genome Research}}
+  \textbf{\bibinfo{volume}{15}}, \bibinfo{pages}{583--589}
+  (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{http://www.genome.org/cgi/doi/10.1101/gr.3513905}.
 
 \bibitem{Lee2017}
 \bibinfo{author}{Lee, E.~Y.}, \bibinfo{author}{Lee, M.~W.},
@@ -2122,13 +2213,5 @@
   (\bibinfo{year}{2017}).
 \newblock
   \urlprefix\url{http://rsfs.royalsocietypublishing.org/lookup/doi/10.1098/rsfs.2016.0153}.
-
-\bibitem{Ingolfsson2014}
-\bibinfo{author}{Ing{\'{o}}lfsson, H.~I.} \emph{et~al.}
-\newblock \bibinfo{title}{{Lipid Organization of the Plasma Membrane}}.
-\newblock \emph{\bibinfo{journal}{Journal of the American Chemical Society}}
-  \textbf{\bibinfo{volume}{136}}, \bibinfo{pages}{14554--14559}
-  (\bibinfo{year}{2014}).
-\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/ja507832e}.
 
 \end{thebibliography}

@@ -1,0 +1,187 @@
+\chapter{Introduction}
+
+\lettrine{A}{tomistic simulation} is a discipline based on numerically
+solving the fundamental equations of classical and quantum physics in
+order to directly predict the trajectories of the atoms which make up
+a physical system.
+%
+That this can be done in principle has been appreciated for some time
+--- centuries in the case of classical mechanics --- but it is only
+with the advent of computers capable of carrying out this procedure
+accurately and reliably that simulation has become an indispensable
+research tool, complementary both to experimental and theoretical
+approaches.
+%
+In Chapter~\ref{chap:methods}, I review the background to two of the
+main methods currently used to model physical systems at the atomic
+level: classical molecular dynamics and first principles quantum
+mechanical calculations.
+%
+The former allow simulations of millions of atoms to be carried out on
+a nanosecond timescale \citep{Haile92,Rapaport04,Verlet67,Swope82},
+but the accuracy is limited by the requirement to use simple
+parameterisations as interatomic potentials
+\citep{Lennard-Jones24,SWpotential,Tersoff_T1,
+Tersoff_T2,Tersoff_T3,Brenner90,Brenner00,
+Brenner02,Bazant97,Justo98,Marks00,vanDuin01,Horsfield96,Stuart00}.
+%
+If the scientific question of interest can be effectively answered by
+considering the behaviour of a very small number of atoms, up to
+around a hundred, then \emph{ab initio} approaches allow this
+limitation to be overcome
+\citep{Hohenberg64,Kohn65,Perdew96,Teter89,Payne92,Segal02}.
+%
+
+In many cases we can extract enough information from these accurate
+quantum mechanical calculations to parametrise less transferable, but
+far less expensive, models as use them on a larger length scale
+\citep{Nieminen02}.
+%
+For some systems however, it is impossible to separate the behaviour
+on the various length scales, since the coupling between them is
+strong and bidirectional.
+%
+
+\section{Prova}
+
+Then the only option is to carry out a \emph{hybrid} simulation, where
+some parts of the system are treated at a higher level of accuracy
+\citep{Kohlhoff91,Tadmor96,Warshel76,Maseras95}.
+%
+An overview of existing hybrid schemes is given in
+Chapter~\ref{chap:hybrid}.
+
+The best known example of such a multiscale system is the fracture of
+brittle materials, which forms the subject of
+Chapter~\ref{chap:fracture}.
+%
+\begin{figure}
+  \begin{center}
+%    \includegraphics[width=90mm]{continuum-stress.eps}
+  \end{center}
+  \caption[Continuum stress field near crack tip]{
+    \label{fig:continuum-stress} 
+    Maximum principal stress near the the tip of a crack under
+    uniaxial tension in the opening mode, from the linear elastic
+    solution (discussed in detail in Section
+    \ref{sec:linear-elastic}). Black areas are the least stressed and
+    yellow the most.}
+\end{figure}
+%
+The conditions for crack propagation are created by stress
+concentration at the crack tip, and depend on macroscopic parameters
+such as the loading geometry and dimensions of the specimen
+\citep{Inglis13,Griffith,Broberg99,Freund90}.
+%
+In real materials, however, the detailed crack propagation dynamics,
+are entirely determined by atomic scale phenomena since brittle crack
+tips are atomically sharp and propagate by breaking bonds, one at a
+time, at each point along the crack front \citep{Lawn93,Thomson86}.
+%
+This means the tip region is primarily a one dimensional line,
+perpendicular to the direction of propagation, and so it should be
+possible to define a contiguous embedding region to be treated with a
+more accurate model in a hybrid simulation.
+%
+There is a constant interplay between the length scales because the
+opening crack gives rise to a stress field with a singularity at the
+tip \citep{Irwin}, as illustrated in Fig.~\ref{fig:continuum-stress},
+and in turn it is this singular stress field which breaks the bonds
+that advance the crack.
+%
+Only by including the tens of thousands of atoms that contribute
+significantly to the elastic relaxation of this stress field can we
+hope to accurately model the fracture system, and thus a multiscale
+approach is essential.
+%
+This thesis is concerned with the application of hybrid methods to the
+brittle fracture of silicon, in particular I consider low-speed
+fracture on the $(111)$ cleavage plane.
+
+The major difficulty in hybrid simulation is dealing with the boundary
+between the two different descriptions of material; often unphysical
+forces arise here when two incompatible models are combined
+\citep{Spence93,Broughton99,Bernstein01}.
+%
+The `Learn on the Fly' (LOTF) hybrid method
+\citep{LOTF98,LOTF04,LOTF05,Moras06,DefectBook}, described in
+Chapter~\ref{chap:lotf}, is a recently introduced strategy to solve
+the boundary problem, at least in materials that can be described
+using short range forces.
+%
+LOTF couples the quantum and classical dynamics in such a way that
+that the system behaves instantaneously as if the entire specimen is
+being treated at a quantum mechanical level of detail.
+%
+This is achieved by combining accurate quantum forces for the region
+of interest obtained from \emph{ab initio} calculations with
+qualitatively correct classical forces further away, using an
+adjustable potential to give stable dynamics.
+
+%
+Chapter~\ref{chap:simulation} sets out the methodology for the
+fracture simulations and describes a series of validation tests,
+whilst the main results of this work are presented in
+Chapter~\ref{chap:results}.
+%
+I find that fracture is unstable on the $(111)$ plane at low speeds;
+conventionally this has been thought of as the most stable crack
+plane.
+%
+The instability I report in this thesis is caused by a crack tip
+reconstruction which triggers a positive feedback `sinking' mechanism
+leading to macroscopic, experimentally observable, corrugations.
+%
+As discussed in Chapter~\ref{chap:discussion}, recent experiments have
+observed surface features consistent with these predictions
+\citep{Sherman07,Kermode07}.
+%
+%
+For some systems however, it is impossible to separate the behaviour
+on the various length scales, since the coupling between them is
+strong and bidirectional.
+%%
+For some systems however, it is impossible to separate the behaviour
+on the various length scales, since the coupling between them is
+strong and bidirectional.
+%%
+For some systems however, it is impossible to separate the behaviour
+on the various length scales, since the coupling between them is
+strong and bidirectional.
+%%
+For some systems however, it is impossible to separate the behaviour
+on the various length scales, since the coupling between them is
+strong and bidirectional.
+%%
+For some systems however, it is impossible to separate the behaviour
+on the various length scales, since the coupling between them is
+strong and bidirectional.
+%%
+For some systems however, it is impossible to separate the behaviour
+on the various length scales, since the coupling between them is
+strong and bidirectional.
+%%
+For some systems however, it is impossible to separate the behaviour
+on the various length scales, since the coupling between them is
+strong and bidirectional.
+%%
+For some systems however, it is impossible to separate the behaviour
+on the various length scales, since the coupling between them is
+strong and bidirectional.
+%%
+For some systems however, it is impossible to separate the behaviour
+on the various length scales, since the coupling between them is
+strong and bidirectional.
+%%
+For some systems however, it is impossible to separate the behaviour
+on the various length scales, since the coupling between them is
+strong and bidirectional.
+%%
+For some systems however, it is impossible to separate the behaviour
+on the various length scales, since the coupling between them is
+strong and bidirectional.
+%%
+For some systems however, it is impossible to separate the behaviour
+on the various length scales, since the coupling between them is
+strong and bidirectional.
+%

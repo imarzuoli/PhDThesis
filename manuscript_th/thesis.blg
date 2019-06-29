@@ -2,20 +2,29 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: front.aux
+A level-1 auxiliary file: nomenclature.aux
 A level-1 auxiliary file: 1introduction/introduction.aux
+A level-1 auxiliary file: 2methods/methods.aux
 A level-1 auxiliary file: appendix.aux
 The style file: naturemag.bst
-Reallocated field_info (elt_size=4) to 11006 items from 5000.
+Reallocated field_info (elt_size=4) to 11942 items from 5000.
 Database file #1: thesis_ref.bib
-Repeated entry---line 2645 of file thesis_ref.bib
+I was expecting an "="---line 345 of file thesis_ref.bib
+ : 
+ : number = {2},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2607 of file thesis_ref.bib
  : @article{Vuong2004
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2677 of file thesis_ref.bib
+Repeated entry---line 2639 of file thesis_ref.bib
  : @article{Wang2004
  :                  ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--entry type for "poly" isn't style-file defined
+--line 3248 of file thesis_ref.bib
 Warning--I didn't find a database entry for "AIreview"
 Warning--I didn't find a database entry for "history_medicine_review"
 Warning--I didn't find a database entry for "above"
@@ -25,6 +34,8 @@ Warning--I didn't find a database entry for "review_drug_delivery"
 Warning--I didn't find a database entry for "WIDES_database"
 Warning--I didn't find a database entry for "Mitchess1945"
 Warning--I didn't find a database entry for "what?"
+Warning--I didn't find a database entry for "Torres2019"
+Warning--I didn't find a database entry for "Castelletto2016"
 Warning--I didn't find a database entry for "???"
 Warning--I didn't find a database entry for "McKellar1999???"
 Warning--I didn't find a database entry for "????"
@@ -32,55 +43,82 @@ Warning--I didn't find a database entry for "Ebbensgaard2015PLOS???"
 Warning--I didn't find a database entry for "??"
 Warning--I didn't find a database entry for "verifyyyyy"
 Warning--I didn't find a database entry for "see_example_on_AMPR"
-Warning--I didn't find a database entry for "Loose2006"
-Warning--I didn't find a database entry for "IBMhttps://doi.org/10.1063/1.5027261"
-Warning--I didn't find a database entry for "Bolintineanu2011"
-Warning--I didn't find a database entry for "Khandelia2005"
-Warning--I didn't find a database entry for "Tsai2009"
 Warning--I didn't find a database entry for "Cherkasov2009"
+Warning--I didn't find a database entry for "Naafs2018"
+Warning--I didn't find a database entry for "2_fjell"
+Warning--I didn't find a database entry for "160"
+Warning--I didn't find a database entry for "161_fjell"
+Warning--I didn't find a database entry for "Anguela2019"
+Warning--I didn't find a database entry for "Barrangou2015"
+Warning--I didn't find a database entry for "Zhang2014cas"
+Warning--I didn't find a database entry for "Shu2014"
+Warning--I didn't find a database entry for "Oldfield1993"
+Warning--I didn't find a database entry for "Lawler2017"
+Warning--I didn't find a database entry for "Naldini2011"
+Warning--I didn't find a database entry for "Mingozzi2011"
+Warning--I didn't find a database entry for "Sanchez1992"
+Warning--I didn't find a database entry for "Arnol1977"
+Warning--I didn't find a database entry for "Arnold1980"
+Warning--I didn't find a database entry for "Kirkpatrick1971"
+Warning--I didn't find a database entry for "Jahani2015"
+Warning--I didn't find a database entry for "Arnaud2003"
+Warning--I didn't find a database entry for "Arnaus2003"
+Warning--I didn't find a database entry for "Shau1992"
+Warning--I didn't find a database entry for "Gahr1991"
+Warning--I didn't find a database entry for "Wayne1992"
+Warning--I didn't find a database entry for "Wakabayashi1996"
+Warning--I didn't find a database entry for "Aguilera1999"
+Warning--I didn't find a database entry for "Cochran2001"
+Warning--I didn't find a database entry for "Nguyen2015"
+Warning--I didn't find a database entry for "Tsutsumi2012"
+Warning--I didn't find a database entry for "Arseneault2010"
+Warning--I didn't find a database entry for "Strom2002"
+Warning--I didn't find a database entry for "..."
 Warning--I didn't find a database entry for "Bishop:998831"
 Warning--I didn't find a database entry for "Williams:2006vz"
 Warning--empty booktitle in Pattni2015
 Warning--empty journal in Oneill2016
-You've used 207 entries,
+Warning--empty title in Tran2013
+Warning--empty year in Tran2013
+You've used 216 entries,
             2348 wiz_defined-function locations,
-            2561 strings with 76037 characters,
-and the built_in function-call counts, 88890 in all, are:
-= -- 6716
-> -- 2302
+            2672 strings with 78896 characters,
+and the built_in function-call counts, 92228 in all, are:
+= -- 6961
+> -- 2378
 < -- 0
-+ -- 1152
-- -- 575
-* -- 11437
-:= -- 9950
-add.period$ -- 820
-call.type$ -- 207
-change.case$ -- 206
++ -- 1190
+- -- 594
+* -- 11843
+:= -- 10324
+add.period$ -- 853
+call.type$ -- 216
+change.case$ -- 214
 chr.to.int$ -- 0
-cite$ -- 209
-duplicate$ -- 7527
-empty$ -- 7804
-format.name$ -- 762
-if$ -- 17507
+cite$ -- 220
+duplicate$ -- 7822
+empty$ -- 8114
+format.name$ -- 787
+if$ -- 18166
 int.to.chr$ -- 0
-int.to.str$ -- 207
-missing$ -- 1795
-newline$ -- 1242
-num.names$ -- 205
-pop$ -- 985
+int.to.str$ -- 216
+missing$ -- 1863
+newline$ -- 1293
+num.names$ -- 214
+pop$ -- 1037
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1235
+skip$ -- 1291
 stack$ -- 0
-substring$ -- 4849
-swap$ -- 7738
+substring$ -- 5014
+swap$ -- 8018
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 575
-width$ -- 210
-write$ -- 2672
-(There were 2 error messages)
+warning$ -- 4
+while$ -- 597
+width$ -- 219
+write$ -- 2779
+(There were 3 error messages)

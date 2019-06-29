@@ -37,7 +37,7 @@ This introduction is meant to give an overview of the many different challenges 
 \begin{center}
 \Large{\textbf{Motivations of the work: a graphical abstract}}\par\bigskip
 \includegraphics[width = \textwidth]{pics/scheme_intro}
-\caption{Figures a. to k. adapted from: a. [11], a. [11], a. [11], a. [11], a. [11], a. [11], a. [11], a. [11], a. [11], a. [11], a. [11]} \label{fig:intro}
+\caption{Figures a. and j. bond representation, produced with the VMD software. Remianing figures adapted from: b. [--]; c. \cite{poly}; d. [11], e. [11], f. \cite{Blair2014}, g. [--]; h. \cite{Torres2019}; i. \cite{Nguyen2011}, j. Di-phenilananine, bonds representation; k. \cite{Castelletto2016}} \label{fig:intro}
 \end{center}
 \end{figure}
 
@@ -458,7 +458,7 @@ Another approach consists in focussing on minimal antimicrobial blocks: several 
 
 
 An effort to extract principles from these examples is represented by text based model where amino acids constitutes the letters and patterns occurring in natural AMPs the grammar rules \cite{Loose2006}.
-This approach can benefit of the improving size of peptide database, together with the advancement in text mining technology and dedicated machine learning algorithms, bringing to the streamlined selection of promising sequence to investigate further \cite{IBMhttps://doi.org/10.1063/1.5027261}.
+This approach can benefit of the improving size of peptide database, together with the advancement in text mining technology and dedicated machine learning algorithms, bringing to the streamlined selection of promising sequence to investigate further \cite{Cipcigan2018}.
 
 In general, the advantage of template based methods is in the reduced number of sequences to test, with decrease cost, as only a subspace of them is explored, namely the ones close to the original template.
 
@@ -475,11 +475,8 @@ For these reasons, such techniques have been applied to fewer systems in compari
 Therefore the strength of biophysical studies does not lay in the power of analysing large dataset, but rather in the fact that, as they exploit the whole information available (sequence, structure, chemistry), they can single out the interactions that are crucial for a mechanism, clarifying whether they are peculiar of a given local environment or they can be maintained elsewhere. In this respect, they provide a generalisable knowledge applicable to different systems and thus to the design of novel AMPs at the atomic level.
 
 An example of how MD simulations shed light on AMP-membrane interactions is given by the protegrine peptide: porcine protegrin is a $\beta$-hairpin AMP which is though to act through pore formation. A model for the detailed steps of such mechanism was obtained by simulations and proposed a non trivial process of electrostatic attraction to the anionic membrane followed by dimeri­sation and subsequent insertion into the membrane. Finally, inserted peptides form large aggregates that lead to transmem­brane pores formation \cite{Bolintineanu2011}.
-%Bolintineanu, D. S. & Kaznessis, Y. N. Computational studies of protegrin antimicrobial peptides: a review. Peptides32, 188–201 (2011).
+%
 Steps further were taken for ovispirin \cite{Khandelia2005}, indolicidin \cite{Tsai2009} and temporin \cite{Farrotti2017} sequences, designing and testing, computationally and then experimentally, mutants of the original sequence with improved activity and decreased haemolytic activity.
-%117 Khandelia, H. & Kaznessis, Y. N. Molecular dynamics simulations of helical antimicrobial peptides in SDS micelles: what do point mutations achieve? Peptides26, 2037–2049 (2005).
-%118.Tsai, C. W. et al. Coupling molecular dynamics simulations with experiments for the rational design of indolicidin-analogous antimicrobial peptides. J. Mol. Biol.392, 837–854 (2009).
-
 
 \paragraph{Virtual screening}
 Contrary to biophysical assay, virtual screening methods are employed to analyse a large number of sequence, when an experimental or computational test of all of them would be prohibitive. The key concept of these methods consists in the identifications of some descriptors which allow to predict the potency of the sequence: from the analysis of a database of AMP with known activity, a model is created and used to score novel synthetic sequences.
@@ -488,13 +485,13 @@ These methods are witnessing new popularity due to the recent evolution of machi
 
 Therefore ML algorithm are trained on a set of AMPs sequences labelled by their potency, where the sequence (or each amino acids) can be characterised by many different properties: partial charge, hydrophobicity, amphiphilicity and molecular weight are the most intuitive ones; but also by experimental measures of pK (the logarithm of the dissociation constant), pI (the isoelectric point), nuclear magnetic resonance data and chromatographic indices retention time in a given chromatography column, octanol–water partition fraction or circular dichroism. Finally, other theoretically computed features as van der Waals surface area and hardness (the energy required to remove the outermost electron) can be considered as well.
 %
-The more the input features to consider, the more expensive is to train the model, but an higher accuracy can be meet: the power of such approach is exactly in the identification of relevant features traditionally overlooked. At the same time though, the output is likely providing complex descriptors (i.e. combinations of many features), thus of difficult interpretation. This is why the step of features selection is important and more than one model is trained to identify the minimum set giving satisfactory agreement with the data.143,144
+The more the input features to consider, the more expensive is to train the model, but an higher accuracy can be meet: the power of such approach is exactly in the identification of relevant features traditionally overlooked. At the same time though, the output is likely providing complex descriptors (i.e. combinations of many features), thus of difficult interpretation. This is why the step of features selection is important and more than one model is trained to identify the minimum set giving satisfactory agreement with the data \cite{Walters2005,Gonzalez2008}.
 %
 In principle, having complex descriptors is not a problem as rather than guide the design, they can be used to scores all possible combinatorial sequences of the desired length to identify the best ones. In practise this can be difficult even for such an in silico screening because of their number: as a meter, all the possible amino acid combinations on a 10 residues sequence are of the order of $10^{11}$.
 %
 A possible solution is constituted by evolutionary search methods in the sequence space: analogously to an energy minimization process in space, single amino acid mutations are attempted and the fitness of the new sequence computed, based on the model generated via ML. The move is accepted if it proceeds toward an improved fitness, i.e. a maximum in the fitness landscape.
 
-Another obstacle to these procedures is given by the fact that the more features one wants to consider, the more sequences need to be given as input to the algorithm: nowadays, high-throughput synthesis methods, together with surrogate measures of bacterial killing, such as lipid vesicle experiments 147 or the diminished energy ­dependent luminescence of bacteria constitutively expressing luciferase 90 (rather that Minimum Inhibitory Concentration assays 148), allow for quick screening of many of those.
+Another obstacle to these procedures is given by the fact that the more features one wants to consider, the more sequences need to be given as input to the algorithm: nowadays, high-throughput synthesis methods, together with surrogate measures of bacterial killing, such as lipid vesicle experiments \cite{Wimley2010} or the diminished energy ­dependent luminescence of bacteria constitutively expressing luciferase 90 (rather that Minimum Inhibitory Concentration assays \cite{Lewenza2005}), allow for quick screening of many of those.
 %
 This was employed by Cherkasov et al. \cite{Cherkasov2009}, as they assessed the antimicrobial properties of thousands of 9 residues sequences and trained a neural network on the outcome, and then scored novel sequences with good accuracy as proved by experiments.
 %Cherkasov, A. et al. Use of artificial intelligence in the design of small peptide antibiotics effective against a broad spectrum of highly antibiotic-resistant superbugs. ACS Chem. Biol. 4, 65–74 (2009).This study used peptide array methods to make thousands of nine-amino-acid peptides that were then used to train neural network QSAR methods, enabling the identification and synthesis of peptides with broad-spectrum activity that were effective in systemic models of infections.150.Fjell, C. D. et al. Identification of novel antibacterial 
@@ -558,9 +555,9 @@ Second, in order for the assembly to be able to perform the additional delivery 
 
 Out of all the possible applications, the most promising is perhaps the use of such vehicles to deliver drugs to treat metabolic or genetic diseases: while the cargo tackles a defect of the host system, the vehicle can counteract the proliferation of bacteria. This is particularly important in situation where the host immune response is weakened and thus infections normally harmless can spread and cause damage.
 %
-At this point it must be noticed that the cargo is not bound to be a small molecule: many organic biomolecules proved to have medical potential, and as long as they can effectively co-assemble with the carrier the whole system makes a suitable synergy and, as mentioned in the previous section, gene therapy is also a field actively interested in the development of carrier for genetic material. Given that viruses have been the first choice so far, peptidic carrier seem a natural evolution of them.
+At this point it must be noticed that the cargo is not bound to be a small molecule: many organic biomolecules proved to have medical potential, and as long as they can effectively co-assemble with the carrier the whole system makes a suitable synergy. As mentioned in the previous section, gene therapy is also an actively expanding field which looks with interested at the development of carrier for genetic material. Given that viruses have been the first choice for DNA/RNA delivery so far, peptidic carriers seem a natural evolution of them.
 
-\vspace{1cm}
+\bigskip
 Given the above premises, this thesis aims at elucidating the behaviour of a particular synthetic self-assembling peptide which is suitable for antimicrobial activity and gene delivery: characterising it will complete the knowledge on its mechanisms and will complement the broader information already known on such functional building blocks. This will be crucial for the engineering of new ones with improved characteristics, either in their antimicrobial activity, assembly performances, or tailored cargo delivery.
 
 
@@ -568,58 +565,82 @@ Given the above premises, this thesis aims at elucidating the behaviour of a par
 The molecule capzip has been designed to perform the functions mentioned above. To recapitulate, the properties the designed block must have are:
 \begin{enumerate}
 \item assembly into nanoscale virus-like capsules with and without nucleic acids, to ensure the vector is autonomous and thus there is flexibility in the choice of the cargo;
-\item antimicrobial activity of the molecule and of the capsule on a time scale useful for therapeutic application.
+\item antimicrobial activity of the molecule and of the capsule on a time scale useful for therapeutic application;
 \item promotion of gene transfer into mammalian cells when co-assembled with the designed peptide, without causing cytotoxic and haemolytic effects.
 \end{enumerate}
 %
-Furthermore, the design effort was aimed at building a template structure of minimal complexity, in order to synthesise a short sequence. Arguably, short sequences are also more flexible in their assembly: it is important to explore them and to prove whether even small blocks can assemble in an ordered structure.
+Furthermore, the design effort was aimed at building a template structure of minimal complexity, in order to synthesise a short sequence. Arguably, short sequences are also more flexible in their assembly: it is thus important to explore them and to prove whether even small blocks can in principle assemble in an ordered structure.
 
-Based on the above requirements, two design principles emerged: first the employment of a non-linear structure. There are indeed some evidence suggesting that non linear peptides are more prone to assemble in three dimensional structures, opposed to planar ones. This holds in particular for short sequences which do not fold with a defined secondary structure. Second, the use of a template antimicrobial sequence which is short and has proved potency.
+Based on the above requirements, two design principles emerged: first the employment of a non-linear structure. There are indeed some evidence suggesting that non linear peptides are more prone to assemble in three dimensional structures, opposed to planar ones [REFS???]. This holds in particular for short sequences which do not fold with a defined secondary structure.
+%
+To satisfy this a short peptidic scaffold constituted by a $\beta$-Alanine and two Lysins has been engineered.
+%
+The second principle consists in the use of a template antimicrobial sequence which is short and has proved potency.
+%
+Three identical copies of the antimicrobial sequence are covalently bonded to the N-terminus of the scaffold sequence and to the nitrogen atom of the Lysin residues side chains (Figure --).
+%
+The antimicrobial sequence of choice has been derived from the antimicrobial peptide bovine lactoferricin, which is in turn a portion of the Lactoferrin protein.
 
-To satisfy the first constraint a short peptidic scaffold has been engineered
+\paragraph{Lactoferrin} Lactoferrin is an iron binding protein present in milk (in which it is most abundant, hence its name), saliva and other secretions, as well as in polymorphonuclear leukocytes.
+%
+It works as an iron binder and provides a natural defence against bacteria and fungi \cite{Sanchez1992,Arnol1977,Arnold1980,Kirkpatrick1971,Jahani2015}, constituting a first defence for infants.
 
-The antimicrobial peptide lactoferricin
+Lactoferrin contributes to bacterial suppression in several ways. At present, its known modes of action falls in three categories: thanks to its iron-sequestering capabilities, it removes essential substrate required for their growth \cite{Arnaud2003}; it interacts with bacterial membranes and in particular binds to lipopolysaccharides of bacterial walls, oxidising them and affecting the membrane permeability with consequent cell lysis \cite{Arnaus2003}; finally it is implicated in the stimulation of different immunological cells (killer cells \cite{Shau1992}, polymorphonuclear leukocytes, and macrophages \cite{Gahr1991}).
+The peptide fragment responsible for binding to the bacterial membrane, named lactoferricin (Lfcin), has been identified near its N-terminus and found to have a more potent bactericidal effect than intact lactoferrin itself on a wide range of bacteria \cite{Gifford2005,Wayne1992,Tomita1994,Wakabayashi1996}.
+%
+Similarly, a synthetic short peptide derived from human lactoferricin has been proven effective against bacteria as it depolarises the cytoplasmic membrane decreasing the pH gradient \cite{Aguilera1999}.
 
--------------------------
+The bovine homolog of lactoferricin (LfcinB) has a higher bactericidal potency than human lactoferricin on several bacteria \cite{Cochran2001} and therefore has been more extensively studied. Its active core LfcinB is a 25-amino acid sequence which adopts a helical conformation in the full structure but when isolated crystallises in a $\beta$-hairpin with a disulfite bridge nearby the terminals which stabilises the fold. An analogous bond is present also in the intact lactoferrin, but was shown to be not essential for bactericidal activity \cite{Cochran2001}.
+%
+Further experiments on LfcinB subsequences identified an even shorter antimicrobial core, constituted by the six amino acids RRWQWR \cite{Schibli1999}. This core presents a characteristic Tryptophan zipper motif WTW, which in nature very often appears in $\beta$-turn and $\beta$-sheet conformations paired to other copies of the same motif, with Tryptophan rings from facing strands packed tightly against one another in an alternated way \cite{Cochran2001}.
+In general, this short sequence contains both charged and hydrophobic residues, in line with the composition of antimicrobial peptides. Therefore, its antimicrobial action is likely derived from its interaction with biological membranes through charge recognition first and aromatic rings insertion in a second moment, however its precise mechanism of action is still unknown.
 
-The molecule of interest is a three branched structure: a central scaffold is constituted by a $\beta$-Alanine and two Lysins. Three copies of an antimicrobial sequence are covalently bonded to the N-terminus or the $\beta$-alanine and the side chains of the two Lysins. The complete structure, a (RRWTWE)-$\beta$A-K(RRWTWE)-K(RRWTWE)-am structure, is shown in Figure --.
+To elucidate that, several experimental investigations have been carried on LfcinB and its subsequences. First the structure of LfcinB in solution has been investigated by NMR, resulting very flexible \cite{Hwang1998}. It was then studied the binding of its antimicrobial core to sodium dodecyl sulfate micelles \cite{Schibli1999}, which seems favoured by the interaction of aromatic residues with micelles.
+%Hwang 1998, Three-Dimensional Solution Structure of Lactoferricin B, an Antimicrobial Peptide Derived from Bovine Lactoferrin
+Similar experiments on large unilamellar vesicles constituted by lipids modelling biological membranes (i.e. ePE:ePC for a model of a mammal membrane, and ePE:ePG or ePC:ePG for a bacterial membrane model)  showed a preferential binding to the latter ones, based on Tryptophan fluorescence \cite{Nguyen2015}. This suggests a selective antimicrobial action on anionic membranes.
+%
+More experiments have been performed on the full sequence or subsequences hosting some mutations \cite{Tsutsumi2012,Arseneault2010} to investigate the binding with different membrane models, making difficult an interpretation of the full landscape.
 
-The repeated sequence RRWTWE
+Finally, an alanine scanning has attempted to clarify the role of each amino acid in the antimicrobial activity of the peptide \cite{Strom2002}, suggesting a binding role for the Tryptophan residues. This is in line with one of the roles Tryptophan can assume in antimicrobial peptides \cite{Chan2006}.
 
-antimicrobial
-and non-haemolytic protein lactoferrin. This is a major component of the innate immune system found in secretory ?uids including saliva and milk and is notably responsible for providing antimicrobial protection to infants. The antimicro- bial activity of this protein is attributed to a core sequence of six amino acids – RRWQWR (Fig. 1a).7
-In its free, isolated form the
-peptide is moderately antimicrobial and does not assemble. The sequence is homologues to virus-derived tryptophan zippers, with a characteristic core motif WTW, which adopts b- turn and b-sheet conformations with cross-strand tryptophan rings packed tightly against one another.8
-b-Strands, arranged
-antiparallel, foster interactions between amino-acid side chains of opposite termini
-To capitalize on this, the glutamine and C-terminal arginine of the lactoferrin motif were replaced with threonine and gluta- mate giving rise to a self-complementary sequence RRWTWE (Fig. 1a and b). With the virus architecture adopting an n-fold rotational symmetry, where n is usually 3 or 5 or both,9
-a triskel
-conjugate of RRWTWE was generated to give a self-assembling motif with a trilateral symmetry reminiscent of native cage-like subunits (Fig. 1b–e and S1 in ESI†). The resulting construct, dubbed cap
+\paragraph{The designed block}
+To obtain a self-assembling molecule in a three dimensional shape, three copies of the antimicrobial sequence were covalently bonded to the scaffold described previously and shown in Figure --. The AM sequence chosen is a variation on the lactoferricin antimicrobial core RRWQWR: two mutation were introduced to favour the assembly of arms belonging to different molecules in an antiparallel fashion. Specifically, given that the original RRWQWTR sequence is found in a $\beta$-sheet (at least in the crystal lattice), the mutations aim at promoting a similar structure. Therefore, the Glutamine residue and the C-terminal Arginine of the lactoferrin motif were replaced with Threonine and Glutammic acid residues to have a self-complementary sequence RRWTWE: the pairing is promoted by the attraction of opposite charges at the ends of the sequence.
 
-
-to have amp chose lfc (details later)
-to have self assembling 3 branches
-the functionalised lysines, previous examples.
-
-Details: LFC. Say experiment, it is short, beta sheet. So prone to form small things and beta sheet. Maybe not structured but ok
-
-then say details on synthesis (or say in supplementaries)
-
-
+%With the virus architecture adopting an n-fold rotational symmetry, where n is usually 3 or 5 or both,9 a triskel conjugate of RRWTWE was generated to give a self-assembling motif with a trilateral symmetry reminiscent of native cage-like subunits (Fig. 1b–e and S1 in ESI†).
 
 \subsection{A viable systems: experimental background}
-say experiments:
+Many experiments have been performed to verify that capzip had the characteristics it was designed for. The set of experimental results performed on the molecule has been published in Reference \cite{Castelletto2016}, while more recent results are in publication now.
 
-characterisation of molecules itself and how we think it assembles (salt)
+First, the assembly ability have been tested: in pure water, the peptide does not show assembly (as verified by Dynamic Light Scattering), while in biological buffer (MOPS, 150 mM) at physiological pH it forms capsules with dominating size range of 20–200 nm. This is confirmed by transmission electron microscopy (TEM), atomic force microscopy (AFM), cryo-scanning electron microscopy (SEM).
+%
+The fine structure of these assemblies appears irregular to the resolution power of such techniques. Some insight into the details of the assembly is given by Circular Dichroism (CD) spectrum, which shows a profile characteristic of $\beta$-turns, with minima at $\lambda \sim$ 200 nm and 214 nm, containing elements of a $\beta$-sheet structure and indole rings.
+%
+Complementary evidence was provided by the cross-sectional analysis of the assembled capsules by fluorescence microscopy using fluorescein to label capzip. The signal comes from the wall of the capsule only, showing an inner cavity (Figure --).
+%
+Finally, small angle X-ray scattering (SAXS) measurements were consistent with compact capsules interfacing with the solvent (Figure --).
 
-char of SA: tem afm dls
+The assembly is observed also in combination with small interfering RNAs (siRNA): these sequences are a promising tools for RNA interference techniques which aim at inhibiting the expression of specific genes. However, they are easily degradable and thus difficult to deliver to the target cell without an appropriate vehicle.
+%
+The co-assembly of a 21 base pairs duplex shows the formation of structures similar to the one of bare capsules: CD spectra highlight the helical signal from RNA (in the shape of an A-DNA form) together with the features proper of the peptide.
 
-char of am: not assembed, agaist bacteria,, assembled against SLB
-microfluidic results
+These co-assembled structures were tested for siRNA uptake in HeLa cells, showing that the presence of the peptide favours the internalisation of the genetic material. This was tested qualitatively via delivery of fluorescent siRNA: the internalisation was observed within the first hours from the transfection in localised regions of the cytoplasm, suggesting an endocytic uptake. This distribution was stable over the first five hours of incubation after which the fluorescence signal decayed.
+%
+Such results were comparable to those of other transfection reagents[21c]: to quantify the level of RNA internalisation, a mRNA knockdown experiment was performed on a HeLa cell line with two housekeeping genes, ACTB ($\beta$-actin, targeted) and GAPDH (reference).[22c]
+%
+The silencing of $\beta$-actin mRNA was detected at 22 $\pm$ 2 hours post-transfection; its knockdown ``fitness” was expressed relative to cells treated with siRNA alone (background) and normalised against viable cell counts (Fig. 4b). Cells treated with capzip remained viable after 24 or 48 hour, showing little toxicity.
+%
+On the contrary, lipofectamine[put commercial R], used as a positive control, showed higher knockdown levels but also lower cell counts, suggesting apparent cytotoxicity.[23c]
+%
+The experiment was performed at neutral to positive charge ratio close to one (with siRNA the negative specie - charge -1$e$ - and capzip the positive one - charge +6$e$), as test experiments performed at higher peptide ratio showed no improved uptake.
 
-delivery: internalization of siRNA
+Lastly, the peptide exert an antimicrobial function: the non-assembled peptide has shown to be effective against both Gram positive and negative bacteria (E. coli, P. aeruginosa and S. aureus), with no haemolytic effects and minimum inhibitory concentrations typical of other antimicrobial agents. [PUT NEW RESULTS ON LARVAE AND PERSISTER CELLS?]
+%
+Moreover, on Supported Lipid Bilayer (mixed DLPC and DLPG, 3:1 ratio), the capsules create localized pores within minutes, as proven by AFM experiments repeated in time. The pore depth ranges between 1.4 and 2.2 nm, which is well below the radius of the capsule, however it is sufficient to disrupt the structure of the membrane.
 
-in vivo results
+%MANCA: microfluidic results, in vivo results
+
+
+\subsection{The role of computation in capzip development}
 
 then unclear point
 
@@ -632,26 +653,64 @@ in general - set up system to investigate this, question how to perform simul (p
 [How/methodology: in general why experiments are limited]
 [My case, what we do know and how MD can help]
 [How: introduction on in general how MD can help (but methods details in the relative chapter)]
-\clearpage
+
+
+As the details of the structure at the atomistic level are beyond the experimental resolution, we investigate the molecular arrangements of such complex system through multiscale Molecular Dynamics (MD) simulations, to better understand the determinants behind the macroscopic processes of assembly and pore formation.
+A full knowledge will direct the design of new more effective molecules, aiming at further customization and improved selectivity of the mature delivery vehicle.
+In the next sections, we describe the building of the model structure from a hierarchical investigation of increasingly larger assembly, and the atomistic and coarse grain simulations performed. The analysis of both geometrical properties and dynamical evolution highlights the role of the amphiphilic structure in determining the preferred assembly.
+Moreover, we analyse the influence of the peptide assembly on a model bacterial membrane, with and without an applied electric field, to reproduce the conditions at which the antibacterial action takes place, finding in the local rigidification of the membrane a possible trigger of the poration event.
+
+
+%Sánchez L, Calvo M, Brock JH (May 1992). "Biological role of lactoferrin". Archives of Disease in Childhood. 67 (5): 657–61. doi:10.1136/adc.67.5.657. PMC 1793702. PMID 1599309
+%Arnold, R. R., Cole, M. F., and McGhee, J. R. (1977)Science197, 263-265.
+%Arnold, R. R., Brewer, M., and Gauthier, J. J. (1980)Infect.Immun. 28, 893-898.
+%Kirkpatrick, C. H., Green, I., Rich R. R., and Shade, A. L.(1971)J. Infect. Dis. 124, 539-544
+%Arnaud S, Evans RW (November 2003). "Lactoferrin--a multifunctional protein with antimicrobial properties". Molecular Immunology. 40 (7): 395–405. doi:10.1016/S0161-5890(03)00152-4. PMID 14568385.
+%Gifford JL, Hunter HN, Vogel HJ (November 2005). "Lactoferricin: a lactoferrin-derived peptide with antimicrobial, antiviral, antitumor and immunological properties". Cellular and Molecular Life Sciences. 62 (22): 2588–98. doi:10.1007/s00018-005-5373-z. PMID 16261252
+%Wayne Bellamy, Mitsunori Takase, Koji Yamauchi, Hiroyuki Wakabayashi, Kouzou Kawase, Mamoru Tomita, Identification of the bactericidal domain of lactoferrin, Biochimica et Biophysica Acta (BBA) - Protein Structure and Molecular Enzymology, Volume 1121, Issues 1–2, 1992, Pages 130-136, ISSN0167-4838, https://doi.org/10.1016/0167-4838(92)90346-F.
+%Jahani 2015  10.17795/iji27594
+%Tomita, M., Takase, M., Bellamy, W., and Shimamura, S.(1994)Acta Paediatr. J. 36, 585-591.10. %Wakabayashi, H., Hiratani, T., Uchida, K., and Yamaguchi,H. (1996)J. Infect. Chemother. 1, 185-189.
+%D. J. Schibil, P. M. Hwang and H. J. Vogel, FEBS Lett., 1999, 446, 213
+%A. G. Cochran, N. J. Skelton and M. A. Starovasnik, Proc. Natl. Acad. Sci. U. S. A., 2001, 98, 5578.
+%Shau, H., Kim, A., and Golub, H. (1992)J. Leukocyte Biol.51, 343-349
+%Gahr, M., Speer, C. P., Damerau, B., and Sawatzki, G. (1991)J. Leukocyte Biol. 49, 427-433.
+%O. Aguilera, H. Ostolaza, L. M. Quirós, and J. F. Fierro, “Permeabilizing action of an antimicrobial lactoferricin-derived peptide on bacterial and artificial membranes,” FEBS Letters, vol. 462, no. 3, pp. 273–277, 1999. 
 
 
 
+
+
+%\paragraph{Bits}
+
+%In the triskel conjugate, RRWTWE is prone to fold as a b-turn and pair into a b-sheet with another arm of another conjugate.7 Triskelions are then
+%compact globular morphology of the capsules observed by AFM in solution (Fig. S3†). 
+
+%The specificity of these antibiotics allows generally to selectively target the desire species of bacteria, however it has the drawback that small modification in the target can easily invalidate the effect of the drug. 
+
+%The typical time at which this resilient population appears varies greatly according to the mechanism targeted by the drug, but also and especially by how this is administered, resulting in the modern ways of treating infections a particularly fertile ground to train drug-resistant bacteria. Key reasons of the acceleration of the mechanism are the more extensive - and sometimes unjustified - use of antibiotics, both in the doses used for patients and in the world wide coverage that nowadays can, luckily, been reached. It must not be forgotten that a large portion, if not the majority, of antibiotics do not come from human treatments but actually from agriculture and breeding.
+%
+%This increased pressure allow for a fast spread of resistance, but the emergency comes from the parallel lack of new discoveries of novel drugs. The few discovered and approve are kept as last resources and used carefully, both to prevent insurgence of resistance as long as possible and for their collateral effects: indeed, the inefficacy of other drugs has pushed pharmaceutical industry to resort to compounds discarded in the first screening because too toxic for the human body.
+
+
+%The design of new synthetic AMPs can enhance the self-assembly property to improve the antimicrobial activity and to tailor the final structure into an organized geometry suitable as delivery vehicle \cite{Wei2017, King2014, Norn2016, Korendovych2010, Vauthey2002}.
+%The design procedure must necessarily be directed by means of both experimental and theoretical modelling techniques \cite{Fjell2011, Maccari2013, Zhang2015}. Indeed, in silico techniques help to evaluate the physico-chemical characteristics of novel compounds and select the sequences suitable for the purpose. Additionally, they can elucidate the mode of actions of the antimicrobial activity which is still unclear for many AMPs, despite the vast body of experiments performed in the field \cite{Nguyen2011, Chan2006, Ulmschneider2017},
+
+%In this context we want to employ computational techniques to investigate the characteristics of a synthetic antimicrobial peptide designed and tested for its self-assembly characteristics. Capzip \cite{Castelletto2016} is a branched peptide which incorporates three copies of a six amino acids AM sequences (one for each branch, SI Figure \ref{fig:SI_capzip_formula}).
+%The sequence (RRWTWE) is a mutation of the antimicrobial region RRWQWR of the bovine lactoferricin peptide (PDB entry 1LFC)\cite{Schibli1999}. The mutations have been introduced to create a self-complementary sequence prone to antiparallel $\beta$-sheet formation with other identical sequences belonging to different molecules, via pairing of opposite charges \cite{Castelletto2016}. The three branches enforce a 3-fold rotational symmetry, reminiscent of the architecture of viral subunits, which aims at generating a three dimensional self-assembling motif, as the branches lies onto different planes.
 
 %One of the key advantages of AMPs over pharmaceutical antibiotics is the ability of some of these peptides to also modulate immune responses. For example, in addition to their direct antimicrobial activity, AMPs can protect the host by a range of mechanisms: chemotactic activity, attracting leukocytes; modulation of host-cell responsiveness to TLR ligands; stimulation of angiogenesi enhancement of leukocyte/monocyte activation and differentiation; and modulation of the expression of proinfl ammatory cytokines/chemokines (Figure 1). For example, LL37 has been shown to attract neutrophils, monocytes, mast cells and T cells. Different groups of AMPs appear to have distinct chemotactic activities from each other. 
 %Indeed, a common feature across most of them is the targeting of the bacterial membrane, generally in an unspecific way: membranes of different bacteria share often common characteristics, with all their species classifiable in two groups (Gram positive or negative) according to their membrane(s) structure, and thus AMPs are often effective on many representative of one class, if not both.
-
-simulation mammal membrane \cite{Ingolfsson2014}
-
-SELF assembly
 
 %Modification of AMPs with Covalent Bonds,  Modification of AMPs by Changing Amino Acid Content, Modification of AMPs by Amidation, Modification of AMPs with Unnatural Amino Acids, Modification of AMPs with Computer-Assisted Methods, New AMP Design by Homology Modeling
 
 %torres: determining structure-activity relationships. site-directed mutagenesis, computationaldesign approaches, synthetic libraries, template-assisted methodologies, and mechanism-based strat-egies. 
 
 
-\clearpage
+%This point - whether and how it is possible to engineer peptides for specific functions - will be a central theme of this work. The engineering process must always be connected with the function the carrier has to perform, and its relation with its cargo: the drug.
 
-%REF
+%we know that some enter the membrane because there are the cell penetrating peptides so use database [start chapter on this]
+
+%Gandhi2014 for nanocarrier for siRNA/miRNA
 
 %Joo2016 Andersson2016 AMR to AMPs
 
@@ -662,36 +721,3 @@ SELF assembly
 %Molecular mechanisms of membrane targeting antibiotics Epand2016 READ
 %BASIS FOR SELECTIVITY OF CATIONICANTIMICROBIAL PEPTIDES FOR BACTERIAL VS.MAMMALIAN MEMBRANES 2005Glukhov
 %The therapeutic applications of antimicrobial peptides (AMPs): a patent review Kang2017
-
-\paragraph{Bits}
-
-The specificity of these antibiotics allows generally to selectively target the desire species of bacteria, however it has the drawback that small modification in the target can easily invalidate the effect of the drug. 
-
-The typical time at which this resilient population appears varies greatly according to the mechanism targeted by the drug, but also and especially by how this is administered, resulting in the modern ways of treating infections a particularly fertile ground to train drug-resistant bacteria. Key reasons of the acceleration of the mechanism are the more extensive - and sometimes unjustified - use of antibiotics, both in the doses used for patients and in the world wide coverage that nowadays can, luckily, been reached. It must not be forgotten that a large portion, if not the majority, of antibiotics do not come from human treatments but actually from agriculture and breeding.
-%
-This increased pressure allow for a fast spread of resistance, but the emergency comes from the parallel lack of new discoveries of novel drugs. The few discovered and approve are kept as last resources and used carefully, both to prevent insurgence of resistance as long as possible and for their collateral effects: indeed, the inefficacy of other drugs has pushed pharmaceutical industry to resort to compounds discarded in the first screening because too toxic for the human body.
-
-
-
-
-%The design of new synthetic AMPs can enhance the self-assembly property to improve the antimicrobial activity and to tailor the final structure into an organized geometry suitable as delivery vehicle \cite{Wei2017, King2014, Norn2016, Korendovych2010, Vauthey2002}.
-%The design procedure must necessarily be directed by means of both experimental and theoretical modelling techniques \cite{Fjell2011, Maccari2013, Zhang2015}. Indeed, in silico techniques help to evaluate the physico-chemical characteristics of novel compounds and select the sequences suitable for the purpose. Additionally, they can elucidate the mode of actions of the antimicrobial activity which is still unclear for many AMPs, despite the vast body of experiments performed in the field \cite{Nguyen2011, Chan2006, Ulmschneider2017},
-
-%In this context we want to employ computational techniques to investigate the characteristics of a synthetic antimicrobial peptide designed and tested for its self-assembly characteristics. Capzip \cite{Castelletto2016} is a branched peptide which incorporates three copies of a six amino acids AM sequences (one for each branch, SI Figure \ref{fig:SI_capzip_formula}).
-%The sequence (RRWTWE) is a mutation of the antimicrobial region RRWQWR of the bovine lactoferricin peptide (PDB entry 1LFC)\cite{Schibli1999}. The mutations have been introduced to create a self-complementary sequence prone to antiparallel $\beta$-sheet formation with other identical sequences belonging to different molecules, via pairing of opposite charges \cite{Castelletto2016}. The three branches enforce a 3-fold rotational symmetry, reminiscent of the architecture of viral subunits, which aims at generating a three dimensional self-assembling motif, as the branches lies onto different planes.
-
-%Consistently, in biological buffer at physiological pH capzip assembles in polydispersed round hollow capsules of diameter in the range of 50-500 nm, and can successfully co-assemble with siRNA, enhancing its uptake in HeLa cells.
-%When tested for antimicrobial activity, the non-assembled peptide has shown to be effective against both Gram positive and negative bacteria, with no haemolytic effects. Finally, on Supported Lipid Bilayer (mixed DLPC and DLPG, 3:1 ratio), the capsules are shown to convert in localized pores within minutes, as proven by AFM experiments repeated in time \cite{Castelletto2016}.
-
-%As the details of the structure at the atomistic level are beyond the experimental resolution, we investigate the molecular arrangements of such complex system through multiscale Molecular Dynamics (MD) simulations, to better understand the determinants behind the macroscopic processes of assembly and pore formation.
-%A full knowledge will direct the design of new more effective molecules, aiming at further customization and improved selectivity of the mature delivery vehicle.
-%In the next sections, we describe the building of the model structure from a hierarchical investigation of increasingly larger assembly, and the atomistic and coarse grain simulations performed. The analysis of both geometrical properties and dynamical evolution highlights the role of the amphiphilic structure in determining the preferred assembly.
-%Moreover, we analyse the influence of the peptide assembly on a model bacterial membrane, with and without an applied electric field, to reproduce the conditions at which the antibacterial action takes place, finding in the local rigidification of the membrane a possible trigger of the poration event.
-
-
-
-This point - whether and how it is possible to engineer peptides for specific functions - will be a central theme of this work. The engineering process must always be connected with the function the carrier has to perform, and its relation with its cargo: the drug.
-
-we know that some enter the membrane because there are the cell penetrating peptides so use database [start chapter on this]
-
-Gandhi2014 for nanocarrier for siRNA/miRNA

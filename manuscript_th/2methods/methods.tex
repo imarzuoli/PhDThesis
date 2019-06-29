@@ -1,0 +1,190 @@
+\chapter{Methods}
+
+\lettrine{M}{olecular Dynamics} is a computational method which has gained more and more popularity and significance in the past few decades in the fields of biology, biological chemistry, and biophysics.
+%
+The increasing amount of data available from experiments on biomolecular materials and processes, united with the increasing computational power, has made possible to analyse such experimental data and to implement the derived knowledge into models.
+%
+Such model systems can be simulated on a computer so that the dynamical properties of the process in exam are uncovered at the molecular level as well.
+
+Several models are possible, which differ in the choice of spatial resolution, time scale and degrees of freedom.
+%
+Each of them can be queried for different questions: the more detailed ones access more accurate properties but are generally computationally expensive so that less detailed models are widely employed as well as they provide a first outcome in shorter computer time.
+
+The general idea of simulating biological processes consists in the description of the atoms within a system and their mutual interaction, so that implementing the laws of physics will provide a description of the natural evolution of the system. In principle every atoms should be present in the picture, and the system should evolve according to the principles of quantum mechanics. To facilitate the task, some models (including all the ones we will focus on) opt for a classical description, and a subgroup of these describes small groups of atoms together - to compute less positions at each time instant. According to the size of the system simulated and the time span described, such approximations will be less and less relevant as classical mechanics represent well the evolution of large systems and some details result unimportant at the macroscale.
+
+The details of a few models used to simulate biological molecules will be discussed later in this chapter, while  strength and limitations of Molecular Dynamic simulations will be briefly discussed first.
+%
+In doing this, the discussion focuses on four problems simulations have to face and solve: the force-field problem, the search problem, the ensemble problem and the experimental problem. This schematic follows the excellent review by van Gunsteren \cite{...}, one of the pioneers of Molecular Dynamics simulations applied to biomolecular systems, which identifies in these four issues the interpretative key with which MD simulations must be designed, employed and interpreted.
+
+\section{The four main problems of computational models of biosystems}
+
+%Refs [*] as in van Gunsteren review
+
+Although this paragraph aims at highlighting some key features of computational techniques employed in biophysics, it is written with Molecular Dynamics simulations as its focus. Therefore, before 
+
+newton/QM
+discretisation
+
+\paragraph{The force-field problem}
+A) very small (free) energy differences, many interactions
+B) entropic effects
+C) variety of atoms and molecules
+
+
+\paragraph{The search problem}
+Very often the aim of Molecular Dynamics simulations, or other computational techniques which investigate biosystems, consists in characterising the energy landscape and in particular in finding the configuration of minimal energy.
+%Indeed these configurations are the ones populated by the system most of the time therefore determine its properties. The problem is complicated by the fact that conformations unfavourable from the energetic point of view can be important if abundant enough (the entropic contribution), but let focus for the moment on the problem of finding energy minima first.
+
+Biomolecular systems have thousands of strongly interdependent degrees of freedom, therefore their energy landscape is complex and rough, meaning many local minima of energy are present. Ideally, the full landscape needs to be explored as the properties of the system are determined by the ensemble of conformation visited by the system and how often each of them is adopted. However, statistical mechanics teaches that the configurations with lower energy have an higher contribution to the system, according to the Boltzmann weight:
+\begin{equation}
+P(x) ~ \exp(-V(x)/k_BT)
+\end{equation}
+with $k_B$ the Boltzmann constant, $T$ the absolute temperature and $V(x)$ the position dependent potential energy. Therefore the importance of investigating energy minima.
+
+At the core of every search lays the potential energy function, i.e. how the energy contributions of the systems are modelled and computed: the force field. Then the initial configuration is very important as well.
+%
+Many techniques perform a local search, so that the energy landscape is explored in the vicinity of the starting conformation, and regions further away are sample at the expenses of longer runs. Very often in the simulations of protein the initial structure is derived from X-ray crystallography, however it is well known that this might not represent the native state in solution or the functional form of interest, making the convergence toward the desired structure a long process.
+
+Different techniques have been developed to sample the conformation space, and a non exhaustive list comprises:
+\begin{itemize}
+\item methods generating a series of independent configurations for the system (in the so-called distance-geometry metric-matrix method [72, 73]) to cast the search problem into a distance-based form;
+\item techniques building a system configuration from configurations of its fragments in a stepwise manner (for example in the Monte Carlo chain-growing methods [77, 78] such as the configurational bias Monte Carlo (CBMC) technique [79])
+\item step methods, including energy minimization, Metropolis Monte Carlo, molecular dynamics, or stochastic dynamics [80]. Such methods build a new configuration starting from the one before, so that the step is associates to a pseudo time. In particular in MD it is related to time as the configuration is changed according to the force and the inertia of the degrees of freedom, in a simplified implementation of Newton's law mentioned above.
+\end{itemize} 
+
+Even with the evolution of computing power, computational techniques and MD in particular have struggled to investigate large systems and reproduce processes showing slow transitions (which are prevented by high energy barriers). For this reason many techniques have been designed to overcome such impediment, and give rise to the set of enhanced MD techniques.
+
+The first typology of actions aims at smoothening and deformation of the potential energy surface, for example by the use of longer range distance bonds based on experimental results (e.g. NOE data) [82] or the softening of geometric restraints derived from NMR or X-ray data through time averaging [87,88]; by use of ``soft-core" atoms (thus reducing the Pauli repulsion among them) [83];
+ avoiding to re-sample energy minima already visited through local potential-energy elevation or conformational flooding [85,86]; by constraining high-frequency degrees of freedom (for example non-polar hydrogens) to avoid spending time sampling their motion [90] or finally by coarse-graining the model by reduction of the number of interaction sites [54–59] (a few examples will be given in Section --).
+%omission of high-resolution structure factor data in structure refinement based on X-ray diffraction data
+%reduction of the ruggedness of the energy surface through a diffusion-equatio;n type of scaling [83, 84]
+%\item circumvention of energy barriers through an extension of the dimensionality of the Cartesian space (4D-MD) [89]
+
+Other approaches include enhancing the temperature to use the acquired kinetic energy to overcome energy barriers [91], scaling the mass to reduce inertia [92] or use a mean-field approach to compute fewer interaction per time step [93, mettiPino?].
+%
+Finally, multiple simulations can be combined together to gather the information of the single runs. A famous example in the field of MD is constituted by replica-exchange and multicanonical algorithms [62] where from simulations held at different conditions some configurations are extracted and used to feed a new set of simulations.
+
+Moreover, in this work very often the use of pre-assembled capsid-like particles has been employed to speed up the investigation (as will be extensively explained in Chapter --). Though proceeding from different reasons and being less formal than the approaches below, this, together with many consolidated procedures to set up MD simulations, all aim at an efficient if not enhanced sampling of the configuration space, given the difficulty of the task if a naive approach is taken.
+
+The outcome of MD simulation is thus a (local and incomplete) sampling of the configuration space. Out of this sampling, not all the configurations visited are meaningful and in particular the initial steps track the equilibration from the initial (and perhaps biased) state, to the final ones which, if the simulation is long enough and correctly set up, represent the equilibrium configurations (with `equilibrium' used in the intuitive sense of local minimum of energy and not in its formally correct definition from analytical mechanics). Therefore specific physical quantities (and their fluctuations or autocorrelation functions) are monitored in time to control whether equilibration has been reached. Similarly this can be checked comparing the convergence of different simulations to a common state.
+
+Finally it must be noticed that in the case of well studied biological system, the search problem is somehow diminished by the common knowledge accumulated on them and coded in the energy functions used: or example, only a few rotamers of the common amino acids are favoured in the force field commonly employed, according to the informations gained from X-ray scattering.
+%
+On the contrary, other factors makes the task more difficult, like the ensemble problem, which is briefly highlighted in the next paragraph.
+
+In the light of the above consideration, it is clear that for many biological problems simulations can  not sample the whole phase space with the computing power available, therefore it is paramount to adopt smart strategies to increase sampling efficiency, possibly to resort to artificially enhanced sampling techniques and finally to bear in mind this limitation while drawing conclusion.
+
+
+\paragraph{The ensemble problem}
+
+Despite energy ($U$) is the functional often used for the investigation of biomolecular systems, it is its combination with entropy $S$ in the form of free energy ($F = U - TS$) that drives their evolution. Many states can reach the same free energy, though having different energetic and entropic contribution, in particular some processes can be dominated by the variation in the energy term while other by changes in the entropy.
+%
+This also means that a state with an energy higher than the minimal possible one can still determine the behaviour of the system if such energy can be reached by many more configurations (entropic contribution).
+
+For example, entropy is particularly important when considering the state of the solvent: being constituted by many molecules, its entropic contribution can be significant, up to shifting the preferred folding of a peptide to a conformation less favourable energetically for the protein itself, but having a lower free energy when considering the full system including the solvent.
+%
+In turn this means that the pool of conformations adopted by the peptide and the folding pathways are temperature-dependent.
+
+The pool of conformations is the so-called ensemble: if the development of X-ray crystallography pushed forward the idea that a protein is fixed in one particular shape at the beginning of structural biology, in recent years the concept of ensemble has come back, supported by techniques such as NMR. Their results can be correctly interpreted only assuming an ensemble of shapes and their correct reciprocal weight, as often they cannot be explained by any of the conformations by itself. MD simulations can elucidate such relative importance of a shape by finding the conformations and estimating the time of residency in each.
+
+Finally, it must be noticed that MD simulations have been successful in computing free energy differences between states, as it is sufficient to sample extensively the region of the phase or configuration space where the two states differ. In contrast, to compute entropy difference requires the correct evaluation of the full Hamiltonian operator in both states and not only the terms which are different between them. Some of the terms (for example the solvent entropy) are very hard to obtain computationally as they would require a prohibitively extended sampling for their correct calculation. [142]
+%
+Some techniques have been developed to address the problem but are hardly applicable to the calculation of ligand-protein binding entropy or polypeptide folding one [142]. Thus, up to now entropy computations remain under-represented with respect to free energy ones in the landscape of computational biology.
+
+
+\paragraph{The experimental problem}
+
+The validation of MD simulations is performed by comparison with experiments. Specifically, the properties extracted from the experiments available are computed from the MD trajectory as well, and then compared. If these are correctly reproduced, it is usually assumed that the simulation has reached equilibration and therefore is sampling the correct ensemble of states. Through the conformations present in the trajectory, one can identify structures and details responsible for the experimental properties of interest, information often not accessible by the experiment itself.
+
+In such procedure it can often happen that the measured and computed quantity do not match or that the interpretation of the comparison is hard. This can be due to several factors, which can be grouped into three classes of problems.
+%
+First, the quantity measured by the experiment is almost always an average in time and/or space. For example, Circular Dichroism spectra and SAXS profiles of a peptide in solution are the result of a convolution of the profiles cast by every conformation adopted by the protein in the time window of the measurement, averaged over all the copies of the peptide present in solution. As such, many different combinations can give the same results, so that it is difficult to state with certainty how the pool of configurations provided by MD should be weighted to respect the experimental result or whether there are some missing configurations.
+%
+The second problem descends directly from the previous one and arises from the fact that the experimental information is limited in comparison with the many degrees of freedom involved in biomolecular systems. The problem is thus under-determined and it is impossible to obtain a full conformational ensemble from experimental data only.
+%
+Finally, the accuracy of the experimental data can be limiting factor in discriminating the goodness of a simulation: MD resolution is usually higher than experimental one, suggesting the importance of mechanism not passable of experimental verification. This problem will be likely alleviated in the future as experimental techniques get better and better.
+
+From the examples above, it is clear the importance of MD simulations in accessing details of the systems which are inaccessible to experiments which measure average ensembles. However the set up of Molecular Dynamics needs always to be validated against experimental properties.
+%
+In such comparison is important to bear in mind a critical attitude both when the results agree and when they do not.
+%
+Indeed, agreement between simulation and experiment may arise from either a simulation that reflects correctly the experimental system; from a ``wrong focus" of attention, e.g. the property examined is insensitive to the details of the simulated trajectory; or finally from a compensation of errors, which can happen more easily for systems with a high number of degree of freedom.
+Similarly, disagreement may hint at either an error in the simulation (in the theory behind it, the model, the implementation or the simulation is simply not converged yet) or in the experiment (the result itself o its interpretation).
+
+
+\vspace{5cm}
+
+
+hpc so good systems simulated
+simplified methods
+to get into this, its force and flaws,scheme as van gunsteren
+
+1) which atomic or molecular degrees of freedom are explicitly considered in the model,
+2) which interaction function or force field is used to describe the energy of the system as a function of the chosen degrees of freedom,
+3) how these, generally many, degrees of freedom are to be sampled,
+4) how the spatial boundaries and external forces are modeled. 
+
+established method which enables the simulation of the dynamical
+properties of a system over time, using Newton’s equations of motion
+
+fascination
+
+Structure:
+
+motivations of md
+
+principles of md 
+	gromos (as implemented in gromacs)
+	
+coarse grain
+	sirah
+	martini
+
+examples proteins
+
+example membranes
+
+
+
+
+ff in gromacs
+
+
+\paragraph{Bonded interactions}
+
+In the GROMOS96 force field bonds between atoms $i$ and $j$ are described by a fourth power potential (similar to a harmonic form, but more computationally efficient as no square root needs to be calculated when computing the forces). Specifically, the potential and the force are computed as:
+\begin{eqnarray}
+&& V_b(r_{ij}) = \frac{1}{4}\,k^b_{ij}\,\left(r_{ij}^2 - b_{ij}^2\right)^2 \\
+&& \textbf{F}_i(\textbf{r}_{ij}) = k^b_{ij}\,\left(r_{ij}^2 - b_{ij}^2\right)\,\textbf{r}_{ij}
+\end{eqnarray}
+where the force constant is given in kJ/mol/m$^2$.
+
+The preferred angle between three atoms $i$, $j$ and $k$ and the stiffness with which it is changed are implemented through a cosine based angle potential:
+\begin{eqnarray}
+&& V_a(\theta_{ijk}) = \frac{1}{2}\,k^\theta_{ijk}\,\left(\cos\left(\theta_{ijk}\right) - cos\left(\theta^0_{ijk}\right)\right)^2 \\
+&& \text{with:} \ \cos\left(\theta_{ijk}\right) = \frac{\textbf{r}_{ij}\cdot \textbf{r}_{kj}}{r_{ij}\,r_{kj}}
+\end{eqnarray}
+with $k^\theta$ in kJ/mol.
+
+Improper dihedrals are used to enforce ring planarity and chirality of some tetrahedral arrangements. They are described through an harmonic potential, where angles are given in degrees and force constants in kJ/mol/rad$^2$. When defining a dihedral for a set of four atoms $i$, $j$, $k$ and $l$, the convention adopted considers the angle measured between the plane defined by atoms ($i$, $j$, $k$) and the one defined by atoms ($j$, $k$, $l$).
+\begin{eqnarray}
+&& V_{id} (\xi_{ijkl}) = \frac{1}{2}\,k_\xi \left( \xi_{ijkl} - \xi_0 \right)^2
+\end{eqnarray}
+
+The last bonded interaction is represented by proper dihedrals, which are described though a periodic potential, following the convention that $\phi$ is the angle between the ($i$, $j$, $k$) and  planes ($j$, $k$, $l$), with $i$, $j$, $k$, and $l$ four subsequent atoms (for example along a protein backbone). A value of zero for the proper dihedral corresponds to the \textit{cis} configuration. $k_\phi$ is expressed in kJ/mol.
+\begin{eqnarray}
+&& V_d(\phi_{ijkl}) = k_\phi\,\left( 1 + \cos\left( n\phi - \phi_s \right) \right)
+\end{eqnarray}
+
+\paragraph{Non bonded interactions}
+Non bonded interactions account for the Pauli repulsion between atoms when they come too close
+
+
+pair-additive and centro-symmetric:
+neighbour list
+repulsion term, a dispersion term, and a Coulomb term.
+The repulsion and dispersion term are combined in either the Lennard-Jones (or 6-12 interaction),
+or the Buckingham (or exp-6 potential). In addition, (partially) charged atoms act through the
+Coulomb term.
+
+\paragraph{Newton's law and MD algorithm}
