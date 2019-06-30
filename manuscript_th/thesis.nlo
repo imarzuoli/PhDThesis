@@ -12,15 +12,5 @@
 \nomenclatureentry{ASEM@[{SEM}]\begingroup Cryo-scanning Electron Microscopy\nomeqref {0}|nompageref}{10}
 \nomenclatureentry{AML@[{ML}]\begingroup Machine Learning\nomeqref {0}|nompageref}{10}
 \nomenclatureentry{AMD@[{MD}]\begingroup Molecular Dynamics\nomeqref {0}|nompageref}{10}
-\nomenclatureentry{AMC@[{MC}]\begingroup Monte Carlo\nomeqref {0}|nompageref}{10}
-\nomenclatureentry{ABBB?FDA?PEG?LPS?@[{BBB?FDA?PEG?LPS?}]\begingroup ll\nomeqref {0}|nompageref}{10}
-\nomenclatureentry{B0$a \mid \mathbf{a} \mid \mathbf{A} \mid \mathbb{A}$@[{$a \mid \mathbf{a} \mid \mathbf{A} \mid \mathbb{A}$}]\begingroup Scalar, vector, matrix and block matrix\nomeqref {0}|nompageref}{10}
-\nomenclatureentry{B1$\mathbf{a}^{\rm{T}} \mid \hat{\mathbf{a}} $@[{$\mathbf{a}^{\rm{T}} \mid \hat{\mathbf{a}} $}]\begingroup The transpose $\mathbf{a}$ and the unit vector in the direction of $\mathbf{a}$\nomeqref {0}|nompageref}{10}
-\nomenclatureentry{B3$\sim$@[{$\sim$}]\begingroup Distributed according to or approximately equal to\nomeqref {0}|nompageref}{10}
-\nomenclatureentry{B31$\mathcal{GP}$@[{$\mathcal{GP}$}]\begingroup Gaussian stochastic process\nomeqref {0}|nompageref}{10}
-\nomenclatureentry{B32$\langle \cdot \rangle $@[{$\langle \cdot \rangle $}]\begingroup Expectation with respect to a Gaussian stochastic process\nomeqref {0}|nompageref}{10}
-\nomenclatureentry{B40$\boldsymbol{\theta}$@[{$\boldsymbol{\theta}$}]\begingroup Vector of hyperparameters\nomeqref {0}|nompageref}{10}
-\nomenclatureentry{B41$\ell \mid \sigma_n^2$@[{$\ell \mid \sigma_n^2$}]\begingroup Lengthscale and noise hyperparameter\nomeqref {0}|nompageref}{10}
-\nomenclatureentry{B42$\mathcal{D}$@[{$\mathcal{D}$}]\begingroup Dataset\nomeqref {0}|nompageref}{10}
-\nomenclatureentry{B43$N$@[{$N$}]\begingroup Number of training points\nomeqref {0}|nompageref}{10}
-\nomenclatureentry{B5$\mathcal{O}(\cdot)$@[{$\mathcal{O}(\cdot)$}]\begingroup Computational complexity\nomeqref {0}|nompageref}{10}
+\nomenclatureentry{BMC@[{MC}]\begingroup Monte Carlo\nomeqref {0}|nompageref}{10}
+\nomenclatureentry{KBBB?FDA?PEG?LPS?@[{BBB?FDA?PEG?LPS?}]\begingroup ll\nomeqref {0}|nompageref}{10}

@@ -1,31 +1,31 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  29 JUN 2019 16:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.9)  30 JUN 2019 12:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(./preamble.tex (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
-Document Class: memoir 2015/07/08 v3.7e configurable book, report, article docu
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(./preamble.tex (/usr/local/texlive/2014/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2013/05/30 v3.7b configurable book, report, article docu
 ment class
 \onelineskip=\skip41
 \lxvchars=\skip42
 \xlvchars=\skip43
 \@memcnta=\count79
 \c@@memmarkcntra=\count80
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/ifetex/ifetex.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ifetex/ifetex.sty
 Package: ifetex 2011/12/15 v1.2 ifetex
 
-(/usr/share/texlive/texmf-dist/tex/plain/ifetex/ifetex.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2014/texmf-dist/tex/plain/ifetex/ifetex.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -34,7 +34,11 @@ Package ifluatex Info: LuaTeX not detected.
 \trimtop=\skip46
 \trimedge=\skip47
 
-(/usr/share/texlive/texmf-dist/tex/latex/memoir/mem12.clo
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count81
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/memoir/mem12.clo
 File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 )
 \binding=\skip48
@@ -47,20 +51,20 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \mem@maxheadheight=\skip55
 \mem@maxfootheight=\skip56
 \headwidth=\skip57
-\c@storedpagenumber=\count81
+\c@storedpagenumber=\count82
 \memPD=\dimen102
 \m@mabparskip=\skip58
 \thanksmarkwidth=\skip59
 \thanksmarksep=\skip60
 \droptitle=\skip61
-\c@book=\count82
-\c@part=\count83
-\c@chapter=\count84
-\c@section=\count85
-\c@subsection=\count86
-\c@subsubsection=\count87
-\c@paragraph=\count88
-\c@subparagraph=\count89
+\c@book=\count83
+\c@part=\count84
+\c@chapter=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
 \beforechapskip=\skip62
 \midchapskip=\skip63
 \afterchapskip=\skip64
@@ -82,8 +86,8 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \beforesubparaskip=\skip80
 \aftersubparaskip=\skip81
 \pfbreakskip=\skip82
-\c@@ppsavesec=\count90
-\c@@ppsaveapp=\count91
+\c@@ppsavesec=\count91
+\c@@ppsaveapp=\count92
 \ragrparindent=\dimen103
 \everylistparindent=\dimen104
 \parsepi=\skip83
@@ -105,10 +109,10 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \absrightindent=\skip97
 \absparindent=\skip98
 \absparsep=\skip99
-\c@vslineno=\count92
-\c@poemline=\count93
-\c@modulo@vs=\count94
-\c@memfvsline=\count95
+\c@vslineno=\count93
+\c@poemline=\count94
+\c@modulo@vs=\count95
+\c@memfvsline=\count96
 \vleftskip=\skip100
 \vrightskip=\skip101
 \stanzaskip=\skip102
@@ -116,11 +120,11 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \vgap=\skip104
 \vindent=\skip105
 \vleftmargin=\dimen106
-\c@verse=\count96
-\c@chrsinstr=\count97
+\c@verse=\count97
+\c@chrsinstr=\count98
 \beforepoemtitleskip=\skip106
 \afterpoemtitleskip=\skip107
-\c@poem=\count98
+\c@poem=\count99
 \beforePoemTitleskip=\skip108
 \midPoemTitleskip=\skip109
 \afterPoemTitleskip=\skip110
@@ -134,7 +138,7 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \TX@old@col=\dimen111
 \TX@target=\dimen112
 \TX@delta=\dimen113
-\TX@cols=\count99
+\TX@cols=\count100
 \TX@ftn=\toks16
 \heavyrulewidth=\dimen114
 \lightrulewidth=\dimen115
@@ -146,22 +150,22 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \cmidrulesep=\dimen121
 \cmidrulekern=\dimen122
 \defaultaddspace=\dimen123
-\@cmidla=\count100
-\@cmidlb=\count101
+\@cmidla=\count101
+\@cmidlb=\count102
 \@aboverulesep=\dimen124
 \@belowrulesep=\dimen125
-\@thisruleclass=\count102
-\@lastruleclass=\count103
+\@thisruleclass=\count103
+\@lastruleclass=\count104
 \@thisrulewidth=\dimen126
 \ctableftskip=\skip113
 \ctabrightskip=\skip114
-\abovecolumnspenalty=\count104
-\@linestogo=\count105
-\@cellstogo=\count106
-\@cellsincolumn=\count107
+\abovecolumnspenalty=\count105
+\@linestogo=\count106
+\@cellstogo=\count107
+\@cellsincolumn=\count108
 \crtok=\toks17
 \@mincolumnwidth=\dimen127
-\c@newflo@tctr=\count108
+\c@newflo@tctr=\count109
 \mem@margin@floatbox=\box26
 \@contcwidth=\skip115
 \@contindw=\skip116
@@ -173,7 +177,7 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \subfloatbottomskip=\skip122
 \subfloatlabelskip=\skip123
 \subfloatcapmargin=\dimen128
-\c@@contsubnum=\count109
+\c@@contsubnum=\count110
 \m@mscap@capbox=\box27
 \m@mscap@fbox=\box28
 \sidecapsep=\dimen129
@@ -187,8 +191,8 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \afterepigraphskip=\skip125
 \epigraphwidth=\skip126
 \epigraphrule=\skip127
-LaTeX Info: Redefining \em on input line 7535.
-LaTeX Info: Redefining \emph on input line 7543.
+LaTeX Info: Redefining \em on input line 7492.
+LaTeX Info: Redefining \emph on input line 7500.
 \tocentryskip=\skip128
 \tocbaseline=\skip129
 \cftparskip=\skip130
@@ -217,17 +221,17 @@ LaTeX Info: Redefining \emph on input line 7543.
 \cftsubparagraphindent=\skip151
 \cftsubparagraphnumwidth=\skip152
 \prechapterprecisshift=\dimen138
-\c@maxsecnumdepth=\count110
+\c@maxsecnumdepth=\count111
 \bibindent=\dimen139
 \bibitemsep=\skip153
 \indexcolsep=\skip154
 \indexrule=\skip155
 \indexmarkstyle=\toks18
-\@indexbox=\insert199
+\@indexbox=\insert233
 \glossarycolsep=\dimen140
 \glossaryrule=\dimen141
 \sideparvshift=\skip156
-\sideins=\insert198
+\sideins=\insert232
 \sidebartopsep=\skip157
 \sidebarhsep=\skip158
 \sidebarvsep=\skip159
@@ -236,64 +240,64 @@ LaTeX Info: Redefining \emph on input line 7543.
 \footmarksep=\skip162
 \footparindent=\skip163
 \footinsdim=\skip164
-\footinsv@r=\insert197
-\@mpfootinsv@r=\insert196
-\m@m@k=\count111
+\footinsv@r=\insert231
+\@mpfootinsv@r=\insert230
+\m@m@k=\count112
 \m@m@h=\dimen142
 \m@mipn@skip=\skip165
-\sidefootins=\insert195
+\sidefootins=\insert229
 \sidefootadjust=\skip166
 \sidefootheight=\skip167
 \sidefoothsep=\skip168
 \sidefootvsep=\skip169
 \sidefootwidth=\skip170
 \m@mdownsf=\skip171
-\c@sidefootnote=\count112
+\c@sidefootnote=\count113
 \sidefootmarkwidth=\skip172
 \sidefootmarksep=\skip173
 \sidefootparindent=\skip174
-\c@pagenote=\count113
-\c@pagenoteshadow=\count114
+\c@pagenote=\count114
+\c@pagenoteshadow=\count115
 \mem@pn@lastkern=\skip175
 \every@verbatim=\toks19
 \afterevery@verbatim=\toks20
 \verbatim@line=\toks21
-\tab@position=\count115
+\tab@position=\count116
 \verbatim@in@stream=\read1
 \verbatimindent=\skip176
 \verbatim@out=\write3
 \bvboxsep=\skip177
-\c@memfbvline=\count116
-\c@bvlinectr=\count117
+\c@memfbvline=\count117
+\c@bvlinectr=\count118
 \bvnumlength=\skip178
 \fb@frw=\dimen143
 \fb@frh=\dimen144
 \FrameRule=\dimen145
 \FrameSep=\dimen146
-\c@cp@cntr=\count118
-LaTeX Info: Redefining \: on input line 12052.
-LaTeX Info: Redefining \! on input line 12054.
-\c@ism@mctr=\count119
-\c@xsm@mctr=\count120
-\c@csm@mctr=\count121
-\c@ksm@mctr=\count122
-\c@xksm@mctr=\count123
-\c@cksm@mctr=\count124
-\c@msm@mctr=\count125
-\c@xmsm@mctr=\count126
-\c@cmsm@mctr=\count127
-\c@bsm@mctr=\count128
-\c@workm@mctr=\count129
-\c@sheetsequence=\count130
-\c@lastsheet=\count131
-\c@lastpage=\count132
-\c@figure=\count133
-\c@lofdepth=\count134
+\c@cp@cntr=\count119
+LaTeX Info: Redefining \: on input line 11958.
+LaTeX Info: Redefining \! on input line 11960.
+\c@ism@mctr=\count120
+\c@xsm@mctr=\count121
+\c@csm@mctr=\count122
+\c@ksm@mctr=\count123
+\c@xksm@mctr=\count124
+\c@cksm@mctr=\count125
+\c@msm@mctr=\count126
+\c@xmsm@mctr=\count127
+\c@cmsm@mctr=\count128
+\c@bsm@mctr=\count129
+\c@workm@mctr=\count130
+\c@sheetsequence=\count131
+\c@lastsheet=\count132
+\c@lastpage=\count133
+\c@figure=\count134
+\c@lofdepth=\count135
 \cftbeforefigureskip=\skip179
 \cftfigureindent=\skip180
 \cftfigurenumwidth=\skip181
-\c@table=\count135
-\c@lotdepth=\count136
+\c@table=\count136
+\c@lotdepth=\count137
 \cftbeforetableskip=\skip182
 \cfttableindent=\skip183
 \cfttablenumwidth=\skip184
@@ -333,92 +337,92 @@ Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
 
-(/usr/share/texlive/texmf-dist/tex/latex/memoir/mempatch.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/memoir/mempatch.sty
 Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip185
 \bibsep=\skip186
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count137
+\c@NAT@ctr=\count138
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count138
+\Gread@gobject=\count139
 ))
 \Gin@req@height=\dimen147
 \Gin@req@width=\dimen148
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/03 v2.15a AMS math features
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip187
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks23
 \ex@=\dimen149
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen150
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count139
-LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count140
-\leftroot@=\count141
-LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count142
-\DOTSCASE@=\count143
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+\inf@bad=\count140
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count141
+\leftroot@=\count142
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count143
+\DOTSCASE@=\count144
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box29
 \strutbox@=\box30
 \big@size=\dimen151
-LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count144
-\c@MaxMatrixCols=\count145
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count145
+\c@MaxMatrixCols=\count146
 \dotsspace@=\muskip10
-\c@parentequation=\count146
-\dspbrk@lvl=\count147
+\c@parentequation=\count147
+\dspbrk@lvl=\count148
 \tag@help=\toks24
-\row@=\count148
-\column@=\count149
-\maxfields@=\count150
+\row@=\count149
+\column@=\count150
+\maxfields@=\count151
 \andhelp@=\toks25
 \eqnshift@=\dimen152
 \alignsep@=\dimen153
@@ -430,132 +434,126 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \multlinegap=\skip188
 \multlinetaggap=\skip189
 \mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2735.
-LaTeX Info: Redefining \] on input line 2736.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/type1cm/type1cm.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/type1cm/type1cm.sty
 Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
 atched RF)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.sty
-File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
-\c@DefaultLines=\count151
-\c@DefaultDepth=\count152
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lettrine/lettrine.sty
+File: lettrine.sty 2013/03/14 v1.64 (Daniel Flipo)
+\c@DefaultLines=\count152
 \DefaultFindent=\dimen158
 \DefaultNindent=\dimen159
 \DefaultSlope=\dimen160
-\DiscardVskip=\dimen161
 \L@lbox=\box31
 \L@tbox=\box32
 \c@L@lines=\count153
-\c@L@depth=\count154
-\L@Pindent=\dimen162
-\L@Findent=\dimen163
-\L@Nindent=\dimen164
-\L@lraise=\dimen165
-\L@first=\dimen166
-\L@next=\dimen167
-\L@slope=\dimen168
-\L@height=\dimen169
-\L@novskip=\dimen170
-\LettrineWidth=\dimen171
-\LettrineHeight=\dimen172
-\LettrineDepth=\dimen173
+\L@Pindent=\dimen161
+\L@Findent=\dimen162
+\L@Nindent=\dimen163
+\L@lraise=\dimen164
+\L@first=\dimen165
+\L@next=\dimen166
+\L@slope=\dimen167
+\L@height=\dimen168
+\LettrineWidth=\dimen169
 
 Loading lettrine.cfg
-(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.cfg))
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lettrine/lettrine.cfg))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 143.
+Package color Info: Driver file: pdftex.def on input line 137.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen174
+(/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen170
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 \symugrf@m=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip190
 \LTright=\skip191
 \LTpre=\skip192
 \LTpost=\skip193
-\LTchunksize=\count155
-\LTcapwidth=\dimen175
+\LTchunksize=\count154
+\LTcapwidth=\dimen171
 \LT@head=\box33
 \LT@firsthead=\box34
 \LT@foot=\box35
 \LT@lastfoot=\box36
-\LT@cols=\count156
-\LT@rows=\count157
-\c@LT@tables=\count158
-\c@LT@chunks=\count159
+\LT@cols=\count155
+\LT@rows=\count156
+\c@LT@tables=\count157
+\c@LT@chunks=\count158
 \LT@p@ftn=\toks28
 )
-\c@subfigure=\count160
+\c@subfigure=\count159
 \cftbeforesubfigureskip=\skip194
-\cftsubfigureindent=\skip256
-\cftsubfigurenumwidth=\skip257
+\cftsubfigureindent=\skip195
+\cftsubfigurenumwidth=\skip196
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
 
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count161
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+\etb@tempcnta=\count160
 )
-\csq@reset=\count162
-\csq@gtype=\count163
-\csq@glevel=\count164
-\csq@qlevel=\count165
-\csq@maxlvl=\count166
-\csq@tshold=\count167
+\csq@reset=\count161
+\csq@gtype=\count162
+\csq@glevel=\count163
+\csq@qlevel=\count164
+\csq@maxlvl=\count165
+\csq@tshold=\count166
 \csq@ltx@everypar=\toks29
 
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
-\nomlabelwidth=\dimen176
-\nom@tempdim=\dimen177
-\nomitemsep=\skip258
+\nomlabelwidth=\dimen172
+\nom@tempdim=\dimen173
+\nomitemsep=\skip197
 )
-(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen178
-\c@nlinenum=\count168
+\rotheadsize=\dimen174
+\c@nlinenum=\count167
 \TeXr@lab=\toks30
 )
 
@@ -578,28 +576,26 @@ Sidefoothsep and sidefootwidth: 7pt and 42pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
-Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/05/09 v2.6d package option processing (HA)
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks31
 \XKV@tempa@toks=\toks32
-)
-\XKV@depth=\count169
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+\XKV@depth=\count168
+File: xkeyval.tex 2014/05/09 v2.6d key=value parser (HA)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -614,287 +610,298 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
 \pgfutil@everybye=\toks33
-\pgfutil@tempdima=\dimen179
-\pgfutil@tempdimb=\dimen180
+\pgfutil@tempdima=\dimen175
+\pgfutil@tempdimb=\dimen176
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box37
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
 ))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks34
 \pgfkeys@temptoks=\toks35
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
 \pgfkeys@tmptoks=\toks36
 ))
-\pgf@x=\dimen181
-\pgf@y=\dimen182
-\pgf@xa=\dimen183
-\pgf@ya=\dimen184
-\pgf@xb=\dimen185
-\pgf@yb=\dimen186
-\pgf@xc=\dimen187
-\pgf@yc=\dimen188
+\pgf@x=\dimen177
+\pgf@y=\dimen178
+\pgf@xa=\dimen179
+\pgf@ya=\dimen180
+\pgf@xb=\dimen181
+\pgf@yb=\dimen182
+\pgf@xc=\dimen183
+\pgf@yc=\dimen184
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count170
-\c@pgf@countb=\count171
-\c@pgf@countc=\count172
-\c@pgf@countd=\count173
+\c@pgf@counta=\count169
+\c@pgf@countb=\count170
+\c@pgf@countc=\count171
+\c@pgf@countd=\count172
 \t@pgf@toka=\toks37
 \t@pgf@tokb=\toks38
 \t@pgf@tokc=\toks39
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count174
-\pgfsyssoftpath@bigbuffer@items=\count175
+\pgfsyssoftpath@smallbuffer@items=\count173
+\pgfsyssoftpath@bigbuffer@items=\count174
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen189
-\pgfmath@count=\count176
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen185
+\pgfmath@count=\count175
 \pgfmath@box=\box38
 \pgfmath@toks=\toks40
 \pgfmath@stack@operand=\toks41
 \pgfmath@stack@operation=\toks42
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
 .code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count177
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count176
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen190
-\pgf@picmaxx=\dimen191
-\pgf@picminy=\dimen192
-\pgf@picmaxy=\dimen193
-\pgf@pathminx=\dimen194
-\pgf@pathmaxx=\dimen256
-\pgf@pathminy=\dimen257
-\pgf@pathmaxy=\dimen258
-\pgf@xx=\dimen259
-\pgf@xy=\dimen260
-\pgf@yx=\dimen261
-\pgf@yy=\dimen262
-\pgf@zx=\dimen263
-\pgf@zy=\dimen264
+\pgf@picminx=\dimen186
+\pgf@picmaxx=\dimen187
+\pgf@picminy=\dimen188
+\pgf@picmaxy=\dimen189
+\pgf@pathminx=\dimen190
+\pgf@pathmaxx=\dimen191
+\pgf@pathminy=\dimen192
+\pgf@pathmaxy=\dimen193
+\pgf@xx=\dimen194
+\pgf@xy=\dimen195
+\pgf@yx=\dimen196
+\pgf@yy=\dimen197
+\pgf@zx=\dimen198
+\pgf@zy=\dimen199
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen265
-\pgf@path@lasty=\dimen266
+\pgf@path@lastx=\dimen200
+\pgf@path@lasty=\dimen201
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex
-File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen267
-\pgf@shorten@start@additional=\dimen268
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen202
+\pgf@shorten@start@additional=\dimen203
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
-File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box39
 \pgf@hbox=\box40
 \pgf@layerbox@main=\box41
-\pgf@picture@serial@count=\count178
+\pgf@picture@serial@count=\count177
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex
-File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen269
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen204
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
-File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen270
-\pgf@pt@y=\dimen271
-\pgf@pt@temp=\dimen272
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen205
+\pgf@pt@y=\dimen206
+\pgf@pt@temp=\dimen207
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
-File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen273
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen208
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen274
-\pgf@sys@shading@range@num=\count179
+\pgf@max=\dimen209
+\pgf@sys@shading@range@num=\count178
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex
-File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
 \pgfexternal@startupbox=\box42
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
 \pgfnodeparttextbox=\box43
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen275
-\pgf@nodesepend=\dimen276
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen210
+\pgf@nodesepend=\dimen211
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen277
-\pgffor@skip=\dimen278
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen212
+\pgffor@skip=\dimen213
 \pgffor@stack=\toks43
 \pgffor@toks=\toks44
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count180
-\pgfplotmarksize=\dimen279
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count179
+\pgfplotmarksize=\dimen214
 )
-\tikz@lastx=\dimen280
-\tikz@lasty=\dimen281
-\tikz@lastxsaved=\dimen282
-\tikz@lastysaved=\dimen283
-\tikzleveldistance=\dimen284
-\tikzsiblingdistance=\dimen285
+\tikz@lastx=\dimen215
+\tikz@lasty=\dimen216
+\tikz@lastxsaved=\dimen217
+\tikz@lastysaved=\dimen218
+\tikzleveldistance=\dimen219
+\tikzsiblingdistance=\dimen220
 \tikz@figbox=\box44
 \tikz@figbox@bg=\box45
 \tikz@tempbox=\box46
 \tikz@tempbox@bg=\box47
-\tikztreelevel=\count181
-\tikznumberofchildren=\count182
-\tikznumberofcurrentchild=\count183
-\tikz@fig@count=\count184
+\tikztreelevel=\count180
+\tikznumberofchildren=\count181
+\tikznumberofcurrentchild=\count182
+\tikz@fig@count=\count183
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count185
-\pgfmatrixcurrentcolumn=\count186
-\pgf@matrix@numberofcolumns=\count187
+\pgfmatrixcurrentrow=\count184
+\pgfmatrixcurrentcolumn=\count185
+\pgf@matrix@numberofcolumns=\count186
 )
-\tikz@expandcount=\count188
+\tikz@expandcount=\count187
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count189
-\calc@Bcount=\count190
-\calc@Adimen=\dimen286
-\calc@Bdimen=\dimen287
-\calc@Askip=\skip259
-\calc@Bskip=\skip260
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count191
-\calc@Cskip=\skip261
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count188
+\calc@Bcount=\count189
+\calc@Adimen=\dimen221
+\calc@Bdimen=\dimen222
+\calc@Askip=\skip198
+\calc@Bskip=\skip199
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count190
+\calc@Cskip=\skip200
 )
-\c@@todonotes@numberoftodonotes=\count192
+\c@@todonotes@numberoftodonotes=\count191
 )
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 
@@ -903,38 +910,39 @@ To prepare we will now reset all captioning macros and configurations to kernel
  defaults, and then let the caption package take over. Please remember to use t
 he caption package interfaces in order to configure your captions. .
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen288
-\captionmargin@=\dimen289
-\captionwidth=\dimen290
-\caption@tempdima=\dimen291
-\caption@indent=\dimen292
-\caption@parindent=\dimen293
-\caption@hangindent=\dimen294
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen223
+\captionmargin@=\dimen224
+\captionwidth=\dimen225
+\caption@tempdima=\dimen226
+\caption@indent=\dimen227
+\caption@parindent=\dimen228
+Normal \dimen register pool exhausted, switching to extended pool.
+\caption@hangindent=\dimen256
 )
-\c@ContinuedFloat=\count193
+\c@ContinuedFloat=\count192
 Package caption Info: longtable package is loaded.
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -972,22 +980,22 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen295
-\Hy@linkcounter=\count194
-\Hy@pagecounter=\count266
+\@linkdim=\dimen257
+\Hy@linkcounter=\count193
+\Hy@pagecounter=\count194
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count267
+\Hy@SavedSpaceFactor=\count195
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `naturalnames' set `true' on input line 4319.
@@ -999,12 +1007,12 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count268
+\c@Hy@tempcnt=\count196
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen296
-\Fld@menulength=\count269
-\Field@Width=\dimen297
-\Fld@charsize=\dimen298
+\XeTeXLinkMargin=\dimen258
+\Fld@menulength=\count197
+\Field@Width=\dimen259
+\Fld@charsize=\dimen260
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1014,31 +1022,31 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count270
-\c@Item=\count271
-\c@Hfootnote=\count272
+\Hy@abspage=\count198
+\c@Item=\count199
+\c@Hfootnote=\count200
 )
-(/usr/share/texlive/texmf-dist/tex/latex/memoir/memhfixc.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
-\c@memhycontfloat=\count273
-\c@Hpagenote=\count274
+\c@memhycontfloat=\count201
+\c@Hpagenote=\count202
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count275
-\c@bookmark@seq@number=\count276
+\Fld@listcount=\count203
+\c@bookmark@seq@number=\count204
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip262
-)
+\Hy@SectionHShift=\skip201
+))
 \@nomenclaturefile=\write5
 \openout5 = `thesis.nlo'.
 
@@ -1065,23 +1073,23 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
-\scratchdimen=\dimen299
+\scratchcounter=\count205
+\scratchdimen=\dimen261
 \scratchbox=\box48
-\nofMPsegments=\count278
-\nofMParguments=\count279
+\nofMPsegments=\count206
+\nofMParguments=\count207
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count280
-\MPscratchDim=\dimen300
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
+\MPscratchCnt=\count208
+\MPscratchDim=\dimen262
+\MPnumerator=\count209
+\makeMPintoPDFobject=\count210
 \everyMPtoPDFconversion=\toks46
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
@@ -1089,7 +1097,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -1100,13 +1108,13 @@ Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box49
 Package hyperref Info: Link coloring OFF on input line 14.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count283
+\c@section@level=\count211
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1130,7 +1138,8 @@ Package pdftex.def Info: KCL_logo.pdf used on input line 45.
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./KCL_logo.pdf>]
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./KCL_l
+ogo.pdf>]
 
 Class memoir Warning: The \it font command is deprecated. 
 (memoir)              Use \textit{...} or {\itshape... } instead on input line 
@@ -1152,21 +1161,13 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 ] (./thesis.toc
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 1.
 
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )) [7
 
-] (./thesis.lof
-
-Package natbib Warning: Citation `Torres2019' on page 8 undefined on input line
- 2.
-
-
-Package natbib Warning: Citation `Castelletto2016' on page 8 undefined on input
- line 2.
-
-)
-\nomitemorigsep=\skip263
+]
+(./thesis.lof)
+\nomitemorigsep=\skip202
 
 No file thesis.nls.
 [8
@@ -1228,28 +1229,12 @@ ine 27.
 Package natbib Warning: Citation `what?' on page 12 undefined on input line 27.
 
 
-<pics/scheme_intro.pdf, id=140, 537.00626pt x 759.83875pt>
+<pics/scheme_intro.pdf, id=131, 537.00626pt x 759.83875pt>
 File: pics/scheme_intro.pdf Graphic file (type pdf)
 
 <use pics/scheme_intro.pdf>
 Package pdftex.def Info: pics/scheme_intro.pdf used on input line 39.
 (pdftex.def)             Requested size: 398.0pt x 563.15303pt.
-
-
-Package natbib Warning: Citation `Torres2019' on page 12 undefined on input lin
-e 40.
-
-
-Package natbib Warning: Citation `Castelletto2016' on page 12 undefined on inpu
-t line 40.
-
-
-Package natbib Warning: Citation `Torres2019' on page 12 undefined on input lin
-e 40.
-
-
-Package natbib Warning: Citation `Castelletto2016' on page 12 undefined on inpu
-t line 40.
 
 
 LaTeX Warning: Float too large for page by 19.38013pt on input line 42.
@@ -1273,10 +1258,6 @@ Package natbib Warning: Citation `???' on page 19 undefined on input line 118.
 Package natbib Warning: Citation `???' on page 19 undefined on input line 120.
 
 [19]
-
-Package natbib Warning: Citation `McKellar1999???' on page 20 undefined on inpu
-t line 124.
-
 
 Package natbib Warning: Citation `????' on page 20 undefined on input line 133.
 
@@ -1312,19 +1293,14 @@ Package natbib Warning: Citation `????' on page 22 undefined on input line 151.
 
 
 [22] [23] [24]
-Overfull \hbox (6.26108pt too wide) in paragraph at lines 209--216
+Overfull \hbox (6.26108pt too wide) in paragraph at lines 207--214
 []\OT1/cmr/m/n/12 The ad-di-tion of chem-i-cal groups to vul-ner-a-ble sites on
  the an-tibi-otic molecule
  []
 
-[25] [26]
+[25] [26] [27]
 
-Package natbib Warning: Citation `Ebbensgaard2015PLOS???' on page 27 undefined 
-on input line 244.
-
-[27]
-
-Package natbib Warning: Citation `???' on page 28 undefined on input line 260.
+Package natbib Warning: Citation `???' on page 28 undefined on input line 258.
 
 [28] [29]
 Missing character: There is no ‚ in font cmr12!
@@ -1335,41 +1311,38 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
  [30]
 
-Package natbib Warning: Citation `??' on page 31 undefined on input line 301.
+Package natbib Warning: Citation `??' on page 31 undefined on input line 299.
 
-[31]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 
+Package natbib Warning: Citation `???' on page 31 undefined on input line 317.
 
-Package natbib Warning: Citation `???' on page 32 undefined on input line 319.
-
+[31]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[32] [33] [34] [35]
+ [32] [33] [34] [35]
 
-Package natbib Warning: Citation `???' on page 36 undefined on input line 408.
-
-
-Package natbib Warning: Citation `verifyyyyy' on page 36 undefined on input lin
-e 411.
+Package natbib Warning: Citation `???' on page 36 undefined on input line 406.
 
 
-Package natbib Warning: Citation `verifyyyyy' on page 36 undefined on input lin
-e 411.
+Package natbib Warning: Citation `???' on page 36 undefined on input line 409.
+
+
+Package natbib Warning: Citation `???' on page 36 undefined on input line 409.
 
 [36]
 
-Package natbib Warning: Citation `see_example_on_AMPR' on page 37 undefined on 
-input line 412.
+Package natbib Warning: Citation `???see_example_on_AMPR' on page 37 undefined 
+on input line 410.
 
 
-Package natbib Warning: Citation `???' on page 37 undefined on input line 412.
+Package natbib Warning: Citation `???' on page 37 undefined on input line 410.
 
 [37]
 Missing character: There is no ¬ in font cmr12!
@@ -1378,7 +1351,7 @@ Missing character: There is no ≠ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
 
-Overfull \hbox (0.6029pt too wide) in paragraph at lines 448--449
+Overfull \hbox (0.6029pt too wide) in paragraph at lines 446--447
 \OT1/cmr/m/n/12 spec-trum AMP with high tox-i-c-ity, the po-si-tion-ing of pos-
 i-tively charged residues
  []
@@ -1397,162 +1370,20 @@ Missing character: There is no ì in font cmr12!
  [41]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
-
-
-Package natbib Warning: Citation `Cherkasov2009' on page 42 undefined on input 
-line 496.
-
-
-Package natbib Warning: Citation `Naafs2018' on page 42 undefined on input line
- 504.
-
-[42]
-
-Package natbib Warning: Citation `2_fjell' on page 43 undefined on input line 5
-06.
-
+ [42]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
+ [43] [44] [45] [46]
 
-Package natbib Warning: Citation `160' on page 43 undefined on input line 508.
+Package natbib Warning: Citation `???' on page 47 undefined on input line 559.
 
-
-Package natbib Warning: Citation `161_fjell' on page 43 undefined on input line
- 508.
-
-
-Package natbib Warning: Citation `Anguela2019' on page 43 undefined on input li
-ne 514.
-
-[43]
-
-Package natbib Warning: Citation `Barrangou2015' on page 44 undefined on input 
-line 522.
-
-
-Package natbib Warning: Citation `Zhang2014cas' on page 44 undefined on input l
-ine 523.
-
-
-Package natbib Warning: Citation `Shu2014' on page 44 undefined on input line 5
-23.
-
-
-Package natbib Warning: Citation `Oldfield1993' on page 44 undefined on input l
-ine 527.
-
-
-Package natbib Warning: Citation `Lawler2017' on page 44 undefined on input lin
-e 529.
-
-
-Package natbib Warning: Citation `Naldini2011' on page 44 undefined on input li
-ne 534.
-
-
-Package natbib Warning: Citation `Mingozzi2011' on page 44 undefined on input l
-ine 534.
-
-[44]
-
-Package natbib Warning: Citation `Anguela2019' on page 45 undefined on input li
-ne 538.
-
-[45] [46]
-
-Package natbib Warning: Citation `Sanchez1992' on page 47 undefined on input li
-ne 586.
-
-
-Package natbib Warning: Citation `Arnol1977' on page 47 undefined on input line
- 586.
-
-
-Package natbib Warning: Citation `Arnold1980' on page 47 undefined on input lin
-e 586.
-
-
-Package natbib Warning: Citation `Kirkpatrick1971' on page 47 undefined on inpu
-t line 586.
-
-
-Package natbib Warning: Citation `Jahani2015' on page 47 undefined on input lin
-e 586.
-
-
-Package natbib Warning: Citation `Arnaud2003' on page 47 undefined on input lin
-e 588.
-
-
-Package natbib Warning: Citation `Arnaus2003' on page 47 undefined on input lin
-e 588.
-
-
-Package natbib Warning: Citation `Shau1992' on page 47 undefined on input line 
-588.
-
-
-Package natbib Warning: Citation `Gahr1991' on page 47 undefined on input line 
-588.
-
-
-Package natbib Warning: Citation `Wayne1992' on page 47 undefined on input line
- 589.
-
-
-Package natbib Warning: Citation `Wakabayashi1996' on page 47 undefined on inpu
-t line 589.
-
-
-Package natbib Warning: Citation `Aguilera1999' on page 47 undefined on input l
-ine 591.
-
-
-Overfull \hbox (8.21939pt too wide) in paragraph at lines 588--592
-\OT1/cmr/m/n/12 its known modes of ac-tion falls in three cat-e-gories: thanks 
-to its iron-sequestering
- []
-
-[47]
-
-Package natbib Warning: Citation `Cochran2001' on page 48 undefined on input li
-ne 593.
-
-
-Package natbib Warning: Citation `Cochran2001' on page 48 undefined on input li
-ne 593.
-
-
-Package natbib Warning: Citation `Cochran2001' on page 48 undefined on input li
-ne 595.
-
-
-Package natbib Warning: Citation `Nguyen2015' on page 48 undefined on input lin
-e 600.
-
-
-Package natbib Warning: Citation `Tsutsumi2012' on page 48 undefined on input l
-ine 602.
-
-
-Package natbib Warning: Citation `Arseneault2010' on page 48 undefined on input
- line 602.
-
-[48]
-
-Package natbib Warning: Citation `Strom2002' on page 49 undefined on input line
- 604.
-
-
-Package natbib Warning: Citation `Castelletto2016' on page 49 undefined on inpu
-t line 612.
-
+[47] [48]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
-[49]
+ [49]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
@@ -1596,15 +1427,15 @@ t line 12.
 
 
 ] (./thesis.bbl
-Underfull \hbox (badness 2205) in paragraph at lines 36--40
-[]\OT1/cmr/m/n/12 Toledo, M.  Poly-mer-iza-tion re-ac-tions.  URL []$\OT1/cmtt/
-m/n/12 https : / / www . mt .
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 36--40
 \OT1/cmtt/m/n/12 com / au / en / home / applications / L1 _ AutoChem _ Applicat
 ions / L2 _
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 42--45
+[]\OT1/cmr/m/n/12 Wikipedia.  Li-po-some.  URL []$\OT1/cmtt/m/n/12 https : / / 
+en . wikipedia . org / wiki /
  []
 
 [62
@@ -1616,889 +1447,889 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 
-Underfull \hbox (badness 4441) in paragraph at lines 105--110
+Underfull \hbox (badness 4441) in paragraph at lines 142--147
 \OT1/cmr/m/n/12 vel-op-ment of drug de-liv-ery sys-tems  A Eu-ro-pean per-spec-
 tive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--110
+Underfull \hbox (badness 10000) in paragraph at lines 142--147
 \OT1/cmtt/m/n/12 and -[] challenges -[] in -[] the -[] development -[] of -[] d
 rug -[] Jain -[] Edwards /
  []
 
-
-Underfull \hbox (badness 2443) in paragraph at lines 112--119
+[63]
+Underfull \hbox (badness 2443) in paragraph at lines 149--156
 \OT1/cmr/m/it/12 Nan-otech-nol-ogy, Bi-ol-ogy and Medicine \OT1/cmr/bx/n/12 1\O
 T1/cmr/m/n/12 , 22--30 (2005).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--119
+Underfull \hbox (badness 10000) in paragraph at lines 149--156
 []$\OT1/cmtt/m/n/12 https : / / www . sciencedirect . com / science / article /
  pii /
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 121--128
+Underfull \hbox (badness 2608) in paragraph at lines 158--165
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 29986450http : / / www .
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 138--145
+Underfull \hbox (badness 2401) in paragraph at lines 175--182
 \OT1/cmr/m/n/12 bon Nano-ma-te-ri-als for Biomed-i-cal Ap-pli-ca-tions.  \OT1/c
 mr/m/it/12 Nanomedicine:
  []
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 138--145
+Underfull \hbox (badness 7168) in paragraph at lines 175--182
 \OT1/cmr/m/it/12 Nan-otech-nol-ogy, Bi-ol-ogy and Medicine \OT1/cmr/m/n/12 (201
 7).  URL []$\OT1/cmtt/m/n/12 http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--145
+Underfull \hbox (badness 10000) in paragraph at lines 175--182
 \OT1/cmtt/m/n/12 / / www . ncbi . nlm . nih . gov / pubmed / 28552644http : / /
  linkinghub .
  []
 
-[63]
-Underfull \hbox (badness 7888) in paragraph at lines 159--166
+
+Underfull \hbox (badness 7888) in paragraph at lines 196--203
 []\OT1/cmr/m/n/12 Lammers, T. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 Si-mul-t
 a-ne-ous de-liv-ery of dox-oru-bicin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--166
+Underfull \hbox (badness 10000) in paragraph at lines 196--203
 \OT1/cmr/m/n/12 and gem-c-itabine to tu-mors in vivo us-ing pro-to-typic poly-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--166
+Underfull \hbox (badness 10000) in paragraph at lines 196--203
 \OT1/cmr/m/n/12 meric drug car-ri-ers.  \OT1/cmr/m/it/12 Bio-ma-te-ri-als \OT1/
 cmr/bx/n/12 30\OT1/cmr/m/n/12 , 3466--3475 (2009).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--166
+Underfull \hbox (badness 10000) in paragraph at lines 196--203
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 19304320https :
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 168--176
+Underfull \hbox (badness 5022) in paragraph at lines 205--213
 []\OT1/cmr/m/n/12 Liechty, W. B., Kryscio, D. R., Slaugh-ter, B. V. & Pep-
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 168--176
+Underfull \hbox (badness 1742) in paragraph at lines 205--213
 \OT1/cmr/m/n/12 pas, N. A.  Poly-mers for drug de-liv-ery sys-tems.  \OT1/cmr/m
 /it/12 An-nual re-
  []
 
 
-Underfull \hbox (badness 1325) in paragraph at lines 168--176
+Underfull \hbox (badness 1325) in paragraph at lines 205--213
 \OT1/cmr/m/it/12 view of chem-i-cal and biomolec-u-lar en-gi-neer-ing \OT1/cmr/
 bx/n/12 1\OT1/cmr/m/n/12 , 149--73 (2010).
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 168--176
+Underfull \hbox (badness 2608) in paragraph at lines 205--213
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 22432577http : / / www .
  []
 
-
-Underfull \hbox (badness 1755) in paragraph at lines 205--214
+[64]
+Underfull \hbox (badness 1755) in paragraph at lines 242--251
 []\OT1/cmr/m/n/12 Rao, S. H., Harini, B., Shadamar-shan, R. P. K., Bal-a-gan-ga
 d-
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 205--214
+Underfull \hbox (badness 2894) in paragraph at lines 242--251
 \OT1/cmr/m/n/12 ha-ran, K. & Sel-va-mu-ru-gan, N.  Nat-u-ral and syn-thetic pol
 y-
  []
 
-[64]
-Underfull \hbox (badness 2608) in paragraph at lines 226--235
+
+Underfull \hbox (badness 2608) in paragraph at lines 263--272
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 27363439http : / / www .
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--265
+[65]
+Underfull \hbox (badness 10000) in paragraph at lines 294--302
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 290.
-[65]
-Underfull \hbox (badness 1259) in paragraph at lines 323--330
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 327.
+
+Underfull \hbox (badness 1259) in paragraph at lines 360--367
 []\OT1/cmr/m/n/12 Daya, S. & Berns, K. I.  Gene ther-apy us-ing adeno-associate
 d
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 323--330
+Underfull \hbox (badness 1748) in paragraph at lines 360--367
 \OT1/cmr/m/n/12 virus vec-tors.  \OT1/cmr/m/it/12 Clin-i-cal mi-cro-bi-ol-ogy r
 e-views \OT1/cmr/bx/n/12 21\OT1/cmr/m/n/12 , 583--93 (2008).
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 323--330
+Underfull \hbox (badness 2608) in paragraph at lines 360--367
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 18854481http : / / www .
  []
 
-
-Underfull \hbox (badness 2042) in paragraph at lines 332--340
+[66]
+Underfull \hbox (badness 2042) in paragraph at lines 369--377
 []\OT1/cmr/m/n/12 B^^?uning, H. & Schmidt, M.  Adeno-associated Vec-tor Toxicit
 y-
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 332--340
+Underfull \hbox (badness 3679) in paragraph at lines 369--377
 \OT1/cmr/m/n/12 To Be or Not to Be?  \OT1/cmr/m/it/12 Molec-u-lar ther-apy : th
 e jour-nal
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 332--340
+Underfull \hbox (badness 2608) in paragraph at lines 369--377
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 26606658http : / / www .
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 351--360
+Underfull \hbox (badness 1092) in paragraph at lines 388--397
 \OT1/cmr/m/it/12 wandte Chemie (In-ter-na-tional ed. in En-glish) \OT1/cmr/bx/n
 /12 48\OT1/cmr/m/n/12 , 9493--7 (2009).
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 351--360
+Underfull \hbox (badness 2608) in paragraph at lines 388--397
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 19921725http : / / www .
  []
 
-[66]
-Underfull \hbox (badness 2027) in paragraph at lines 392--399
+
+Underfull \hbox (badness 2027) in paragraph at lines 429--436
 []\OT1/cmr/m/n/12 Yan, X., Zhu, P. & Li, J.  Self-assembly and ap-pli-ca-tion o
 f
  []
 
 [67]
-Underfull \hbox (badness 3039) in paragraph at lines 450--459
+Underfull \hbox (badness 3039) in paragraph at lines 499--508
 []\OT1/cmr/m/n/12 Kapoor, G., Sai-gal, S. & Elon-ga-van, A.  Ac-tion and re-sis
 -
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 450--459
+Underfull \hbox (badness 1354) in paragraph at lines 499--508
 \OT1/cmr/m/n/12 tance mech-a-nisms of an-tibi-otics: A guide for clin-i-cians. 
  \OT1/cmr/m/it/12 Jour-
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 450--459
+Underfull \hbox (badness 1292) in paragraph at lines 499--508
 \OT1/cmr/m/it/12 nal of anaes-the-si-ol-ogy, clin-i-cal phar-ma-col-ogy \OT1/cm
 r/bx/n/12 33\OT1/cmr/m/n/12 , 300--305 (2017).
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 450--459
+Underfull \hbox (badness 2608) in paragraph at lines 499--508
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 29109626http : / / www .
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 461--471
+Underfull \hbox (badness 2608) in paragraph at lines 510--520
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 30288257http : / / www .
  []
 
-
-Underfull \hbox (badness 6252) in paragraph at lines 482--489
+[68]
+Underfull \hbox (badness 6252) in paragraph at lines 531--538
 []\OT1/cmr/m/n/12 O 'neill, J.  TACK-LING DRUG-RESISTANT IN-FEC-TIONS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--489
+Underfull \hbox (badness 10000) in paragraph at lines 531--538
 \OT1/cmr/m/n/12 GLOB-ALLY: FI-NAL RE-PORT AND REC-OM-MEN-DA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--489
+Underfull \hbox (badness 10000) in paragraph at lines 531--538
 \OT1/cmr/m/n/12 TIONS THE RE-VIEW ON AN-TIMI-CRO-BIAL RE-SIS-TANCE
  []
 
 
-Underfull \hbox (badness 6995) in paragraph at lines 482--489
+Underfull \hbox (badness 6995) in paragraph at lines 531--538
 \OT1/cmr/m/n/12 (2016).  URL []$\OT1/cmtt/m/n/12 https : / / amr -[] review . o
 rg / sites / default / files /
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 501--509
+Underfull \hbox (badness 3735) in paragraph at lines 550--558
 []\OT1/cmr/m/n/12 Vargiu, A. V. & Nikaido, H.  Mul-tidrug bind-ing prop-er-ties
 
  []
 
 
-Underfull \hbox (badness 5175) in paragraph at lines 501--509
+Underfull \hbox (badness 5175) in paragraph at lines 550--558
 \OT1/cmr/m/n/12 of the AcrB ef-flux pump char-ac-ter-ized by molec-u-lar dy-nam
 -
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 501--509
+Underfull \hbox (badness 2894) in paragraph at lines 550--558
 \OT1/cmr/m/n/12 ics sim-u-la-tions.  \OT1/cmr/m/it/12 Pro-ceed-ings of the Na-t
 ional Academy of Sci-
  []
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 501--509
+Underfull \hbox (badness 3323) in paragraph at lines 550--558
 \OT1/cmr/m/it/12 ences of the United States of Amer-ica \OT1/cmr/bx/n/12 109\OT
 1/cmr/m/n/12 , 20637--42 (2012).
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 501--509
+Underfull \hbox (badness 2608) in paragraph at lines 550--558
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 23175790http : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--520
+Underfull \hbox (badness 10000) in paragraph at lines 560--569
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--520
+Underfull \hbox (badness 10000) in paragraph at lines 560--569
 \OT1/cmtt/m/n/12 PMC3710850http : / / www . pnas . org / cgi / doi / 10 . 1073 
 / pnas .
  []
 
-[68]
-Underfull \hbox (badness 10000) in paragraph at lines 549--557
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 602--610
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 23280442https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--569
+Underfull \hbox (badness 10000) in paragraph at lines 612--622
 []\OT1/cmr/m/n/12 Poulou, A. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 Out-break
  Caused by an Ertapenem-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--569
+Underfull \hbox (badness 10000) in paragraph at lines 612--622
 \OT1/cmr/m/n/12 Resistant, CTX-M-15-Producing Kleb-siella pneu-mo-niae Se-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--569
+Underfull \hbox (badness 10000) in paragraph at lines 612--622
 \OT1/cmr/m/n/12 quence Type 101 Clone Car-ry-ing an OmpK36 Porin Vari-
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 559--569
+Underfull \hbox (badness 3942) in paragraph at lines 612--622
 \OT1/cmr/m/n/12 ant.  \OT1/cmr/m/it/12 Jour-nal of Clin-i-cal Mi-cro-bi-ol-ogy 
 \OT1/cmr/bx/n/12 51\OT1/cmr/m/n/12 , 3176--3182 (2013).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--569
+Underfull \hbox (badness 10000) in paragraph at lines 612--622
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 23850951http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--569
+Underfull \hbox (badness 10000) in paragraph at lines 612--622
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 571--580
+Underfull \hbox (badness 4048) in paragraph at lines 624--633
 \OT1/cmr/m/n/12 producing En-ter-obac-te-ri-aceae with high and in-ter-me-di-at
 e lev-els
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 571--580
+Underfull \hbox (badness 10000) in paragraph at lines 624--633
 \OT1/cmtt/m/n/12 pubmed / 22700549http : / / jmm . microbiologyresearch . org /
  content /
  []
 
-[69]
-Underfull \hbox (badness 6047) in paragraph at lines 593--604
+[70]
+Underfull \hbox (badness 6047) in paragraph at lines 646--657
 \OT1/cmr/m/it/12 Jour-nal of An-timi-cro-bial Chemother-apy \OT1/cmr/bx/n/12 68
 \OT1/cmr/m/n/12 , 1319--1326 (2013).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--604
+Underfull \hbox (badness 10000) in paragraph at lines 646--657
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 23478794https : / /
  []
 
-[70]
-Underfull \hbox (badness 3690) in paragraph at lines 645--656
+
+Underfull \hbox (badness 3690) in paragraph at lines 698--709
 []\OT1/cmr/m/n/12 Dolejska, M., Villa, L., Poirel, L., Nord-mann, P. & Carat-
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 645--656
+Underfull \hbox (badness 4001) in paragraph at lines 698--709
 \OT1/cmr/m/n/12 toli, A.  Com-plete se-quenc-ing of an IncHI1 plas-mid en-cod-
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 645--656
+Underfull \hbox (badness 4366) in paragraph at lines 698--709
 \OT1/cmr/m/n/12 ing the car-bapen-e-mase NDM-1, the ArmA 16S RNA methy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--656
+Underfull \hbox (badness 10000) in paragraph at lines 698--709
 \OT1/cmr/m/n/12 lase and a resistance-nodulation-cell di-vi-sion/multidrug ef-f
 lux
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--656
+Underfull \hbox (badness 10000) in paragraph at lines 698--709
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 22969080https : / /
  []
 
-
-Underfull \hbox (badness 4739) in paragraph at lines 658--667
+[71]
+Underfull \hbox (badness 4739) in paragraph at lines 711--720
 []\OT1/cmr/m/n/12 Abouzeed, Y. M., Baucheron, S. & Cloeck-aert, A.  ramR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 658--667
+Underfull \hbox (badness 10000) in paragraph at lines 711--720
 \OT1/cmr/m/n/12 mu-ta-tions in-volved in efflux-mediated mul-tidrug re-sis-tanc
 e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 658--667
+Underfull \hbox (badness 10000) in paragraph at lines 711--720
 \OT1/cmr/m/n/12 in Salmonella en-ter-ica serovar Ty-phimurium.  \OT1/cmr/m/it/1
 2 An-timi-cro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 658--667
+Underfull \hbox (badness 10000) in paragraph at lines 711--720
 \OT1/cmr/m/it/12 bial agents and chemother-apy \OT1/cmr/bx/n/12 52\OT1/cmr/m/n/
 12 , 2428--34 (2008).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 658--667
+Underfull \hbox (badness 10000) in paragraph at lines 711--720
 []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 18443112
 http : / / www .
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 669--678
+Underfull \hbox (badness 1009) in paragraph at lines 722--731
 \OT1/cmr/m/n/12 tolC mul-tidrug ef-flux genes oc-curs mainly through tran-scrip
 -tional
  []
 
 
-Underfull \hbox (badness 6047) in paragraph at lines 669--678
+Underfull \hbox (badness 6047) in paragraph at lines 722--731
 \OT1/cmr/m/it/12 Jour-nal of An-timi-cro-bial Chemother-apy \OT1/cmr/bx/n/12 69
 \OT1/cmr/m/n/12 , 2400--2406 (2014).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--678
+Underfull \hbox (badness 10000) in paragraph at lines 722--731
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 24816212https : / /
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 691--701
+Underfull \hbox (badness 2005) in paragraph at lines 744--754
 \OT1/cmr/m/n/12 Es-cherichia coli.  \OT1/cmr/m/it/12 Molec-u-lar Mi-cro-bi-ol-o
 gy \OT1/cmr/bx/n/12 55\OT1/cmr/m/n/12 , 1113--1126 (2004).
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 691--701
+Underfull \hbox (badness 2608) in paragraph at lines 744--754
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 15686558http : / / doi .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--713
+Underfull \hbox (badness 10000) in paragraph at lines 756--766
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--713
+Underfull \hbox (badness 10000) in paragraph at lines 756--766
 \OT1/cmtt/m/n/12 PMC3212830http : / / bmcgenomics . biomedcentral . com / artic
 les /
  []
 
-[71]
-Underfull \hbox (badness 10000) in paragraph at lines 725--741
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 778--794
 \OT1/cmr/m/n/12 mo-some \OML/cmm/m/it/12 <\OT1/cmr/m/n/12 i\OML/cmm/m/it/12 >\O
 T1/cmr/m/n/12 mec\OML/cmm/m/it/12 <\OT1/cmr/m/n/12 /i\OML/cmm/m/it/12 > \OT1/cm
 r/m/n/12 Type XI Car-ry-ing Highly Di-ver-gent
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 725--741
+Underfull \hbox (badness 1874) in paragraph at lines 778--794
 \OT1/cmr/m/n/12 , and \OML/cmm/m/it/12 <\OT1/cmr/m/n/12 i\OML/cmm/m/it/12 >\OT1
 /cmr/m/n/12 ccr\OML/cmm/m/it/12 <\OT1/cmr/m/n/12 /i\OML/cmm/m/it/12 > \OT1/cmr/
 m/n/12 Genes in Hu-man Clin-i-cal Iso-lates of Clonal
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 725--741
+Underfull \hbox (badness 1348) in paragraph at lines 778--794
 \OT1/cmr/m/n/12 Com-plex 130 Methicillin-Resistant \OML/cmm/m/it/12 <\OT1/cmr/m
 /n/12 i\OML/cmm/m/it/12 >\OT1/cmr/m/n/12 Staphylococcus au-reus\OML/cmm/m/it/12
  <\OT1/cmr/m/n/12 /i\OML/cmm/m/it/12 >\OT1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 725--741
+Underfull \hbox (badness 4531) in paragraph at lines 778--794
 \OT1/cmr/m/it/12 An-timi-cro-bial Agents and Chemother-apy \OT1/cmr/bx/n/12 55\
 OT1/cmr/m/n/12 , 3765--3773 (2011).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 725--741
+Underfull \hbox (badness 10000) in paragraph at lines 778--794
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 21636525http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 725--741
+Underfull \hbox (badness 10000) in paragraph at lines 778--794
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 725--741
+Underfull \hbox (badness 10000) in paragraph at lines 778--794
 \OT1/cmtt/m/n/12 PMC3147645http : / / aac . asm . org / lookup / doi / 10 . 112
 8 / AAC . 00187 -[]
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 743--753
+Underfull \hbox (badness 1454) in paragraph at lines 796--806
 []\OT1/cmr/m/n/12 Katayama, Y., Ito, T. & Hi-ra-matsu, K.  A new class of ge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 743--753
+Underfull \hbox (badness 10000) in paragraph at lines 796--806
 \OT1/cmr/m/n/12 netic el-e-ment, staphy-lo-coc-cus cas-sette chro-mo-some mec, 
 en-
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 743--753
+Underfull \hbox (badness 2662) in paragraph at lines 796--806
 \OT1/cmr/m/n/12 codes me-thi-cillin re-sis-tance in Staphy-lo-coc-cus au-reus. 
  \OT1/cmr/m/it/12 An-timi-
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 743--753
+Underfull \hbox (badness 4927) in paragraph at lines 796--806
 \OT1/cmr/m/it/12 cro-bial agents and chemother-apy \OT1/cmr/bx/n/12 44\OT1/cmr/
 m/n/12 , 1549--55 (2000).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 743--753
+Underfull \hbox (badness 10000) in paragraph at lines 796--806
 []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 10817707
 http : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 755--765
+Underfull \hbox (badness 10000) in paragraph at lines 808--818
 \OT1/cmtt/m/n/12 24424575http : / / www . pubmedcentral . nih . gov / articlere
 nder .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 767--779
+Underfull \hbox (badness 10000) in paragraph at lines 820--832
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
-[72]
-Underfull \hbox (badness 10000) in paragraph at lines 781--790
+
+Underfull \hbox (badness 10000) in paragraph at lines 834--843
 \OT1/cmtt/m/n/12 21597116http : / / www . pubmedcentral . nih . gov / articlere
 nder .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--790
+Underfull \hbox (badness 10000) in paragraph at lines 834--843
 \OT1/cmtt/m/n/12 fcgi ? artid = PMC3137097http : / / www . jbc . org / lookup /
  doi / 10 . 1074 /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 801--807
+[73]
+Underfull \hbox (badness 10000) in paragraph at lines 854--860
 []\OT1/cmr/m/n/12 Livermore, D.  Defin-ing an extended-spectrum $\OML/cmm/m/it/
 12 ^^L$\OT1/cmr/m/n/12 -lactamase.
  []
 
 
-Underfull \hbox (badness 6157) in paragraph at lines 801--807
+Underfull \hbox (badness 6157) in paragraph at lines 854--860
 \OT1/cmr/m/it/12 Clin-i-cal Mi-cro-bi-ol-ogy and In-fec-tion \OT1/cmr/bx/n/12 1
 4\OT1/cmr/m/n/12 , 3--10 (2008).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 801--807
+Underfull \hbox (badness 10000) in paragraph at lines 854--860
 []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 18154524
 https : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 809--817
+Underfull \hbox (badness 10000) in paragraph at lines 862--870
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 22078325https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 819--829
+Underfull \hbox (badness 10000) in paragraph at lines 872--882
 []\OT1/cmr/m/n/12 Voulgari, E., Poulou, A., Koumaki, V. & Tsakris, A.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 819--829
+Underfull \hbox (badness 10000) in paragraph at lines 872--882
 \OT1/cmr/m/n/12 Carbapenemase-producing \OML/cmm/m/it/12 <\OT1/cmr/m/n/12 i\OML
 /cmm/m/it/12 >\OT1/cmr/m/n/12 Enterobacteriaceae\OML/cmm/m/it/12 <\OT1/cmr/m/n/
 12 /i\OML/cmm/m/it/12 > \OT1/cmr/m/n/12 : now
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 819--829
+Underfull \hbox (badness 10000) in paragraph at lines 872--882
 \OT1/cmr/m/n/12 that the storm is fi-nally here, how will timely de-tec-tion
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 819--829
+Underfull \hbox (badness 3138) in paragraph at lines 872--882
 \OT1/cmr/m/n/12 help us fight back?  \OT1/cmr/m/it/12 Fu-ture Mi-cro-bi-ol-ogy 
 \OT1/cmr/bx/n/12 8\OT1/cmr/m/n/12 , 27--39 (2013).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 819--829
+Underfull \hbox (badness 10000) in paragraph at lines 872--882
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 23252491https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 831--840
+Underfull \hbox (badness 10000) in paragraph at lines 884--893
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 21303394https : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 831--840
+Underfull \hbox (badness 10000) in paragraph at lines 884--893
 \OT1/cmtt/m/n/12 academic . oup . com / femsre / article -[] lookup / doi / 10 
 . 1111 / j . 1574 -[]
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 842--851
+Underfull \hbox (badness 2608) in paragraph at lines 895--904
 \OT1/cmr/m/n/12 the ex-am-ple of New Delhi metallo-$\OML/cmm/m/it/12 ^^L$\OT1/c
 mr/m/n/12 -lactamase (NDM)-mediated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 842--851
+Underfull \hbox (badness 10000) in paragraph at lines 895--904
 \OT1/cmtt/m/n/12 / / www . microbiologyresearch . org / content / journal / jmm
  / 10 . 1099 /
  []
 
-[73]
-Underfull \hbox (badness 2221) in paragraph at lines 853--863
+
+Underfull \hbox (badness 2221) in paragraph at lines 906--916
 []\OT1/cmr/m/n/12 Lynch, J. P., Clark, N. M. & Zhanel, G. G.  Evo-lu-tion of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 853--863
+Underfull \hbox (badness 10000) in paragraph at lines 906--916
 \OT1/cmr/m/n/12 an-timi-cro-bial re-sis-tance among En-ter-obac-te-ri-aceae (fo
 -cus on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 853--863
+Underfull \hbox (badness 10000) in paragraph at lines 906--916
 \OT1/cmr/m/n/12 ex-tended spec-trum $\OML/cmm/m/it/12 ^^L$\OT1/cmr/m/n/12 -lact
 amases and car-bapen-e-mases).  \OT1/cmr/m/it/12 Ex-
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 853--863
+Underfull \hbox (badness 3291) in paragraph at lines 906--916
 \OT1/cmr/m/it/12 pert Opin-ion on Phar-ma-cother-apy \OT1/cmr/bx/n/12 14\OT1/cm
 r/m/n/12 , 199--210 (2013).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 853--863
+Underfull \hbox (badness 10000) in paragraph at lines 906--916
 []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 23321047
 http : / / www .
  []
 
-
-Underfull \hbox (badness 2318) in paragraph at lines 873--883
+[74]
+Underfull \hbox (badness 2318) in paragraph at lines 926--936
 []\OT1/cmr/m/n/12 Queenan, A. M., Shang, W., Flamm, R. & Bush, K.  Hy-
  []
 
 
-Underfull \hbox (badness 4060) in paragraph at lines 873--883
+Underfull \hbox (badness 4060) in paragraph at lines 926--936
 \OT1/cmr/m/n/12 drol-y-sis and In-hi-bi-tion Pro-files of -Lactamases from Mole
 c-u-lar
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 873--883
+Underfull \hbox (badness 3189) in paragraph at lines 926--936
 \OT1/cmr/m/n/12 Classes A to D with Doripenem, Imipenem, and Meropenem.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 873--883
+Underfull \hbox (badness 10000) in paragraph at lines 926--936
 \OT1/cmr/m/it/12 An-timi-cro-bial Agents and Chemother-apy \OT1/cmr/bx/n/12 54\
 OT1/cmr/m/n/12 , 565--569 (2010).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 873--883
+Underfull \hbox (badness 10000) in paragraph at lines 926--936
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 19884379http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 873--883
+Underfull \hbox (badness 10000) in paragraph at lines 926--936
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 885--896
+Underfull \hbox (badness 1308) in paragraph at lines 938--949
 []\OT1/cmr/m/n/12 Tzouvelekis, L. S., Marko-gian-nakis, A., Psi-cho-giou, M., T
 as-sios,
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 885--896
+Underfull \hbox (badness 1189) in paragraph at lines 938--949
 \OT1/cmr/m/n/12 P. T. & Daikos, G. L.  Car-bapen-e-mases in Kleb-siella pneu-mo
 -
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 885--896
+Underfull \hbox (badness 1888) in paragraph at lines 938--949
 \OT1/cmr/m/n/12 Di-men-sions.  \OT1/cmr/m/it/12 Clin-i-cal Mi-cro-bi-ol-ogy Re-
 views \OT1/cmr/bx/n/12 25\OT1/cmr/m/n/12 , 682--707 (2012).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 885--896
+Underfull \hbox (badness 10000) in paragraph at lines 938--949
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 23034326http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 885--896
+Underfull \hbox (badness 10000) in paragraph at lines 938--949
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 898--906
+Underfull \hbox (badness 1975) in paragraph at lines 951--959
 \OT1/cmr/m/n/12 da-tion and mod-i-fi-ca-tion.  \OT1/cmr/m/it/12 Ad-vanced Drug 
 De-liv-ery Re-views \OT1/cmr/bx/n/12 57\OT1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 898--906
+Underfull \hbox (badness 1728) in paragraph at lines 951--959
 \OT1/cmr/m/n/12 1451--1470 (2005).  URL []$\OT1/cmtt/m/n/12 http : / / www . nc
 bi . nlm . nih . gov / pubmed /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 898--906
+Underfull \hbox (badness 10000) in paragraph at lines 951--959
 \OT1/cmtt/m/n/12 15950313https : / / linkinghub . elsevier . com / retrieve / p
 ii /
  []
 
-[74]
-Underfull \hbox (badness 10000) in paragraph at lines 908--918
+
+Underfull \hbox (badness 10000) in paragraph at lines 961--971
 \OT1/cmtt/m/n/12 23640799http : / / www . pubmedcentral . nih . gov / articlere
 nder .
  []
 
-
-Underfull \hbox (badness 1558) in paragraph at lines 929--939
+[75]
+Underfull \hbox (badness 1558) in paragraph at lines 982--992
 \OT1/cmr/m/n/12 A.  The Quest for Novel An-timi-cro-bial Com-pounds: Emerg-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 929--939
+Underfull \hbox (badness 10000) in paragraph at lines 982--992
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 941--948
+Underfull \hbox (badness 4181) in paragraph at lines 994--1001
 []\OT1/cmr/m/n/12 Bahar, A. A. & Ren, D.  An-timi-cro-bial pep-tides.  \OT1/cmr
 /m/it/12 Phar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 941--948
+Underfull \hbox (badness 10000) in paragraph at lines 994--1001
 \OT1/cmr/m/it/12 ma-ceu-ti-cals (Basel, Switzer-land) \OT1/cmr/bx/n/12 6\OT1/cm
 r/m/n/12 , 1543--75 (2013).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 941--948
+Underfull \hbox (badness 10000) in paragraph at lines 994--1001
 []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 24287494
 http : / / www .
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 950--959
+Underfull \hbox (badness 1248) in paragraph at lines 1003--1012
 []\OT1/cmr/m/n/12 Mahlapuu, M., H^^Wakansson, J., Ringstad, L. & Bj^^?orn, C.  
 An-
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 950--959
+Underfull \hbox (badness 2573) in paragraph at lines 1003--1012
 \OT1/cmr/m/it/12 Fron-tiers in Cel-lu-lar and In-fec-tion Mi-cro-bi-ol-ogy \OT1
 /cmr/bx/n/12 6\OT1/cmr/m/n/12 , 194 (2016).
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 950--959
+Underfull \hbox (badness 2608) in paragraph at lines 1003--1012
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 28083516http : / / www .
  []
 
-[75]
-Underfull \hbox (badness 1694) in paragraph at lines 1008--1018
+[76]
+Underfull \hbox (badness 1694) in paragraph at lines 1069--1079
 []\OT1/cmr/m/n/12 Schmitt, P., Rosa, R. D. & Destoumieux-Garz^^Son, D.  An in-
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 1008--1018
+Underfull \hbox (badness 1430) in paragraph at lines 1069--1079
 \OT1/cmr/m/n/12 ti-mate link be-tween an-timi-cro-bial pep-tide se-quence di-ve
 r-sity and
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 1008--1018
+Underfull \hbox (badness 2875) in paragraph at lines 1069--1079
 \OT1/cmr/m/it/12 ica et Bio-phys-ica Acta (BBA) - Biomem-branes \OT1/cmr/bx/n/1
 2 1858\OT1/cmr/m/n/12 , 958--970
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 1047--1056
+Underfull \hbox (badness 3039) in paragraph at lines 1108--1117
 []\OT1/cmr/m/n/12 van Meer, G., Voelker, D. R. & Feigen-son, G. W.  Mem-
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 1047--1056
+Underfull \hbox (badness 4416) in paragraph at lines 1108--1117
 \OT1/cmr/m/n/12 brane lipids: where they are and how they be-have.  \OT1/cmr/m/
 it/12 Na-
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 1047--1056
+Underfull \hbox (badness 3861) in paragraph at lines 1108--1117
 \OT1/cmr/m/it/12 ture re-views. Molec-u-lar cell bi-ol-ogy \OT1/cmr/bx/n/12 9\O
 T1/cmr/m/n/12 , 112--24 (2008).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1047--1056
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1117
 []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 18216768
 http : / / www .
  []
 
-[76]
-Underfull \hbox (badness 1038) in paragraph at lines 1058--1066
+
+Underfull \hbox (badness 1038) in paragraph at lines 1119--1127
 \OT1/cmr/m/n/12 tide Ac-tion and Re-sis-tance.  \OT1/cmr/m/it/12 Phar-ma-co-log
 -i-cal Re-views \OT1/cmr/bx/n/12 55\OT1/cmr/m/n/12 , 27--55
  []
 
-
-Underfull \hbox (badness 2608) in paragraph at lines 1096--1106
+[77]
+Underfull \hbox (badness 2608) in paragraph at lines 1157--1167
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 25243191http : / / www .
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 1119--1126
+Underfull \hbox (badness 1264) in paragraph at lines 1180--1187
 []\OT1/cmr/m/n/12 Toke, O.  An-timi-cro-bial pep-tides: New can-di-dates in the
  fight
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 1119--1126
+Underfull \hbox (badness 3492) in paragraph at lines 1180--1187
 \OT1/cmr/m/n/12 against bac-te-rial in-fec-tions.  \OT1/cmr/m/it/12 Biopoly-mer
 s \OT1/cmr/bx/n/12 80\OT1/cmr/m/n/12 , 717--735 (2005).
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 1119--1126
+Underfull \hbox (badness 2608) in paragraph at lines 1180--1187
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 15880793http : / / doi .
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 1128--1138
+Underfull \hbox (badness 1590) in paragraph at lines 1189--1199
 []\OT1/cmr/m/n/12 Yang, L., Har-roun, T. A., Weiss, T. M., Ding, L. & Huang,
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 1128--1138
+Underfull \hbox (badness 1675) in paragraph at lines 1189--1199
 \OT1/cmr/m/n/12 H. W.  Barrel-stave model or toroidal model? A case study
  []
 
 
-Underfull \hbox (badness 5091) in paragraph at lines 1128--1138
+Underfull \hbox (badness 5091) in paragraph at lines 1189--1199
 \OT1/cmr/m/n/12 on melit-tin pores.  \OT1/cmr/m/it/12 Bio-phys-i-cal jour-nal \
 OT1/cmr/bx/n/12 81\OT1/cmr/m/n/12 , 1475--85 (2001).
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 1128--1138
+Underfull \hbox (badness 2608) in paragraph at lines 1189--1199
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 11509361http : / / www .
  []
 
-[77]
+[78]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no † in font cmr12!
 
-Underfull \hbox (badness 2035) in paragraph at lines 1161--1170
+Underfull \hbox (badness 2035) in paragraph at lines 1222--1231
 []\OT1/cmr/m/n/12 Spaar, A., M^^?unster, C. & Salditt, T.  Con-for-ma-tion of p
 ep-
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 1161--1170
+Underfull \hbox (badness 6078) in paragraph at lines 1222--1231
 \OT1/cmr/m/n/12 tides in lipid mem-branes stud-ied by x-ray graz-ing in-ci-denc
 e
  []
 
 
-Underfull \hbox (badness 5175) in paragraph at lines 1161--1170
+Underfull \hbox (badness 5175) in paragraph at lines 1222--1231
 \OT1/cmr/m/n/12 scat-ter-ing.  \OT1/cmr/m/it/12 Bio-phys-i-cal jour-nal \OT1/cm
 r/bx/n/12 87\OT1/cmr/m/n/12 , 396--407 (2004).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1161--1170
+Underfull \hbox (badness 10000) in paragraph at lines 1222--1231
 []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 15240474
 http : / / www .
  []
@@ -2507,65 +2338,64 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no † in font cmr12!
 
-Underfull \hbox (badness 2913) in paragraph at lines 1172--1181
+Underfull \hbox (badness 2913) in paragraph at lines 1233--1242
 []\OT1/cmr/m/n/12 Matsuzaki, K., Murase, O., Fu-jii, N. & Miya-jima, K.  An
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 1172--1181
+Underfull \hbox (badness 2269) in paragraph at lines 1233--1242
 \OT1/cmr/m/n/12 An-timi-cro-bial Pep-tide, Ma-g-a-inin 2, In-duced Rapid Flip-F
 lop of
  []
 
 
-Underfull \hbox (badness 4328) in paragraph at lines 1172--1181
+Underfull \hbox (badness 4328) in paragraph at lines 1233--1242
 \OT1/cmr/m/n/12 ca-tion \OML/cmm/m/it/12 <\OT1/cmr/m/n/12 sup\OML/cmm/m/it/12 >
 <\OT1/cmr/m/n/12 /sup\OML/cmm/m/it/12 >\OT1/cmr/m/n/12 .  \OT1/cmr/m/it/12 Bio-
 chem-istry \OT1/cmr/bx/n/12 35\OT1/cmr/m/n/12 , 11361--11368 (1996).
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 1183--1192
+Underfull \hbox (badness 2608) in paragraph at lines 1244--1253
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 12719236http : / / www .
  []
 
-[78]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no † in font cmr12!
-
-Underfull \hbox (badness 1242) in paragraph at lines 1212--1222
+[79]
+Underfull \hbox (badness 1242) in paragraph at lines 1273--1283
 []\OT1/cmr/m/n/12 Matsuzaki, K., Sug-ishita, K.-i., Harada, M., Fu-jii, N. & Mi
 ya-
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 1212--1222
+Underfull \hbox (badness 2875) in paragraph at lines 1273--1283
 \OT1/cmr/m/it/12 ica et Bio-phys-ica Acta (BBA) - Biomem-branes \OT1/cmr/bx/n/1
 2 1327\OT1/cmr/m/n/12 , 119--130
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 1224--1233
+Underfull \hbox (badness 3769) in paragraph at lines 1285--1294
 []\OT1/cmr/m/n/12 Shai, Y.  Mech-a-nism of the bind-ing, in-ser-tion and desta-
 bi-
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 1224--1233
+Underfull \hbox (badness 2951) in paragraph at lines 1285--1294
 \OT1/cmr/m/n/12 liza-tion of phos-pho-lipid bi-layer mem-branes by $\OML/cmm/m/
 it/12 $\OT1/cmr/m/n/12 -helical an-timi-
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 1224--1233
+Underfull \hbox (badness 1173) in paragraph at lines 1285--1294
 \OT1/cmr/m/n/12 cro-bial and cell non-selective membrane-lytic pep-tides.  \OT1
 /cmr/m/it/12 Biochim-
  []
 
 
-Underfull \hbox (badness 5652) in paragraph at lines 1224--1233
+Underfull \hbox (badness 5652) in paragraph at lines 1285--1294
 \OT1/cmr/m/it/12 ica et Bio-phys-ica Acta (BBA) - Biomem-branes \OT1/cmr/bx/n/1
 2 1462\OT1/cmr/m/n/12 , 55--70
  []
@@ -2574,90 +2404,90 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
 
-Underfull \hbox (badness 6445) in paragraph at lines 1245--1252
+Underfull \hbox (badness 6445) in paragraph at lines 1306--1313
 []\OT1/cmr/m/n/12 Oren, Z. & Shai, Y.  Mode of ac-tion of lin-ear am-phi-
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 1245--1252
+Underfull \hbox (badness 2884) in paragraph at lines 1306--1313
 \OT1/cmr/m/n/12 pathic $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 -helical an-timi-cro
 -bial pep-tides.  \OT1/cmr/m/it/12 Biopoly-mers \OT1/cmr/bx/n/12 47\OT1/cmr/m/n
 /12 , 451--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1245--1252
+Underfull \hbox (badness 10000) in paragraph at lines 1306--1313
 \OT1/cmr/m/n/12 463 (1998).  URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nl
 m . nih . gov / pubmed /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1245--1252
+Underfull \hbox (badness 10000) in paragraph at lines 1306--1313
 \OT1/cmtt/m/n/12 10333737http : / / doi . wiley . com / 10 . 1002 / {%}28SICI{%
 }291097 -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1245--1252
+Underfull \hbox (badness 10000) in paragraph at lines 1306--1313
 \OT1/cmtt/m/n/12 0282{%}281998{%}2947{%}3A6{%}3C451{%}3A{%}3AAID -[] BIP4{%}3E3
  .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1263--1272
+Underfull \hbox (badness 10000) in paragraph at lines 1324--1333
 \OT1/cmtt/m/n/12 nlm . nih . gov / pubmed / 11566791http : / / www . pubmedcent
 ral . nih .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1263--1272
+Underfull \hbox (badness 10000) in paragraph at lines 1324--1333
 \OT1/cmtt/m/n/12 gov / articlerender . fcgi ? artid = PMC1301692https : / / lin
 kinghub .
  []
 
-[79]
-Underfull \hbox (badness 10000) in paragraph at lines 1291--1301
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 1352--1362
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 1303--1313
+Underfull \hbox (badness 4634) in paragraph at lines 1364--1374
 []\OT1/cmr/m/n/12 Kagan, B. L., Sel-sted, M. E., Ganz, T. & Lehrer, R. I.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1303--1313
+Underfull \hbox (badness 10000) in paragraph at lines 1364--1374
 \OT1/cmr/m/n/12 An-timi-cro-bial de-fensin pep-tides form voltage-dependent ion
 -
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 1303--1313
+Underfull \hbox (badness 1199) in paragraph at lines 1364--1374
 \OT1/cmr/m/n/12 permeable chan-nels in pla-nar lipid bi-layer mem-branes.  \OT1
 /cmr/m/it/12 Pro-ceed-
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 1303--1313
+Underfull \hbox (badness 2359) in paragraph at lines 1364--1374
 \OT1/cmr/m/it/12 ings of the Na-tional Academy of Sci-ences \OT1/cmr/bx/n/12 87
 \OT1/cmr/m/n/12 , 210--214 (1990).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1303--1313
+Underfull \hbox (badness 10000) in paragraph at lines 1364--1374
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 1688654http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1303--1313
+Underfull \hbox (badness 10000) in paragraph at lines 1364--1374
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
-[80]
-Underfull \hbox (badness 7415) in paragraph at lines 1345--1353
+[81]
+Underfull \hbox (badness 7415) in paragraph at lines 1406--1414
 []\OT1/cmr/m/n/12 Gifford, J. L., Hunter, H. N. & Vo-gel, H. J.  Lacto-
  []
 
@@ -2665,31 +2495,31 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no † in font cmr12!
 
-Underfull \hbox (badness 2608) in paragraph at lines 1387--1396
+Underfull \hbox (badness 2608) in paragraph at lines 1448--1457
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 15635665http : / / doi .
  []
 
-[81]
-Underfull \hbox (badness 1097) in paragraph at lines 1416--1425
+[82]
+Underfull \hbox (badness 1097) in paragraph at lines 1477--1486
 []\OT1/cmr/m/n/12 Joo, H.-S., Fu, C.-I. & Otto, M.  Bac-te-rial strate-gies of 
 re-sis-
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 1416--1425
+Underfull \hbox (badness 2608) in paragraph at lines 1477--1486
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 27160595http : / / www .
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 1427--1435
+Underfull \hbox (badness 2253) in paragraph at lines 1488--1496
 \OT1/cmr/m/it/12 timi-cro-bial agents and chemother-apy \OT1/cmr/bx/n/12 48\OT1
 /cmr/m/n/12 , 4673--9 (2004).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1427--1435
+Underfull \hbox (badness 10000) in paragraph at lines 1488--1496
 []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 15561843
 http : / / www .
  []
@@ -2698,31 +2528,31 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1468--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1529--1539
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 22050223https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1468--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1529--1539
 \OT1/cmtt/m/n/12 / / www . degruyter . com / view / j / bchm . 2011 . 392 . iss
 ue -[] 12 / bc . 2011 .
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 1480--1492
+Underfull \hbox (badness 4518) in paragraph at lines 1541--1553
 \OT1/cmr/m/n/12 timi-cro-bial Pep-tides Pro-duced by Ep-ithe-lium Are Dif-fer-e
 n-tially
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1480--1492
+Underfull \hbox (badness 10000) in paragraph at lines 1541--1553
 \OT1/cmr/m/n/12 Pro-cessed and In-ac-ti-vated by the Com-men-sal \OML/cmm/m/it/
 12 <\OT1/cmr/m/n/12 i\OML/cmm/m/it/12 >\OT1/cmr/m/n/12 Finegoldia
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 1480--1492
+Underfull \hbox (badness 4467) in paragraph at lines 1541--1553
 \OT1/cmr/m/n/12 magna\OML/cmm/m/it/12 <\OT1/cmr/m/n/12 /i\OML/cmm/m/it/12 > \OT
 1/cmr/m/n/12 and the Pathogen \OML/cmm/m/it/12 <\OT1/cmr/m/n/12 i\OML/cmm/m/it/
 12 >\OT1/cmr/m/n/12 Streptococcus pyo-genes\OML/cmm/m/it/12 <\OT1/cmr/m/n/12 /i
@@ -2730,31 +2560,31 @@ Underfull \hbox (badness 4467) in paragraph at lines 1480--1492
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 1480--1492
+Underfull \hbox (badness 6204) in paragraph at lines 1541--1553
 \OT1/cmr/m/it/12 The Jour-nal of Im-munol-ogy \OT1/cmr/bx/n/12 187\OT1/cmr/m/n/
 12 , 4300--4309 (2011).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1480--1492
+Underfull \hbox (badness 10000) in paragraph at lines 1541--1553
 []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 21918193
 http : / / www .
  []
 
-[82]
-Underfull \hbox (badness 1565) in paragraph at lines 1503--1514
+[83]
+Underfull \hbox (badness 1565) in paragraph at lines 1564--1575
 \OT1/cmr/m/n/12 E. P.  Iden-ti-fi-ca-tion of OmpT as the pro-tease that hy-drol
 yzes
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 1503--1514
+Underfull \hbox (badness 1024) in paragraph at lines 1564--1575
 \OT1/cmr/m/n/12 of Es-cherichia coli.  \OT1/cmr/m/it/12 Jour-nal of bac-te-ri-o
 l-ogy \OT1/cmr/bx/n/12 180\OT1/cmr/m/n/12 , 4002--6 (1998).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1503--1514
+Underfull \hbox (badness 10000) in paragraph at lines 1564--1575
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 9683502http : / / www .
  []
@@ -2763,481 +2593,508 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 
-Underfull \hbox (badness 2368) in paragraph at lines 1516--1524
+Underfull \hbox (badness 2368) in paragraph at lines 1577--1585
 []\OT1/cmr/m/n/12 Biegeleisen, K.  The prob-a-ble struc-ture of the pro-tamineD
 NA
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 1516--1524
+Underfull \hbox (badness 2181) in paragraph at lines 1577--1585
 \OT1/cmr/m/n/12 com-plex.  \OT1/cmr/m/it/12 Jour-nal of The-o-ret-i-cal Bi-ol-o
 gy \OT1/cmr/bx/n/12 241\OT1/cmr/m/n/12 , 533--540 (2006).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1516--1524
+Underfull \hbox (badness 10000) in paragraph at lines 1577--1585
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 16442565https :
  []
 
 
-Underfull \hbox (badness 6510) in paragraph at lines 1526--1534
+Underfull \hbox (badness 6510) in paragraph at lines 1587--1595
 []\OT1/cmr/m/n/12 Sol, A. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 Actin en-abl
 es the an-timi-cro-bial ac-tion of
  []
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 1526--1534
+Underfull \hbox (badness 4634) in paragraph at lines 1587--1595
 \OT1/cmr/m/n/12 LL-37 pep-tide in the pres-ence of mi-cro-bial pro-teases.  \OT
 1/cmr/m/it/12 The
  []
 
 
-Underfull \hbox (badness 4353) in paragraph at lines 1526--1534
+Underfull \hbox (badness 4353) in paragraph at lines 1587--1595
 \OT1/cmr/m/it/12 Jour-nal of bi-o-log-i-cal chem-istry \OT1/cmr/bx/n/12 289\OT1
 /cmr/m/n/12 , 22926--41 (2014).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1526--1534
+Underfull \hbox (badness 10000) in paragraph at lines 1587--1595
 []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 24947511
 http : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1547--1556
+Underfull \hbox (badness 10000) in paragraph at lines 1608--1617
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 8223423http : / / www .
  []
 
-[83]
-Underfull \hbox (badness 10000) in paragraph at lines 1577--1585
+[84]
+Underfull \hbox (badness 10000) in paragraph at lines 1638--1646
 \OT1/cmtt/m/n/12 15116261http : / / www . thieme -[] connect . de / DOI / DOI ?
  10 . 1160 / TH03 -[]
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 1606--1613
+Underfull \hbox (badness 1057) in paragraph at lines 1667--1674
 \OT1/cmr/m/n/12 a-nism of bac-te-rial re-sis-tance.  \OT1/cmr/m/it/12 Drug Dis-
 cov-ery To-day: Tech-nolo-
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 1606--1613
+Underfull \hbox (badness 3690) in paragraph at lines 1667--1674
 \OT1/cmr/m/it/12 gies \OT1/cmr/bx/n/12 11\OT1/cmr/m/n/12 , 49--56 (2014).  URL 
 []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1606--1613
+Underfull \hbox (badness 10000) in paragraph at lines 1667--1674
 \OT1/cmtt/m/n/12 pubmed / 24847653https : / / linkinghub . elsevier . com / ret
 rieve /
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 1615--1624
+Underfull \hbox (badness 1762) in paragraph at lines 1676--1685
 []\OT1/cmr/m/n/12 Nickel, J. C., Rus-eska, I., Wright, J. B. & Coster-ton, J. W
 .
  []
 
 
-Underfull \hbox (badness 7925) in paragraph at lines 1615--1624
+Underfull \hbox (badness 7925) in paragraph at lines 1676--1685
 \OT1/cmr/m/n/12 To-bramycin re-sis-tance of Pseu-domonas aerug-i-nosa cells gro
 w-
  []
 
 
-Underfull \hbox (badness 5637) in paragraph at lines 1615--1624
+Underfull \hbox (badness 5637) in paragraph at lines 1676--1685
 \OT1/cmr/m/n/12 ing as a biofilm on uri-nary catheter ma-te-rial.  \OT1/cmr/m/i
 t/12 An-timi-cro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1615--1624
+Underfull \hbox (badness 10000) in paragraph at lines 1676--1685
 \OT1/cmr/m/it/12 bial agents and chemother-apy \OT1/cmr/bx/n/12 27\OT1/cmr/m/n/
 12 , 619--24 (1985).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1615--1624
+Underfull \hbox (badness 10000) in paragraph at lines 1676--1685
 []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 3923925h
 ttp : / / www .
  []
 
-[84]
-Underfull \hbox (badness 2608) in paragraph at lines 1634--1643
+[85]
+Underfull \hbox (badness 2608) in paragraph at lines 1695--1704
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 15090514http : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1655--1663
+Underfull \hbox (badness 10000) in paragraph at lines 1725--1733
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1665--1674
+Underfull \hbox (badness 10000) in paragraph at lines 1735--1744
 \OT1/cmtt/m/n/12 / / mic . microbiologyresearch . org / content / journal / mic
 ro / 10 .
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 1676--1686
+Underfull \hbox (badness 2608) in paragraph at lines 1746--1756
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . eurekaselect . com / o
 penurl / content . php ? genre =
  []
 
-
-Underfull \hbox (badness 2591) in paragraph at lines 1688--1697
+[86]
+Underfull \hbox (badness 2591) in paragraph at lines 1758--1767
 []\OT1/cmr/m/n/12 Strempel, N., Strehmel, J. & Over-hage, J.  Po-ten-tial Ap-pl
 i-
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 1688--1697
+Underfull \hbox (badness 2600) in paragraph at lines 1758--1767
 \OT1/cmr/m/n/12 ca-tion of An-timi-cro-bial Pep-tides in the Treat-ment of Bac-
 te-rial
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 1688--1697
+Underfull \hbox (badness 2608) in paragraph at lines 1758--1767
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . eurekaselect . com / o
 penurl / content . php ? genre =
  []
 
-[85]
-Underfull \hbox (badness 10000) in paragraph at lines 1699--1708
+
+Underfull \hbox (badness 10000) in paragraph at lines 1769--1778
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1699--1708
+Underfull \hbox (badness 10000) in paragraph at lines 1769--1778
 \OT1/cmtt/m/n/12 PMC3530155https : / / linkinghub . elsevier . com / retrieve /
  pii /
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 1732--1741
+Underfull \hbox (badness 1509) in paragraph at lines 1802--1811
 []\OT1/cmr/m/n/12 Fabretti, F. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 Ala-nin
 e Es-ters of En-te-ro-coc-cal Lipote-i-choic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1732--1741
+Underfull \hbox (badness 10000) in paragraph at lines 1802--1811
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 16790791http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1732--1741
+Underfull \hbox (badness 10000) in paragraph at lines 1802--1811
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 1743--1753
+Underfull \hbox (badness 1048) in paragraph at lines 1813--1823
 []\OT1/cmr/m/n/12 Saar-Dover, R. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 D-Ala
 nylation of Lipote-i-choic Acids Con-
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 1743--1753
+Underfull \hbox (badness 1205) in paragraph at lines 1813--1823
 \OT1/cmr/m/n/12 In-creas-ing the Cell Wall Den-sity.  \OT1/cmr/m/it/12 PLoS Pat
 hogens \OT1/cmr/bx/n/12 8\OT1/cmr/m/n/12 , e1002891
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1743--1753
+Underfull \hbox (badness 10000) in paragraph at lines 1813--1823
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
-
-Underfull \hbox (badness 2608) in paragraph at lines 1755--1765
+[87]
+Underfull \hbox (badness 2608) in paragraph at lines 1825--1835
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 14702327http : / / www .
  []
 
-[86]
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1785
+
+Underfull \hbox (badness 3679) in paragraph at lines 1846--1857
+[]\OT1/cmr/m/n/12 Wang, X., Kar-barz, M. J., Mc-Grath, S. C., Cot-ter, R. J.
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 1846--1857
+\OT1/cmr/m/n/12 & Raetz, C. R. H.  MsbA transporter-dependent lipid A 1-
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 1846--1857
+\OT1/cmr/m/n/12 dephosphorylation on the periplas-mic sur-face of the in-ner me
+m-
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 1846--1857
+\OT1/cmr/m/n/12 brane: to-pog-ra-phy of fran-cisella novi-cida LpxE ex-pressed 
+in Es-
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 1846--1857
+\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
+ / pubmed / 15339914http : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1859--1868
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
-
-Underfull \hbox (badness 4291) in paragraph at lines 1813--1823
+[88]
+Underfull \hbox (badness 4291) in paragraph at lines 1896--1906
 []\OT1/cmr/m/n/12 Bishop, R. E. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 Trans-
 fer of palmi-tate from phos-pho-
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 1813--1823
+Underfull \hbox (badness 5077) in paragraph at lines 1896--1906
 \OT1/cmr/m/n/12 lipids to lipid A in outer mem-branes of gram-negative bac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1813--1823
+Underfull \hbox (badness 10000) in paragraph at lines 1896--1906
 \OT1/cmr/m/n/12 te-ria.  \OT1/cmr/m/it/12 The EMBO jour-nal \OT1/cmr/bx/n/12 19
 \OT1/cmr/m/n/12 , 5071--80 (2000).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1813--1823
+Underfull \hbox (badness 10000) in paragraph at lines 1896--1906
 []$\OT1/cmtt/m/n/12 http : / / emboj . embopress . org / cgi / doi / 10 . 1093 
 / emboj / 19 . 19 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1813--1823
+Underfull \hbox (badness 10000) in paragraph at lines 1896--1906
 \OT1/cmtt/m/n/12 5071http : / / www . ncbi . nlm . nih . gov / pubmed / 1101321
 0http : / / www .
  []
 
-[87]
-Underfull \hbox (badness 10000) in paragraph at lines 1825--1834
+
+Underfull \hbox (badness 10000) in paragraph at lines 1908--1917
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1825--1834
+Underfull \hbox (badness 10000) in paragraph at lines 1908--1917
 \OT1/cmtt/m/n/12 PMC2857177http : / / cshperspectives . cshlp . org / lookup / 
 doi / 10 .
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 1836--1847
+Underfull \hbox (badness 2608) in paragraph at lines 1919--1930
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 16513737http : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1849--1858
+Underfull \hbox (badness 10000) in paragraph at lines 1932--1941
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 9488389http : / / www .
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 1860--1871
+Underfull \hbox (badness 1057) in paragraph at lines 1943--1954
 []\OT1/cmr/m/n/12 Peschel, A. \OT1/cmr/m/it/12 et al.  \OML/cmm/m/it/12 <\OT1/c
 mr/m/n/12 i\OML/cmm/m/it/12 >\OT1/cmr/m/n/12 Staphylococcus au-reus\OML/cmm/m/i
 t/12 <\OT1/cmr/m/n/12 /i\OML/cmm/m/it/12 > \OT1/cmr/m/n/12 Re-sis-tance to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1860--1871
+Underfull \hbox (badness 10000) in paragraph at lines 1943--1954
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1860--1871
+Underfull \hbox (badness 10000) in paragraph at lines 1943--1954
 \OT1/cmtt/m/n/12 PMC2193429http : / / www . jem . org / lookup / doi / 10 . 108
 4 / jem . 193 .
  []
 
-
-Underfull \hbox (badness 1546) in paragraph at lines 1873--1882
+[89]
+Underfull \hbox (badness 1546) in paragraph at lines 1956--1965
 []\OT1/cmr/m/n/12 Thedieck, K. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 The Mpr
 F pro-tein is re-quired for lysiny-
  []
 
 
-Underfull \hbox (badness 4084) in paragraph at lines 1873--1882
+Underfull \hbox (badness 4084) in paragraph at lines 1956--1965
 \OT1/cmr/m/n/12 la-tion of phos-pho-lipids in lis-te-rial mem-branes and con-fe
 rs re-
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 1873--1882
+Underfull \hbox (badness 2293) in paragraph at lines 1956--1965
 \OT1/cmr/m/n/12 sis-tance to cationic an-timi-cro-bial pep-tides (CAMPs) on Lis
 -te-ria
  []
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 1873--1882
+Underfull \hbox (badness 3281) in paragraph at lines 1956--1965
 \OT1/cmr/m/n/12 mono-cy-to-genes.  \OT1/cmr/m/it/12 Molec-u-lar Mi-cro-bi-ol-og
 y \OT1/cmr/bx/n/12 62\OT1/cmr/m/n/12 , 1325--1339 (2006).
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 1873--1882
+Underfull \hbox (badness 2608) in paragraph at lines 1956--1965
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 17042784http : / / doi .
  []
 
-[88]
-Underfull \hbox (badness 10000) in paragraph at lines 1895--1903
+
+Underfull \hbox (badness 10000) in paragraph at lines 1978--1986
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 25927010http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1895--1903
+Underfull \hbox (badness 10000) in paragraph at lines 1978--1986
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 6188) in paragraph at lines 1917--1927
+Underfull \hbox (badness 6188) in paragraph at lines 2000--2010
 []\OT1/cmr/m/n/12 Raetz, C. R., Reynolds, C. M., Trent, M. S. & Bishop,
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 1917--1927
+Underfull \hbox (badness 2753) in paragraph at lines 2000--2010
 \OT1/cmr/m/n/12 R. E.  Lipid A Mod-i-fi-ca-tion Sys-tems in Gram-Negative Bac-
  []
 
 
-Underfull \hbox (badness 5787) in paragraph at lines 1917--1927
+Underfull \hbox (badness 5787) in paragraph at lines 2000--2010
 \OT1/cmr/m/n/12 te-ria.  \OT1/cmr/m/it/12 An-nual Re-view of Bio-chem-istry \OT
 1/cmr/bx/n/12 76\OT1/cmr/m/n/12 , 295--329 (2007).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1927
+Underfull \hbox (badness 10000) in paragraph at lines 2000--2010
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 17362200http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1927
+Underfull \hbox (badness 10000) in paragraph at lines 2000--2010
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1927
+Underfull \hbox (badness 10000) in paragraph at lines 2000--2010
 \OT1/cmtt/m/n/12 PMC2569861http : / / www . annualreviews . org / doi / 10 . 11
 46 / annurev .
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1938--1945
+[90]
+Underfull \hbox (badness 10000) in paragraph at lines 2021--2028
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 21168911https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1947--1957
+Underfull \hbox (badness 10000) in paragraph at lines 2030--2040
 \OT1/cmtt/m/n/12 21203984http : / / www . pubmedcentral . nih . gov / articlere
 nder .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1947--1957
+Underfull \hbox (badness 10000) in paragraph at lines 2030--2040
 \OT1/cmtt/m/n/12 fcgi ? artid = PMC4875170http : / / link . springer . com / 10
  . 1007 /
  []
 
-[89]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
 
-Underfull \hbox (badness 1448) in paragraph at lines 1970--1979
+Underfull \hbox (badness 1448) in paragraph at lines 2053--2062
 []\OT1/cmr/m/n/12 Wang, J. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 High spe-ci
 fic se-lec-tiv-ity and Membrane-Active
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 1970--1979
+Underfull \hbox (badness 4859) in paragraph at lines 2053--2062
 \OT1/cmr/m/n/12 Mech-a-nism of the syn-thetic cen-trosym-met-ric $\OML/cmm/m/it
 /12 $\OT1/cmr/m/n/12 -helical pep-tides
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 1970--1979
+Underfull \hbox (badness 1490) in paragraph at lines 2053--2062
 \OT1/cmr/m/n/12 with Gly-Gly pairs.  \OT1/cmr/m/it/12 Sci-en-tific re-ports \OT
 1/cmr/bx/n/12 5\OT1/cmr/m/n/12 , 15963 (2015).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1970--1979
+Underfull \hbox (badness 10000) in paragraph at lines 2053--2062
 []$\OT1/cmtt/m/n/12 http : / / www . nature . com / articles / srep15963http : 
 / / www . ncbi .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1970--1979
+Underfull \hbox (badness 10000) in paragraph at lines 2053--2062
 \OT1/cmtt/m/n/12 nlm . nih . gov / pubmed / 26530005http : / / www . pubmedcent
 ral . nih .
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 1981--1990
+Underfull \hbox (badness 4001) in paragraph at lines 2064--2073
 []\OT1/cmr/m/n/12 Hilpert, K., Volkmer-Engert, R., Wal-ter, T. & Han-cock, R.
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 1981--1990
+Underfull \hbox (badness 2229) in paragraph at lines 2064--2073
 \OT1/cmr/m/n/12 E. W.  High-throughput gen-er-a-tion of small an-tibac-te-rial 
 pep-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 1992--2000
+Underfull \hbox (badness 1158) in paragraph at lines 2075--2083
 []\OT1/cmr/m/n/12 Hilpert, K. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 Se-quenc
 e Re-quire-ments and an Op-ti-miza-tion
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 1992--2000
+Underfull \hbox (badness 2334) in paragraph at lines 2075--2083
 \OT1/cmr/m/n/12 Strat-egy for Short An-timi-cro-bial Pep-tides.  \OT1/cmr/m/it/
 12 Chem-istry & Bi-ol-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1992--2000
+Underfull \hbox (badness 10000) in paragraph at lines 2075--2083
 \OT1/cmtt/m/n/12 pubmed / 17052614https : / / linkinghub . elsevier . com / ret
 rieve /
  []
 
-[90]
-Underfull \hbox (badness 2903) in paragraph at lines 2030--2038
+[91]
+Underfull \hbox (badness 2903) in paragraph at lines 2113--2121
 \OT1/cmr/m/n/12 ju-ga-tion on the prop-er-ties of an-timi-cro-bial pep-tides.  
 \OT1/cmr/m/it/12 An-timi-
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 2030--2038
+Underfull \hbox (badness 4927) in paragraph at lines 2113--2121
 \OT1/cmr/m/it/12 cro-bial agents and chemother-apy \OT1/cmr/bx/n/12 49\OT1/cmr/
 m/n/12 , 2412--20 (2005).  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2030--2038
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2121
 []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 15917541
 http : / / www .
  []
 
 
-Underfull \hbox (badness 4156) in paragraph at lines 2040--2050
+Underfull \hbox (badness 4156) in paragraph at lines 2123--2133
 []\OT1/cmr/m/n/12 Serrano, G. N., Zhanel, G. G. & Schweizer, F.  An-tibac-
  []
 
 
-Underfull \hbox (badness 5681) in paragraph at lines 2040--2050
+Underfull \hbox (badness 5681) in paragraph at lines 2123--2133
 \OT1/cmr/m/n/12 te-rial Ac-tiv-ity of Ul-tra-short Cationic Lipo- -Peptides.  \
 OT1/cmr/m/it/12 An-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2040--2050
+Underfull \hbox (badness 10000) in paragraph at lines 2123--2133
 \OT1/cmr/m/it/12 timi-cro-bial Agents and Chemother-apy \OT1/cmr/bx/n/12 53\OT1
 /cmr/m/n/12 , 2215--2217 (2009).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2040--2050
+Underfull \hbox (badness 10000) in paragraph at lines 2123--2133
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 19237652http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2040--2050
+Underfull \hbox (badness 10000) in paragraph at lines 2123--2133
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
@@ -3246,124 +3103,298 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
 
-Underfull \hbox (badness 4229) in paragraph at lines 2072--2085
+Underfull \hbox (badness 4229) in paragraph at lines 2155--2168
 \OT1/cmr/m/n/12 negative Pathogens, Acine-to-bac-ter bau-man-nii and Pseu-domon
 as
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 2072--2085
+Underfull \hbox (badness 1478) in paragraph at lines 2155--2168
 \OT1/cmr/m/n/12 aerug-i-nosa: Uti-liza-tion of Charge, Speci-ficity De-ter-mi-n
 ants,' To-
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 2072--2085
+Underfull \hbox (badness 3547) in paragraph at lines 2155--2168
 \OT1/cmr/m/n/12 tal Hy-dropho-bic-ity, Hy-drophobe Type and Lo-ca-tion as De-si
 gn
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 2072--2085
+Underfull \hbox (badness 2799) in paragraph at lines 2155--2168
 \OT1/cmr/m/n/12 Para.  \OT1/cmr/m/it/12 Chem-i-cal Bi-ol-ogy & Drug De-sign \OT
 1/cmr/bx/n/12 77\OT1/cmr/m/n/12 , 225--240 (2011).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2072--2085
+Underfull \hbox (badness 10000) in paragraph at lines 2155--2168
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 21219588http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2072--2085
+Underfull \hbox (badness 10000) in paragraph at lines 2155--2168
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2072--2085
+Underfull \hbox (badness 10000) in paragraph at lines 2155--2168
 \OT1/cmtt/m/n/12 PMC3063396http : / / doi . wiley . com / 10 . 1111 / j . 1747 
 -[] 0285 . 2011 .
  []
 
-[91]
-Underfull \hbox (badness 10000) in paragraph at lines 2087--2097
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2180
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2087--2097
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2180
 \OT1/cmtt/m/n/12 PMC538858http : / / aac . asm . org / cgi / doi / 10 . 1128 / 
 AAC . 49 . 1 . 316 -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2127--2135
+Underfull \hbox (badness 10000) in paragraph at lines 2210--2218
 \OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
 rtid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2127--2135
+Underfull \hbox (badness 10000) in paragraph at lines 2210--2218
 \OT1/cmtt/m/n/12 PMC3013618https : / / linkinghub . elsevier . com / retrieve /
  pii /
  []
 
-
-Underfull \hbox (badness 1990) in paragraph at lines 2137--2144
+[93]
+Underfull \hbox (badness 1990) in paragraph at lines 2220--2227
 []\OT1/cmr/m/n/12 Khandelia, H. & Kaz-nes-sis, Y. N.  Molec-u-lar dy-nam-ics si
 m-u-
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 2137--2144
+Underfull \hbox (badness 1642) in paragraph at lines 2220--2227
 \OT1/cmr/m/n/12 la-tions of he-li-cal an-timi-cro-bial pep-tides in SDS mi-cell
 es: What
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 2137--2144
+Underfull \hbox (badness 1596) in paragraph at lines 2220--2227
 \OT1/cmr/m/n/12 do point mu-ta-tions achieve?  \OT1/cmr/m/it/12 Pep-tides \OT1/
 cmr/bx/n/12 26\OT1/cmr/m/n/12 , 2037--2049 (2005).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2144
+Underfull \hbox (badness 10000) in paragraph at lines 2220--2227
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
  / pubmed / 15979758https :
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 2146--2155
+Underfull \hbox (badness 1755) in paragraph at lines 2229--2238
 \OT1/cmr/m/n/12 (2009).  URL []$\OT1/cmtt/m/n/12 https : / / linkinghub . elsev
 ier . com / retrieve / pii /
  []
 
-[92]
-Underfull \hbox (badness 10000) in paragraph at lines 2175--2183
+
+Underfull \hbox (badness 10000) in paragraph at lines 2258--2266
 \OT1/cmtt/m/n/12 com / openurl / content . php ? genre = article{&}issn = 1568 
 -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2194
+Underfull \hbox (badness 10000) in paragraph at lines 2268--2277
 \OT1/cmtt/m/n/12 20698568http : / / www . pubmedcentral . nih . gov / articlere
 nder .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2194
+Underfull \hbox (badness 10000) in paragraph at lines 2268--2277
 \OT1/cmtt/m/n/12 fcgi ? artid = PMC2955829http : / / pubs . acs . org / doi / 1
 0 . 1021 /
  []
 
-)
+[94]
+Underfull \hbox (badness 10000) in paragraph at lines 2321--2332
+\OT1/cmtt/m/n/12 nlm . nih . gov / pubmed / 20725595http : / / www . pubmedcent
+ral . nih .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2321--2332
+\OT1/cmtt/m/n/12 gov / articlerender . fcgi ? artid = PMC2922051http : / / open
+url .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2321--2332
+\OT1/cmtt/m/n/12 ingenta . com / content / xref ? genre = article{&}issn = 0009
+ -[]
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 2334--2341
+[]\OT1/cmr/m/n/12 Choudhary, A. & Raines, R. T.  An Eval-u-a-tion of Peptide-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2334--2341
+\OT1/cmr/m/n/12 Bond Isosteres.  \OT1/cmr/m/it/12 Chem-BioChem \OT1/cmr/bx/n/12
+ 12\OT1/cmr/m/n/12 , 1801--1807 (2011).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2334--2341
+\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
+ / pubmed / 21751326http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2334--2341
+\OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
+rtid =
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 2352--2360
+\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
+ / pubmed / 25574773https :
+ []
+
+[95]
+Underfull \hbox (badness 2837) in paragraph at lines 2362--2371
+\OT1/cmr/m/n/12 ing: progress, im-pli-ca-tions and chal-lenges.  \OT1/cmr/m/it/
+12 Hu-man Molec-u-lar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2362--2371
+\OT1/cmtt/m/n/12 gov / pubmed / 24651067https : / / academic . oup . com / hmg 
+/ article -[]
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 2373--2381
+\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
+ / pubmed / 24906146http : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2383--2391
+\OT1/cmr/m/n/12 Tu-mors Us-ing Intra-Tumoral Trans-duc-tion with the Thymi-
+ []
+
+
+Underfull \hbox (badness 8056) in paragraph at lines 2383--2391
+\OT1/cmr/m/n/12 dine Ki-nase Gene and In-tra-venous Gan-ci-clovir. Na-tional In
+-
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 2383--2391
+\OT1/cmr/m/n/12 sti-tutes of Health.  \OT1/cmr/m/it/12 Hu-man Gene Ther-apy \OT
+1/cmr/bx/n/12 4\OT1/cmr/m/n/12 , 39--69 (1993).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2383--2391
+\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
+ / pubmed / 8384892http :
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 2393--2400
+\OT1/cmr/m/n/12 colytic Viruses in Can-cer Treat-ment.  \OT1/cmr/m/it/12 JAMA O
+n-col-ogy \OT1/cmr/bx/n/12 3\OT1/cmr/m/n/12 , 841
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2393--2400
+\OT1/cmtt/m/n/12 / / oncology . jamanetwork . com / article . aspx ? doi = 10 .
+ 1001 /
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 2402--2410
+[]\OT1/cmr/m/n/12 Naldini, L.  Ex vivo gene trans-fer and cor-rec-tion for cell
+-
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 2402--2410
+\OT1/cmr/m/n/12 based ther-a-pies.  \OT1/cmr/m/it/12 Na-ture Re-views Ge-net-ic
+s \OT1/cmr/bx/n/12 12\OT1/cmr/m/n/12 , 301--315 (2011).
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 2402--2410
+\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
+ / pubmed / 21445084http : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2422--2430
+[]$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 1599309h
+ttp : / / www .
+ []
+
+[96]
+Underfull \hbox (badness 2735) in paragraph at lines 2432--2439
+[]\OT1/cmr/m/n/12 Arnold, R., Cole, M. & McGhee, J. R.  A bac-te-ri-ci-dal ef-
+ []
+
+
+Underfull \hbox (badness 7613) in paragraph at lines 2432--2439
+\OT1/cmr/m/n/12 fect for hu-man lacto-fer-rin.  \OT1/cmr/m/it/12 Sci-ence \OT1/
+cmr/bx/n/12 197\OT1/cmr/m/n/12 , 263--265 (1977).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2432--2439
+\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
+ / pubmed / 327545http :
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 2441--2450
+[]\OT1/cmr/m/n/12 Arnold, R. R., Brewer, M. & Gau-thier, J. J.  Bac-te-ri-ci-da
+l ac-
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 2441--2450
+\OT1/cmr/m/n/12 tiv-ity of hu-man lacto-fer-rin: sen-si-tiv-ity of a va-ri-ety 
+of mi-croor-
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 2441--2450
+\OT1/cmr/m/n/12 gan-isms.  \OT1/cmr/m/it/12 In-fec-tion and im-mu-nity \OT1/cmr
+/bx/n/12 28\OT1/cmr/m/n/12 , 893--8 (1980).  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2441--2450
+[]$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov / pubmed / 6772569h
+ttp : / / www .
+ []
+
+[97]
+Underfull \hbox (badness 10000) in paragraph at lines 2543--2552
+\OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
+rtid =
+ []
+
+[98])
 
 Package natbib Warning: There were undefined citations.
 
-[93]
+[99]
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
@@ -3384,31 +3415,32 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 23957 strings out of 493029
- 418602 string characters out of 6136233
- 553777 words of memory out of 5000000
- 26641 multiletter control sequences out of 15000+600000
- 19568 words of font info for 75 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 70i,15n,92p,1378b,1341s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (93 pages, 3168838 bytes).
+ 23977 strings out of 493117
+ 419614 string characters out of 6135434
+ 554632 words of memory out of 5000000
+ 26541 multiletter control sequences out of 15000+600000
+ 19260 words of font info for 74 fonts, out of 8000000 for 9000
+ 1142 hyphenation exceptions out of 8191
+ 70i,15n,92p,1378b,1511s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (99 pages, 3187269 bytes).
 PDF statistics:
- 1687 PDF objects out of 1728 (max. 8388607)
- 1527 compressed objects within 16 object streams
- 374 named destinations out of 1000 (max. 500000)
+ 1869 PDF objects out of 2073 (max. 8388607)
+ 1697 compressed objects within 17 object streams
+ 416 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

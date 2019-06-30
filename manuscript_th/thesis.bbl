@@ -33,10 +33,23 @@
 \newblock \urlprefix\url{http://www.nature.com/articles/nrc2394}.
 
 \bibitem{poly}
-\bibinfo{author}{Toledo, M.}
+\bibinfo{author}{{Mettler Toledo}}.
 \newblock \bibinfo{title}{Polymerization reactions}.
 \newblock
   \urlprefix\url{https://www.mt.com/au/en/home/applications/L1_AutoChem_Applications/L2_ReactionAnalysis/L2_Polymerization.html#publications}.
+
+\bibitem{lipo}
+\bibinfo{author}{Wikipedia}.
+\newblock \bibinfo{title}{Liposome}.
+\newblock \urlprefix\url{https://en.wikipedia.org/wiki/Liposome}.
+
+\bibitem{Schoonen2014}
+\bibinfo{author}{Schoonen, L.} \& \bibinfo{author}{van Hest, J. C.~M.}
+\newblock \bibinfo{title}{{Functionalization of protein-based nanocages for
+  drug delivery applications}}.
+\newblock \emph{\bibinfo{journal}{Nanoscale}} \textbf{\bibinfo{volume}{6}},
+  \bibinfo{pages}{7124--7141} (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://xlink.rsc.org/?DOI=C4NR00915K}.
 
 \bibitem{Blair2014}
 \bibinfo{author}{{A Blair}, J.~M.}, \bibinfo{author}{Webber, M.~A.},
@@ -48,6 +61,22 @@
 \newblock
   \urlprefix\url{https://www.nature.com/nrmicro/journal/v13/n1/pdf/nrmicro3380.pdf}.
 
+\bibitem{phage}
+\bibinfo{author}{Kim, J.}
+\newblock \bibinfo{title}{Phage as a therapeutic agent}.
+\newblock
+  \urlprefix\url{https://medium.com/@thryve/phage-as-a-therapeutic-agent-ed4c466302e5}.
+
+\bibitem{Torres2019}
+\bibinfo{author}{Torres, M.~D.}, \bibinfo{author}{Sothiselvam, S.},
+  \bibinfo{author}{Lu, T.~K.} \& \bibinfo{author}{de~la Fuente-Nunez, C.}
+\newblock \bibinfo{title}{{Peptide Design Principles for Antimicrobial
+  Applications}}.
+\newblock \emph{\bibinfo{journal}{Journal of Molecular Biology}}
+  (\bibinfo{year}{2019}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022283618312890}.
+
 \bibitem{Nguyen2011}
 \bibinfo{author}{Nguyen, L.~T.}, \bibinfo{author}{Haney, E.~F.} \&
   \bibinfo{author}{Vogel, H.~J.}
@@ -58,6 +87,14 @@
   (\bibinfo{year}{2011}).
 \newblock
   \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0167779911000886?via{\%}3Dihub}.
+
+\bibitem{Castelletto2016}
+\bibinfo{author}{Castelletto, V.} \emph{et~al.}
+\newblock \bibinfo{title}{{Structurally plastic peptide capsules for synthetic
+  antimicrobial viruses}}.
+\newblock \emph{\bibinfo{journal}{Chem. Sci.}} \textbf{\bibinfo{volume}{7}},
+  \bibinfo{pages}{1707--1711} (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{http://xlink.rsc.org/?DOI=C5SC03260A}.
 
 \bibitem{Masaoka2006}
 \bibinfo{author}{Masaoka, Y.}, \bibinfo{author}{Tanaka, Y.},
@@ -446,6 +483,18 @@
   (\bibinfo{year}{2017}).
 \newblock \urlprefix\url{http://www.nature.com/articles/nrd.2016.230}.
 
+\bibitem{Gordon2000}
+\bibinfo{author}{Gordon, E.}, \bibinfo{author}{Mouz, N.},
+  \bibinfo{author}{Du{\'{e}}e, E.} \& \bibinfo{author}{Dideberg, O.}
+\newblock \bibinfo{title}{{The crystal structure of the penicillin-binding
+  protein 2x from Streptococcus pneumoniae and its acyl-enzyme form:
+  implication in drug resistance}}.
+\newblock \emph{\bibinfo{journal}{Journal of Molecular Biology}}
+  \textbf{\bibinfo{volume}{299}}, \bibinfo{pages}{477--485}
+  (\bibinfo{year}{2000}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022283600937409?via{\%}3Dihub}.
+
 \bibitem{Kapoor2017}
 \bibinfo{author}{Kapoor, G.}, \bibinfo{author}{Saigal, S.} \&
   \bibinfo{author}{Elongavan, A.}
@@ -522,8 +571,12 @@
 \bibinfo{author}{Tran, Q.-T.}, \bibinfo{author}{Williams, S.},
   \bibinfo{author}{Farid, R.}, \bibinfo{author}{Erdemli, G.} \&
   \bibinfo{author}{Pearlstein, R.}
+\newblock \bibinfo{title}{{The translocation kinetics of antibiotics through
+  porin OmpC: Insights from structure-based solvation mapping using WaterMap}}.
 \newblock \emph{\bibinfo{journal}{Proteins: Structure, Function, and
-  Bioinformatics}} .
+  Bioinformatics}} \textbf{\bibinfo{volume}{81}}, \bibinfo{pages}{291--299}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://doi.wiley.com/10.1002/prot.24185}.
 
 \bibitem{Tamber2003}
 \bibinfo{author}{Tamber, S.} \& \bibinfo{author}{Hancock, R. E.~W.}
@@ -965,6 +1018,14 @@
   (\bibinfo{year}{2016}).
 \newblock
   \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0960982215014098{\#}!}
+
+\bibitem{Ebbensgaard2015}
+\bibinfo{author}{Ebbensgaard, A.} \emph{et~al.}
+\newblock \bibinfo{title}{{Comparative Evaluation of the Antimicrobial Activity
+  of Different Antimicrobial Peptides against a Range of Pathogenic Bacteria}}.
+\newblock \emph{\bibinfo{journal}{PLOS ONE}} \textbf{\bibinfo{volume}{10}},
+  \bibinfo{pages}{e0144611} (\bibinfo{year}{2015}).
+\newblock \urlprefix\url{http://dx.plos.org/10.1371/journal.pone.0144611}.
 
 \bibitem{Brogden2005}
 \bibinfo{author}{Brogden, K.~A.}
@@ -1641,7 +1702,7 @@
 \newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15090514
   http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC387819}.
 
-\bibitem{Vuong2004}
+\bibitem{Vuong2004PIA}
 \bibinfo{author}{Vuong, C.} \emph{et~al.}
 \newblock \bibinfo{title}{{Polysaccharide intercellular adhesin (PIA) protects
   Staphylococcus epidermidis against major components of the human innate
@@ -1650,6 +1711,15 @@
   \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{269--75}
   (\bibinfo{year}{2004}).
 \newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/14764110}.
+
+\bibitem{Vuong2004}
+\bibinfo{author}{Vuong, C.} \emph{et~al.}
+\newblock \bibinfo{title}{{A crucial role for exopolysaccharide modification in
+  bacterial biofilm formation, immune evasion, and virulence.}}
+\newblock \emph{\bibinfo{journal}{The Journal of biological chemistry}}
+  \textbf{\bibinfo{volume}{279}}, \bibinfo{pages}{54881--6}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15501828}.
 
 \bibitem{Campos2004}
 \bibinfo{author}{Campos, M.~A.} \emph{et~al.}
@@ -1771,6 +1841,19 @@
   \textbf{\bibinfo{volume}{27}}, \bibinfo{pages}{1171--82}
   (\bibinfo{year}{1998}).
 \newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/9570402}.
+
+\bibitem{Wang2004MsbA}
+\bibinfo{author}{Wang, X.}, \bibinfo{author}{Karbarz, M.~J.},
+  \bibinfo{author}{McGrath, S.~C.}, \bibinfo{author}{Cotter, R.~J.} \&
+  \bibinfo{author}{Raetz, C. R.~H.}
+\newblock \bibinfo{title}{{MsbA transporter-dependent lipid A
+  1-dephosphorylation on the periplasmic surface of the inner membrane:
+  topography of francisella novicida LpxE expressed in Escherichia coli.}}
+\newblock \emph{\bibinfo{journal}{The Journal of biological chemistry}}
+  \textbf{\bibinfo{volume}{279}}, \bibinfo{pages}{49470--8}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/15339914
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2552400}.
 
 \bibitem{Wang2006}
 \bibinfo{author}{Wang, X.}, \bibinfo{author}{McGrath, S.~C.},
@@ -2202,6 +2285,16 @@
   (\bibinfo{year}{2005}).
 \newblock \urlprefix\url{http://www.genome.org/cgi/doi/10.1101/gr.3513905}.
 
+\bibitem{Cherkasov2009}
+\bibinfo{author}{Cherkasov, A.} \emph{et~al.}
+\newblock \bibinfo{title}{{Use of Artificial Intelligence in the Design of
+  Small Peptide Antibiotics Effective against a Broad Spectrum of Highly
+  Antibiotic-Resistant Superbugs}}.
+\newblock \emph{\bibinfo{journal}{ACS Chemical Biology}}
+  \textbf{\bibinfo{volume}{4}}, \bibinfo{pages}{65--74} (\bibinfo{year}{2009}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/19055425
+  http://pubs.acs.org/doi/10.1021/cb800240j}.
+
 \bibitem{Lee2017}
 \bibinfo{author}{Lee, E.~Y.}, \bibinfo{author}{Lee, M.~W.},
   \bibinfo{author}{Fulan, B.~M.}, \bibinfo{author}{Ferguson, A.~L.} \&
@@ -2213,5 +2306,267 @@
   (\bibinfo{year}{2017}).
 \newblock
   \urlprefix\url{http://rsfs.royalsocietypublishing.org/lookup/doi/10.1098/rsfs.2016.0153}.
+
+\bibitem{Naafs2018}
+\bibinfo{author}{{AB Naafs}, M.}
+\newblock \bibinfo{title}{{The Antimicrobial Peptides: Ready for Clinical
+  Trials?}}
+\newblock \emph{\bibinfo{journal}{Biomedical Journal of Scientific {\&}
+  Technical Research}} \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{001--005}
+  (\bibinfo{year}{2018}).
+\newblock
+  \urlprefix\url{https://biomedres.us/fulltexts/BJSTR.MS.ID.001536.php}.
+
+\bibitem{Wipf2009}
+\bibinfo{author}{Wipf, P.}, \bibinfo{author}{Xiao, J.} \&
+  \bibinfo{author}{Stephenson, C. R.~J.}
+\newblock \bibinfo{title}{{Peptide-Like Molecules (PLMs): A Journey from
+  Peptide Bond Isosteres to Gramicidin S Mimetics and Mitochondrial Targeting
+  Agents}}.
+\newblock \emph{\bibinfo{journal}{CHIMIA International Journal for Chemistry}}
+  \textbf{\bibinfo{volume}{63}}, \bibinfo{pages}{764--775}
+  (\bibinfo{year}{2009}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/20725595
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2922051
+  http://openurl.ingenta.com/content/xref?genre=article{\&}issn=0009-4293{\&}volume=63{\&}issue=11{\&}spage=764}.
+
+\bibitem{Choudhary2011}
+\bibinfo{author}{Choudhary, A.} \& \bibinfo{author}{Raines, R.~T.}
+\newblock \bibinfo{title}{{An Evaluation of Peptide-Bond Isosteres}}.
+\newblock \emph{\bibinfo{journal}{ChemBioChem}} \textbf{\bibinfo{volume}{12}},
+  \bibinfo{pages}{1801--1807} (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21751326
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3253576
+  http://doi.wiley.com/10.1002/cbic.201100272}.
+
+\bibitem{Anguela2019}
+\bibinfo{author}{Anguela, X.~M.} \& \bibinfo{author}{High, K.~A.}
+\newblock \bibinfo{title}{{Entering the Modern Era of Gene Therapy}}.
+\newblock \emph{\bibinfo{journal}{Annual Review of Medicine}}
+  \textbf{\bibinfo{volume}{70}}, \bibinfo{pages}{273--288}
+  (\bibinfo{year}{2019}).
+\newblock
+  \urlprefix\url{https://www.annualreviews.org/doi/10.1146/annurev-med-012017-043332}.
+
+\bibitem{Barrangou2015}
+\bibinfo{author}{Barrangou, R.}
+\newblock \bibinfo{title}{{The roles of CRISPR–Cas systems in adaptive
+  immunity and beyond}}.
+\newblock \emph{\bibinfo{journal}{Current Opinion in Immunology}}
+  \textbf{\bibinfo{volume}{32}}, \bibinfo{pages}{36--41}
+  (\bibinfo{year}{2015}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/25574773
+  https://linkinghub.elsevier.com/retrieve/pii/S0952791514001563}.
+
+\bibitem{Zhang2014cas}
+\bibinfo{author}{Zhang, F.}, \bibinfo{author}{Wen, Y.} \& \bibinfo{author}{Guo,
+  X.}
+\newblock \bibinfo{title}{{CRISPR/Cas9 for genome editing: progress,
+  implications and challenges}}.
+\newblock \emph{\bibinfo{journal}{Human Molecular Genetics}}
+  \textbf{\bibinfo{volume}{23}}, \bibinfo{pages}{R40--R46}
+  (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/24651067
+  https://academic.oup.com/hmg/article-lookup/doi/10.1093/hmg/ddu125}.
+
+\bibitem{Hsu2014}
+\bibinfo{author}{Hsu, P.~D.}, \bibinfo{author}{Lander, E.~S.} \&
+  \bibinfo{author}{Zhang, F.}
+\newblock \bibinfo{title}{{Development and applications of CRISPR-Cas9 for
+  genome engineering.}}
+\newblock \emph{\bibinfo{journal}{Cell}} \textbf{\bibinfo{volume}{157}},
+  \bibinfo{pages}{1262--78} (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/24906146
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4343198}.
+
+\bibitem{Oldfield1993}
+\bibinfo{author}{Oldfield, E.~H.} \emph{et~al.}
+\newblock \bibinfo{title}{{Gene Therapy for the Treatment of Brain Tumors Using
+  Intra-Tumoral Transduction with the Thymidine Kinase Gene and Intravenous
+  Ganciclovir. National Institutes of Health}}.
+\newblock \emph{\bibinfo{journal}{Human Gene Therapy}}
+  \textbf{\bibinfo{volume}{4}}, \bibinfo{pages}{39--69} (\bibinfo{year}{1993}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/8384892
+  http://www.liebertpub.com/doi/10.1089/hum.1993.4.1-39}.
+
+\bibitem{Lawler2017}
+\bibinfo{author}{Lawler, S.~E.}, \bibinfo{author}{Speranza, M.-C.},
+  \bibinfo{author}{Cho, C.-F.} \& \bibinfo{author}{Chiocca, E.~A.}
+\newblock \bibinfo{title}{{Oncolytic Viruses in Cancer Treatment}}.
+\newblock \emph{\bibinfo{journal}{JAMA Oncology}} \textbf{\bibinfo{volume}{3}},
+  \bibinfo{pages}{841} (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/27441411
+  http://oncology.jamanetwork.com/article.aspx?doi=10.1001/jamaoncol.2016.2064}.
+
+\bibitem{Naldini2011}
+\bibinfo{author}{Naldini, L.}
+\newblock \bibinfo{title}{{Ex vivo gene transfer and correction for cell-based
+  therapies}}.
+\newblock \emph{\bibinfo{journal}{Nature Reviews Genetics}}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{301--315}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21445084
+  http://www.nature.com/articles/nrg2985}.
+
+\bibitem{Mingozzi2011}
+\bibinfo{author}{Mingozzi, F.} \& \bibinfo{author}{High, K.~A.}
+\newblock \bibinfo{title}{{Therapeutic in vivo gene transfer for genetic
+  disease using AAV: progress and challenges}}.
+\newblock \emph{\bibinfo{journal}{Nature Reviews Genetics}}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{341--355}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21499295
+  http://www.nature.com/articles/nrg2988}.
+
+\bibitem{Sanchez1992}
+\bibinfo{author}{S{\'{a}}nchez, L.}, \bibinfo{author}{Calvo, M.} \&
+  \bibinfo{author}{Brock, J.~H.}
+\newblock \bibinfo{title}{{Biological role of lactoferrin.}}
+\newblock \emph{\bibinfo{journal}{Archives of disease in childhood}}
+  \textbf{\bibinfo{volume}{67}}, \bibinfo{pages}{657--61}
+  (\bibinfo{year}{1992}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/1599309
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1793702}.
+
+\bibitem{Arnold1977}
+\bibinfo{author}{Arnold, R.}, \bibinfo{author}{Cole, M.} \&
+  \bibinfo{author}{McGhee, J.~R.}
+\newblock \bibinfo{title}{{A bactericidal effect for human lactoferrin}}.
+\newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{197}},
+  \bibinfo{pages}{263--265} (\bibinfo{year}{1977}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/327545
+  http://www.sciencemag.org/cgi/doi/10.1126/science.327545}.
+
+\bibitem{Arnold1980}
+\bibinfo{author}{Arnold, R.~R.}, \bibinfo{author}{Brewer, M.} \&
+  \bibinfo{author}{Gauthier, J.~J.}
+\newblock \bibinfo{title}{{Bactericidal activity of human lactoferrin:
+  sensitivity of a variety of microorganisms.}}
+\newblock \emph{\bibinfo{journal}{Infection and immunity}}
+  \textbf{\bibinfo{volume}{28}}, \bibinfo{pages}{893--8}
+  (\bibinfo{year}{1980}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/6772569
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC551035}.
+
+\bibitem{Kirkpatrick1971}
+\bibinfo{author}{Kirkpatrick, C.~H.}, \bibinfo{author}{Green, I.},
+  \bibinfo{author}{Rich, R.~R.} \& \bibinfo{author}{Schade, A.~L.}
+\newblock \bibinfo{title}{{Inhibition of Growth of Candida albicans by
+  Iron-Unsaturated Lactoferrin: Relation to Host-Defense Mechanisms in Chronic
+  Mucocutaneous Candidiasis}}.
+\newblock \emph{\bibinfo{journal}{Journal of Infectious Diseases}}
+  \textbf{\bibinfo{volume}{124}}, \bibinfo{pages}{539--544}
+  (\bibinfo{year}{1971}).
+\newblock
+  \urlprefix\url{https://academic.oup.com/jid/article-lookup/doi/10.1093/infdis/124.6.539}.
+
+\bibitem{Jahani2015}
+\bibinfo{author}{Jahani, S.}, \bibinfo{author}{Shakiba, A.} \&
+  \bibinfo{author}{Jahani, L.}
+\newblock \bibinfo{title}{{The Antimicrobial Effect of Lactoferrin on
+  Gram-Negative and Gram-Positive Bacteria}}.
+\newblock \emph{\bibinfo{journal}{International Journal of Infection}}
+  \textbf{\bibinfo{volume}{2}} (\bibinfo{year}{2015}).
+\newblock \urlprefix\url{http://intjinfection.com/en/articles/14726.html}.
+
+\bibitem{Farnaud2003}
+\bibinfo{author}{Farnaud, S.} \& \bibinfo{author}{Evans, R.~W.}
+\newblock \bibinfo{title}{{Lactoferrin--a multifunctional protein with
+  antimicrobial properties.}}
+\newblock \emph{\bibinfo{journal}{Molecular immunology}}
+  \textbf{\bibinfo{volume}{40}}, \bibinfo{pages}{395--405}
+  (\bibinfo{year}{2003}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/14568385}.
+
+\bibitem{Shau1992}
+\bibinfo{author}{Shau, H.}, \bibinfo{author}{Kim, A.} \&
+  \bibinfo{author}{Golub, S.~H.}
+\newblock \bibinfo{title}{{Modulation of natural killer and
+  lymphokine-activated killer cell cytotoxicity by lactoferrin}}.
+\newblock \emph{\bibinfo{journal}{Journal of Leukocyte Biology}}
+  \textbf{\bibinfo{volume}{51}}, \bibinfo{pages}{343--349}
+  (\bibinfo{year}{1992}).
+\newblock \urlprefix\url{http://doi.wiley.com/10.1002/jlb.51.4.343}.
+
+\bibitem{Gahr1991}
+\bibinfo{author}{Gahr, M.}, \bibinfo{author}{Speer, C.~P.},
+  \bibinfo{author}{Damerau, B.} \& \bibinfo{author}{Sawatzki, G.}
+\newblock \bibinfo{title}{{Influence of Lactoferrin on the Function of Human
+  Polymorphonuclear Leukocytes and Monocytes}}.
+\newblock \emph{\bibinfo{journal}{Journal of Leukocyte Biology}}
+  \textbf{\bibinfo{volume}{49}}, \bibinfo{pages}{427--433}
+  (\bibinfo{year}{1991}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/1849951
+  http://doi.wiley.com/10.1002/jlb.49.5.427}.
+
+\bibitem{Bellamy1992}
+\bibinfo{author}{Bellamy, W.} \emph{et~al.}
+\newblock \bibinfo{title}{{Identification of the bactericidal domain of
+  lactoferrin}}.
+\newblock \emph{\bibinfo{journal}{Biochimica et Biophysica Acta (BBA) - Protein
+  Structure and Molecular Enzymology}} \textbf{\bibinfo{volume}{1121}},
+  \bibinfo{pages}{130--136} (\bibinfo{year}{1992}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/016748389290346F}.
+
+\bibitem{Wakabayashi1996}
+\bibinfo{author}{Wakabayashi, H.} \emph{et~al.}
+\newblock \bibinfo{title}{{Cooperative anti-Candida effects of lactoferrin or
+  its peptides in combination with azole antifungal agents.}}
+\newblock \emph{\bibinfo{journal}{Microbiology and immunology}}
+  \textbf{\bibinfo{volume}{40}}, \bibinfo{pages}{821--5}
+  (\bibinfo{year}{1996}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/8985937}.
+
+\bibitem{Aguilera1999}
+\bibinfo{author}{Aguilera, O.}, \bibinfo{author}{Ostolaza, H.},
+  \bibinfo{author}{Quir{\'{o}}s, L.} \& \bibinfo{author}{Fierro, J.}
+\newblock \bibinfo{title}{{Permeabilizing action of an antimicrobial
+  lactoferricin-derived peptide on bacterial and artificial membranes}}.
+\newblock \emph{\bibinfo{journal}{FEBS Letters}}
+  \textbf{\bibinfo{volume}{462}}, \bibinfo{pages}{273--277}
+  (\bibinfo{year}{1999}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0014579399015458}.
+
+\bibitem{Cochran2001}
+\bibinfo{author}{Cochran, A.~G.}, \bibinfo{author}{Skelton, N.~J.} \&
+  \bibinfo{author}{Starovasnik, M.~A.}
+\newblock \bibinfo{title}{{Tryptophan zippers: Stable, monomeric
+  $\beta$-hairpins}}.
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences}} \textbf{\bibinfo{volume}{98}}, \bibinfo{pages}{5578--5583}
+  (\bibinfo{year}{2001}).
+\newblock \urlprefix\url{https://www.pnas.org/content/98/10/5578}.
+
+\bibitem{Tsutsumi2012}
+\bibinfo{author}{Tsutsumi, A.} \emph{et~al.}
+\newblock \bibinfo{title}{{Structure and orientation of bovine lactoferrampin
+  in the mimetic bacterial membrane as revealed by solid-state NMR and
+  molecular dynamics simulation.}}
+\newblock \emph{\bibinfo{journal}{Biophysical journal}}
+  \textbf{\bibinfo{volume}{103}}, \bibinfo{pages}{1735--43}
+  (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23083717
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC3475389}.
+
+\bibitem{Arseneault2010}
+\bibinfo{author}{Arseneault, M.}, \bibinfo{author}{B{\'{e}}dard, S.},
+  \bibinfo{author}{Boulet-Audet, M.} \& \bibinfo{author}{P{\'{e}}zolet, M.}
+\newblock \bibinfo{title}{{Study of the Interaction of Lactoferricin B with
+  Phospholipid Monolayers and Bilayers}}.
+\newblock \emph{\bibinfo{journal}{Langmuir}} \textbf{\bibinfo{volume}{26}},
+  \bibinfo{pages}{3468--3478} (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/la903014w}.
+
+\bibitem{Strom2002}
+\bibinfo{author}{Str{\o}m, M.~B.} \emph{et~al.}
+\newblock \bibinfo{title}{{Important structural features of 15-residue
+  lactoferricin derivatives and methods for improvement of antimicrobial
+  activity.}}
+\newblock \emph{\bibinfo{journal}{Biochemistry and cell biology = Biochimie et
+  biologie cellulaire}} \textbf{\bibinfo{volume}{80}}, \bibinfo{pages}{65--74}
+  (\bibinfo{year}{2002}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/11908644}.
 
 \end{thebibliography}
