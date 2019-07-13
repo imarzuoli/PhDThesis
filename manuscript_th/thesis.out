@@ -4,8 +4,13 @@
 \BOOKMARK [1][-]{section.1.3}{Alternative antibiotic strategies: antimicrobial peptides}{chapter.1}% 4
 \BOOKMARK [1][-]{section.1.4}{Gene therapy}{chapter.1}% 5
 \BOOKMARK [1][-]{section.1.5}{Closing the circle: an antimicrobial drug delivery vehicle}{chapter.1}% 6
-\BOOKMARK [0][-]{chapter.2}{Methods}{}% 7
-\BOOKMARK [1][-]{section.2.1}{The four main problems of computational models of biosystems}{chapter.2}% 8
-\BOOKMARK [0][-]{appendix.}{Appendices}{}% 9
-\BOOKMARK [1][-]{section.A.1}{On the derivation of the GP predictive distribution}{appendix.}% 10
-\BOOKMARK [0][-]{section*.33}{Bibliography}{}% 11
+\BOOKMARK [1][-]{section.1.6}{A computational approach to understand capzip}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Methods}{}% 8
+\BOOKMARK [1][-]{section.2.1}{The force field problem}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{The search problem}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{The ensemble problem}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.4}{The experimental problem}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.5}{MD simulations: successes}{chapter.2}% 13
+\BOOKMARK [0][-]{appendix.}{Appendices}{}% 14
+\BOOKMARK [1][-]{section.A.1}{On the derivation of the GP predictive distribution}{appendix.}% 15
+\BOOKMARK [0][-]{section*.38}{Bibliography}{}% 16
