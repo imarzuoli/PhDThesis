@@ -1,4 +1,0 @@
-\contentsline {chapter}{\chapternumberline {1}Introduction}{13}{chapter.1}
-\contentsline {appendix}{\chapternumberline {}Appendices}{14}{appendix.}
-\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{14}{section.A.1}
-\contentsline {chapter}{Bibliography}{15}{section*.6}

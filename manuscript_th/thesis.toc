@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {1.1.3}Organic materials for small drugs delivery}{15}{subsection.1.1.3}
 \contentsline {paragraph}{Lipids}{15}{section*.9}
 \contentsline {paragraph}{DNA scaffolds}{15}{section*.10}
-\contentsline {paragraph}{Peptidic scaffolds}{15}{section*.11}
+\contentsline {paragraph}{Peptidic scaffolds}{16}{section*.11}
 \contentsline {section}{\numberline {1.2}Antimicrobial resistance}{17}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Course of antimicrobial resistance}{19}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Mechanisms of antimicrobial resistance to small drugs}{21}{subsection.1.2.2}
@@ -16,44 +16,44 @@
 \contentsline {paragraph}{Change or modification of the antibiotic target}{23}{section*.14}
 \contentsline {paragraph}{Direct modification of antibiotics}{24}{section*.15}
 \contentsline {section}{\numberline {1.3}Alternative antibiotic strategies: antimicrobial peptides}{25}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Host-defence, membrane active peptides}{27}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Common mechanisms of action of AMPs}{28}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.1}Host-defence, membrane active peptides}{26}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Common mechanisms of action of AMPs}{29}{subsection.1.3.2}
 \contentsline {paragraph}{Membrane disruption}{29}{section*.17}
-\contentsline {paragraph}{Alternative mechanisms of action}{31}{section*.18}
+\contentsline {paragraph}{Alternative mechanisms of action}{32}{section*.18}
 \contentsline {subsection}{\numberline {1.3.3}Mechanisms of resistance to AMPs}{32}{subsection.1.3.3}
-\contentsline {paragraph}{Proteolitic degradation and sequestration [TAKE OFF?]}{32}{section*.20}
+\contentsline {paragraph}{Proteolitic degradation and sequestration [TAKE OFF?]}{33}{section*.20}
 \contentsline {paragraph}{Biofilms}{34}{section*.21}
-\contentsline {paragraph}{Surface remodelling}{34}{section*.22}
+\contentsline {paragraph}{Surface remodelling}{35}{section*.22}
 \contentsline {subsection}{\numberline {1.3.4}Principles of AMP design}{36}{subsection.1.3.4}
 \contentsline {paragraph}{Template based studies}{38}{section*.23}
-\contentsline {paragraph}{Biophysical studies}{39}{section*.24}
+\contentsline {paragraph}{Biophysical studies}{40}{section*.24}
 \contentsline {paragraph}{Virtual screening}{41}{section*.25}
-\contentsline {subsection}{\numberline {1.3.5}Clinical applications}{42}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.5}Clinical applications}{43}{subsection.1.3.5}
 \contentsline {section}{\numberline {1.4}Gene therapy}{43}{section.1.4}
-\contentsline {section}{\numberline {1.5}Closing the circle: an antimicrobial drug delivery vehicle}{45}{section.1.5}
+\contentsline {section}{\numberline {1.5}Closing the circle: an antimicrobial drug delivery vehicle}{46}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Capzip}{47}{subsection.1.5.1}
 \contentsline {paragraph}{Lactoferrin}{48}{section*.28}
 \contentsline {paragraph}{The designed block}{50}{section*.29}
-\contentsline {subsection}{\numberline {1.5.2}A viable systems: experimental background and question}{50}{subsection.1.5.2}
-\contentsline {paragraph}{Experimental results}{50}{section*.31}
-\contentsline {paragraph}{Open questions}{52}{section*.32}
+\contentsline {subsection}{\numberline {1.5.2}A viable systems: experimental background and question}{51}{subsection.1.5.2}
+\contentsline {paragraph}{Experimental results}{51}{section*.31}
+\contentsline {paragraph}{Open questions}{53}{section*.32}
 \contentsline {section}{\numberline {1.6}A computational approach to understand capzip}{53}{section.1.6}
-\contentsline {chapter}{\chapternumberline {2}Methods}{55}{chapter.2}
-\contentsline {section}{\numberline {2.1}The force field problem}{56}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}MD algorithms}{56}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Functional form of force-fields}{58}{subsection.2.1.2}
-\contentsline {paragraph}{Covalent (bonded) interactions}{58}{section*.33}
-\contentsline {paragraph}{Non bonded interactions}{60}{section*.34}
-\contentsline {paragraph}{}{61}{section*.35}
-\contentsline {subsection}{\numberline {2.1.3}The GROMOS force field}{62}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}The SIRAH force field}{63}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}The MARTINI force field}{65}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}The search problem}{67}{section.2.2}
-\contentsline {section}{\numberline {2.3}The ensemble problem}{70}{section.2.3}
-\contentsline {section}{\numberline {2.4}The experimental problem}{71}{section.2.4}
-\contentsline {paragraph}{}{72}{section*.36}
-\contentsline {section}{\numberline {2.5}MD simulations: successes}{73}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Simulations of antimicrobial peptides}{73}{subsection.2.5.1}
-\contentsline {appendix}{\chapternumberline {}Appendices}{75}{appendix.}
-\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{75}{section.A.1}
-\contentsline {chapter}{Bibliography}{76}{section*.38}
+\contentsline {chapter}{\chapternumberline {2}Methods}{56}{chapter.2}
+\contentsline {section}{\numberline {2.1}The force field problem}{57}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}MD algorithms}{57}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Functional form of force-fields}{59}{subsection.2.1.2}
+\contentsline {paragraph}{Covalent (bonded) interactions}{59}{section*.33}
+\contentsline {paragraph}{Non bonded interactions}{61}{section*.34}
+\contentsline {paragraph}{}{62}{section*.35}
+\contentsline {subsection}{\numberline {2.1.3}The GROMOS force field}{63}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}The SIRAH force field}{64}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}The MARTINI force field}{66}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}The search problem}{68}{section.2.2}
+\contentsline {section}{\numberline {2.3}The ensemble problem}{71}{section.2.3}
+\contentsline {section}{\numberline {2.4}The experimental problem}{72}{section.2.4}
+\contentsline {paragraph}{}{73}{section*.36}
+\contentsline {section}{\numberline {2.5}MD simulations: successes}{74}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Simulations of antimicrobial peptides}{74}{subsection.2.5.1}
+\contentsline {appendix}{\chapternumberline {}Appendices}{76}{appendix.}
+\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{76}{section.A.1}
+\contentsline {chapter}{Bibliography}{77}{section*.38}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  13 JUL 2019 19:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  17 JUL 2019 15:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,10 +1197,10 @@ LaTeX Warning: Float too large for page by 19.38013pt on input line 44.
 File: pics/carbon_review.jpg Graphic file (type jpg)
 
 <use pics/carbon_review.jpg>
-Package pdftex.def Info: pics/carbon_review.jpg used on input line 75.
+Package pdftex.def Info: pics/carbon_review.jpg used on input line 77.
 (pdftex.def)             Requested size: 199.0pt x 79.60292pt.
 
-Overfull \hbox (0.57477pt too wide) in paragraph at lines 82--83
+Overfull \hbox (0.57477pt too wide) in paragraph at lines 84--85
 []\OT1/cmr/bx/n/12 Carbon nan-otubes[] \OT1/cmr/m/n/12 Sim-i-larly, car-bon nan
 -otubes have been used for biomed-
  []
@@ -1208,138 +1208,124 @@ Overfull \hbox (0.57477pt too wide) in paragraph at lines 82--83
 [14 <./pics/carbon_review.jpg>]
 
 Package natbib Warning: Citation `seeRebuttal' on page 15 undefined on input li
-ne 91.
+ne 96.
 
-[15] [16]
+[15] [16] [17]
 
-Package natbib Warning: Citation `???' on page 17 undefined on input line 128.
-
-
-Package natbib Warning: Citation `???' on page 17 undefined on input line 128.
+Package natbib Warning: Citation `???' on page 18 undefined on input line 139.
 
 
-Package natbib Warning: Citation `???' on page 17 undefined on input line 130.
+Package natbib Warning: Citation `???' on page 18 undefined on input line 139.
 
-[17]
 
-Package natbib Warning: Citation `???' on page 18 undefined on input line 136.
+Package natbib Warning: Citation `???' on page 18 undefined on input line 141.
+
+
+Package natbib Warning: Citation `???' on page 18 undefined on input line 147.
 
 [18]
 
-Package natbib Warning: Citation `????' on page 19 undefined on input line 143.
+Package natbib Warning: Citation `????' on page 19 undefined on input line 154.
 
 
 
-Package natbib Warning: Citation `????' on page 19 undefined on input line 143.
+Package natbib Warning: Citation `????' on page 19 undefined on input line 154.
 
 
 
-Package natbib Warning: Citation `????' on page 19 undefined on input line 145.
+Package natbib Warning: Citation `????' on page 19 undefined on input line 156.
 
 
 
-Package natbib Warning: Citation `????' on page 19 undefined on input line 147.
+Package natbib Warning: Citation `????' on page 19 undefined on input line 158.
 
 
 [19]
 
-Package natbib Warning: Citation `????' on page 20 undefined on input line 151.
+Package natbib Warning: Citation `????' on page 20 undefined on input line 162.
 
 
 
-Package natbib Warning: Citation `????' on page 20 undefined on input line 153.
+Package natbib Warning: Citation `????' on page 20 undefined on input line 164.
 
 
 
-Package natbib Warning: Citation `????' on page 20 undefined on input line 159.
+Package natbib Warning: Citation `????' on page 20 undefined on input line 170.
 
 
 
-Package natbib Warning: Citation `????' on page 20 undefined on input line 161.
+Package natbib Warning: Citation `????' on page 20 undefined on input line 172.
 
 
 [20] <pics/amr1.jpg, id=424, 929.4725pt x 569.12625pt>
 File: pics/amr1.jpg Graphic file (type jpg)
  <use pics/amr1.jpg>
-Package pdftex.def Info: pics/amr1.jpg used on input line 173.
+Package pdftex.def Info: pics/amr1.jpg used on input line 185.
 (pdftex.def)             Requested size: 238.80243pt x 146.21513pt.
 
 <pics/amr3.jpg, id=425, 929.4725pt x 850.17625pt>
 File: pics/amr3.jpg Graphic file (type jpg)
  <use pics/amr3.jpg>
-Package pdftex.def Info: pics/amr3.jpg used on input line 176.
+Package pdftex.def Info: pics/amr3.jpg used on input line 188.
 (pdftex.def)             Requested size: 250.10997pt x 228.78038pt.
 
 <pics/amr4_half.png, id=426, 401.5pt x 838.13126pt>
 File: pics/amr4_half.png Graphic file (type png)
  <use pics/amr4_half.png>
-Package pdftex.def Info: pics/amr4_half.png used on input line 178.
+Package pdftex.def Info: pics/amr4_half.png used on input line 190.
 (pdftex.def)             Requested size: 109.59496pt x 228.78038pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [21] [22 <./pics/amr1.jpg> <./pics/amr3.jpg> <./pics/amr4_half.png>] [23]
-[24] [25] <pics/amp_mech.jpg, id=522, 520.59982pt x 401.00256pt>
+[24] [25]
+
+Package natbib Warning: Citation `??' on page 26 undefined on input line 262.
+
+<pics/amp_mech.jpg, id=522, 520.59982pt x 401.00256pt>
 File: pics/amp_mech.jpg Graphic file (type jpg)
-
-<use pics/amp_mech.jpg>
-Package pdftex.def Info: pics/amp_mech.jpg used on input line 258.
+ <use pics/amp_mech.jpg>
+Package pdftex.def Info: pics/amp_mech.jpg used on input line 268.
 (pdftex.def)             Requested size: 278.59879pt x 214.59238pt.
- [26 <./pics/amp_mech.jpg>] [27]
 
-Package natbib Warning: Citation `???' on page 28 undefined on input line 285.
+[26] [27 <./pics/amp_mech.jpg>]
 
-[28] [29]
+Package natbib Warning: Citation `???' on page 28 undefined on input line 295.
+
+[28] [29] [30]
+
+Package natbib Warning: Citation `??' on page 31 undefined on input line 347.
+
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-
-
-Package natbib Warning: Citation `??' on page 30 undefined on input line 326.
-
-[30]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-
-
-Package natbib Warning: Citation `???' on page 31 undefined on input line 345.
-
 [31]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package natbib Warning: Citation `???' on page 32 undefined on input line 366.
 
 [32] [33] [34] [35]
 
-Package natbib Warning: Citation `???' on page 36 undefined on input line 441.
+Package natbib Warning: Citation `???' on page 36 undefined on input line 463.
 
 
-Package natbib Warning: Citation `???' on page 36 undefined on input line 444.
+Package natbib Warning: Citation `???' on page 36 undefined on input line 466.
 
 
-Package natbib Warning: Citation `???' on page 36 undefined on input line 444.
+Package natbib Warning: Citation `???' on page 36 undefined on input line 466.
+
+[36]
+
+Package natbib Warning: Citation `???see_example_on_AMPR' on page 37 undefined 
+on input line 467.
 
 
-Package natbib Warning: Citation `???see_example_on_AMPR' on page 36 undefined 
-on input line 445.
+Package natbib Warning: Citation `???' on page 37 undefined on input line 467.
 
-
-Package natbib Warning: Citation `???' on page 36 undefined on input line 445.
-
-[36] [37]
+[37]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
  [38]
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ≠ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
  [39]
@@ -1347,95 +1333,87 @@ Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
- [40]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
- [41]
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ≠ in font cmr12!
-
-Overfull \hbox (0.64308pt too wide) in paragraph at lines 525--526
-[]\OT1/cmr/m/n/12 More re-cently, new stud-ies are ex-plor-ing novel ma-chine l
-earn-ing ap-proaches,
- []
-
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ≠ in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ≠ in font cmr12!
-[42] <pics/gene_therapy.jpeg, id=885, 435.90855pt x 327.98535pt>
+ [40] [41] [42] [43]
+<pics/gene_therapy.jpeg, id=886, 435.90855pt x 327.98535pt>
 File: pics/gene_therapy.jpeg Graphic file (type jpg)
 
 <use pics/gene_therapy.jpeg>
-Package pdftex.def Info: pics/gene_therapy.jpeg used on input line 550.
+Package pdftex.def Info: pics/gene_therapy.jpeg used on input line 575.
 (pdftex.def)             Requested size: 358.19757pt x 269.51024pt.
- [43] [44 <./pics/gene_therapy.jpeg>] [45] [46]
-<pics/capzip.png, id=924, 1434.35875pt x 346.29375pt>
+ [44 <./pics/gene_therapy.jpeg>] [45] [46]
+<pics/capzip.png, id=918, 1434.35875pt x 346.29375pt>
 File: pics/capzip.png Graphic file (type png)
  <use pics/capzip.png>
-Package pdftex.def Info: pics/capzip.png used on input line 601.
+Package pdftex.def Info: pics/capzip.png used on input line 629.
 (pdftex.def)             Requested size: 398.0pt x 96.08443pt.
 
+[47 <./pics/capzip.png>]
+Overfull \hbox (11.70001pt too wide) in paragraph at lines 638--639
+\OT1/cmr/m/n/12 assembled with the RNA strands, with-out caus-ing cy-to-toxic a
+nd haemolytic
+ []
 
-Package natbib Warning: Citation `???' on page 47 undefined on input line 615.
 
-[47 <./pics/capzip.png>] [48] [49] [50]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
+Package natbib Warning: Citation `???' on page 48 undefined on input line 643.
+
+[48] [49] [50] [51]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 687.
- [51] [52] [53]) [54]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 715.
+
+Overfull \hbox (2.44029pt too wide) in paragraph at lines 723--728
+[]\OT1/cmr/m/n/12 Finally, the pep-tide does ex-ert an an-timi-cro-bial func-ti
+on: the non-assembled
+ []
+
+[52] [53] [54]) [55]
 \openout2 = `2methods/methods.aux'.
 
-
-(./2methods/methods.tex [55
+ (./2methods/methods.tex [56
 
 
 
 ]
 
-Package natbib Warning: Citation `...' on page 56 undefined on input line 21.
-
-[56]
-
-Package natbib Warning: Citation `Arnold' on page 57 undefined on input line 40
-.
+Package natbib Warning: Citation `...' on page 57 undefined on input line 21.
 
 [57]
 
-Package natbib Warning: Citation `--' on page 58 undefined on input line 59.
+Package natbib Warning: Citation `Arnold' on page 58 undefined on input line 40
+.
+
+[58]
+
+Package natbib Warning: Citation `--' on page 59 undefined on input line 59.
 
 
-Package natbib Warning: Citation `--' on page 58 undefined on input line 59.
+Package natbib Warning: Citation `--' on page 59 undefined on input line 59.
 
 
-Package natbib Warning: Citation `--' on page 58 undefined on input line 61.
+Package natbib Warning: Citation `--' on page 59 undefined on input line 61.
 
 
-Package natbib Warning: Citation `--' on page 58 undefined on input line 61.
+Package natbib Warning: Citation `--' on page 59 undefined on input line 61.
 
-[58] [59]
+[59] [60]
 Overfull \hbox (2.73624pt too wide) in paragraph at lines 98--99
 []\OT1/cmr/bx/n/12 Non bonded in-ter-ac-tions[] \OT1/cmr/m/n/12 Non bonded in-t
 er-ac-tions in-cludes the short range
  []
 
-[60]
+[61]
 
-Package natbib Warning: Citation `--' on page 61 undefined on input line 112.
-
-
-Package natbib Warning: Citation `--' on page 61 undefined on input line 112.
-
-[61] [62]
-
-Package natbib Warning: Citation `53a6' on page 63 undefined on input line 131.
+Package natbib Warning: Citation `--' on page 62 undefined on input line 112.
 
 
+Package natbib Warning: Citation `--' on page 62 undefined on input line 112.
 
-Package natbib Warning: Citation `54a8' on page 63 undefined on input line 131.
+[62] [63]
+
+Package natbib Warning: Citation `53a6' on page 64 undefined on input line 131.
+
+
+
+Package natbib Warning: Citation `54a8' on page 64 undefined on input line 131.
 
 
 
@@ -1445,102 +1423,102 @@ etri-sa-tion strate-
  []
 
 
-Package natbib Warning: Citation `--' on page 63 undefined on input line 139.
+Package natbib Warning: Citation `--' on page 64 undefined on input line 139.
 
-[63] [64] [65]
+[64] [65] [66]
 
-Package natbib Warning: Citation `elnedyn' on page 66 undefined on input line 1
+Package natbib Warning: Citation `elnedyn' on page 67 undefined on input line 1
 65.
 
-[66] [67]
+[67] [68]
 
-Package natbib Warning: Citation `72' on page 68 undefined on input line 194.
-
-
-Package natbib Warning: Citation `73' on page 68 undefined on input line 194.
+Package natbib Warning: Citation `72' on page 69 undefined on input line 194.
 
 
-Package natbib Warning: Citation `7' on page 68 undefined on input line 195.
+Package natbib Warning: Citation `73' on page 69 undefined on input line 194.
 
 
-Package natbib Warning: Citation `78' on page 68 undefined on input line 195.
+Package natbib Warning: Citation `7' on page 69 undefined on input line 195.
 
 
-Package natbib Warning: Citation `80' on page 68 undefined on input line 196.
-
-[68]
-
-Package natbib Warning: Citation `82' on page 69 undefined on input line 204.
+Package natbib Warning: Citation `78' on page 69 undefined on input line 195.
 
 
-Package natbib Warning: Citation `87' on page 69 undefined on input line 204.
-
-
-Package natbib Warning: Citation `88' on page 69 undefined on input line 204.
-
-
-Package natbib Warning: Citation `83' on page 69 undefined on input line 204.
-
-
-Package natbib Warning: Citation `91' on page 69 undefined on input line 206.
-
-
-Package natbib Warning: Citation `92' on page 69 undefined on input line 206.
-
-
-Package natbib Warning: Citation `62' on page 69 undefined on input line 206.
-
-
-Package natbib Warning: Citation `85' on page 69 undefined on input line 208.
-
-
-Package natbib Warning: Citation `86' on page 69 undefined on input line 208.
-
-
-Package natbib Warning: Citation `54' on page 69 undefined on input line 210.
-
-
-Package natbib Warning: Citation `55' on page 69 undefined on input line 210.
-
-
-Package natbib Warning: Citation `56' on page 69 undefined on input line 210.
-
-
-Package natbib Warning: Citation `57' on page 69 undefined on input line 210.
-
-
-Package natbib Warning: Citation `58' on page 69 undefined on input line 210.
-
-
-Package natbib Warning: Citation `59' on page 69 undefined on input line 210.
-
-
-Package natbib Warning: Citation `hh' on page 69 undefined on input line 214.
+Package natbib Warning: Citation `80' on page 69 undefined on input line 196.
 
 [69]
 
-Package natbib Warning: Citation `142' on page 70 undefined on input line 236.
+Package natbib Warning: Citation `82' on page 70 undefined on input line 204.
 
 
-Package natbib Warning: Citation `142' on page 70 undefined on input line 238.
+Package natbib Warning: Citation `87' on page 70 undefined on input line 204.
 
-[70] [71] [72] [73]) [74]
+
+Package natbib Warning: Citation `88' on page 70 undefined on input line 204.
+
+
+Package natbib Warning: Citation `83' on page 70 undefined on input line 204.
+
+
+Package natbib Warning: Citation `91' on page 70 undefined on input line 206.
+
+
+Package natbib Warning: Citation `92' on page 70 undefined on input line 206.
+
+
+Package natbib Warning: Citation `62' on page 70 undefined on input line 206.
+
+
+Package natbib Warning: Citation `85' on page 70 undefined on input line 208.
+
+
+Package natbib Warning: Citation `86' on page 70 undefined on input line 208.
+
+
+Package natbib Warning: Citation `54' on page 70 undefined on input line 210.
+
+
+Package natbib Warning: Citation `55' on page 70 undefined on input line 210.
+
+
+Package natbib Warning: Citation `56' on page 70 undefined on input line 210.
+
+
+Package natbib Warning: Citation `57' on page 70 undefined on input line 210.
+
+
+Package natbib Warning: Citation `58' on page 70 undefined on input line 210.
+
+
+Package natbib Warning: Citation `59' on page 70 undefined on input line 210.
+
+
+Package natbib Warning: Citation `hh' on page 70 undefined on input line 214.
+
+[70]
+
+Package natbib Warning: Citation `142' on page 71 undefined on input line 236.
+
+
+Package natbib Warning: Citation `142' on page 71 undefined on input line 238.
+
+[71] [72] [73] [74]) [75]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
 
-LaTeX Warning: Reference `eq:predictive_distribution' on page 75 undefined on i
+LaTeX Warning: Reference `eq:predictive_distribution' on page 76 undefined on i
 nput line 12.
 
 
-Package natbib Warning: Citation `Bishop:998831' on page 75 undefined on input 
+Package natbib Warning: Citation `Bishop:998831' on page 76 undefined on input 
 line 12.
 
 
-Package natbib Warning: Citation `Williams:2006vz' on page 75 undefined on inpu
+Package natbib Warning: Citation `Williams:2006vz' on page 76 undefined on inpu
 t line 12.
 
-) [75
+) [76
 
 
 
@@ -1556,7 +1534,7 @@ Underfull \hbox (badness 1789) in paragraph at lines 15--18
 en . wikipedia . org / wiki /
  []
 
-[76
+[77
 
 
 
@@ -1584,7 +1562,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--129
  pii /
  []
 
-[77]
+[78]
 Underfull \hbox (badness 1755) in paragraph at lines 213--222
 []\OT1/cmr/m/n/12 Rao, S. H., Harini, B., Shadamar-shan, R. P. K., Bal-a-gan-ga
 d-
@@ -1596,16 +1574,16 @@ Underfull \hbox (badness 2894) in paragraph at lines 213--222
 y-
  []
 
-[78] [79]
+[79] [80]
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 296.
- [80]
+ [81]
 Underfull \hbox (badness 2027) in paragraph at lines 395--402
 []\OT1/cmr/m/n/12 Yan, X., Zhu, P. & Li, J.  Self-assembly and ap-pli-ca-tion o
 f
  []
 
-[81]
+[82]
 Underfull \hbox (badness 6252) in paragraph at lines 495--502
 []\OT1/cmr/m/n/12 O 'neill, J.  TACK-LING DRUG-RESISTANT IN-FEC-TIONS
  []
@@ -1626,11 +1604,11 @@ Underfull \hbox (badness 6995) in paragraph at lines 495--502
 rg / sites / default / files /
  []
 
-[82] [83] [84] [85] [86] [87] [88] [89]
+[83] [84] [85] [86] [87] [88] [89] [90]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no † in font cmr12!
- [90]
+ [91]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no † in font cmr12!
@@ -1676,19 +1654,19 @@ Underfull \hbox (badness 5652) in paragraph at lines 1182--1191
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
-[91] [92]
+[92] [93]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no † in font cmr12!
- [93]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
  [94]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [95] [96]
+ [95]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+ [96] [97]
 Underfull \hbox (badness 2608) in paragraph at lines 1624--1634
 \OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . eurekaselect . com / o
 penurl / content . php ? genre =
@@ -1712,7 +1690,7 @@ Underfull \hbox (badness 2608) in paragraph at lines 1636--1645
 penurl / content . php ? genre =
  []
 
-[97] [98] [99] [100]
+[98] [99] [100] [101]
 Underfull \hbox (badness 1527) in paragraph at lines 1930--1937
 []\OT1/cmr/m/n/12 Wiradharma, N. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 Syn-t
 hetic cationic am-phiphilic $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 -helical
@@ -1733,11 +1711,11 @@ ier . com / retrieve / pii /
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
-[101] [102]
+[102] [103]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
- [103]
+ [104]
 Underfull \hbox (badness 1755) in paragraph at lines 2121--2130
 \OT1/cmr/m/n/12 (2009).  URL []$\OT1/cmtt/m/n/12 https : / / linkinghub . elsev
 ier . com / retrieve / pii /
@@ -1749,11 +1727,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2150--2158
 -[]
  []
 
-[104]
+[105]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [105] [106] [107]
+ [106] [107] [108]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
@@ -1761,7 +1739,7 @@ Missing character: There is no ì in font cmr12!
 
 Package natbib Warning: There were undefined citations.
 
-[108]
+[109]
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
@@ -1780,15 +1758,12 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 24194 strings out of 493029
- 422159 string characters out of 6136233
- 538219 words of memory out of 5000000
- 26787 multiletter control sequences out of 15000+600000
+ 24196 strings out of 493029
+ 422180 string characters out of 6136233
+ 538276 words of memory out of 5000000
+ 26788 multiletter control sequences out of 15000+600000
  19260 words of font info for 74 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  70i,15n,92p,1681b,1491s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1809,10 +1784,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (108 pages, 4667099 bytes).
+Output written on thesis.pdf (109 pages, 4668444 bytes).
 PDF statistics:
- 1908 PDF objects out of 2073 (max. 8388607)
+ 1909 PDF objects out of 2073 (max. 8388607)
  1711 compressed objects within 18 object streams
- 447 named destinations out of 1000 (max. 500000)
+ 448 named destinations out of 1000 (max. 500000)
  186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
