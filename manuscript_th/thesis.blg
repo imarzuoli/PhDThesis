@@ -7,15 +7,15 @@ A level-1 auxiliary file: 1introduction/introduction.aux
 A level-1 auxiliary file: 2methods/methods.aux
 A level-1 auxiliary file: appendix.aux
 The style file: naturemag.bst
-Reallocated field_info (elt_size=4) to 12462 items from 5000.
+Reallocated field_info (elt_size=4) to 12332 items from 5000.
 Database file #1: thesis_ref.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--entry type for "poly" isn't style-file defined
---line 3245 of file thesis_ref.bib
+--line 3126 of file thesis_ref.bib
 Warning--entry type for "lipo" isn't style-file defined
---line 3375 of file thesis_ref.bib
+--line 3256 of file thesis_ref.bib
 Warning--entry type for "phage" isn't style-file defined
---line 3414 of file thesis_ref.bib
+--line 3295 of file thesis_ref.bib
 Warning--I didn't find a database entry for "seeRebuttal"
 Warning--I didn't find a database entry for "???"
 Warning--I didn't find a database entry for "????"
@@ -26,6 +26,7 @@ Warning--I didn't find a database entry for "Arnold"
 Warning--I didn't find a database entry for "--"
 Warning--I didn't find a database entry for "53a6"
 Warning--I didn't find a database entry for "54a8"
+Warning--I didn't find a database entry for "elnedyn"
 Warning--I didn't find a database entry for "72"
 Warning--I didn't find a database entry for "73"
 Warning--I didn't find a database entry for "7"
@@ -52,45 +53,45 @@ Warning--I didn't find a database entry for "Bishop:998831"
 Warning--I didn't find a database entry for "Williams:2006vz"
 Warning--empty booktitle in Pattni2015
 Warning--empty journal in Oneill2016
-You've used 253 entries,
+You've used 247 entries,
             2348 wiz_defined-function locations,
-            2877 strings with 81517 characters,
-and the built_in function-call counts, 108002 in all, are:
-= -- 8167
-> -- 2764
+            2837 strings with 78718 characters,
+and the built_in function-call counts, 105361 in all, are:
+= -- 7985
+> -- 2680
 < -- 0
-+ -- 1382
-- -- 691
-* -- 13872
-:= -- 12126
-add.period$ -- 1005
-call.type$ -- 253
-change.case$ -- 252
++ -- 1340
+- -- 670
+* -- 13519
+:= -- 11832
+add.period$ -- 981
+call.type$ -- 247
+change.case$ -- 246
 chr.to.int$ -- 0
-cite$ -- 255
-duplicate$ -- 9174
-empty$ -- 9503
-format.name$ -- 918
-if$ -- 21267
+cite$ -- 249
+duplicate$ -- 8944
+empty$ -- 9279
+format.name$ -- 891
+if$ -- 20751
 int.to.chr$ -- 0
-int.to.str$ -- 253
-missing$ -- 2181
-newline$ -- 1519
-num.names$ -- 253
-pop$ -- 1180
+int.to.str$ -- 247
+missing$ -- 2124
+newline$ -- 1483
+num.names$ -- 247
+pop$ -- 1149
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1489
+skip$ -- 1450
 stack$ -- 0
-substring$ -- 5864
-swap$ -- 9403
+substring$ -- 5757
+swap$ -- 9157
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 703
-width$ -- 256
-write$ -- 3269
-(There were 39 warnings)
+while$ -- 689
+width$ -- 250
+write$ -- 3191
+(There were 40 warnings)

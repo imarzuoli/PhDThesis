@@ -4,8 +4,8 @@ from bibtexparser.bparser import BibTexParser
 from bibtexparser.bwriter import BibTexWriter
 from bibtexparser.customization import *
 
-input_b = "references_short_only_year.bib"
-output_b = "library_clean.bib"
+input_b = "thesis_ref.bib"
+output_b = "thesis_ref_clean.bib"
 
 now = datetime.datetime.now()
 print("{0} Cleaning duff bib records from {1} into {2}".format(now, input_b, output_b))
