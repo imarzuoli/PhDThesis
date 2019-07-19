@@ -51,9 +51,8 @@
 \contentsline {section}{\numberline {2.2}The search problem}{68}{section.2.2}
 \contentsline {section}{\numberline {2.3}The ensemble problem}{71}{section.2.3}
 \contentsline {section}{\numberline {2.4}The experimental problem}{72}{section.2.4}
-\contentsline {paragraph}{}{73}{section*.36}
 \contentsline {section}{\numberline {2.5}MD simulations: successes}{74}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Simulations of antimicrobial peptides}{74}{subsection.2.5.1}
-\contentsline {appendix}{\chapternumberline {}Appendices}{76}{appendix.}
-\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{76}{section.A.1}
-\contentsline {chapter}{Bibliography}{77}{section*.38}
+\contentsline {appendix}{\chapternumberline {}Appendices}{80}{appendix.}
+\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{80}{section.A.1}
+\contentsline {chapter}{Bibliography}{81}{section*.37}
