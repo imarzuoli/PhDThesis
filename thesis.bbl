@@ -25,9 +25,9 @@
 \newblock \urlprefix\url{http://xlink.rsc.org/?DOI=C4NR00915K}.
 
 \bibitem{Blair2014}
-\bibinfo{author}{{A Blair}, J.~M.}, \bibinfo{author}{Webber, M.~A.},
+\bibinfo{author}{Blair, J. M.~A.}, \bibinfo{author}{Webber, M.~A.},
   \bibinfo{author}{Baylay, A.~J.}, \bibinfo{author}{Ogbolu, D.~O.} \&
-  \bibinfo{author}{{V Piddock}, L.~J.}
+  \bibinfo{author}{Piddock, L. J.~V.}
 \newblock \bibinfo{title}{{Molecular mechanisms of antibiotic resistance}}.
 \newblock \emph{\bibinfo{journal}{Nature Publishing Group}}
   \textbf{\bibinfo{volume}{13}} (\bibinfo{year}{2014}).
@@ -1981,8 +1981,8 @@
 \bibitem{Serrano2009}
 \bibinfo{author}{Serrano, G.~N.}, \bibinfo{author}{Zhanel, G.~G.} \&
   \bibinfo{author}{Schweizer, F.}
-\newblock \bibinfo{title}{{Antibacterial Activity of Ultrashort Cationic Lipo-
-  -Peptides}}.
+\newblock \bibinfo{title}{{Antibacterial Activity of Ultrashort Cationic
+  Lipo-$\beta$-Peptides}}.
 \newblock \emph{\bibinfo{journal}{Antimicrobial Agents and Chemotherapy}}
   \textbf{\bibinfo{volume}{53}}, \bibinfo{pages}{2215--2217}
   (\bibinfo{year}{2009}).
@@ -2012,9 +2012,10 @@
   \bibinfo{author}{Gera, L.}, \bibinfo{author}{Vasil, M.~L.} \&
   \bibinfo{author}{Hodges, R.~S.}
 \newblock \bibinfo{title}{{Rational Design of $\alpha$-Helical Antimicrobial
-  Peptides to Target Gram-negative Pathogens, Acinetobacter baumannii and
-  Pseudomonas aeruginosa: Utilization of Charge, ‚ÄòSpecificity Determinants,'
-  Total Hydrophobicity, Hydrophobe Type and Location as Design Para}}.
+  Peptides to Target Gram-negative Pathogens, \emph{Acinetobacter baumannii}
+  and \emph{Pseudomonas aeruginosa}: Utilization of Charge, `Specificity
+  Determinants', Total Hydrophobicity, Hydrophobe Type and Location as Design
+  Parameters to Improve the Therapeutic Ratio}}.
 \newblock \emph{\bibinfo{journal}{Chemical Biology {\&} Drug Design}}
   \textbf{\bibinfo{volume}{77}}, \bibinfo{pages}{225--240}
   (\bibinfo{year}{2011}).
@@ -2143,7 +2144,7 @@
 \newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/19055425}.
 
 \bibitem{Naafs2018}
-\bibinfo{author}{{AB Naafs}, M.}
+\bibinfo{author}{Naafs, M. A.~B.}
 \newblock \bibinfo{title}{{The Antimicrobial Peptides: Ready for Clinical
   Trials?}}
 \newblock \emph{\bibinfo{journal}{Biomedical Journal of Scientific {\&}
@@ -2292,7 +2293,7 @@
 
 \bibitem{Farnaud2003}
 \bibinfo{author}{Farnaud, S.} \& \bibinfo{author}{Evans, R.~W.}
-\newblock \bibinfo{title}{{Lactoferrin--a multifunctional protein with
+\newblock \bibinfo{title}{{Lactoferrin - a multifunctional protein with
   antimicrobial properties.}}
 \newblock \emph{\bibinfo{journal}{Molecular immunology}}
   \textbf{\bibinfo{volume}{40}}, \bibinfo{pages}{395--405}
@@ -2397,5 +2398,714 @@
   (\bibinfo{year}{2009}).
 \newblock
   \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1525001616314800?via{\%}3Dihub}.
+
+\bibitem{Warshel1976}
+\bibinfo{author}{Warshel, A.} \& \bibinfo{author}{Levitt, M.}
+\newblock \bibinfo{title}{{Theoretical studies of enzymic reactions:
+  Dielectric, electrostatic and steric stabilization of the carbonium ion in
+  the reaction of lysozyme}}.
+\newblock \emph{\bibinfo{journal}{Journal of Molecular Biology}}
+  \textbf{\bibinfo{volume}{103}}, \bibinfo{pages}{227--249}
+  (\bibinfo{year}{1976}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/0022283676903119?via{\%}3Dihub}.
+
+\bibitem{vanGunsteren2006}
+\bibinfo{author}{van Gunsteren, W.~F.} \emph{et~al.}
+\newblock \bibinfo{title}{{Biomolecular Modeling: Goals, Problems,
+  Perspectives}}.
+\newblock \emph{\bibinfo{journal}{Angewandte Chemie International Edition}}
+  \textbf{\bibinfo{volume}{45}}, \bibinfo{pages}{4064--4092}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{http://doi.wiley.com/10.1002/anie.200502655}.
+
+\bibitem{Arnold1989}
+\bibinfo{author}{Arnold, V.~I.}
+\newblock \emph{\bibinfo{title}{{Mathematical Methods of Classical Mechanics}}}
+  (\bibinfo{publisher}{Springer New York}, \bibinfo{year}{1989}).
+
+\bibitem{Oostenbrink2004}
+\bibinfo{author}{Oostenbrink, C.}, \bibinfo{author}{Villa, A.},
+  \bibinfo{author}{Mark, A.~E.} \& \bibinfo{author}{{Van Gunsteren}, W.~F.}
+\newblock \bibinfo{title}{{A biomolecular force field based on the free
+  enthalpy of hydration and solvation: The GROMOS force-field parameter sets
+  53A5 and 53A6}}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Chemistry}}
+  \textbf{\bibinfo{volume}{25}}, \bibinfo{pages}{1656--1676}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://dx.doi.org/10.1002/jcc.20090}.
+
+\bibitem{Schmid2011}
+\bibinfo{author}{Schmid, N.} \emph{et~al.}
+\newblock \bibinfo{title}{{Definition and testing of the GROMOS force-field
+  versions 54A7 and 54B7}}.
+\newblock \emph{\bibinfo{journal}{European Biophysics Journal}}
+  \textbf{\bibinfo{volume}{40}}, \bibinfo{pages}{843--856}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://link.springer.com/10.1007/s00249-011-0700-9}.
+
+\bibitem{Berendsen1995}
+\bibinfo{author}{Berendsen, H.}, \bibinfo{author}{van~der Spoel, D.} \&
+  \bibinfo{author}{van Drunen, R.}
+\newblock \bibinfo{title}{{GROMACS: A message-passing parallel molecular
+  dynamics implementation}}.
+\newblock \emph{\bibinfo{journal}{Computer Physics Communications}}
+  \textbf{\bibinfo{volume}{91}}, \bibinfo{pages}{43--56}
+  (\bibinfo{year}{1995}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/001046559500042E?via{\%}3Dihub}.
+
+\bibitem{Abraham2015}
+\bibinfo{author}{Abraham, M.~J.} \emph{et~al.}
+\newblock \bibinfo{title}{{GROMACS: High performance molecular simulations
+  through multi-level parallelism from laptops to supercomputers}}.
+\newblock \emph{\bibinfo{journal}{SoftwareX}} \textbf{\bibinfo{volume}{1-2}},
+  \bibinfo{pages}{19--25} (\bibinfo{year}{2015}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S2352711015000059?via{\%}3Dihub}.
+
+\bibitem{MacKerell1998}
+\bibinfo{author}{MacKerell, A.~D.} \emph{et~al.}
+\newblock \bibinfo{title}{{All-Atom Empirical Potential for Molecular Modeling
+  and Dynamics Studies of Proteins
+  {\textless}sup{\textgreater}‚Ä†{\textless}/sup{\textgreater}}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Physical Chemistry B}}
+  \textbf{\bibinfo{volume}{102}}, \bibinfo{pages}{3586--3616}
+  (\bibinfo{year}{1998}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/24889800
+  https://pubs.acs.org/doi/10.1021/jp973084f}.
+
+\bibitem{Klauda2010}
+\bibinfo{author}{Klauda, J.~B.} \emph{et~al.}
+\newblock \bibinfo{title}{{Update of the CHARMM All-Atom Additive Force Field
+  for Lipids: Validation on Six Lipid Types}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Physical Chemistry B}}
+  \textbf{\bibinfo{volume}{114}}, \bibinfo{pages}{7830--7843}
+  (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/jp101759q}.
+
+\bibitem{Maier2015}
+\bibinfo{author}{Maier, J.~A.} \emph{et~al.}
+\newblock \bibinfo{title}{{ff14SB: Improving the Accuracy of Protein Side Chain
+  and Backbone Parameters from ff99SB}}.
+\newblock \emph{\bibinfo{journal}{Journal of Chemical Theory and Computation}}
+  \textbf{\bibinfo{volume}{11}}, \bibinfo{pages}{3696--3713}
+  (\bibinfo{year}{2015}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/acs.jctc.5b00255}.
+
+\bibitem{Essmann1995}
+\bibinfo{author}{Essmann, U.} \emph{et~al.}
+\newblock \bibinfo{title}{{A smooth particle mesh Ewald method}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Chemical Physics}}
+  \textbf{\bibinfo{volume}{103}}, \bibinfo{pages}{8577--8593}
+  (\bibinfo{year}{1995}).
+\newblock \urlprefix\url{http://aip.scitation.org/doi/10.1063/1.470117}.
+
+\bibitem{Tironi1995}
+\bibinfo{author}{Tironi, I.~G.}, \bibinfo{author}{Sperb, R.},
+  \bibinfo{author}{Smith, P.~E.} \& \bibinfo{author}{van Gunsteren, W.~F.}
+\newblock \bibinfo{title}{{A generalized reaction field method for molecular
+  dynamics simulations}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Chemical Physics}}
+  \textbf{\bibinfo{volume}{102}}, \bibinfo{pages}{5451--5459}
+  (\bibinfo{year}{1995}).
+\newblock \urlprefix\url{http://aip.scitation.org/doi/10.1063/1.469273}.
+
+\bibitem{Berendsen1981}
+\bibinfo{author}{Berendsen, H.}, \bibinfo{author}{Postma, J.},
+  \bibinfo{author}{Van~Gunsteren, W.} \& \bibinfo{author}{Hermans, J.}
+\newblock \bibinfo{title}{Interaction models for water in relation to protein
+  hydration.}
+\newblock In \bibinfo{editor}{Pullman, B.} (ed.)
+  \emph{\bibinfo{booktitle}{Intermolecular Forces}}, \bibinfo{pages}{331--342}
+  (\bibinfo{publisher}{D. Reidel Publishing Company},
+  \bibinfo{address}{Dordrecht}, \bibinfo{year}{1981}).
+
+\bibitem{Miyamoto1992}
+\bibinfo{author}{Miyamoto, S.} \& \bibinfo{author}{Kollman, P.~A.}
+\newblock \bibinfo{title}{{Settle: An analytical version of the SHAKE and
+  RATTLE algorithm for rigid water models}}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Chemistry}}
+  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{952--962}
+  (\bibinfo{year}{1992}).
+\newblock \urlprefix\url{http://doi.wiley.com/10.1002/jcc.540130805}.
+
+\bibitem{Hess1997}
+\bibinfo{author}{Hess, B.}, \bibinfo{author}{Bekker, H.},
+  \bibinfo{author}{Berendsen, H. J.~C.} \& \bibinfo{author}{Fraaije, J. G.
+  E.~M.}
+\newblock \bibinfo{title}{{LINCS: A linear constraint solver for molecular
+  simulations}}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Chemistry}}
+  \textbf{\bibinfo{volume}{18}}, \bibinfo{pages}{1463--1472}
+  (\bibinfo{year}{1997}).
+\newblock
+  \urlprefix\url{http://doi.wiley.com/10.1002/{\%}2528SICI{\%}25291096-987X{\%}2528199709{\%}252918{\%}253A12{\%}253C1463{\%}253A{\%}253AAID-JCC4{\%}253E3.0.CO{\%}253B2-H}.
+
+\bibitem{Machado2018}
+\bibinfo{author}{Machado, M.~R.} \emph{et~al.}
+\newblock \bibinfo{title}{{The SIRAH force field 2.0: Altius, Fortius,
+  Citius}}.
+\newblock \emph{\bibinfo{journal}{bioRxiv}} \bibinfo{pages}{436774}
+  (\bibinfo{year}{2018}).
+\newblock
+  \urlprefix\url{https://www.biorxiv.org/content/early/2018/10/05/436774}.
+
+\bibitem{Barrera2019}
+\bibinfo{author}{Barrera, E.~E.}, \bibinfo{author}{Machado, M.~R.} \&
+  \bibinfo{author}{Pantano, S.}
+\newblock \bibinfo{title}{{Fat SIRAH: Coarse-grained phospholipids to explore
+  membrane-protein dynamics}}.
+\newblock \emph{\bibinfo{journal}{bioRxiv}} \bibinfo{pages}{627570}
+  (\bibinfo{year}{2019}).
+\newblock
+  \urlprefix\url{https://www.biorxiv.org/content/10.1101/627570v2.full}.
+
+\bibitem{Marrink2007}
+\bibinfo{author}{Marrink, S.~J.}, \bibinfo{author}{Risselada, H.~J.},
+  \bibinfo{author}{Yefimov, S.}, \bibinfo{author}{Tieleman, D.~P.} \&
+  \bibinfo{author}{{De Vries}, A.~H.}
+\newblock \bibinfo{title}{{The MARTINI force field: Coarse grained model for
+  biomolecular simulations}}.
+\newblock \emph{\bibinfo{journal}{Journal of Physical Chemistry B}}
+  \textbf{\bibinfo{volume}{111}}, \bibinfo{pages}{7812--7824}
+  (\bibinfo{year}{2007}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/jp071097f}.
+
+\bibitem{Monticelli2008}
+\bibinfo{author}{Monticelli, L.} \emph{et~al.}
+\newblock \bibinfo{title}{{The MARTINI Coarse-Grained Force Field: Extension to
+  Proteins.}}
+\newblock \emph{\bibinfo{journal}{Journal of chemical theory and computation}}
+  \textbf{\bibinfo{volume}{4}}, \bibinfo{pages}{819--34}
+  (\bibinfo{year}{2008}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/26621095}.
+
+\bibitem{DeJong2013}
+\bibinfo{author}{de~Jong, D.~H.} \emph{et~al.}
+\newblock \bibinfo{title}{{Improved Parameters for the Martini Coarse-Grained
+  Protein Force Field}}.
+\newblock \emph{\bibinfo{journal}{Journal of Chemical Theory and Computation}}
+  \textbf{\bibinfo{volume}{9}}, \bibinfo{pages}{687--697}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/ct300646g}.
+
+\bibitem{Periole2009}
+\bibinfo{author}{Periole, X.}, \bibinfo{author}{Cavalli, M.},
+  \bibinfo{author}{Marrink, S.-J.} \& \bibinfo{author}{Ceruso, M.~A.}
+\newblock \bibinfo{title}{{Combining an Elastic Network With a Coarse-Grained
+  Molecular Force Field: Structure, Dynamics, and Intermolecular Recognition}}.
+\newblock \emph{\bibinfo{journal}{Journal of Chemical Theory and Computation}}
+  \textbf{\bibinfo{volume}{5}}, \bibinfo{pages}{2531--2543}
+  (\bibinfo{year}{2009}).
+\newblock \urlprefix\url{https://pubs.acs.org/doi/10.1021/ct9002114}.
+
+\bibitem{Yesylevskyy2010}
+\bibinfo{author}{Yesylevskyy, S.~O.}, \bibinfo{author}{Sch{\"{a}}fer, L.~V.},
+  \bibinfo{author}{Sengupta, D.} \& \bibinfo{author}{Marrink, S.~J.}
+\newblock \bibinfo{title}{{Polarizable Water Model for the Coarse-Grained
+  MARTINI Force Field}}.
+\newblock \emph{\bibinfo{journal}{PLoS Computational Biology}}
+  \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{e1000810}
+  (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{https://dx.plos.org/10.1371/journal.pcbi.1000810}.
+
+\bibitem{Crippen1988}
+\bibinfo{author}{Crippen, G.} \& \bibinfo{author}{Havel, T.}
+\newblock \emph{\bibinfo{title}{{Distance geometry and molecular
+  conformation}}} (\bibinfo{publisher}{Wiley}, \bibinfo{address}{New York},
+  \bibinfo{year}{1988}).
+
+\bibitem{Havel1990}
+\bibinfo{author}{Havel, T.~F.}
+\newblock \bibinfo{title}{{The sampling properties of some distance geometry
+  algorithms applied to unconstrained polypeptide chains: A study of 1830
+  independently computed conformations}}.
+\newblock \emph{\bibinfo{journal}{Biopolymers}} \textbf{\bibinfo{volume}{29}},
+  \bibinfo{pages}{1565--1585} (\bibinfo{year}{1990}).
+\newblock \urlprefix\url{http://doi.wiley.com/10.1002/bip.360291207}.
+
+\bibitem{Velikson1992}
+\bibinfo{author}{Velikson, B.}, \bibinfo{author}{Garel, T.},
+  \bibinfo{author}{Niel, J.~C.}, \bibinfo{author}{Orland, H.} \&
+  \bibinfo{author}{Smith, J.}
+\newblock \bibinfo{title}{{Conformational distribution of heptaalanine:
+  Analysis using a new Monte Carlo chain growth method}}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Chemistry}}
+  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{1216--1233}
+  (\bibinfo{year}{1992}).
+\newblock \urlprefix\url{http://doi.wiley.com/10.1002/jcc.540131006}.
+
+\bibitem{vanGunsteren1997}
+\bibinfo{editor}{van Gunsteren, W.~F.}, \bibinfo{editor}{Weiner, P.~K.} \&
+  \bibinfo{editor}{Wilkinson, A.~J.} (eds.) \emph{\bibinfo{title}{{Computer
+  Simulation of Biomolecular Systems}}} (\bibinfo{publisher}{Springer
+  Netherlands}, \bibinfo{address}{Dordrecht}, \bibinfo{year}{1997}).
+\newblock \urlprefix\url{http://link.springer.com/10.1007/978-94-017-1120-3}.
+
+\bibitem{Braun1985}
+\bibinfo{author}{Braun, W.} \& \bibinfo{author}{G≈ç, N.}
+\newblock \bibinfo{title}{{Calculation of protein conformations by
+  proton-proton distance constraints: A new efficient algorithm}}.
+\newblock \emph{\bibinfo{journal}{Journal of Molecular Biology}}
+  \textbf{\bibinfo{volume}{186}}, \bibinfo{pages}{611--626}
+  (\bibinfo{year}{1985}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/0022283685901342?via{\%}3Dihub}.
+
+\bibitem{Torda1990}
+\bibinfo{author}{Torda, A.~E.}, \bibinfo{author}{Scheek, R.~M.} \&
+  \bibinfo{author}{van Gunsteren, W.~F.}
+\newblock \bibinfo{title}{{Time-averaged nuclear overhauser effect distance
+  restraints applied to tendamistat}}.
+\newblock \emph{\bibinfo{journal}{Journal of Molecular Biology}}
+  \textbf{\bibinfo{volume}{214}}, \bibinfo{pages}{223--235}
+  (\bibinfo{year}{1990}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/002228369090157H?via{\%}3Dihub}.
+
+\bibitem{Huber1997}
+\bibinfo{author}{{Thomas Huber}, ‚.}, , \bibinfo{author}{{Andrew E. Torda}, ‚.}
+  \& \bibinfo{author}{{Wilfred F. van Gunsteren*}, {\S}.}
+\newblock \bibinfo{title}{{Structure Optimization Combining Soft-Core
+  Interaction Functions, the Diffusion Equation Method, and Molecular
+  Dynamics}}  (\bibinfo{year}{1997}).
+\newblock \urlprefix\url{https://pubs.acs.org/doi/10.1021/jp9708916}.
+
+\bibitem{Kirkpatrick1983}
+\bibinfo{author}{Kirkpatrick, S.}, \bibinfo{author}{Gelatt, C.~D.} \&
+  \bibinfo{author}{Vecchi, M.~P.}
+\newblock \bibinfo{title}{{Optimization by Simulated Annealing}}.
+\newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{220}},
+  \bibinfo{pages}{671--680} (\bibinfo{year}{1983}).
+\newblock \urlprefix\url{https://science.sciencemag.org/content/220/4598/671}.
+
+\bibitem{Mao1990}
+\bibinfo{author}{Mao, B.} \& \bibinfo{author}{Friedman, A.~R.}
+\newblock \bibinfo{title}{{Molecular dynamics simulation by atomic mass
+  weighting}}.
+\newblock \emph{\bibinfo{journal}{Biophysical Journal}}
+  \textbf{\bibinfo{volume}{58}}, \bibinfo{pages}{803--805}
+  (\bibinfo{year}{1990}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0006349590824243?via{\%}3Dihub}.
+
+\bibitem{Okamoto2004}
+\bibinfo{author}{Okamoto, Y.}
+\newblock \bibinfo{title}{{Generalized-ensemble algorithms: enhanced sampling
+  techniques for Monte Carlo and molecular dynamics simulations}}.
+\newblock \emph{\bibinfo{journal}{Journal of Molecular Graphics and Modelling}}
+  \textbf{\bibinfo{volume}{22}}, \bibinfo{pages}{425--439}
+  (\bibinfo{year}{2004}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1093326303001980?via{\%}3Dihub}.
+
+\bibitem{Huber1994}
+\bibinfo{author}{Huber, T.}, \bibinfo{author}{Torda, A.~E.} \&
+  \bibinfo{author}{van Gunsteren, W.~F.}
+\newblock \bibinfo{title}{{Local elevation: A method for improving the
+  searching properties of molecular dynamics simulation}}.
+\newblock \emph{\bibinfo{journal}{Journal of Computer-Aided Molecular Design}}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{695--708}
+  (\bibinfo{year}{1994}).
+\newblock \urlprefix\url{http://link.springer.com/10.1007/BF00124016}.
+
+\bibitem{Laio2002}
+\bibinfo{author}{Laio, A.} \& \bibinfo{author}{Parrinello, M.}
+\newblock \bibinfo{title}{{Escaping free-energy minima.}}
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences of the United States of America}} \textbf{\bibinfo{volume}{99}},
+  \bibinfo{pages}{12562--6} (\bibinfo{year}{2002}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/12271136
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC130499}.
+
+\bibitem{vanGunsteren1977}
+\bibinfo{author}{van Gunsteren, W.} \& \bibinfo{author}{Berendsen, H.}
+\newblock \bibinfo{title}{{Algorithms for macromolecular dynamics and
+  constraint dynamics}}.
+\newblock \emph{\bibinfo{journal}{Molecular Physics}}
+  \textbf{\bibinfo{volume}{34}}, \bibinfo{pages}{1311--1327}
+  (\bibinfo{year}{1977}).
+\newblock
+  \urlprefix\url{http://www.tandfonline.com/doi/abs/10.1080/00268977700102571}.
+
+\bibitem{Peter2004}
+\bibinfo{author}{Peter, C.}, \bibinfo{author}{Oostenbrink, C.},
+  \bibinfo{author}{van Dorp, A.} \& \bibinfo{author}{van Gunsteren, W.~F.}
+\newblock \bibinfo{title}{{Estimating entropies from molecular dynamics
+  simulations}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Chemical Physics}}
+  \textbf{\bibinfo{volume}{120}}, \bibinfo{pages}{2652--2661}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{http://aip.scitation.org/doi/10.1063/1.1636153}.
+
+\bibitem{Lipkin2017}
+\bibinfo{author}{Lipkin, R.}, \bibinfo{author}{Pino-Angeles, A.} \&
+  \bibinfo{author}{Lazaridis, T.}
+\newblock \bibinfo{title}{{Transmembrane Pore Structures of $\beta$-Hairpin
+  Antimicrobial Peptides by All-Atom Simulations}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Physical Chemistry B}}
+  \textbf{\bibinfo{volume}{121}}, \bibinfo{pages}{9126--9140}
+  (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/acs.jpcb.7b06591}.
+
+\bibitem{Wang2012}
+\bibinfo{author}{Wang, Y.}, \bibinfo{author}{Schlamadinger, D.~E.},
+  \bibinfo{author}{Kim, J.~E.} \& \bibinfo{author}{McCammon, J.~A.}
+\newblock \bibinfo{title}{{Comparative molecular dynamics simulations of the
+  antimicrobial peptide CM15 in model lipid bilayers}}.
+\newblock \emph{\bibinfo{journal}{Biochimica et Biophysica Acta (BBA) -
+  Biomembranes}} \textbf{\bibinfo{volume}{1818}}, \bibinfo{pages}{1402--1409}
+  (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/j.bbamem.2012.02.017}.
+\newblock \eprint{NIHMS150003}.
+
+\bibitem{Zhao2018}
+\bibinfo{author}{Zhao, L.} \emph{et~al.}
+\newblock \bibinfo{title}{{Molecular Dynamics Simulations of Human
+  Antimicrobial Peptide LL-37 in Model POPC and POPG Lipid Bilayers}}.
+\newblock \emph{\bibinfo{journal}{International Journal of Molecular Sciences}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{1186} (\bibinfo{year}{2018}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/29652823
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC5979298
+  http://www.mdpi.com/1422-0067/19/4/1186}.
+
+\bibitem{Chen2019}
+\bibinfo{author}{Chen, C.} \emph{et~al.}
+\newblock \bibinfo{title}{{Simulation-guided rational
+  {\textless}i{\textgreater}de novo{\textless}/i{\textgreater} design of a
+  small pore-forming antimicrobial peptide}}.
+\newblock \emph{\bibinfo{journal}{Journal of the American Chemical Society}}
+  \bibinfo{pages}{jacs.8b11939} (\bibinfo{year}{2019}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/jacs.8b11939}.
+
+\bibitem{Risselada2008}
+\bibinfo{author}{Risselada, H.~J.} \& \bibinfo{author}{Marrink, S.~J.}
+\newblock \bibinfo{title}{{The molecular face of lipid rafts in model
+  membranes.}}
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences of the United States of America}} \textbf{\bibinfo{volume}{105}},
+  \bibinfo{pages}{17367--72} (\bibinfo{year}{2008}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/18987307
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC2579886}.
+
+\bibitem{Piggot2011}
+\bibinfo{author}{Piggot, T.~J.}, \bibinfo{author}{Holdbrook, D.~A.} \&
+  \bibinfo{author}{Khalid, S.}
+\newblock \bibinfo{title}{{Electroporation of the E. coli and S. Aureus
+  Membranes: Molecular Dynamics Simulations of Complex Bacterial Membranes}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Physical Chemistry B}}
+  \textbf{\bibinfo{volume}{115}}, \bibinfo{pages}{13381--13388}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/jp207013v}.
+
+\bibitem{Khalid2019}
+\bibinfo{author}{Khalid, S.}, \bibinfo{author}{Piggot, T.~J.} \&
+  \bibinfo{author}{Samsudin, F.}
+\newblock \bibinfo{title}{{Atomistic and Coarse Grain Simulations of the Cell
+  Envelope of Gram-Negative Bacteria: What Have We Learned?}}
+\newblock \emph{\bibinfo{journal}{Accounts of Chemical Research}}
+  \textbf{\bibinfo{volume}{52}}, \bibinfo{pages}{180--188}
+  (\bibinfo{year}{2019}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/acs.accounts.8b00377}.
+
+\bibitem{Carpenter2016}
+\bibinfo{author}{Carpenter, T.~S.}, \bibinfo{author}{Parkin, J.} \&
+  \bibinfo{author}{Khalid, S.}
+\newblock \bibinfo{title}{{The Free Energy of Small Solute Permeation through
+  the {\textless}i{\textgreater}Escherichia coli{\textless}/i{\textgreater}
+  Outer Membrane Has a Distinctly Asymmetric Profile}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Physical Chemistry Letters}}
+  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{3446--3451}
+  (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/acs.jpclett.6b01399}.
+
+\bibitem{Song2019}
+\bibinfo{author}{Song, C.}, \bibinfo{author}{de~Groot, B.~L.} \&
+  \bibinfo{author}{Sansom, M.~S.}
+\newblock \bibinfo{title}{{Lipid Bilayer Composition Influences the Activity of
+  the Antimicrobial Peptide Dermcidin Channel}}.
+\newblock \emph{\bibinfo{journal}{Biophysical Journal}}
+  \textbf{\bibinfo{volume}{116}}, \bibinfo{pages}{1658--1666}
+  (\bibinfo{year}{2019}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0006349519302929?via{\%}3Dihub}.
+
+\bibitem{Wang2014}
+\bibinfo{author}{Wang, Y.} \emph{et~al.}
+\newblock \bibinfo{title}{{How reliable are molecular dynamics simulations of
+  membrane active antimicrobial peptides?}}
+\newblock \emph{\bibinfo{journal}{BBA - Biomembranes}}
+  \textbf{\bibinfo{volume}{1838}}, \bibinfo{pages}{2280--2288}
+  (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/j.bbamem.2014.04.009}.
+
+\bibitem{Jorgensen1996}
+\bibinfo{author}{{William L. Jorgensen}, .}, , \bibinfo{author}{{David S.
+  Maxwell}} \& \bibinfo{author}{Tirado-Rives, J.}
+\newblock \bibinfo{title}{{Development and Testing of the OPLS All-Atom Force
+  Field on Conformational Energetics and Properties of Organic Liquids}}
+  (\bibinfo{year}{1996}).
+\newblock \urlprefix\url{https://pubs.acs.org/doi/10.1021/ja9621760}.
+
+\bibitem{Jorgensen1983}
+\bibinfo{author}{Jorgensen, W.~L.}, \bibinfo{author}{Chandrasekhar, J.},
+  \bibinfo{author}{Madura, J.~D.}, \bibinfo{author}{Impey, R.~W.} \&
+  \bibinfo{author}{Klein, M.~L.}
+\newblock \bibinfo{title}{{Comparison of simple potential functions for
+  simulating liquid water}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Chemical Physics}}
+  \textbf{\bibinfo{volume}{79}}, \bibinfo{pages}{926--935}
+  (\bibinfo{year}{1983}).
+\newblock \urlprefix\url{http://aip.scitation.org/doi/10.1063/1.445869}.
+
+\bibitem{Phillips2005}
+\bibinfo{author}{Phillips, J.~C.} \emph{et~al.}
+\newblock \bibinfo{title}{{Scalable molecular dynamics with NAMD}}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Chemistry}}
+  \textbf{\bibinfo{volume}{26}}, \bibinfo{pages}{1781--1802}
+  (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{http://doi.wiley.com/10.1002/jcc.20289}.
+
+\bibitem{Bennett2016}
+\bibinfo{author}{Bennett, W. F.~D.}, \bibinfo{author}{Hong, C.~K.},
+  \bibinfo{author}{Wang, Y.} \& \bibinfo{author}{Tieleman, D.~P.}
+\newblock \bibinfo{title}{{Antimicrobial Peptide Simulations and the Influence
+  of Force Field on the Free Energy for Pore Formation in Lipid Bilayers}}.
+\newblock \emph{\bibinfo{journal}{Journal of Chemical Theory and Computation}}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{4524--4533}
+  (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00265}.
+
+\bibitem{Sandoval-Perez2017}
+\bibinfo{author}{Sandoval-Perez, A.}, \bibinfo{author}{Pluhackova, K.} \&
+  \bibinfo{author}{B{\"{o}}ckmann, R.~A.}
+\newblock \bibinfo{title}{{Critical Comparison of Biomembrane Force Fields:
+  Protein‚ÄìLipid Interactions at the Membrane Interface}}.
+\newblock \emph{\bibinfo{journal}{Journal of Chemical Theory and Computation}}
+  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{2310--2321}
+  (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/acs.jctc.7b00001}.
+
+\bibitem{Jambeck2012}
+\bibinfo{author}{J{\"{a}}mbeck, J. P.~M.} \& \bibinfo{author}{Lyubartsev,
+  A.~P.}
+\newblock \bibinfo{title}{{Derivation and Systematic Validation of a Refined
+  All-Atom Force Field for Phosphatidylcholine Lipids}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Physical Chemistry B}}
+  \textbf{\bibinfo{volume}{116}}, \bibinfo{pages}{3164--3179}
+  (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/jp212503e}.
+
+\bibitem{Dickson2014}
+\bibinfo{author}{Dickson, C.~J.} \emph{et~al.}
+\newblock \bibinfo{title}{{Lipid14: The Amber Lipid Force Field}}.
+\newblock \emph{\bibinfo{journal}{Journal of Chemical Theory and Computation}}
+  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{865--879}
+  (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/ct4010307}.
+
+\bibitem{Leontiadou2006}
+\bibinfo{author}{{Hari Leontiadou}, ‚.}, , \bibinfo{author}{{Alan E. Mark}, ‚.}
+  \& \bibinfo{author}{{Siewert J. Marrink*}, ‚.}
+\newblock \bibinfo{title}{{Antimicrobial Peptides in Action}}
+  (\bibinfo{year}{2006}).
+\newblock \urlprefix\url{https://pubs.acs.org/doi/abs/10.1021/ja062927q}.
+
+\bibitem{Ulmschneider2017}
+\bibinfo{author}{Ulmschneider, J.~P.}
+\newblock \bibinfo{title}{{Charged Antimicrobial Peptides Can Translocate
+  across Membranes without Forming Channel-like Pores}}.
+\newblock \emph{\bibinfo{journal}{Biophysical Journal}}
+  \textbf{\bibinfo{volume}{113}}, \bibinfo{pages}{73--81}
+  (\bibinfo{year}{2017}).
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0006349517306239}.
+
+\bibitem{Sun2015}
+\bibinfo{author}{Sun, D.}, \bibinfo{author}{Forsman, J.} \&
+  \bibinfo{author}{Woodward, C.~E.}
+\newblock \bibinfo{title}{{Atomistic Molecular Simulations Suggest a Kinetic
+  Model for Membrane Translocation by Arginine-Rich Peptides}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Physical Chemistry B}}
+  \textbf{\bibinfo{volume}{119}}, \bibinfo{pages}{14413--14420}
+  (\bibinfo{year}{2015}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/acs.jpcb.5b08072}.
+
+\bibitem{Wang2016}
+\bibinfo{author}{Wang, Y.}, \bibinfo{author}{Chen, C.~H.}, \bibinfo{author}{Hu,
+  D.}, \bibinfo{author}{Ulmschneider, M.~B.} \& \bibinfo{author}{Ulmschneider,
+  J.~P.}
+\newblock \bibinfo{title}{{Spontaneous formation of structurally diverse
+  membrane channel architectures from a single antimicrobial peptide}}.
+\newblock \emph{\bibinfo{journal}{Nature Communications}}
+  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{13535} (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{http://www.nature.com/doifinder/10.1038/ncomms13535}.
+
+\bibitem{Haria2014}
+\bibinfo{author}{Haria, N.~R.}, \bibinfo{author}{Monticelli, L.},
+  \bibinfo{author}{Fraternali, F.} \& \bibinfo{author}{Lorenz, C.~D.}
+\newblock \bibinfo{title}{{Plasticity and conformational equilibria of
+  influenza fusion peptides in model lipid bilayers}}.
+\newblock \emph{\bibinfo{journal}{BBA - Biomembranes}}
+  \textbf{\bibinfo{volume}{1838}}, \bibinfo{pages}{1169--1179}
+  (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/j.bbamem.2013.12.020}.
+
+\bibitem{Collu2015}
+\bibinfo{author}{Collu, F.}, \bibinfo{author}{Spiga, E.},
+  \bibinfo{author}{Lorenz, C.~D.} \& \bibinfo{author}{Fraternali, F.}
+\newblock \bibinfo{title}{{Assembly of Influenza Hemagglutinin Fusion Peptides
+  in a Phospholipid Bilayer by Coarse-grained Computer Simulations.}}
+\newblock \emph{\bibinfo{journal}{Frontiers in molecular biosciences}}
+  \textbf{\bibinfo{volume}{2}}, \bibinfo{pages}{66} (\bibinfo{year}{2015}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/26636093
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4649048}.
+
+\bibitem{Balatti2017}
+\bibinfo{author}{Balatti, G.~E.}, \bibinfo{author}{Ambroggio, E.~E.},
+  \bibinfo{author}{Fidelio, G.~D.}, \bibinfo{author}{Martini, M.~F.} \&
+  \bibinfo{author}{Pickholz, M.}
+\newblock \bibinfo{title}{{Differential Interaction of Antimicrobial Peptides
+  with Lipid Structures Studied by Coarse-Grained Molecular Dynamics
+  Simulations.}}
+\newblock \emph{\bibinfo{journal}{Molecules (Basel, Switzerland)}}
+  \textbf{\bibinfo{volume}{22}} (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/29053635
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC6151434}.
+
+\bibitem{Marrink2013}
+\bibinfo{author}{Marrink, S.~J.} \& \bibinfo{author}{Tieleman, D.~P.}
+\newblock \bibinfo{title}{{Perspective on the Martini model.}}
+\newblock \emph{\bibinfo{journal}{Chemical Society reviews}}
+  \textbf{\bibinfo{volume}{42}}, \bibinfo{pages}{6801--22}
+  (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23708257}.
+
+\bibitem{Wu2012}
+\bibinfo{author}{Wu, D.} \& \bibinfo{author}{Yang, X.}
+\newblock \bibinfo{title}{{Coarse-Grained Molecular Simulation of Self-Assembly
+  for Nonionic Surfactants on Graphene Nanostructures}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Physical Chemistry B}}
+  \textbf{\bibinfo{volume}{116}}, \bibinfo{pages}{12048--12056}
+  (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/jp3043939}.
+
+\bibitem{Wang2012poly}
+\bibinfo{author}{Wang, H.}, \bibinfo{author}{Zhang, H.}, \bibinfo{author}{Liu,
+  C.} \& \bibinfo{author}{Yuan, S.}
+\newblock \bibinfo{title}{{Coarse-grained molecular dynamics simulation of
+  self-assembly of polyacrylamide and sodium dodecylsulfate in aqueous
+  solution}}.
+\newblock \emph{\bibinfo{journal}{Journal of Colloid and Interface Science}}
+  \textbf{\bibinfo{volume}{386}}, \bibinfo{pages}{205--211}
+  (\bibinfo{year}{2012}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0021979712007837}.
+
+\bibitem{Bochicchio2017}
+\bibinfo{author}{Bochicchio, D.} \& \bibinfo{author}{Pavan, G.~M.}
+\newblock \bibinfo{title}{{From Cooperative Self-Assembly to Water-Soluble
+  Supramolecular Polymers Using Coarse-Grained Simulations}}.
+\newblock \emph{\bibinfo{journal}{ACS Nano}} \textbf{\bibinfo{volume}{11}},
+  \bibinfo{pages}{1000--1011} (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/acsnano.6b07628}.
+
+\bibitem{Lee2011}
+\bibinfo{author}{Lee, H.} \& \bibinfo{author}{Pastor, R.~W.}
+\newblock \bibinfo{title}{{Coarse-Grained Model for PEGylated Lipids: Effect of
+  PEGylation on the Size and Shape of Self-Assembled Structures}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Physical Chemistry B}}
+  \textbf{\bibinfo{volume}{115}}, \bibinfo{pages}{7830--7837}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{https://pubs.acs.org/doi/10.1021/jp2020148}.
+
+\bibitem{Brocos2012}
+\bibinfo{author}{Brocos, P.}, \bibinfo{author}{Mendoza-Espinosa, P.},
+  \bibinfo{author}{Castillo, R.}, \bibinfo{author}{Mas-Oliva, J.} \&
+  \bibinfo{author}{Pi{\~{n}}eiro, {\'{A}}.}
+\newblock \bibinfo{title}{{Multiscale molecular dynamics simulations of
+  micelles: coarse-grain for self-assembly and atomic resolution for finer
+  details}}.
+\newblock \emph{\bibinfo{journal}{Soft Matter}} \textbf{\bibinfo{volume}{8}},
+  \bibinfo{pages}{9005} (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://xlink.rsc.org/?DOI=c2sm25877c}.
+
+\bibitem{Guo2012}
+\bibinfo{author}{Guo, C.}, \bibinfo{author}{Luo, Y.}, \bibinfo{author}{Zhou,
+  R.} \& \bibinfo{author}{Wei, G.}
+\newblock \bibinfo{title}{{Probing the Self-Assembly Mechanism of
+  Diphenylalanine-Based Peptide Nanovesicles and Nanotubes}}.
+\newblock \emph{\bibinfo{journal}{ACS Nano}} \textbf{\bibinfo{volume}{6}},
+  \bibinfo{pages}{3907--3918} (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/nn300015g}.
+
+\bibitem{Seo2012}
+\bibinfo{author}{Seo, M.}, \bibinfo{author}{Rauscher, S.},
+  \bibinfo{author}{Pom{\`{e}}s, R.} \& \bibinfo{author}{Tieleman, D.~P.}
+\newblock \bibinfo{title}{{Improving Internal Peptide Dynamics in the
+  Coarse-Grained MARTINI Model: Toward Large-Scale Simulations of Amyloid- and
+  Elastin-like Peptides}}.
+\newblock \emph{\bibinfo{journal}{Journal of Chemical Theory and Computation}}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{1774--1785}
+  (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/10.1021/ct200876v}.
+
+\bibitem{Lee2012}
+\bibinfo{author}{Lee, O.-S.}, \bibinfo{author}{Cho, V.} \&
+  \bibinfo{author}{Schatz, G.~C.}
+\newblock \bibinfo{title}{{Modeling the Self-Assembly of Peptide Amphiphiles
+  into Fibers Using Coarse-Grained Molecular Dynamics}}.
+\newblock \emph{\bibinfo{journal}{Nano Letters}} \textbf{\bibinfo{volume}{12}},
+  \bibinfo{pages}{4907--4913} (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/nl302487m}.
+
+\bibitem{Gudlur2012}
+\bibinfo{author}{Gudlur, S.} \emph{et~al.}
+\newblock \bibinfo{title}{{Peptide Nanovesicles Formed by the Self-Assembly of
+  Branched Amphiphilic Peptides}}.
+\newblock \emph{\bibinfo{journal}{PLoS ONE}} \textbf{\bibinfo{volume}{7}}
+  (\bibinfo{year}{2012}).
+\newblock
+  \urlprefix\url{http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0045374}.
+
+\bibitem{Grime2016}
+\bibinfo{author}{Grime, J. M.~A.} \emph{et~al.}
+\newblock \bibinfo{title}{{Coarse-grained simulation reveals key features of
+  HIV-1 capsid self-assembly.}}
+\newblock \emph{\bibinfo{journal}{Nature communications}}
+  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{11568} (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/27174390
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4869257}.
+
+\bibitem{Perilla2016}
+\bibinfo{author}{Perilla, J.~R.}, \bibinfo{author}{Hadden, J.~A.},
+  \bibinfo{author}{Goh, B.~C.}, \bibinfo{author}{Mayne, C.~G.} \&
+  \bibinfo{author}{Schulten, K.}
+\newblock \bibinfo{title}{{All-Atom Molecular Dynamics of Virus Capsids as Drug
+  Targets.}}
+\newblock \emph{\bibinfo{journal}{The journal of physical chemistry letters}}
+  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{1836--44}
+  (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/27128262
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4876486}.
+
+\bibitem{Hadden2018}
+\bibinfo{author}{Hadden, J.~A.} \& \bibinfo{author}{Perilla, J.~R.}
+\newblock \bibinfo{title}{{All-atom virus simulations}}.
+\newblock \emph{\bibinfo{journal}{Current Opinion in Virology}}
+  \textbf{\bibinfo{volume}{31}}, \bibinfo{pages}{82--91}
+  (\bibinfo{year}{2018}).
+\newblock
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1879625718300129?via{\%}3Dihub}.
+
+\bibitem{AbiMansour2014}
+\bibinfo{author}{{Abi Mansour}, A.} \& \bibinfo{author}{Ortoleva, P.~J.}
+\newblock \bibinfo{title}{{Multiscale Factorization Method for Simulating
+  Mesoscopic Systems with Atomic Precision}}.
+\newblock \emph{\bibinfo{journal}{Journal of Chemical Theory and Computation}}
+  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{518--523}
+  (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/ct400615a}.
 
 \end{thebibliography}

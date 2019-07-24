@@ -5,93 +5,68 @@ A level-1 auxiliary file: front.aux
 A level-1 auxiliary file: nomenclature.aux
 A level-1 auxiliary file: 1introduction/introduction.aux
 A level-1 auxiliary file: 2methods/methods.aux
+A level-1 auxiliary file: 4lip_par/lip_par.aux
 A level-1 auxiliary file: appendix.aux
 The style file: naturemag.bst
-Reallocated field_info (elt_size=4) to 12332 items from 5000.
+Reallocated field_info (elt_size=4) to 13502 items from 5000.
 Database file #1: thesis_ref.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--entry type for "poly" isn't style-file defined
---line 3126 of file thesis_ref.bib
+--line 3117 of file thesis_ref.bib
 Warning--entry type for "lipo" isn't style-file defined
---line 3256 of file thesis_ref.bib
+--line 3247 of file thesis_ref.bib
 Warning--entry type for "phage" isn't style-file defined
---line 3295 of file thesis_ref.bib
+--line 3284 of file thesis_ref.bib
 Warning--I didn't find a database entry for "seeRebuttal"
 Warning--I didn't find a database entry for "???"
 Warning--I didn't find a database entry for "????"
 Warning--I didn't find a database entry for "??"
 Warning--I didn't find a database entry for "???see_example_on_AMPR"
-Warning--I didn't find a database entry for "..."
-Warning--I didn't find a database entry for "Arnold"
 Warning--I didn't find a database entry for "--"
-Warning--I didn't find a database entry for "53a6"
-Warning--I didn't find a database entry for "54a8"
-Warning--I didn't find a database entry for "elnedyn"
-Warning--I didn't find a database entry for "72"
-Warning--I didn't find a database entry for "73"
-Warning--I didn't find a database entry for "7"
-Warning--I didn't find a database entry for "78"
-Warning--I didn't find a database entry for "80"
-Warning--I didn't find a database entry for "82"
-Warning--I didn't find a database entry for "87"
-Warning--I didn't find a database entry for "88"
-Warning--I didn't find a database entry for "83"
-Warning--I didn't find a database entry for "91"
-Warning--I didn't find a database entry for "92"
-Warning--I didn't find a database entry for "62"
-Warning--I didn't find a database entry for "85"
-Warning--I didn't find a database entry for "86"
-Warning--I didn't find a database entry for "54"
-Warning--I didn't find a database entry for "55"
-Warning--I didn't find a database entry for "56"
-Warning--I didn't find a database entry for "57"
-Warning--I didn't find a database entry for "58"
-Warning--I didn't find a database entry for "59"
-Warning--I didn't find a database entry for "hh"
-Warning--I didn't find a database entry for "142"
-Warning--I didn't find a database entry for "Bishop:998831"
-Warning--I didn't find a database entry for "Williams:2006vz"
 Warning--empty booktitle in Pattni2015
 Warning--empty journal in Oneill2016
-You've used 247 entries,
+Warning--empty journal in Huber1997
+Warning--empty journal in Jorgensen1996
+Warning--empty journal in Leontiadou2006
+You've used 321 entries,
             2348 wiz_defined-function locations,
-            2837 strings with 78718 characters,
-and the built_in function-call counts, 105361 in all, are:
-= -- 7985
-> -- 2680
+            3319 strings with 99572 characters,
+and the built_in function-call counts, 137750 in all, are:
+= -- 10438
+> -- 3537
 < -- 0
-+ -- 1340
-- -- 670
-* -- 13519
-:= -- 11832
-add.period$ -- 981
-call.type$ -- 247
-change.case$ -- 246
++ -- 1767
+- -- 884
+* -- 17609
+:= -- 15415
+add.period$ -- 1268
+call.type$ -- 321
+change.case$ -- 319
 chr.to.int$ -- 0
-cite$ -- 249
-duplicate$ -- 8944
-empty$ -- 9279
-format.name$ -- 891
-if$ -- 20751
+cite$ -- 326
+duplicate$ -- 11691
+empty$ -- 12113
+format.name$ -- 1175
+if$ -- 27209
 int.to.chr$ -- 0
-int.to.str$ -- 247
-missing$ -- 2124
-newline$ -- 1483
-num.names$ -- 247
-pop$ -- 1149
+int.to.str$ -- 321
+missing$ -- 2770
+newline$ -- 1918
+num.names$ -- 324
+pop$ -- 1564
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1450
+skip$ -- 1976
 stack$ -- 0
-substring$ -- 5757
-swap$ -- 9157
+substring$ -- 7503
+swap$ -- 11955
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 689
-width$ -- 250
-write$ -- 3191
-(There were 40 warnings)
+warning$ -- 5
+while$ -- 887
+width$ -- 324
+write$ -- 4130
+(There were 14 warnings)
