@@ -5,68 +5,73 @@ A level-1 auxiliary file: front.aux
 A level-1 auxiliary file: nomenclature.aux
 A level-1 auxiliary file: 1introduction/introduction.aux
 A level-1 auxiliary file: 2methods/methods.aux
+A level-1 auxiliary file: 3results_capsule/results_capsule.aux
 A level-1 auxiliary file: 4lip_par/lip_par.aux
 A level-1 auxiliary file: appendix.aux
-The style file: naturemag.bst
-Reallocated field_info (elt_size=4) to 13502 items from 5000.
+The style file: ieeetr.bst
+Reallocated field_info (elt_size=4) to 13050 items from 5000.
 Database file #1: thesis_ref.bib
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--entry type for "poly" isn't style-file defined
---line 3117 of file thesis_ref.bib
+--line 3060 of file thesis_ref.bib
 Warning--entry type for "lipo" isn't style-file defined
---line 3247 of file thesis_ref.bib
+--line 3190 of file thesis_ref.bib
 Warning--entry type for "phage" isn't style-file defined
---line 3284 of file thesis_ref.bib
+--line 3227 of file thesis_ref.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--I didn't find a database entry for "seeRebuttal"
 Warning--I didn't find a database entry for "???"
 Warning--I didn't find a database entry for "????"
 Warning--I didn't find a database entry for "??"
+Warning--I didn't find a database entry for "Wang2006lpx"
 Warning--I didn't find a database entry for "???see_example_on_AMPR"
+Warning--I didn't find a database entry for "Sunde1997"
 Warning--I didn't find a database entry for "--"
 Warning--empty booktitle in Pattni2015
 Warning--empty journal in Oneill2016
+Warning--empty publisher in gromacs_man
 Warning--empty journal in Huber1997
 Warning--empty journal in Jorgensen1996
 Warning--empty journal in Leontiadou2006
-You've used 321 entries,
-            2348 wiz_defined-function locations,
-            3319 strings with 99572 characters,
-and the built_in function-call counts, 137750 in all, are:
-= -- 10438
-> -- 3537
+Warning--empty journal in SiewertJ.Marrink2003
+You've used 342 entries,
+            1876 wiz_defined-function locations,
+            2621 strings with 80991 characters,
+and the built_in function-call counts, 119088 in all, are:
+= -- 12260
+> -- 5192
 < -- 0
-+ -- 1767
-- -- 884
-* -- 17609
-:= -- 15415
-add.period$ -- 1268
-call.type$ -- 321
-change.case$ -- 319
++ -- 1855
+- -- 1513
+* -- 9272
+:= -- 16416
+add.period$ -- 346
+call.type$ -- 342
+change.case$ -- 337
 chr.to.int$ -- 0
-cite$ -- 326
-duplicate$ -- 11691
-empty$ -- 12113
-format.name$ -- 1175
-if$ -- 27209
+cite$ -- 349
+duplicate$ -- 5622
+empty$ -- 9407
+format.name$ -- 1513
+if$ -- 28610
 int.to.chr$ -- 0
-int.to.str$ -- 321
-missing$ -- 2770
-newline$ -- 1918
-num.names$ -- 324
-pop$ -- 1564
+int.to.str$ -- 342
+missing$ -- 340
+newline$ -- 1036
+num.names$ -- 345
+pop$ -- 488
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1976
+skip$ -- 5298
 stack$ -- 0
-substring$ -- 7503
-swap$ -- 11955
+substring$ -- 10050
+swap$ -- 3194
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 887
-width$ -- 324
-write$ -- 4130
-(There were 14 warnings)
+warning$ -- 7
+while$ -- 1218
+width$ -- 345
+write$ -- 3390
+(There were 18 warnings)

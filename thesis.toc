@@ -39,29 +39,44 @@
 \contentsline {paragraph}{Open questions}{53}{section*.32}
 \contentsline {section}{\numberline {1.6}A computational approach to understand capzip}{53}{section.1.6}
 \contentsline {chapter}{\chapternumberline {2}Methods}{56}{chapter.2}
-\contentsline {section}{\numberline {2.1}The force field problem}{57}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}MD algorithms}{57}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Functional form of force-fields}{59}{subsection.2.1.2}
-\contentsline {paragraph}{Covalent (bonded) interactions}{59}{section*.33}
-\contentsline {paragraph}{Non bonded interactions}{61}{section*.34}
-\contentsline {paragraph}{}{62}{section*.35}
-\contentsline {subsection}{\numberline {2.1.3}The GROMOS force field}{63}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}The SIRAH force field}{64}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}The MARTINI force field}{66}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}The search problem}{68}{section.2.2}
-\contentsline {section}{\numberline {2.3}The ensemble problem}{71}{section.2.3}
-\contentsline {section}{\numberline {2.4}The experimental problem}{72}{section.2.4}
-\contentsline {section}{\numberline {2.5}MD simulations: successes}{74}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Simulations of antimicrobial peptides}{74}{subsection.2.5.1}
-\contentsline {paragraph}{Systems}{74}{section*.36}
-\contentsline {paragraph}{Model membranes}{75}{section*.37}
-\contentsline {paragraph}{Force field comparison}{77}{section*.38}
-\contentsline {paragraph}{Simulations of membrane-peptide interaction: examples}{78}{section*.39}
-\contentsline {paragraph}{Simulation-aided AMPs design}{83}{section*.40}
-\contentsline {subsection}{\numberline {2.5.2}Simulations of self-assembling peptides}{84}{subsection.2.5.2}
-\contentsline {paragraph}{}{86}{section*.41}
-\contentsline {paragraph}{}{86}{section*.42}
-\contentsline {chapter}{\chapternumberline {3}Lipid parametrisation}{87}{chapter.3}
-\contentsline {appendix}{\chapternumberline {}Appendices}{88}{appendix.}
-\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{88}{section.A.1}
-\contentsline {chapter}{Bibliography}{89}{section*.44}
+\contentsline {section}{\numberline {2.1}Algorithms for Molecular Dynamics}{57}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}The Newton's law}{57}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Rescuing the approximation limit}{59}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}The force field problem}{60}{section.2.2}
+\contentsline {paragraph}{Covalent (bonded) interactions}{61}{section*.33}
+\contentsline {paragraph}{Non bonded interactions}{62}{section*.34}
+\contentsline {paragraph}{}{63}{section*.35}
+\contentsline {subsection}{\numberline {2.2.1}The GROMOS force field}{64}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}The SIRAH force field}{65}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}The MARTINI force field}{67}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}The search problem}{69}{section.2.3}
+\contentsline {section}{\numberline {2.4}The ensemble problem}{72}{section.2.4}
+\contentsline {section}{\numberline {2.5}The experimental problem}{73}{section.2.5}
+\contentsline {section}{\numberline {2.6}MD simulations: successes}{75}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Simulations of antimicrobial peptides}{75}{subsection.2.6.1}
+\contentsline {paragraph}{Systems}{75}{section*.36}
+\contentsline {paragraph}{Model membranes}{76}{section*.37}
+\contentsline {paragraph}{Force field comparison}{78}{section*.38}
+\contentsline {paragraph}{Simulations of membrane-peptide interaction: examples}{79}{section*.39}
+\contentsline {paragraph}{Simulation-aided AMPs design}{84}{section*.40}
+\contentsline {subsection}{\numberline {2.6.2}Simulations of self-assembling peptides}{85}{subsection.2.6.2}
+\contentsline {paragraph}{}{87}{section*.41}
+\contentsline {paragraph}{}{87}{section*.42}
+\contentsline {chapter}{\chapternumberline {3}Capzip simulations}{88}{chapter.3}
+\contentsline {section}{\numberline {3.1}Modelling the assembly}{89}{section.3.1}
+\contentsline {section}{\numberline {3.2}Simulations details}{93}{section.3.2}
+\contentsline {paragraph}{Atomistic simulations}{93}{section*.47}
+\contentsline {paragraph}{SIRAH coarse grain simulations}{97}{section*.50}
+\contentsline {paragraph}{MARTINI coarse grain simulations}{98}{section*.51}
+\contentsline {section}{\numberline {3.3}Analysis}{99}{section.3.3}
+\contentsline {paragraph}{Simulations in solution}{99}{section*.52}
+\contentsline {paragraph}{Simulations on a membrane}{101}{section*.53}
+\contentsline {section}{\numberline {3.4}Results: capsule in solution}{101}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Atomistic simulations}{101}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Multiscale comparison of model capsule}{107}{subsection.3.4.2}
+\contentsline {paragraph}{Geometrical properties}{107}{section*.59}
+\contentsline {paragraph}{Chemical properties}{107}{section*.60}
+\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{109}{chapter.4}
+\contentsline {appendix}{\chapternumberline {}Appendices}{110}{appendix.}
+\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{110}{section.A.1}
+\contentsline {chapter}{Bibliography}{111}{section*.62}

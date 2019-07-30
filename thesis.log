@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  24 JUL 2019 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  30 JUL 2019 08:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1048,7 +1048,8 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 (./thesis.aux (./front.aux) (./nomenclature.aux)
 (./1introduction/introduction.aux) (./2methods/methods.aux)
-(./4lip_par/lip_par.aux) (./appendix.aux))
+(./3results_capsule/results_capsule.aux) (./4lip_par/lip_par.aux)
+(./appendix.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -1065,8 +1066,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count277
 \scratchdimen=\dimen299
@@ -1122,7 +1122,7 @@ LaTeX Info: Redefining \nameref on input line 14.
 \openout2 = `front.aux'.
 
  (./front.tex
-<KCL_logo.pdf, id=75, 282.656pt x 187.902pt>
+<KCL_logo.pdf, id=99, 282.656pt x 187.902pt>
 File: KCL_logo.pdf Graphic file (type pdf)
  <use KCL_logo.pdf>
 Package pdftex.def Info: KCL_logo.pdf used on input line 45.
@@ -1175,11 +1175,12 @@ Overfull \hbox (3.35674pt too wide) in paragraph at lines 17--18
 [][] \OT1/cmr/m/n/12 to be fin-ished/modified when the work
  []
 
-<pics/scheme_intro.pdf, id=159, 537.00626pt x 759.83875pt>
-File: pics/scheme_intro.pdf Graphic file (type pdf)
+<1introduction/pics/scheme_intro.pdf, id=209, 537.00626pt x 759.83875pt>
+File: 1introduction/pics/scheme_intro.pdf Graphic file (type pdf)
 
-<use pics/scheme_intro.pdf>
-Package pdftex.def Info: pics/scheme_intro.pdf used on input line 41.
+<use 1introduction/pics/scheme_intro.pdf>
+Package pdftex.def Info: 1introduction/pics/scheme_intro.pdf used on input line
+ 41.
 (pdftex.def)             Requested size: 398.0pt x 563.15303pt.
 
 
@@ -1191,14 +1192,15 @@ LaTeX Warning: Float too large for page by 19.38013pt on input line 44.
 
 
 
-] [11 <./pics/scheme_intro.pdf>] [12
+] [11 <./1introduction/pics/scheme_intro.pdf>] [12
 
 ] [13]
-<pics/carbon_review.jpg, id=306, 319.77876pt x 127.9115pt>
-File: pics/carbon_review.jpg Graphic file (type jpg)
+<1introduction/pics/carbon_review.jpg, id=355, 319.77876pt x 127.9115pt>
+File: 1introduction/pics/carbon_review.jpg Graphic file (type jpg)
 
-<use pics/carbon_review.jpg>
-Package pdftex.def Info: pics/carbon_review.jpg used on input line 77.
+<use 1introduction/pics/carbon_review.jpg>
+Package pdftex.def Info: 1introduction/pics/carbon_review.jpg used on input lin
+e 77.
 (pdftex.def)             Requested size: 199.0pt x 79.60292pt.
 
 Overfull \hbox (0.57477pt too wide) in paragraph at lines 84--85
@@ -1206,7 +1208,7 @@ Overfull \hbox (0.57477pt too wide) in paragraph at lines 84--85
 -otubes have been used for biomed-
  []
 
-[14 <./pics/carbon_review.jpg>]
+[14 <./1introduction/pics/carbon_review.jpg>]
 
 Package natbib Warning: Citation `seeRebuttal' on page 15 undefined on input li
 ne 96.
@@ -1258,67 +1260,77 @@ Package natbib Warning: Citation `????' on page 20 undefined on input line 170.
 Package natbib Warning: Citation `????' on page 20 undefined on input line 172.
 
 
-[20] <pics/amr1.jpg, id=429, 929.4725pt x 569.12625pt>
-File: pics/amr1.jpg Graphic file (type jpg)
- <use pics/amr1.jpg>
-Package pdftex.def Info: pics/amr1.jpg used on input line 185.
+[20] <1introduction/pics/amr1.jpg, id=477, 929.4725pt x 569.12625pt>
+File: 1introduction/pics/amr1.jpg Graphic file (type jpg)
+
+<use 1introduction/pics/amr1.jpg>
+Package pdftex.def Info: 1introduction/pics/amr1.jpg used on input line 185.
 (pdftex.def)             Requested size: 238.80243pt x 146.21513pt.
 
-<pics/amr3.jpg, id=430, 929.4725pt x 850.17625pt>
-File: pics/amr3.jpg Graphic file (type jpg)
- <use pics/amr3.jpg>
-Package pdftex.def Info: pics/amr3.jpg used on input line 188.
+<1introduction/pics/amr3.jpg, id=478, 929.4725pt x 850.17625pt>
+File: 1introduction/pics/amr3.jpg Graphic file (type jpg)
+
+<use 1introduction/pics/amr3.jpg>
+Package pdftex.def Info: 1introduction/pics/amr3.jpg used on input line 187.
 (pdftex.def)             Requested size: 250.10997pt x 228.78038pt.
 
-<pics/amr4_half.png, id=431, 401.5pt x 838.13126pt>
-File: pics/amr4_half.png Graphic file (type png)
- <use pics/amr4_half.png>
-Package pdftex.def Info: pics/amr4_half.png used on input line 190.
+<1introduction/pics/amr4_half.png, id=479, 401.5pt x 838.13126pt>
+File: 1introduction/pics/amr4_half.png Graphic file (type png)
+
+<use 1introduction/pics/amr4_half.png>
+Package pdftex.def Info: 1introduction/pics/amr4_half.png used on input line 18
+9.
 (pdftex.def)             Requested size: 109.59496pt x 228.78038pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21] [22 <./pics/amr1.jpg> <./pics/amr3.jpg> <./pics/amr4_half.png>] [23]
-[24] [25]
+[21] [22 <./1introduction/pics/amr1.jpg> <./1introduction/pics/amr3.jpg> <./1in
+troduction/pics/amr4_half.png>] [23] [24] [25]
 
-Package natbib Warning: Citation `??' on page 26 undefined on input line 262.
+Package natbib Warning: Citation `??' on page 26 undefined on input line 261.
 
-<pics/amp_mech.jpg, id=527, 520.59982pt x 401.00256pt>
-File: pics/amp_mech.jpg Graphic file (type jpg)
- <use pics/amp_mech.jpg>
-Package pdftex.def Info: pics/amp_mech.jpg used on input line 268.
+<1introduction/pics/amp_mech.jpg, id=575, 520.59982pt x 401.00256pt>
+File: 1introduction/pics/amp_mech.jpg Graphic file (type jpg)
+
+<use 1introduction/pics/amp_mech.jpg>
+Package pdftex.def Info: 1introduction/pics/amp_mech.jpg used on input line 267
+.
 (pdftex.def)             Requested size: 278.59879pt x 214.59238pt.
+ [26] [27 <./1introduction/pics/amp_mech.jpg>]
 
-[26] [27 <./pics/amp_mech.jpg>]
-
-Package natbib Warning: Citation `???' on page 28 undefined on input line 295.
+Package natbib Warning: Citation `???' on page 28 undefined on input line 294.
 
 [28] [29] [30]
 
-Package natbib Warning: Citation `??' on page 31 undefined on input line 347.
+Package natbib Warning: Citation `??' on page 31 undefined on input line 346.
 
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 [31]
 
-Package natbib Warning: Citation `???' on page 32 undefined on input line 366.
+Package natbib Warning: Citation `???' on page 32 undefined on input line 365.
 
-[32] [33] [34] [35]
+[32] [33] [34]
 
-Package natbib Warning: Citation `???' on page 36 undefined on input line 466.
+Package natbib Warning: Citation `Wang2006lpx' on page 35 undefined on input li
+ne 441.
+
+[35]
+
+Package natbib Warning: Citation `???' on page 36 undefined on input line 465.
 
 
-Package natbib Warning: Citation `???' on page 36 undefined on input line 466.
+Package natbib Warning: Citation `???' on page 36 undefined on input line 465.
 
 [36]
 
 Package natbib Warning: Citation `???see_example_on_AMPR' on page 37 undefined 
-on input line 467.
+on input line 466.
 
 
-Package natbib Warning: Citation `???' on page 37 undefined on input line 467.
+Package natbib Warning: Citation `???' on page 37 undefined on input line 466.
 
 [37]
 Missing character: There is no ¬ in font cmr12!
@@ -1332,33 +1344,34 @@ Missing character: There is no ≠ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
  [40] [41] [42] [43]
-<pics/gene_therapy.jpeg, id=892, 435.90855pt x 327.98535pt>
-File: pics/gene_therapy.jpeg Graphic file (type jpg)
+<1introduction/pics/gene_therapy.jpeg, id=938, 435.90855pt x 327.98535pt>
+File: 1introduction/pics/gene_therapy.jpeg Graphic file (type jpg)
 
-<use pics/gene_therapy.jpeg>
-Package pdftex.def Info: pics/gene_therapy.jpeg used on input line 575.
+<use 1introduction/pics/gene_therapy.jpeg>
+Package pdftex.def Info: 1introduction/pics/gene_therapy.jpeg used on input lin
+e 574.
 (pdftex.def)             Requested size: 358.19757pt x 269.51024pt.
- [44 <./pics/gene_therapy.jpeg>] [45] [46]
-<pics/capzip.png, id=924, 1434.35875pt x 346.29375pt>
-File: pics/capzip.png Graphic file (type png)
- <use pics/capzip.png>
-Package pdftex.def Info: pics/capzip.png used on input line 629.
-(pdftex.def)             Requested size: 398.0pt x 96.08443pt.
+ [44 <./1introduction/pics/gene_therapy.jpeg>] [45] [46]
+<1introduction/pics/capzip.png, id=970, 1434.35875pt x 346.29375pt>
+File: 1introduction/pics/capzip.png Graphic file (type png)
 
-[47 <./pics/capzip.png>]
-Overfull \hbox (11.70001pt too wide) in paragraph at lines 638--639
+<use 1introduction/pics/capzip.png>
+Package pdftex.def Info: 1introduction/pics/capzip.png used on input line 628.
+(pdftex.def)             Requested size: 398.0pt x 96.08443pt.
+ [47 <./1introduction/pics/capzip.png>]
+Overfull \hbox (11.70001pt too wide) in paragraph at lines 637--638
 \OT1/cmr/m/n/12 assembled with the RNA strands, with-out caus-ing cy-to-toxic a
 nd haemolytic
  []
 
 
-Package natbib Warning: Citation `???' on page 48 undefined on input line 643.
+Package natbib Warning: Citation `???' on page 48 undefined on input line 642.
 
 [48] [49] [50] [51]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 715.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 714.
 
-Overfull \hbox (2.44029pt too wide) in paragraph at lines 723--728
+Overfull \hbox (2.44029pt too wide) in paragraph at lines 722--727
 []\OT1/cmr/m/n/12 Finally, the pep-tide does ex-ert an an-timi-cro-bial func-ti
 on: the non-assembled
  []
@@ -1370,507 +1383,471 @@ on: the non-assembled
 
 
 
-] [57] [58] [59] [60]
-Overfull \hbox (2.73624pt too wide) in paragraph at lines 98--99
+] [57] [58] [59] [60] [61]
+Overfull \hbox (2.73624pt too wide) in paragraph at lines 104--105
 []\OT1/cmr/bx/n/12 Non bonded in-ter-ac-tions[] \OT1/cmr/m/n/12 Non bonded in-t
 er-ac-tions in-cludes the short range
  []
 
-[61] [62] [63]
-Overfull \hbox (4.62915pt too wide) in paragraph at lines 133--134
+[62] [63] [64]
+Overfull \hbox (4.62915pt too wide) in paragraph at lines 139--140
 []\OT1/cmr/m/n/12 The im-prove-ment of com-pu-ta-tional tech-niques and reparam
 etri-sa-tion strate-
  []
 
-[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77]
-Overfull \hbox (10.89029pt too wide) in paragraph at lines 313--314
+[65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78]
+Overfull \hbox (10.89029pt too wide) in paragraph at lines 319--320
 []\OT1/cmr/m/n/12 A more sys-tem-atic in-ves-ti-ga-tion on the topic has been p
 er-formed by Sandoval-
  []
 
-[78] [79] [80] [81] [82] [83] [84] [85]) [86]
+[79] [80] [81] [82] [83] [84] [85] [86]) [87]
+\openout2 = `3results_capsule/results_capsule.aux'.
+
+
+(./3results_capsule/results_capsule.tex
+<3results_capsule/pics/merged_figures_beta_sheet.pdf, id=1424, 796.9775pt x 540
+.0175pt>
+File: 3results_capsule/pics/merged_figures_beta_sheet.pdf Graphic file (type pd
+f)
+ <use 3results_capsule/pics/merged_figures_beta_sheet.pdf>
+Package pdftex.def Info: 3results_capsule/pics/merged_figures_beta_sheet.pdf us
+ed on input line 18.
+(pdftex.def)             Requested size: 278.59879pt x 188.76999pt.
+
+<3results_capsule/pics/pi_stacking_plot_part1.png, id=1425, 2006.49625pt x 1582
+.91376pt>
+File: 3results_capsule/pics/pi_stacking_plot_part1.png Graphic file (type png)
+ <use 3results_capsule/pics/pi_stacking_plot_part1.png>
+Package pdftex.def Info: 3results_capsule/pics/pi_stacking_plot_part1.png used 
+on input line 21.
+(pdftex.def)             Requested size: 187.06049pt x 147.55243pt.
+
+<3results_capsule/pics/pi_stacking_plot_part2.png, id=1427, 2006.49625pt x 1582
+.91376pt>
+File: 3results_capsule/pics/pi_stacking_plot_part2.png Graphic file (type png)
+ <use 3results_capsule/pics/pi_stacking_plot_part2.png>
+Package pdftex.def Info: 3results_capsule/pics/pi_stacking_plot_part2.png used 
+on input line 23.
+(pdftex.def)             Requested size: 187.06049pt x 147.55243pt.
+
+<3results_capsule/pics/beta_trpHbonds.pdf, id=1431, 845.0471pt x 597.52231pt>
+File: 3results_capsule/pics/beta_trpHbonds.pdf Graphic file (type pdf)
+
+<use 3results_capsule/pics/beta_trpHbonds.pdf>
+Package pdftex.def Info: 3results_capsule/pics/beta_trpHbonds.pdf used on input
+ line 41.
+(pdftex.def)             Requested size: 159.19757pt x 112.56396pt.
+
+<3results_capsule/pics/beta_surf.pdf, id=1432, 845.0471pt x 597.52231pt>
+File: 3results_capsule/pics/beta_surf.pdf Graphic file (type pdf)
+
+<use 3results_capsule/pics/beta_surf.pdf>
+Package pdftex.def Info: 3results_capsule/pics/beta_surf.pdf used on input line
+ 44.
+(pdftex.def)             Requested size: 159.19757pt x 112.56396pt.
+
+<3results_capsule/pics/pentamer_restype.png, id=1433, 1857.94125pt x 1403.2425p
+t>
+File: 3results_capsule/pics/pentamer_restype.png Graphic file (type png)
+ <use 3results_capsule/pics/pentamer_restype.png>
+Package pdftex.def Info: 3results_capsule/pics/pentamer_restype.png used on inp
+ut line 46.
+(pdftex.def)             Requested size: 179.09879pt x 135.25789pt.
+
+<3results_capsule/pics/soccer_empos_extern_superimposed.png, id=1434, 597.73312
+pt x 597.73312pt>
+File: 3results_capsule/pics/soccer_empos_extern_superimposed.png Graphic file (
+type png)
+
+<use 3results_capsule/pics/soccer_empos_extern_superimposed.png>
+Package pdftex.def Info: 3results_capsule/pics/soccer_empos_extern_superimposed
+.png used on input line 48.
+(pdftex.def)             Requested size: 179.09879pt x 179.10242pt.
+ [88
+
+
+
+] [89 <./3results_capsule/pics/merged_figures_beta_sheet.pdf> <./3results_capsu
+le/pics/pi_stacking_plot_part1.png> <./3results_capsule/pics/pi_stacking_plot_p
+art2.png>]
+[90pdfTeX warning (ext4): destination with the same identifier (name{subfigure.
+\(a\)}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.59 
+     pdfTeX warning (ext4): destination with the same identifier (name{subfigur
+e.\(b\)}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.59 
+     pdfTeX warning (ext4): destination with the same identifier (name{subfigur
+e.\(c\)}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.59 
+      <./3results_capsule/pics/beta_trpHbonds.pdf> <./3results_capsule/pics/bet
+a_surf.pdf> <./3results_capsule/pics/pentamer_restype.png> <./3results_capsule/
+pics/soccer_empos_extern_superimposed.png>]pdfTeX warning (ext4): destination w
+ith the same identifier (name{subfigure.\(a\)}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.90 \subbottom
+               []{\includegraphics[width=0.45\linewidth]{3results_capsule/pi...
+<3results_capsule/pics/bb_contacts.png, id=1503, 1555.8125pt x 1204.5pt>
+File: 3results_capsule/pics/bb_contacts.png Graphic file (type png)
+
+<use 3results_capsule/pics/bb_contacts.png>
+Package pdftex.def Info: 3results_capsule/pics/bb_contacts.png used on input li
+ne 90.
+(pdftex.def)             Requested size: 179.09879pt x 138.65242pt.
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(b
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.91 \subbottom
+               []{\includegraphics[width=0.45\linewidth]{3results_capsule/pi...
+
+<3results_capsule/pics/chain_COM_distance.png, id=1504, 1555.8125pt x 1204.5pt>
+File: 3results_capsule/pics/chain_COM_distance.png Graphic file (type png)
+<use 3results_capsule/pics/chain_COM_distance.png>
+Package pdftex.def Info: 3results_capsule/pics/chain_COM_distance.png used on i
+nput line 91.
+(pdftex.def)             Requested size: 179.09879pt x 138.65242pt.
+ [91] [92 <./3results_capsule/pics/bb_contacts.png> <./3results_capsule/pics/ch
+ain_COM_distance.png>]pdfTeX warning (ext4): destination with the same identifi
+er (name{subfigure.\(a\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.120 \subbottom
+                []{\includegraphics[width=0.45\linewidth]{3results_capsule/p...
+<3results_capsule/pics/pL6_Pramp_pic2.png, id=1528, 2208.25pt x 1358.07375pt>
+File: 3results_capsule/pics/pL6_Pramp_pic2.png Graphic file (type png)
+
+<use 3results_capsule/pics/pL6_Pramp_pic2.png>
+Package pdftex.def Info: 3results_capsule/pics/pL6_Pramp_pic2.png used on input
+ line 120.
+(pdftex.def)             Requested size: 179.09879pt x 110.14014pt.
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(b
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.121 \subbottom
+                []{\includegraphics[width=0.45\linewidth]{3results_capsule/p...
+<3results_capsule/pics/fig7_irene.png, id=1529, 1809.76125pt x 1355.0625pt>
+File: 3results_capsule/pics/fig7_irene.png Graphic file (type png)
+
+<use 3results_capsule/pics/fig7_irene.png>
+Package pdftex.def Info: 3results_capsule/pics/fig7_irene.png used on input lin
+e 121.
+(pdftex.def)             Requested size: 179.09879pt x 134.0875pt.
+ [93 <./3results_capsule/pics/pL6_Pramp_pic2.png> <./3results_capsule/pics/fig7
+_irene.png>] [94] [95]
+
+LaTeX Warning: Reference `table:SI_sim_E' on page 96 undefined on input line 19
+6.
+
+
+LaTeX Warning: Reference `table:SI_sim_E' on page 96 undefined on input line 22
+8.
+
+
+LaTeX Warning: Reference `table:SI_sim_E' on page 96 undefined on input line 22
+8.
+
+[96] [97] [98]
+
+Package natbib Warning: Citation `??' on page 99 undefined on input line 266.
+
+[99] [100]
+<3results_capsule/pics/staR3_render.png, id=1645, 1535.7375pt x 1261.71375pt>
+File: 3results_capsule/pics/staR3_render.png Graphic file (type png)
+
+<use 3results_capsule/pics/staR3_render.png>
+Package pdftex.def Info: 3results_capsule/pics/staR3_render.png used on input l
+ine 294.
+(pdftex.def)             Requested size: 199.0pt x 163.48949pt.
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(a
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.305 \subbottom
+                []{\includegraphics[width=0.55\linewidth]{3results_capsule/p...
+
+<3results_capsule/pics/noSI_stAll_Rg_rmds.png, id=1647, 903.375pt x 903.375pt>
+File: 3results_capsule/pics/noSI_stAll_Rg_rmds.png Graphic file (type png)
+
+<use 3results_capsule/pics/noSI_stAll_Rg_rmds.png>
+Package pdftex.def Info: 3results_capsule/pics/noSI_stAll_Rg_rmds.png used on i
+nput line 305.
+(pdftex.def)             Requested size: 218.90121pt x 218.89587pt.
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(b
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.306 \subbottom
+                []{\includegraphics[width=0.55\linewidth]{3results_capsule/p...
+<3results_capsule/pics/noSI_stAll_RDF.png, id=1648, 803.0pt x 602.25pt>
+File: 3results_capsule/pics/noSI_stAll_RDF.png Graphic file (type png)
+
+<use 3results_capsule/pics/noSI_stAll_RDF.png>
+Package pdftex.def Info: 3results_capsule/pics/noSI_stAll_RDF.png used on input
+ line 306.
+(pdftex.def)             Requested size: 218.90121pt x 164.17189pt.
+
+
+Package natbib Warning: Citation `Sunde1997' on page 101 undefined on input lin
+e 317.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[101 <./3results_capsule/pics/staR3_render.png>] [102 <./3results_capsule/pics/
+noSI_stAll_Rg_rmds.png> <./3results_capsule/pics/noSI_stAll_RDF.png>]
+<3results_capsule/pics/noSI_stAll_RKGBcorr_boxplot.png, id=1664, 1003.75pt x 50
+1.875pt>
+File: 3results_capsule/pics/noSI_stAll_RKGBcorr_boxplot.png Graphic file (type 
+png)
+ <use 3results_capsule/pics/noSI_stAll_RKGBcorr_boxplot.png>
+Package pdftex.def Info: 3results_capsule/pics/noSI_stAll_RKGBcorr_boxplot.png 
+used on input line 324.
+(pdftex.def)             Requested size: 298.5pt x 149.25414pt.
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(a
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.333 \subbottom
+                []{\includegraphics[width=0.85\linewidth]{3results_capsule/p...
+
+<3results_capsule/pics/noSI_stAll_beta_hist.png, id=1666, 1204.5pt x 602.25pt>
+File: 3results_capsule/pics/noSI_stAll_beta_hist.png Graphic file (type png)
+
+<use 3results_capsule/pics/noSI_stAll_beta_hist.png>
+Package pdftex.def Info: 3results_capsule/pics/noSI_stAll_beta_hist.png used on
+ input line 333.
+(pdftex.def)             Requested size: 338.30243pt x 169.15265pt.
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(b
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.335 \subbottom
+                []{\includegraphics[width=0.85\linewidth]{3results_capsule/p...
+<3results_capsule/pics/rep1_sch_GRMA.png, id=1667, 2409.0pt x 1606.0pt>
+File: 3results_capsule/pics/rep1_sch_GRMA.png Graphic file (type png)
+
+<use 3results_capsule/pics/rep1_sch_GRMA.png>
+Package pdftex.def Info: 3results_capsule/pics/rep1_sch_GRMA.png used on input 
+line 335.
+(pdftex.def)             Requested size: 338.30243pt x 225.52463pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[103 <./3results_capsule/pics/noSI_stAll_RKGBcorr_boxplot.png>] [104 <./3result
+s_capsule/pics/noSI_stAll_beta_hist.png> <./3results_capsule/pics/rep1_sch_GRMA
+.png>]
+<3results_capsule/pics/Hb_histo_by_restype.png, id=1683, 1204.5pt x 1304.875pt>
+File: 3results_capsule/pics/Hb_histo_by_restype.png Graphic file (type png)
+<use 3results_capsule/pics/Hb_histo_by_restype.png>
+Package pdftex.def Info: 3results_capsule/pics/Hb_histo_by_restype.png used on 
+input line 356.
+(pdftex.def)             Requested size: 338.30243pt x 366.49742pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:BTI_sasa_exposed' on page 105 undefined on input 
+line 361.
+
+[105]
+
+LaTeX Warning: Reference `fig:radius_thick' on page 106 undefined on input line
+ 373.
+
+
+Overfull \hbox (10.13893pt too wide) in paragraph at lines 373--376
+[]\OT1/cmr/bx/n/12 Geometrical prop-er-ties[] \OT1/cmr/m/n/12 The coarse grain 
+MAR-TINI sim-u-la-tions give slightly
+ []
+
+[106 <./3results_capsule/pics/Hb_histo_by_restype.png>]
+Overfull \hbox (15.66942pt too wide) in paragraph at lines 378--379
+[]\OT1/cmr/m/n/12 The MAR-TINI sim-u-la-tions show a lower num-ber of con-tacts
+ be-tween molecules
+ []
+
+[107]) [108]
 \openout2 = `4lip_par/lip_par.aux'.
 
- (./4lip_par/lip_par.tex) [87
+ (./4lip_par/lip_par.tex) [109
 
 
 
 ]
 \openout2 = `appendix.aux'.
 
+ (./appendix.tex
 
-(./appendix.tex
-
-LaTeX Warning: Reference `eq:predictive_distribution' on page 88 undefined on i
-nput line 12.
-
-
-Package natbib Warning: Citation `--' on page 88 undefined on input line 12.
+LaTeX Warning: Reference `eq:predictive_distribution' on page 110 undefined on 
+input line 12.
 
 
-Package natbib Warning: Citation `--' on page 88 undefined on input line 12.
-
-) [88
+Package natbib Warning: Citation `--' on page 110 undefined on input line 12.
 
 
+Package natbib Warning: Citation `--' on page 110 undefined on input line 12.
 
-] (./thesis.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 9--13
-\OT1/cmtt/m/n/12 com / au / en / home / applications / L1 _ AutoChem _ Applicat
-ions / L2 _
+) [110
+
+
+
+] (./thesis.bbl [111
+
+
+
+] [112]
+Underfull \hbox (badness 2970) in paragraph at lines 115--120
+[]\OT1/cmr/m/n/12 S. H. Rao, B. Harini, R. P. K. Shadamar-shan, K. Bal-a-gan-
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 15--18
-[]\OT1/cmr/m/n/12 Wikipedia.  Li-po-some.  URL []$\OT1/cmtt/m/n/12 https : / / 
-en . wikipedia . org / wiki /
+Underfull \hbox (badness 3219) in paragraph at lines 115--120
+\OT1/cmr/m/n/12 gad-ha-ran, and N. Sel-va-mu-ru-gan, ``Nat-u-ral and syn-thetic
+ poly-
  []
 
-[89
-
-
-
-]
-Underfull \hbox (badness 3568) in paragraph at lines 115--120
-\OT1/cmr/m/n/12 vel-op-ment of drug de-liv-ery sys-tems - A Eu-ro-pean per-spec
--tive
+[113] [114]
+Underfull \hbox (badness 2119) in paragraph at lines 214--217
+[]\OT1/cmr/m/n/12 X. Yan, P. Zhu, and J. Li, ``Self-assembly and ap-pli-ca-tion
+ of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--120
-\OT1/cmtt/m/n/12 and -[] challenges -[] in -[] the -[] development -[] of -[] d
-rug -[] Jain -[] Edwards /
+Underfull \hbox (badness 3965) in paragraph at lines 214--217
+\OT1/cmr/m/n/12 diphenylalanine-based nanos-truc-tures,'' \OT1/cmr/m/it/12 Chem
+-i-cal So-ci-ety Re-views\OT1/cmr/m/n/12 ,
  []
 
-
-Underfull \hbox (badness 2443) in paragraph at lines 122--129
-\OT1/cmr/m/it/12 Nan-otech-nol-ogy, Bi-ol-ogy and Medicine \OT1/cmr/bx/n/12 1\O
-T1/cmr/m/n/12 , 22--30 (2005).  URL
+[115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126]
+Underfull \hbox (badness 1052) in paragraph at lines 802--808
+\OT1/cmr/m/n/12 cessed and In-ac-ti-vated by the Com-men-sal Fine-goldia magna 
+and
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--129
-[]$\OT1/cmtt/m/n/12 https : / / www . sciencedirect . com / science / article /
- pii /
- []
-
-[90]
-Underfull \hbox (badness 1755) in paragraph at lines 213--222
-[]\OT1/cmr/m/n/12 Rao, S. H., Harini, B., Shadamar-shan, R. P. K., Bal-a-gan-ga
-d-
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 213--222
-\OT1/cmr/m/n/12 ha-ran, K. & Sel-va-mu-ru-gan, N.  Nat-u-ral and syn-thetic pol
-y-
- []
-
-[91] [92] [93]
-Underfull \hbox (badness 2027) in paragraph at lines 395--402
-[]\OT1/cmr/m/n/12 Yan, X., Zhu, P. & Li, J.  Self-assembly and ap-pli-ca-tion o
-f
- []
-
-[94]
-Underfull \hbox (badness 6252) in paragraph at lines 495--502
-[]\OT1/cmr/m/n/12 O 'neill, J.  TACK-LING DRUG-RESISTANT IN-FEC-TIONS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--502
-\OT1/cmr/m/n/12 GLOB-ALLY: FI-NAL RE-PORT AND REC-OM-MEN-DA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--502
-\OT1/cmr/m/n/12 TIONS THE RE-VIEW ON AN-TIMI-CRO-BIAL RE-SIS-TANCE
- []
-
-
-Underfull \hbox (badness 6995) in paragraph at lines 495--502
-\OT1/cmr/m/n/12 (2016).  URL []$\OT1/cmtt/m/n/12 https : / / amr -[] review . o
-rg / sites / default / files /
- []
-
-[95] [96] [97] [98]
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 757.
- [99] [100] [101] [102] [103]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no † in font cmr12!
-
-Underfull \hbox (badness 1242) in paragraph at lines 1162--1172
-[]\OT1/cmr/m/n/12 Matsuzaki, K., Sug-ishita, K.-i., Harada, M., Fu-jii, N. & Mi
-ya-
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 1162--1172
-\OT1/cmr/m/it/12 ica et Bio-phys-ica Acta (BBA) - Biomem-branes \OT1/cmr/bx/n/1
-2 1327\OT1/cmr/m/n/12 , 119--130
- []
-
-
-Underfull \hbox (badness 3769) in paragraph at lines 1174--1183
-[]\OT1/cmr/m/n/12 Shai, Y.  Mech-a-nism of the bind-ing, in-ser-tion and desta-
-bi-
- []
-
-
-Underfull \hbox (badness 2951) in paragraph at lines 1174--1183
-\OT1/cmr/m/n/12 liza-tion of phos-pho-lipid bi-layer mem-branes by $\OML/cmm/m/
-it/12 $\OT1/cmr/m/n/12 -helical an-timi-
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 1174--1183
-\OT1/cmr/m/n/12 cro-bial and cell non-selective membrane-lytic pep-tides.  \OT1
-/cmr/m/it/12 Biochim-
- []
-
-
-Underfull \hbox (badness 5652) in paragraph at lines 1174--1183
-\OT1/cmr/m/it/12 ica et Bio-phys-ica Acta (BBA) - Biomem-branes \OT1/cmr/bx/n/1
-2 1462\OT1/cmr/m/n/12 , 55--70
- []
-
-[104] [105] [106] [107]
+[127]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [108]
-Underfull \hbox (badness 2608) in paragraph at lines 1583--1593
-\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . eurekaselect . com / o
-penurl / content . php ? genre =
+
+Underfull \hbox (badness 2073) in paragraph at lines 837--841
+[]\OT1/cmr/m/n/12 T. Jin, M. Bokarewa, T. Fos-ter, J. Mitchell, J. Hig-gins, an
+d
  []
 
-[109]
-Underfull \hbox (badness 2591) in paragraph at lines 1595--1604
-[]\OT1/cmr/m/n/12 Strempel, N., Strehmel, J. & Over-hage, J.  Po-ten-tial Ap-pl
-i-
+[128] [129] [130] [131]
+Underfull \hbox (badness 1112) in paragraph at lines 1002--1007
+[]\OT1/cmr/m/n/12 K. Thedieck, T. Hain, W. Mo-hamed, B. J. Tin-dall, M. Nimtz,
  []
 
-
-Underfull \hbox (badness 2600) in paragraph at lines 1595--1604
-\OT1/cmr/m/n/12 ca-tion of An-timi-cro-bial Pep-tides in the Treat-ment of Bac-
-te-rial
+[132] [133]
+Underfull \hbox (badness 1205) in paragraph at lines 1102--1106
+[]\OT1/cmr/m/n/12 D. Migo^^Sn, M. Ja^^Sskiewicz, D. Neubauer, M. Bauer, E. Siko
+-rska,
  []
 
-
-Underfull \hbox (badness 2608) in paragraph at lines 1595--1604
-\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . eurekaselect . com / o
-penurl / content . php ? genre =
- []
-
-[110] [111]
-Underfull \hbox (badness 4217) in paragraph at lines 1787--1796
-[]\OT1/cmr/m/n/12 Klein, S. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 Adap-ta-ti
-on of \OT1/cmr/m/it/12 Pseu-domonas aerug-i-nosa \OT1/cmr/m/n/12 to
- []
-
-
-Underfull \hbox (badness 2229) in paragraph at lines 1787--1796
-\OT1/cmr/m/n/12 var-i-ous con-di-tions in-cludes tRNA-dependent for-ma-tion of 
-alanyl-
- []
-
-[112] [113]
-Underfull \hbox (badness 1527) in paragraph at lines 1888--1895
-[]\OT1/cmr/m/n/12 Wiradharma, N. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 Syn-t
-hetic cationic am-phiphilic $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 -helical
- []
-
-
-Underfull \hbox (badness 3148) in paragraph at lines 1888--1895
-\OT1/cmr/m/n/12 pep-tides as an-timi-cro-bial agents.  \OT1/cmr/m/it/12 Bio-ma-
-te-ri-als \OT1/cmr/bx/n/12 32\OT1/cmr/m/n/12 , 2204--2212
- []
-
-
-Underfull \hbox (badness 1755) in paragraph at lines 1888--1895
-\OT1/cmr/m/n/12 (2011).  URL []$\OT1/cmtt/m/n/12 https : / / linkinghub . elsev
-ier . com / retrieve / pii /
- []
-
-[114] [115]
-Underfull \hbox (badness 1755) in paragraph at lines 2080--2089
-\OT1/cmr/m/n/12 (2009).  URL []$\OT1/cmtt/m/n/12 https : / / linkinghub . elsev
-ier . com / retrieve / pii /
- []
-
-[116]
-Underfull \hbox (badness 10000) in paragraph at lines 2109--2117
-\OT1/cmtt/m/n/12 com / openurl / content . php ? genre = article{&}issn = 1568 
--[]
- []
-
-[117]
+[134] [135] [136]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [118] [119]
+ [137] [138]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [120]
-Underfull \hbox (badness 1831) in paragraph at lines 2448--2457
-[]\OT1/cmr/m/n/12 Berendsen, H., van der Spoel, D. & van Drunen, R.  GRO-
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 2448--2457
-\OT1/cmr/m/n/12 MACS: A message-passing par-al-lel molec-u-lar dy-nam-ics im-pl
-e-men-
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 2448--2457
-\OT1/cmr/m/n/12 ta-tion.  \OT1/cmr/m/it/12 Com-puter Physics Com-mu-ni-ca-tions
- \OT1/cmr/bx/n/12 91\OT1/cmr/m/n/12 , 43--56 (1995).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2448--2457
-\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 https : / / www . sciencedirect . com /
- science / article / pii /
- []
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no † in font cmr12!
-
-Underfull \hbox (badness 1365) in paragraph at lines 2468--2477
-\OT1/cmr/m/n/12 u-lar Mod-el-ing and Dy-nam-ics Stud-ies of Pro-teins \OML/cmm/
-m/it/12 <\OT1/cmr/m/n/12 sup\OML/cmm/m/it/12 ><\OT1/cmr/m/n/12 /sup\OML/cmm/m/i
-t/12 >\OT1/cmr/m/n/12 .
- []
-
-
-Underfull \hbox (badness 3612) in paragraph at lines 2468--2477
-\OT1/cmr/m/it/12 The Jour-nal of Phys-i-cal Chem-istry B \OT1/cmr/bx/n/12 102\O
-T1/cmr/m/n/12 , 3586--3616 (1998).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2468--2477
-\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
- / pubmed / 24889800https :
- []
-
-[121]
-Underfull \hbox (badness 2435) in paragraph at lines 2534--2544
-[]\OT1/cmr/m/n/12 Hess, B., Bekker, H., Berend-sen, H. J. C. & Fraaije, J. G.
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 2534--2544
-\OT1/cmr/m/n/12 E. M.  LINCS: A lin-ear con-straint solver for molec-u-lar sim-
-u-la-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2534--2544
-\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / doi . wiley . com / 10 . 100
-2 / {%}2528SICI{%}25291096 -[]
- []
-
-
-Overfull \hbox (27.72766pt too wide) in paragraph at lines 2534--2544
-\OT1/cmtt/m/n/12 987X{%}2528199709{%}252918{%}253A12{%}253C1463{%}253A{%}253AAI
-D -[]
- []
-
-[122] [123]
+ [139] [140] [141] [142]
 Missing character: There is no ≈ in font cmr12!
 Missing character: There is no ç in font cmr12!
-
-Underfull \hbox (badness 1009) in paragraph at lines 2657--2666
-[]\OT1/cmr/m/n/12 Torda, A. E., Scheek, R. M. & van Gun-steren, W. F.  Time-
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 2657--2666
-\OT1/cmr/m/n/12 averaged nu-clear over-hauser ef-fect dis-tance re-straints ap-
-plied to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2657--2666
-\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 https : / / www . sciencedirect . com /
- science / article / pii /
- []
-
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
-
-Underfull \hbox (badness 2653) in paragraph at lines 2684--2692
-[]\OT1/cmr/m/n/12 Mao, B. & Fried-man, A. R.  Molec-u-lar dy-nam-ics sim-u-la-t
-ion
- []
-
-
-Underfull \hbox (badness 3547) in paragraph at lines 2684--2692
-\OT1/cmr/m/n/12 by atomic mass weight-ing.  \OT1/cmr/m/it/12 Bio-phys-i-cal Jou
-r-nal \OT1/cmr/bx/n/12 58\OT1/cmr/m/n/12 , 803--805
- []
-
-
-Underfull \hbox (badness 2065) in paragraph at lines 2694--2702
-[]\OT1/cmr/m/n/12 Okamoto, Y.  Generalized-ensemble al-go-rithms: en-hanced sam
--
- []
-
-[124]
-Underfull \hbox (badness 10000) in paragraph at lines 2714--2721
-\OT1/cmtt/m/n/12 12271136http : / / www . pubmedcentral . nih . gov / articlere
-nder .
- []
-
-
-Underfull \hbox (badness 4608) in paragraph at lines 2764--2772
-\OT1/cmr/m/n/12 timi-cro-bial Pep-tide LL-37 in Model POPC and POPG Lipid
- []
-
-
-Underfull \hbox (badness 1675) in paragraph at lines 2764--2772
-\OT1/cmr/m/n/12 Bi-lay-ers.  \OT1/cmr/m/it/12 In-ter-na-tional Jour-nal of Mole
-c-u-lar Sci-ences \OT1/cmr/bx/n/12 19\OT1/cmr/m/n/12 , 1186
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2764--2772
-\OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
-rtid =
- []
-
-[125]
-Underfull \hbox (badness 2608) in paragraph at lines 2783--2791
-\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
- / pubmed / 18987307http : / / www .
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 2824--2833
-[]\OT1/cmr/m/n/12 Song, C., de Groot, B. L. & San-som, M. S.  Lipid Bi-
- []
-
-
-Underfull \hbox (badness 3039) in paragraph at lines 2824--2833
-\OT1/cmr/m/n/12 tide Derm-cidin Chan-nel.  \OT1/cmr/m/it/12 Bio-phys-i-cal Jour
--nal \OT1/cmr/bx/n/12 116\OT1/cmr/m/n/12 , 1658--1666
- []
-
-[126]
+ [143] [144] [145]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
- [127]
-Underfull \hbox (badness 10000) in paragraph at lines 2956--2964
-\OT1/cmtt/m/n/12 / / www . pubmedcentral . nih . gov / articlerender . fcgi ? a
-rtid =
+
+[146]
+Underfull \hbox (badness 1281) in paragraph at lines 1749--1753
+[]\OT1/cmr/m/n/12 P. Bro-cos, P. Mendoza-Espinosa, R. Castillo, J. Mas-Oliva, a
+nd
  []
 
-
-Underfull \hbox (badness 2495) in paragraph at lines 2966--2976
-\OT1/cmr/m/n/12 & Pick-holz, M.  Dif-fer-en-tial In-ter-ac-tion of An-timi-cro-
-bial Pep-
- []
-
-
-Underfull \hbox (badness 1231) in paragraph at lines 2966--2976
-\OT1/cmr/m/n/12 tides with Lipid Struc-tures Stud-ied by Coarse-Grained Molec-u
--lar
- []
-
-
-Underfull \hbox (badness 2608) in paragraph at lines 2966--2976
-\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
- / pubmed / 29053635http : / / www .
- []
-
-[128] [129]
-Underfull \hbox (badness 2828) in paragraph at lines 3064--3071
-[]\OT1/cmr/m/n/12 Gudlur, S. \OT1/cmr/m/it/12 et al.  \OT1/cmr/m/n/12 Pep-tide 
-Nanovesi-cles Formed by the Self-
- []
-
-
-Underfull \hbox (badness 4316) in paragraph at lines 3064--3071
-\OT1/cmr/m/n/12 Assembly of Branched Am-phiphilic Pep-tides.  \OT1/cmr/m/it/12 
-PLoS ONE \OT1/cmr/bx/n/12 7
- []
-
-
-Underfull \hbox (badness 2608) in paragraph at lines 3073--3080
-\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
- / pubmed / 27174390http : / / www .
- []
-
-
-Underfull \hbox (badness 2608) in paragraph at lines 3082--3092
-\OT1/cmr/m/n/12 URL []$\OT1/cmtt/m/n/12 http : / / www . ncbi . nlm . nih . gov
- / pubmed / 27128262http : / / www .
- []
-
+[147] [148] [149]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ∂ in font cmr12!
 )
 
 Package natbib Warning: There were undefined citations.
 
-[130]
+[150]
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
  (./thesis.aux (./front.aux) (./nomenclature.aux)
 (./1introduction/introduction.aux) (./2methods/methods.aux)
-(./4lip_par/lip_par.aux) (./appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
+(./3results_capsule/results_capsule.aux) (./4lip_par/lip_par.aux)
+(./appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F25309D0F1B9E86F60E264E2ACE7BCEE;1195.
+(rerunfilecheck)             Checksum: CB2CA8558AE885495C976549AF59E6B7;1594.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 24500 strings out of 493029
- 427580 string characters out of 6136233
- 546750 words of memory out of 5000000
- 26976 multiletter control sequences out of 15000+600000
- 19260 words of font info for 74 fonts, out of 8000000 for 9000
+ 24803 strings out of 493029
+ 435692 string characters out of 6136233
+ 527845 words of memory out of 5000000
+ 27165 multiletter control sequences out of 15000+600000
+ 21095 words of font info for 81 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 70i,15n,92p,1681b,1767s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,15n,92p,1684b,1830s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (130 pages, 4728242 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (150 pages, 16875543 bytes).
 PDF statistics:
- 2313 PDF objects out of 2487 (max. 8388607)
- 2091 compressed objects within 21 object streams
- 545 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2099 PDF objects out of 2487 (max. 8388607)
+ 1814 compressed objects within 19 object streams
+ 617 named destinations out of 1000 (max. 500000)
+ 332 words of extra memory for PDF output out of 10000 (max. 10000000)
 

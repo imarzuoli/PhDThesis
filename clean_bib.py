@@ -23,7 +23,7 @@ def customizations(record):
     record = convert_to_unicode(record)
     ## delete the following keys.
     #unwanted = ["doi", "url", "abstract", "file", "gobbledegook", "isbn", "link", "keyword", "mendeley-tags", "annote", "pmid", "chapter", "institution", "issn", "month"]
-    unwanted = ["abstract", "file", "gobbledegook", "isbn", "keyword", "mendeley-tags", "annote", "pmid", "chapter", "institution", "issn", "month"]
+    unwanted = ["abstract", "file", "gobbledegook", "isbn", "keyword", "mendeley-tags", "annote", "pmid", "chapter", "institution", "issn", "month", "url"]
     for val in unwanted:
         record.pop(val, None)
     return record
