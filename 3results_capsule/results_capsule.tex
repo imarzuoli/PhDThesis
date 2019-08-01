@@ -302,27 +302,28 @@ Atomistic simulations of the buckyball in solution show a consistently equilibra
 %
 \begin{figure}[h!]
 \centering
-\subbottom[]{\includegraphics[width=0.55\linewidth]{3results_capsule/pics/noSI_stAll_Rg_rmds.png} \label{fig:Rg_RMSD}} \\
-\subbottom[]{\includegraphics[width=0.55\linewidth]{3results_capsule/pics/noSI_stAll_RDF.png} \label{fig:RDF}}
-\caption[Structural measures on buckyball in solution]{(a) R$_g$ (solid line, left $y$ axis) and RMSD (dashed line, right $y$ axis) computed respectively on the Protein and its backbone. Results are displayed for simulations performed in GROMOS, SIRAH, MARTINI and MARTINI with polar water (only one replica each). (b) RDF of Protein masses around their center of mass, computed on both layers. Displayed for the same simulation set up as in (a,b). \textbf{IN a PUT ALL FF, AND IN THE SAME PLOT Rg AND RMSD (AXIS TO THE LEFT AND RIGHT). FOR RDF ALL FF IN ONE PLOT}}
+\subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/Rg_all.png} \label{fig:Rg}} 
+\subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/RMSD_all.png} \label{fig:RMSD}} \\
+\subbottom[]{\includegraphics[width=0.6\linewidth]{3results_capsule/pics/RDF_all.png} \label{fig:RDF}}
+\caption[Structural measures on buckyball in solution]{(a) R$_g$ and (b) RMSD computed respectively on the Protein and its backbone. Results are displayed for simulations performed in GROMOS (100 ns), SIRAH, MARTINI and MARTINI with polar water (all 1 $\mu$s). Inset: zoom on the GROMOS values. (c) RDF of Protein masses around their center of mass, computed on both layers, displayed for the same simulation set up as in (a,b). For each label of the legend, the bar has length of the respective RDF FWHM (thickness estimate). All results are showed for Replica 1 of each simulation set up.}
 \label{fig:struct_UA_SIhere}
 \end{figure}
 %
- This is proven by both the stable value of the protein R$_g$ and the almost plateauing backbone RMSD (Figure \ref{fig:Rg_RMSD}). It is interesting to notice that previous simulations performed with a shorter equilibration, without the phase employing flat bottom restraints, resulted in the immediate disruption of several connections in the buckyball network, with resulting larger R$_g$.
+This is proven by both the stable value of the protein R$_g$ and the almost plateauing backbone RMSD (Figure \ref{fig:Rg} and \subcaptionref{fig:RMSD}). It is interesting to notice that previous simulations performed with a shorter equilibration, without the phase employing flat bottom restraints, resulted in the immediate disruption of several connections in the buckyball network, with resulting larger R$_g$. This suggest that the structure pairing present in the structure can form only when the chains are in close contact. For this to happen, a sampling of many conformations needs to be performed, and this is compatible with the long time of assembly observed experimentally (up to 7-10 hours).
 %
-The RDF of the protein masses around the buckyball centre of mass shows a Gaussian profile (Figure \ref{fig:RDF}). The fact that no matter is observed nearby the origin means that the molecules do not collapse to the center and the central cavity is maintained. To be noticed that the value of RDF at a given radius is already normalised by the volume of the spherical shell at that position, so that a uniformly full object would display a flat distribution
+The RDF of the protein masses around the buckyball centre of mass shows a Gaussian profile (Figure \ref{fig:RDF}). The fact that no matter is observed nearby the origin means that the molecules do not collapse to the center and the central cavity is maintained. To be noticed that the value of RDF at a given radius is already normalised by the volume of the spherical shell at that position, so that a uniformly full object would display a flat distribution.
 %
 A fit of the RDF to a Gaussian curve returns a mean value of 5.1 nm and a FWHM of 2.2 nm, which gives an estimate of the bilayer thickness.
 %
 A similar computation is repeated for the inner and outer layer separately, providing 1.1 nm of distance between the two distributions means. This interlayer distance is compatible with the distance between the backbones of stacking $\beta$-sheet in structures like densely packed amyloids with cross-$\beta$ sheet quaternary structure (1.0 nm \cite{Sunde1997}).
 
-This thickness value thus hint at the fact that the two layers are closely packed. This is confirmed by the analysis of the pairwise correlations of motion:
+This thickness value thus hints at the fact that the two layers are closely packed. This is confirmed by the analysis of the pairwise correlations of motion:
 %
 molecules at the same polar coordinates (i.e. stacking radially one on the other) have a positive correlation and so move coherently, while the ones at opposite poles do not show particular correlation, as well the ensemble of all possible pairs (Figure \ref{fig:BTI_corr}). 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.75\linewidth]{3results_capsule/pics/noSI_stAll_RKGBcorr_boxplot.png} 
-\caption[Correlation of motion between molecules of the buckyball]{\textbf{PUT ALL FF} Distribution of the correlation of motion between different molecules in the buckyball simulations. Black band: median of the distribution; box: first and third quartiles; whiskers: maximum and minimum, outliers excluded (hollow dots).}
+\includegraphics[width=0.95\linewidth]{3results_capsule/pics/RKGBcorr_boxplot_all.png} 
+\caption[Correlation of motion between molecules of the buckyball]{Distribution of the correlation of motion between different molecules in the buckyball simulations. Black band: median of the distribution; box: first and third quartiles; whiskers: maximum and minimum, outliers excluded (hollow dots). Results are shown for Replica 1 of each simulation set up.}
 \label{fig:BTI_corr}
 \end{figure}
 
@@ -333,7 +334,7 @@ The measure of paired branches in the buckyball network, shown in Figure \ref{fi
 \subbottom[]{\includegraphics[width=0.85\linewidth]{3results_capsule/pics/noSI_stAll_beta_hist.png} \label{fig:BTI_beta}} \\
 \bigskip
 \subbottom[]{\includegraphics[width=0.85\linewidth]{3results_capsule/pics/rep1_sch_GRMA.png} \label{fig:BTI_contacts}} \\
-\caption[Contacts between molecules during simulations of the buckyball]{\textbf{TAKE OUT 2.5NM INTER CONTACTS?, REPUT BACKMAPPING?, BETTER} (a) Number of paired branches within the same layer and between layers, as defined in the main text, for the GROMOS and MARTINI simulations, three replicas each. (b) Contacts with persistence greater than 50\% during an atomistic and coarse grain simulations between C$_\alpha$s (left column), between side chains (middle column) and mixed C$_\alpha$-side chain (right column).}
+\caption[Contacts between molecules during simulations of the buckyball]{\textbf{TAKE OUT 2.5NM INTER CONTACTS?, REPUT BACKMAPPING?, BETTER} (a) Number of paired branches within the same layer and between layers, as defined in the main text. Results are shown for Replica 1 of each simulation set up. (b) Contacts with persistence greater than 50\% between C$_\alpha$s (top row), or between side chains (bottom row) and different simulations set up (Replica 1 for each of them). A similar plot for mixed C$_\alpha$-side chain contact in shown in Figure -- of Appendix --.}
 \label{fig:BTI_cont}
 \end{figure}
 %
@@ -349,40 +350,42 @@ Nevertheless, the analysis highlights that Trp residues are key to form contacts
 
 Some of these contacts are mediated by an hydrogen bond interaction: the number of them present during the simulations is computed, and divided by amino acid type.
 % SAY THAT THEY ARE THE ONE OCCURRING AT ANY MOMENT, AND NOT THE ONES SURVIVING MORE THAN 50%?
-Also in this case, we identify the ones occurring between backbones, side chains, and mixed. It is shown that Tryptophan contributes to a large number of backbone hydrogen bonds (Figure \ref{fig:BTI_hbonds} top), especially with other Tryoptophan residues, while the Arginin side chain is the most prone to establish H-bonds as a donor with many different amino acid side chains, but especially Glutammic acid (in black in Figure \ref{fig:BTI_hbonds}, bottom) as expected from the facing positions they occupy in the molecules arrangement.
+We identify the ones occurring between backbones, side chains, and mixed, in this case as well. It is shown that Tryptophan contributes to a large number of backbone hydrogen bonds (Figure \ref{fig:BTI_hbonds} top), especially with other Tryoptophan residues, consistently with what found in the analysis of general contacts. Arginin side chains are the most prone to establish H-bonds as a donor with many different amino acid side chains, but especially Glutammic acid (in black in Figure \ref{fig:BTI_hbonds}, bottom) as expected from the facing positions they occupy in the molecules arrangement.
 %
-\begin{figure}[h]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.85\linewidth]{3results_capsule/pics/Hb_histo_by_restype.png} 
-\caption[Hydrogen bonds in the buckyball molecule]{\textbf{[REDO BETTER, put Nr. Hbonds/molecule in ylab]} Average number of hydrogen bonds per molecule occurring between their backbone (top) and between their side chains (bottom) in 100 ns atomistic simulations of the buckyball structure.}
+\caption[Hydrogen bonds in the buckyball molecule]{\textbf{[REDO BETTER, put "Nr. Hbonds/molecule" in ylab]} Average number of hydrogen bonds per molecule occurring between backbone of molecules in a 100 ns atomistic simulation of the buckyball in solution (top) and between its amino acid side chains (bottom). Result shown for Replica 1.}
 \label{fig:BTI_hbonds}
 \end{figure}
 
-Foreseeing future applications of this molecule as antibiotic vehicle, it is important to understand what residues are exposed at the surface of the structure. To do that, we compute the Solvent Accessible Surface Area (SASA) and break it down in the areas exposed by the different amino acids. Figure \ref{fig:BTI_sasa_exposed} shows that half of the accessible surface is represented by the charged residues Arginine, while Tryptophan contribute to less than one quarter to it, despite having bulky side chains. Summing charged and polar residues (Arg, Thr and Glu), their surfaces constitute the 75\% of the total SASA, despite such amino acids represent only the 63\% of the total number of residues and some of them (specifically Thr) have a small side chain. The hydrophobic screening is a consequence of the double layer structure and it is crucial in the perspective of the binding mechanism to membranes, in particular to the anionic bacterial one.
-
-
+Finally, it is important to understand what residues are exposed at the surface of the structure, especially for future applications: in order to make the peptide co-assemble with other products, the two must have a compatible chemical character. To understand what surface the peptide exposes to the solution, we compute the Solvent Accessible Surface Area (SASA) and break it down by amino acid type. Figure \ref{fig:BTI_sasa_exposed} shows that half of the accessible surface is represented by the charged residues Arginine, while Tryptophan contribute to less than one quarter to it, despite having bulky side chains. For each arm (of sequence RRWTWE), the sum of SASA from charged and polar residues (Arg, Thr and Glu) constitute the 79\% of the total SASA of an arm, while summing their nominal areas (the SASA each residue would have within a Gly-X-Gly tripeptide) it would constitute the 66\% of a RRWTWE sequence SASA.
+% REDO PRECISELY
+The screening of the hydrophobic residues is a consequence of the double layer structure and it is crucial in the perspective of binding mechanisms to membranes, in particular to the anionic bacterial one.
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.5\textwidth]{3results_capsule/pics/noSI_stAll_sasa_fractions.png}
+\caption[SASA per residue of a buckyball in solution]{\textbf{[REDO BETTER AND PUT PANEL LETTER]} Break down of the total Solvent Accessible Surface Area (SASA) by residue types. Results for Replica 1 of each simulation set up.}
+\label{fig:BTI_sasa_exposed}
+\end{figure}
 
 
 \subsection{Multiscale comparison of model capsule}
 
+We performed a multiscale analysis of the capsule structure simulating it with two different coarse grain force fields with a twofold aim: first we wanted to simulate it for a longer time to observe how its structural properties were maintained on the medium time scale. Second, we believe that proving the stability of the capsule with different description strengthen the evidence that the assembly proposed is indeed a possible, favourable arrangement of the molecules in solution.
 
+The final structure proposed by the SIRAH and MARTINI force fields are slightly different with respect to the atomistic one and among themselves, due to the different nature of the interactions between beads and the longer time scale reached. The SIRAH simulated capsule results in a more open structure, with a skewed and broader radial density profile, while MARTINI with the standard water model provides a more compact configuration (respectively 6.0 nm and 4.6 nm average radius, and 2.9 nm and 1.9 nm average thickness) (Figure 5). MARTINI runs with a polar water model provide a slightly larger, and more solvated, structure with respect to standard MARTINI (4.8 nm average radius), with comparable thickness.
 
-\paragraph{Geometrical properties}
+The correlation of motion between molecules for the SIRAH force field and polar MARTINI simulations reproduce the results of the atomistic one, with the appearance of a slight anticorrelation between molecules at the opposite poles. This is due to the contraction or expansion happening at the beginning at the simulation, when the capsule adjusts to the equilibrium size which depend to some extent from the force field. The correlation effects are much more pronounced in standard MARTINI, which results in a smaller object with the two layers strongly correlated in their motion. This is likely due to the poorer properties of solvation of standard MARTINI water, which cause the protein beads to preferentially interact between themselves rather than with the solvent. Indeed, with polar MARTINI, despite the structure has a similar radius with respect to the standard MARTINI outcome, the motion resembles more the atomistic dynamics, with less strong correlations.
 
-
-The coarse grain MARTINI simulations give slightly different results, due to the different nature of the interactions between beads and the longer time scale reached. They provide a more compact configuration for the structure, with 4.6 nm average radius and 1.9 nm average thickness (Figure \ref{fig:radius_thick}).
-%
-Due to the more compact structure, the anticorrelation between opposite molecules is more pronounced.
+% CONTACTS:
+%			GR		SI		MA		MAP
+% SAME		234		179		138		246
+% INTER 		62	    42   	171		128
+The number of chain pairs in the SIRAH simulations show less contacts, in line with the more expanded structure. Standard MARTINI simulation show remarkably less pairing from the same layer, but higher pairing between layers, consistently with the fact that the inner and outer shell are closer in position.
 
 
 The MARTINI simulations show a lower number of contacts between molecules belonging to the same layer, probably due to the less specific interactions between different beads which do not allow a description of the hydrogen bond network between amino acids, favouring a close backbone proximity. Moreover, this shows that the structure obtained after a longer time scale is less organised, but it does keep its overall shape thanks to the tight packing between chains. Consistently with this and the smaller thickness of the shell in the MARTINI simulations, the number of contacts between the two layers is higher than in the atomistic simulation.
-
-%\begin{figure}[h]
-%\centering
-%%\includegraphics[width=0.85\textwidth]{pics/noSI_stAll_beta_hist.png}
-%\caption{\textbf{TAKE OUT 2.5NM INTER CONTACTS?, REPUT BACKMAPPING?, BETTER} Number of paired branches within the same layer and between layers, as defined in the main text, for the GROMOS and MARTINI simulations, three replicas each.}
-%\label{fig:BTI_beta_cont}
-%\end{figure}
 
 The fact that in both simulations we observe a contraction with respect to the initial configuration, in which all the molecules have an extended shape, and that only a bilayer grants stability of the assembly, suggests that it is necessary to have a minimum density on the surface of the sphere to grant a robust architecture.
 

@@ -1,36 +1,40 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Graphical abstract of introduction}}{11}{figure.caption.4}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Materials for drug delivery vehicles}}{14}{figure.caption.6}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Mechanisms of antimicrobial resistance to small drugs}}{22}{figure.caption.12}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Antimicrobial peptides}}{27}{figure.caption.16}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Principles of gene therapy}}{44}{figure.caption.26}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Cazip molecule}}{47}{figure.caption.27}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Experimental results on capzip}}{51}{figure.caption.30}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Mechanisms of antimicrobial resistance to small drugs}}{14}{figure.caption.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{14}{figure.caption.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{14}{figure.caption.5}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{14}{figure.caption.5}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Antimicrobial peptides}}{19}{figure.caption.9}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Principles of gene therapy}}{34}{figure.caption.17}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Cazip molecule}}{37}{figure.caption.18}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Experimental results on capzip}}{41}{figure.caption.21}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Hydrogen bonds between RRWTWE $\beta $-sheet}}{89}{figure.caption.43}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{89}{figure.caption.43}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{89}{figure.caption.43}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{89}{figure.caption.43}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Building blocks of capzip assembly}}{90}{figure.caption.44}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{90}{figure.caption.44}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{90}{figure.caption.44}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{90}{figure.caption.44}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces }}{90}{figure.caption.44}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Cohesion measures on the pentagonal subunit}}{92}{figure.caption.45}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{92}{figure.caption.45}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{92}{figure.caption.45}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Snapshot of simulations of capzip on model membranes}}{93}{figure.caption.46}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{93}{figure.caption.46}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{93}{figure.caption.46}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Atomistic run of buckyball in solution: final configuration}}{101}{figure.caption.54}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Structural measures on buckyball in solution}}{102}{figure.caption.55}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{102}{figure.caption.55}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{102}{figure.caption.55}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Correlation of motion between molecules of the buckyball}}{103}{figure.caption.56}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Contacts between molecules during simulations of the buckyball}}{104}{figure.caption.57}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{104}{figure.caption.57}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{104}{figure.caption.57}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Hydrogen bonds in the buckyball molecule}}{106}{figure.caption.58}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Hydrogen bonds between RRWTWE $\beta $-sheet}}{78}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{78}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{78}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{78}{figure.caption.34}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Building blocks of capzip assembly}}{79}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{79}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{79}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{79}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces }}{79}{figure.caption.35}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Cohesion measures on the pentagonal subunit}}{81}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{81}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{81}{figure.caption.36}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Snapshot of simulations of capzip on model membranes}}{82}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{82}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{82}{figure.caption.37}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Atomistic run of buckyball in solution: final configuration}}{90}{figure.caption.45}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Structural measures on buckyball in solution}}{91}{figure.caption.46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{91}{figure.caption.46}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{91}{figure.caption.46}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{91}{figure.caption.46}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Correlation of motion between molecules of the buckyball}}{92}{figure.caption.47}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Contacts between molecules during simulations of the buckyball}}{93}{figure.caption.48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{93}{figure.caption.48}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{93}{figure.caption.48}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Hydrogen bonds in the buckyball molecule}}{95}{figure.caption.49}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces SASA per residue of a buckyball in solution}}{96}{figure.caption.50}
 \addvspace {10pt}
 \addvspace {10pt}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  30 JUL 2019 08:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  1 AUG 2019 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1122,7 +1122,7 @@ LaTeX Info: Redefining \nameref on input line 14.
 \openout2 = `front.aux'.
 
  (./front.tex
-<KCL_logo.pdf, id=99, 282.656pt x 187.902pt>
+<KCL_logo.pdf, id=95, 282.656pt x 187.902pt>
 File: KCL_logo.pdf Graphic file (type pdf)
  <use KCL_logo.pdf>
 Package pdftex.def Info: KCL_logo.pdf used on input line 45.
@@ -1171,20 +1171,20 @@ No file thesis.nls.
 \openout2 = `1introduction/introduction.aux'.
 
  (./1introduction/introduction.tex
-Overfull \hbox (3.35674pt too wide) in paragraph at lines 17--18
+Overfull \hbox (3.35674pt too wide) in paragraph at lines 3--4
 [][] \OT1/cmr/m/n/12 to be fin-ished/modified when the work
  []
 
-<1introduction/pics/scheme_intro.pdf, id=209, 537.00626pt x 759.83875pt>
+<1introduction/pics/scheme_intro.pdf, id=204, 537.00626pt x 759.83875pt>
 File: 1introduction/pics/scheme_intro.pdf Graphic file (type pdf)
 
 <use 1introduction/pics/scheme_intro.pdf>
 Package pdftex.def Info: 1introduction/pics/scheme_intro.pdf used on input line
- 41.
+ 27.
 (pdftex.def)             Requested size: 398.0pt x 563.15303pt.
 
 
-LaTeX Warning: Float too large for page by 19.38013pt on input line 44.
+LaTeX Warning: Float too large for page by 19.38013pt on input line 30.
 
 [10
 
@@ -1194,219 +1194,185 @@ LaTeX Warning: Float too large for page by 19.38013pt on input line 44.
 
 ] [11 <./1introduction/pics/scheme_intro.pdf>] [12
 
-] [13]
-<1introduction/pics/carbon_review.jpg, id=355, 319.77876pt x 127.9115pt>
-File: 1introduction/pics/carbon_review.jpg Graphic file (type jpg)
+]
 
-<use 1introduction/pics/carbon_review.jpg>
-Package pdftex.def Info: 1introduction/pics/carbon_review.jpg used on input lin
-e 77.
-(pdftex.def)             Requested size: 199.0pt x 79.60292pt.
+Package natbib Warning: Citation `???' on page 13 undefined on input line 52.
 
-Overfull \hbox (0.57477pt too wide) in paragraph at lines 84--85
-[]\OT1/cmr/bx/n/12 Carbon nan-otubes[] \OT1/cmr/m/n/12 Sim-i-larly, car-bon nan
--otubes have been used for biomed-
- []
-
-[14 <./1introduction/pics/carbon_review.jpg>]
-
-Package natbib Warning: Citation `seeRebuttal' on page 15 undefined on input li
-ne 96.
-
-[15] [16] [17]
-
-Package natbib Warning: Citation `???' on page 18 undefined on input line 139.
-
-
-Package natbib Warning: Citation `???' on page 18 undefined on input line 139.
-
-
-Package natbib Warning: Citation `???' on page 18 undefined on input line 141.
-
-
-Package natbib Warning: Citation `???' on page 18 undefined on input line 147.
-
-[18]
-
-Package natbib Warning: Citation `????' on page 19 undefined on input line 154.
-
-
-
-Package natbib Warning: Citation `????' on page 19 undefined on input line 154.
-
-
-
-Package natbib Warning: Citation `????' on page 19 undefined on input line 156.
-
-
-
-Package natbib Warning: Citation `????' on page 19 undefined on input line 158.
-
-
-[19]
-
-Package natbib Warning: Citation `????' on page 20 undefined on input line 162.
-
-
-
-Package natbib Warning: Citation `????' on page 20 undefined on input line 164.
-
-
-
-Package natbib Warning: Citation `????' on page 20 undefined on input line 170.
-
-
-
-Package natbib Warning: Citation `????' on page 20 undefined on input line 172.
-
-
-[20] <1introduction/pics/amr1.jpg, id=477, 929.4725pt x 569.12625pt>
+<1introduction/pics/amr1.jpg, id=322, 929.4725pt x 569.12625pt>
 File: 1introduction/pics/amr1.jpg Graphic file (type jpg)
 
 <use 1introduction/pics/amr1.jpg>
-Package pdftex.def Info: 1introduction/pics/amr1.jpg used on input line 185.
+Package pdftex.def Info: 1introduction/pics/amr1.jpg used on input line 62.
 (pdftex.def)             Requested size: 238.80243pt x 146.21513pt.
 
-<1introduction/pics/amr3.jpg, id=478, 929.4725pt x 850.17625pt>
+<1introduction/pics/amr3.jpg, id=323, 929.4725pt x 850.17625pt>
 File: 1introduction/pics/amr3.jpg Graphic file (type jpg)
 
 <use 1introduction/pics/amr3.jpg>
-Package pdftex.def Info: 1introduction/pics/amr3.jpg used on input line 187.
+Package pdftex.def Info: 1introduction/pics/amr3.jpg used on input line 63.
 (pdftex.def)             Requested size: 250.10997pt x 228.78038pt.
 
-<1introduction/pics/amr4_half.png, id=479, 401.5pt x 838.13126pt>
+<1introduction/pics/amr4_half.png, id=324, 401.5pt x 838.13126pt>
 File: 1introduction/pics/amr4_half.png Graphic file (type png)
 
 <use 1introduction/pics/amr4_half.png>
-Package pdftex.def Info: 1introduction/pics/amr4_half.png used on input line 18
-9.
+Package pdftex.def Info: 1introduction/pics/amr4_half.png used on input line 65
+.
 (pdftex.def)             Requested size: 109.59496pt x 228.78038pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21] [22 <./1introduction/pics/amr1.jpg> <./1introduction/pics/amr3.jpg> <./1in
-troduction/pics/amr4_half.png>] [23] [24] [25]
+[13] [14 <./1introduction/pics/amr1.jpg> <./1introduction/pics/amr3.jpg> <./1in
+troduction/pics/amr4_half.png>]
 
-Package natbib Warning: Citation `??' on page 26 undefined on input line 261.
+Package natbib Warning: Citation `????' on page 15 undefined on input line 77.
 
-<1introduction/pics/amp_mech.jpg, id=575, 520.59982pt x 401.00256pt>
+[15]
+
+Package natbib Warning: Citation `????' on page 16 undefined on input line 109.
+
+
+[16]
+
+Package natbib Warning: Citation `????' on page 17 undefined on input line 113.
+
+
+
+Package natbib Warning: Citation `????' on page 17 undefined on input line 117.
+
+
+
+Package natbib Warning: Citation `????' on page 17 undefined on input line 119.
+
+
+[17] <1introduction/pics/amp_mech.jpg, id=408, 520.59982pt x 401.00256pt>
 File: 1introduction/pics/amp_mech.jpg Graphic file (type jpg)
 
 <use 1introduction/pics/amp_mech.jpg>
-Package pdftex.def Info: 1introduction/pics/amp_mech.jpg used on input line 267
+Package pdftex.def Info: 1introduction/pics/amp_mech.jpg used on input line 137
 .
 (pdftex.def)             Requested size: 278.59879pt x 214.59238pt.
- [26] [27 <./1introduction/pics/amp_mech.jpg>]
+ [18] [19 <./1introduction/pics/amp_mech.jpg>]
 
-Package natbib Warning: Citation `???' on page 28 undefined on input line 294.
+Package natbib Warning: Citation `Silhavy' on page 20 undefined on input line 1
+54.
 
-[28] [29] [30]
+[20]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
 
-Package natbib Warning: Citation `??' on page 31 undefined on input line 346.
+
+Package natbib Warning: Citation `???' on page 21 undefined on input line 184.
+
+[21] [22] [23] [24]
+
+Package natbib Warning: Citation `??' on page 25 undefined on input line 239.
 
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
-[31]
 
-Package natbib Warning: Citation `???' on page 32 undefined on input line 365.
+Package natbib Warning: Citation `???' on page 25 undefined on input line 258.
 
-[32] [33] [34]
+[25] [26] [27]
 
-Package natbib Warning: Citation `Wang2006lpx' on page 35 undefined on input li
-ne 441.
+Package natbib Warning: Citation `???' on page 28 undefined on input line 306.
 
-[35]
-
-Package natbib Warning: Citation `???' on page 36 undefined on input line 465.
-
-
-Package natbib Warning: Citation `???' on page 36 undefined on input line 465.
-
-[36]
-
-Package natbib Warning: Citation `???see_example_on_AMPR' on page 37 undefined 
-on input line 466.
-
-
-Package natbib Warning: Citation `???' on page 37 undefined on input line 466.
-
-[37]
+[28] [29]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
- [38]
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ≠ in font cmr12!
- [39]
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ≠ in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ≠ in font cmr12!
- [40] [41] [42] [43]
-<1introduction/pics/gene_therapy.jpeg, id=938, 435.90855pt x 327.98535pt>
+
+Overfull \hbox (4.62915pt too wide) in paragraph at lines 336--339
+\OT1/cmr/m/n/12 con-sists in de-sign-ing min-i-mal an-timi-cro-bial blocks: sev
+-eral in-ves-ti-ga-tions proved
+ []
+
+[30] [31]
+Overfull \hbox (9.37262pt too wide) in paragraph at lines 369--372
+\OT1/cmr/m/n/12 quences with im-proved po-tency or se-lec-tiv-ity; how-ever, it
+ is still a case-dependent
+ []
+
+[32]
+
+LaTeX Warning: Reference `sec:organic' on page 33 undefined on input line 393.
+
+[33] <1introduction/pics/gene_therapy.jpeg, id=635, 435.90855pt x 327.98535pt>
 File: 1introduction/pics/gene_therapy.jpeg Graphic file (type jpg)
 
 <use 1introduction/pics/gene_therapy.jpeg>
 Package pdftex.def Info: 1introduction/pics/gene_therapy.jpeg used on input lin
-e 574.
+e 399.
 (pdftex.def)             Requested size: 358.19757pt x 269.51024pt.
- [44 <./1introduction/pics/gene_therapy.jpeg>] [45] [46]
-<1introduction/pics/capzip.png, id=970, 1434.35875pt x 346.29375pt>
+ [34 <./1introduction/pics/gene_therapy.jpeg>] [35] [36]
+<1introduction/pics/capzip.png, id=668, 1434.35875pt x 346.29375pt>
 File: 1introduction/pics/capzip.png Graphic file (type png)
 
 <use 1introduction/pics/capzip.png>
-Package pdftex.def Info: 1introduction/pics/capzip.png used on input line 628.
+Package pdftex.def Info: 1introduction/pics/capzip.png used on input line 453.
 (pdftex.def)             Requested size: 398.0pt x 96.08443pt.
- [47 <./1introduction/pics/capzip.png>]
-Overfull \hbox (11.70001pt too wide) in paragraph at lines 637--638
+
+Overfull \hbox (11.70001pt too wide) in paragraph at lines 462--463
 \OT1/cmr/m/n/12 assembled with the RNA strands, with-out caus-ing cy-to-toxic a
 nd haemolytic
  []
 
+[37 <./1introduction/pics/capzip.png>]
 
-Package natbib Warning: Citation `???' on page 48 undefined on input line 642.
+Package natbib Warning: Citation `???' on page 38 undefined on input line 467.
 
-[48] [49] [50] [51]
+[38] [39] [40]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 714.
-
-Overfull \hbox (2.44029pt too wide) in paragraph at lines 722--727
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 539.
+ [41]
+Overfull \hbox (2.44029pt too wide) in paragraph at lines 547--552
 []\OT1/cmr/m/n/12 Finally, the pep-tide does ex-ert an an-timi-cro-bial func-ti
 on: the non-assembled
  []
 
-[52] [53] [54]) [55]
+[42]
+
+LaTeX Warning: Reference `sec:organic' on page 43 undefined on input line 568.
+
+[43]) [44]
 \openout2 = `2methods/methods.aux'.
 
- (./2methods/methods.tex [56
+ (./2methods/methods.tex [45
 
 
 
-] [57] [58] [59] [60] [61]
+] [46] [47] [48] [49] [50]
 Overfull \hbox (2.73624pt too wide) in paragraph at lines 104--105
 []\OT1/cmr/bx/n/12 Non bonded in-ter-ac-tions[] \OT1/cmr/m/n/12 Non bonded in-t
 er-ac-tions in-cludes the short range
  []
 
-[62] [63] [64]
+[51] [52] [53]
 Overfull \hbox (4.62915pt too wide) in paragraph at lines 139--140
 []\OT1/cmr/m/n/12 The im-prove-ment of com-pu-ta-tional tech-niques and reparam
 etri-sa-tion strate-
  []
 
-[65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78]
+[54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67]
 Overfull \hbox (10.89029pt too wide) in paragraph at lines 319--320
 []\OT1/cmr/m/n/12 A more sys-tem-atic in-ves-ti-ga-tion on the topic has been p
 er-formed by Sandoval-
  []
 
-[79] [80] [81] [82] [83] [84] [85] [86]) [87]
+[68] [69] [70] [71] [72] [73] [74] [75]) [76]
 \openout2 = `3results_capsule/results_capsule.aux'.
 
 
-(./3results_capsule/results_capsule.tex
-<3results_capsule/pics/merged_figures_beta_sheet.pdf, id=1424, 796.9775pt x 540
+(./3results_capsule/results_capsule.texpdfTeX warning (ext4): destination with 
+the same identifier (name{subfigure.\(a\)}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.17 \subbottom
+               []{%
+<3results_capsule/pics/merged_figures_beta_sheet.pdf, id=1121, 796.9775pt x 540
 .0175pt>
 File: 3results_capsule/pics/merged_figures_beta_sheet.pdf Graphic file (type pd
 f)
@@ -1414,40 +1380,65 @@ f)
 Package pdftex.def Info: 3results_capsule/pics/merged_figures_beta_sheet.pdf us
 ed on input line 18.
 (pdftex.def)             Requested size: 278.59879pt x 188.76999pt.
-
-<3results_capsule/pics/pi_stacking_plot_part1.png, id=1425, 2006.49625pt x 1582
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(b
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 \subbottom
+               []{%
+<3results_capsule/pics/pi_stacking_plot_part1.png, id=1122, 2006.49625pt x 1582
 .91376pt>
 File: 3results_capsule/pics/pi_stacking_plot_part1.png Graphic file (type png)
  <use 3results_capsule/pics/pi_stacking_plot_part1.png>
 Package pdftex.def Info: 3results_capsule/pics/pi_stacking_plot_part1.png used 
 on input line 21.
 (pdftex.def)             Requested size: 187.06049pt x 147.55243pt.
-
-<3results_capsule/pics/pi_stacking_plot_part2.png, id=1427, 2006.49625pt x 1582
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(c
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.22 \subbottom
+               []{%
+<3results_capsule/pics/pi_stacking_plot_part2.png, id=1124, 2006.49625pt x 1582
 .91376pt>
 File: 3results_capsule/pics/pi_stacking_plot_part2.png Graphic file (type png)
  <use 3results_capsule/pics/pi_stacking_plot_part2.png>
 Package pdftex.def Info: 3results_capsule/pics/pi_stacking_plot_part2.png used 
 on input line 23.
 (pdftex.def)             Requested size: 187.06049pt x 147.55243pt.
-
-<3results_capsule/pics/beta_trpHbonds.pdf, id=1431, 845.0471pt x 597.52231pt>
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(a
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 \subbottom
+               []{%
+<3results_capsule/pics/beta_trpHbonds.pdf, id=1128, 845.0471pt x 597.52231pt>
 File: 3results_capsule/pics/beta_trpHbonds.pdf Graphic file (type pdf)
 
 <use 3results_capsule/pics/beta_trpHbonds.pdf>
 Package pdftex.def Info: 3results_capsule/pics/beta_trpHbonds.pdf used on input
  line 41.
 (pdftex.def)             Requested size: 159.19757pt x 112.56396pt.
-
-<3results_capsule/pics/beta_surf.pdf, id=1432, 845.0471pt x 597.52231pt>
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(b
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 \subbottom
+               []{%
+<3results_capsule/pics/beta_surf.pdf, id=1129, 845.0471pt x 597.52231pt>
 File: 3results_capsule/pics/beta_surf.pdf Graphic file (type pdf)
 
 <use 3results_capsule/pics/beta_surf.pdf>
 Package pdftex.def Info: 3results_capsule/pics/beta_surf.pdf used on input line
  44.
 (pdftex.def)             Requested size: 159.19757pt x 112.56396pt.
-
-<3results_capsule/pics/pentamer_restype.png, id=1433, 1857.94125pt x 1403.2425p
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(c
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \subbottom
+               []{%
+<3results_capsule/pics/pentamer_restype.png, id=1130, 1857.94125pt x 1403.2425p
 t>
 File: 3results_capsule/pics/pentamer_restype.png Graphic file (type png)
  <use 3results_capsule/pics/pentamer_restype.png>
@@ -1455,7 +1446,7 @@ Package pdftex.def Info: 3results_capsule/pics/pentamer_restype.png used on inp
 ut line 46.
 (pdftex.def)             Requested size: 179.09879pt x 135.25789pt.
 
-<3results_capsule/pics/soccer_empos_extern_superimposed.png, id=1434, 597.73312
+<3results_capsule/pics/soccer_empos_extern_superimposed.png, id=1131, 597.73312
 pt x 597.73312pt>
 File: 3results_capsule/pics/soccer_empos_extern_superimposed.png Graphic file (
 type png)
@@ -1464,41 +1455,23 @@ type png)
 Package pdftex.def Info: 3results_capsule/pics/soccer_empos_extern_superimposed
 .png used on input line 48.
 (pdftex.def)             Requested size: 179.09879pt x 179.10242pt.
- [88
+ [77
 
 
 
-] [89 <./3results_capsule/pics/merged_figures_beta_sheet.pdf> <./3results_capsu
+] [78 <./3results_capsule/pics/merged_figures_beta_sheet.pdf> <./3results_capsu
 le/pics/pi_stacking_plot_part1.png> <./3results_capsule/pics/pi_stacking_plot_p
 art2.png>]
-[90pdfTeX warning (ext4): destination with the same identifier (name{subfigure.
-\(a\)}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.59 
-     pdfTeX warning (ext4): destination with the same identifier (name{subfigur
-e.\(b\)}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.59 
-     pdfTeX warning (ext4): destination with the same identifier (name{subfigur
-e.\(c\)}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.59 
-      <./3results_capsule/pics/beta_trpHbonds.pdf> <./3results_capsule/pics/bet
-a_surf.pdf> <./3results_capsule/pics/pentamer_restype.png> <./3results_capsule/
-pics/soccer_empos_extern_superimposed.png>]pdfTeX warning (ext4): destination w
-ith the same identifier (name{subfigure.\(a\)}) has been already used, duplicat
-e ignored
+[79 <./3results_capsule/pics/beta_trpHbonds.pdf> <./3results_capsule/pics/beta_
+surf.pdf> <./3results_capsule/pics/pentamer_restype.png> <./3results_capsule/pi
+cs/soccer_empos_extern_superimposed.png>]pdfTeX warning (ext4): destination wit
+h the same identifier (name{subfigure.\(a\)}) has been already used, duplicate 
+ignored
 <to be read again> 
                    \relax 
 l.90 \subbottom
                []{\includegraphics[width=0.45\linewidth]{3results_capsule/pi...
-<3results_capsule/pics/bb_contacts.png, id=1503, 1555.8125pt x 1204.5pt>
+<3results_capsule/pics/bb_contacts.png, id=1198, 1555.8125pt x 1204.5pt>
 File: 3results_capsule/pics/bb_contacts.png Graphic file (type png)
 
 <use 3results_capsule/pics/bb_contacts.png>
@@ -1512,20 +1485,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(b
 l.91 \subbottom
                []{\includegraphics[width=0.45\linewidth]{3results_capsule/pi...
 
-<3results_capsule/pics/chain_COM_distance.png, id=1504, 1555.8125pt x 1204.5pt>
+<3results_capsule/pics/chain_COM_distance.png, id=1199, 1555.8125pt x 1204.5pt>
 File: 3results_capsule/pics/chain_COM_distance.png Graphic file (type png)
 <use 3results_capsule/pics/chain_COM_distance.png>
 Package pdftex.def Info: 3results_capsule/pics/chain_COM_distance.png used on i
 nput line 91.
 (pdftex.def)             Requested size: 179.09879pt x 138.65242pt.
- [91] [92 <./3results_capsule/pics/bb_contacts.png> <./3results_capsule/pics/ch
+ [80] [81 <./3results_capsule/pics/bb_contacts.png> <./3results_capsule/pics/ch
 ain_COM_distance.png>]pdfTeX warning (ext4): destination with the same identifi
 er (name{subfigure.\(a\)}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.120 \subbottom
                 []{\includegraphics[width=0.45\linewidth]{3results_capsule/p...
-<3results_capsule/pics/pL6_Pramp_pic2.png, id=1528, 2208.25pt x 1358.07375pt>
+<3results_capsule/pics/pL6_Pramp_pic2.png, id=1222, 2208.25pt x 1358.07375pt>
 File: 3results_capsule/pics/pL6_Pramp_pic2.png Graphic file (type png)
 
 <use 3results_capsule/pics/pL6_Pramp_pic2.png>
@@ -1538,33 +1511,33 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(b
                    \relax 
 l.121 \subbottom
                 []{\includegraphics[width=0.45\linewidth]{3results_capsule/p...
-<3results_capsule/pics/fig7_irene.png, id=1529, 1809.76125pt x 1355.0625pt>
+<3results_capsule/pics/fig7_irene.png, id=1223, 1809.76125pt x 1355.0625pt>
 File: 3results_capsule/pics/fig7_irene.png Graphic file (type png)
 
 <use 3results_capsule/pics/fig7_irene.png>
 Package pdftex.def Info: 3results_capsule/pics/fig7_irene.png used on input lin
 e 121.
 (pdftex.def)             Requested size: 179.09879pt x 134.0875pt.
- [93 <./3results_capsule/pics/pL6_Pramp_pic2.png> <./3results_capsule/pics/fig7
-_irene.png>] [94] [95]
+ [82 <./3results_capsule/pics/pL6_Pramp_pic2.png> <./3results_capsule/pics/fig7
+_irene.png>] [83] [84]
 
-LaTeX Warning: Reference `table:SI_sim_E' on page 96 undefined on input line 19
+LaTeX Warning: Reference `table:SI_sim_E' on page 85 undefined on input line 19
 6.
 
 
-LaTeX Warning: Reference `table:SI_sim_E' on page 96 undefined on input line 22
+LaTeX Warning: Reference `table:SI_sim_E' on page 85 undefined on input line 22
 8.
 
 
-LaTeX Warning: Reference `table:SI_sim_E' on page 96 undefined on input line 22
+LaTeX Warning: Reference `table:SI_sim_E' on page 85 undefined on input line 22
 8.
 
-[96] [97] [98]
+[85] [86] [87]
 
-Package natbib Warning: Citation `??' on page 99 undefined on input line 266.
+Package natbib Warning: Citation `??' on page 88 undefined on input line 266.
 
-[99] [100]
-<3results_capsule/pics/staR3_render.png, id=1645, 1535.7375pt x 1261.71375pt>
+[88] [89]
+<3results_capsule/pics/staR3_render.png, id=1341, 1535.7375pt x 1261.71375pt>
 File: 3results_capsule/pics/staR3_render.png Graphic file (type png)
 
 <use 3results_capsule/pics/staR3_render.png>
@@ -1576,115 +1549,113 @@ pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(a
 <to be read again> 
                    \relax 
 l.305 \subbottom
-                []{\includegraphics[width=0.55\linewidth]{3results_capsule/p...
+                []{\includegraphics[width=0.48\linewidth]{3results_capsule/p...
+<3results_capsule/pics/Rg_all.png, id=1343, 1455.4375pt x 1405.25pt>
+File: 3results_capsule/pics/Rg_all.png Graphic file (type png)
 
-<3results_capsule/pics/noSI_stAll_Rg_rmds.png, id=1647, 903.375pt x 903.375pt>
-File: 3results_capsule/pics/noSI_stAll_Rg_rmds.png Graphic file (type png)
-
-<use 3results_capsule/pics/noSI_stAll_Rg_rmds.png>
-Package pdftex.def Info: 3results_capsule/pics/noSI_stAll_Rg_rmds.png used on i
-nput line 305.
-(pdftex.def)             Requested size: 218.90121pt x 218.89587pt.
+<use 3results_capsule/pics/Rg_all.png>
+Package pdftex.def Info: 3results_capsule/pics/Rg_all.png used on input line 30
+5.
+(pdftex.def)             Requested size: 191.0383pt x 184.44719pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(b
 \)}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.306 \subbottom
-                []{\includegraphics[width=0.55\linewidth]{3results_capsule/p...
-<3results_capsule/pics/noSI_stAll_RDF.png, id=1648, 803.0pt x 602.25pt>
-File: 3results_capsule/pics/noSI_stAll_RDF.png Graphic file (type png)
+                []{\includegraphics[width=0.48\linewidth]{3results_capsule/p...
+<3results_capsule/pics/RMSD_all.png, id=1344, 1455.4375pt x 1405.25pt>
+File: 3results_capsule/pics/RMSD_all.png Graphic file (type png)
 
-<use 3results_capsule/pics/noSI_stAll_RDF.png>
-Package pdftex.def Info: 3results_capsule/pics/noSI_stAll_RDF.png used on input
- line 306.
-(pdftex.def)             Requested size: 218.90121pt x 164.17189pt.
+<use 3results_capsule/pics/RMSD_all.png>
+Package pdftex.def Info: 3results_capsule/pics/RMSD_all.png used on input line 
+306.
+(pdftex.def)             Requested size: 191.0383pt x 184.44719pt.
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(c
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.307 \subbottom
+                []{\includegraphics[width=0.6\linewidth]{3results_capsule/pi...
+<3results_capsule/pics/RDF_all.png, id=1345, 1806.75pt x 1405.25pt>
+File: 3results_capsule/pics/RDF_all.png Graphic file (type png)
+
+<use 3results_capsule/pics/RDF_all.png>
+Package pdftex.def Info: 3results_capsule/pics/RDF_all.png used on input line 3
+07.
+(pdftex.def)             Requested size: 238.80243pt x 185.73372pt.
 
 
-Package natbib Warning: Citation `Sunde1997' on page 101 undefined on input lin
-e 317.
+Package natbib Warning: Citation `Sunde1997' on page 90 undefined on input line
+ 318.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[101 <./3results_capsule/pics/staR3_render.png>] [102 <./3results_capsule/pics/
-noSI_stAll_Rg_rmds.png> <./3results_capsule/pics/noSI_stAll_RDF.png>]
-<3results_capsule/pics/noSI_stAll_RKGBcorr_boxplot.png, id=1664, 1003.75pt x 50
-1.875pt>
-File: 3results_capsule/pics/noSI_stAll_RKGBcorr_boxplot.png Graphic file (type 
-png)
- <use 3results_capsule/pics/noSI_stAll_RKGBcorr_boxplot.png>
-Package pdftex.def Info: 3results_capsule/pics/noSI_stAll_RKGBcorr_boxplot.png 
-used on input line 324.
-(pdftex.def)             Requested size: 298.5pt x 149.25414pt.
+[90 <./3results_capsule/pics/staR3_render.png>] [91 <./3results_capsule/pics/Rg
+_all.png> <./3results_capsule/pics/RMSD_all.png> <./3results_capsule/pics/RDF_a
+ll.png>]
+<3results_capsule/pics/RKGBcorr_boxplot_all.png, id=1365, 2509.375pt x 1003.75p
+t>
+File: 3results_capsule/pics/RKGBcorr_boxplot_all.png Graphic file (type png)
+ <use 3results_capsule/pics/RKGBcorr_boxplot_all.png>
+Package pdftex.def Info: 3results_capsule/pics/RKGBcorr_boxplot_all.png used on
+ input line 325.
+(pdftex.def)             Requested size: 378.09879pt x 151.2299pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(a
 \)}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.333 \subbottom
+l.334 \subbottom
                 []{\includegraphics[width=0.85\linewidth]{3results_capsule/p...
 
-<3results_capsule/pics/noSI_stAll_beta_hist.png, id=1666, 1204.5pt x 602.25pt>
+<3results_capsule/pics/noSI_stAll_beta_hist.png, id=1367, 1204.5pt x 602.25pt>
 File: 3results_capsule/pics/noSI_stAll_beta_hist.png Graphic file (type png)
 
 <use 3results_capsule/pics/noSI_stAll_beta_hist.png>
 Package pdftex.def Info: 3results_capsule/pics/noSI_stAll_beta_hist.png used on
- input line 333.
+ input line 334.
 (pdftex.def)             Requested size: 338.30243pt x 169.15265pt.
 pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(b
 \)}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.335 \subbottom
+l.336 \subbottom
                 []{\includegraphics[width=0.85\linewidth]{3results_capsule/p...
-<3results_capsule/pics/rep1_sch_GRMA.png, id=1667, 2409.0pt x 1606.0pt>
+<3results_capsule/pics/rep1_sch_GRMA.png, id=1368, 2409.0pt x 1606.0pt>
 File: 3results_capsule/pics/rep1_sch_GRMA.png Graphic file (type png)
 
 <use 3results_capsule/pics/rep1_sch_GRMA.png>
 Package pdftex.def Info: 3results_capsule/pics/rep1_sch_GRMA.png used on input 
-line 335.
+line 336.
 (pdftex.def)             Requested size: 338.30243pt x 225.52463pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[103 <./3results_capsule/pics/noSI_stAll_RKGBcorr_boxplot.png>] [104 <./3result
-s_capsule/pics/noSI_stAll_beta_hist.png> <./3results_capsule/pics/rep1_sch_GRMA
-.png>]
-<3results_capsule/pics/Hb_histo_by_restype.png, id=1683, 1204.5pt x 1304.875pt>
+ [92 <./3results_capsule/pics/RKGBcorr_boxplot_all.png>] [93 <./3results_capsul
+e/pics/noSI_stAll_beta_hist.png> <./3results_capsule/pics/rep1_sch_GRMA.png>]
+<3results_capsule/pics/Hb_histo_by_restype.png, id=1384, 1204.5pt x 1304.875pt>
 File: 3results_capsule/pics/Hb_histo_by_restype.png Graphic file (type png)
 <use 3results_capsule/pics/Hb_histo_by_restype.png>
 Package pdftex.def Info: 3results_capsule/pics/Hb_histo_by_restype.png used on 
-input line 356.
+input line 357.
 (pdftex.def)             Requested size: 338.30243pt x 366.49742pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:BTI_sasa_exposed' on page 105 undefined on input 
-line 361.
-
-[105]
-
-LaTeX Warning: Reference `fig:radius_thick' on page 106 undefined on input line
- 373.
-
-
-Overfull \hbox (10.13893pt too wide) in paragraph at lines 373--376
-[]\OT1/cmr/bx/n/12 Geometrical prop-er-ties[] \OT1/cmr/m/n/12 The coarse grain 
-MAR-TINI sim-u-la-tions give slightly
- []
-
-[106 <./3results_capsule/pics/Hb_histo_by_restype.png>]
-Overfull \hbox (15.66942pt too wide) in paragraph at lines 378--379
+<3results_capsule/pics/noSI_stAll_sasa_fractions.png, id=1386, 1003.75pt x 903.
+375pt>
+File: 3results_capsule/pics/noSI_stAll_sasa_fractions.png Graphic file (type pn
+g)
+ <use 3results_capsule/pics/noSI_stAll_sasa_fractions.png>
+Package pdftex.def Info: 3results_capsule/pics/noSI_stAll_sasa_fractions.png us
+ed on input line 367.
+(pdftex.def)             Requested size: 199.0pt x 179.10037pt.
+ [94] [95 <./3results_capsule/pics/Hb_histo_by_restype.png>] [96 <./3results_ca
+psule/pics/noSI_stAll_sasa_fractions.png>]
+Overfull \hbox (15.66942pt too wide) in paragraph at lines 388--389
 []\OT1/cmr/m/n/12 The MAR-TINI sim-u-la-tions show a lower num-ber of con-tacts
  be-tween molecules
  []
 
-[107]) [108]
+[97]) [98]
 \openout2 = `4lip_par/lip_par.aux'.
 
- (./4lip_par/lip_par.tex) [109
+ (./4lip_par/lip_par.tex) [99
 
 
 
@@ -1693,108 +1664,64 @@ Overfull \hbox (15.66942pt too wide) in paragraph at lines 378--379
 
  (./appendix.tex
 
-LaTeX Warning: Reference `eq:predictive_distribution' on page 110 undefined on 
+LaTeX Warning: Reference `eq:predictive_distribution' on page 100 undefined on 
 input line 12.
 
 
-Package natbib Warning: Citation `--' on page 110 undefined on input line 12.
+Package natbib Warning: Citation `--' on page 100 undefined on input line 12.
 
 
-Package natbib Warning: Citation `--' on page 110 undefined on input line 12.
+Package natbib Warning: Citation `--' on page 100 undefined on input line 12.
 
-) [110
-
-
-
-] (./thesis.bbl [111
+) [100
 
 
 
-] [112]
-Underfull \hbox (badness 2970) in paragraph at lines 115--120
-[]\OT1/cmr/m/n/12 S. H. Rao, B. Harini, R. P. K. Shadamar-shan, K. Bal-a-gan-
- []
+] (./thesis.bbl [101
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 115--120
-\OT1/cmr/m/n/12 gad-ha-ran, and N. Sel-va-mu-ru-gan, ``Nat-u-ral and syn-thetic
- poly-
- []
 
-[113] [114]
-Underfull \hbox (badness 2119) in paragraph at lines 214--217
-[]\OT1/cmr/m/n/12 X. Yan, P. Zhu, and J. Li, ``Self-assembly and ap-pli-ca-tion
- of
- []
-
-
-Underfull \hbox (badness 3965) in paragraph at lines 214--217
-\OT1/cmr/m/n/12 diphenylalanine-based nanos-truc-tures,'' \OT1/cmr/m/it/12 Chem
--i-cal So-ci-ety Re-views\OT1/cmr/m/n/12 ,
- []
-
-[115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126]
-Underfull \hbox (badness 1052) in paragraph at lines 802--808
-\OT1/cmr/m/n/12 cessed and In-ac-ti-vated by the Com-men-sal Fine-goldia magna 
-and
- []
-
-[127]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-
-Underfull \hbox (badness 2073) in paragraph at lines 837--841
-[]\OT1/cmr/m/n/12 T. Jin, M. Bokarewa, T. Fos-ter, J. Mitchell, J. Hig-gins, an
-d
- []
-
-[128] [129] [130] [131]
-Underfull \hbox (badness 1112) in paragraph at lines 1002--1007
-[]\OT1/cmr/m/n/12 K. Thedieck, T. Hain, W. Mo-hamed, B. J. Tin-dall, M. Nimtz,
- []
-
-[132] [133]
-Underfull \hbox (badness 1205) in paragraph at lines 1102--1106
+] [102] [103] [104] [105] [106] [107] [108] [109]
+[110]
+Underfull \hbox (badness 1205) in paragraph at lines 473--477
 []\OT1/cmr/m/n/12 D. Migo^^Sn, M. Ja^^Sskiewicz, D. Neubauer, M. Bauer, E. Siko
 -rska,
  []
 
-[134] [135] [136]
+[111]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [137] [138]
+ [112] [113] [114]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [139] [140] [141] [142]
+ [115] [116] [117]
 Missing character: There is no ≈ in font cmr12!
 Missing character: There is no ç in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
- [143] [144] [145]
+ [118] [119] [120]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
-
-[146]
-Underfull \hbox (badness 1281) in paragraph at lines 1749--1753
+ [121] [122]
+Underfull \hbox (badness 1281) in paragraph at lines 1059--1063
 []\OT1/cmr/m/n/12 P. Bro-cos, P. Mendoza-Espinosa, R. Castillo, J. Mas-Oliva, a
 nd
  []
 
-[147] [148] [149]
+[123] [124] [125]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ∂ in font cmr12!
 )
 
 Package natbib Warning: There were undefined citations.
 
-[150]
+[126]
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
@@ -1809,9 +1736,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
 (./appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: CB2CA8558AE885495C976549AF59E6B7;1594.
 
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 5DFC2061F792708067A5C8F896DA3014;1508
+(rerunfilecheck)             After:  B55C8B43999540373078E1C14634C6AB;1508.
 
 LaTeX Warning: There were undefined references.
 
@@ -1820,34 +1753,52 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 24803 strings out of 493029
- 435692 string characters out of 6136233
- 527845 words of memory out of 5000000
- 27165 multiletter control sequences out of 15000+600000
- 21095 words of font info for 81 fonts, out of 8000000 for 9000
+ 24257 strings out of 493029
+ 426790 string characters out of 6136233
+ 525817 words of memory out of 5000000
+ 26786 multiletter control sequences out of 15000+600000
+ 18839 words of font info for 71 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 70i,15n,92p,1684b,1830s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (150 pages, 16875543 bytes).
+ 70i,14n,92p,1403b,1352s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{figure.caption.41} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.51} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.38} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.22} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.19} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.54} has been referenced but does not exist
+, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (126 pages, 18535849 bytes).
 PDF statistics:
- 2099 PDF objects out of 2487 (max. 8388607)
- 1814 compressed objects within 19 object streams
- 617 named destinations out of 1000 (max. 500000)
- 332 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1699 PDF objects out of 1728 (max. 8388607)
+ 1440 compressed objects within 15 object streams
+ 462 named destinations out of 1000 (max. 500000)
+ 329 words of extra memory for PDF output out of 10000 (max. 10000000)
 
