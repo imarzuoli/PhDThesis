@@ -1,19 +1,5 @@
 \chapter{Introduction} \label{chapter:intro}
 
-%PICTURES
-%0 Scheme
-%1 many drug delivery vehicles (collage mio)
-%2 plot/table on resistant antibiotics
-%3 Some structure of AmPs (beta, alpha, ...)
-%4 mech of action AMPs
-%5 picture of LFC e some results from experiments
-%6 triskelion and capzip
-%7 exp results preliminary
-
-
-% REF:
-% AlphaGo, AIreview, Rossi2018, history_medicine_review, other_review_early_drugs?, drug_database, review_drug_delivery, WIDES_database, ABX_database_jhopkins, Mitchess1945, Strebhardt2008.
-
 \lettrine{``P}{hilosophical introduction"} to be finished/modified when the work is finished...
 
 %\lettrine{T}{heory} stays to experiment as experiment stays to nature. And science stays to technology as technology stays to life.
@@ -45,121 +31,90 @@
 
 \clearpage
 
-
-\section{Drug delivery: challenges and solutions}
-% REF
-% Astruc200, Boisselier2009, Bunker2016, Buning2015, Daya2008, Depan2011, Douglas2012, Erol2017, Fan2017, Habibi2016, HarshaRao2018, Hughes2005, Jain2016, Jain2017, Jiang2012, Julien2013, Kawakatsu2004, King2014, Krol2012, Lakshmi2007, Lammers2009, Lauer2017, Liechty2010, Linko2015, Lobo2009, Ma2012, Malay2019, Masaoka2006, Mitragotri2014, Nair2007, Nicolas2013, Pattni2015, Pattni2015paper, Rao2018, Silva2013, Singh2018, Smalley2017, Wu2009, Yan2010, Yeates2019, Yingchoncharoen2016, Yoo2011, Zhang2014
-
-\subsection{Environmental challenges of drug delivery}
-The problem of drug delivery is an excellent example of the hurdles existing between a theoretical model and nature: a new drug is usually designed to affect a specific target. Even if in silico experiment can prove the efficacy, its usefulness is bound to the ability to cross the barriers dividing the inoculation site from the specific target inside the human body.
-%
-To reach the aimed organ, drug molecules must be compatible with the different cellular environments they cross, but be preferentially retained from, and act only on, the ones they are designed for. This implies a subtle balance between a disruptive activity on one side, and harmlessness on the other, least the compound is recognised as dangerous and disposed of by the efficient immune and reticuloendothelial systems of the body, which aim at neutralise exogenous substances.
-
-As en example, the trip of an orally  administered small molecule ``free" drug, i.e.\ an active molecule without any aiding delivery agent, passes through the digestive system, with its challenging acidic environment and limited permeation across the intestinal epithelium, and from there to the blood stream \cite{Masaoka2006, Mitragotri2014}. The drug then diffuses in the tissues flanking the blood vessels naturally depleting its concentration downstream \cite{Krol2012}, so that regions further away in the line have less chances of getting a sizeable dose. This implies that high drug concentrations might be needed at the starting point to efficiently target every organ.
-
-However, this naive picture of drug diffusion is complicated by the impermeability of specific tissues: the brain for example, one of the most delicate organs in the body, is well protected from the attack of external agents by the blood brain barrier (BBB), which allows the passage of small molecules only ($<$ 400-500 Da, while standard ``small molecule drugs" weigh up to 900 Da), and only if they have high lipid solubility \cite{Pattni2015, Krol2012}. Other tissues, like tumoral ones, are instead poorly vasculated, reducing the chances of delivery at their interior \cite{Pattni2015}.
-
-Moreover, as already hinted, during its journey to reach the receptor, enzyme or organelle it is meant for, a drug must not be sequestered by the immune systems. Many inorganic small molecules are not mimetic by themselves, i.e.\ often they do not resemble the ones naturally present in the body, and this brings uncertainty on how they would interact with the, for example, the components of the blood stream. Generally, as soon as they reach it, small molecules are coated by a protein corona based on their shape and charge \cite{Krol2012}. Such modifications are difficult to predict and can disrupt or decrease significantly the efficacy of a compound as they modify the way drugs are recognised and absorbed by the target. 
-
-For all the above reasons, research has focussed on developing systems to assist the delivery of drugs \cite{Jain2016, Pattni2015, Mitragotri2014}. A mimetic carrier can not only improve delivery, but also be designed to selectively bind to particular tissues or to trigger a delayed drug release time or upon changes in environmental variables (for example pH) to reduce drug concentration in non targeted regions. A stand alone field of research has then focussed on the development of delivery vehicles irrespective from the quest for new drugs. The optimised products of the two separate efforts can then be paired according to the condition to address, to give a successful therapy.
-
-At present, many molecules have been successfully employed to build drug vehicles: inorganic metals, polymers, lipids and proteins are all suitable for the aim and offer a range of different physico-chemical characteristics useful to target different cells \cite{Hughes2005} (Figure \ref{fig:vehicles}). A brief (and non exhaustive) overview of some of them is meaningful to point out the broad variety and exoticity of structures which are useful, sometimes unexpectedly, to the medical world.
-
-
-\subsection{Inorganic materials for small drugs delivery}
-
-\paragraph{Metal nanoparticles} In the range of inorganic compounds, golden nanoparticles demonstrated to be remarkably useful for tumour treatment: their structure can be customised in shape and size (down to a 10 nm radius), made less visible to the immune system by coating with biologically active moieties or conjugation to a poly-ethyleneglycol (PEG) polymer layer \cite{Singh2018}. From their metallic nature, golden nanoparticles inherit optical properties that allow to track them inside the body and to thermally stimulate them to trigger drug release, favouring the penetration through cell membrane or disrupting the nearby cells \cite{Boisselier2009}. This is important for tumour treatment because of the difficulty with which tumoural cells are reached by drugs and the selectivity required when delivering a highly damaging chemotherapeutic.
-
-At present, there are mixed evidence about their toxicity \cite{Boisselier2009} and doubts have been raised on the long term effects of metallic fragments in the body. For that reason, only a few golden nanoparticle based compounds have made to the clinical stage so far \cite{Singh2018} but, given their high and still unexplored potential, they continue to be a primary interest for the medical community and a very active research field.
-
-\begin{figure}
-\begin{center}
-\includegraphics[width = 0.5\textwidth]{1introduction/pics/carbon_review.jpg}
-\vspace{0.2cm}
-\caption[Materials for drug delivery vehicles]{INCLUDE ONE EXAMPLE IMAGE (FROM PAPERS) FOR EACH MATERIAL (nanopartcles, carbon, polymers, lipids, DNA, proteins).} \label{fig:vehicles}
-\end{center}
-\end{figure}
-
-\paragraph{Carbon nanotubes}
-Similarly, carbon nanotubes have been used for biomedical applications as they have a high loading efficiency thanks to their high surface area and easy interaction with biomolecules through van der Waals interactions, $\pi$-$\pi$ stacking or hydrophobic effect \cite{Erol2017}. They are easy to functionalise through conjugation to extra organic groups to increase their biocompatibility and have potential for targeted drug release upon change in environmental pH \cite{Depan2011}.
-
-Similarly to metallic nanoparticles, their applications are still at the experimental stage, with more verifications to be performed to give a viable product.
-
-
-\paragraph{Polymers} Polymers are another large class of inorganic molecules functionalised for the benefit of medicine with several representatives already clinically approved as drug eccipients. For example, PEG, already mentioned as aid to make golden nanoparticles bio-compatible, it is widely used, thanks to its high hydrophilicity, to mimetise structures (e.g.\ inorganic nanoparticles, peptides) which in turn carry a drug \cite{Lammers2009}; or as a stand alone carrier system which has a high drug payload \cite{Liechty2010}. The great strength of polymers is their flexibility: as each of their constituent monomers can be either hydrophilic or hydrophobic, they can be engineered to assemble in many different structures \cite{Kawakatsu2004}. Moreover, they can trigger a sustained drug release by swelling slowly in water \cite{Nicolas2013}, or undergo sol-gel phase transition upon specific changes in the environment \cite{Liechty2010}. Finally, research has also focussed on improving their biodegradability \cite{Nair2007} and in making polymers a bioactive compound itself \cite{Rao2018}.
-
-
-\subsection{Organic materials for small drugs delivery} \label{sec:organic}
-
-A somehow opposite approach for designing drug vehicles consists in using molecules similar to the ones present in the body, in an effort to exploit already available biocompatible materials and reduce toxicity \cite{Yoo2011}. In this category fall lipids, DNA and peptides.
-
-\paragraph{Lipids} Lipids are the main constituents of the cell membrane. They come with a great variety, broaden by the many species produced synthetically. The components selected for drug delivery are usually taken from the biological lipidome \cite{seeRebuttal}, but the composition of the final assembly differs from the one of cellular membranes, and possibly includes synthetic molecules, to tune the release properties and enable them to survive the delivery journey \cite{Yingchoncharoen2016}. For example, as mentioned for other materials, a change in pH can dissolve the lipid structure exposing its content.
-%
-Lipids can encapsulate efficiently both hydrophobic or hydrophilic drugs, arranging themselves respectively in micelles structures (monolayer spheres with the hydrophobic tails facing the interior) or in liposomes (bilayer spheres with a water filled core) \cite{Bunker2016}. By now, many of them overcame the clinical trials and are currently approved as delivery agents for cancer and infections drugs \cite{Pattni2015paper, Jain2017}.
-
-\paragraph{DNA scaffolds} Similarly, many DNA scaffolds have been tested for smart delivery: DNA origami is nowadays an established technique to build three dimensional customised solids \cite{Linko2015}, and the nanometric knowledge about their constituents allows to fine tune them for a triggered release of the content \cite{Douglas2012}. First studies proved them successful in delivering anticancer agents \cite{Zhang2014, Jiang2012}, however they are very sensitive to different cellular environments which challenge their stability. This, united with high production costs and the relative young developments in their manipulation, prevented them to constitute a viable class of carriers so far, but at the same time holds promise for future improvements and applications.
-
-\paragraph{Peptidic scaffolds} Another widely used and trustworthy mimetic vehicle comes, quite surprisingly, from the world of pathogens: viruses have co-evolved with humans, to be able to penetrate into cells where they complete their reproductive cycle \cite{Lobo2009}. Therefore their capsid, the peptidic shell encapsulating the genome, is highly suitable for cell penetration. The first application sought historically was to employ genome free viruses to stimulate and train the natural immune response against the respective genome-loaded ones, creating viral vaccines - in a concept similar to the inoculation of dead bacteria to counteract the infections caused from them \cite{Lauer2017}.
-Later in the history, their potential as cargo carrier was pursued by first modifying the original genetic material to include sequences beneficial for the host cell, and inactivate the ones promoting the infectious duplication at the same time. In particular adeno-associated virus (AAV) has been widely studied \cite{Daya2008} as it triggers a low immune response \cite{Buning2015}, and the first AAV viral therapy has been approved a few years ago \cite{Smalley2017}.
-%
-To fully exploit the potential of a peptidic carrier many efforts have focussed on synthesising in vitro gene-free capsids, either as they appear in nature \cite{Wu2009} or designing artificial building blocks, which assemble in so called Virus-Like particles (VLPs). This helps overcoming the reaction stimulated by specific viral capsids to which the immune system is sensible to.
-%
-Similarly to other delivery vehicles, the surface of VLPs can be functionalised with additional molecules to improve the target selectivity and increase biocompatibility, while the capsid peptidic scaffold grants robustness to the structure. Therefore, VLPs loaded with drugs can be tuned for an efficient intra cellular release \cite{Ma2012}.
-
-A step further in engineering peptidic structures is represented by the design of self-assembling functional structures from first principles, exploiting the physico-chemical characteristics of peptides, regardless their resemblance of viral capsids.
-%
-Indeed, self-assembling peptides can form nanostructures ranging from nanoparticles to nanotubes, nanofibers, nanorods and hydrogels \cite{Fan2017,Habibi2016}.
-%
-Among their advantages, peptides present biocompatibility, a low production cost and a tunable bioactivity thanks to their chemical diversity, which helps in tailor the assembly toward the target of interest \cite{Fan2017}. Moreover, the variety of amino acid available makes possible to load peptidic structures with both hydrophilic and hydrophobic drugs, according to their amino acid composition \cite{Habibi2016,Ma2012}.
-%
-The peptidic self-assembly is modulated by the peptide length and its hydrophobic or hydrophilic character, given by its amino acid composition: on one end of the length scale, phenylalanine dipeptides were designed with inspiration from a pathogenic pathway of molecular self-assembly \cite{Yan2010} and were shown to self-assemble in a multi-scale process producing nanotubes able to load drug molecules \cite{Silva2013}. The relatively small diphenylalanine building block is non the less complex as it bears two charged termini (as the process is observed at neutral pH), and two aromatic hydrophobic rings, so that the dipeptide is driven towards assembly by the hydrophobic forces acting on the phenylalanine side chains and the complementary charges of the termini.
-
-In a different approach, longer sequences can be employed to guide the formation of the local structure, as they organise spatially in well studied motives (the secondary structure) with known interactions among themselves.
-%
-The two typical secondary structures, $\alpha$-helices and $\beta$-sheets, appear in sequences of about 20 or more amino acids length and both can be amphiphatic, thus promoting the assembly between the hydrophobic faces of different copies of the same structure. With the appearance of a secondary structure, more complex building blocks can be designed, to tune the shape into the ones needed for the supramolecular organisation of interest \cite{King2014}.
-%
-The easy manipulation of peptides is made possible because proteins are a fundamental,  well studied component of the human body: thus, the knowledge of many of their structures\cite{PDB} give an insight in how the small ones can hierarchically assemble into larger units.
-%
-Moreover, the vast literature on their interactions with membranes, cell receptors and in general biological components, can inspire the design of building blocks sensible to particular triggers within the body. From this background, the outlook of protein design often goes in the direction of surpassing natural limitations, synthesising exotic, non natural, geometries \cite{Yeates2019,Malay2019} for multifunctional materials.
-
-
 \section{Antimicrobial resistance}
 
-% REF
-% Abouzeed2008, Abraham1988, Baroud2013, Baucheron2014, Billal2011, Birkegard2018, Blair2014, Delcour2009, Dolejska2013, Floyd2010, Gao2010, Gordon2000, Hirakawa2004, Hu2012, Kapoor2017, Katayama2000, Kim2013, Kojima2013, Kumar2014, Lavigne2013, Livermore2008, Long2006, Lynch2013, McKellar1999, Niewiadomska2019, Nikaido2011, Nordmann2011, Norris2013, Novais2012, Ogawa2012, Oneill2016, Poulou2013, Qin2012, Queenan2007, Queenan2010, Santos2017, Shore2011, Tamber2003, Tangden2013, Tran2013, Tzouvelekis2012, Vargiu2012, Vetting2011, Voulgari2013, Woodford2011, Woodford2013, Wozniak2012, Wright2005
-
-The previous brief review on drug carriers rotates around the paradigm that a drug is a small inorganic compound (of mass up to 900 Da) which targets a specific molecule in a specific target of a mammal or bacterial cell. In this light, the ultimate goal of the delivery vehicle is to carry the drug to the site of action where it can interfere with the process it is assigned to. Very often the target of interest of small drugs are proteins: out of the 695 small drugs approved by FDA (the American Food and Drug Administration agency) to target human molecules, 667 acts on proteins. Similarly, 189 of the 198 small drugs approved to treat pathogens have a protein as their target \cite{Santos2017}.
+For most of the last century, the development of new drugs and of delivery agents for such drugs rotated around the paradigm that a drug is a small inorganic compound (of mass up to 900 Da) which targets a specific molecule in a specific target of a mammal or bacterial cell. In its journey to its target, it is necessarily helped by some delivery vehicle which carry the compound to the site of action where it can interfere with the process it is assigned to, least it gets degraded beforehand. Very often the target of interest of small drugs are proteins: out of the 695 small drugs approved by FDA (the American Food and Drug Administration agency) to target human molecules, 667 acts on proteins. Similarly, 189 of the 198 small drugs approved to treat pathogens have a protein as their target \cite{Santos2017}
 %
-(It must be noticed however that the identification of an unambiguous drug target poses challenges in many cases, especially when the drug binds to a protein complex or to a number of closely related gene products \cite{Santos2017}.)
+(with all the caveats coming from the difficulties that identification of an unambiguous drug target poses, especially when the drug binds to a protein complex or to a number of closely related gene products \cite{Santos2017}).
 
-In presenting the aforementioned figures, the data were naturally split among the drugs which target human molecules, ``repairing" some faulty process in the human body, or the ones active against bacteria, which ``disrupt" the bacterium life cycle in order to kill or prevent the reproduction of the pathogen.
+In presenting the aforementioned figures, the data were naturally split among the drugs which target human molecules, ``repairing" some faulty process in the human body, or the ones active against bacteria, which ``disrupt" the bacterium life cycle in order to kill or prevent the reproduction of the pathogen, commonly named as antibiotics.
 %
 It appears evident that the pool of drugs available to the second purpose are in consistently lower number than the ones addressing human molecules. This comes from the nature of the action they perform: molecules targeting human proteins need to be highly specific to avoid interference with other proteins or with healthy cells, and in a sufficient number to address the variety of diseases affecting the human body.
 %
-Antibiotic must be non-toxic for human cells as well, i.e.\ their target must not be shared between mammal and bacterial cells \cite{???}, but there is a less stringent requirement on their selectivity against different bacterial species. On the contrary, it is often useful to have a broad-spectrum compound. This cross-species efficacy and non-toxic property is obtained thanks to the evolutionary relationship among bacterial species, and between bacteria and humans: while the first are closely related, and therefore share homologous proteins with very similar structures, humans have less architectures in common with them, allowing for a resilience against bacteria-targeting drugs \cite{???}.
+Antibiotic must be non-toxic for human cells as well, i.e.\ their target must not be shared between mammal and bacterial cells, but there is a less stringent requirement on their selectivity against different bacterial species. On the contrary, it is often useful to have a broad-spectrum compound. This cross-species efficacy and non-toxic property is obtained thanks to the evolutionary relationship among bacterial species, and between bacteria and humans: while the first are closely related, and therefore share homologous proteins with very similar structures, humans have less architectures in common with them, allowing for a resilience against bacteria-targeting drugs.
 %
-Of course, the set of bacterial species is very diverse and the cross-species effectiveness of some drugs does not extend to the whole bacterial population. This actually demonstrates to be a positive feature, given the large amount of beneficial bacteria that live in symbiosis with the human body (especially in the gut \cite{???}) and that must be preserved for an optimal wellness.
+Nevertheless, the set of bacterial species is very diverse and the cross-species effectiveness of some drugs does not extend to the whole bacterial population. This is actually demonstrated to be a positive feature, given the large amount of beneficial bacteria that live in symbiosis with the human body (especially in the gut) and that must be preserved for an optimal wellness.
 
 In the framework described above, it is understandable that first-time research on antibiotics was satisfied with the development of a handful of potent, broad-spectrum compounds.
 %
-Penicillin, the first of them, was isolated from a mould in 1928 by Alexander Fleming. It acts inhibiting the formation of peptidoglycan cross-links in the bacterial cell wall and preventing its complete formation (for further details on bacterial cell membrane structure the reader can refer to Section \ref{sec:host-defense-peptides} and the relative references). This inhibition is achieved through binding to the enzyme DD-transpeptidase responsible for the catalysis of such cross-link \cite{Gordon2000}.
+Penicillin, the first of them to be synthetically produced, was isolated from a mould in 1928 by Alexander Fleming. It acts inhibiting the formation of peptidoglycan cross-links in the bacterial cell wall and preventing its complete formation, through binding to the enzyme DD-transpeptidase responsible for the catalysis of such cross-link \cite{Gordon2000} (for further details on bacterial cell membrane structure see Section \ref{sec:host-defense-peptides}).
 %
 As foreseen from Fleming himself in his Nobel Prize acceptance speech, bacteria can become immune to penicillin, and this is achieved in many ways: either by production of penicillase, an enzyme that degrades penicillin, or by subtle changes in the structure of the penicillin-binding proteins to prevent penicillin binding, or again by removal of the drug outside of the cell through specially re-purposed efflux pumps \cite{???}.
 
-\subsection{Course of antimicrobial resistance} \label{sec:course_AMR}
-The mechanism just outlines is not an exceptional characteristic of penicillin, and many drugs lost their effectiveness against some bacteria since their discovery till nowadays. Indeed the antibiotic landscape is a dynamic entity in which newly discovered ones enter, while others exit after having been exploited for years.
+The mechanisms just outlined are not an exceptional characteristic of penicillin, and many drugs lost their effectiveness against some bacteria since their discovery till nowadays. By now, a broad knowledge has been gathered on how bacterial escape the action of a drug: this understanding helps interpreting the pitfalls of existing drugs and identifying the characteristics sought in the developments of new compounds.
 
+
+\subsection{Mechanisms of antimicrobial resistance to small drugs} \label{sec:AMR_mechs}
+Antimicrobial resistance can manifest through many different mechanisms, which can be grouped in three main classes, in line with the three processes mentioned in the example of the penicillin resistant bacteria.
+
+\begin{figure}[h]
+\begin{center}
+\subbottom[]{\includegraphics[width=0.6\linewidth]{1introduction/pics/amr1} \label{fig:amr1}} \\
+\subbottom[]{\includegraphics[height = 0.36\textheight]{1introduction/pics/amr3} \label{fig:amr2}}
+\hspace{0.5cm}
+\subbottom[]{\includegraphics[height = 0.36\textheight]{1introduction/pics/amr4_half} \label{fig:amr3}}
+\caption[Mechanisms of antimicrobial resistance to small drugs]{Mechanisms of antimicrobial resistance to small drugs. (a) Intrinsic mechanisms of resistance (removal of antibiotic B by efflux pump and inaccessibility of antibiotic C to the PBP target because of membrane impermeability). (b) Target site change via mutation or protection. (c) Direct interactions with antibiotics causing its disruption or structural modification. Reproduced from \cite{Blair2014}.} \label{fig:amr}
+\end{center}
+\end{figure}
+
+\paragraph{Prevention of access to target}
+A first class of resistance mechanisms aim at minimising the intracellular concentration of the antibiotic preventing its penetration or maximising its efflux in the eventuality it has entered the cell (Figure \ref{fig:amr1}).
+%
+Not all the molecules can enter the cell permeating the membrane, and this holds particularly for hydrophilic antibiotics tackling Gram-negative bacteria which are intrinsically less permeable that Gram-positive ones because of the additional presence of the outer membrane \cite{Delcour2009} (for further details on the bacterial membrane structure, see Section \ref{sec:host-defense-peptides}).
+%
+These molecules must then be imported into the cell through outer-membrane porin proteins \cite{Vargiu2012,Kojima2013}. Resistance arise when porins are either replaced with more selective channels, which prevent the antibiotic penetration, or down regulated so the internal concentration of the drug does not reach a critical concentration \cite{Lavigne2013}. Porin-coding genes can also accumulate multiple mutations, to acquire the selectivity they lack by nature \cite{Poulou2013}.
+
+A complementary strategy to prevent drug influx is to employ bacterial efflux pumps. Some of them are denominated multidrug resistance (MDR) efflux pumps for their effectiveness in the task and are produced by many bacteria \cite{Floyd2010,Ogawa2012}, but, additionally, can be transferred via plasmids to other bacterial species \cite{Dolejska2013}. Indeed, bacteria are able to exchange genetic material with other individuals via small rings of DNA in a process called conjugation \cite{????}, so that the advantageous resistant genotypes can spread quickly across species.
+%
+Over-expression of such efflux pump is observed in multidrug-resistant bacteria, triggered by exposition to the drug, and proceeding via mutation in the relative regulatory network, \cite{Abouzeed2008}, or simply as a response to environmental signals \cite{Nikaido2011}.
+
+
+\paragraph{Change or modification of the antibiotic target}
+The second class of resistance mechanisms works modifying the antibiotic target: most antibiotics bind to their substrate with high affinity and specificity, thus small modifications in the target structure can disrupt an efficient binding of the antibiotic, still allowing the target to maintain its normal function (Figure \ref{fig:amr2}).
+
+Mutations of some residues in the binding pocket (upon mutation in the gene coding for it) or post-translational protection of the target via addition of chemical groups are equally wide spread mechanisms.
+%
+Notable examples of the first include the development of methicillin and linezolid-resistant strains of S. aureus \cite{Shore2011,Billal2011}. Again, it is interesting to notice that several of these mutations are acquired by horizontal gene transfer from other bacterial species, so that resistance development in one specie promotes quickly the insurgence of resistance in other ones.
+%
+The most relevant mechanism of chemical group addition is methylation, which for example is very common when the target are rRNA subunits \cite{Long2006}).
+
+
+\paragraph{Direct modification of antibiotics}
+Finally, bacteria can destroy drugs, usually by hydrolysis, or modify them by transfer of a chemical group (Figure \ref{fig:amr3}).
+
+The first example historically discovered of drug-degrading enzyme is penicillinase (a $\beta$-lactamase) which destroys penicillin \cite{Abraham1988}. Since then, thousands of similar enzymes have been identified that can modify antibiotics of different classes \cite{Livermore2008,Nordmann2011}:
+%
+these enzymes co-evolves with newly developed drugs, to include in their spectrum of action new compounds of similar composition to the ones they were originally effective on \cite{Woodford2013}.
+
+Antibiotics constituted by large molecules with many exposed hydroxyl and amide groups are particularly susceptible to modification by addition of chemical groups instead. Many enzymes are responsible for this, and according to the chemical moiety added they are grouped in acetyltransferases, phosphotransferases and nucleotidyltransferases \cite{Wright2005}.
+
+\hspace{0.5cm}
+\\
+All together, the recent progress in understanding the mechanisms of antimicrobial resistance has helped in directing the development of new drugs, in particular the modification and the improvement of existing compounds to escape the resistance developed by bacteria. However, to ultimately employ the existing drugs at best, it is important to understand also the dynamics of AMR, beyond its molecular mechanisms, to device the most effective strategies of drug administration.
+
+
+\subsection{Course of antimicrobial resistance} \label{sec:course_AMR}
 In the first stages of the insurgence of antimicrobial resistance (AMR) against a given drug, some strains of bacteria are not damaged by the standard doses of the drug as they came to possess some natural occurring mutations in their genome which promote an escape mechanism invalidating the drug effectiveness \cite{Kapoor2017,Blair2014}. Usually, only a small population of bacteria is resistant,  in the first moments, however the resistant population will replicate faster that the peers of the same species because it is more fit in an environment challenged by the presence of the drug. It is noteworthy that this fitness might not be optimal in a natural drug-free environment - and indeed the wild population has not been selected for that genotype - but under the pressure derived from the treatment, other characteristics result more advantageous.
 %
-In the short time scale it is usually sufficient to increase the doses of a drug to re-gain efficiency against the target, but it has been observed that the resistant species can usually adapt to higher doses of the same \cite{????}. Moreover, high drug doses are not always applicable due to the severe side effects they are connected to \cite{????}.
+In the short time scale it is usually sufficient to increase the doses of a drug to re-gain efficiency against the target, but it has been observed that the resistant species can usually adapt to higher doses of the same \cite{????}. Moreover, high drug doses are not always applicable due to the severe side effects they are connected to.
 
-The spread of resistance between bacterial cells and even between species is very effective as bacteria are able to exchange genetic material with other individuals via small rings of DNA in a process called conjugation \cite{????}. In this way the advantageous characters spread across individuals, and species with an innate resistance can transfer to other ones their mechanisms of resilience to a particular drug.
+As already mentioned, the spread of resistance between bacterial cells and even between species is very effective as bacteria exchange genetic material through conjugation.
 %
-Therefore, despite AMR is an evolutionary mechanism, the fast pace at which bacteria replicates, their enormous population (in terms of individuals), and the relative easy horizontal gene transfer through conjugation place the insurgence of resistance well within the human lifespan time scale \cite{????}.
+Therefore, despite AMR is an evolutionary mechanism, the fast pace at which bacteria replicates, their enormous population (in terms of individuals), and the relative easy horizontal gene transfer through conjugation, place the insurgence of resistance well within the human lifespan time scale \cite{????}.
 
 It is then clear that this complex problem depends on many variables: the casual appearance of resistant individuals, the transfer of information between them, the gain in fitness of resistant individuals but also the dosage and time line of the drug administration. Many mathematical models have been implemented to understand the issue \cite{Birkegard2018,Niewiadomska2019}, but it is known that some particular strategies of drug administration are worse than other, favouring the proliferation of so called ``super" bugs.
 %
-One example of bad administration strategy is the underdosage of antibiotics: a low drug load is likely to harm but not kill pathogens, in particular to promote the fitness of resistant ones. In a sort of ``gym" or ``vaccination" process for bacteria, an underdosed drug would kill the weakest individuals but strengthen the resistant population, which would now be fitted to the challenges of higher doses \cite{????}.
+One example of bad administration strategy is the underdosage of antibiotics: a low drug load is likely to harm but not kill pathogens, and rather promote the fitness of resistant ones. In a sort of ``gym" or ``vaccination" process for bacteria, an underdosed drug would kill the weakest individuals but strengthen the resistant population, which would now be fitted to the challenges of higher doses \cite{????}.
 %
 Similarly, the abuse of antibiotics puts an high pressure on the pathogenic populations, which is desirable but at the same time can induce a faster emergence of escape mechanisms \cite{????}.
 %
@@ -167,100 +122,15 @@ In this context it must be noticed that many drugs are bacteriostatic agent as o
 %
 Thus if an high dosage of a bactericidal agent may extinguish the bacterial population and eradicate the disease, for bacteriostatic drugs, once they are removed, bacteria start again the reproduction cycle.
 
-Finally, it is noteworthy that abuse of antibiotics can take many forms: the agricultural and breeding sectors are constantly using antibiotics to keep their products secure form illness. This results in large quantities of drugs to be released in the soil and water, which ultimately reach humans in underdosed quantities. Diseases of plants and animals are different from the ones affecting humans, however some drugs are effective on many bacteria including the one harming humans. Therefore the widespread use of antibiotic for animals or plants can ultimately train resistant bacteria in humans \cite{????}.
-%
-Additionally, diseases can cross species: this means that an extra care must be taken in the treatment of non human bacteria least to promote resistant ones which can at a point affect us \cite{????}.
-
-The complexity and severity of the AMR issue is such that it has been raised to the status of national emergency in several countries, including UK, as we are leaving the century in which antibiotics were discovered, to enter a phase in which we count the number of the ones loosing efficacy \cite{Oneill2016}.
-
-
-\subsection{Mechanisms of antimicrobial resistance to small drugs} \label{sec:AMR_mechs}
-
-Antimicrobial resistance can manifest through many different mechanisms, as highlighted in the example of the penicillin resistant bacteria.
-%
-In particular, resistance mechanisms fall into three main groups: a first group minimises intracellular concentration of the antibiotic preventing penetration or maximising efflux; a second one modifies the antibiotic target by genetic mutation or post-translational modification; finally a third group inactivates the antibiotic by hydrolysis or modification of the drug molecule (Figure \ref{fig:amr}) \cite{Blair2014}. We give here a brief review of them, to help understanding the pitfalls of existing drugs and the characteristics sought in the developments of new compounds.
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[width = 0.6\textwidth]{1introduction/pics/amr1}
-\vspace{0.8cm}
-\includegraphics[height = 0.36\textheight]{1introduction/pics/amr3}
-\hspace{0.5cm}
-\includegraphics[height = 0.36\textheight]{1introduction/pics/amr4_half}
-\caption[Mechanisms of antimicrobial resistance to small drugs]{Mechanisms of antimicrobial resistance to small drugs. a) Intrinsic mechanisms of resistance (removal of antibiotic B by efflux pump and inaccessibility of antibiotic C to the PBP target because of membrane impermeability). b) Target site change via mutation or protection. c) Direct interactions with antibiotics causing its disruption or structural modification. Reproduced from \cite{Blair2014}.} \label{fig:amr}
-\end{center}
-\end{figure}
-
-
-\paragraph{Prevention of access to target}
-One possible mechanism of defence bacteria employ against antibiotics is to prevent the access to the target. This is performed either blocking the drug influx or promoting its quick efflux in the eventuality it has entered the cell.
-
-Regarding drug influx, not all the molecules can enter the cell permeating the membrane, and this holds particularly for hydrophilic antibiotics tackling Gram-negative bacteria: indeed, compared with Gram-positive ones, Gram-negative bacteria are intrinsically less permeable because of the structure of the additional outer membrane \cite{Delcour2009}, therefore hydrophilic molecules are imported into the cell through outer-membrane porin proteins \cite{Vargiu2012,Kojima2013} (for further details on the bacterial membrane structure, see Section \ref{sec:host-defense-peptides}).
-%
-The major porins of most Enterobacteriaceae are thought to be non-specific channels \cite{Tran2013}, therefore replacing porins with more selective channels or down regulating their expression would limit the intake of the drug. This last mechanism is well established and contribute to resistance to many different drugs in Gram-negative bacteria, including newer drugs such as carbapenems and cephalosporins, for which resistance is otherwise mediated by enzymatic degradation \cite{Tamber2003,Baroud2013,Lavigne2013,Poulou2013,Wozniak2012} (see the related paragraph below).
-Alternatively, as happens in E. coli exposed to carbapenems, not only the porin expression is down-regulated, but also the genes coding for them are heavily mutated, suggesting that changes in the porin structure can enhance their selectivity and reduce the drug influx \cite{Lavigne2013,Novais2012,Tangden2013}.
-
-A strategy complementary to prevent drug influx is to dispose the drug efficiently once it has invaded the cell. Bacterial efflux pumps transport many antibiotics out of the cell, and they constitute a major hurdle for the treatment of Gram-negative bacteria as opposed to Gram-positive ones. Indeed, many of the drugs effective on the latter are evacuated by the formers through efflux pumps; in particular, multidrug resistance (MDR) efflux pumps can transport a wide range of structurally dissimilar substrates.
-%
-All bacteria can produce their own MDR pumps \cite{Floyd2010,Hu2012,Kim2013,Ogawa2012}, but it has also been shown that some of the genes encoding for them have been transferred to plasmids and thus can be transferred to other bacterial species, disseminating resistance \cite{Dolejska2013}.
-
-In general, the over-expression of efflux pump seen in multidrug-resistant bacteria is often due to mutation in the regulatory network controlling it, \cite{Abouzeed2008}, but it can also occur as a result of induction in response to environmental signals and in conditions in which their function is required \cite{Baucheron2014,Nikaido2011,Hirakawa2004}.
-
-
-\paragraph{Change or modification of the antibiotic target}
-Most antibiotics bind to the target with high affinity and therefore specificity. Small modifications of the target structure can disrupt an efficient binding of the antibiotic, still allowing the target to maintain its normal function. These modifications can be reached by either mutation or protection of the binding site.
-
-In the first case, a casual mutation in  the genome would provide such minimal required change in the protein structure, and the resistant population would spread according to its improved fitness.
-%
-An example is the development of resistance to linezolid in S. pneumoniae and S. aureus: this drugs targets the 23S rRNA ribosomal subunit of Gram-positive bacteria which is encoded by multiple, identical copies of its gene. The use of linezolid has selected first a population with a mutation in one of the copies, which has afterwards passed to the other copies via recombination, generating a resistant population \cite{Billal2011,Gao2010}.
-%
-Other mutations occurred by transformation, i.e.\ uptake of DNA from the environment: in the case of penicillin resistant S. pneumoniae, a mutated penicillin-binding protein gene is included in the genome by recombination with DNA from the closely related species Streptococcus mitis. Similarly, the acquisition of a gene homologous resulted in a methicillin-resistant strain of S. aureus \cite{Shore2011}: this gene allows the synthesis of the PBP2 (penicillin binding protein 2) protein which enable cell wall synthesis despite the native PBP is inhibited by the antibiotic \cite{Katayama2000}.
-
-The second modification mentioned consists in protecting the target from the binding of the drug via addition of chemical groups to the target after its synthesis; as such, these modifications do not require mutations at the genetic level.
-%
-Among them, methylation is an important process: for example, under the pressure of macrolides, lincosamines and streptogramins, the 16S rRNA subunit is methylated and thus the drug-binding site altered \cite{Kumar2014}. Similarly, specific methylation of a base (A2503) in the 23S rRNA subunit confers resistance to many drugs that target nearby regions (phenicols, pleuromutilins, streptogramins, lincosamides and oxazolidonones) \cite{Long2006}.
-%
-In a different mechanism, quinolone resistance can be conferred by a gene coding for a pentapeptide repeat proteins (PRPs), which binds to topoisomerase IV and DNA gyrase promoting the release of the drug and rescuing the normal function of topoisomerase \cite{Vetting2011}.
-
-\paragraph{Direct modification of antibiotics}
-Finally, bacteria can modify or destroy drugs to prevent their action, usually by either hydrolysis or by transfer of a chemical group.
-%
-Enzyme-catalysed modification of antibiotics is a major mechanism of antibiotic resistance: the very first example being penicillinase (a $\beta$-lactamase) which destroy penicillin \cite{Abraham1988}.
-%
-Since this discovery, thousands of enzymes have been identified that can degrade and modify antibiotics of different classes, such as $\beta$-lactams, aminoglycosides, phenicols and macrolides \cite{Livermore2008,Nordmann2011,Voulgari2013,Woodford2011}.
-%
-These enzymes co-evolved together with the newly developed drugs which bacteria are exposed to, to include in their spectrum of disruptive action new compounds of similar composition: for example the first $\beta$-lactmases evolved to be active against the new $\beta$-lactams antibiotics developed, up to the emergence of isolates resistant to all the drugs in the $\beta$-lactam class \cite{Woodford2013}.
-%
-This localised emergence of resistance is a particularly serious problem because of the effectiveness with which these mechanisms spread to the whole bacterial population in a short period of time \cite{Voulgari2013,Woodford2013,Lynch2013}, as mentioned before.
-%
-%Moreover, as hinted in Section \ref{sec:course_AMR}, the inefficacy of one class of drugs brings inevitably to a more massive use of other compounds (for example carbapenem in replacement of $\beta$-lactams), to which bacteria develop resistance (in the example above, developing the so called carbapenemases to hydrolyse the drug) \cite{Queenan2007,Queenan2010,Tzouvelekis2012}.
-
-The addition by bacterial enzymes of chemical groups (for example acyl, phosphate, nucleotidyl or ribitoyl \cite{Wright2005}) to vulnerable sites on the antibiotic molecule is another mechanism to block the action of the drug, as it prevents its binding to the target protein due to steric hindrance.
-%
-Antibiotics constituted by large molecules with many exposed hydroxyl and amide groups are particularly susceptible to these modifications. An example of such antibiotics is the aminoglycoside class (in which streptomycin is included), which can be modified by three classes of enzymes, grouped according to the chemical moiety added: acetyltransferases, phosphotransferases and nucleotidyltransferases \cite{Norris2013}.
-%
-A recent development reports the discovery of a genetic island in Campylobacter coli isolated from broiler chickens in China coding for six of these enzymes, including members of all three classes: the expression of such genes would then confer resistance to many antibiotic of the aminoglycoside class at once \cite{Qin2012}.
-
-\hspace{0.5cm}
-\\
-All together, the recent progress in understanding the mechanisms of antimicrobial resistance has helped in directing the development of new drugs, in particular the modification and the improvement of existing compounds to escape the resistance developed by bacteria. This in turn has highlight the effectiveness of some clinical strategies, such as the use of combined therapies, to counteract an early development of resistance. However, the problem persists and more knowledge needs to be gather for a complete understanding and the possible development of resistance-free compounds.
+In this context, it is clear that the antibiotic landscape is a dynamic entity in which newly discovered ones enter, while others exit after having been exploited for years, and must be monitored carefully and kept populated: it is noteworthy that the severity of the AMR issue is such that it has been raised to the status of national emergency in several countries, including UK. Indeed, abuse or misuse of antibiotic can take many forms and strict regulations on the health, agricultural and food industry sector must be taken to prevent its loss of efficacy, as we are leaving the century in which antibiotics were discovered, to enter a phase in which we count the number of the ones loosing efficacy \cite{Oneill2016}.
 
 
 \section{Alternative antibiotic strategies: antimicrobial peptides}
+In the landscape sketched above, it is evident that the development of novel drugs is of crucial importance. Even more beneficial would be to have at disposal a new paradigm for their design, in order to attack pathogens in a completely novel way, avoiding to target pathways which are known to lead easily to the development of antimicrobial resistance. Several novel materials have been developed for the task, not to rely on small molecules and exploit different mechanisms of action, for example antibodies, bacteriophages or antimicrobial peptides \cite{Mantravadi2019}.
 
-% REFS
-% APD3,DBAASP2,dbAMP,antiBP2,amPEP
-% Allen1998, Avrahami2004, Bahar2013, Band2014, Baranska-Rybak2006, Batoni2011, Bertelsen2012, Biegeleisen2006, Bishop2000, Bolintineanu2011, Bokarewa2004, Brogden2005, Brotz1998, Bugg1991, Campos2004, Chan2006, Cherkasov2009, Choudhary2011, Cipcigan2018, Costerton1999, Dathe1999, Deslouches2005, DiLuca2014, Ebbensgaard2015, Ebenhan2014, Fabretti2006, Farrotti2017, Fjell2011, Frick2011, Fujii1993, Gazit1995, Gifford2005, Glukhov2005, Gonzalez2008, Grieco2011, Groisman1992, Gunn1998, Guo1998, Hallock2003, Hancock2006, He1995, Hilpert2005, Hilpert2006, Huang2010, Hwang1998, Jiang2011, Jin2004, Jolivet-Gougeon2014, Joo2012, Joo2016, Juhas2015, Kagan1990, Khandelia2005, Klein2009, Kumariya2015, Ladokhin2001, Lee2004, Lee2017, Lehrer2004, Lewenza2005, Lin2016, Liu2018, Llobet2008, Loose2006, Loutet2006, Mah2001, Mahlapuu2016, Malmsten2016, Mantravadi2019, Mason2005, Matsuzaki1996, Matsuzaki1997, Matsuzaki1998, Matsuzaki2009, Migon2018, Moskowitz2004, Naafs2018, Nelson2011, Nguyen2005, Nguyen2011, Nickel1985, Oren1998, Pag2008, Parra-Lopez1993, Peschel1999, Peschel2001, Peschel2006, Radzishevsky2005, Raetz2007, Saar-Dover2012, Schmidt2010, Schmidtchen2002, Schmitt2016, Shai1999, Schibli1999, Selsted1989, Serrano2009, Sieprawska-Lupa2004, Silhavy2010, Sol2014, Spaar2004, Spector1985, Strempel2014, Stumpe1998, Takeuchi2004, Tang2009, Taggart2003, Teufel1993, Toke2005, Tomita1994, Tsai2009, vanMeer2008, Vuong2004PIA, Vuong2004, Walters2005, Wang2004, Wang2004MsbA, Wang2006lpx, Wang2015, Wimley2010, Wipf2009, Wiradharma2011, Yamaguchi2001, Xie2018, Yang2001, Yeaman2003, Yonezawa1992, Zasloff2002, Zhang2001, Zhang2016
-
-In the landscape sketched above, it is evident that the development of novel drugs is of crucial importance. Even more beneficial would be to have at disposal a new paradigm for their design, in order to attack pathogens in a completely novel way, avoiding to target pathways which are known to lead easily to the development of antimicrobial resistance. There are several possible solutions to this: antibodies, bacteriophages or antimicrobial peptides instead of small molecules \cite{Mantravadi2019}.
-
-Regarding antibodies, the development of pathogen-specific monoclonal antibodies (mAb) is an emerging area of research. For example, they can be employed for immunisation though serum therapy, i.e. exposing the patient to the serum of an individual already immunised. Such passive immunization has been used for the treatment of bacterial infections well before the discovery and development of antibiotics, but has since then been overshadowed by the use of small-molecule compounds and is now regaining relevance.
-
-The second class mentioned, bacteriophages, are formed by viruses which infect bacteria and archea rather than eukarya. They are effective as they can be used both in natural environmental reservoirs and in humans and are usually highly specific against one bacterial strain.
+While the use of pathogen-specific antibodies relies on the mechanisms of the host immune system, bacteriophages therapy employ viruses which infect bacteria and archea rather than eukarya.
 %
-Both these strategies have been only partially explored so far, bringing potential for new therapies. Phage therapy is promising also in terms of promoting less resistance development: indeed phages and bacteria have been coexisting since a long time - in evolutionary scale - and the formers are never the less effective against the latter, suggesting that their mechanism of attack is weakly prone to provoke defence mechanisms \cite{??}.
-
-But are antimicrobial peptides the focus of this thesis: we have already highlighted the importance of peptides as tunable structural elements of drug delivery vehicles. However, they can have a role against bacteria as drug themselves when their sequence possesses some specific characteristics: such active sequences, capable of damaging and/or killing bacteria, are referred to as antimicrobial peptides. The following subsections will explore their characteristics, modes of action and the response of bacteria against them: indeed, it is crucial to understand the knowledge available versus the questions that are still open. This holds in particular when the investigation proceeds by the use of simplified models, as meaningful results can proceed only if such modelling is performed in a sensible and informed fashion.
+But are antimicrobial peptides the focus of this thesis: indeed peptides can have an active role against bacteria when their sequence possesses some specific characteristics. Such active sequences, capable of damaging and/or killing pathogens, are referred to as antimicrobial peptides. The following subsections will explore their characteristics, modes of action and the response of bacteria against them. It is crucial to understand the knowledge available versus the questions that are still open in order to direct the efforts of future research. This holds in particular when the investigation proceeds by the use of simplified models, as meaningful results can proceed only if such modelling is performed in a sensible and informed fashion.
 
 \begin{figure}
 \begin{center}
@@ -270,36 +140,59 @@ But are antimicrobial peptides the focus of this thesis: we have already highlig
 \end{figure}
 
 
-\subsection{Host-defence, membrane active peptides} \label{sec:host-defense-peptides}
-Antimicrobial peptides (AMPs) are naturally produced by mammals, either as stand-alone sequences or embedded in larger proteins, as a first, weak, and broad-spectrum defence against bacteria \cite{Nguyen2011,Bahar2013,Mahlapuu2016,Zhang2016}.
+\subsection{Membrane active peptides} \label{sec:host-defense-peptides}
+Antimicrobial peptides (AMPs) are naturally produced by eukarya, either as stand-alone sequences or embedded in larger proteins, as a first, weak, and broad-spectrum defence against bacteria \cite{Nguyen2011}.
 %
-Similar to phages, this pool of molecules has been selected though evolution to be active against pathogens, suggesting that they are weakly prone to provoke resistance reactions in the microbes they attack.
+This pool of molecules has been selected though evolution to be active against pathogens, suggesting that they are weakly prone to provoke resistance reactions in the microbes they attack.
 
 To exploit their potential and engineer AMP-like molecules, a careful characterisation and classification of such peptides must be done. This task has been carried on throughout the past decades but it is complex, so that up to date there are many peptides with ascertained antimicrobial activity for which the mode of action is still not fully understood \cite{Ebbensgaard2015}. However, some general characteristics of these sequences and some of the mechanisms they employ have emerged.
 %
 Unsurprisingly, AMPs are heterogeneous in shape, targets and mode of action, to tackle the different challenges bacteria pose. Their size can vary between 6 and 59 amino acids \cite{Brogden2005}: despite being small with respect to the average size of a protein in the human body, these macromolecules are hundreds of times larger than small molecule drugs and as such they penetrate and act on bacteria differently with respect to small compounds.
 
-The most common target of AMPs is the bacterial membrane. Many of them cause disruption of the physical integrity of the microbial membrane while others translocate into the cytoplasm to act on intracellular targets, and the combination of the two is not uncommon either \cite{Hancock2006} (Figure \ref{fig:amp}). In general, it is widely accepted that membrane interaction is a key factor for the direct antimicrobial activity of AMPs \cite{Nguyen2011,Malmsten2016}.
-%
-The determinant driving this interaction is the positive charge that many AMPs present, opposed to the negative charge of bacterial membrane \cite{Zhang2001,Schmitt2016}.
+The most common target of AMPs is the bacterial membrane. Many of them cause disruption of the physical integrity of the microbial membrane while others translocate into the cytoplasm to act on intracellular targets, and the combination of the two is not uncommon either \cite{Hancock2006} (Figure \ref{fig:amp}). In general, it is widely accepted that membrane interaction is a key factor for the direct antimicrobial activity of AMPs \cite{Nguyen2011}.
+
+As such, we propose a brief overview of the structure of such membrane \cite{Silhavy}, and of its differences with the mammalian cell one.
+
+
+\paragraph{Structure of bacterial membrane}
+The determinant driving the interaction between AMPs and bacterial membranes is the positive charge that many AMPs present, opposed to the negative charge of the latter.
 %
 It is striking that such simple mechanism, based on the presence of a certain number of negatively charged lipids, holds across many bacterial species despite the great variability found in their membrane composition.
 %
-Indeed, based on the differences in their cell envelope structure, bacteria are classified into two macro families, Gram-positive and Gram-negative. In Gram-positive bacteria, the cytoplasmic membrane is surrounded by a thick peptidoglycan layer, while for Gram-negative bacteria this membrane (which assumes the name of internal one) is surrounded by a thin peptidoglycan layer as well as an outer membrane \cite{Lin2016}.
+Indeed, based on the differences in their cell envelope structure, bacteria are classified into two macro families, Gram-positive and Gram-negative.
 %
-The cytoplasmic membranes of both Gram-positive and Gram-negative bacteria are rich in phospholipids like phosphatidylglycerol, cardiolipin, and phosphatidylserine, which have negatively charged headgroups, highly attractive for positively charged AMPs, and this is often sufficient to promote the preferential interaction between this membrane and the peptides.
+In Gram-positive bacteria, the cytoplasmic membrane is surrounded by a thick peptidoglycan layer, while for Gram-negative bacteria this membrane (which assumes the name of internal one) is surrounded by a thin peptidoglycan layer as well as an outer membrane \cite{Lin2016}.
 
-The fact that AMPs tackle negatively charged membranes is crucial for their selectivity, i.e.\ the fact that they are harmless for the mammalian cells they are produced from \cite{Glukhov2005}. Indeed, mammalian cells have a different membrane composition, in particular their membrane is rich in zwitterionic phospholipids such as phosphatidylethanolamine, phosphatidylcholine, and sphingomyelin, providing a neutral net charge \cite{Spector1985,vanMeer2008}.
+Starting from the inside and proceeding outwards, the cytoplasmic membranes of both Gram-positive and Gram-negative bacteria are rich in phospholipids like phosphatidylethanolamine, which is neutral, and phosphatidylglycerol, cardiolipin, and phosphatidylserine, which have negatively charged headgroups, highly attractive for positively charged AMPs. This is often sufficient to promote the preferential interaction between this membrane and the peptides.
+%
+Perturbation of this membrane is highly disruptive because many functions are associated to it: as bacteria do not possess organelles, all the membrane related proteins reside and perform their function on the inner membrane. 
+
+In the case of Gram-negative bacteria, between the inner membrane, together with the outer one, delimit the periplasm space, an aqueous cellular compartment, which allow to sequester harmful substances and allow nutrient transportation.
+%
+Proceeding outward, inside the periplasm is situated the peptidoglycan cell wall. Repeated units of this substance, made of a disaccharide cross-linked by penta-peptide side chains (from which the name), constitute the rigid skeleton of the cell. Damage in the peptidoglycan layer results usually in living but but viable cells, therefore it is fundamental for the cell life.
+
+Finally, the outer membrane is grafted to the skeleton by Braun’s lipoproteins. This membrane presents an asymmetric structure: phospholipids are present in the inner leaflet, while the outer one is composed of glycolipids, mainly lipopolysaccharide (LPS). This complex molecule consists of lipid A, which presents multiple fatty acids, and a polysaccharide, made of an inner core, covalently bond to the lipid, an outer core attached to the inner and finally a repetitive glycan polymer (O-antigen). The O-antigen is the molecule exposed by Gram-negative to the external environment and thus is the target of antibodies recognition. 
+
+Given the complexity of the Gram-negative cell envelope, and especially the presence of the LPS layer, these bacteria are particularly impermeable to hydrophilic molecule, which are usually imported through porins and similar transmembrane proteins.
+
+For Gram-positive bacteria, the inner membrane is enveloped in a thick peptidoglycan layer. If its thickness in Gram-negative bacteria is about a few nanometers, in Gram-positive it spans from 30 to 100 nm. Its composition is similar to what already stated, with some variations present among different bacteria, for example in the nature of the peptidic linker or in its precise position. This thick layer is threaded by long anionic polymers (the teichoic acids), mainly composed by glycerol phosphate, glucosyl phosphate, or ribitol phosphate repeats. Finally, disseminated in this layer there are several surface proteins with various functions, among which adhesins, which attach to components of the host extracellular matrix.
+
+
+\paragraph{Structure of bacterial membrane}
+The fact that AMPs tackle negatively charged membranes is crucial for their selectivity, i.e.\ the fact that they are harmless for the mammalian cells they are produced from \cite{Glukhov2005}. Indeed, mammalian cells have a different membrane composition: they present a single membrane, rich in protein. The lipidic component of the membrane is composed by many different lipids, and is abundant in zwitterionic phospholipids such as phosphatidylethanolamine, phosphatidylcholine, and sphingomyelin, providing a neutral net charge \cite{Spector1985,vanMeer2008}.
 %
 Strictly speaking, some negatively charged lipids are present in a few mammal cell types, however they are located in the inner leaflet, while the zwitterionic phospholipids are more abundant in the outer leaflet, in an asymmetric composition \cite{???}.
 %
 This structure promotes weaker interactions between AMPs and the mammalian cell membrane with respect to the bacterial one, as the former is driven mainly by hydrophobic interactions, while the latter by electrostatic ones.
 %
-Furthermore, the mammalian cell membrane has a high cholesterol content \cite{Yeaman2003, Lai2009}, which is proposed to stabilise the membrane enhancing its fluidity, so that it is more able to accommodate the perturbations caused by AMPs \cite{Zasloff2002}.
+Furthermore, the mammalian cell membrane has a high content of cholesterol \cite{Yeaman2003, Lai2009}, a sterol fat, which is proposed to stabilise the membrane regulating its fluidity across the differences in physiological temperatures, but it is also though to favour a better accommodation of the perturbations caused by AMPs \cite{Zasloff2002}.
+%
+Finally, the mammalian membrane contains a small percentage of carbohydrates, mainly embedded in glycoproteins, which promote the cell-cell recognition.
 
-Finally, bacterial cells have a typical transmembrane potential - the difference of electrostatic potential between the inside and the outside environment - between $-130$ and $-150$ mV, while mammalian cells between $-90$ and $-110$ mV \cite{Yeaman2003,Matsuzaki2009,Ebenhan2014}.
+Another relevant difference between bacterial and mammal cells is that the first ones have a typical transmembrane potential - the difference of electrostatic potential between the inside and the outside environment - between $-130$ and $-150$ mV, while mammalian cells between $-90$ and $-110$ mV \cite{Yeaman2003,Matsuzaki2009,Ebenhan2014}.
 %
 Given that a potential generates an electric field across the membrane, the higher the potential, the higher the electric field pointing from outside to inside the cell. A field in such direction pushes cationic compounds on the outside of the membrane toward the membrane itself. Therefore the stronger bacterial transmembrane potential may promote an enhanced - and thus disruptive - interaction of AMPs with the cell, contributing to the selectivity of AMPs between bacteria versus mammals \cite{Yeaman2003}.
+
 
 \subsection{Common mechanisms of action of AMPs} \label{AMP_mechs}
 Investigating the perturbation and disruption of a bacterial membrane by antimicrobial peptides is a key point of this work, therefore it is important to highlight the mechanisms known so far through which AMPs reach this outcome.
@@ -313,9 +206,9 @@ Common folds adopted by AMPs are both $\alpha$-helix or $\beta$-sheet rich struc
 and a similar arrangement is found for structures rich in $\beta$-sheets include $\beta$-hairpins.
 
 
-\paragraph{Membrane disruption} Several models have been proposed to describe the exact mechanisms of AMPs penetration after they bind to the cytoplasmatic membrane, and how their combined action leads to membrane permeabilization (Figure \ref{fig:amp}) \cite{Brogden2005,Toke2005,Nguyen2011}.
+\paragraph{Membrane disruption} Several models have been proposed to describe the exact mechanisms of AMPs penetration after they bind to the cytoplasmatic membrane, and how their combined action leads to membrane permeabilization (Figure \ref{fig:amp}) \cite{Brogden2005,Nguyen2011}.
 
-For example, for a single copy of a amphiphatic helical AMP, the proposed mechanism of action suggests that initially the peptide is attracted with its charged side to the membrane and lies parallel to its plane, with the hydrophobic side unfavourably exposed in solution. Then the helix rearranges to have the two faces in the respective favourable regions. Subsequently, the helix axis starts to form an angle with the membrane plane, and finally inserts deeper into the lipid core, often spanning the full membrane thickness \cite{Ebenhan2014}.
+For example, for a single copy of a amphiphatic helical AMP, the proposed mechanism of action suggests that initially the peptide is attracted with its charged side to the membrane and lies parallel to its plane, with the hydrophobic side unfavourably exposed in solution. Then the helix rearranges to have the two faces in the respective favourable regions. Subsequently, the helix axis starts to form an angle with the membrane plane, and finally inserts deeper into the lipid core, often spanning the full membrane thickness.
 %
 Similarly, for $\beta$-sheet rich structures, it is suggested insertion within the membrane after a first flat approach.
 %
@@ -325,19 +218,19 @@ The picture becomes more complex for oligomer-mediated insertion, i.e.\ when the
 %
 At low peptide to lipid ratio, the favourable configuration is represented by peptides lying parallel to the membrane plane as described previously \cite{Yang2001}, but an increase in peptide concentration triggers the transition to an inserted state where the main axis of the AMP is perpendicular to the membrane. The organisation of AMPs inside the membrane core can assume different configurations, as described below.
 
-The ``barrel-stave" model proposes that AMPs insert perpendicularly into the bilayer. Recruitment of peptides in the same area results in the formation of a transmembrane pore with a central lumen. The walls of the pore are constituted by the hydrophilic face of the peptides, while their hydrophobic side is interacting with the lipid tails around the pore. This model is adopted for example by the $\alpha$-helical AMP alamethicin, which forms voltage-dependent ion channels by aggregation of four to six molecules \cite{Bertelsen2012,Yang2001,Lee2004,Spaar2004}.
+The ``barrel-stave" model proposes that AMPs insert perpendicularly into the bilayer. Recruitment of peptides in the same area results in the formation of a transmembrane pore with a central lumen. The walls of the pore are constituted by the hydrophilic face of the peptides, while their hydrophobic side is interacting with the lipid tails around the pore. This model is adopted for example by the $\alpha$-helical AMP alamethicin, which forms voltage-dependent ion channels by aggregation of four to six molecules \cite{Spaar2004}.
 
 In the ``toroidal" pore model instead, the insertion of peptides forces the phospholipid to bend continuously from one leaflet to the other, resulting in a pore defined by both peptides and phospholipids head groups.
 %
-The toroidal model differs from the barrel-stave model as the peptides are always associated with the lipid head groups even when they are perpendicularly inserted in the lipid  bilayer. Toroidal pores are induced by $\alpha$-helical magainins, protegrins and melittin \cite{Yang2001,Matsuzaki1996,Hallock2003}, and lead to membrane perturbation which extends further away from the pore than in the barrel-stave case, as lipids must rearrange around them \cite{Bertelsen2012}.
+The toroidal model differs from the barrel-stave model as the peptides are always associated with the lipid head groups even when they are perpendicularly inserted in the lipid  bilayer. Toroidal pores are induced by $\alpha$-helical magainins, protegrins and melittin \cite{Yang2001,Matsuzaki1996,Hallock2003}, and lead to membrane perturbation which extends further away from the pore than in the barrel-stave case, as lipids must rearrange around them.
 
-As a comparison, alamethicin induced barrel-stave pores have an inner and outer diameters of 1.8 nm and 4.0 nm respectively \cite{Spaar2004,He1995}, while magainin-induced toroidal pores are larger and can vary in their size, with an inner diameter of 3.0-5.0 nm and an outer diameter of 7.0-8.4 nm, involving about 4 to 7 magainin monomers and about 90 lipid molecules \cite{Matsuzaki1998,Matsuzaki1997}.
+As a comparison, alamethicin induced barrel-stave pores have an inner and outer diameters of 1.8 nm and 4.0 nm respectively \cite{Spaar2004}, while magainin-induced toroidal pores are larger and can vary in their size, with an inner diameter of 3.0-5.0 nm and an outer diameter of 7.0-8.4 nm, involving about 4 to 7 magainin monomers and about 90 lipid molecules \cite{Matsuzaki1997}.
 
-Finally, in the ``carpet" model, the accumulation of AMPs on the surface of the membrane, laying parallel to it, causes tension in the bilayer and the membrane is then disrupted by peptides in a detergent-like manner, leading to the formation of micelles \cite{Shai1999,Ladokhin2001}.
+Finally, in the ``carpet" model, the accumulation of AMPs on the surface of the membrane, laying parallel to it, causes tension in the bilayer and the membrane is then disrupted by peptides in a detergent-like manner, leading to the formation of micelles.
 %
-The critical threshold concentration triggers a cascade effect, in which formation of the first disruption allows the penetration of AMPs in the inner side of the bilayer. The cooperation between peptides on both sides of the lipid membrane enhances the AMP-induced curvature on the membrane causing accelerated disruption \cite{Oren1998}.
+The critical threshold concentration triggers a cascade effect, in which formation of the first disruption allows the penetration of AMPs in the inner side of the bilayer. The cooperation between peptides on both sides of the lipid membrane enhances the AMP-induced curvature on the membrane causing accelerated disruption.
 %
-The ``carpet" model mechanism is observed for peptides presenting an $\alpha$-helical structure with two or more helices connected by short loops (like cecropin \cite{Gazit1995} or ovispirin \cite{Yamaguchi2001}).
+The ``carpet" model mechanism is observed for peptides presenting an $\alpha$-helical structure (like melittin \cite{Ladokhin2001}) or two or more helices connected by short loops (ovispirin \cite{Yamaguchi2001}).
 
 The prevalence of examples with an helical structure for the above models derives from the fact that the understanding of how helical AMPs function is often easier than the one of $\beta$-sheet rich structures.
 %
@@ -349,18 +242,18 @@ AMPs rich in $\beta$-sheets can be divided into $\beta$-hairpins and peptides fr
 %
 Many representative of the former class disrupt bacterial membranes via formation of toroidal pores: as an example, porcine peptide protegrin I triggers the toroidal pore formation assembling into a $\beta$-barrel structure when in contact with anionic membranes (while it folds into $\beta$-sheet aggregates on the surface of cholesterol containing membranes, thus acting selectivity on bacterial membranes only \cite{Tang2009}).
 
-In the case of defensins, their mechanisms are not as well explored \cite{Lehrer2004,Zasloff2002,Fujii1993}.
+In the case of defensins, many mechanisms are known according to the specific member of the family \cite{Lehrer2004}.
 %
-Some members of the family form transmembrane pores on planar bilayer when a physiologically relevant negative potential is applied to the membrane,\cite{Kagan1990} while others form oligomers in phospholipid vesicles \cite{Takeuchi2004}.
+Some form transmembrane pores on planar bilayer when a physiologically relevant negative potential is applied to the membrane \cite{Kagan1990}, while others form oligomers in phospholipid vesicles \cite{Takeuchi2004}.
 %
-Although various descriptions of membrane damage have been reported, and include ion channels, transmembrane pores and extended rupture of the membrane, they are likely related, being a modulation of a similar acting principle \cite{Dathe1999}.
+Although various descriptions of membrane damage have been reported, and include ion channels, transmembrane pores and extended rupture of the membrane, they are likely related, being a modulation of a similar acting principle.
 
 
-\paragraph{Alternative mechanisms of action} Finally, many non-lytic mechanisms are suggested for AMPs, especially for $\beta$-sheet structures: defensin A from P. terramovae reduces the cytoplasmic potassium concentration, partially depolarising the inner membrane; tachyplesin from horseshoe crabs is able to bind to the minor groove of DNA, interfering DNA–protein interactions \cite{Yonezawa1992},
+\paragraph{Alternative mechanisms of action} Finally, many non-lytic mechanisms are suggested for AMPs, especially for $\beta$-sheet structures: defensin A from P. terramovae reduces the cytoplasmic potassium concentration \cite{Brogden2005}, partially depolarising the inner membrane; tachyplesin from horseshoe crabs is able to bind to the minor groove of DNA, interfering DNA–protein interactions \cite{Yonezawa1992},
 %
 and bovine lactoferricin can act synergistically with other antimicrobial agents by affecting the transmembrane potential and proton-motive force, resulting in inhibition of ATP-dependent multi-drug efflux pumps \cite{Gifford2005}.
 %
-Moreover, after translocation within the cell, bovine lactoferricin can also inhibit DNA, RNA and protein synthesis. Section \ref{sec:capzip} will treat in detail the functioning of this AMP, distinguishing its role as membrane active peptide versus intra-cellular targeting compound: indeed, many works have focussed on lactoferricin antimicrobial processes versus locating the section of the sequence performing the membrane disruptive activity \cite{Tomita1994,Hwang1998,Schibli1999,Nguyen2005}, to understand whether it retains the efficacy regardless of the fold.
+Moreover, after translocation within the cell, bovine lactoferricin can also inhibit DNA, RNA and protein synthesis. Section \ref{sec:capzip} will treat in detail the functioning of this AMP, distinguishing its role as membrane active peptide versus intra-cellular targeting compound: indeed, many works have focussed on lactoferricin antimicrobial processes versus locating the section of the sequence performing the membrane disruptive activity \cite{Tomita1994,Schibli1999}, to understand whether it retains the efficacy regardless of the fold.
 
 These and similar strategies of investigations, conducted on several AMPs \cite{???}, provided the discovery of first minimal functioning antimicrobial blocks, which promoted the understanding of how AMPs work in general, boosting the design of synthetic tailored AMPs from specific sequences.
 
@@ -369,113 +262,57 @@ These and similar strategies of investigations, conducted on several AMPs \cite{
 
 Antimicrobial peptides are introduced here as a class of new drugs and a possible solution to the crisis of antimicrobial resistance. Any new drug entering the pool of the clinically approved compounds is (at least temporary) a solution to the problem of resistance to known antibiotics, but it must be clarified that bacteria can develop resistance to AMPs too.
 %
-As such, AMPs might not be a definitive solution to the problem; never the less, the resistance to their action is generally not based on dedicated resistance genes that are conferred by horizontal gene transfer, as in the case of many antibiotics resistance mechanisms \cite{Peschel2006,Juhas2015}.
-Because of that, a certain increase of resistance after exposure to the drug is to be expected ('MIC creep'), %such as observed for the AMP-related antibiotic, daptomycin [126,176]
-but it is less likely to spread quickly to other species.
+Never the less, the resistance to their action is generally not based on dedicated genes that are conferred by horizontal gene transfer, as in the case of many antibiotics resistance mechanisms \cite{Peschel2006}. Because of that, a certain increase of resistance after exposure to the drug is to be expected (`MIC creep'), but it is less likely to spread quickly to other species.
 
-Some of the mechanisms of resistance to AMPs are similar to the ones employed by bacteria to counteract small molecule drugs, for example overexpression of efflux pumps to dispose of AMPs, proteolytic degradation of the peptide by extracellular enzymes, or sequestration by the bacterial biofilm matrix which prevents accession to the target. Others instead tackle the specific action of AMPs on the cell membrane, and prevent it by modifying the composition of the surface or of the cytoplasmic membrane. Table \ref{table:AMP_res}, from Ref. \cite{Joo2016} lists these mechanisms, offering examples for each, in both Gram-positive and Gram-negative bacteria.
+Some of the mechanisms of AMPs resistance are similar to the ones employed by bacteria to counteract small molecule drugs, for example over-expression of efflux pumps to dispose of AMPs, and degradation of the peptide by extracellular enzymes and sequestration by the bacterial or biofilm matrix to prevent accession to the target \cite{Peschel2006}.
+
+Differently with respect to antibiotics hydrolysis, AMPs proteolitic degradation is operated by proteases, proteins themselves secreted on the extracellular side of the membrane to destroy other proteins. Linear AMP are more prone to this type of degradation \cite{Sieprawska-Lupa2004}, as opposed to the ones presenting disulfide bonds \cite{Peschel2006}, such as defensins, which nevertheless can be hydrolysed by more specific proteases enzymes \cite{Nelson2011}.
+
+Bacteria can also enhance their resistance to AMPs organising into specialized structures known as biofilms. These structures are formed by sessile bacteria adhering to a surface in an organized manner that allows the circulation of nutrients \cite{Costerton1999}.
 %
-In the following paragraphs some of them are explained in more details, with the omission of efflux pump, for which the principle is practically identical to what explained in Section \ref{sec:AMR_mechs}.
-
-\begin{figure}[h]
-\footnotesize
-\vspace{0.5cm}
-\centering
- \def\arraystretch{1.1}
-\begin{tabular}{lll}
-\hline \\
-\textbf{Mechanism} & \textbf{Gram-positive bacteria} & \textbf{Gram-negative bacteria} \vspace{0.3cm}\\
- \hline \\
-Extracellular proteins & \specialcell[t]{Proteolytic degradation\\Sequestration} &  Proteolytic degradation \vspace{0.35cm} \\
-Exopolymers & PIA, PGA & Alginate, polysialic acid \vspace{0.35cm} \\
-Surface modification & \specialcell[t]{Repulsion\\$\ \ \ $(D-alanylation of TA)\\Steric hindrance \\$\ \ \ $(L-rhamnosylation of WTA)\\Lipid II modification} & \specialcell[t]{Repulsion (lipid A\\$\ \ \ $phosphate modification)\\Increased OM rigidity \\$\ \ \ $(lipid A acylation)\\O-antigen of LPS} \vspace{0.35cm} \\
-\specialcell[t]{Cytoplasmic membrane\\alteration} & \specialcell[t]{Charge repulsion \\$\ \ \ $(PG amino-acylation)} & \specialcell[t]{Increased IM rigidity\\$\ \ \ $(PG acylation)} \vspace{0.3cm} \\
-%Efflux pumps & $\circ$ Export by ABC transporters & \specialcell[t]{$\circ$ Export by RND family\\$\ \, $ efflux pumps} \vspace{0.35cm} \\
-\hline
- \end{tabular}
-\captionof{table}[Overview of bacterial resistance mechanisms against AMPs]{Overview of bacterial resistance mechanisms against antimicrobial peptides. Adapted from Ref. \cite{Joo2016}}
-\label{table:AMP_res}
-\end{figure}
-
-\paragraph{Proteolitic degradation and sequestration [TAKE OFF?]}
-The first defence of bacteria against AMPs are proteins secreted on the extracellular side of the membrane, the proteases, as they are able to degrade peptides, and thus AMPs.
+Biofilm bacteria secrete an extracellular matrix with adhesion and protection functions \cite{Jolivet-Gougeon2014}, which effectively repels and/or captures AMPs through exopolysaccharid or capsular polysaccharides.
 %
-For example, staphylococci secrete many of these proteins (such as the metalloproteases aureolysin and SepA, or the serine endopeptidases V8), which are known to degrade linear AMPs as the human cathelicidin LL-37 \cite{Sieprawska-Lupa2004,Teufel1993}.
+For example polysaccharide intercellular adhesin (PIA) produced by S. aureus and a variety of other bacteria is responsible for the resistance to both cationic AMPs (HBD-3, LL-37) and the anionic one dermcidin \cite{Vuong2004PIA}: deacetylation of PIA increases its positive net charge, thus repelling more efficiently cationic AMPs, and increasing sequestration of the anionic ones at the same time, as well as forming a mechanical barrier for both of them \cite{Vuong2004}.
+
+It's worth noting that AMPs are nevertheless a promising alternatives in the treatment of biofilm-associated infections: indeed, in this type of infections (where bacteria are growing slowly) it is advantageous to have bactericidal agents such as AMPs, as opposed to bacteriostatic ones which target fast-growing bacteria only, as the majority of traditional antibiotics are \cite{Strempel2014}.
+
+But the most specific mechanism of AMPs resistance concerns modifications of the bacterial cell envelope: bacteria modify the characteristics of their surface to prevent the efficient action of an AMP, even in the eventuality that the peptide reaches the bacterial envelope intact. 
 %
-In general, linear AMPs are more easily degraded than the ones with non-linear structures containing disulfide bonds \cite{Peschel2006} such as defensins \cite{Selsted1989}.
-However, some bacteria have evolved proteases able to degrade even these AMPs with increased stability; for example group A Streptococcus produces a cysteine protease able to disrupt LL-37 and beta-defensins \cite{Schmidtchen2002,Baranska-Rybak2006,Nelson2011,Frick2011}, and the OmpT protein contributes to resistance in E. coli by degrading the AMP protamine \cite{Stumpe1998} which is thought to have a non-linear structure involving three disulfide bonds \cite{Biegeleisen2006}.
+The target of such modifications are different for Gram-positive and Gram-negative bacteria, according to their distinct cell envelopes
 %
-In an adaptation to such resistance mechanism, AMPs can escape the action of proteases by binding to proteins such as extracellular actin, preventing the access of degradative proteases while still maintaining the activity \cite{Sol2014}.
-
-%Other more complex mechanisms of degradation are possible, like the ones occurring in the intracellular environment after the AMP is being imported by specific transport proteins \cite{Groisman1992,Parra-Lopez1993,Mason2005}
-To be noticed that also host immune response related proteins can have AMP-degrading activity \cite{Taggart2003}.
-
-Another process relevant for the neutralisation of AMPs at the extracellular environment level is the sequestration of the peptides: as an example, staphylokinase (one of the most prominent extracellular AMP-sequestering molecules \cite{Bokarewa2004,Jin2004}) inactivates $\alpha$-defensin binding to them and preventing their interaction with the designed target.
-
-
-\paragraph{Biofilms}
-
-Bacteria can resist AMPs by organising into specialized structures known as biofilms. These structures are formed by sessile bacteria adhering to a surface in an organized manner that allows the circulation of nutrients \cite{Costerton1999}.
+Gram-positive bacteria change teichoic acids (TA): for example, D-Alanylation of TA observed in S. Aureus, adds a positive charge to it, reducing the attraction of cationic AMPs and in turn increasing the cell wall density, so reducing the surface permeability \cite{Saar-Dover2012}.
 %
-Bacteria in a biofilm secretes an extracellular matrix with adhesion and protection functions. This matrix includes various compounds as cellulose, teichoic acids, proteins, lipids and nucleic acids \cite{Jolivet-Gougeon2014} and confers resistance to antibiotics and AMPs, in some cases 1000 times as great as the one developed by bacteria in their planktonic form \cite{Nickel1985,Mah2001}. This is achieved by repulsion and/or capture of AMPs by mainly exopolysaccharid or capsular polysaccharides.
+Alternatively they can modify the bacterial peptidoglycan precursor, lipid II, which has a key role in the formation of the cell wall ad is often targeted by AMPs. For example, the replacement of its terminal D-alanine with D-lactate or D-serine \cite{Bugg1991} avoids the action of the glycopeptide vancomycin as the functioning of this molecule proceeds by binding to the D-Ala-D-Ala terminal moieties of the precursor.
 
-For example polysaccharide intercellular adhesin (PIA) produced by S. aureus and a variety of other bacteria is responsible for the resistance to both cationic AMPs (HBD-3, LL-37) and anionic dermcidin \cite{Wang2004,Vuong2004PIA}: deacetylation of PIA increases its positive net charge, thus repelling more efficiently cationic CAMPs, and increasing sequestration of the anionic AMP dermicidin at the same time, as well as forming a mechanical barrier for both of them \cite{Vuong2004}.
+In Gram-negative bacteria a positive charge can be added to lipopolysaccharides (LPS) by addition of amine-containing molecules \cite{Moskowitz2004} or by removing phosphate lipids (which have a negative charge) from lipid A, one of the constitutive moieties of LPS \cite{Wang2006lpx}, to obtain the same effects as for the increased charge in TA.
 %
-In other cases, structural hindrance and electrostatic trapping prevent cationic AMPs to penetrate bacterial biofilms, while they are effective against their planktonic counterpart (as observed for polymyxin B, HNP-1,HBD-1, lactoferrin and protamine on K. pneumoniae, S. pneumoniae or P. aeruginosa) \cite{Campos2004,Llobet2008}.
-
-Moreover AMPs are nevertheless promising as alternatives to traditional antibiotics in the treatment of biofilm-associated infections. Indeed in this type of infections (where bacteria are growing slowly) it is advantageous to have bactericidal agents as opposed to bacteriostatic ones which target fast-growing bacteria, as the majority of traditional antibiotics \cite{Batoni2011,Strempel2014}.
+They can also enhance the rigidity of the outer membrane to reduce permeability to AMPs via addition of extra acyl chains into lipid A \cite{Guo1998}, and
 %
-Therefore, biofilm-intrinsic AMP resistance constitutes a great challenge in a field already depleted of efficient treatments \cite{Joo2012,DiLuca2014}.
+finally they can act at the cytoplasmic membrane level, as this is the final target of many antimicrobial peptides. In the eventuality that AMPs successfully pass the cell wall and reach this membrane, they are attracted to its surface by the negative charge of the lipids composing it, in particular, phosphatidyl-glycerol (PG) and diphosphatidylglycerol (DPG, also called cardiolipin). Their negative charge can be masked by amino-acylation of the PG head group, so that the final compound repels AMPs through electrostatic interaction \cite{Peschel2001}, or the overall rigidity of the cytoplasmic membrane can be enhanced, by an increase in saturated acyl chains which has been proven to confer resistance \cite{Kumariya2015}.
 
-\paragraph{Surface remodelling}
-As mentioned in the previous two paragraphs, the bacterial cell envelope environment constitutes a major impediment for AMPs activity.
-%
-Even if a peptide reaches the bacterial envelope intact, bacteria can modify the characteristics of their surface to prevent its efficient action.
-%
-Gram-positive and Gram-negative bacteria put in place different strategies to do that, according to their distinct cell envelopes. In particular, the target of such modifications are the teichoic acids (TA) in Gram-positive cell wall, and lipopolysaccharides (LPS) in the Gram-negative outer membrane.
-%
-For example, D-Alanylation of TA, observed in Staphylococcus, adds a positive charge to it, reducing the attraction of cationic AMPs \cite{Peschel1999,Fabretti2006,Saar-Dover2012}.
-%
-In turn, this increases the cell wall density, reducing the surface permeability \cite{Saar-Dover2012}.
-%
-Similarly, for Gram-negative bacteria (like P. aeruginosa), the LPS positive charge is increased by addition of different amine-containing molecules \cite{Moskowitz2004,Gunn1998} or by removing phosphate lipids, which have a negative charge, from lipid A, one of the constitutive moieties of LPS \cite{Wang2004MsbA,Wang2006lpx}.
-
-Another target of AMPs in Gram-positive bacteria is the bacterial peptidoglycan precursor, lipid II, which has a key role in the formation of the cell wall. Many bacteria started using a modified version of it,
-% substantial change!
-the best known case being the replacement of its terminal D-alanine with D-lactate or D-serine \cite{Bugg1991} to avoid the action of the glycopeptide vancomycin. This molecule works binding to the D-Ala-D-Ala terminal moieties of the precursor, preventing cross linking of molecules between them and thus the cell wall synthesis \cite{Brotz1998}.
-
-Gram-negative bacteria can instead enhance the rigidity of the outer membrane to reduce permeability to AMPs via addition of extra acyl chains into lipid A \cite{Guo1998,Bishop2000}. The long polysaccharide chain of LPS (called O-antigen) makes this class of bacteria particularly resilient to the action of AMPs \cite{Silhavy2010} as both the LPS core and the O-antigen were proven to promote AMP resistance (in B. cenocepacia and Brucella abortus \cite{Loutet2006,Allen1998}).
-
-Surface modification to counteract the AMPs activity occurs very often also at the cytoplasmic membrane level, as this is the final target of many antimicrobial peptides. In the eventuality that AMPs successfully pass the cell wall and reach this membrane, they are attracted to its surface by the negative charge of the lipids composing it, in particular, phosphatidyl-glycerol (PG) and diphosphatidylglycerol (DPG, also called cardiolipin). Their negative charge can be masked by amino-acylation of the PG head group, so that the final compound repels AMPs through electrostatic interaction \cite{Peschel2001}. Usually the group added is a Lysine \cite{Thedieck2006}, but Alanine is commonly chosen as well \cite{Klein2009}.
-
-The rigidity of the cytoplasmic membrane can be enhanced as well, by an increase in saturated acyl chains which has been proven to confer resistance \cite{Band2014,Kumariya2015}, though the precise mechanisms underlying the connection are still unclear.
-
-\hspace{0.5cm}
-\\
-Finally, resistant bacteria often employ many of the aforementioned strategies at the same time, for example modification of the surface charge together with modification of other membrane components for a decreased recognition and augmented rigidity \cite{Raetz2007}.
+Finally, resistant bacteria often employ many of the aforementioned strategies at the same time, for example modification of the surface charge together with modification of other membrane components for a decreased recognition and augmented rigidity \cite{Band2014}.
 
 
 \subsection{Principles of AMP design} \label{sec:amp_design}
 
-It was already highlighted in Section \ref{AMP_mechs} that a classification of AMPs would provide knowledge on the characteristics a sequence must have to perform an antimicrobial function.
+The study and classification of AMPs provide knowledge on the characteristics a sequence must have to perform an antimicrobial function.
 %
-At the present state of the art, several databases exist gathering AMPs and subclasses of them, like membrane active, biofilm active or haemolytic peptides \cite{APD3,DBAASP2,dbAMP,antiBP2,amPEP}. Based on the increasing amount of data, it is now possible to identify features which, comprehensively, discriminate AMPs with respect to non antimicrobial peptides:
-%
-\begin{itemize}
-\item \textbf{Structure}: as mentioned before, both $\alpha$-helical and $\beta$-sheet rich AMPs exist, as well as mixed structures. Short helix ($\sim$ 22 amino acids) \cite{???} and short $\beta$-sheet ($\sim$ 10 amino acids) \cite{???} are particularly common among AMPs, and their structural difference is reflected in the different mechanisms of actions (when known). When screening a peptide to identify its AMP-likeness, it must be considered that some sequences may rearrange in proximity of the membrane, thus their structure in solution does not reflect their active conformation.
-\item \textbf{Charge}: AMPs are charged moieties. Usually they present positive charge (up to $\sim + 10\,e$), but there are examples of anionic ones \cite{???see_example_on_AMPR}. Their potency is often related to the amount of charge each unit possesses, however an excessive charge may promote haemolytic activity as well. \cite{???}
-\item \textbf{Hydrophobicity}: together with charged amino acids, AMPs contain also hydrophobic residues, usually with abundance of aromatic chains and specifically Tryptophan. Indeed membrane active peptides must insert into the lipid core of membranes, which is an hydrophobic environment, therefore having such residues help them in anchoring in the lipid tail region.
-\item \textbf{Amphipathicity}: to host both the charged and hydrophobic residues, most AMPs organise themselves in an amphiphatic structure, i.e. the two types of amino acids side chains are located on the opposite side of the peptide. The usefulness of this segregation in the anchoring and penetrating mechanism has been explained in Section \ref{sec:AMR_mechs}.
-\item \textbf{Solubility} AMPs need good solubility to prevent aggregation in the aqueous environment they float in before arriving to the membrane, as aggregation would most likely impede their optimal interaction with the membrane.
-\item \textbf{Sequence motifs}: a long debate exists on whether the effectiveness of AMPs is related to particular sequence motifs or only to the overall amino acid composition. Statistical methods are trying to extract relevant pattern from the databases available, however the details of the structure-activity relationship are still uncertain.
-\end{itemize}
-%
-Data-driven knowledge based on the above features, make possible to predict whether an amino acid sequence is antimicrobial or not. Several online servers (APD3, dbAMP, DBAASP, antiBP2, amPEP \cite
-{APD3,DBAASP2,dbAMP,antiBP2,amPEP}) are available to host curated databases and, based on statistical or machine learning methods elaborated on those, evaluate the antimicrobial properties of user provided sequences: the output is generally a score of how likely the peptide is to have such function, with sometimes an optional indication on whether the activity might be stronger against Gram-positive or Gram-negative bacteria.
+As discussed in Section \ref{AMP_mechs}, there are some features which, comprehensively, help in discriminating AMPs against non antimicrobial peptides. The constantly increasing amount of data available is gathered in several curated databases \cite{APD3,DBAASP2,dbAMP,antiBP2,amPEP}, which catalogue AMPs (or subclasses of them, like membrane active, biofilm active or haemolytic peptides) based on such features to promote future data-driven prediction of the antimicrobial character of a sequence.
 
-At present, it is still impossible to foresee the precise efficacy and mechanism of action of an AMP from its sequence only (while more information can be derived if a structure is present as well). 
+We recapitulate below a few key characteristics which are peculiar of AMP sequence. To be noticed that while some are easily retrievable from the sequence of the peptide, other imply direct experimental measures, and thus are difficult to implement into a simple sequence-based method to predict activity:
+\begin{itemize}
+\item \textbf{Structure}: both $\alpha$-helical and $\beta$-sheet rich AMPs exist, as well as mixed structures. Short helix ($\sim$ 22 amino acids) and short $\beta$-sheet ($\sim$ 10 amino acids) are particularly common, acting through slightly different mechanisms (when known). When screening a potential AMPs, it must be considered that the fold close to a membrane environment might be different with respect to the one in solution.
 %
-The knowledge of structure-activity relationships for AMPs would be beneficial to find new, better performing ones. Indeed the design of new AMP sequences aims at improving some specific characteristics:
+\item \textbf{Charge}: AMPs are charged moieties. Usually cationic (up to $\sim + 10\,e$), with fewer anionic examples (like dermcidin). Among cationic ones, not all the positive amino acids have equal role, for example Arginines are more effective than Lysins \cite{Chan2006}. The potency, but also their haemolytic activity, are often directly related to the amount of charge \cite{???}.
+%
+\item \textbf{Hydrophobicity}: AMPs contain also hydrophobic residues, usually with abundance of aromatic chains and specifically Tryptophan, as they must insert and anchor into the lipid core of membranes, which is an hydrophobic environment.
+%
+\item \textbf{Amphipathicity}: to host both the charged and hydrophobic residues, most AMPs organise themselves in an amphiphatic structure, i.e. the two types of amino acids side chains are located on the opposite side of the peptide.
+%
+\item \textbf{Solubility} AMPs need good solubility to prevent aggregation in the aqueous environment they float in before arriving to the membrane. Aggregation would most likely impede their optimal interaction with the membrane.
+\end{itemize}
+
+A part from predictions regarding existing sequences, the knowledge of AMPs sequence-activity and structure-activity relationships is beneficial to find new, better performing ones. The design of new AMP sequences aims at producing peptides with improved characteristics:
 \begin{itemize}
 \item \textbf{specificity} against particular bacterial species;
 \item \textbf{stability} against the action of proteases, thus allowing a longer residence time in the body;
@@ -483,69 +320,55 @@ The knowledge of structure-activity relationships for AMPs would be beneficial t
 \end{itemize}
 The need for such improved peptides lies in the fact that their natural form constitutes a first broad spectrum defence our body employs against infectious bacteria and thus AMPs are often of mild potency. However, foreseeing their application as future drugs, it is desirable to tailor them to fulfil different criteria according to the infection to treat.
 %
-Several methodological approaches to AMP design are possible, and they can be grouped in three main lines: template based studies, biophysical studies and virtual screening \cite{Fjell2011}.
-
+At the present state of the art, a golden rule for the design of such sequences is still missing, however several methodological approaches to AMP design have been explored, and they can be grouped in three main lines: template based studies, biophysical studies and virtual screening \cite{Fjell2011}.
 
 \paragraph{Template based studies}
-The main idea behind template based methods consists in employing existing antimicrobial sequences and modifying them in the direction of the desired characteristics. The most widely explored templates are cecropin, magainin and protegrin for their short sequences and because their action and structure has been well characterised \cite{Wiradharma2011,Huang2010,Pag2008,Wang2015}.
+The main idea behind template based methods consists in modifying existing antimicrobial sequences in the direction of the desired characteristics. The most widely explored templates are helical peptides, for their short sequences and because several of them (cecropin, magainin and protegrin) have been well characterised \cite{Wang2015}.
 
-Ideally, an amino acid scanning of all the residues in an AMP provides information on the role of each of them thus prompting at the most suitable mutations. High-throughput methods allow nowadays for such thorough investigation in the case of short AMPs \cite{Hilpert2005,Hilpert2006}; similarly, a less resource consuming Alanine scanning points at the most critical residues for the antimicrobial activity, on which all the mutations can be tested \cite{Migon2018,Grieco2011,Xie2018}.
-
-In the absence of such resources, earlier studies focused on simpler approaches to enhance charge and amphiphilicity of the peptides, as these characteristics are deemed crucial in their effectiveness (see the paragraph above) \cite{Wiradharma2011,Huang2010,Pag2008,Wang2015}.
+Ideally, an amino acid scanning of all the residues in an AMP provides information on the role of each of them, prompting at the most suitable mutations. High-throughput methods allow nowadays for such thorough investigation in the case of short AMPs \cite{Hilpert2005}, but similar, less resource consuming Alanine scannings can still point at the most important residues for the antimicrobial activity \cite{Migon2018}.
 %
-Similarly, the addition of acyl moieties have been shown empirically to improve the performances of AMPs, as these can provide the necessary hydrophobic domains that, together with charged amino acids, allow an amphiphatic structure in short pep­tides \cite{Radzishevsky2005,Serrano2009,Avrahami2004}.
+Alternatively, simpler approaches aim at designing peptides with enhanced charge and amphiphilicity, as these characteristics are deemed crucial for their effectiveness (see the paragraph above) \cite{Wang2015}.
 
-However the above methods focus on the single amino acid level and can not take into account the interplay between residues, while the paired mutation of some of them at the same time can give optimal results with respect to a single intervention.
+However the above methods focus on single amino acids and can not take into account the interplay between residues, nor the three dimensional structure of the peptide. Without such information, it is difficult to extract general rules on why some mutations work better, and often the results of these studies give indeed enhanced AMPs, but cannot be generalised to other sequences.
 %
-Furthermore there is little to no information on the three dimensional structure of the mutated peptide. Without such information, it is difficult to extract general rules on why some mutations work better, and often the results of these studies give indeed enhanced AMPs, but cannot be generalised to other sequences.
+Therefore, recent works sought to integrate structural information on template based models, designing peptides active against many bacterial lines at the same time \cite{Liu2018} or to enhance selectivity for bacterial membranes \cite{Jiang2011}.
 
-Only recently a structure based approach has been developed to integrate structural information on template based models to design peptides active against many bacterial lines at the same time \cite{Liu2018}.
+A complementary approach to single point mutations on known peptides consists in designing minimal antimicrobial blocks: several investigations proved the importance of single residues and their intercalated pattern in natural and designed AMPs. For example, natural AMPs are rich in Tryptophan and Arginine residues \cite{Chan2006}, and synthetic ones have been produced with only Lysines-Leucine, or Arginine-Valine combinations to produce amphi­pathic helices \cite{Deslouches2005}.
 %
-Similarly, a template design method combining chemical and case specific structural information \cite{Jiang2011} has recently been designed, producing AMPs with improved selectivity for bacterial membranes. Starting from a synthetic broad spectrum AMP with high toxicity, the positioning of positively charged residues at the centre of the non polar face of the amphipathic $\alpha$-helix reduced its haemolytic activity while improving its therapeutic index. This proves that charge and structure features do affect the antimicrobial activity, but again does not provide very generalised design rules.
-
-A complementary approach consists in focussing on minimal antimicrobial blocks: several investigations proved the importance of single residues and their intercalated pattern in natural and designed AMPs. In particular, natural AMPs are rich in Tryptophan and Arginine residues \cite{Chan2006}, while synthetic ones have been produced with only Lysines-Leucine, or Arginine-Valine combinations to produce amphi­pathic helices \cite{Deslouches2005}. Furthermore, polyarginine are long known for being cell penetrating peptides \cite{Schmidt2010}.
-
 An effort to extract principles from these examples is represented by text based model where amino acids constitute the letters and patterns occurring in natural AMPs are the grammar rules \cite{Loose2006}.
-This approach can benefit of the improving size of peptide databases, together with the advancement in text mining technology and dedicated machine learning algorithms, bringing to the streamlined selection of promising sequences to investigate further \cite{Cipcigan2018}.
 
 In general, the advantage of template based methods is in the reduced number of sequences to test, with decreased cost, as only a subspace of them is explored, namely the ones close to the original template.
 
 
 \paragraph{Biophysical studies}
-Biophysical studies aim at understanding the functioning of AMPs by investigating their structure. Free energy perturbation, Molecular Dynamics (MD) simulations and thermodynamics calculations can all provide knowledge on how the three dimensional arrangement of residues is important to allow their functional role.
+Biophysical studies aim at understanding the functioning of AMPs investigating their structure. Free energy perturbation, Molecular Dynamics (MD) simulations and thermodynamics calculations can all provide knowledge on how the three dimensional arrangement of residues is important to allow their functional role.
 %
-Contrary to sequence based methods, these techniques give an insight into the mechanism of action of an AMP: for example, free energy perturbation allows to pinpoint the interactions stabilising a structure, while Molecular Dynamics simulations can show why a particular residue binds favourably to the membrane. Moreover, structural information is crucial to discriminate cases in which similar sequences behave differently due to the environment around them, as this information is necessarily lost in a sequence only approach.
-
-The drawback of such techniques lays in their computational cost. All of them can approach systems with a limited size, and simulations can access short (microseconds) time scales preventing the reproduction of phenomena of the order of millisecond (a detailed overview of the state of the art, advantages and drawback of MD simulations will be given in Chapter \ref{chapter:MD}).
+Contrary to sequence based methods, these techniques give an insight into the mechanism of action of an AMP but their drawback lays in the high computational cost. For example simulations can approach systems with a limited size, and short (microseconds) time scales only preventing the reproduction of phenomena of the order of millisecond (a detailed overview of the state of the art, advantages and drawback of MD simulations will be given in Chapter \ref{chapter:MD}).
 %
 For these reasons, such techniques have been applied to fewer systems in comparison to sequence based screenings, and only few mutations have been tested and compared in silico.
 
-As such, the strength of biophysical studies does not lay in the power of analysing large datasets, but rather in the fact that, as they exploit the whole information available on a system (sequence, structure, chemistry), they can single out the interactions that are crucial for a mechanism, clarifying whether they are peculiar of a given local environment or they can be transferred elsewhere. In this respect, they provide a generalisable knowledge applicable to different systems and thus to the design of novel AMPs at the atomistic level.
+The strength of biophysical studies lay instead in the fact that they exploit the whole information available on a system (sequence, structure, chemistry), so they can single out the interactions that are crucial for a mechanism, clarifying whether they can be transferred to a different environment, or discriminate cases in which similar sequences behave differently due to the environment around them. In this respect, they provide a generalisable knowledge applicable to different systems and thus to the design of novel AMPs at the atomistic level.
 
-An example of how MD simulations shed light on AMP-membrane interactions is given by the protegrine peptide: porcine protegrin is a $\beta$-hairpin AMP which is though to act through pore formation. A model for the detailed steps of such mechanism was obtained by MD simulations, and proposed a non trivial process of electrostatic attraction to the anionic membrane, followed by dimeri­sation and subsequent insertion into the membrane. Inserted peptides finally form large aggregates that lead to transmem­brane pores formation \cite{Bolintineanu2011}.
-%
-Further steps were taken for ovispirin \cite{Khandelia2005}, indolicidin \cite{Tsai2009} and temporin \cite{Farrotti2017} sequences, designing and testing mutants of the original sequence with improved activity and decreased haemolytic activity on a computational basis, which was confirmed experimentally later on.
+Examples of studies where MD simulations shed light on AMPs mechanism helping evaluating a mutant structure is the cases temporin \cite{Farrotti2017} sequences, where a mutant with improved activity and decreased haemolytic activity was synthesised on a computational basis.
 
 \paragraph{Virtual screening}
-Contrary to biophysical assay, virtual screening methods are employed to analyse a large number of sequence, when an experimental or computational test of all of them would be prohibitive. The key concept of these methods consists in the identifications of some descriptors which allow to predict the potency of the sequence: from the analysis of a database of AMP with known activity, a model is created and used to score novel synthetic sequences. The aforementioned text-based method falls in this category, but it can be generalised to include more information than the sequence composition only, namely chemical or structural information.
+Contrary to biophysical assay, virtual screening methods are employed to analyse a large number of sequences, when an experimental or computational test of all of them would be prohibitive. The concept of these methods consists in the identifying descriptors which allow to predict the potency of the sequence: from the analysis of a database of AMP with known activity, a model is created and used to score novel synthetic sequences.
 
-These methods are witnessing new popularity due to the recent evolution of machine learning (ML) techniques: if originally they relied on regression methods, in the past three decades artificial neural network have been extensively applied to the problem (for a historically informed review see Table 1 in Ref. \cite{Fjell2011}). Machine learning appears particularly suitable to the task as the potency of AMPs is certainly determined by the combination of many factors, and it is difficult to properly weight them and identify the predominant ones in each context.
+The recent evolution of machine learning (ML) techniques, artificial neural network in particular, gave a great impulse to virtual screening of AMPs (for a historically informed review see Table 1 in Ref. \cite{Fjell2011}). Machine learning appears particularly suitable to the task as the potency of AMPs is determined by the combination of many factors, the relative weight of which can be difficult to identify. Moreover, they can help in the identification of relevant features traditionally overlooked.
 
-Therefore, ML algorithms are trained on a set of AMPs labelled by their potency, with each of them characterised by many different properties (features): sequence, partial charge, hydrophobicity, amphiphilicity and molecular weight are the most intuitive ones; but also experimental measures of pK (the logarithm of the dissociation constant), pI (the isoelectric point), nuclear magnetic resonance data, chromatographic indices retention time in a given chromatography column, octanol-water partition fraction or circular dichroism data. Finally, other theoretically computed features as van der Waals surface area and hardness (the energy required to remove the outermost electron) can be considered as well.
+Practically, ML algorithms are trained on a set of AMPs labelled by their potency and characterised by different properties (features) along the line of the ones mentioned at the beginning of the section: sequence, partial charge, hydrophobicity, etc; but also experimental measures (pK measures, nuclear magnetic resonance data, octanol-water partition fraction and so on), together with theoretically computed features such as the van der Waals surface area.
 %
-The more the input properties to consider, the more expensive is to train the model, but an higher accuracy can be meet: the power of such approach is indeed in the identification of relevant features traditionally overlooked. At the same time though, the output is likely providing complex descriptors (i.e. combinations of many features) of difficult interpretation. This is why the step of features selection is important and more than one model is trained to identify the minimum set which gives satisfactory agreement with the data \cite{Walters2005,Gonzalez2008}.
+The more the input properties to consider, the more expensive is to train the model, but the higher the accuracy that can be meet. At the same time, the output descriptor is likely complex (i.e. combinations of many features) and thus of difficult interpretation.
 %
-In principle, having complex descriptors is not a problem as, rather than guide the design of future AMPs from first principles, they can be used to scores all possible combinatorial sequences of the desired length to identify the best ones. In practise though, this can be difficult even for such an in silico screening because of their exponentially growing number (as a meter, all the possible amino acid combinations on a 10 residues sequence are of the order of $10^{11}$).
+In principle, this is not a problem (provided there is no overfitting) as, rather than guide the design of AMPs from first principles, descriptors can be used to scores combinatorial sequences of the desired length to identify the best ones, but in practice, this is difficult because of their exponentially growing number.
+
+The second obstacle to ML procedures is given by the fact that the more features one wants to consider, the more sequences need to be given as input to the algorithm, i.e.\ need to be experimentally tested.
 %
-A possible solution is constituted by evolutionary search methods in the sequence space: analogously to an energy minimization process in space, single amino acid mutations are attempted and the fitness of the new sequence computed, based on the model generated via ML. The move is accepted if it proceeds toward an improved fitness, i.e.\ a maximum in the fitness landscape, and rejected otherwise.
+Modern high-throughput synthesis methods, together with surrogate measures of bacterial killing are allowing it nowadays, as shown by Cherkasov et al. \cite{Cherkasov2009}, who assessed the antimicrobial properties of thousands of 9 residues sequences and trained a neural network on the outcome, to then score novel sequences with good accuracy.
 
-Another obstacle to ML procedures is given by the fact that the more features one wants to consider, the more sequences need to be given as input to the algorithm: nowadays, high-throughput synthesis methods, together with surrogate measures of bacterial killing (such as lipid vesicle experiments \cite{Wimley2010} or the diminished energy dependent luminescence of bacteria constitutively expressing luciferase 90, rather that Minimum Inhibitory Concentration assays \cite{Lewenza2005}), allow for quick screening of many of those.
-%
-This procedure was employed by Cherkasov et al. \cite{Cherkasov2009}, as they assessed the antimicrobial properties of thousands of 9 residues sequences and trained a neural network on the outcome, to then score novel sequences with good accuracy, as proved subsequently by experiments.
-
-%More recently, new studies are exploring novel machine learning approaches, with the aim of selecting sequences for experimental assays \cite{Lee2017}, while some work suggests the combined use of machine learning and molecular dynamics for an improved selection of interesting peptides.
-
-Overall, peptide design has proven successful in producing sequences with improved potency or selectivity. However, it is still a case-dependent procedure, rather than a general, automated protocol easily applicable to enhance any sequence of choice.
+\hspace{0.5cm}
+\\
+As already mentioned, peptide design has proven successful in producing sequences with improved potency or selectivity; however, it is still a case-dependent procedure, rather than a general, automated protocol easily applicable to enhance any sequence of choice.
 
 
 \subsection{Clinical applications}
@@ -555,19 +378,15 @@ The constant creeping of AM resistance though has focussed more effort on this c
 
 The two major problems encountered so far for AMPs sequences in trial are the liability to proteolytic degradation, and the unknown toxicology profile when administered systemically \cite{Hancock2006}. For the last reason in particular, many of them in are trial for topical use against skin infections only, while they are deemed unsuitable for internal administration.
 %
-Design of novel AMPs can be tailored to improve the liability to degradation, for example introducing D-amino acids, non natural amino acid analogues of opposite chirality, which, with appropriate formulations, are mimetic to the immune system \cite{Wipf2009,Choudhary2011}. Moreover, machine Learning protocols can help in pre-screening their toxicity through virtual screening methods.
+Design of novel AMPs can be tailored to improve the liability to degradation, for example introducing D-amino acids, non natural amino acid analogues of opposite chirality, which, with appropriate formulations, are mimetic to the immune system \cite{Wipf2009}. Moreover, machine Learning protocols can help in pre-screening their toxicity through virtual screening methods.
 
 Overall, antimicrobial peptides remain a promising tool to counteract infections and, as their design is still - comparatively - in its infancy, there is room to explore novel applications and synthesise improved sequences apt to get to the clinical stage.
 
 
 \section{Gene therapy} \label{sec:gene_th}
+Alongside the new compounds used to counteract bacterial infections, we want to bring the reader's attention to another class of therapies developed in the last decades for the treatment of non infectious diseases and is relevant for the work of this thesis as well: gene therapy. In recent years it has greatly evolved and gained attention for the treatment of tumours, genetic diseases and complex acquired disorder \cite{Anguela2019}.
 
-% REFS
-% Anguela2019, Barrangou2015, Hsu2014, Lawler2017, Mingozzi2011, Naldini2011, Oldfield1993, Zhang2014cas
-
-Alongside the new compounds used to counteract bacterial infections, we want to bring the reader's attention to another class of therapies developed in the last decades for the treatment of non infectious diseases and is relevant for the work of this thesis as well: gene therapy. Briefly mentioned in Section \ref{sec:organic} when introducing Adeno Associated Viruses, in recent years it has greatly evolved and gained attention for the treatment of tumours, genetic diseases and complex acquired disorder \cite{Anguela2019}.
-
-The key concept is the delivery of genetic material to sick cells which possess a faulty copy of a gene, to influence its expression. Such fault can result in lack of synthesis of the protein of interest or in its misfold and/or misfunction. The correction can be performed in three different ways: augmentation gene therapy introduces an healthy gene copy to restore the normal functionalities of the protein of interest and thus of the cell; suppression gene therapy suppresses a detrimental gene (this is particularly useful in the case of cancer, to impede cancer cells replication); gene-editing, the most recent advance in the field, overlooks the possibility of correcting base pairs mutations to restore the original healthy sequence (Figure \ref{fig:gene_therapy}).
+The key concept is the delivery of genetic material to sick cells which possess a faulty copy of a gene, to influence its expression. Such fault can result in lack of synthesis of the protein of interest or in its misfold and/or misfunction. The correction can be performed in three different ways (Figure \ref{fig:gene_therapy}).
 
 \begin{figure}
 \begin{center}
@@ -576,22 +395,25 @@ The key concept is the delivery of genetic material to sick cells which possess 
 \end{center}
 \end{figure}
 
-For the first strategy mentioned above, the therapy itself usually consists in the delivery of a DNA strand, which in turn can be internalised in the genome and thus spread when the cell replicates, or not internalised and thus can influence the functionalities of that particular cell only. The first approach is used mainly for ex vivo administration (in cultured cells taken from the patient that are subsequently transplanted back), while the second for in vivo one (direct injection into the patient).
+Augmentation gene therapy introduces an healthy gene copy to restore the normal functionalities of the protein of interest and thus of the cell: it usually consists in the delivery of a DNA strand, which in turn can be internalised in the genome and thus spread when the cell replicates, or not internalised and thus can influence the functionalities of the particular transfected cells only.
 %
-The second strategy, gene repression, employs RNA interference and in vivo therapy, therefore aims at delivering miRNA (microRNA) or siRNA (small interfering RNA) strands which repress the transcription of the problematic RNA sequence.
+Suppression gene therapy suppresses a detrimental gene, and this is particularly useful in the case of cancer, to impede cancer cells replication. Usually this strategy employs RNA interference, delivering miRNA (microRNA) or siRNA (small interfering RNA) strands which repress the transcription of the problematic RNA sequence.
 %
-Finally, gene-editing is often done through the functionalisation of the CRISPR-Cas9 technology, a mechanism found in prokaryotic organism as bacteria and archea as defence against viruses \cite{Barrangou2015}.
-CRISPS (clustered regularly interspaced short palindromic repeats) is a library of DNA fragments from viruses that have previously infected the prokaryote, and the Cas9 enzyme (``CRISPR-associated protein 9") uses these sequences to recognize and cleave strands of DNA complementary to the CRISPR sequence. In doing so, it blocks the reproduction of viruses if a following infection occurs. Research has been able to engineer the CRISPR-Cas9 technology to edit (rather than simply cleave) genes within eukaryotic organisms \cite{Zhang2014cas,Hsu2014}, thus performing a therapeutic role.
+Finally, gene-editing, the most recent advance in the field, overlooks the possibility of correcting base pairs mutations to restore the original healthy sequence and is often done through the functionalisation of the CRISPR-Cas9 technology, a mechanism found in prokaryotic organism as defence against viruses \cite{Barrangou2015}:
 %
-More complex strategies are possible combining gene and drug therapy, such as the delivery of suicide genes to increase the sensitivity of tumour cells to cytotoxic drugs \cite{Oldfield1993}, or the use of oncolytic viruses (OVs) that selectively replicate in tumour cells only, disrupting them \cite{Lawler2017}.
-
-One of the main challenges in the development of such therapies lies in the identification of a suitable vector: delivery of free genome in solution results in poor internalisation and low therapeutic effect. Vectors allow the DNA/RNA to enter effectively into the cell: viruses can be used, modifying their genome to include the necessary sequence and remove the ones promoting viral replication \cite{Naldini2011,Mingozzi2011}.
-%
-%According to the administration type (ex or in vivo), integrating and non integrating viral species are used, i.e. which have a mechanism to transfer their genome into the host one or not (specifically the most used ones are lentiviral and adeno-associated viral (AAV) vectors respectively \cite{Naldini2011,Mingozzi2011}).
+CRISPS (clustered regularly interspaced short palindromic repeats) is a library of DNA fragments from viruses that have previously infected the prokaryote, and the Cas9 enzyme (``CRISPR-associated protein 9") uses these sequences to recognize and cleave strands of DNA complementary to the CRISPR sequence to blocks the reproduction of viruses if a following infection occurs. Research has been able to engineer the CRISPR-Cas9 technology to edit (rather than simply cleave) genes within eukaryotic organisms \cite{Zhang2014cas}, thus performing a therapeutic role.
 
 Despite the challenge posed by the development of genome editing tools, and the risk associated to them (for example the possibility of deleterious insertional mutagenesis or deleterious immune responses), at present six gene therapies have received approval in the Western world \cite{Anguela2019}, with many more undergoing regulatory review. 
 
-Nowadays, the outlook of gene therapy research lies not only in improving specific cargos to cure at the molecular lever more diseases, but also in the research of appropriate vectors with low toxicity, low induced immune response and high delivery efficiency. In that respect synthetic vectors started to be investigated for a virus-free delivery strategy. The system studied in this thesis proposes, among its other functions, to delivery genetic material into human cells.
+One of the main challenges in the development of such therapies lies in the identification of a suitable vector: delivery of free genome in solution results in poor internalisation and low therapeutic effect. Vectors instead allow the DNA/RNA to enter effectively into the cell: viruses can be used, modifying their genome to include the necessary sequence and remove the ones promoting viral replication \cite{Naldini2011,Mingozzi2011}.
+%
+Nowadays, the outlook of gene therapy research lies not only in improving specific cargos to cure at the molecular lever more diseases, but also in the research of appropriate vectors with low toxicity, low induced immune response and high delivery efficiency. In that respect synthetic vectors started to be investigated for a virus-free delivery strategy. The system studied in this thesis proposes, among its other functions, to deliver genetic material into human cells.
+
+
+\section{Delivery of therapeutic material}
+The problem of delivery sets a parallel with the small drug one, introduced at the beginning of the chapter. Indeed small molecules needs as well some delivering agents to be efficiently internalised in the cells, as well as genes do.
+
+...
 
 
 \section{Closing the circle: an antimicrobial drug delivery vehicle}
