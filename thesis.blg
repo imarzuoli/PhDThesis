@@ -9,7 +9,7 @@ A level-1 auxiliary file: 3results_capsule/results_capsule.aux
 A level-1 auxiliary file: 4lip_par/lip_par.aux
 A level-1 auxiliary file: appendix.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 10129 items from 5000.
+Reallocated field_info (elt_size=4) to 10796 items from 5000.
 Database file #1: thesis_ref.bib
 Warning--entry type for "poly" isn't style-file defined
 --line 3060 of file thesis_ref.bib
@@ -19,54 +19,56 @@ Warning--entry type for "phage" isn't style-file defined
 --line 3227 of file thesis_ref.bib
 Warning--I didn't find a database entry for "???"
 Warning--I didn't find a database entry for "????"
+Warning--I didn't find a database entry for "Silhavy"
 Warning--I didn't find a database entry for "??"
 Warning--I didn't find a database entry for "Sunde1997"
 Warning--I didn't find a database entry for "--"
 Warning--empty journal in Oneill2016
+Warning--empty booktitle in Pattni2015
 Warning--empty publisher in gromacs_man
 Warning--empty journal in Huber1997
 Warning--empty journal in Jorgensen1996
 Warning--empty journal in Leontiadou2006
 Warning--empty journal in SiewertJ.Marrink2003
-You've used 218 entries,
+You've used 246 entries,
             1876 wiz_defined-function locations,
-            1889 strings with 53166 characters,
-and the built_in function-call counts, 74921 in all, are:
-= -- 7707
-> -- 3249
+            2057 strings with 59379 characters,
+and the built_in function-call counts, 84828 in all, are:
+= -- 8711
+> -- 3704
 < -- 0
-+ -- 1162
-- -- 944
-* -- 5820
-:= -- 10337
-add.period$ -- 221
-call.type$ -- 218
-change.case$ -- 214
++ -- 1324
+- -- 1078
+* -- 6605
+:= -- 11715
+add.period$ -- 249
+call.type$ -- 246
+change.case$ -- 242
 chr.to.int$ -- 0
-cite$ -- 224
-duplicate$ -- 3550
-empty$ -- 5945
-format.name$ -- 944
-if$ -- 18009
+cite$ -- 253
+duplicate$ -- 4003
+empty$ -- 6731
+format.name$ -- 1078
+if$ -- 20373
 int.to.chr$ -- 0
-int.to.str$ -- 218
-missing$ -- 217
-newline$ -- 663
-num.names$ -- 221
-pop$ -- 323
+int.to.str$ -- 246
+missing$ -- 244
+newline$ -- 747
+num.names$ -- 249
+pop$ -- 367
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3324
+skip$ -- 3744
 stack$ -- 0
-substring$ -- 6263
-swap$ -- 2001
+substring$ -- 7113
+swap$ -- 2253
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 765
-width$ -- 221
-write$ -- 2154
-(There were 14 warnings)
+warning$ -- 7
+while$ -- 866
+width$ -- 249
+write$ -- 2430
+(There were 16 warnings)
