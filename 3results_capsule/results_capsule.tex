@@ -287,7 +287,7 @@ This normalisation is somewhat inappropriate for coarse grain models, however we
 
 \section{Results: capsule in solution} \label{sec:results_cap}
 % prima parla di atomistiche e tutto quello che c'e da dire. poi comincia confronto con cg. e parla di come si confermano cose oppure no. poi che con cg puoi confrontare con monomero
-We list here the results for the capsule in solution first: starting from the atomistic simulations, we then proceed to compare the outcome with the ones obtained by the different coarse grain models.
+We list here the results for the capsule in solution first: starting from the atomistic simulations, we then proceed to compare the outcome with the ones obtained by different coarse grain models.
 
 \begin{figure}[t]
 \centering
@@ -298,9 +298,9 @@ We list here the results for the capsule in solution first: starting from the at
 
 \subsection{Atomistic simulations}
 
-Atomistic simulations of the buckyball in solution show a consistently equilibrated structure across the three replicas (Figure \ref{fig:BTI_snap} and SI movie --).
-%
-\begin{figure}[h!]
+We discuss first the results from atomistic simulations, color coded as black or in shades of grey in the following sections. However, all the plots present back to back the results from coarse grain runs as well, anticipating the discussion of Section \ref{sec:res_multiscale}, as this would make easier the comparison later on.
+
+\begin{figure}[p!]
 \centering
 \subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/Rg_all.png} \label{fig:Rg}} 
 \subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/RMSD_all.png} \label{fig:RMSD}} \\
@@ -309,44 +309,54 @@ Atomistic simulations of the buckyball in solution show a consistently equilibra
 \label{fig:struct_UA_SIhere}
 \end{figure}
 %
-This is proven by both the stable value of the protein R$_g$ and the almost plateauing backbone RMSD (Figure \ref{fig:Rg} and \subcaptionref{fig:RMSD}). It is interesting to notice that previous simulations performed with a shorter equilibration, without the phase employing flat bottom restraints, resulted in the immediate disruption of several connections in the buckyball network, with resulting larger R$_g$. This suggest that the structure pairing present in the structure can form only when the chains are in close contact. For this to happen, a sampling of many conformations needs to be performed, and this is compatible with the long time of assembly observed experimentally (up to 7-10 hours).
+Atomistic simulations of the buckyball in solution show a consistently equilibrated structure across the three replicas (Figure \ref{fig:BTI_snap} and SI movie --).
 %
-The RDF of the protein masses around the buckyball centre of mass shows a Gaussian profile (Figure \ref{fig:RDF}). The fact that no matter is observed nearby the origin means that the molecules do not collapse to the center and the central cavity is maintained. To be noticed that the value of RDF at a given radius is already normalised by the volume of the spherical shell at that position, so that a uniformly full object would display a flat distribution.
+This is proven by both the stable value of the protein R$_g$ and the almost plateauing backbone RMSD (Figure \ref{fig:Rg} and \subcaptionref{fig:RMSD}). It is interesting to notice that previous simulations performed with a shorter equilibration, without the phase employing flat bottom restraints, resulted in the immediate disruption of several connections in the buckyball network, with resulting larger R$_g$. This suggests that the structural pairing present in the structure can form only when the chains are in close contact. For this to happen, many conformations need to be sampled, and this is compatible with the long time of assembly observed experimentally (up to 7-10 hours).
+%
+The RDF of the protein masses around the buckyball centre of mass shows a Gaussian profile (Figure \ref{fig:RDF}). The fact that no masses are observed nearby the origin means that the molecules do not collapse to the center and the central cavity is maintained. To be noticed that, given the way RDF is computed and normalised, a uniformly full object would display a flat distribution.
 %
 A fit of the RDF to a Gaussian curve returns a mean value of 5.1 nm and a FWHM of 2.2 nm, which gives an estimate of the bilayer thickness.
 %
 A similar computation is repeated for the inner and outer layer separately, providing 1.1 nm of distance between the two distributions means. This interlayer distance is compatible with the distance between the backbones of stacking $\beta$-sheet in structures like densely packed amyloids with cross-$\beta$ sheet quaternary structure (1.0 nm \cite{Sunde1997}).
 
-This thickness value thus hints at the fact that the two layers are closely packed. This is confirmed by the analysis of the pairwise correlations of motion:
-%
-molecules at the same polar coordinates (i.e. stacking radially one on the other) have a positive correlation and so move coherently, while the ones at opposite poles do not show particular correlation, as well the ensemble of all possible pairs (Figure \ref{fig:BTI_corr}). 
-\begin{figure}[t]
+\begin{figure}[p]
 \centering
 \includegraphics[width=0.95\linewidth]{3results_capsule/pics/RKGBcorr_boxplot_all.png} 
 \caption[Correlation of motion between molecules of the buckyball]{Distribution of the correlation of motion between different molecules in the buckyball simulations. Black band: median of the distribution; box: first and third quartiles; whiskers: maximum and minimum, outliers excluded (hollow dots). Results are shown for Replica 1 of each simulation set up.}
 \label{fig:BTI_corr}
 \end{figure}
-
-The measure of paired branches in the buckyball network, shown in Figure \ref{fig:BTI_beta}, reports an average of 240 pairings between arms belonging to the same layer (summing over inner and outer), and around 100 only for inter-layer ones.
 %
-\begin{figure}[h!]
+This thickness value hints at the fact that the two layers are closely packed. This is confirmed by the analysis of the pairwise correlations of motion:
+%
+molecules at the same polar coordinates (i.e. stacking radially one on the other) have a positive correlation and so move coherently, while the ones at opposite poles, as well the ensemble of all possible pairs, do not show particular correlation (Figure \ref{fig:BTI_corr}). 
+
+The measure of paired branches in the buckyball network, shown in Figure \ref{fig:BTI_beta}, reports an average (in time) of 240 pairings between arms belonging to the same layer (summing over inner and outer), four pairing per molecule, and around 60 only for inter-layer ones.
+%
+\begin{figure}[p]
 \centering
-\subbottom[]{\includegraphics[width=0.85\linewidth]{3results_capsule/pics/noSI_stAll_beta_hist.png} \label{fig:BTI_beta}} \\
-\bigskip
-\subbottom[]{\includegraphics[width=0.85\linewidth]{3results_capsule/pics/rep1_sch_GRMA.png} \label{fig:BTI_contacts}} \\
-\caption[Contacts between molecules during simulations of the buckyball]{\textbf{TAKE OUT 2.5NM INTER CONTACTS?, REPUT BACKMAPPING?, BETTER} (a) Number of paired branches within the same layer and between layers, as defined in the main text. Results are shown for Replica 1 of each simulation set up. (b) Contacts with persistence greater than 50\% between C$_\alpha$s (top row), or between side chains (bottom row) and different simulations set up (Replica 1 for each of them). A similar plot for mixed C$_\alpha$-side chain contact in shown in Figure -- of Appendix --.}
-\label{fig:BTI_cont}
+\includegraphics[width=0.85\linewidth]{3results_capsule/pics/stAll_beta_R1.png}
+\caption[Branch pairing during simulations of the buckyball]{\textbf{REPUT BACKMAPPING?, BETTER} Number of paired branches within the same layer and between layers, as defined in the main text. Results are shown for Replica 1 of each simulation set up.}
+\label{fig:BTI_beta}
 \end{figure}
 %
-The first figure means that each molecule establishes on average contacts with four neighbours. This value is larger than the one predicted for a perfect buckyball arrangement (which would be three), likely due to the fact that the structure contracts slightly with respect to the initial size and some branches deviate from the original position, locating themselves close to multiple neighbours. On the contrary, few inter layer contacts are observed within 1.2 nm distance cut off because of the steric hindrance of the side chains which are located in between the two layers, which keep their average position at a distance greater than the cut off chosen.
+This first value is larger than the one predicted for a perfect buckyball arrangement (which would be three), likely due to the fact that the structure contracts slightly with respect to the initial size and some branches deviate from the original position, locating themselves in the proximity of multiple neighbours. On the contrary, few inter layer contacts are observed within 1.2 nm distance cut off because of the steric hindrance of the side chains which are located in between the two layers, as they keep the average position of inter-layer backbone stretches at a distance greater than the cut off chosen.
 
-To look more into detail at the network of interactions between arms of the molecule, we computed the contacts between backbone and/or side chains of amino acid which survive more that 50\% of the time of the simulations, grouped by residue type (Figure \ref{fig:BTI_contacts}) and normalised by the number of molecules present.
+\begin{figure}[p]
+\centering
+\includegraphics[width=0.95\linewidth]{3results_capsule/pics/new_rep1_allFF.png}
+\caption[Contacts between molecules during simulations of the buckyball]{\textbf{REPUT BACKMAPPING?, BETTER} Contacts with persistence greater than 50\% between C$_\alpha$s (top row), or between side chains (bottom row) and different simulations set up (Replica 1 for each of them). A similar plot for mixed C$_\alpha$-side chain contact in shown in Figure -- of Appendix --.}
+\label{fig:BTI_cont}
+\end{figure}
+
+To look more into the details of the interactions between arms of the molecules, we computed the contacts between backbone and/or side chains of amino acids, normalised by the number of molecules present, and classified the ones which survive more that 50\% of the simulation time by residue type (Figure \ref{fig:BTI_cont}). 
 %
-The number of backbone contacts per molecule is around 3 for Glutammic acid and Threonine, while is between 6 and 7 for Tryptophan residues, proving that on average each residue is well paired with another one, except for Arginines: only two thirds of them are paired on average, likely because of their terminal position.
+The number of backbone contacts per molecule is around 3 for Threonine, Glutammic acid, 4 for Arginine, and between 6 and 7 for Tryptophan residues.
 %
-At the same time however the bar plot shows also that there is no rigid arrangement between branches. Indeed, for example, Tryptophan residues are not chiefly paired to Tryptophan ones, as the optimal arrangement would be, suggesting a flexibility in the structure.
+As in each molecule there are 3 Threonine and 3 Glutammic acid but 6 Arginine and 6 Tryptophan, this proves that on average each residue is well paired with another one, except for Arginines: only two thirds of them are paired on average, likely because of their terminal position.
 %
-Nevertheless, the analysis highlights that Trp residues are key to form contacts with the neighbours and (from panel b) that the interaction with Arginine through their side chains (and thus cation-$\pi$) is an important element of the structure.
+At the same time however the bar plot shows also that there is no rigid arrangement between branches. Indeed, for example, Tryptophan residues are not chiefly paired to Tryptophan ones, as the optimal arrangement would be, suggesting flexibility in the structure.
+%
+Nevertheless, the analysis highlights that Trp residues are key to form contacts with the neighbours and (from the central column) that their cation-$\pi$ interaction with Arginine through their side chains is an important element of the structure.
 
 Some of these contacts are mediated by an hydrogen bond interaction: the number of them present during the simulations is computed, and divided by amino acid type.
 % SAY THAT THEY ARE THE ONE OCCURRING AT ANY MOMENT, AND NOT THE ONES SURVIVING MORE THAN 50%?
@@ -370,7 +380,7 @@ The screening of the hydrophobic residues is a consequence of the double layer s
 \end{figure}
 
 
-\subsection{Multiscale comparison of model capsule}
+\subsection{Multiscale comparison of model capsule} \label{sec:res_multiscale}
 
 We performed a multiscale analysis of the capsule structure simulating it with two different coarse grain force fields with a twofold aim: first we wanted to simulate it for a longer time to observe how its structural properties were maintained on the medium time scale. Second, we believe that proving the stability of the capsule with different description strengthen the evidence that the assembly proposed is indeed a possible, favourable arrangement of the molecules in solution.
 
