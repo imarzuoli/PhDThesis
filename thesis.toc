@@ -66,9 +66,15 @@
 \contentsline {paragraph}{Simulations on a membrane}{94}{section*.48}
 \contentsline {section}{\numberline {3.4}Results: capsule in solution}{94}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Atomistic simulations}{94}{subsection.3.4.1}
+\contentsline {paragraph}{Global capsule structure}{96}{section*.51}
+\contentsline {paragraph}{Contacts between molecules}{96}{section*.53}
+\contentsline {paragraph}{Hydrogen bonds interaction}{98}{section*.56}
+\contentsline {paragraph}{Chemical characteristics of the surface: SASA}{100}{section*.58}
 \contentsline {subsection}{\numberline {3.4.2}Multiscale comparison of model capsule}{101}{subsection.3.4.2}
-\contentsline {paragraph}{Chemical properties}{102}{section*.56}
-\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{104}{chapter.4}
-\contentsline {appendix}{\chapternumberline {}Appendices}{105}{appendix.}
-\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{105}{section.A.1}
-\contentsline {chapter}{Bibliography}{106}{section*.58}
+\contentsline {paragraph}{Force field comparison}{102}{section*.60}
+\contentsline {paragraph}{Bilayer versus monolayer capsules}{103}{section*.61}
+\contentsline {paragraph}{Chemical properties}{104}{section*.62}
+\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{105}{chapter.4}
+\contentsline {appendix}{\chapternumberline {}Appendices}{106}{appendix.}
+\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{106}{section.A.1}
+\contentsline {chapter}{Bibliography}{107}{section*.64}

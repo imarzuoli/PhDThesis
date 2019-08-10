@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.9)  8 AUG 2019 19:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.9)  10 AUG 2019 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1616,11 +1616,6 @@ Package pdftex.def Info: 3results_capsule/pics/RKGBcorr_boxplot_all.png used on
  input line 324.
 (pdftex.def)             Requested size: 378.09879pt x 151.2299pt.
 
-Overfull \hbox (10.11243pt too wide) in paragraph at lines 329--332
-\OT1/cmr/m/n/12 This is con-firmed by the anal-y-sis of the pair-wise cor-re-la
--tions of mo-tion: molecules
- []
-
 <3results_capsule/pics/stAll_beta_R1.png, id=1459, 1806.75pt x 853.1875pt>
 File: 3results_capsule/pics/stAll_beta_R1.png Graphic file (type png)
 
@@ -1630,7 +1625,7 @@ line 337.
 (pdftex.def)             Requested size: 338.30243pt x 159.75095pt.
  [96] [97 <./3results_capsule/pics/RKGBcorr_boxplot_all.png> <./3results_capsul
 e/pics/stAll_beta_R1.png>]
-<3results_capsule/pics/new_rep1_allFF.png, id=1471, 2409.0pt x 2810.5pt>
+<3results_capsule/pics/new_rep1_allFF.png, id=1473, 2409.0pt x 2810.5pt>
 File: 3results_capsule/pics/new_rep1_allFF.png Graphic file (type png)
 
 <use 3results_capsule/pics/new_rep1_allFF.png>
@@ -1638,33 +1633,54 @@ Package pdftex.def Info: 3results_capsule/pics/new_rep1_allFF.png used on input
  line 346.
 (pdftex.def)             Requested size: 378.09879pt x 441.11224pt.
 
-<3results_capsule/pics/Hb_histo_by_restype.png, id=1475, 1204.5pt x 1304.875pt>
-File: 3results_capsule/pics/Hb_histo_by_restype.png Graphic file (type png)
-<use 3results_capsule/pics/Hb_histo_by_restype.png>
-Package pdftex.def Info: 3results_capsule/pics/Hb_histo_by_restype.png used on 
-input line 367.
-(pdftex.def)             Requested size: 338.30243pt x 366.49742pt.
+<3results_capsule/pics/Hb_all.png, id=1476, 1806.75pt x 1505.625pt>
+File: 3results_capsule/pics/Hb_all.png Graphic file (type png)
 
-<3results_capsule/pics/noSI_stAll_sasa_fractions.png, id=1477, 1003.75pt x 903.
-375pt>
-File: 3results_capsule/pics/noSI_stAll_sasa_fractions.png Graphic file (type pn
-g)
- <use 3results_capsule/pics/noSI_stAll_sasa_fractions.png>
-Package pdftex.def Info: 3results_capsule/pics/noSI_stAll_sasa_fractions.png us
-ed on input line 377.
-(pdftex.def)             Requested size: 199.0pt x 179.10037pt.
- [98] [99 <./3results_capsule/pics/new_rep1_allFF.png>] [100 <./3results_capsul
-e/pics/Hb_histo_by_restype.png>] [101 <./3results_capsule/pics/noSI_stAll_sasa_
-fractions.png>]
-Overfull \hbox (15.66942pt too wide) in paragraph at lines 398--399
-[]\OT1/cmr/m/n/12 The MAR-TINI sim-u-la-tions show a lower num-ber of con-tacts
- be-tween molecules
- []
+<use 3results_capsule/pics/Hb_all.png>
+Package pdftex.def Info: 3results_capsule/pics/Hb_all.png used on input line 36
+7.
+(pdftex.def)             Requested size: 338.30243pt x 281.91344pt.
+ [98] [99 <./3results_capsule/pics/new_rep1_allFF.png>]
 
-[102]) [103]
+Package natbib Warning: Citation `pops' on page 100 undefined on input line 372
+.
+
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(a
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.376 \subbottom
+                []{\includegraphics[height=0.3\linewidth]{3results_capsule/p...
+
+<3results_capsule/pics/st_All_sasa_fractions.png, id=1488, 1304.875pt x 803.0pt
+>
+File: 3results_capsule/pics/st_All_sasa_fractions.png Graphic file (type png)
+ <use 3results_capsule/pics/st_All_sasa_fractions.png>
+Package pdftex.def Info: 3results_capsule/pics/st_All_sasa_fractions.png used o
+n input line 376.
+(pdftex.def)             Requested size: 194.01048pt x 119.40121pt.
+pdfTeX warning (ext4): destination with the same identifier (name{subfigure.\(b
+\)}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.377 \subbottom
+                []{\includegraphics[height=0.3\linewidth]{3results_capsule/p...
+<3results_capsule/pics/st_All_Qsasa.png, id=1489, 1003.75pt x 803.0pt>
+File: 3results_capsule/pics/st_All_Qsasa.png Graphic file (type png)
+
+<use 3results_capsule/pics/st_All_Qsasa.png>
+Package pdftex.def Info: 3results_capsule/pics/st_All_Qsasa.png used on input l
+ine 377.
+(pdftex.def)             Requested size: 149.23883pt x 119.40121pt.
+ [100 <./3results_capsule/pics/Hb_all.png>] [101 <./3results_capsule/pics/st_Al
+l_sasa_fractions.png> <./3results_capsule/pics/st_All_Qsasa.png>] [102] [103]) 
+[104
+
+]
 \openout2 = `4lip_par/lip_par.aux'.
 
- (./4lip_par/lip_par.tex) [104
+ (./4lip_par/lip_par.tex)
+[105
 
 
 
@@ -1673,67 +1689,67 @@ Overfull \hbox (15.66942pt too wide) in paragraph at lines 398--399
 
  (./appendix.tex
 
-LaTeX Warning: Reference `eq:predictive_distribution' on page 105 undefined on 
+LaTeX Warning: Reference `eq:predictive_distribution' on page 106 undefined on 
 input line 12.
 
 
-Package natbib Warning: Citation `--' on page 105 undefined on input line 12.
+Package natbib Warning: Citation `--' on page 106 undefined on input line 12.
 
 
-Package natbib Warning: Citation `--' on page 105 undefined on input line 12.
+Package natbib Warning: Citation `--' on page 106 undefined on input line 12.
 
-) [105
-
-
-
-] (./thesis.bbl [106
+) [106
 
 
 
-] [107] [108] [109] [110] [111] [112] [113] [114]
-[115]
+] (./thesis.bbl [107
+
+
+
+] [108] [109] [110] [111] [112] [113] [114] [115]
+[116]
 Underfull \hbox (badness 1205) in paragraph at lines 473--477
 []\OT1/cmr/m/n/12 D. Migo^^Sn, M. Ja^^Sskiewicz, D. Neubauer, M. Bauer, E. Siko
 -rska,
  []
 
-[116]
+[117]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [117] [118] [119] [120] [121] [122]
+ [118] [119] [120] [121] [122] [123]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [123] [124] [125]
+ [124] [125] [126]
 Missing character: There is no ≈ in font cmr12!
 Missing character: There is no ç in font cmr12!
- [126]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
  [127]
-[128]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+ [128]
+[129]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [129]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
  [130]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+ [131]
 Underfull \hbox (badness 1281) in paragraph at lines 1207--1211
 []\OT1/cmr/m/n/12 P. Bro-cos, P. Mendoza-Espinosa, R. Castillo, J. Mas-Oliva, a
 nd
  []
 
-[131] [132] [133]
+[132] [133] [134]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ∂ in font cmr12!
 )
 
 Package natbib Warning: There were undefined citations.
 
-[134]
+[135]
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
@@ -1748,21 +1764,27 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
 (./appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7865833D09D8081EFFFAB51E48F52A71;1587.
 
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: DEE1E909079AF39B47CACF62145CC409;1587
+(rerunfilecheck)             After:  4D991EF063017995B19F3D2189559199;1587.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 24287 strings out of 493117
- 427665 string characters out of 6135434
- 523201 words of memory out of 5000000
- 26701 multiletter control sequences out of 15000+600000
+ 24305 strings out of 493117
+ 427917 string characters out of 6135434
+ 522407 words of memory out of 5000000
+ 26710 multiletter control sequences out of 15000+600000
  18839 words of font info for 71 fonts, out of 8000000 for 9000
- 1142 hyphenation exceptions out of 8191
- 70i,14n,92p,1403b,1454s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1143 hyphenation exceptions out of 8191
+ 70i,14n,92p,1544b,1454s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -1781,10 +1803,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (134 pages, 15711450 bytes).
+Output written on thesis.pdf (135 pages, 15792859 bytes).
 PDF statistics:
- 1814 PDF objects out of 2073 (max. 8388607)
- 1545 compressed objects within 16 object streams
- 498 named destinations out of 1000 (max. 500000)
- 342 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1834 PDF objects out of 2073 (max. 8388607)
+ 1562 compressed objects within 16 object streams
+ 505 named destinations out of 1000 (max. 500000)
+ 347 words of extra memory for PDF output out of 10000 (max. 10000000)
 
