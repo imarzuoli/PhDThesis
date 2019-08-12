@@ -72,9 +72,9 @@
 \contentsline {paragraph}{Chemical characteristics of the surface: SASA}{100}{section*.58}
 \contentsline {subsection}{\numberline {3.4.2}Multiscale comparison of model capsule}{101}{subsection.3.4.2}
 \contentsline {paragraph}{Force field comparison}{102}{section*.60}
-\contentsline {paragraph}{Bilayer versus monolayer capsules}{103}{section*.61}
-\contentsline {paragraph}{Chemical properties}{104}{section*.62}
-\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{105}{chapter.4}
-\contentsline {appendix}{\chapternumberline {}Appendices}{106}{appendix.}
-\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{106}{section.A.1}
-\contentsline {chapter}{Bibliography}{107}{section*.64}
+\contentsline {paragraph}{Bilayer versus monolayer capsules}{105}{section*.62}
+\contentsline {paragraph}{Chemical properties}{107}{section*.63}
+\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{108}{chapter.4}
+\contentsline {appendix}{\chapternumberline {}Appendices}{109}{appendix.}
+\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{109}{section.A.1}
+\contentsline {chapter}{Bibliography}{110}{section*.65}
