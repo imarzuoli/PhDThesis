@@ -151,20 +151,20 @@ Throughout all the simulations, the temperature was maintained by independently 
 \centering
  \def\arraystretch{1.6}
 \begin{tabular}{l|ccc}
- \multicolumn{4}{l}{\textbf{Capzip in solution simulations}} \\
+ \multicolumn{4}{c}{\textbf{Capzip in solution simulations}} \\
  \hline
  System (Nr peptides) & Model & Time (ns) & Replicas \\
  \hline
  $\beta$-sheet (Fraction) & GR & 100 & 32 \\
  Pentagon-bilayer (10) & GR & 100 & 1 \\
  Buckyball bilayer (120) & GR & 100 & 3 \\
- Buckyball bilayer \& monolayer (120) & SI & 1000 & 3 \&  \\
+ Buckyball bilayer \& monolayer (120) & SI & 1000 & 3 \& 1 \\
  Buckyball bilayer \& monolayer (120) & MA & 1000 & 3 \& 2 \\
- Buckyball bilayer \& monolayer (120) & MA\_P & 1000 & 2 \& \\
+ Buckyball bilayer \& monolayer (120) & MA\_P & 1000 & 2 \& 1 \\
 % \textbf{redo?} Backmapped buckyball (120) & GR & 100 & 3 \\
  \hline
  \end{tabular}
-\captionof{table}{Table of simulations of capzip assembly in water. GR = united atom GROMOS 53a6 force field \cite{Oostenbrink2004}, SI = coarse grain SIRAH force field \cite{Machado2018}, MA = coarse grain MARTINI force field \cite{Marrink2007, Monticelli2008}, MA\_P = coarse grain MARTINI force field with polar water model \cite{Yesylevskyy2010}.}
+\captionof{table}{Table of simulations of capzip assembly in water. Model specifies the force field: GR = united atom GROMOS 53a6 \cite{Oostenbrink2004}, SI = coarse grain SIRAH \cite{Machado2018}, MA = coarse grain MARTINI \cite{Marrink2007, Monticelli2008}, MA\_P = coarse grain MARTINI with polar water \cite{Yesylevskyy2010}.}
 \label{table:sim_solution}
 \end{figure}
 
@@ -191,7 +191,7 @@ In a first test performed on the 512 lipids bacterial patch, the field was incre
 %
 For the bacterial membrane patches of both sizes, other simulations were performed starting from the unperturbed membrane configuration and the threshold field, in three replicates each. Three control runs were performed on the 512 patch without peptide, at the threshold value of the field, and one at the higher value of 140 mV/nm.
 
-To be noticed that membrane potential is estimated around 2 mV/nm (from a -70 mV potential \cite{Wilson2011} and an estimate membrane thickness of 4 nm), but previous computational work explored the effects of fields up to 500 mV/nm \cite{Tieleman2004, Bockmann2008, Piggot2011}, to witness poration within the simulations time, according to the resources available at the time.
+To be noticed that membrane field is estimated around 20 mV/nm across mammalian membranes and 35 mV/nm (from, respectively, a -70/-90 mV and -130/-150 mV potential \cite{Wilson2011} and an estimate membrane thickness of 4 nm), but previous computational work explored the effects of fields up to 500 mV/nm \cite{Tieleman2004, Bockmann2008, Piggot2011}, to witness poration within the simulations time, according to the resources available at the time.
 
 An overview of simulations of peptide-membrane systems is given in Table \ref{table:sim_membr} (control simulations on pure membrane are listed in Table \ref{table:SI_sim_E}).
 
@@ -199,7 +199,7 @@ An overview of simulations of peptide-membrane systems is given in Table \ref{ta
 \centering
  \def\arraystretch{1.6}
 \begin{tabular}{ll|ccc}
-\multicolumn{5}{l}{\textbf{Capzip on membrane simulations}} \\
+\multicolumn{5}{c}{\textbf{Capzip on membrane simulations}} \\
 \hline
  & System &  Model & Time (ns) & Replicas\\
  \hline
@@ -214,7 +214,7 @@ An overview of simulations of peptide-membrane systems is given in Table \ref{ta
  \end{tabular}
  \begin{tabular}{ll|cccc}
  \hline
- \multicolumn{6}{l}{\textbf{Electroporation simulations}} \\
+ \multicolumn{6}{c}{\textbf{Electroporation simulations}} \\
   \hline
   & System & Model & Time (ns) & Replicas & E (mV/nm) \\
  \hline
@@ -225,37 +225,51 @@ An overview of simulations of peptide-membrane systems is given in Table \ref{ta
  & Buckyball, 2880 lipids & MA\_P & ?? & 1 & ??s\\
  \hline
 \end{tabular}
-\captionof{table}{Table of simulations of peptide-membrane complexes. All the mentioned ones run at 150 mM concentration of NaCl. GR = united atom representation (GROMOS force field), MA = coarse grain MARTINI force field, MA\_P = coarse grain MARTINI force field with polar water model. For electroporation simulations, the time refer to the disrupture of the membrane. For electroporation simulations on pure membranes, see SI Table \ref{table:SI_sim_E}.}
+\captionof{table}{Table of simulations of peptide-membrane complexes. All the mentioned ones run at 150 mM concentration of NaCl. Models: GR = united atom GROMOS, MA = coarse grain MARTINI, MA\_P = coarse grain MARTINI with polar water. For electroporation simulations, the time refer to the rupture of the membrane. For electroporation simulations on pure membranes, see SI Table \ref{table:SI_sim_E}.}
 \label{table:sim_membr}
 \end{figure}
 
 \paragraph{SIRAH coarse grain simulations}
-SIRAH coarse grain simulations are run with the SIRAH force field \cite{Machado2018}. Peptide coordinates for the buckyball geometry were obtained from the atomistic ones using the converter distributed with force field. Parameters for the central residue were built from comparison with similar chemical moieties.
-% ????
-%As no publication has so far validated the SIRAH force field for membrane simulations, we skip this level of coarse grain for systems involving membranes, resorting to the MARTINI model directly.
+SIRAH coarse grain simulations were run with the SIRAH force field \cite{Machado2018}. Peptide coordinates for the buckyball geometry were obtained from the atomistic ones using the converter distributed with force field. Parameters for the central residue were built from comparison with similar chemical moieties.
 
-For these simulations, the temperature coupling was performed with a velocity rescale thermostat \cite{Bussi2007} and coupling constant $\tau _T$ of 0.1 ps, and the pressure coupling at 1 bar pressure, with 4.5 $\times$ 10$^{-5}$ bar$^{-1}$ isothermal compressibility, using a Parrinello-Rahman barostat \cite{Parrinello1981} with a $\tau _P$ of 6 ps. Electrostatic interactions were treated using the PME algorithm \cite{Essmann1995}, with a short-range cutoff of 1.2 nm and relative dielectric constant of 1. The van der Waals interactions are treated with a plain 1.2 nm cutoff.
+While for simulations of peptide assembly in solution we resorted to a multiscale procedure, comparing up to four force fields, for simulations on membrane we focussed only on atomistic and MARTINI simulations only. This has been performed in the interest of time, and following some concerns arisen in preliminary SIRAH runs of the capsule on a membrane, which showed an unstable behaviour (contraction and expansion of the membrane).
+%
+Given that there are little benchmarks so far on the performances of SIRAH for lipids, and none for systems as large as the one studied here, we are continuing pursuing the investigation at an exploratory level, working in contact with the developers of the force field to help elucidating its limitations and work out the best equilibration procedure to treat large membrane patches.
+
+For SIRAH simulations, the temperature coupling was performed with a velocity rescale thermostat \cite{Bussi2007} and coupling constant $\tau _T$ of 0.1 ps, and the pressure coupling at 1 bar pressure, with 4.5 $\times$ 10$^{-5}$ bar$^{-1}$ isothermal compressibility, using a Parrinello-Rahman barostat \cite{Parrinello1981} with a $\tau _P$ of 6 ps. Electrostatic interactions were treated using the PME algorithm \cite{Essmann1995}, with a short-range cutoff of 1.2 nm and relative dielectric constant of 1. The van der Waals interactions are treated with a plain 1.2 nm cutoff.
 
 After energy minimization, a 4 ns NVT equilibration was run at 300 K, followed by a 10 ns NPT run, both with positional restraints (1000 kJ/mol$\cdot$nm$^2$) on the solute. Two 10 ns run (NPT ensemble, 300 K) were then performed with backbone restraints of 1000 and 100 kJ/mol$\cdot$nm$^2$, respectively. Similar to the procedure adopted for the atomistic simulations, during the latter, flat bottom positional restraints (1000 kJ/mol$\cdot$nm$^2$) were enforced on the unpaired branches during the NPT. Three additional 10 ns equilibrations were run at 300 K, with no backbone restraints and decreasing flat bottom ones (respectively 750, 500 and 250 kJ/mol$\cdot$nm$^2$). Finally the production run was carried on for 1 $\mu$s. All runs were performed with a 20 fs time step.
 
 \paragraph{MARTINI coarse grain simulations}
-For the MARTINI \cite{Marrink2007, Monticelli2008} coarse grain simulations, peptide coordinates and parameters are obtained from the atomistic ones using martinize.py \cite{DeJong2013}, and pycgtool.py \cite{Graham2017} for the central residue. Parameters for the joining bonds are derived from tabulated values of analogous ones.
+For MARTINI \cite{Marrink2007, Monticelli2008} coarse grain simulations, peptide coordinates and parameters were obtained from the atomistic ones using martinize.py \cite{DeJong2013}, and pycgtool.py \cite{Graham2017} for the central residue. Parameters for the joining bonds were derived from tabulated values of analogous ones.
 
-The bacterial and mammal model membranes, hosting 2880 lipids each, are built with insane.py \cite{Wassenaar2015}, with composition DLPC:DLPG 3:1 and pure DLPC respectively. The simulations parameters used for lipids are consistent with Ref. \cite{SiewertJ.Marrink2003}. The peptide-membrane systems are built placing the buckyball at a minimum distance of 1 nm from the membrane surface.
+The bacterial and mammalian model membranes, hosting 2880 lipids each, were built with insane.py \cite{Wassenaar2015}, with composition DLPC:DLPG 3:1 and pure DLPC respectively. The simulations parameters used for lipids are consistent with Ref. \cite{SiewertJ.Marrink2003}. The peptide-membrane systems were built placing the buckyball at a minimum distance of 1 nm from the membrane surface.
 
-For simulations performed with the standard water model, the temperature coupling is performed with a velocity rescale thermostat \cite{Bussi2007} with a coupling constant $\tau _T$ of 1 ps. An isotropic or semi-isotropic pressure coupling is applied (for peptide in solution or peptide on membrane simulations) at 1 bar pressure, with 4.6 $\times$ 10$^{-5}$ bar$^{-1}$ isothermal compressibility, using a Berendsen \cite{Berendsen1984} or Parrinello-Rahman barostat \cite{Parrinello1981} (equilibration and production phase respectively) with a $\tau _P$ of 12 ps.
+For simulations performed with the standard water model, the temperature coupling was performed with a velocity rescale thermostat \cite{Bussi2007} with a coupling constant $\tau _T$ of 1 ps. An isotropic or semi-isotropic pressure coupling was applied (for peptide in solution or peptide on membrane simulations) at 1 bar pressure, with 4.6 $\times$ 10$^{-5}$ bar$^{-1}$ isothermal compressibility, using a Berendsen \cite{Berendsen1984} or Parrinello-Rahman barostat \cite{Parrinello1981} (equilibration and production phase respectively) with a $\tau _P$ of 12 ps. An isotropic or semi-isotropic coupling has been used for simulation without and with membranes respectively.
 %
-Coulomb interactions are treated with a Reaction Field scheme \cite{Tironi1995} and cut off radius of 1.1 nm, van der Waals interaction with a cut off scheme and the same cut off radius. The relative dielectric constant is set to 15.
-
-After energy minimization, a 500 ps equilibration is run with a 10 fs time step at 300 K, followed by the dynamic run with a 20 fs time step.
+Coulomb interactions were treated with a Reaction Field scheme \cite{Tironi1995} and cut off radius of 1.1 nm, van der Waals interaction with a cut off scheme and the same cut off radius. The relative dielectric constant is set to 15.
 %
-No restrained equilibration has been performed for the buckyball because the characteristics of the force field (and water model) grant a good cohesion between different peptidic branches and a compact structure is reached even with a standard short equilibration.
+Simulations performed with the polar water model were run with the parameters above, except the relative dielectric constant set to 2.5, and the choice of a PME scheme for the long range Coulomb interaction (1.2 nm cut off radius).
+
+For simulations of the capsule in solution, for both water models, after energy minimization four 10 ns equilibration runs (NPT ensemble, 300 K, 10 fs time step) were performed with flat bottom positional restraints on the unpaired branches (respectively at 750, 500 and 250 kJ/mol$\cdot$nm$^2$) - as done for the other force fields.
 %
-The membranes used in the simulations are equilibrated for 1 $\mu$s and the final configuration used to build the peptide-membrane system, which is simulated for 10 $\mu$s.
+Finally the production run was carried on for 1 $\mu$s. All runs were performed with a 20 fs time step.
 
-Simulations performed with the polar water model are run with the parameters above, except the relative dielectric constant set to 2.5, and the choice of a PME scheme for the long range Coulomb interaction (1.2 nm cut off radius).
+It is interesting to notice that the MARTINI force field with the standard water model produce very similar results even without such refined equilibration procedure. However, we choose to follow it to have results more consistent with the other parametrisations and be certain that the differences observed are due only to the force field an not the equilibration procedure.
 
-From the final configurations of MARTINI simulations of the buckyball in solution (standard water model), atomistic coordinates are obtained using the MARTINI backward tool (version 5) \cite{Wassenaar2014} and run for additional 200 ns with set up for atomistic simulations, to compare the original dynamic to one at a later time (as obtained with coarse grain simulations). This procedure is performed for two out of the three MARTINI-standard water replicas available.
+The membranes used in the simulations are equilibrated for 1 $\mu$s and the final configuration used to build the peptide-membrane system, together with the equilibrated capsule structure (before production). The full system is then after energy minimised and equilibrated for 500 ps.
+%
+Production is followed for 10 $\mu$s for simulations with the standard water, and 1 $\mu$s with polar water.
+
+The adoption of the polar water model allows to perform electroporation experiments also with the MARTINI force field (while the standard water, not bearing a dipole, is unable to screen the externally applied electric field, resulting in unphysical effects).
+%
+We thus resorted to a procedure similar to the one employed for atomistic simulations, testing an external electric field of magnitde 20 mV/nm and 40 mV/nm, finding that the latter is sufficient to trigger electroporation in model bacterial membranes in less than 500 ns (while the former is not). It is likely that longer simulations would allow to observe this behaviour even with lower values of the force field, however, in the interest of time, we selected this value for further investigation.
+
+Specifically, we selected a configuration from the early stages of poration (where the pore showed a diameter of 2 nm) and continue the simulations switching to an isotropic pressure coupling. Indeed, 
+
+
+% MENTION???
+%From the final configurations of MARTINI simulations of the buckyball in solution (standard water model), atomistic coordinates are obtained using the MARTINI backward tool (version 5) \cite{Wassenaar2014} and run for additional 200 ns with set up for atomistic simulations, to compare the original dynamic to one at a later time (as obtained with coarse grain simulations). This procedure is performed for two out of the three MARTINI-standard water replicas available.
 
 
 \section{Analysis}
@@ -265,12 +279,12 @@ Several structural analysis were performed on the outcome of the simulations of 
 %
 To get the average distribution of the mass of the capsule, the Radial Distribution Function (RDF) of the protein masses around their center of mass was computed (with GROMACS). The profile could be fitted with a Gaussian function (with the R \cite{??} software) as they presented negligible skewness, so that the position of its maximum can be taken as an average radius of the capsule, and its Full Width at Half Maximum (FWHM) as an estimate of the thickness of the bilayer.
 
-Another structural measure concerns the pairing of the branches. Two branches are defined as paired if their center of mass is closer than a cut off distance of 1.2 nm. This simple measure discards any more precise information on the orientation of the chains with respect to each other, and aims at checking whether the network of molecules present in an ideal buckyball structure is maintained. In the ideal buckyball, contacts within the same layer sum up to 90 for each layer. This measure can be easily applied to any description (atomistic or coarse grain) without disagreement in the interpretation. The computational pipeline combines GROMACS tools and a post-processing in R language.
-
 The dynamical character of the structure was assessed computing the correlation of motion between the molecules. The central atom (or bead) from which the branches depart was taken as reference. For all the pairs $i$ and $j$ of such reference positions, the covariance of motion $\sigma^2(i,j)$ was computed (with GROMACS), where the covariance is the sum of the components along each axis: $\sigma^2(i,j) = \sigma^2(i,j)_x + \sigma^2(i,j)_y + \sigma^2(i,j)_z$. Then for each pair, this measure was normalised as:
 \begin{equation}
 corr(i,j) = \frac{\sigma^2(i,j)}{\sqrt{\sigma^2(i,i)\,\cdot\,\sigma^2(j,j)}}.
 \end{equation}
+
+Another structural measure concerns the pairing of the branches. Two branches are defined as paired if their center of mass is closer than a cut off distance of 1.2 nm. This simple measure discards any more precise information on the orientation of the chains with respect to each other, and aims at checking whether the network of molecules present in an ideal buckyball structure is maintained. In the ideal buckyball, contacts within the same layer sum up to 90 for each layer (for a total of 180 in a bilayer). This measure can be easily applied to any description (atomistic or coarse grain) without disagreement in the interpretation. The computational pipeline combines GROMACS tools and a post-processing in R language.
 
 To characterise the chemical determinants that promote the assembly, we investigate the interactions between amino acids of different types, computing the number of contacts between backbone and side chains of single amino acids, filtered for the ones present a least 50\% of the simulation time, and classified them by amino acid type.
 %
@@ -335,7 +349,7 @@ molecules at the same polar coordinates (i.e. stacking radially one on the other
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.85\linewidth]{3results_capsule/pics/stAll_beta_R1.png}
-\caption[Branch pairing during simulations of the buckyball]{Number of paired branches within the same layer and between layers, as defined in the main text. Results are shown for Replica 1 of each simulation setup.}
+\caption[Branch pairing during simulations of the buckyball]{\textbf{[RECOMPUTING]} Number of paired branches within the same layer and between layers, as defined in the main text. Results are shown for Replica 1 of each simulation setup.}
 \label{fig:BTI_beta}
 \end{figure}
 %
@@ -391,11 +405,11 @@ We first comment on the quantities already analysed at the atomistic level (if a
 \paragraph{Force field comparison}
 As foreseeable, the structures obtained with coarse grain force fields are slightly different with respect to the atomistic one and among themselves.
 %
-The SIRAH simulated bilayer capsule has a more open structure, with a skewed and broader radial density profile, while MARTINI with the standard water model provides a more compact configuration (respectively 6.0 nm and 4.6 nm average radius, with 2.9 nm and 1.9 nm average thickness - see Figure \ref{fig:Rg} and \subcaptionref{fig:RDF}). MARTINI runs with the polar water model provide a slightly larger structure with respect to standard MARTINI (4.8 nm average radius), with a comparable thickness. This is likely due to the poorer properties of solvation of standard MARTINI water, which cause the protein beads to preferentially interact between themselves rather than with the solvent. 
+The SIRAH simulated bilayer capsule has a more open structure with respect to the atomistic one, with a skewed and broader radial density profile, while MARTINI with the standard water model provides a more compact configuration (respectively 6.0 nm and 4.6 nm average radius, with 2.9 nm and 1.9 nm average thickness - see Figure \ref{fig:Rg} and \subcaptionref{fig:RDF}). MARTINI with polar water provides a slightly larger structure with respect to standard MARTINI (4.8 nm average radius), with a comparable thickness. This is likely due to the poorer properties of solvation of standard MARTINI water, which cause the protein beads to preferentially interact between themselves rather than with the solvent. 
 
-The correlation of motion between molecules for the SIRAH force field and polar MARTINI simulations is very similar to the results of the atomistic one, with a slight anticorrelation between molecules at the opposite poles (Figure \ref{fig:BTI_corr}). This is due to the contraction or expansion happening at the beginning at the simulation, when the capsule adjusts to the equilibrium size, which depend to some extent on the force field.
+The correlation of motion between molecules for all the coarse grain force field is similar to the results of the atomistic one, with a slight anticorrelation between molecules at the opposite poles (Figure \ref{fig:BTI_corr}). This is due to the contraction or expansion happening at the beginning at the simulation, when the capsule adjusts to the equilibrium size, which depend to some extent on the force field.
 %
-\textbf{[redo on half of simulation?]} The correlation effects are much more pronounced in standard MARTINI, were a greater contraction at the beginning of the simulation results in a smaller object with the two layers strongly correlated in their motion.
+These effects though are slightly more pronounced for the MARTINI force fields, probably due to the greater cohesion between the beads which makes them moving coherently.
 
 % CONTACTS:
 %			GR		SI		MA		MAP
@@ -403,45 +417,75 @@ The correlation of motion between molecules for the SIRAH force field and polar 
 % INTER 		62	    42   	171		128
 The number of chain paired in the SIRAH simulations is fewer than in the atomistic ones (Figure \ref{fig:BTI_beta}), in line with a more expanded structure. 
 %
-The MARTINI simulations show a lower number of contacts between molecules belonging to the same layer, probably due to the less specific interactions between different beads which do not allow a description of the hydrogen bond like interactions. Moreover, MARTINI results show that the structure obtained after a longer time scale is less organised, but does keep its overall shape thanks to the tight packing between chains. Consistently with this and the smaller thickness of the shell in the MARTINI simulations, the number of contacts between the two layers is higher than in the atomistic simulation. \textbf{[CHECK]}
+\textbf{[CHECK]} The MARTINI simulations show a lower number of contacts between molecules belonging to the same layer, probably due to the less specific interactions between different beads which do not allow a description of the hydrogen bond like interactions. Moreover, MARTINI results show that the structure obtained after a longer time scale is less organised, but does keep its overall shape thanks to the tight packing between chains. Consistently with this and the smaller thickness of the shell in the MARTINI simulations, the number of contacts between the two layers is higher than in the atomistic simulation.
 
-Breaking down the contact analysis by residue type (Figure \ref{fig:BTI_cont}), coarse grain simulations shows necessarily a different organisation, due to the fact that different parametrisation results in different proportions between the side chains volumes of different amino acids. Never the less, in all the representations, Tryoptophan has a prominent role in establishing contacts with its neighbours at the backbone level, while different force field suggest different role of the side chains. Specifically, coarse grain ones seem not to capture the preferential cation-$\pi$ interaction between Arginine and Tryptophan.
+Breaking down the contact analysis by residue type (Figure \ref{fig:BTI_cont}), coarse grain simulations shows necessarily a different organisation, due to the fact that different parametrisation results in different proportions between the side chains volumes of different amino acids. Never the less, in all the representations, Tryoptophan has a prominent role in establishing contacts with its neighbours at the backbone level, while different force field suggest different role of the side chains. Quite surprisingly, the SIRAH force field does not promote interactions between side chains a part from the Tryptophan ones with themselves. This seems due to the more expanded structure of the capsule and the larger solvation of the amino acids, which are more exposed in solution (see next paragraph discussing SASA values).
+%
+Moreover, none of the coarse grain descriptions seem to capture the preferential cation-$\pi$ interaction between Arginine and Tryptophan.
 
-Finally, the values of SASA cannot be compared between force fields, because of the different dimensions and number of atoms/beads employed. However, it is interesting to notice that consistently across force fields, Arginine constitute around half of the exposed surface, with the exception of SIRAH force field, where the more open structure results in the other residues to be more exposed (Figure \ref{fig:all_sasa}).
+Finally, the values of SASA cannot be compared between force fields, because of the different dimensions and number of atoms/beads employed. However, it is interesting to notice that consistently across force fields, Arginine constitute around half of the exposed surface, with the exception of SIRAH, where the more open structure results in other residues to be more exposed as well (Figure \ref{fig:all_sasa}).
 
-Overall, these results suggest that every coarse grain force field has a particular propensity for an equilibrium distance between peptidic components due to the different property of solvation of the water model chosen. To better understand this, we computed the energy Coulomb and Lennard-Jones contribution due to peptide-peptide interactions or peptide-solvent one.
+Overall, these results suggest that every coarse grain force field has a particular propensity for an equilibrium distance between peptidic components due to the different property of solvation of the water model chosen. To better understand this, we computed the Coulomb and Lennard-Jones contribution to the energy due to peptide-peptide interactions or peptide-solvent ones.
 %
 Figure \ref{fig:value_eng_cg} plots these value for the second half of the simulated time for each coarse grain force field (to be noticed that for the SIRAH description the Protein-Protein terms include both the short range interactions and the 1-4 interactions, i.e. the ones computed between atoms separated by three bonds. These interactions are not part of the force field for MARTINI models, so only the short range ones are accounted in those cases).
+
+A great difference can be seen among force field, as expected. Looking at the Coulomb component, it is clear that the mean field approach adopted by MARTINI, which consists in adopting a high relative dielectric constant ($\epsilon = 15$) to compensate the absence of water dipoles, decreases massively the contribution of the Protein-Protein electrostatics to the overall energy with respect to the two other models. Indeed this approach decreases the interactions also on the short range, while in reality the screening effect due to water can be seen only on long distances (of about 1 nm in a 0.1 M salt solution), and, due to the $1/r$ behaviour of the Coulomb interaction, these short scale contributions are clearly important.
 %
-A great difference can be seen among force field, as expected. For example standard MARTINI has Coulomb components much closer to zero with respect to polar MARTINI, due to the fact that the dielectric constant is higher and thus these interactions are decreased.
+The partial reversion to $\epsilon = 2.5$, together with an introduction of the water dipole, increases the amount of the Coulomb contribution by 10-fold (in absolute value).
+%
+This is higher than the ratio of the $\epsilon$ between the two models (equal to $6$), likely due to the fact that the different screening allows a rearrangement of the charges which brings opposite ones closer to each other.
+
+To be noticed that SIRAH simulations, run at $\epsilon = 1$, present Coulomb components 2.5 times larger than the ones of Polar MARTINI, suggesting that the two water models, both representing the separation of water charges in an approximate way, give a similar energy contribution despite being different.
+
+This difference in Coulomb energies affects both the Protein-Protein and Protein-Water interactions consistently, however it can have consequences on the dynamics because it changes their proportion with respect to the Lennard-Jones contributions. These interactions are not changed between the two MARTINI models, making their role predominant in standard MARTINI, while competing with the Coulomb contribution in Polar MARTINI (still being larger overall).
+%
+On the contrary, SIRAH parametrisation opts for a smaller role of Lennard-Jones with respect to the Coulomb contribution.
+%
+Therefore, protein electrostatics have an increasing contribution in MARTINI, Polar MARTINI and SIRAH respectively, both in absolute terms and with respect to the Lennard-Jones contribution.
+
+This can partially explain the differences in sizes observed across the models: despite the Protein-Protein Coulomb energy is more negative in SIRAH, because of the way it is computed, with a smaller dielectric constant these contributions are less screened, thus the many positive amino acids composing (which are more abundant than the negative ones) the capsule can repel each other more effectively.
 
 \begin{figure}[p!]
 \centering
 \subbottom[]{\includegraphics[width=\linewidth]{3results_capsule/pics/many_energies.png} \label{fig:value_eng_cg}} 
 \subbottom[]{\includegraphics[width=\linewidth]{3results_capsule/pics/ratio_energies.png} \label{fig:ratio_eng_cg}} 
-\caption[bb]{(a) }
+\caption[Non-bonded protein energy contribution to capsule structures]{(a) Protein-Protein and Protein-Water non-bonded interactions, normalised per molecule. (b) Ratio between the Protein-Protein and Protein-Water interactions from plot (a), for Coulomb and Lennard-Jones respectively.}
 \label{fig:eng_cg}
 \end{figure}
 
-A more informative comparison instead is given by the ratio between the Protein-Protein and Protein-Water components, for both Coulomb and Lennard-Jones. Figure \ref{fig:ratio_eng_cg} shows that the ratio of the Lennard-Jones interactions shows remarkable agreement between the two MARTINI models, and a similar value to the SIRAH one.
+Finally, to understand the ratio between the Protein-Protein and Protein-Water components, for both Coulomb and Lennard-Jones, is computed (Figure \ref{fig:ratio_eng_cg}).
 %
-For the Coulomb interactions, all the coarse grain models propose a ratio between the Protein-Protein and the Protein-Water component of about 3 to 4, with Polar MARTINI having a greater Protein-Protein component with respect to standard MARTINI. This seems at odd with the previous conclusion that Polar MARTINI produces less compact structures, as a lower Protein-Protein energy should favour protein contacts. However, this is likely compensated by the lower Water-Water interaction, which promotes Protein-Water contacts.
-% 
-An interesting follow up on this topic would be investigating wonder whether a tuning of the dielectric constant used in either cases can produce more consistent results between the two water model. The constant however was chosen to reproduce at best the properties of bulk water and solvation free energies of ions for both cases, raising the question whether the protein parametrisation performs equally good in conjunction with both model, or which one is more compatible.
-
-Finally, to be noticed that in the SIRAH force field, the Coulomb interactions have a greater magnitude with respect to the Lennard-Jones ones (for both Protein-Protein and Protein-Water interactions), contrary to the MARTINI models. This can be due to the more explicit parametrisation of the side chains of amino acid, while in MARTINI a beads include more atoms, ruling out some of the electrostatics.
+All the three force fields present values in the same range.
+%
+The ratio of Lennard-Jones interactions is slightly lower in SIRAH than in the two MARTINI models, and the ratio of Coulomb interactions is between 3 and 4 for all the models.
+%
+Interestingly, Polar MARTINI has a greater Protein-Protein component with respect to standard MARTINI (in absolute value, which means a more negative contribution). From this can be deduced that the slightest more open structure observed in Polar MARTINI is likely not due to the more favourable solvation properties of the polar water model, but from a different balance of electostatic versus Lennard-Jones, as explained before.
+ 
+An interesting follow up on this topic would be investigating wonder whether a tuning of the dielectric constant used in either cases can produce more consistent results between the two water model. However, the choice of the constant was optimised to reproduce at best the properties of bulk water and solvation free energies of ions for both cases. This then raises the question whether the protein parametrisation performs equally good in conjunction with both model, or which one is more compatible.
 
 
 
 \paragraph{Bilayer versus monolayer capsules}
-To prove also on large scale objects that the bilayer structure is indeed essential to grant a structure which does not disassemble or change shape, we perform simulations of a monolayer capsule (specifically taking the external layer of the capsule already simulated) in all the three coarse grain force fields employed so far.
+To prove also on large scale objects that the bilayer structure is indeed essential to grant a structure which does not disassemble or change shape, we perform simulations of a monolayer capsule (specifically taking the external layer of the capsule already simulated) in the three coarse grain force fields employed so far.
 
-The RMSD with respect to the initial configuration \textbf{[REDO for all]} shows that the monolayer structure undergoes a larger conformational change than the bilayer. Consistently, the RDF profile shows that the object contracts much more than the bilayer in both the MARTINI simulations. Likely, this brings the hydrophobic component closer and thus help their screening from the solvent. In the SIRAH simulations instead, the balance of the forces is not sufficient to cause a contraction of the whole structure. Therefore, a rearrangement of nearby branches is observed which brings the Tryptophan side chains closer (Figure --). Consistently, the SASA of Tryptophan residues decreases \textbf{[DO]} (Figure --).
+We focus here on the results obtained with the SIRAH and Polar MARTINI models, as the ones observed with standard MARTINI resemble closely the ones of the Polar version.
+
+The RMSD with respect to the initial configuration of the production shows that the monolayer undergoes a larger conformational change than the bilayer in the SIRAH force field, while it is similar for Polar MARTINI. However, 
+
+
+. Consistently, the RDF profile shows that the object contracts much more than the bilayer in both the MARTINI simulations. Likely, this brings the hydrophobic component closer and thus help their screening from the solvent. In the SIRAH simulations instead, the balance of the forces is not sufficient to cause a contraction of the whole structure. Therefore, a rearrangement of nearby branches is observed which brings the Tryptophan side chains closer (Figure --). Consistently, the SASA of Tryptophan residues decreases \textbf{[DO]} (Figure --).
 
 All the findings together strengthen the hypothesis that a favourable packing must allow for the screening of the hydrohpobic residues, arranging multiple copies of them close enough to interact together.
 
 
-
+\begin{figure}[p!]
+\centering
+\subbottom[]{\includegraphics[width=0.5\linewidth]{3results_capsule/pics/compare_MonoBi_RDF.png} \label{fig:rdf_mono_bi}} \\
+\subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/compare_MonoBi_rmsd.png} \label{fig:rmsd_mono_bi}}
+\subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/compare_MonoBi_rmsd_init.png} \label{fig:rmsd_init_mono_bi}} 
+\caption[bb]{(a) }
+\label{fig:mono_bi_comparison}
+\end{figure}
 
 
 
@@ -455,16 +499,6 @@ All the findings together strengthen the hypothesis that a favourable packing mu
 
 
 \clearpage
-
-\paragraph{Chemical properties}
-%\begin{figure}[h]
-%\centering
-%%\includegraphics[width=0.85\textwidth]{pics/rep1_sch_GRMA.png}
-%\caption{\textbf{[BETTER QUALITY]} Contacts with persistence greater than 50\% during an atomistic and coarse grain simulations between C$_\alpha$s (left column), between side chains (middle column) and mixed C$_\alpha$-side chain (right column).}
-%\label{fig:BTI_contacts}
-%\end{figure}
-
-Coarse grain simulations give slightly higher figures for the backbone contacts, compatible with a more compact structure. The results for side chains contacts are quite different with respect to the atomistic ones, likely due to the coarse grain model which does not reproduce faithfully the ratio between steric hindrances of the different side chains.
 
 
 %\begin{figure}[h]

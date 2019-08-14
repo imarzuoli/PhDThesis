@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {1.2}Alternative antibiotic strategies: antimicrobial peptides}{18}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Membrane active peptides}{18}{subsection.1.2.1}
 \contentsline {paragraph}{Structure of bacterial membrane}{20}{section*.10}
-\contentsline {paragraph}{Structure of bacterial membrane}{21}{section*.11}
+\contentsline {paragraph}{Comparison with mammalian membrane}{21}{section*.11}
 \contentsline {subsection}{\numberline {1.2.2}Common mechanisms of action of AMPs}{22}{subsection.1.2.2}
 \contentsline {paragraph}{Membrane disruption}{23}{section*.12}
 \contentsline {paragraph}{Alternative mechanisms of action}{25}{section*.13}
@@ -61,20 +61,19 @@
 \contentsline {paragraph}{Atomistic simulations}{86}{section*.42}
 \contentsline {paragraph}{SIRAH coarse grain simulations}{90}{section*.45}
 \contentsline {paragraph}{MARTINI coarse grain simulations}{91}{section*.46}
-\contentsline {section}{\numberline {3.3}Analysis}{92}{section.3.3}
-\contentsline {paragraph}{Simulations in solution}{92}{section*.47}
-\contentsline {paragraph}{Simulations on a membrane}{94}{section*.48}
-\contentsline {section}{\numberline {3.4}Results: capsule in solution}{94}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Atomistic simulations}{94}{subsection.3.4.1}
-\contentsline {paragraph}{Global capsule structure}{96}{section*.51}
-\contentsline {paragraph}{Contacts between molecules}{96}{section*.53}
-\contentsline {paragraph}{Hydrogen bonds interaction}{98}{section*.56}
+\contentsline {section}{\numberline {3.3}Analysis}{93}{section.3.3}
+\contentsline {paragraph}{Simulations in solution}{93}{section*.47}
+\contentsline {paragraph}{Simulations on a membrane}{95}{section*.48}
+\contentsline {section}{\numberline {3.4}Results: capsule in solution}{95}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Atomistic simulations}{95}{subsection.3.4.1}
+\contentsline {paragraph}{Global capsule structure}{95}{section*.51}
+\contentsline {paragraph}{Contacts between molecules}{97}{section*.53}
+\contentsline {paragraph}{Hydrogen bonds interaction}{100}{section*.56}
 \contentsline {paragraph}{Chemical characteristics of the surface: SASA}{100}{section*.58}
-\contentsline {subsection}{\numberline {3.4.2}Multiscale comparison of model capsule}{101}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Multiscale comparison of model capsule}{102}{subsection.3.4.2}
 \contentsline {paragraph}{Force field comparison}{102}{section*.60}
-\contentsline {paragraph}{Bilayer versus monolayer capsules}{105}{section*.62}
-\contentsline {paragraph}{Chemical properties}{107}{section*.63}
-\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{108}{chapter.4}
-\contentsline {appendix}{\chapternumberline {}Appendices}{109}{appendix.}
-\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{109}{section.A.1}
-\contentsline {chapter}{Bibliography}{110}{section*.65}
+\contentsline {paragraph}{Bilayer versus monolayer capsules}{107}{section*.62}
+\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{109}{chapter.4}
+\contentsline {appendix}{\chapternumberline {}Appendices}{110}{appendix.}
+\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{110}{section.A.1}
+\contentsline {chapter}{Bibliography}{111}{section*.65}
