@@ -429,6 +429,14 @@ Overall, these results suggest that every coarse grain force field has a particu
 %
 Figure \ref{fig:value_eng_cg} plots these value for the second half of the simulated time for each coarse grain force field (to be noticed that for the SIRAH description the Protein-Protein terms include both the short range interactions and the 1-4 interactions, i.e. the ones computed between atoms separated by three bonds. These interactions are not part of the force field for MARTINI models, so only the short range ones are accounted in those cases).
 
+\begin{figure}[p!]
+\centering
+\subbottom[]{\includegraphics[width=0.8\linewidth]{3results_capsule/pics/many_energies_brief.png} \label{fig:value_eng_cg}} 
+\subbottom[]{\includegraphics[width=0.8\linewidth]{3results_capsule/pics/ratio_energies_brief.png} \label{fig:ratio_eng_cg}} 
+\caption[Non-bonded protein energy contribution to capsule structures]{(a) Protein-Protein and Protein-Water non-bonded interactions, normalised per molecule. (b) Ratio between the Protein-Protein and Protein-Water interactions for each force field, for Coulomb and Lennard-Jones respectively; or between Coulomb and Lennard/Jones, for Protein-Protein an Protein-Water interactions separately (note the log scale on $y$).}
+\label{fig:eng_cg}
+\end{figure}
+
 A great difference can be seen among force field, as expected. Looking at the Coulomb component, it is clear that the mean field approach adopted by MARTINI, which consists in adopting a high relative dielectric constant ($\epsilon = 15$) to compensate the absence of water dipoles, decreases massively the contribution of the Protein-Protein electrostatics to the overall energy with respect to the two other models. Indeed this approach decreases the interactions also on the short range, while in reality the screening effect due to water can be seen only on long distances (of about 1 nm in a 0.1 M salt solution), and, due to the $1/r$ behaviour of the Coulomb interaction, these short scale contributions are clearly important.
 %
 The partial reversion to $\epsilon = 2.5$, together with an introduction of the water dipole, increases the amount of the Coulomb contribution by 10-fold (in absolute value).
@@ -445,13 +453,6 @@ Therefore, protein electrostatics have an increasing contribution in MARTINI, Po
 
 This can partially explain the differences in sizes observed across the models: despite the Protein-Protein Coulomb energy is more negative in SIRAH, because of the way it is computed, with a smaller dielectric constant these contributions are less screened, thus the many positive amino acids composing (which are more abundant than the negative ones) the capsule can repel each other more effectively.
 
-\begin{figure}[p!]
-\centering
-\subbottom[]{\includegraphics[width=\linewidth]{3results_capsule/pics/many_energies.png} \label{fig:value_eng_cg}} 
-\subbottom[]{\includegraphics[width=\linewidth]{3results_capsule/pics/ratio_energies.png} \label{fig:ratio_eng_cg}} 
-\caption[Non-bonded protein energy contribution to capsule structures]{(a) Protein-Protein and Protein-Water non-bonded interactions, normalised per molecule. (b) Ratio between the Protein-Protein and Protein-Water interactions from plot (a), for Coulomb and Lennard-Jones respectively.}
-\label{fig:eng_cg}
-\end{figure}
 
 Finally, to understand the ratio between the Protein-Protein and Protein-Water components, for both Coulomb and Lennard-Jones, is computed (Figure \ref{fig:ratio_eng_cg}).
 %
@@ -467,8 +468,8 @@ An interesting follow up on this topic would be investigating wonder whether a t
 
 \paragraph{Bilayer versus monolayer capsules}
 To prove also on large scale objects that the bilayer structure is indeed essential to grant a structure which does not disassemble or change shape, we perform simulations of a monolayer capsule (specifically taking the external layer of the capsule already simulated) in the three coarse grain force fields employed so far.
-
-We focus here on the results obtained with the SIRAH and Polar MARTINI models, as the ones observed with standard MARTINI resemble closely the ones of the Polar version.
+%
+We focus here on the results obtained with the SIRAH and Polar MARTINI models, as the ones observed with standard MARTINI resemble closely the Polar version.
 
 The RMSD with respect to the initial configuration of the production shows that the monolayer undergoes a larger conformational change than the bilayer in the SIRAH force field, while it is similar for Polar MARTINI. However, 
 
