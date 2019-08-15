@@ -415,9 +415,7 @@ These effects though are slightly more pronounced for the MARTINI force fields, 
 %			GR		SI		MA		MAP
 % SAME		234		179		138		246
 % INTER 		62	    42   	171		128
-The number of chain paired in the SIRAH simulations is fewer than in the atomistic ones (Figure \ref{fig:BTI_beta}), in line with a more expanded structure. 
-%
-\textbf{[CHECK]} The MARTINI simulations show a lower number of contacts between molecules belonging to the same layer, probably due to the less specific interactions between different beads which do not allow a description of the hydrogen bond like interactions. Moreover, MARTINI results show that the structure obtained after a longer time scale is less organised, but does keep its overall shape thanks to the tight packing between chains. Consistently with this and the smaller thickness of the shell in the MARTINI simulations, the number of contacts between the two layers is higher than in the atomistic simulation.
+The number of chain paired in the SIRAH simulations is fewer than in the atomistic ones (Figure \ref{fig:BTI_beta}), in line with a more expanded structure, while MARTINI simulations propose a higher number, consistently with the reduced size of the capsule. In particular, the inter layer contacts are consistently higher, as would be expected when the two layers are closer and more strongly bound, as suggested by the values of the stacking molecules correlation. Finally, there is little difference between MARTINI and Polar MARTINI in this measure.
 
 Breaking down the contact analysis by residue type (Figure \ref{fig:BTI_cont}), coarse grain simulations shows necessarily a different organisation, due to the fact that different parametrisation results in different proportions between the side chains volumes of different amino acids. Never the less, in all the representations, Tryoptophan has a prominent role in establishing contacts with its neighbours at the backbone level, while different force field suggest different role of the side chains. Quite surprisingly, the SIRAH force field does not promote interactions between side chains a part from the Tryptophan ones with themselves. This seems due to the more expanded structure of the capsule and the larger solvation of the amino acids, which are more exposed in solution (see next paragraph discussing SASA values).
 %
@@ -453,6 +451,13 @@ Therefore, protein electrostatics have an increasing contribution in MARTINI, Po
 
 This can partially explain the differences in sizes observed across the models: despite the Protein-Protein Coulomb energy is more negative in SIRAH, because of the way it is computed, with a smaller dielectric constant these contributions are less screened, thus the many positive amino acids composing (which are more abundant than the negative ones) the capsule can repel each other more effectively.
 
+\begin{figure}[p!]
+\centering
+\subbottom[]{\includegraphics[width=\linewidth]{3results_capsule/pics/many_energies.png} \label{fig:value_eng_cg}} 
+\subbottom[]{\includegraphics[width=\linewidth]{3results_capsule/pics/ratio_energies.png} \label{fig:ratio_eng_cg}} 
+\caption[Non-bonded protein energy contribution to capsule structures]{(a) Protein-Protein and Protein-Water non-bonded interactions, normalised per molecule. (b) Ratio between the Protein-Protein and Protein-Water interactions from plot (a), for Coulomb and Lennard-Jones respectively. Results are shown for Replica 1 of each simulation setup.}
+\label{fig:eng_cg}
+\end{figure}
 
 Finally, to understand the ratio between the Protein-Protein and Protein-Water components, for both Coulomb and Lennard-Jones, is computed (Figure \ref{fig:ratio_eng_cg}).
 %
@@ -471,21 +476,35 @@ To prove also on large scale objects that the bilayer structure is indeed essent
 %
 We focus here on the results obtained with the SIRAH and Polar MARTINI models, as the ones observed with standard MARTINI resemble closely the Polar version.
 
-The RMSD with respect to the initial configuration of the production shows that the monolayer undergoes a larger conformational change than the bilayer in the SIRAH force field, while it is similar for Polar MARTINI. However, 
+The RMSD with respect to the initial configuration of the production (Figure \ref{fig:rmsd_mono_bi}, top) shows that the monolayer undergoes a larger conformational change than the bilayer in the SIRAH force field. This effect is not traceable in Polar MARTINI within the same plot. However, if we consider the RMSD with respect to the initial structure built (the geometrically regular polyhedra as in Figure \ref{fig:BTI_vmd_3}), it is clear that for Polar MARTINI the discrepancy between monolayer and bilayer is even more pronounced (Figure \ref{fig:rmsd_mono_bi}, bottom). This is likely due to the fact that rearrangements are more favoured in short time during the more coarser simulations.
 
+This larger change is due to a larger contraction of the structure, which collapses within its center (Figure \ref{fig:rdf_mono_bi}).
+%
+This is evident especially for Polar MARTINI, while for the 1 $\mu$s SIRAH simulations, together with the contraction it is observed that Tryptophan side chains have a tendency to become closer, modifying locally the structure and causing a local puckering (see Figure \ref{fig:sirah_mono_pic}). Likely this mechanism is present also in the MARTINI ones, but is it overshadowed by the general contraction, which brings the chains close enough to screen the hydrophobic components without a puckering of the arms as the one observed in SIRAH.
 
-. Consistently, the RDF profile shows that the object contracts much more than the bilayer in both the MARTINI simulations. Likely, this brings the hydrophobic component closer and thus help their screening from the solvent. In the SIRAH simulations instead, the balance of the forces is not sufficient to cause a contraction of the whole structure. Therefore, a rearrangement of nearby branches is observed which brings the Tryptophan side chains closer (Figure --). Consistently, the SASA of Tryptophan residues decreases \textbf{[DO]} (Figure --).
+Consistently, the SASA of Tryptophan residues decreases \textbf{[DO]} (Figure --).
 
 All the findings together strengthen the hypothesis that a favourable packing must allow for the screening of the hydrohpobic residues, arranging multiple copies of them close enough to interact together.
 
+\begin{figure}
+    \begin{minipage}[c]{0.5\textwidth}
+        \includegraphics[width=\linewidth]{3results_capsule/pics/compare_MonoBi_rmsd.png} \\
+        \subbottom[]{\includegraphics[width=\linewidth]{3results_capsule/pics/compare_MonoBi_rmsd_init.png} \label{fig:rmsd_mono_bi}}
+    \end{minipage}
+    \begin{minipage}[c]{0.48\textwidth}
+        \subbottom[]{\includegraphics[width=\linewidth]{3results_capsule/pics/compare_MonoBi_RDF.png} \label{fig:rdf_mono_bi}}
+    \end{minipage}
+    \caption[Comparison of structural properties between monolayer and bilayer structures]{(a) RMSD of the monolayer and bilayer structures along the production run, for the SIRAH and Polar MARTINI force field, with respect to the initial structure of the production (top), and initial geometrical configuration (external layer of Figure \ref{fig:BTI_vmd_3}). (b) RDF of Protein masses around their center of mass. For each label of the legend, the bar has length of the respective RDF FWHM (thickness estimate). \textbf{[DO BARS]} Results are shown for Replica 1 of each simulation setup.}
+\label{fig:mono_bi}
+\end{figure}
 
-\begin{figure}[p!]
+
+\begin{figure}[h!]
 \centering
-\subbottom[]{\includegraphics[width=0.5\linewidth]{3results_capsule/pics/compare_MonoBi_RDF.png} \label{fig:rdf_mono_bi}} \\
-\subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/compare_MonoBi_rmsd.png} \label{fig:rmsd_mono_bi}}
-\subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/compare_MonoBi_rmsd_init.png} \label{fig:rmsd_init_mono_bi}} 
-\caption[bb]{(a) }
-\label{fig:mono_bi_comparison}
+\subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/sirah_mono_all.png} \label{fig:sirah_mono_all}}
+\subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/sirah_mono_detail.png} \label{fig:sirah_mono_detail}} 
+\caption[Snapshot of SIRAH monolayer simulation]{\textbf{[REDO]} (a) Final configuration of a SIRAH monolayer simulations (Replica 1), with highlighted a protruding puckered structure recurrently occurring several positions of the capsule. (b) Detail of the puckered structure. Representations: backbone of the full structure in pink bonds; backbone of highlighted triskelion molecules in green, blue and red bonds; side chains of selected molecules in green, blue and red lines, excluded Tryptophan, in silver bonds.}
+\label{fig:sirah_mono_pic}
 \end{figure}
 
 
