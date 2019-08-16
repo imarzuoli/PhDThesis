@@ -431,7 +431,7 @@ Figure \ref{fig:value_eng_cg} plots these value for the second half of the simul
 \centering
 \subbottom[]{\includegraphics[width=0.8\linewidth]{3results_capsule/pics/many_energies_brief.png} \label{fig:value_eng_cg}} 
 \subbottom[]{\includegraphics[width=0.8\linewidth]{3results_capsule/pics/ratio_energies_brief.png} \label{fig:ratio_eng_cg}} 
-\caption[Non-bonded protein energy contribution to capsule structures]{(a) Protein-Protein and Protein-Water non-bonded interactions, normalised per molecule. (b) Ratio between the Protein-Protein and Protein-Water interactions for each force field, for Coulomb and Lennard-Jones respectively; or between Coulomb and Lennard/Jones, for Protein-Protein an Protein-Water interactions separately (note the log scale on $y$).}
+\caption[Non-bonded protein energy contribution to capsule structures]{(a) Protein-Protein and Protein-Water non-bonded interactions, normalised per molecule. VAlues obtained as average on the second half of the trajectory of Replica 1 for each setup. (b) Ratio between the Protein-Protein and Protein-Water interactions for each force field, for Coulomb and Lennard-Jones respectively; or between Coulomb and Lennard/Jones, for Protein-Protein an Protein-Water interactions separately (note the log scale on $y$). Values computed as for plot a).}
 \label{fig:eng_cg}
 \end{figure}
 
@@ -441,7 +441,7 @@ The partial reversion to $\epsilon = 2.5$, together with an introduction of the 
 %
 This is higher than the ratio of the $\epsilon$ between the two models (equal to $6$), likely due to the fact that the different screening allows a rearrangement of the charges which brings opposite ones closer to each other.
 
-To be noticed that SIRAH simulations, run at $\epsilon = 1$, present Coulomb components 2.5 times larger than the ones of Polar MARTINI, suggesting that the two water models, both representing the separation of water charges in an approximate way, give a similar energy contribution despite being different.
+SIRAH simulations instead, run at $\epsilon = 1$, present Coulomb components 2.5 times larger than the ones of Polar MARTINI, suggesting that the two water models, both representing the separation of water charges in an approximate way, give a similar energy contribution despite being different.
 
 This difference in Coulomb energies affects both the Protein-Protein and Protein-Water interactions consistently, however it can have consequences on the dynamics because it changes their proportion with respect to the Lennard-Jones contributions. These interactions are not changed between the two MARTINI models, making their role predominant in standard MARTINI, while competing with the Coulomb contribution in Polar MARTINI (still being larger overall).
 %
@@ -450,14 +450,6 @@ On the contrary, SIRAH parametrisation opts for a smaller role of Lennard-Jones 
 Therefore, protein electrostatics have an increasing contribution in MARTINI, Polar MARTINI and SIRAH respectively, both in absolute terms and with respect to the Lennard-Jones contribution.
 
 This can partially explain the differences in sizes observed across the models: despite the Protein-Protein Coulomb energy is more negative in SIRAH, because of the way it is computed, with a smaller dielectric constant these contributions are less screened, thus the many positive amino acids composing (which are more abundant than the negative ones) the capsule can repel each other more effectively.
-
-\begin{figure}[p!]
-\centering
-\subbottom[]{\includegraphics[width=\linewidth]{3results_capsule/pics/many_energies.png} \label{fig:value_eng_cg}} 
-\subbottom[]{\includegraphics[width=\linewidth]{3results_capsule/pics/ratio_energies.png} \label{fig:ratio_eng_cg}} 
-\caption[Non-bonded protein energy contribution to capsule structures]{(a) Protein-Protein and Protein-Water non-bonded interactions, normalised per molecule. (b) Ratio between the Protein-Protein and Protein-Water interactions from plot (a), for Coulomb and Lennard-Jones respectively. Results are shown for Replica 1 of each simulation setup.}
-\label{fig:eng_cg}
-\end{figure}
 
 Finally, to understand the ratio between the Protein-Protein and Protein-Water components, for both Coulomb and Lennard-Jones, is computed (Figure \ref{fig:ratio_eng_cg}).
 %
@@ -478,7 +470,7 @@ We focus here on the results obtained with the SIRAH and Polar MARTINI models, a
 
 The RMSD with respect to the initial configuration of the production (Figure \ref{fig:rmsd_mono_bi}, top) shows that the monolayer undergoes a larger conformational change than the bilayer in the SIRAH force field. This effect is not traceable in Polar MARTINI within the same plot. However, if we consider the RMSD with respect to the initial structure built (the geometrically regular polyhedra as in Figure \ref{fig:BTI_vmd_3}), it is clear that for Polar MARTINI the discrepancy between monolayer and bilayer is even more pronounced (Figure \ref{fig:rmsd_mono_bi}, bottom). This is likely due to the fact that rearrangements are more favoured in short time during the more coarser simulations.
 
-This larger change is due to a larger contraction of the structure, which collapses within its center (Figure \ref{fig:rdf_mono_bi}).
+This larger change of the monolayer is due to a larger contraction of the structure, which collapses within its center (Figure \ref{fig:rdf_mono_bi}).
 %
 This is evident especially for Polar MARTINI, while for the 1 $\mu$s SIRAH simulations, together with the contraction it is observed that Tryptophan side chains have a tendency to become closer, modifying locally the structure and causing a local puckering (see Figure \ref{fig:sirah_mono_pic}). Likely this mechanism is present also in the MARTINI ones, but is it overshadowed by the general contraction, which brings the chains close enough to screen the hydrophobic components without a puckering of the arms as the one observed in SIRAH.
 
@@ -508,6 +500,12 @@ All the findings together strengthen the hypothesis that a favourable packing mu
 \end{figure}
 
 
+\begin{figure}[p!]
+\centering
+\subbottom[]{\includegraphics[width=0.8\linewidth]{3results_capsule/pics/many_energies_brief.png} \label{fig:value_eng_cg}} 
+\caption[Non-bonded protein energy contribution to capsule structures]{(a) Protein-Protein and Protein-Water non-bonded interactions, normalised per molecule.}
+\label{fig:eng_cg}
+\end{figure}
 
 
 
@@ -515,7 +513,7 @@ All the findings together strengthen the hypothesis that a favourable packing mu
 
 
 
-
+\section{Rest}
 
 
 \clearpage
