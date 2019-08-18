@@ -9,66 +9,72 @@ A level-1 auxiliary file: 3results_capsule/results_capsule.aux
 A level-1 auxiliary file: 4lip_par/lip_par.aux
 A level-1 auxiliary file: appendix.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 10796 items from 5000.
-Database file #1: thesis_ref.bib
+Reallocated field_info (elt_size=4) to 11417 items from 5000.
+Database file #1: thesis_ref2.bib
 Warning--entry type for "poly" isn't style-file defined
---line 3060 of file thesis_ref.bib
+--line 3060 of file thesis_ref2.bib
 Warning--entry type for "lipo" isn't style-file defined
---line 3190 of file thesis_ref.bib
+--line 3190 of file thesis_ref2.bib
 Warning--entry type for "phage" isn't style-file defined
---line 3227 of file thesis_ref.bib
+--line 3227 of file thesis_ref2.bib
+Warning--I'm ignoring Leontiadou2006's extra "publisher" field
+--line 4457 of file thesis_ref2.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--I didn't find a database entry for "???"
 Warning--I didn't find a database entry for "????"
 Warning--I didn't find a database entry for "Silhavy"
 Warning--I didn't find a database entry for "??"
+Warning--I didn't find a database entry for "Wang2006lpx"
+Warning--I didn't find a database entry for "add_ref"
 Warning--I didn't find a database entry for "Sunde1997"
+Warning--I didn't find a database entry for "pops"
 Warning--I didn't find a database entry for "--"
 Warning--empty journal in Oneill2016
 Warning--empty booktitle in Pattni2015
+Warning--empty booktitle in Vogel2017
 Warning--empty publisher in gromacs_man
-Warning--empty journal in Huber1997
 Warning--empty journal in Jorgensen1996
-Warning--empty journal in Leontiadou2006
+Warning--empty booktitle in Fornili2012
 Warning--empty journal in SiewertJ.Marrink2003
-You've used 246 entries,
+You've used 270 entries,
             1876 wiz_defined-function locations,
-            2057 strings with 59379 characters,
-and the built_in function-call counts, 84828 in all, are:
-= -- 8711
-> -- 3704
+            2199 strings with 68321 characters,
+and the built_in function-call counts, 96542 in all, are:
+= -- 9754
+> -- 4528
 < -- 0
-+ -- 1324
-- -- 1078
-* -- 6605
-:= -- 11715
-add.period$ -- 249
-call.type$ -- 246
-change.case$ -- 242
++ -- 1607
+- -- 1337
+* -- 7658
+:= -- 13451
+add.period$ -- 269
+call.type$ -- 270
+change.case$ -- 269
 chr.to.int$ -- 0
-cite$ -- 253
-duplicate$ -- 4003
-empty$ -- 6731
-format.name$ -- 1078
-if$ -- 20373
+cite$ -- 277
+duplicate$ -- 4470
+empty$ -- 7482
+format.name$ -- 1337
+if$ -- 23045
 int.to.chr$ -- 0
-int.to.str$ -- 246
-missing$ -- 244
-newline$ -- 747
-num.names$ -- 249
-pop$ -- 367
+int.to.str$ -- 270
+missing$ -- 266
+newline$ -- 815
+num.names$ -- 272
+pop$ -- 383
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3744
+skip$ -- 4241
 stack$ -- 0
-substring$ -- 7113
-swap$ -- 2253
+substring$ -- 8069
+swap$ -- 2553
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 866
-width$ -- 249
-write$ -- 2430
-(There were 16 warnings)
+while$ -- 965
+width$ -- 273
+write$ -- 2673
+(There were 20 warnings)

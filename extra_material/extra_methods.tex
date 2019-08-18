@@ -1,0 +1,88 @@
+\chapter{Methods} \label{chapter:MD}
+
+\section{The search problem} \label{sec:search}
+
+Very often the aim of Molecular Dynamics simulations, or other computational techniques which investigate biosystems, consists in characterising the energy landscape and in particular in finding the configurations of minimal energy. For example in the case of a protein, to find all the folds which are energetically favoured.
+
+Biomolecular systems have thousands of strongly interdependent degrees of freedom, therefore their energy landscape is complex and rough, meaning that many local minima of energy are present. Ideally, the full landscape needs to be explored as the properties of the system are determined by the ensemble of conformations visited and how often each of them is adopted. However, statistical mechanics teaches that the configurations with lower energy have an higher contribution to the system, according to the Boltzmann weight:
+\begin{equation}
+P(x) \propto \exp(-V(x)/k_BT)
+\end{equation}
+with $k_B$ the Boltzmann constant, $T$ the absolute temperature and $V(x)$ the position-dependent potential energy. Therefore the importance of investigating energy minima.
+%
+At this stage, we voluntarily omit the entropic contribution, which will be discussed later: indeed, conformations of non-minimal energy can be important as well if a large number of microstates corresponds to them, i.e.\ many different rearrangement of the internal degrees of freedom give the same macroscopic outcome (which is the definition of high entropy).
+
+At the core of every energy landscape exploration lays the potential energy function, as modelled in the force field, but the initial configuration plays an important role as well.
+%
+Indeed, many techniques perform a local search of the landscape in the vicinity of the starting conformation, and regions further away are sampled only in much longer runs. Very often in the simulations of proteins the initial structure is derived from X-ray crystallography, however it is well known that this might not represent the native state of the protein in solution nor the functional form of interest, making the convergence toward the desired structure a long process.
+
+Different techniques have been developed to sample efficiently the energy (and thus conformation) space, and a non exhaustive list comprises:
+\begin{itemize}
+\item generating a series of independent configurations for the system to cast the search problem into a distance-based form (in the so-called distance-geometry metric-matrix method \cite{Crippen1988,Havel1990});
+\item building a system configuration from the configurations of its fragments in a stepwise manner (for example in the Monte Carlo chain-growing methods \cite{Velikson1992});
+\item using step methods, where a new configuration is derived from the previous one. Energy minimization and Metropolis Monte Carlo are step methods \cite{vanGunsteren1997}. Molecular Dynamics falls as well in this category, and for this technique the step is intuitively associated to time.
+\end{itemize}
+MD simulations are particularly interesting as they propose to reproduce the ``true" relaxation of a structure toward its energy minimum, as it would be observed in nature. However, they struggle in investigating large systems and reproducing processes undergoing slow transitions because of their computational cost, making MD a somewhat poor techniques for the full characterisation of the energy landscape.
+%
+For this reason, many techniques have been designed to overcome such impediment, giving rise to the field of enhanced MD, and many expedients are put in place to limit the search to interesting area of the phase space.
+
+Only coarse graining would be considered in this work among the enhanced MD techniques, but it is interesting to understand the flexibility and possibilities of MD facing the search problem. Possible include: 1) smoothing and deforming the potential energy surface, 2) enhancing the pace at which the space is explored or 3) forcing the exploration of new/interesting regions only.
+
+The first can be achieved for example using long range distance bonds based on experimental results (e.g.\ Nuclear Overhauser effect - NOE - data) \cite{Braun1985}; softening geometric restraints derived from NMR or X-ray data through time averaging \cite{Torda1990}; or finally using ``soft-core" atoms, thus reducing the Pauli repulsion among them \cite{Huber1997}.
+%
+An enhanced exploration pace can be obtained using higher temperatures to overcome energy barriers thanks to the acquired kinetic energy \cite{Kirkpatrick1983}, scaling the mass to reduce inertia \cite{Mao1990}, or combining multiple simulations together (for example in replica-exchange algorithms \cite{Okamoto2004} some configuration are extracted from simulations held at different conditions and used to feed a new set of simulations).
+%
+Finally, avoiding the re-sampling of energy minima can be reached through local potential-energy elevation \cite{Huber1994,Laio2002}; while constraining the high-frequency degrees of freedom (for example non-polar hydrogens) avoids spending time computing non interesting fine-details \cite{vanGunsteren1977}.
+
+Coarse-graining of the model to reduce the number of interaction sites is another widely employed and effective technique to speed up the sampling (two examples of coarse-grain force field have been given in Section \ref{sec:ff}): a coarse-grain potential discards the high-frequency or less interesting degrees of freedom, and at the same time gives a smoother energy surface, so that the search is not trapped into local minima due to the landscape roughness.
+
+Alongside the aforementioned techniques, a set of expedient allows to reproduce at best the natural conditions while keeping the complexity low:
+%
+for examples periodic boundary conditions approximate an infinite system even simulating a small portion of space (Figure --); moreover, as often done in this work, the initial conditions are chosen carefully to sample the regions of interest, based on some prior knowledge or to test some hypotheses.
+
+Thus, the outcome of MD simulation is a (local and incomplete) sampling of the configuration space.
+%Out of all the configurations visited, the initial steps are biased by the initial state, and the convergence in time of given quantities, or their agreement across different copies of the simulation must be checked to verify whether the simulation has reached a local equilibrium.
+%
+If on one hand the search problem if further complicated by the fact that many different conformations can be equally important (the ensemble or entropic problem), in the case of biomolecular system it is never the less alleviated by the common knowledge accumulated on them, and such knowledge is coded in the energy functional of the force field commonly employed: for example, only a few rotamers of the common amino acids are favoured, according to the informations gained from X-ray crystallography, thus avoiding the sampling of high-energy, unfavourable conformations.
+
+
+\section{The ensemble problem}
+
+In the previous paragraph the exploration of the energy landscape was indicated as the major goal of MD simulations. Despite energy ($U$) is often the reference quantity for the investigation of biomolecular systems, it is the combination with entropy $S$ in the form of free energy ($F = U - TS$) that drives the evolution. Many states of the system can have the same free energy while having different energetic and entropic contributions, and while some processes are dominated by the variation in the first, others are governed by the second.
+%
+This also means that a configuration with an energy higher than the minimal possible one can still determine the behaviour of the system if such configuration can be obtained by more microstates (entropic contribution).
+
+For example, the preferred state of a solvent is highly governed by its entropic contribution, as many molecules contribute to it. Accordingly, among all the possible folds of a peptide in solution, the presence of solvent molecules can shift the preferred fold to a conformation of non-minimal energy for the protein itself, because it results in a lower free energy for the whole protein-solvent system.
+%
+As the entropic contribution in free energy is weighted by temperature, this means that the preferred conformations adopted by the peptide are temperature-dependent.
+
+Such pool of equally relevant conformations is the so-called ensemble: if at the beginning of structural biology the development of X-ray crystallography pushed forward the idea that a protein is fixed in one particular shape, in recent years the concept of ensemble has re-emerged, supported by techniques such as NMR. Their results can be correctly interpreted only assuming the protein adopts an ensemble of shapes, each visited for a given amount of time, while no one single conformation can explain the overall results by itself. In such context, MD simulations can characterise these conformations and estimate the time of residency in each, uncovering their relative importance.
+
+Finally, it must be noticed that MD simulations are successful in computing free energy differences between states, as it is sufficient to sample extensively the region of the phase or configurations space where the two states differ. In contrast, to compute entropy differences requires the correct evaluation of the full Hamiltonian operator in both states and not only of the terms which are distinct.
+%
+Some contributions (for example the solvent entropy) are very hard to compute as they require a prohibitively extended sampling for their correct evaluation.
+%
+Even if some techniques have been developed to address the problem, at present they are still difficult to apply to the calculation of ligand-protein binding entropy or polypeptide folding entropy \cite{Peter2004}. Thus, up to now, entropy computations remain under-represented with respect to free energy ones in the landscape of computational biology, diminishing the accuracy with which relevant biological processes, as the ones just mentioned, are modelled.
+
+
+\section{The experimental problem}
+
+The validation of MD simulations is performed by comparison with experiments: the properties obtained experimentally are computed from the MD trajectory as well, and the latter compared with the former. If these are correctly reproduced, it is usually assumed that the simulation is sampling the correct ensemble of states. This holds if the properties of the simulation are not drifting away, namely the system has reached equilibration and it is thus in a stationary state.
+%
+Once the simulation has been validated, one can identify, from the conformations in the trajectory, the details of the processes responsible for the experimental outcome of interest, as such information is not accessible by the experiment itself.
+
+In such procedure it is not unusual that the measured and computed quantity do not match or that the interpretation of the comparison is hard. This can be due to several factors, which can be grouped into three classes.
+%
+First, the average problem: the quantity measured by an experiment is almost always an average in time and/or space. For example, Circular Dichroism spectra and SAXS profiles of a peptide in solution are the convolution of the profiles cast by every conformation adopted by the protein in the time window of the measurement, averaged over all the copies of the peptide present in the sample. As such, even knowing the pool of possible peptide configurations from MD simulations, many different combinations can produce the same results: there is uncertainty in the weight each conformation is assigned, as well as the possibility that some conformations are missing in the pool computed.
+%
+Directly from this arise the second challenge: the under-determination of the problem itself. Indeed, the experimental information is limited in comparison with the many degrees of freedom involved in the system, and with the ones handled by MD simulations. It is thus impossible to obtain experimental evidence proving the existence of each conformation in the ensemble or each detail in a particular process - and exactly in this lays the value of MD as integrative technique.
+%
+Finally, the accuracy of the experimental data can be a limiting factor as MD resolution is usually higher than experimental one, suggesting the importance of mechanism not reachable by experimental verification. This problem will be likely alleviated in the future as experimental techniques get better and better.
+
+From the examples above, it is clear the importance of MD simulations in accessing details of systems which are beyond the experimental reach, but it is also crucial to validate the simulations set up against experimental properties before using them for predictions.
+%
+In such validation is important to have a critical attitude both when the results agree and when they do not.
+%
+Indeed, agreement may arise from either a simulation that reflects correctly the experimental system; but also from a ``wrong focus" of the attention, e.g. the property examined is insensitive to the details of the simulated trajectory and thus always agrees with experiments; or finally from a compensation of errors, which happens more easily for systems with a high number of degrees of freedom.
+%
+Similarly, disagreement may hint at an error in the simulation (either in the theory behind it, the model, the implementation or simply the simulation is not converged yet) or an error in the experiment (either in the result itself o its interpretation), so that both must be carefully checked to finally improve the agreement.

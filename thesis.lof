@@ -10,44 +10,46 @@
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Cazip molecule}}{41}{figure.caption.22}
 \contentsline {figure}{\numberline {1.7}{\ignorespaces Experimental results on capzip}}{45}{figure.caption.25}
 \addvspace {10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces MD force field classifications}}{57}{figure.caption.30}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces SIRAH force field amino acid and DNA description}}{60}{figure.caption.31}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Hydrogen bonds between RRWTWE $\beta $-sheet}}{82}{figure.caption.38}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{82}{figure.caption.38}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{82}{figure.caption.38}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{82}{figure.caption.38}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Building blocks of capzip assembly}}{83}{figure.caption.39}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{83}{figure.caption.39}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{83}{figure.caption.39}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{83}{figure.caption.39}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces }}{83}{figure.caption.39}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Cohesion measures on the pentagonal subunit}}{85}{figure.caption.40}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{85}{figure.caption.40}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{85}{figure.caption.40}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Snapshot of simulations of capzip on model membranes}}{86}{figure.caption.41}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{86}{figure.caption.41}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{86}{figure.caption.41}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Atomistic run of buckyball in solution: final configuration}}{95}{figure.caption.49}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Structural measures on buckyball in solution}}{96}{figure.caption.50}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{96}{figure.caption.50}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{96}{figure.caption.50}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{96}{figure.caption.50}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Correlation of motion between molecules of the buckyball}}{98}{figure.caption.52}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Branch pairing during simulations of the buckyball}}{98}{figure.caption.54}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Contacts between molecules during simulations of the buckyball}}{99}{figure.caption.55}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Hydrogen bonds in the buckyball molecule}}{101}{figure.caption.57}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces SASA per residue of a buckyball in solution}}{102}{figure.caption.59}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{102}{figure.caption.59}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{102}{figure.caption.59}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Non-bonded protein energy contribution to capsule structures}}{105}{figure.caption.61}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{105}{figure.caption.61}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{105}{figure.caption.61}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Comparison of structural properties between monolayer and bilayer structures}}{108}{figure.caption.63}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{108}{figure.caption.63}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{108}{figure.caption.63}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Snapshot of SIRAH monolayer simulation}}{109}{figure.caption.64}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{109}{figure.caption.64}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{109}{figure.caption.64}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Non-bonded protein energy contribution to capsule structures}}{109}{figure.caption.65}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{109}{figure.caption.65}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Hydrogen bonds between RRWTWE $\beta $-sheet}}{80}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{80}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{80}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{80}{figure.caption.42}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Building blocks of capzip assembly}}{81}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{81}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{81}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{81}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces }}{81}{figure.caption.43}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Cohesion measures on the pentagonal subunit}}{83}{figure.caption.44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{83}{figure.caption.44}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{83}{figure.caption.44}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Snapshot of simulations of capzip on model membranes}}{84}{figure.caption.45}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{84}{figure.caption.45}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{84}{figure.caption.45}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Atomistic run of buckyball in solution: final configuration}}{93}{figure.caption.53}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Structural measures on buckyball in solution}}{94}{figure.caption.54}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{94}{figure.caption.54}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{94}{figure.caption.54}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{94}{figure.caption.54}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Correlation of motion between molecules of the buckyball}}{96}{figure.caption.56}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Branch pairing during simulations of the buckyball}}{96}{figure.caption.58}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Contacts between molecules during simulations of the buckyball}}{97}{figure.caption.59}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Hydrogen bonds in the buckyball molecule}}{99}{figure.caption.61}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces SASA per residue of a buckyball in solution}}{100}{figure.caption.63}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{100}{figure.caption.63}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{100}{figure.caption.63}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Non-bonded protein energy contribution to capsule structures}}{103}{figure.caption.65}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{103}{figure.caption.65}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{103}{figure.caption.65}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Comparison of structural properties between monolayer and bilayer structures}}{106}{figure.caption.67}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{106}{figure.caption.67}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{106}{figure.caption.67}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Snapshot of SIRAH monolayer simulation}}{107}{figure.caption.68}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{107}{figure.caption.68}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{107}{figure.caption.68}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Non-bonded protein energy contribution to capsule structures}}{107}{figure.caption.69}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{107}{figure.caption.69}
 \addvspace {10pt}
 \addvspace {10pt}
