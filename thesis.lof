@@ -1,55 +1,62 @@
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Graphical abstract of introduction}}{11}{figure.caption.4}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Mechanisms of antimicrobial resistance to small drugs}}{14}{figure.caption.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{14}{figure.caption.5}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{14}{figure.caption.5}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{14}{figure.caption.5}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Antimicrobial peptides}}{19}{figure.caption.9}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Principles of gene therapy}}{34}{figure.caption.17}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Materials for drug delivery vehicles}}{36}{figure.caption.19}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Cazip molecule}}{41}{figure.caption.22}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Experimental results on capzip}}{45}{figure.caption.25}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Graphical abstract of introduction}}{12}{figure.caption.4}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Mechanisms of antimicrobial resistance to small drugs}}{15}{figure.caption.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{15}{figure.caption.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{15}{figure.caption.5}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{15}{figure.caption.5}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Antimicrobial peptides}}{20}{figure.caption.9}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Principles of gene therapy}}{35}{figure.caption.17}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Materials for drug delivery vehicles}}{37}{figure.caption.19}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Cazip molecule}}{42}{figure.caption.22}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Experimental results on capzip}}{46}{figure.caption.25}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces MD force field classifications}}{57}{figure.caption.30}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces SIRAH force field amino acid and DNA description}}{60}{figure.caption.31}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces MD force field classifications}}{58}{figure.caption.30}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces SIRAH force field amino acid and DNA description}}{61}{figure.caption.31}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Hydrogen bonds between RRWTWE $\beta $-sheet}}{80}{figure.caption.42}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{80}{figure.caption.42}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{80}{figure.caption.42}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{80}{figure.caption.42}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Building blocks of capzip assembly}}{81}{figure.caption.43}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{81}{figure.caption.43}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{81}{figure.caption.43}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{81}{figure.caption.43}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces }}{81}{figure.caption.43}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Cohesion measures on the pentagonal subunit}}{83}{figure.caption.44}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{83}{figure.caption.44}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{83}{figure.caption.44}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Snapshot of simulations of capzip on model membranes}}{84}{figure.caption.45}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{84}{figure.caption.45}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{84}{figure.caption.45}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Atomistic run of buckyball in solution: final configuration}}{93}{figure.caption.53}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Structural measures on buckyball in solution}}{94}{figure.caption.54}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{94}{figure.caption.54}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{94}{figure.caption.54}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{94}{figure.caption.54}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Correlation of motion between molecules of the buckyball}}{96}{figure.caption.56}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Branch pairing during simulations of the buckyball}}{96}{figure.caption.58}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Contacts between molecules during simulations of the buckyball}}{97}{figure.caption.59}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Hydrogen bonds in the buckyball molecule}}{99}{figure.caption.61}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces SASA per residue of a buckyball in solution}}{100}{figure.caption.63}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{100}{figure.caption.63}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{100}{figure.caption.63}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Non-bonded protein energy contribution to capsule structures}}{103}{figure.caption.65}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{103}{figure.caption.65}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{103}{figure.caption.65}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Comparison of structural properties between monolayer and bilayer structures}}{106}{figure.caption.67}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{106}{figure.caption.67}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{106}{figure.caption.67}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Snapshot of SIRAH monolayer simulation}}{107}{figure.caption.68}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{107}{figure.caption.68}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{107}{figure.caption.68}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Non-bonded protein energy contribution to capsule structures}}{107}{figure.caption.69}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{107}{figure.caption.69}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Hydrogen bonds between RRWTWE $\beta $-sheet}}{81}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{81}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{81}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{81}{figure.caption.42}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Building blocks of capzip assembly}}{82}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{82}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{82}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{82}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces }}{82}{figure.caption.43}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Cohesion measures on the pentagonal subunit}}{84}{figure.caption.44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{84}{figure.caption.44}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{84}{figure.caption.44}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Snapshot of simulations of capzip on model membranes}}{85}{figure.caption.45}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{85}{figure.caption.45}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{85}{figure.caption.45}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Atomistic run of buckyball in solution: final configuration}}{96}{figure.caption.53}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Structural measures on buckyball in solution}}{97}{figure.caption.54}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{97}{figure.caption.54}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{97}{figure.caption.54}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{97}{figure.caption.54}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Correlation of motion between molecules of the buckyball}}{99}{figure.caption.56}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Branch pairing during simulations of the buckyball}}{99}{figure.caption.58}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Contacts between molecules during simulations of the buckyball}}{100}{figure.caption.59}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Hydrogen bonds in the buckyball molecule}}{102}{figure.caption.61}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces SASA per residue of a buckyball in solution}}{103}{figure.caption.63}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{103}{figure.caption.63}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{103}{figure.caption.63}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Non-bonded protein energy contribution to capsule structures}}{106}{figure.caption.65}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{106}{figure.caption.65}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{106}{figure.caption.65}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Comparison of structural properties between monolayer and bilayer structures}}{108}{figure.caption.67}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{108}{figure.caption.67}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{108}{figure.caption.67}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Snapshot of SIRAH monolayer simulation}}{110}{figure.caption.68}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{110}{figure.caption.68}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{110}{figure.caption.68}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces SASA per residue of monolayer and bilater}}{110}{figure.caption.69}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{110}{figure.caption.69}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{110}{figure.caption.69}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces \textbf {[take out legend?]} (a) Area per lipid (ApL); (b) lateral lipid diffusion coefficient (D), (c) average tail order S$_{CD}$ from simulations of model bacterial membrane patches simulated under different conditions. On the left of (a) and (c) a schematic of the system setup shows the number of lipids L, number of peptides P, and electric field E applied in the z direction (in mV/nm) in each case. Black points refer to simulations on 512 lipids patches, blue ones on 740 lipids patches; squares denotes presence of peptide molecules; in (b) full symbol are for DLPC and hollow for DLPG. Bars denote the standard error; for the diffusion coefficient, these are smaller than the point size. (d) Hexagonal order parameter S$_6$ for lipid acyl chains computed on the last frame of a simulation of a 512 bacterial patch with 10 peptide molecules (line 3 in (a,b,c)). Picture shown for the bottom leaflet (without the peptide). Chain plotted by the average $xy$ position of their carbon atoms, colour coded by the S$_6$ value; boundaries of the simulation box in solid black lines; chains of the periodic images shown faded out.\relax }}{112}{figure.caption.71}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{112}{figure.caption.71}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{112}{figure.caption.71}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{112}{figure.caption.71}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces }}{112}{figure.caption.71}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Diffusion coefficient of the lipids within given distance from the protein. P: number of peptide on the membrane, nm: interval of distances between the peptide and the lipids selected for the computation. \relax }}{115}{figure.caption.76}
 \addvspace {10pt}
 \addvspace {10pt}
