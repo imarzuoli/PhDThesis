@@ -1,1530 +1,1217 @@
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{}
+\providecommand{\foreignlanguage}[2]{#2}
+\providecommand{\Capitalize}[1]{\uppercase{#1}}
+\providecommand{\capitalize}[1]{\expandafter\Capitalize#1}
+\providecommand{\bibliographycite}[1]{\cite{#1}}
+\providecommand{\bbland}{and}
+\providecommand{\bblchap}{chap.}
+\providecommand{\bblchapter}{chapter}
+\providecommand{\bbletal}{et~al.}
+\providecommand{\bbleditors}{editors}
+\providecommand{\bbleds}{eds.}
+\providecommand{\bbleditor}{editor}
+\providecommand{\bbled}{ed.}
+\providecommand{\bbledition}{edition}
+\providecommand{\bbledn}{ed.}
+\providecommand{\bbleidp}{page}
+\providecommand{\bbleidpp}{pages}
+\providecommand{\bblerratum}{erratum}
+\providecommand{\bblin}{in}
+\providecommand{\bblmthesis}{Master's thesis}
+\providecommand{\bblno}{no.}
+\providecommand{\bblnumber}{number}
+\providecommand{\bblof}{of}
+\providecommand{\bblpage}{page}
+\providecommand{\bblpages}{pages}
+\providecommand{\bblp}{p}
+\providecommand{\bblphdthesis}{Ph.D. thesis}
+\providecommand{\bblpp}{pp}
+\providecommand{\bbltechrep}{Tech. Rep.}
+\providecommand{\bbltechreport}{Technical Report}
+\providecommand{\bblvolume}{volume}
+\providecommand{\bblvol}{Vol.}
+\providecommand{\bbljan}{January}
+\providecommand{\bblfeb}{February}
+\providecommand{\bblmar}{March}
+\providecommand{\bblapr}{April}
+\providecommand{\bblmay}{May}
+\providecommand{\bbljun}{June}
+\providecommand{\bbljul}{July}
+\providecommand{\bblaug}{August}
+\providecommand{\bblsep}{September}
+\providecommand{\bbloct}{October}
+\providecommand{\bblnov}{November}
+\providecommand{\bbldec}{December}
+\providecommand{\bblfirst}{First}
+\providecommand{\bblfirsto}{1st}
+\providecommand{\bblsecond}{Second}
+\providecommand{\bblsecondo}{2nd}
+\providecommand{\bblthird}{Third}
+\providecommand{\bblthirdo}{3rd}
+\providecommand{\bblfourth}{Fourth}
+\providecommand{\bblfourtho}{4th}
+\providecommand{\bblfifth}{Fifth}
+\providecommand{\bblfiftho}{5th}
+\providecommand{\bblst}{st}
+\providecommand{\bblnd}{nd}
+\providecommand{\bblrd}{rd}
+\providecommand{\bblth}{th}
 \begin{thebibliography}{100}
 
 \bibitem{poly}
-{Mettler Toledo}, ``Polymerization reactions.''
+{Mettler Toledo}; \emph{Polymerization Reactions}.
+  \urlprefix\url{https://www.mt.com/au/en/home/applications/L1_AutoChem_Applications/L2_ReactionAnalysis/L2_Polymerization.html#publications}.
 
 \bibitem{lipo}
-Wikipedia, ``Liposome.''
+Wikipedia; \emph{Liposome}.
+  \urlprefix\url{https://en.wikipedia.org/wiki/Liposome}.
 
 \bibitem{Schoonen2014}
-L.~Schoonen and J.~C.~M. van Hest, ``{Functionalization of protein-based
-  nanocages for drug delivery applications},'' {\em Nanoscale}, vol.~6,
-  pp.~7124--7141, jun 2014.
+Schoonen, L.; van Hest, J. C.~M. \emph{Nanoscale} \textbf{2014}, \emph{6},
+  7124--7141.
 
 \bibitem{Blair2014}
-J.~M.~A. Blair, M.~A. Webber, A.~J. Baylay, D.~O. Ogbolu, and L.~J.~V. Piddock,
-  ``{Molecular mechanisms of antibiotic resistance},'' {\em Nature Publishing
-  Group}, vol.~13, 2014.
+Blair, J. M.~A.; Webber, M.~A.; Baylay, A.~J.; Ogbolu, D.~O.; Piddock, L. J.~V.
+  \emph{Nature Publishing Group} \textbf{2014}, \emph{13}.
 
 \bibitem{phage}
-J.~Kim, ``Phage as a therapeutic agent.''
+Kim, J.; \emph{Phage as a Therapeutic Agent}.
+  \urlprefix\url{https://medium.com/@thryve/phage-as-a-therapeutic-agent-ed4c466302e5}.
 
 \bibitem{Torres2019}
-M.~D. Torres, S.~Sothiselvam, T.~K. Lu, and C.~de~la Fuente-Nunez, ``{Peptide
-  Design Principles for Antimicrobial Applications},'' {\em Journal of
-  Molecular Biology}, jan 2019.
+Torres, M.~D.; Sothiselvam, S.; Lu, T.~K.; de~la Fuente-Nunez, C. \emph{Journal
+  of Molecular Biology} \textbf{2019}.
 
 \bibitem{Nguyen2011}
-L.~T. Nguyen, E.~F. Haney, and H.~J. Vogel, ``{The expanding scope of
-  antimicrobial peptide structures and their modes of action},'' {\em Trends in
-  Biotechnology}, vol.~29, pp.~464--472, sep 2011.
+Nguyen, L.~T.; Haney, E.~F.; Vogel, H.~J. \emph{Trends in Biotechnology}
+  \textbf{2011}, \emph{29}, 464--472.
 
 \bibitem{Castelletto2016}
-V.~Castelletto, E.~de~Santis, H.~Alkassem, B.~Lamarre, J.~E. Noble, S.~Ray,
-  A.~Bella, J.~R. Burns, B.~W. Hoogenboom, M.~G. Ryadnov, J.~Vandesompele, and
-  C.~T. Wittwer, ``{Structurally plastic peptide capsules for synthetic
-  antimicrobial viruses},'' {\em Chem. Sci.}, vol.~7, pp.~1707--1711, feb 2016.
+Castelletto, V.; de~Santis, E.; Alkassem, H.; Lamarre, B.; Noble, J.~E.; Ray,
+  S.; Bella, A.; Burns, J.~R.; Hoogenboom, B.~W.; Ryadnov, M.~G.; Vandesompele,
+  J.; Wittwer, C.~T. \emph{Chem. Sci.} \textbf{2016}, \emph{7}, 1707--1711.
 
 \bibitem{Santos2017}
-R.~Santos, O.~Ursu, A.~Gaulton, A.~P. Bento, R.~S. Donadi, C.~G. Bologa,
-  A.~Karlsson, B.~Al-Lazikani, A.~Hersey, T.~I. Oprea, and J.~P. Overington,
-  ``{A comprehensive map of molecular drug targets},'' {\em Nature Reviews Drug
-  Discovery}, vol.~16, pp.~19--34, jan 2017.
+Santos, R.; Ursu, O.; Gaulton, A.; Bento, A.~P.; Donadi, R.~S.; Bologa, C.~G.;
+  Karlsson, A.; Al-Lazikani, B.; Hersey, A.; Oprea, T.~I.; Overington, J.~P.
+  \emph{Nature Reviews Drug Discovery} \textbf{2017}, \emph{16}, 19--34.
 
 \bibitem{Gordon2000}
-E.~Gordon, N.~Mouz, E.~Du{\'{e}}e, and O.~Dideberg, ``{The crystal structure of
-  the penicillin-binding protein 2x from Streptococcus pneumoniae and its
-  acyl-enzyme form: implication in drug resistance},'' {\em Journal of
-  Molecular Biology}, vol.~299, pp.~477--485, jun 2000.
+Gordon, E.; Mouz, N.; Du{\'{e}}e, E.; Dideberg, O. \emph{Journal of Molecular
+  Biology} \textbf{2000}, \emph{299}, 477--485.
 
 \bibitem{Delcour2009}
-A.~H. Delcour, ``{Outer membrane permeability and antibiotic resistance},''
-  {\em Biochimica et Biophysica Acta (BBA) - Proteins and Proteomics},
-  vol.~1794, pp.~808--816, may 2009.
+Delcour, A.~H. \emph{Biochimica et Biophysica Acta (BBA) - Proteins and
+  Proteomics} \textbf{2009}, \emph{1794}, 808--816.
 
 \bibitem{Vargiu2012}
-A.~V. Vargiu and H.~Nikaido, ``{Multidrug binding properties of the AcrB efflux
-  pump characterized by molecular dynamics simulations.},'' {\em Proceedings of
-  the National Academy of Sciences of the United States of America}, vol.~109,
-  pp.~20637--42, dec 2012.
+Vargiu, A.~V.; Nikaido, H. \emph{Proceedings of the National Academy of
+  Sciences of the United States of America} \textbf{2012}, \emph{109},
+  20637--42.
 
 \bibitem{Kojima2013}
-S.~Kojima and H.~Nikaido, ``{Permeation rates of penicillins indicate that
-  Escherichia coli porins function principally as nonspecific channels},'' {\em
-  Proceedings of the National Academy of Sciences}, vol.~110, pp.~E2629--E2634,
-  jul 2013.
+Kojima, S.; Nikaido, H. \emph{Proceedings of the National Academy of Sciences}
+  \textbf{2013}, \emph{110}, E2629--E2634.
 
 \bibitem{Lavigne2013}
-J.-P. Lavigne, A.~Sotto, M.-H. Nicolas-Chanoine, N.~Bouziges, J.-M.
-  Pag{\`{e}}s, and A.~Davin-Regli, ``{An adaptive response of Enterobacter
-  aerogenes to imipenem: regulation of porin balance in clinical isolates},''
-  {\em International Journal of Antimicrobial Agents}, vol.~41, pp.~130--136,
-  feb 2013.
+Lavigne, J.-P.; Sotto, A.; Nicolas-Chanoine, M.-H.; Bouziges, N.; Pag{\`{e}}s,
+  J.-M.; Davin-Regli, A. \emph{International Journal of Antimicrobial Agents}
+  \textbf{2013}, \emph{41}, 130--136.
 
 \bibitem{Poulou2013}
-A.~Poulou, E.~Voulgari, G.~Vrioni, V.~Koumaki, G.~Xidopoulos, V.~Chatzipantazi,
-  F.~Markou, and A.~Tsakris, ``{Outbreak Caused by an Ertapenem-Resistant,
-  CTX-M-15-Producing Klebsiella pneumoniae Sequence Type 101 Clone Carrying an
-  OmpK36 Porin Variant},'' {\em Journal of Clinical Microbiology}, vol.~51,
-  pp.~3176--3182, oct 2013.
+Poulou, A.; Voulgari, E.; Vrioni, G.; Koumaki, V.; Xidopoulos, G.;
+  Chatzipantazi, V.; Markou, F.; Tsakris, A. \emph{Journal of Clinical
+  Microbiology} \textbf{2013}, \emph{51}, 3176--3182.
 
 \bibitem{Floyd2010}
-J.~L. Floyd, K.~P. Smith, S.~H. Kumar, J.~T. Floyd, and M.~F. Varela, ``{LmrS
-  Is a Multidrug Efflux Pump of the Major Facilitator Superfamily from
-  Staphylococcus aureus},'' {\em Antimicrobial Agents and Chemotherapy},
-  vol.~54, pp.~5406--5412, dec 2010.
+Floyd, J.~L.; Smith, K.~P.; Kumar, S.~H.; Floyd, J.~T.; Varela, M.~F.
+  \emph{Antimicrobial Agents and Chemotherapy} \textbf{2010}, \emph{54},
+  5406--5412.
 
 \bibitem{Ogawa2012}
-W.~Ogawa, M.~Onishi, R.~Ni, T.~Tsuchiya, and T.~Kuroda, ``{Functional study of
-  the novel multidrug efflux pump KexD from Klebsiella pneumoniae},'' {\em
-  Gene}, vol.~498, pp.~177--182, may 2012.
+Ogawa, W.; Onishi, M.; Ni, R.; Tsuchiya, T.; Kuroda, T. \emph{Gene}
+  \textbf{2012}, \emph{498}, 177--182.
 
 \bibitem{Dolejska2013}
-M.~Dolejska, L.~Villa, L.~Poirel, P.~Nordmann, and A.~Carattoli, ``{Complete
-  sequencing of an IncHI1 plasmid encoding the carbapenemase NDM-1, the ArmA
-  16S RNA methylase and a resistance-nodulation-cell division/multidrug efflux
-  pump},'' {\em Journal of Antimicrobial Chemotherapy}, vol.~68, pp.~34--39,
-  jan 2013.
+Dolejska, M.; Villa, L.; Poirel, L.; Nordmann, P.; Carattoli, A. \emph{Journal
+  of Antimicrobial Chemotherapy} \textbf{2013}, \emph{68}, 34--39.
 
 \bibitem{Abouzeed2008}
-Y.~M. Abouzeed, S.~Baucheron, and A.~Cloeckaert, ``{ramR mutations involved in
-  efflux-mediated multidrug resistance in Salmonella enterica serovar
-  Typhimurium.},'' {\em Antimicrobial agents and chemotherapy}, vol.~52,
-  pp.~2428--34, jul 2008.
+Abouzeed, Y.~M.; Baucheron, S.; Cloeckaert, A. \emph{Antimicrobial agents and
+  chemotherapy} \textbf{2008}, \emph{52}, 2428--34.
 
 \bibitem{Nikaido2011}
-E.~Nikaido, I.~Shirosaka, A.~Yamaguchi, and K.~Nishino, ``{Regulation of the
-  AcrAB multidrug efflux pump in Salmonella enterica serovar Typhimurium in
-  response to indole and paraquat},'' {\em Microbiology}, vol.~157,
-  pp.~648--655, mar 2011.
+Nikaido, E.; Shirosaka, I.; Yamaguchi, A.; Nishino, K. \emph{Microbiology}
+  \textbf{2011}, \emph{157}, 648--655.
 
 \bibitem{Shore2011}
-A.~C. Shore, E.~C. Deasy, P.~Slickers, G.~Brennan, B.~O'Connell, S.~Monecke,
-  R.~Ehricht, and D.~C. Coleman, ``{Detection of Staphylococcal Cassette
-  Chromosome \emph{mec} Type XI Carrying Highly Divergent \emph{mecA},
-  \emph{mecI}, \emph{mecR1}, \emph{blaZ}, and \emph{ccr} Genes in Human
-  Clinical Isolates of Clonal Complex 130 Methicillin-Resistant
-  \emph{Staphylococcus aureus}},'' {\em Antimicrobial Agents and Chemotherapy},
-  vol.~55, pp.~3765--3773, aug 2011.
+Shore, A.~C.; Deasy, E.~C.; Slickers, P.; Brennan, G.; O'Connell, B.; Monecke,
+  S.; Ehricht, R.; Coleman, D.~C. \emph{Antimicrobial Agents and Chemotherapy}
+  \textbf{2011}, \emph{55}, 3765--3773.
 
 \bibitem{Billal2011}
-D.~S. Billal, J.~Feng, P.~Leprohon, D.~L{\'{e}}gar{\'{e}}, and M.~Ouellette,
-  ``{Whole genome analysis of linezolid resistance in Streptococcus pneumoniae
-  reveals resistance and compensatory mutations},'' {\em BMC Genomics},
-  vol.~12, p.~512, dec 2011.
+Billal, D.~S.; Feng, J.; Leprohon, P.; L{\'{e}}gar{\'{e}}, D.; Ouellette, M.
+  \emph{BMC Genomics} \textbf{2011}, \emph{12}, 512.
 
 \bibitem{Long2006}
-K.~S. Long, J.~Poehlsgaard, C.~Kehrenberg, S.~Schwarz, and B.~Vester, ``{The
-  Cfr rRNA Methyltransferase Confers Resistance to Phenicols, Lincosamides,
-  Oxazolidinones, Pleuromutilins, and Streptogramin A Antibiotics},'' {\em
-  Antimicrobial Agents and Chemotherapy}, vol.~50, pp.~2500--2505, jul 2006.
+Long, K.~S.; Poehlsgaard, J.; Kehrenberg, C.; Schwarz, S.; Vester, B.
+  \emph{Antimicrobial Agents and Chemotherapy} \textbf{2006}, \emph{50},
+  2500--2505.
 
 \bibitem{Abraham1988}
-E.~P. Abraham and E.~Chain, ``{An enzyme from bacteria able to destroy
-  penicillin. 1940.},'' {\em Reviews of infectious diseases}, vol.~10, no.~4,
-  pp.~677--8, 1988.
+Abraham, E.~P.; Chain, E. \emph{Reviews of infectious diseases} \textbf{1988},
+  \emph{10}, 677--8.
 
 \bibitem{Livermore2008}
-D.~Livermore, ``{Defining an extended-spectrum $\beta$-lactamase},'' {\em
-  Clinical Microbiology and Infection}, vol.~14, pp.~3--10, jan 2008.
+Livermore, D. \emph{Clinical Microbiology and Infection} \textbf{2008},
+  \emph{14}, 3--10.
 
 \bibitem{Nordmann2011}
-P.~Nordmann, L.~Poirel, T.~R. Walsh, and D.~M. Livermore, ``{The emerging NDM
-  carbapenemases},'' {\em Trends in Microbiology}, vol.~19, pp.~588--595, dec
-  2011.
+Nordmann, P.; Poirel, L.; Walsh, T.~R.; Livermore, D.~M. \emph{Trends in
+  Microbiology} \textbf{2011}, \emph{19}, 588--595.
 
 \bibitem{Woodford2013}
-N.~Woodford and A.~P. Johnson, ``{Global spread of antibiotic resistance: the
-  example of New Delhi metallo-$\beta$-lactamase (NDM)-mediated carbapenem
-  resistance},'' {\em Journal of Medical Microbiology}, vol.~62, pp.~499--513,
-  apr 2013.
+Woodford, N.; Johnson, A.~P. \emph{Journal of Medical Microbiology}
+  \textbf{2013}, \emph{62}, 499--513.
 
 \bibitem{Wright2005}
-G.~Wright, ``{Bacterial resistance to antibiotics: Enzymatic degradation and
-  modification},'' {\em Advanced Drug Delivery Reviews}, vol.~57,
-  pp.~1451--1470, jul 2005.
+Wright, G. \emph{Advanced Drug Delivery Reviews} \textbf{2005}, \emph{57},
+  1451--1470.
 
 \bibitem{Kapoor2017}
-G.~Kapoor, S.~Saigal, and A.~Elongavan, ``{Action and resistance mechanisms of
-  antibiotics: A guide for clinicians.},'' {\em Journal of anaesthesiology,
-  clinical pharmacology}, vol.~33, no.~3, pp.~300--305, 2017.
+Kapoor, G.; Saigal, S.; Elongavan, A. \emph{Journal of anaesthesiology,
+  clinical pharmacology} \textbf{2017}, \emph{33}, 300--305.
 
 \bibitem{Birkegard2018}
-A.~C. Birkeg{\aa}rd, T.~Halasa, N.~Toft, A.~Folkesson, and K.~Gr{\ae}sb{\o}ll,
-  ``{Send more data: a systematic review of mathematical models of
-  antimicrobial resistance.},'' {\em Antimicrobial resistance and infection
-  control}, vol.~7, p.~117, 2018.
+Birkeg{\aa}rd, A.~C.; Halasa, T.; Toft, N.; Folkesson, A.; Gr{\ae}sb{\o}ll, K.
+  \emph{Antimicrobial resistance and infection control} \textbf{2018},
+  \emph{7}, 117.
 
 \bibitem{Niewiadomska2019}
-A.~M. Niewiadomska, B.~Jayabalasingham, J.~C. Seidman, L.~Willem, B.~Grenfell,
-  D.~Spiro, and C.~Viboud, ``{Population-level mathematical modeling of
-  antimicrobial resistance: a systematic review},'' {\em BMC Medicine},
-  vol.~17, p.~81, dec 2019.
+Niewiadomska, A.~M.; Jayabalasingham, B.; Seidman, J.~C.; Willem, L.; Grenfell,
+  B.; Spiro, D.; Viboud, C. \emph{BMC Medicine} \textbf{2019}, \emph{17}, 81.
 
 \bibitem{Oneill2016}
-J.~{O 'neill}, ``{TACKLING DRUG-RESISTANT INFECTIONS GLOBALLY: FINAL REPORT AND
-  RECOMMENDATIONS THE REVIEW ON ANTIMICROBIAL RESISTANCE},'' 2016.
+{O 'neill}, J. \textbf{2016}.
 
 \bibitem{Mantravadi2019}
-P.~Mantravadi, K.~Kalesh, R.~Dobson, A.~Hudson, and A.~Parthasarathy, ``{The
-  Quest for Novel Antimicrobial Compounds: Emerging Trends in Research,
-  Development, and Technologies},'' {\em Antibiotics}, vol.~8, p.~8, jan 2019.
+Mantravadi, P.; Kalesh, K.; Dobson, R.; Hudson, A.; Parthasarathy, A.
+  \emph{Antibiotics} \textbf{2019}, \emph{8}, 8.
 
 \bibitem{Ebbensgaard2015}
-A.~Ebbensgaard, H.~Mordhorst, M.~T. Overgaard, C.~G. Nielsen, F.~M. Aarestrup,
-  and E.~B. Hansen, ``{Comparative Evaluation of the Antimicrobial Activity of
-  Different Antimicrobial Peptides against a Range of Pathogenic Bacteria},''
-  {\em PLOS ONE}, vol.~10, p.~e0144611, dec 2015.
+Ebbensgaard, A.; Mordhorst, H.; Overgaard, M.~T.; Nielsen, C.~G.; Aarestrup,
+  F.~M.; Hansen, E.~B. \emph{PLOS ONE} \textbf{2015}, \emph{10}, e0144611.
 
 \bibitem{Brogden2005}
-K.~A. Brogden, ``{Antimicrobial peptides: pore formers or metabolic inhibitors
-  in bacteria?},'' {\em Nature Reviews Microbiology}, vol.~3, pp.~238--250, mar
-  2005.
+Brogden, K.~A. \emph{Nature Reviews Microbiology} \textbf{2005}, \emph{3},
+  238--250.
 
 \bibitem{Hancock2006}
-R.~E.~W. Hancock and H.-G. Sahl, ``{Antimicrobial and host-defense peptides as
-  new anti-infective therapeutic strategies},'' {\em Nature Biotechnology},
-  vol.~24, pp.~1551--1557, dec 2006.
+Hancock, R. E.~W.; Sahl, H.-G. \emph{Nature Biotechnology} \textbf{2006},
+  \emph{24}, 1551--1557.
 
 \bibitem{Lin2016}
-T.-Y. Lin and D.~B. Weibel, ``{Organization and function of anionic
-  phospholipids in bacteria},'' {\em Applied Microbiology and Biotechnology},
-  vol.~100, pp.~4255--4267, may 2016.
+Lin, T.-Y.; Weibel, D.~B. \emph{Applied Microbiology and Biotechnology}
+  \textbf{2016}, \emph{100}, 4255--4267.
 
 \bibitem{Glukhov2005}
-E.~Glukhov, M.~Stark, L.~L. Burrows, and C.~M. Deber, ``{Basis for selectivity
-  of cationic antimicrobial peptides for bacterial versus mammalian
-  membranes.},'' {\em The Journal of biological chemistry}, vol.~280,
-  pp.~33960--7, oct 2005.
+Glukhov, E.; Stark, M.; Burrows, L.~L.; Deber, C.~M. \emph{The Journal of
+  biological chemistry} \textbf{2005}, \emph{280}, 33960--7.
 
 \bibitem{Spector1985}
-A.~A. Spector and M.~A. Yorek, ``{Membrane lipid composition and cellular
-  function.},'' {\em Journal of lipid research}, vol.~26, pp.~1015--35, sep
-  1985.
+Spector, A.~A.; Yorek, M.~A. \emph{Journal of lipid research} \textbf{1985},
+  \emph{26}, 1015--35.
 
 \bibitem{vanMeer2008}
-G.~van Meer, D.~R. Voelker, and G.~W. Feigenson, ``{Membrane lipids: where they
-  are and how they behave.},'' {\em Nature reviews. Molecular cell biology},
-  vol.~9, pp.~112--24, feb 2008.
+van Meer, G.; Voelker, D.~R.; Feigenson, G.~W. \emph{Nature reviews. Molecular
+  cell biology} \textbf{2008}, \emph{9}, 112--24.
 
 \bibitem{Yeaman2003}
-M.~R. Yeaman and N.~Y. Yount, ``{Mechanisms of Antimicrobial Peptide Action and
-  Resistance},'' {\em Pharmacological Reviews}, vol.~55, pp.~27--55, mar 2003.
+Yeaman, M.~R.; Yount, N.~Y. \emph{Pharmacological Reviews} \textbf{2003},
+  \emph{55}, 27--55.
 
 \bibitem{Lai2009}
-Y.~Lai and R.~L. Gallo, ``{AMPed up immunity: how antimicrobial peptides have
-  multiple roles in immune defense},'' {\em Trends in Immunology}, vol.~30,
-  pp.~131--141, mar 2009.
+Lai, Y.; Gallo, R.~L. \emph{Trends in Immunology} \textbf{2009}, \emph{30},
+  131--141.
 
 \bibitem{Zasloff2002}
-M.~Zasloff, ``{Antimicrobial peptides of multicellular organisms},'' {\em
-  Nature}, vol.~415, pp.~389--395, jan 2002.
+Zasloff, M. \emph{Nature} \textbf{2002}, \emph{415}, 389--395.
 
 \bibitem{Matsuzaki2009}
-K.~Matsuzaki, ``{Control of cell selectivity of antimicrobial peptides},'' {\em
-  Biochimica et Biophysica Acta (BBA) - Biomembranes}, vol.~1788,
-  pp.~1687--1692, aug 2009.
+Matsuzaki, K. \emph{Biochimica et Biophysica Acta (BBA) - Biomembranes}
+  \textbf{2009}, \emph{1788}, 1687--1692.
 
 \bibitem{Ebenhan2014}
-T.~Ebenhan, O.~Gheysens, H.~G. Kruger, J.~R. Zeevaart, and M.~M. Sathekge,
-  ``{Antimicrobial peptides: their role as infection-selective tracers for
-  molecular imaging.},'' {\em BioMed research international}, vol.~2014,
-  p.~867381, aug 2014.
+Ebenhan, T.; Gheysens, O.; Kruger, H.~G.; Zeevaart, J.~R.; Sathekge, M.~M.
+  \emph{BioMed research international} \textbf{2014}, \emph{2014}, 867381.
 
 \bibitem{Chan2006}
-D.~I. Chan, E.~J. Prenner, and H.~J. Vogel, ``{Tryptophan- and arginine-rich
-  antimicrobial peptides: Structures and mechanisms of action},'' {\em
-  Biochimica et Biophysica Acta (BBA) - Biomembranes}, vol.~1758,
-  pp.~1184--1202, sep 2006.
+Chan, D.~I.; Prenner, E.~J.; Vogel, H.~J. \emph{Biochimica et Biophysica Acta
+  (BBA) - Biomembranes} \textbf{2006}, \emph{1758}, 1184--1202.
 
 \bibitem{Yang2001}
-L.~Yang, T.~A. Harroun, T.~M. Weiss, L.~Ding, and H.~W. Huang, ``{Barrel-stave
-  model or toroidal model? A case study on melittin pores.},'' {\em Biophysical
-  journal}, vol.~81, pp.~1475--85, sep 2001.
+Yang, L.; Harroun, T.~A.; Weiss, T.~M.; Ding, L.; Huang, H.~W.
+  \emph{Biophysical journal} \textbf{2001}, \emph{81}, 1475--85.
 
 \bibitem{Spaar2004}
-A.~Spaar, C.~M{\"{u}}nster, and T.~Salditt, ``{Conformation of peptides in
-  lipid membranes studied by x-ray grazing incidence scattering.},'' {\em
-  Biophysical journal}, vol.~87, pp.~396--407, jul 2004.
+Spaar, A.; M{\"{u}}nster, C.; Salditt, T. \emph{Biophysical journal}
+  \textbf{2004}, \emph{87}, 396--407.
 
 \bibitem{Matsuzaki1996}
-K.~Matsuzaki, O.~Murase, N.~Fujii, and K.~Miyajima, ``{An Antimicrobial
-  Peptide, Magainin 2, Induced Rapid Flip-Flop of Phospholipids Coupled with
-  Pore Formation and Peptide Translocation},'' {\em Biochemistry}, vol.~35,
-  pp.~11361--11368, jan 1996.
+Matsuzaki, K.; Murase, O.; Fujii, N.; Miyajima, K. \emph{Biochemistry}
+  \textbf{1996}, \emph{35}, 11361--11368.
 
 \bibitem{Hallock2003}
-K.~J. Hallock, D.-K. Lee, and A.~Ramamoorthy, ``{MSI-78, an analogue of the
-  magainin antimicrobial peptides, disrupts lipid bilayer structure via
-  positive curvature strain.},'' {\em Biophysical journal}, vol.~84,
-  pp.~3052--60, may 2003.
+Hallock, K.~J.; Lee, D.-K.; Ramamoorthy, A. \emph{Biophysical journal}
+  \textbf{2003}, \emph{84}, 3052--60.
 
 \bibitem{Matsuzaki1997}
-K.~Matsuzaki, K.-i. Sugishita, M.~Harada, N.~Fujii, and K.~Miyajima,
-  ``{Interactions of an antimicrobial peptide, magainin 2, with outer and inner
-  membranes of Gram-negative bacteria},'' {\em Biochimica et Biophysica Acta
-  (BBA) - Biomembranes}, vol.~1327, pp.~119--130, jul 1997.
+Matsuzaki, K.; Sugishita, K.-i.; Harada, M.; Fujii, N.; Miyajima, K.
+  \emph{Biochimica et Biophysica Acta (BBA) - Biomembranes} \textbf{1997},
+  \emph{1327}, 119--130.
 
 \bibitem{Ladokhin2001}
-A.~S. Ladokhin and S.~H. White, ``{`Detergent-like' permeabilization of anionic
-  lipid vesicles by melittin},'' {\em Biochimica et Biophysica Acta (BBA) -
-  Biomembranes}, vol.~1514, pp.~253--260, oct 2001.
+Ladokhin, A.~S.; White, S.~H. \emph{Biochimica et Biophysica Acta (BBA) -
+  Biomembranes} \textbf{2001}, \emph{1514}, 253--260.
 
 \bibitem{Yamaguchi2001}
-S.~Yamaguchi, D.~Huster, A.~Waring, R.~I. Lehrer, W.~Kearney, B.~F. Tack, and
-  M.~Hong, ``{Orientation and Dynamics of an Antimicrobial Peptide in the Lipid
-  Bilayer by Solid-State NMR Spectroscopy},'' {\em Biophysical Journal},
-  vol.~81, pp.~2203--2214, oct 2001.
+Yamaguchi, S.; Huster, D.; Waring, A.; Lehrer, R.~I.; Kearney, W.; Tack, B.~F.;
+  Hong, M. \emph{Biophysical Journal} \textbf{2001}, \emph{81}, 2203--2214.
 
 \bibitem{Tang2009}
-M.~Tang and M.~Hong, ``{Structure and mechanism of $\beta$-hairpin
-  antimicrobial peptides in lipid bilayers from solid-state NMR
-  spectroscopy},'' {\em Molecular BioSystems}, vol.~5, p.~317, mar 2009.
+Tang, M.; Hong, M. \emph{Molecular BioSystems} \textbf{2009}, \emph{5}, 317.
 
 \bibitem{Lehrer2004}
-R.~I. Lehrer, ``{Primate defensins},'' {\em Nature Reviews Microbiology},
-  vol.~2, pp.~727--738, sep 2004.
+Lehrer, R.~I. \emph{Nature Reviews Microbiology} \textbf{2004}, \emph{2},
+  727--738.
 
 \bibitem{Kagan1990}
-B.~L. Kagan, M.~E. Selsted, T.~Ganz, and R.~I. Lehrer, ``{Antimicrobial
-  defensin peptides form voltage-dependent ion-permeable channels in planar
-  lipid bilayer membranes.},'' {\em Proceedings of the National Academy of
-  Sciences}, vol.~87, pp.~210--214, jan 1990.
+Kagan, B.~L.; Selsted, M.~E.; Ganz, T.; Lehrer, R.~I. \emph{Proceedings of the
+  National Academy of Sciences} \textbf{1990}, \emph{87}, 210--214.
 
 \bibitem{Takeuchi2004}
-K.~Takeuchi, H.~Takahashi, M.~Sugai, H.~Iwai, T.~Kohno, K.~Sekimizu, S.~Natori,
-  and I.~Shimada, ``{Channel-forming membrane permeabilization by an
-  antibacterial protein, sapecin: determination of membrane-buried and
-  oligomerization surfaces by NMR.},'' {\em The Journal of biological
-  chemistry}, vol.~279, pp.~4981--7, feb 2004.
+Takeuchi, K.; Takahashi, H.; Sugai, M.; Iwai, H.; Kohno, T.; Sekimizu, K.;
+  Natori, S.; Shimada, I. \emph{The Journal of biological chemistry}
+  \textbf{2004}, \emph{279}, 4981--7.
 
 \bibitem{Yonezawa1992}
-A.~Yonezawa, J.~Kuwahara, N.~Fujii, and Y.~Sugiura, ``{Binding of tachyplesin I
-  to DNA revealed by footprinting analysis: significant contribution of
-  secondary structure to DNA binding and implication for biological action},''
-  {\em Biochemistry}, vol.~31, pp.~2998--3004, mar 1992.
+Yonezawa, A.; Kuwahara, J.; Fujii, N.; Sugiura, Y. \emph{Biochemistry}
+  \textbf{1992}, \emph{31}, 2998--3004.
 
 \bibitem{Gifford2005}
-J.~L. Gifford, H.~N. Hunter, and H.~J. Vogel, ``{Lactoferricin},'' {\em
-  Cellular and Molecular Life Sciences}, vol.~62, pp.~2588--2598, nov 2005.
+Gifford, J.~L.; Hunter, H.~N.; Vogel, H.~J. \emph{Cellular and Molecular Life
+  Sciences} \textbf{2005}, \emph{62}, 2588--2598.
 
 \bibitem{Tomita1994}
-M.~Tomita, M.~Takase, W.~Bellamy, and S.~Shimamura, ``{A review: the active
-  peptide of lactoferrin.},'' {\em Acta paediatrica Japonica : Overseas
-  edition}, vol.~36, pp.~585--91, oct 1994.
+Tomita, M.; Takase, M.; Bellamy, W.; Shimamura, S. \emph{Acta paediatrica
+  Japonica : Overseas edition} \textbf{1994}, \emph{36}, 585--91.
 
 \bibitem{Schibli1999}
-D.~J. Schibli, P.~M. Hwang, and H.~J. Vogel, ``{The structure of the
-  antimicrobial active center of lactoferricin B bound to sodium dodecyl
-  sulfate micelles},'' {\em FEBS Letters}, vol.~446, pp.~213--217, mar 1999.
+Schibli, D.~J.; Hwang, P.~M.; Vogel, H.~J. \emph{FEBS Letters} \textbf{1999},
+  \emph{446}, 213--217.
 
 \bibitem{Peschel2006}
-A.~Peschel and H.-G. Sahl, ``{The co-evolution of host cationic antimicrobial
-  peptides and microbial resistance},'' {\em Nature Reviews Microbiology},
-  vol.~4, pp.~529--536, jul 2006.
+Peschel, A.; Sahl, H.-G. \emph{Nature Reviews Microbiology} \textbf{2006},
+  \emph{4}, 529--536.
 
 \bibitem{Sieprawska-Lupa2004}
-M.~Sieprawska-Lupa, P.~Mydel, K.~Krawczyk, K.~W{\'{o}}jcik, M.~Puklo, B.~Lupa,
-  P.~Suder, J.~Silberring, M.~Reed, J.~Pohl, W.~Shafer, F.~McAleese, T.~Foster,
-  J.~Travis, and J.~Potempa, ``{Degradation of human antimicrobial peptide
-  LL-37 by Staphylococcus aureus-derived proteinases.},'' {\em Antimicrobial
-  agents and chemotherapy}, vol.~48, pp.~4673--9, dec 2004.
+Sieprawska-Lupa, M.; Mydel, P.; Krawczyk, K.; W{\'{o}}jcik, K.; Puklo, M.;
+  Lupa, B.; Suder, P.; Silberring, J.; Reed, M.; Pohl, J.; Shafer, W.;
+  McAleese, F.; Foster, T.; Travis, J.; Potempa, J. \emph{Antimicrobial agents
+  and chemotherapy} \textbf{2004}, \emph{48}, 4673--9.
 
 \bibitem{Nelson2011}
-D.~C. Nelson, J.~Garbe, and M.~Collin, ``{Cysteine proteinase SpeB from
-  Streptococcus pyogenes - a potent modifier of immunologically important host
-  and bacterial proteins},'' {\em Biological Chemistry}, vol.~392,
-  pp.~1077--88, jan 2011.
+Nelson, D.~C.; Garbe, J.; Collin, M. \emph{Biological Chemistry} \textbf{2011},
+  \emph{392}, 1077--88.
 
 \bibitem{Costerton1999}
-J.~W. Costerton, P.~S. Stewart, and E.~P. Greenberg, ``{Bacterial biofilms: a
-  common cause of persistent infections.},'' {\em Science (New York, N.Y.)},
-  vol.~284, pp.~1318--22, may 1999.
+Costerton, J.~W.; Stewart, P.~S.; Greenberg, E.~P. \emph{Science (New York,
+  N.Y.)} \textbf{1999}, \emph{284}, 1318--22.
 
 \bibitem{Jolivet-Gougeon2014}
-A.~Jolivet-Gougeon and M.~Bonnaure-Mallet, ``{Biofilms as a mechanism of
-  bacterial resistance},'' {\em Drug Discovery Today: Technologies}, vol.~11,
-  pp.~49--56, mar 2014.
+Jolivet-Gougeon, A.; Bonnaure-Mallet, M. \emph{Drug Discovery Today:
+  Technologies} \textbf{2014}, \emph{11}, 49--56.
 
 \bibitem{Vuong2004PIA}
-C.~Vuong, J.~M. Voyich, E.~R. Fischer, K.~R. Braughton, A.~R. Whitney, F.~R.
-  DeLeo, and M.~Otto, ``{Polysaccharide intercellular adhesin (PIA) protects
-  Staphylococcus epidermidis against major components of the human innate
-  immune system.},'' {\em Cellular microbiology}, vol.~6, pp.~269--75, mar
-  2004.
+Vuong, C.; Voyich, J.~M.; Fischer, E.~R.; Braughton, K.~R.; Whitney, A.~R.;
+  DeLeo, F.~R.; Otto, M. \emph{Cellular microbiology} \textbf{2004}, \emph{6},
+  269--75.
 
 \bibitem{Vuong2004}
-C.~Vuong, S.~Kocianova, J.~M. Voyich, Y.~Yao, E.~R. Fischer, F.~R. DeLeo, and
-  M.~Otto, ``{A crucial role for exopolysaccharide modification in bacterial
-  biofilm formation, immune evasion, and virulence.},'' {\em The Journal of
-  biological chemistry}, vol.~279, pp.~54881--6, dec 2004.
+Vuong, C.; Kocianova, S.; Voyich, J.~M.; Yao, Y.; Fischer, E.~R.; DeLeo, F.~R.;
+  Otto, M. \emph{The Journal of biological chemistry} \textbf{2004},
+  \emph{279}, 54881--6.
 
 \bibitem{Strempel2014}
-N.~Strempel, J.~Strehmel, and J.~Overhage, ``{Potential Application of
-  Antimicrobial Peptides in the Treatment of Bacterial Biofilm Infections},''
-  {\em Current Pharmaceutical Design}, vol.~21, pp.~67--84, nov 2014.
+Strempel, N.; Strehmel, J.; Overhage, J. \emph{Current Pharmaceutical Design}
+  \textbf{2014}, \emph{21}, 67--84.
 
 \bibitem{Saar-Dover2012}
-R.~Saar-Dover, A.~Bitler, R.~Nezer, L.~Shmuel-Galia, A.~Firon, E.~Shimoni,
-  P.~Trieu-Cuot, and Y.~Shai, ``{D-Alanylation of Lipoteichoic Acids Confers
-  Resistance to Cationic Peptides in Group B Streptococcus by Increasing the
-  Cell Wall Density},'' {\em PLoS Pathogens}, vol.~8, p.~e1002891, sep 2012.
+Saar-Dover, R.; Bitler, A.; Nezer, R.; Shmuel-Galia, L.; Firon, A.; Shimoni,
+  E.; Trieu-Cuot, P.; Shai, Y. \emph{PLoS Pathogens} \textbf{2012}, \emph{8},
+  e1002891.
 
 \bibitem{Bugg1991}
-T.~D.~H. Bugg, G.~D. Wright, S.~Dutka-Malen, M.~Arthur, P.~Courvalin, and C.~T.
-  Walsh, ``{Molecular basis for vancomycin resistance in Enterococcus faecium
-  BM4147: biosynthesis of a depsipeptide peptidoglycan precursor by vancomycin
-  resistance proteins VanH and VanA},'' {\em Biochemistry}, vol.~30,
-  pp.~10408--10415, oct 1991.
+Bugg, T. D.~H.; Wright, G.~D.; Dutka-Malen, S.; Arthur, M.; Courvalin, P.;
+  Walsh, C.~T. \emph{Biochemistry} \textbf{1991}, \emph{30}, 10408--10415.
 
 \bibitem{Moskowitz2004}
-S.~M. Moskowitz, R.~K. Ernst, and S.~I. Miller, ``{PmrAB, a two-component
-  regulatory system of Pseudomonas aeruginosa that modulates resistance to
-  cationic antimicrobial peptides and addition of aminoarabinose to lipid
-  A.},'' {\em Journal of bacteriology}, vol.~186, pp.~575--9, jan 2004.
+Moskowitz, S.~M.; Ernst, R.~K.; Miller, S.~I. \emph{Journal of bacteriology}
+  \textbf{2004}, \emph{186}, 575--9.
 
 \bibitem{Guo1998}
-L.~Guo, K.~B. Lim, C.~M. Poduje, M.~Daniel, J.~S. Gunn, M.~Hackett, and S.~I.
-  Miller, ``{Lipid A acylation and bacterial resistance against vertebrate
-  antimicrobial peptides.},'' {\em Cell}, vol.~95, pp.~189--98, oct 1998.
+Guo, L.; Lim, K.~B.; Poduje, C.~M.; Daniel, M.; Gunn, J.~S.; Hackett, M.;
+  Miller, S.~I. \emph{Cell} \textbf{1998}, \emph{95}, 189--98.
 
 \bibitem{Peschel2001}
-A.~Peschel, R.~W. Jack, M.~Otto, L.~V. Collins, P.~Staubitz, G.~Nicholson,
-  H.~Kalbacher, W.~F. Nieuwenhuizen, G.~Jung, A.~Tarkowski, K.~P. van Kessel,
-  and J.~A. van Strijp, ``{\emph{Staphylococcus aureus} Resistance to Human
-  Defensins and Evasion of Neutrophil Killing via the Novel Virulence Factor
-  Mprf Is Based on Modification of Membrane Lipids with l-Lysine},'' {\em The
-  Journal of Experimental Medicine}, vol.~193, pp.~1067--1076, may 2001.
+Peschel, A.; Jack, R.~W.; Otto, M.; Collins, L.~V.; Staubitz, P.; Nicholson,
+  G.; Kalbacher, H.; Nieuwenhuizen, W.~F.; Jung, G.; Tarkowski, A.; van Kessel,
+  K.~P.; van Strijp, J.~A. \emph{The Journal of Experimental Medicine}
+  \textbf{2001}, \emph{193}, 1067--1076.
 
 \bibitem{Kumariya2015}
-R.~Kumariya, S.~K. Sood, Y.~S. Rajput, N.~Saini, and A.~K. Garsa, ``{Increased
-  membrane surface positive charge and altered membrane fluidity leads to
-  cationic antimicrobial peptide resistance in Enterococcus faecalis.},'' {\em
-  Biochimica et biophysica acta}, vol.~1848, pp.~1367--75, jun 2015.
+Kumariya, R.; Sood, S.~K.; Rajput, Y.~S.; Saini, N.; Garsa, A.~K.
+  \emph{Biochimica et biophysica acta} \textbf{2015}, \emph{1848}, 1367--75.
 
 \bibitem{Band2014}
-V.~Band and D.~Weiss, ``{Mechanisms of Antimicrobial Peptide Resistance in
-  Gram-Negative Bacteria},'' {\em Antibiotics}, vol.~4, pp.~18--41, dec 2014.
+Band, V.; Weiss, D. \emph{Antibiotics} \textbf{2014}, \emph{4}, 18--41.
 
 \bibitem{APD3}
-G.~Wang, X.~Li, Z.~Wang, L.~J.Z., C.~K.Y., L.~M.P., P.~M., V.~K.A., S.~J.M.,
-  and van Hoek~M.L., ``{APD3: the antimicrobial peptide database as a tool for
-  research and education},'' {\em Nucleic Acids Research}, vol.~44,
-  pp.~D1087--D1093, jan 2016.
+Wang, G.; Li, X.; Wang, Z.; J.Z., L.; K.Y., C.; M.P., L.; M., P.; K.A., V.;
+  J.M., S.; van Hoek~M.L. \emph{Nucleic Acids Research} \textbf{2016},
+  \emph{44}, D1087--D1093.
 
 \bibitem{DBAASP2}
-M.~Pirtskhalava, A.~Gabrielian, P.~Cruz, H.~L. Griggs, R.~B. Squires, D.~E.
-  Hurt, M.~Grigolava, M.~Chubinidze, G.~Gogoladze, B.~Vishnepolsky,
-  V.~Alekseyev, A.~Rosenthal, and M.~Tartakovsky, ``{DBAASP v.2: an enhanced
-  database of structure and antimicrobial/cytotoxic activity of natural and
-  synthetic peptides},'' {\em Nucleic Acids Research}, vol.~44, pp.~6503--6503,
-  jul 2016.
+Pirtskhalava, M.; Gabrielian, A.; Cruz, P.; Griggs, H.~L.; Squires, R.~B.;
+  Hurt, D.~E.; Grigolava, M.; Chubinidze, M.; Gogoladze, G.; Vishnepolsky, B.;
+  Alekseyev, V.; Rosenthal, A.; Tartakovsky, M. \emph{Nucleic Acids Research}
+  \textbf{2016}, \emph{44}, 6503--6503.
 
 \bibitem{dbAMP}
-J.-H. Jhong, Y.-H. Chi, W.-C. Li, T.-H. Lin, K.-Y. Huang, and T.-Y. Lee,
-  ``{dbAMP: an integrated resource for exploring antimicrobial peptides with
-  functional activities and physicochemical properties on transcriptome and
-  proteome data},'' {\em Nucleic Acids Research}, vol.~47, pp.~D285--D297, jan
-  2019.
+Jhong, J.-H.; Chi, Y.-H.; Li, W.-C.; Lin, T.-H.; Huang, K.-Y.; Lee, T.-Y.
+  \emph{Nucleic Acids Research} \textbf{2019}, \emph{47}, D285--D297.
 
 \bibitem{antiBP2}
-S.~Lata, N.~K. Mishra, and G.~P. Raghava, ``{AntiBP2: improved version of
-  antibacterial peptide prediction},'' {\em BMC Bioinformatics}, vol.~11,
-  p.~S19, jan 2010.
+Lata, S.; Mishra, N.~K.; Raghava, G.~P. \emph{BMC Bioinformatics}
+  \textbf{2010}, \emph{11}, S19.
 
 \bibitem{amPEP}
-P.~Bhadra, J.~Yan, J.~Li, S.~Fong, and S.~W.~I. Siu, ``{AmPEP: Sequence-based
-  prediction of antimicrobial peptides using distribution patterns of amino
-  acid properties and random forest},'' {\em Scientific Reports}, vol.~8,
-  p.~1697, dec 2018.
+Bhadra, P.; Yan, J.; Li, J.; Fong, S.; Siu, S. W.~I. \emph{Scientific Reports}
+  \textbf{2018}, \emph{8}, 1697.
 
 \bibitem{Fjell2011}
-C.~D. Fjell, J.~A. Hiss, R.~E.~W. Hancock, and G.~Schneider, ``{Designing
-  antimicrobial peptides: form follows function},'' {\em Nature Reviews Drug
-  Discovery}, vol.~11, p.~37, dec 2011.
+Fjell, C.~D.; Hiss, J.~A.; Hancock, R. E.~W.; Schneider, G. \emph{Nature
+  Reviews Drug Discovery} \textbf{2011}, \emph{11}, 37.
 
 \bibitem{Wang2015}
-J.~Wang, S.~Chou, L.~Xu, X.~Zhu, N.~Dong, A.~Shan, and Z.~Chen, ``{High
-  specific selectivity and Membrane-Active Mechanism of the synthetic
-  centrosymmetric $\alpha$-helical peptides with Gly-Gly pairs.},'' {\em
-  Scientific reports}, vol.~5, p.~15963, nov 2015.
+Wang, J.; Chou, S.; Xu, L.; Zhu, X.; Dong, N.; Shan, A.; Chen, Z.
+  \emph{Scientific reports} \textbf{2015}, \emph{5}, 15963.
 
 \bibitem{Hilpert2005}
-K.~Hilpert, R.~Volkmer-Engert, T.~Walter, and R.~E.~W. Hancock,
-  ``{High-throughput generation of small antibacterial peptides with improved
-  activity},'' {\em Nature Biotechnology}, vol.~23, pp.~1008--1012, aug 2005.
+Hilpert, K.; Volkmer-Engert, R.; Walter, T.; Hancock, R. E.~W. \emph{Nature
+  Biotechnology} \textbf{2005}, \emph{23}, 1008--1012.
 
 \bibitem{Migon2018}
-D.~Migo{\'{n}}, M.~Ja{\'{s}}kiewicz, D.~Neubauer, M.~Bauer, E.~Sikorska,
-  E.~Kamysz, and W.~Kamysz, ``{Alanine Scanning Studies of the Antimicrobial
-  Peptide Aurein 1.2},'' {\em Probiotics and Antimicrobial Proteins},
-  pp.~1--13, dec 2018.
+Migo{\'{n}}, D.; Ja{\'{s}}kiewicz, M.; Neubauer, D.; Bauer, M.; Sikorska, E.;
+  Kamysz, E.; Kamysz, W. \emph{Probiotics and Antimicrobial Proteins}
+  \textbf{2018}, 1--13.
 
 \bibitem{Liu2018}
-S.~Liu, J.~Bao, X.~Lao, and H.~Zheng, ``{Novel 3D Structure Based Model for
-  Activity Prediction and Design of Antimicrobial Peptides},'' {\em Scientific
-  Reports}, vol.~8, p.~11189, dec 2018.
+Liu, S.; Bao, J.; Lao, X.; Zheng, H. \emph{Scientific Reports} \textbf{2018},
+  \emph{8}, 11189.
 
 \bibitem{Jiang2011}
-Z.~Jiang, A.~I. Vasil, L.~Gera, M.~L. Vasil, and R.~S. Hodges, ``{Rational
-  Design of $\alpha$-Helical Antimicrobial Peptides to Target Gram-negative
-  Pathogens, \emph{Acinetobacter baumannii} and \emph{Pseudomonas aeruginosa}:
-  Utilization of Charge, `Specificity Determinants', Total Hydrophobicity,
-  Hydrophobe Type and Location as Design Parameters to Improve the Therapeutic
-  Ratio},'' {\em Chemical Biology {\&} Drug Design}, vol.~77, pp.~225--240, apr
-  2011.
+Jiang, Z.; Vasil, A.~I.; Gera, L.; Vasil, M.~L.; Hodges, R.~S. \emph{Chemical
+  Biology {\&} Drug Design} \textbf{2011}, \emph{77}, 225--240.
 
 \bibitem{Deslouches2005}
-B.~Deslouches, S.~M. Phadke, V.~Lazarevic, M.~Cascio, K.~Islam, R.~C.
-  Montelaro, and T.~A. Mietzner, ``{De Novo Generation of Cationic
-  Antimicrobial Peptides: Influence of Length and Tryptophan Substitution on
-  Antimicrobial Activity},'' {\em Antimicrobial Agents and Chemotherapy},
-  vol.~49, pp.~316--322, jan 2005.
+Deslouches, B.; Phadke, S.~M.; Lazarevic, V.; Cascio, M.; Islam, K.; Montelaro,
+  R.~C.; Mietzner, T.~A. \emph{Antimicrobial Agents and Chemotherapy}
+  \textbf{2005}, \emph{49}, 316--322.
 
 \bibitem{Loose2006}
-C.~Loose, K.~Jensen, I.~Rigoutsos, and G.~Stephanopoulos, ``{A linguistic model
-  for the rational design of antimicrobial peptides},'' {\em Nature}, vol.~443,
-  pp.~867--869, oct 2006.
+Loose, C.; Jensen, K.; Rigoutsos, I.; Stephanopoulos, G. \emph{Nature}
+  \textbf{2006}, \emph{443}, 867--869.
 
 \bibitem{Farrotti2017}
-A.~Farrotti, P.~Conflitti, S.~Srivastava, J.~Ghosh, A.~Palleschi, L.~Stella,
-  G.~Bocchinfuso, A.~Farrotti, P.~Conflitti, S.~Srivastava, J.~K. Ghosh,
-  A.~Palleschi, L.~Stella, and G.~Bocchinfuso, ``{Molecular Dynamics
-  Simulations of the Host Defense Peptide Temporin L and Its Q3K Derivative: An
-  Atomic Level View from Aggregation in Water to Bilayer Perturbation},'' {\em
-  Molecules}, vol.~22, p.~1235, jul 2017.
+Farrotti, A.; Conflitti, P.; Srivastava, S.; Ghosh, J.; Palleschi, A.; Stella,
+  L.; Bocchinfuso, G.; Farrotti, A.; Conflitti, P.; Srivastava, S.; Ghosh,
+  J.~K.; Palleschi, A.; Stella, L.; Bocchinfuso, G. \emph{Molecules}
+  \textbf{2017}, \emph{22}, 1235.
 
 \bibitem{Cherkasov2009}
-A.~Cherkasov, K.~Hilpert, H.~Jenssen, C.~D. Fjell, M.~Waldbrook, S.~C. Mullaly,
-  R.~Volkmer, and R.~E. Hancock, ``{Use of Artificial Intelligence in the
-  Design of Small Peptide Antibiotics Effective against a Broad Spectrum of
-  Highly Antibiotic-Resistant Superbugs},'' {\em ACS Chemical Biology}, vol.~4,
-  pp.~65--74, jan 2009.
+Cherkasov, A.; Hilpert, K.; Jenssen, H.; Fjell, C.~D.; Waldbrook, M.; Mullaly,
+  S.~C.; Volkmer, R.; Hancock, R.~E. \emph{ACS Chemical Biology} \textbf{2009},
+  \emph{4}, 65--74.
 
 \bibitem{Naafs2018}
-M.~A.~B. Naafs, ``{The Antimicrobial Peptides: Ready for Clinical Trials?},''
-  {\em Biomedical Journal of Scientific {\&} Technical Research}, vol.~7,
-  pp.~001--005, aug 2018.
+Naafs, M. A.~B. \emph{Biomedical Journal of Scientific {\&} Technical Research}
+  \textbf{2018}, \emph{7}, 001--005.
 
 \bibitem{Wipf2009}
-P.~Wipf, J.~Xiao, and C.~R.~J. Stephenson, ``{Peptide-Like Molecules (PLMs): A
-  Journey from Peptide Bond Isosteres to Gramicidin S Mimetics and
-  Mitochondrial Targeting Agents},'' {\em CHIMIA International Journal for
-  Chemistry}, vol.~63, pp.~764--775, nov 2009.
+Wipf, P.; Xiao, J.; Stephenson, C. R.~J. \emph{CHIMIA International Journal for
+  Chemistry} \textbf{2009}, \emph{63}, 764--775.
 
 \bibitem{Anguela2019}
-X.~M. Anguela and K.~A. High, ``{Entering the Modern Era of Gene Therapy},''
-  {\em Annual Review of Medicine}, vol.~70, pp.~273--288, jan 2019.
+Anguela, X.~M.; High, K.~A. \emph{Annual Review of Medicine} \textbf{2019},
+  \emph{70}, 273--288.
 
 \bibitem{Barrangou2015}
-R.~Barrangou, ``{The roles of CRISPR–Cas systems in adaptive immunity and
-  beyond},'' {\em Current Opinion in Immunology}, vol.~32, pp.~36--41, feb
-  2015.
+Barrangou, R. \emph{Current Opinion in Immunology} \textbf{2015}, \emph{32},
+  36--41.
 
 \bibitem{Zhang2014cas}
-F.~Zhang, Y.~Wen, and X.~Guo, ``{CRISPR/Cas9 for genome editing: progress,
-  implications and challenges},'' {\em Human Molecular Genetics}, vol.~23,
-  pp.~R40--R46, sep 2014.
+Zhang, F.; Wen, Y.; Guo, X. \emph{Human Molecular Genetics} \textbf{2014},
+  \emph{23}, R40--R46.
 
 \bibitem{Naldini2011}
-L.~Naldini, ``{Ex vivo gene transfer and correction for cell-based
-  therapies},'' {\em Nature Reviews Genetics}, vol.~12, pp.~301--315, may 2011.
+Naldini, L. \emph{Nature Reviews Genetics} \textbf{2011}, \emph{12}, 301--315.
 
 \bibitem{Mingozzi2011}
-F.~Mingozzi and K.~A. High, ``{Therapeutic in vivo gene transfer for genetic
-  disease using AAV: progress and challenges},'' {\em Nature Reviews Genetics},
-  vol.~12, pp.~341--355, may 2011.
+Mingozzi, F.; High, K.~A. \emph{Nature Reviews Genetics} \textbf{2011},
+  \emph{12}, 341--355.
 
 \bibitem{Masaoka2006}
-Y.~Masaoka, Y.~Tanaka, M.~Kataoka, S.~Sakuma, and S.~Yamashita, ``{Site of drug
-  absorption after oral administration: Assessment of membrane permeability and
-  luminal concentration of drugs in each segment of gastrointestinal tract},''
-  {\em European Journal of Pharmaceutical Sciences}, vol.~29, pp.~240--250, nov
-  2006.
+Masaoka, Y.; Tanaka, Y.; Kataoka, M.; Sakuma, S.; Yamashita, S. \emph{European
+  Journal of Pharmaceutical Sciences} \textbf{2006}, \emph{29}, 240--250.
 
 \bibitem{Mitragotri2014}
-S.~Mitragotri, P.~A. Burke, and R.~Langer, ``{Overcoming the challenges in
-  administering biopharmaceuticals: formulation and delivery strategies},''
-  {\em Nature Reviews Drug Discovery}, vol.~13, pp.~655--672, sep 2014.
+Mitragotri, S.; Burke, P.~A.; Langer, R. \emph{Nature Reviews Drug Discovery}
+  \textbf{2014}, \emph{13}, 655--672.
 
 \bibitem{Krol2012}
-S.~Krol, ``{Challenges in drug delivery to the brain: Nature is against us},''
-  {\em Journal of Controlled Release}, vol.~164, pp.~145--155, dec 2012.
+Krol, S. \emph{Journal of Controlled Release} \textbf{2012}, \emph{164},
+  145--155.
 
 \bibitem{Pattni2015}
-B.~S. Pattni and V.~P. Torchilin, ``{Targeted Drug Delivery Systems: Strategies
-  and Challenges},'' pp.~3--38, Springer, Cham, 2015.
+Pattni, B.~S.; Torchilin, V.~P.; Springer, Cham, 2015; \bblpp{} 3--38.
 
 \bibitem{Hughes2005}
-G.~A. Hughes, ``{Nanostructure-mediated drug delivery},'' {\em Nanomedicine:
-  Nanotechnology, Biology and Medicine}, vol.~1, pp.~22--30, mar 2005.
+Hughes, G.~A. \emph{Nanomedicine: Nanotechnology, Biology and Medicine}
+  \textbf{2005}, \emph{1}, 22--30.
 
 \bibitem{Boisselier2009}
-E.~Boisselier and D.~Astruc, ``{Gold nanoparticles in nanomedicine:
-  preparations, imaging, diagnostics, therapies and toxicity},'' {\em Chemical
-  Society Reviews}, vol.~38, p.~1759, may 2009.
+Boisselier, E.; Astruc, D. \emph{Chemical Society Reviews} \textbf{2009},
+  \emph{38}, 1759.
 
 \bibitem{Singh2018}
-P.~Singh, S.~Pandit, V.~R. S.~S. Mokkapati, A.~Garg, V.~Ravikumar, and
-  I.~Mijakovic, ``{Gold Nanoparticles in Diagnostics and Therapeutics for Human
-  Cancer.},'' {\em International journal of molecular sciences}, vol.~19, jul
-  2018.
+Singh, P.; Pandit, S.; Mokkapati, V. R. S.~S.; Garg, A.; Ravikumar, V.;
+  Mijakovic, I. \emph{International journal of molecular sciences}
+  \textbf{2018}, \emph{19}.
 
 \bibitem{Erol2017}
-O.~Erol, I.~Uyan, M.~Hatip, C.~Yilmaz, A.~B. Tekinay, and M.~O. Guler,
-  ``{Recent Advances in Bioactive 1D and 2D Carbon Nanomaterials for Biomedical
-  Applications},'' {\em Nanomedicine: Nanotechnology, Biology and Medicine},
-  may 2017.
+Erol, O.; Uyan, I.; Hatip, M.; Yilmaz, C.; Tekinay, A.~B.; Guler, M.~O.
+  \emph{Nanomedicine: Nanotechnology, Biology and Medicine} \textbf{2017}.
 
 \bibitem{Depan2011}
-D.~Depan, J.~Shah, and R.~Misra, ``{Controlled release of drug from
-  folate-decorated and graphene mediated drug delivery system: Synthesis,
-  loading efficiency, and drug release response},'' {\em Materials Science and
-  Engineering: C}, vol.~31, pp.~1305--1312, oct 2011.
+Depan, D.; Shah, J.; Misra, R. \emph{Materials Science and Engineering: C}
+  \textbf{2011}, \emph{31}, 1305--1312.
 
 \bibitem{Lammers2009}
-T.~Lammers, V.~Subr, K.~Ulbrich, P.~Peschke, P.~E. Huber, W.~E. Hennink, and
-  G.~Storm, ``{Simultaneous delivery of doxorubicin and gemcitabine to tumors
-  in vivo using prototypic polymeric drug carriers},'' {\em Biomaterials},
-  vol.~30, pp.~3466--3475, jul 2009.
+Lammers, T.; Subr, V.; Ulbrich, K.; Peschke, P.; Huber, P.~E.; Hennink, W.~E.;
+  Storm, G. \emph{Biomaterials} \textbf{2009}, \emph{30}, 3466--3475.
 
 \bibitem{Liechty2010}
-W.~B. Liechty, D.~R. Kryscio, B.~V. Slaughter, and N.~A. Peppas, ``{Polymers
-  for drug delivery systems.},'' {\em Annual review of chemical and
-  biomolecular engineering}, vol.~1, pp.~149--73, 2010.
+Liechty, W.~B.; Kryscio, D.~R.; Slaughter, B.~V.; Peppas, N.~A. \emph{Annual
+  review of chemical and biomolecular engineering} \textbf{2010}, \emph{1},
+  149--73.
 
 \bibitem{Nicolas2013}
-J.~Nicolas, S.~Mura, D.~Brambilla, N.~Mackiewicz, and P.~Couvreur, ``{Design,
-  functionalization strategies and biomedical applications of targeted
-  biodegradable/biocompatible polymer-based nanocarriers for drug delivery},''
-  {\em Chem. Soc. Rev.}, vol.~42, pp.~1147--1235, jan 2013.
+Nicolas, J.; Mura, S.; Brambilla, D.; Mackiewicz, N.; Couvreur, P. \emph{Chem.
+  Soc. Rev.} \textbf{2013}, \emph{42}, 1147--1235.
 
 \bibitem{Yoo2011}
-J.-W. Yoo, D.~J. Irvine, D.~E. Discher, and S.~Mitragotri, ``{Bio-inspired,
-  bioengineered and biomimetic drug delivery carriers},'' {\em Nature Reviews
-  Drug Discovery}, vol.~10, pp.~521--535, jul 2011.
+Yoo, J.-W.; Irvine, D.~J.; Discher, D.~E.; Mitragotri, S. \emph{Nature Reviews
+  Drug Discovery} \textbf{2011}, \emph{10}, 521--535.
 
 \bibitem{Yingchoncharoen2016}
-P.~Yingchoncharoen, D.~S. Kalinowski, and D.~R. Richardson, ``{Lipid-Based Drug
-  Delivery Systems in Cancer Therapy: What Is Available and What Is Yet to
-  Come.},'' {\em Pharmacological reviews}, vol.~68, pp.~701--87, jul 2016.
+Yingchoncharoen, P.; Kalinowski, D.~S.; Richardson, D.~R. \emph{Pharmacological
+  reviews} \textbf{2016}, \emph{68}, 701--87.
 
 \bibitem{Bunker2016}
-A.~Bunker, A.~Magarkar, and T.~Viitala, ``{Rational design of liposomal drug
-  delivery systems, a review: Combined experimental and computational studies
-  of lipid membranes, liposomes and their PEGylation},'' {\em BBA -
-  Biomembranes}, vol.~1858, no.~10, pp.~2334--2352, 2016.
+Bunker, A.; Magarkar, A.; Viitala, T. \emph{BBA - Biomembranes} \textbf{2016},
+  \emph{1858}, 2334--2352.
 
 \bibitem{Pattni2015paper}
-B.~S. Pattni, V.~V. Chupin, and V.~P. Torchilin, ``{New Developments in
-  Liposomal Drug Delivery},'' {\em Chemical Reviews}, vol.~115,
-  pp.~10938--10966, oct 2015.
+Pattni, B.~S.; Chupin, V.~V.; Torchilin, V.~P. \emph{Chemical Reviews}
+  \textbf{2015}, \emph{115}, 10938--10966.
 
 \bibitem{Jain2017}
-S.~Jain and J.~Pillai, ``{Bacterial membrane vesicles as novel nanosystems for
-  drug delivery.},'' {\em International journal of nanomedicine}, vol.~12,
-  pp.~6329--6341, 2017.
+Jain, S.; Pillai, J. \emph{International journal of nanomedicine}
+  \textbf{2017}, \emph{12}, 6329--6341.
 
 \bibitem{Linko2015}
-V.~Linko, A.~Ora, and M.~A. Kostiainen, ``{DNA Nanostructures as Smart
-  Drug-Delivery Vehicles and Molecular Devices},'' {\em Trends in
-  Biotechnology}, vol.~33, pp.~586--594, oct 2015.
+Linko, V.; Ora, A.; Kostiainen, M.~A. \emph{Trends in Biotechnology}
+  \textbf{2015}, \emph{33}, 586--594.
 
 \bibitem{Douglas2012}
-S.~M. Douglas, I.~Bachelet, and G.~M. Church, ``{A Logic-Gated Nanorobot for
-  Targeted Transport of Molecular Payloads},'' {\em Science}, vol.~335,
-  pp.~831--834, feb 2012.
+Douglas, S.~M.; Bachelet, I.; Church, G.~M. \emph{Science} \textbf{2012},
+  \emph{335}, 831--834.
 
 \bibitem{Zhang2014}
-Q.~Zhang, Q.~Jiang, N.~Li, L.~Dai, Q.~Liu, L.~Song, J.~Wang, Y.~Li, J.~Tian,
-  B.~Ding, and Y.~Du, ``{DNA Origami as an \emph{In Vivo} Drug Delivery Vehicle
-  for Cancer Therapy},'' {\em ACS Nano}, vol.~8, pp.~6633--6643, jul 2014.
+Zhang, Q.; Jiang, Q.; Li, N.; Dai, L.; Liu, Q.; Song, L.; Wang, J.; Li, Y.;
+  Tian, J.; Ding, B.; Du, Y. \emph{ACS Nano} \textbf{2014}, \emph{8},
+  6633--6643.
 
 \bibitem{Jiang2012}
-Q.~Jiang, C.~Song, J.~Nangreave, X.~Liu, L.~Lin, D.~Qiu, Z.-G. Wang, G.~Zou,
-  X.~Liang, H.~Yan, and B.~Ding, ``{DNA Origami as a Carrier for Circumvention
-  of Drug Resistance},'' {\em Journal of the American Chemical Society},
-  vol.~134, pp.~13396--13403, aug 2012.
+Jiang, Q.; Song, C.; Nangreave, J.; Liu, X.; Lin, L.; Qiu, D.; Wang, Z.-G.;
+  Zou, G.; Liang, X.; Yan, H.; Ding, B. \emph{Journal of the American Chemical
+  Society} \textbf{2012}, \emph{134}, 13396--13403.
 
 \bibitem{Lobo2009}
-F.~P. Lobo, B.~E.~F. Mota, S.~D.~J. Pena, V.~Azevedo, A.~M. Macedo, A.~Tauch,
-  C.~R. Machado, and G.~R. Franco, ``{Virus-Host Coevolution: Common Patterns
-  of Nucleotide Motif Usage in Flaviviridae and Their Hosts},'' {\em PLoS ONE},
-  vol.~4, p.~e6282, jul 2009.
+Lobo, F.~P.; Mota, B. E.~F.; Pena, S. D.~J.; Azevedo, V.; Macedo, A.~M.; Tauch,
+  A.; Machado, C.~R.; Franco, G.~R. \emph{PLoS ONE} \textbf{2009}, \emph{4},
+  e6282.
 
 \bibitem{Lauer2017}
-K.~B. Lauer, R.~Borrow, and T.~J. Blanchard, ``{Multivalent and Multipathogen
-  Viral Vector Vaccines},'' {\em Clinical and Vaccine Immunology}, vol.~24,
-  pp.~e00298--16, jan 2017.
+Lauer, K.~B.; Borrow, R.; Blanchard, T.~J. \emph{Clinical and Vaccine
+  Immunology} \textbf{2017}, \emph{24}, e00298--16.
 
 \bibitem{Daya2008}
-S.~Daya and K.~I. Berns, ``{Gene therapy using adeno-associated virus
-  vectors.},'' {\em Clinical microbiology reviews}, vol.~21, pp.~583--93, oct
-  2008.
+Daya, S.; Berns, K.~I. \emph{Clinical microbiology reviews} \textbf{2008},
+  \emph{21}, 583--93.
 
 \bibitem{Wu2009}
-W.~Wu, S.~C. Hsiao, Z.~M. Carrico, and M.~B. Francis, ``{Genome-free viral
-  capsids as multivalent carriers for taxol delivery.},'' {\em Angewandte
-  Chemie (International ed. in English)}, vol.~48, no.~50, pp.~9493--7, 2009.
+Wu, W.; Hsiao, S.~C.; Carrico, Z.~M.; Francis, M.~B. \emph{Angewandte Chemie
+  (International ed. in English)} \textbf{2009}, \emph{48}, 9493--7.
 
 \bibitem{Ma2012}
-Y.~Ma, R.~J. Nolte, and J.~J. Cornelissen, ``{Virus-based nanocarriers for drug
-  delivery},'' {\em Advanced Drug Delivery Reviews}, vol.~64, pp.~811--825, jun
-  2012.
+Ma, Y.; Nolte, R.~J.; Cornelissen, J.~J. \emph{Advanced Drug Delivery Reviews}
+  \textbf{2012}, \emph{64}, 811--825.
 
 \bibitem{Fan2017}
-T.~Fan, X.~Yu, B.~Shen, and L.~Sun, ``{Peptide Self-Assembled Nanostructures
-  for Drug Delivery Applications},'' {\em Journal of Nanomaterials}, vol.~2017,
-  pp.~1--16, apr 2017.
+Fan, T.; Yu, X.; Shen, B.; Sun, L. \emph{Journal of Nanomaterials}
+  \textbf{2017}, \emph{2017}, 1--16.
 
 \bibitem{Silva2013}
-R.~F. Silva, D.~R. Ara{\'{u}}jo, E.~R. Silva, R.~A. Ando, and W.~A. Alves,
-  ``{l-Diphenylalanine Microtubes As a Potential Drug-Delivery System:
-  Characterization, Release Kinetics, and Cytotoxicity},'' {\em Langmuir},
-  vol.~29, pp.~10205--10212, aug 2013.
+Silva, R.~F.; Ara{\'{u}}jo, D.~R.; Silva, E.~R.; Ando, R.~A.; Alves, W.~A.
+  \emph{Langmuir} \textbf{2013}, \emph{29}, 10205--10212.
 
 \bibitem{PDB}
-H.~M. Berman, J.~Westbrook, Z.~Feng, G.~Gilliland, T.~N. Bhat, H.~Weissig,
-  I.~N. Shindyalov, and P.~E. Bourne, ``The protein data bank.'' Nucleic Acids
-  Research, 28: 235-242, 2000.
+Berman, H.~M.; Westbrook, J.; Feng, Z.; Gilliland, G.; Bhat, T.~N.; Weissig,
+  H.; Shindyalov, I.~N.; Bourne, P.~E.; \emph{The Protein Data Bank}; Nucleic
+  Acids Research, 28: 235-242; 2000. \urlprefix\url{http://www.rcsb.org/}.
 
 \bibitem{Yeates2019}
-T.~O. Yeates, ``{Protein assembles into Archimedean geometry},'' {\em Nature},
-  vol.~569, pp.~340--342, may 2019.
+Yeates, T.~O. \emph{Nature} \textbf{2019}, \emph{569}, 340--342.
 
 \bibitem{Malay2019}
-A.~D. Malay, N.~Miyazaki, A.~Biela, S.~Chakraborti, K.~Majsterkiewicz,
-  I.~Stupka, C.~S. Kaplan, A.~Kowalczyk, B.~M. A.~G. Piette, G.~K.~A. Hochberg,
-  D.~Wu, T.~P. Wrobel, A.~Fineberg, M.~S. Kushwah, M.~Kelemen,
-  P.~Vavpeti{\v{c}}, P.~Pelicon, P.~Kukura, J.~L.~P. Benesch, K.~Iwasaki, and
-  J.~G. Heddle, ``{An ultra-stable gold-coordinated protein cage displaying
-  reversible assembly},'' {\em Nature}, vol.~569, pp.~438--442, may 2019.
+Malay, A.~D.; \bbletal{} \emph{Nature} \textbf{2019}, \emph{569}, 438--442.
 
 \bibitem{Sanchez1992}
-L.~S{\'{a}}nchez, M.~Calvo, and J.~H. Brock, ``{Biological role of
-  lactoferrin.},'' {\em Archives of disease in childhood}, vol.~67,
-  pp.~657--61, may 1992.
+S{\'{a}}nchez, L.; Calvo, M.; Brock, J.~H. \emph{Archives of disease in
+  childhood} \textbf{1992}, \emph{67}, 657--61.
 
 \bibitem{Arnold1977}
-R.~Arnold, M.~Cole, and J.~R. McGhee, ``{A bactericidal effect for human
-  lactoferrin},'' {\em Science}, vol.~197, pp.~263--265, jul 1977.
+Arnold, R.; Cole, M.; McGhee, J.~R. \emph{Science} \textbf{1977}, \emph{197},
+  263--265.
 
 \bibitem{Arnold1980}
-R.~R. Arnold, M.~Brewer, and J.~J. Gauthier, ``{Bactericidal activity of human
-  lactoferrin: sensitivity of a variety of microorganisms.},'' {\em Infection
-  and immunity}, vol.~28, pp.~893--8, jun 1980.
+Arnold, R.~R.; Brewer, M.; Gauthier, J.~J. \emph{Infection and immunity}
+  \textbf{1980}, \emph{28}, 893--8.
 
 \bibitem{Kirkpatrick1971}
-C.~H. Kirkpatrick, I.~Green, R.~R. Rich, and A.~L. Schade, ``{Inhibition of
-  Growth of Candida albicans by Iron-Unsaturated Lactoferrin: Relation to
-  Host-Defense Mechanisms in Chronic Mucocutaneous Candidiasis},'' {\em Journal
-  of Infectious Diseases}, vol.~124, pp.~539--544, dec 1971.
+Kirkpatrick, C.~H.; Green, I.; Rich, R.~R.; Schade, A.~L. \emph{Journal of
+  Infectious Diseases} \textbf{1971}, \emph{124}, 539--544.
 
 \bibitem{Jahani2015}
-S.~Jahani, A.~Shakiba, and L.~Jahani, ``{The Antimicrobial Effect of
-  Lactoferrin on Gram-Negative and Gram-Positive Bacteria},'' {\em
-  International Journal of Infection}, vol.~2, jul 2015.
+Jahani, S.; Shakiba, A.; Jahani, L. \emph{International Journal of Infection}
+  \textbf{2015}, \emph{2}.
 
 \bibitem{Farnaud2003}
-S.~Farnaud and R.~W. Evans, ``{Lactoferrin - a multifunctional protein with
-  antimicrobial properties.},'' {\em Molecular immunology}, vol.~40,
-  pp.~395--405, nov 2003.
+Farnaud, S.; Evans, R.~W. \emph{Molecular immunology} \textbf{2003}, \emph{40},
+  395--405.
 
 \bibitem{Shau1992}
-H.~Shau, A.~Kim, and S.~H. Golub, ``{Modulation of natural killer and
-  lymphokine-activated killer cell cytotoxicity by lactoferrin},'' {\em Journal
-  of Leukocyte Biology}, vol.~51, pp.~343--349, apr 1992.
+Shau, H.; Kim, A.; Golub, S.~H. \emph{Journal of Leukocyte Biology}
+  \textbf{1992}, \emph{51}, 343--349.
 
 \bibitem{Gahr1991}
-M.~Gahr, C.~P. Speer, B.~Damerau, and G.~Sawatzki, ``{Influence of Lactoferrin
-  on the Function of Human Polymorphonuclear Leukocytes and Monocytes},'' {\em
-  Journal of Leukocyte Biology}, vol.~49, pp.~427--433, may 1991.
+Gahr, M.; Speer, C.~P.; Damerau, B.; Sawatzki, G. \emph{Journal of Leukocyte
+  Biology} \textbf{1991}, \emph{49}, 427--433.
 
 \bibitem{Bellamy1992}
-W.~Bellamy, M.~Takase, K.~Yamauchi, H.~Wakabayashi, K.~Kawase, and M.~Tomita,
-  ``{Identification of the bactericidal domain of lactoferrin},'' {\em
-  Biochimica et Biophysica Acta (BBA) - Protein Structure and Molecular
-  Enzymology}, vol.~1121, pp.~130--136, may 1992.
+Bellamy, W.; Takase, M.; Yamauchi, K.; Wakabayashi, H.; Kawase, K.; Tomita, M.
+  \emph{Biochimica et Biophysica Acta (BBA) - Protein Structure and Molecular
+  Enzymology} \textbf{1992}, \emph{1121}, 130--136.
 
 \bibitem{Wakabayashi1996}
-H.~Wakabayashi, S.~Abe, T.~Okutomi, S.~Tansho, K.~Kawase, and H.~Yamaguchi,
-  ``{Cooperative anti-Candida effects of lactoferrin or its peptides in
-  combination with azole antifungal agents.},'' {\em Microbiology and
-  immunology}, vol.~40, no.~11, pp.~821--5, 1996.
+Wakabayashi, H.; Abe, S.; Okutomi, T.; Tansho, S.; Kawase, K.; Yamaguchi, H.
+  \emph{Microbiology and immunology} \textbf{1996}, \emph{40}, 821--5.
 
 \bibitem{Aguilera1999}
-O.~Aguilera, H.~Ostolaza, L.~Quir{\'{o}}s, and J.~Fierro, ``{Permeabilizing
-  action of an antimicrobial lactoferricin-derived peptide on bacterial and
-  artificial membranes},'' {\em FEBS Letters}, vol.~462, pp.~273--277, dec
-  1999.
+Aguilera, O.; Ostolaza, H.; Quir{\'{o}}s, L.; Fierro, J. \emph{FEBS Letters}
+  \textbf{1999}, \emph{462}, 273--277.
 
 \bibitem{Cochran2001}
-A.~G. Cochran, N.~J. Skelton, and M.~A. Starovasnik, ``{Tryptophan zippers:
-  Stable, monomeric $\beta$-hairpins},'' {\em Proceedings of the National
-  Academy of Sciences}, vol.~98, pp.~5578--5583, may 2001.
+Cochran, A.~G.; Skelton, N.~J.; Starovasnik, M.~A. \emph{Proceedings of the
+  National Academy of Sciences} \textbf{2001}, \emph{98}, 5578--5583.
 
 \bibitem{Hwang1998}
-P.~M. Hwang, N.~Zhou, X.~Shan, C.~H. Arrowsmith, and H.~J. Vogel,
-  ``{Three-Dimensional Solution Structure of Lactoferricin B, an Antimicrobial
-  Peptide Derived from Bovine Lactoferrin},'' {\em Biochemistry}, vol.~37,
-  pp.~4288--4298, mar 1998.
+Hwang, P.~M.; Zhou, N.; Shan, X.; Arrowsmith, C.~H.; Vogel, H.~J.
+  \emph{Biochemistry} \textbf{1998}, \emph{37}, 4288--4298.
 
 \bibitem{Nguyen2005}
-L.~T. Nguyen, D.~J. Schibli, and H.~J. Vogel, ``{Structural studies and model
-  membrane interactions of two peptides derived from bovine lactoferricin},''
-  {\em Journal of Peptide Science}, vol.~11, pp.~379--389, jun 2005.
+Nguyen, L.~T.; Schibli, D.~J.; Vogel, H.~J. \emph{Journal of Peptide Science}
+  \textbf{2005}, \emph{11}, 379--389.
 
 \bibitem{Tsutsumi2012}
-A.~Tsutsumi, N.~Javkhlantugs, A.~Kira, M.~Umeyama, I.~Kawamura, K.~Nishimura,
-  K.~Ueda, and A.~Naito, ``{Structure and orientation of bovine lactoferrampin
-  in the mimetic bacterial membrane as revealed by solid-state NMR and
-  molecular dynamics simulation.},'' {\em Biophysical journal}, vol.~103,
-  pp.~1735--43, oct 2012.
+Tsutsumi, A.; Javkhlantugs, N.; Kira, A.; Umeyama, M.; Kawamura, I.; Nishimura,
+  K.; Ueda, K.; Naito, A. \emph{Biophysical journal} \textbf{2012}, \emph{103},
+  1735--43.
 
 \bibitem{Arseneault2010}
-M.~Arseneault, S.~B{\'{e}}dard, M.~Boulet-Audet, and M.~P{\'{e}}zolet, ``{Study
-  of the Interaction of Lactoferricin B with Phospholipid Monolayers and
-  Bilayers},'' {\em Langmuir}, vol.~26, pp.~3468--3478, mar 2010.
+Arseneault, M.; B{\'{e}}dard, S.; Boulet-Audet, M.; P{\'{e}}zolet, M.
+  \emph{Langmuir} \textbf{2010}, \emph{26}, 3468--3478.
 
 \bibitem{Strom2002}
-M.~B. Str{\o}m, B.~E. Haug, O.~Rekdal, M.~L. Skar, W.~Stensen, and J.~S.
-  Svendsen, ``{Important structural features of 15-residue lactoferricin
-  derivatives and methods for improvement of antimicrobial activity.},'' {\em
-  Biochemistry and cell biology = Biochimie et biologie cellulaire}, vol.~80,
-  no.~1, pp.~65--74, 2002.
+Str{\o}m, M.~B.; Haug, B.~E.; Rekdal, O.; Skar, M.~L.; Stensen, W.; Svendsen,
+  J.~S. \emph{Biochemistry and cell biology = Biochimie et biologie cellulaire}
+  \textbf{2002}, \emph{80}, 65--74.
 
 \bibitem{Crombez2009}
-L.~Crombez, G.~Aldrian-Herrada, K.~Konate, Q.~N. Nguyen, G.~K. McMaster,
-  R.~Brasseur, F.~Heitz, and G.~Divita, ``{A New Potent Secondary Amphipathic
-  Cell–penetrating Peptide for siRNA Delivery Into Mammalian Cells},'' {\em
-  Molecular Therapy}, vol.~17, pp.~95--103, jan 2009.
+Crombez, L.; Aldrian-Herrada, G.; Konate, K.; Nguyen, Q.~N.; McMaster, G.~K.;
+  Brasseur, R.; Heitz, F.; Divita, G. \emph{Molecular Therapy} \textbf{2009},
+  \emph{17}, 95--103.
 
 \bibitem{Lee2009}
-E.~H. Lee, J.~Hsin, M.~Sotomayor, G.~Comellas, and K.~Schulten, ``{Discovery
-  Through the Computational Microscope},'' {\em Structure}, vol.~17,
-  pp.~1295--1306, oct 2009.
+Lee, E.~H.; Hsin, J.; Sotomayor, M.; Comellas, G.; Schulten, K.
+  \emph{Structure} \textbf{2009}, \emph{17}, 1295--1306.
 
 \bibitem{Dror2012}
-R.~O. Dror, R.~M. Dirks, J.~Grossman, H.~Xu, and D.~E. Shaw, ``{Biomolecular
-  Simulation: A Computational Microscope for Molecular Biology},'' {\em Annual
-  Review of Biophysics}, vol.~41, pp.~429--452, jun 2012.
+Dror, R.~O.; Dirks, R.~M.; Grossman, J.; Xu, H.; Shaw, D.~E. \emph{Annual
+  Review of Biophysics} \textbf{2012}, \emph{41}, 429--452.
 
 \bibitem{Vogel2017}
-A.~Vogel and D.~Huster, ``{Combining NMR Spectroscopy and Molecular Dynamics
-  Simulation to Investigate the Structure and Dynamics of Membrane-Associated
-  Proteins},'' pp.~311--350, Springer, Cham, 2017.
+Vogel, A.; Huster, D.; Springer, Cham, 2017; \bblpp{} 311--350.
 
 \bibitem{Heo2018}
-L.~Heo and M.~Feig, ``{Experimental accuracy in protein structure refinement
-  via molecular dynamics simulations.},'' {\em Proceedings of the National
-  Academy of Sciences of the United States of America}, vol.~115,
-  pp.~13276--13281, dec 2018.
+Heo, L.; Feig, M. \emph{Proceedings of the National Academy of Sciences of the
+  United States of America} \textbf{2018}, \emph{115}, 13276--13281.
 
 \bibitem{vanGunsteren2006}
-W.~F. van Gunsteren, D.~Bakowies, R.~Baron, I.~Chandrasekhar, M.~Christen,
-  X.~Daura, P.~Gee, D.~P. Geerke, A.~Gl{\"{a}}ttli, P.~H. H{\"{u}}nenberger,
-  M.~A. Kastenholz, C.~Oostenbrink, M.~Schenk, D.~Trzesniak, N.~F.~A. van~der
-  Vegt, and H.~B. Yu, ``{Biomolecular Modeling: Goals, Problems,
-  Perspectives},'' {\em Angewandte Chemie International Edition}, vol.~45,
-  pp.~4064--4092, jun 2006.
+van Gunsteren, W.~F.; \bbletal{} \emph{Angewandte Chemie International Edition}
+  \textbf{2006}, \emph{45}, 4064--4092.
 
 \bibitem{Hess1997}
-B.~Hess, H.~Bekker, H.~J.~C. Berendsen, and J.~G. E.~M. Fraaije, ``{LINCS: A
-  linear constraint solver for molecular simulations},'' {\em Journal of
-  Computational Chemistry}, vol.~18, pp.~1463--1472, sep 1997.
+Hess, B.; Bekker, H.; Berendsen, H. J.~C.; Fraaije, J. G. E.~M. \emph{Journal
+  of Computational Chemistry} \textbf{1997}, \emph{18}, 1463--1472.
 
 \bibitem{Miyamoto1992}
-S.~Miyamoto and P.~A. Kollman, ``{Settle: An analytical version of the SHAKE
-  and RATTLE algorithm for rigid water models},'' {\em Journal of Computational
-  Chemistry}, vol.~13, pp.~952--962, oct 1992.
+Miyamoto, S.; Kollman, P.~A. \emph{Journal of Computational Chemistry}
+  \textbf{1992}, \emph{13}, 952--962.
 
 \bibitem{Berendsen1984}
-H.~J.~C. Berendsen, J.~P.~M. Postma, W.~F. van Gunsteren, A.~DiNola, and J.~R.
-  Haak, ``{Molecular dynamics with coupling to an external bath},'' {\em The
-  Journal of Chemical Physics}, vol.~81, pp.~3684--3690, oct 1984.
+Berendsen, H. J.~C.; Postma, J. P.~M.; van Gunsteren, W.~F.; DiNola, A.; Haak,
+  J.~R. \emph{The Journal of Chemical Physics} \textbf{1984}, \emph{81},
+  3684--3690.
 
 \bibitem{Nose1983}
-S.~Nos{\'{e}} and M.~Klein, ``{Constant pressure molecular dynamics for
-  molecular systems},'' {\em Molecular Physics}, vol.~50, pp.~1055--1076, dec
-  1983.
+Nos{\'{e}}, S.; Klein, M. \emph{Molecular Physics} \textbf{1983}, \emph{50},
+  1055--1076.
 
 \bibitem{Hoover1985}
-W.~G. Hoover, ``{Canonical dynamics: Equilibrium phase-space distributions},''
-  {\em Physical Review A}, vol.~31, pp.~1695--1697, mar 1985.
+Hoover, W.~G. \emph{Physical Review A} \textbf{1985}, \emph{31}, 1695--1697.
 
 \bibitem{Andersen1980}
-H.~C. Andersen, ``{Molecular dynamics simulations at constant pressure and/or
-  temperature},'' {\em The Journal of Chemical Physics}, vol.~72,
-  pp.~2384--2393, feb 1980.
+Andersen, H.~C. \emph{The Journal of Chemical Physics} \textbf{1980},
+  \emph{72}, 2384--2393.
 
 \bibitem{Bussi2007}
-G.~Bussi, D.~Donadio, and M.~Parrinello, ``{Canonical sampling through velocity
-  rescaling},'' {\em The Journal of Chemical Physics}, vol.~126, p.~014101, jan
-  2007.
+Bussi, G.; Donadio, D.; Parrinello, M. \emph{The Journal of Chemical Physics}
+  \textbf{2007}, \emph{126}, 014101.
 
 \bibitem{Parrinello1981}
-M.~Parrinello and A.~Rahman, ``{Polymorphic transitions in single crystals: A
-  new molecular dynamics method},'' {\em Journal of Applied Physics}, vol.~52,
-  pp.~7182--7190, dec 1981.
+Parrinello, M.; Rahman, A. \emph{Journal of Applied Physics} \textbf{1981},
+  \emph{52}, 7182--7190.
 
 \bibitem{Martyna1996}
-G.~J. Martyna, M.~E. Tuckerman, D.~J. Tobias, and M.~L. Klein, ``{Explicit
-  reversible integrators for extended systems dynamics},'' {\em Molecular
-  Physics}, vol.~87, pp.~1117--1157, apr 1996.
+Martyna, G.~J.; Tuckerman, M.~E.; Tobias, D.~J.; Klein, M.~L. \emph{Molecular
+  Physics} \textbf{1996}, \emph{87}, 1117--1157.
 
 \bibitem{Oostenbrink2004}
-C.~Oostenbrink, A.~Villa, A.~E. Mark, and W.~F. {Van Gunsteren}, ``{A
-  biomolecular force field based on the free enthalpy of hydration and
-  solvation: The GROMOS force-field parameter sets 53A5 and 53A6},'' {\em
-  Journal of Computational Chemistry}, vol.~25, no.~13, pp.~1656--1676, 2004.
+Oostenbrink, C.; Villa, A.; Mark, A.~E.; {Van Gunsteren}, W.~F. \emph{Journal
+  of Computational Chemistry} \textbf{2004}, \emph{25}, 1656--1676.
 
 \bibitem{Schmid2011}
-N.~Schmid, A.~P. Eichenberger, A.~Choutko, S.~Riniker, M.~Winger, A.~E. Mark,
-  and W.~F. van Gunsteren, ``{Definition and testing of the GROMOS force-field
-  versions 54A7 and 54B7},'' {\em European Biophysics Journal}, vol.~40,
-  pp.~843--856, jul 2011.
+Schmid, N.; Eichenberger, A.~P.; Choutko, A.; Riniker, S.; Winger, M.; Mark,
+  A.~E.; van Gunsteren, W.~F. \emph{European Biophysics Journal} \textbf{2011},
+  \emph{40}, 843--856.
 
 \bibitem{Berendsen1995}
-H.~Berendsen, D.~van~der Spoel, and R.~van Drunen, ``{GROMACS: A
-  message-passing parallel molecular dynamics implementation},'' {\em Computer
-  Physics Communications}, vol.~91, pp.~43--56, sep 1995.
+Berendsen, H.; van~der Spoel, D.; van Drunen, R. \emph{Computer Physics
+  Communications} \textbf{1995}, \emph{91}, 43--56.
 
 \bibitem{Abraham2015}
-M.~J. Abraham, T.~Murtola, R.~Schulz, S.~P{\'{a}}ll, J.~C. Smith, B.~Hess, and
-  E.~Lindahl, ``{GROMACS: High performance molecular simulations through
-  multi-level parallelism from laptops to supercomputers},'' {\em SoftwareX},
-  vol.~1-2, pp.~19--25, sep 2015.
+Abraham, M.~J.; Murtola, T.; Schulz, R.; P{\'{a}}ll, S.; Smith, J.~C.; Hess,
+  B.; Lindahl, E. \emph{SoftwareX} \textbf{2015}, \emph{1-2}, 19--25.
 
 \bibitem{gromacs_man}
-M.~J. Abraham, D.~van~der Spoel, E.~Lindahl, B.~Hess, and the
-  GROMACS~development team, {\em {GROMACS User Manual version 2016}}.
-\newblock 2018.
+Abraham, M.~J.; van~der Spoel, D.; Lindahl, E.; Hess, B.; the
+  GROMACS~development team \emph{{GROMACS User Manual version 2016}};
+  www.gromacs.org, 2018.
 
 \bibitem{Essmann1995}
-U.~Essmann, L.~Perera, M.~L. Berkowitz, T.~Darden, H.~Lee, and L.~G. Pedersen,
-  ``{A smooth particle mesh Ewald method},'' {\em The Journal of Chemical
-  Physics}, vol.~103, pp.~8577--8593, nov 1995.
+Essmann, U.; Perera, L.; Berkowitz, M.~L.; Darden, T.; Lee, H.; Pedersen, L.~G.
+  \emph{The Journal of Chemical Physics} \textbf{1995}, \emph{103}, 8577--8593.
 
 \bibitem{Tironi1995}
-I.~G. Tironi, R.~Sperb, P.~E. Smith, and W.~F. van Gunsteren, ``{A generalized
-  reaction field method for molecular dynamics simulations},'' {\em The Journal
-  of Chemical Physics}, vol.~102, pp.~5451--5459, apr 1995.
+Tironi, I.~G.; Sperb, R.; Smith, P.~E.; van Gunsteren, W.~F. \emph{The Journal
+  of Chemical Physics} \textbf{1995}, \emph{102}, 5451--5459.
 
 \bibitem{Lipkin2017}
-R.~Lipkin, A.~Pino-Angeles, and T.~Lazaridis, ``{Transmembrane Pore Structures
-  of $\beta$-Hairpin Antimicrobial Peptides by All-Atom Simulations},'' {\em
-  The Journal of Physical Chemistry B}, vol.~121, pp.~9126--9140, oct 2017.
+Lipkin, R.; Pino-Angeles, A.; Lazaridis, T. \emph{The Journal of Physical
+  Chemistry B} \textbf{2017}, \emph{121}, 9126--9140.
 
 \bibitem{Macpherson2019}
-J.~A. Macpherson, A.~Theisen, L.~Masino, L.~Fets, P.~C. Driscoll, V.~Encheva,
-  A.~P. Snijders, S.~R. Martin, J.~Kleinjung, P.~E. Barran, F.~Fraternali, and
-  D.~Anastasiou, ``{Functional cross-talk between allosteric effects of
-  activating and inhibiting ligands underlies PKM2 regulation},'' {\em eLife},
-  vol.~8, jul 2019.
+Macpherson, J.~A.; Theisen, A.; Masino, L.; Fets, L.; Driscoll, P.~C.; Encheva,
+  V.; Snijders, A.~P.; Martin, S.~R.; Kleinjung, J.; Barran, P.~E.; Fraternali,
+  F.; Anastasiou, D. \emph{eLife} \textbf{2019}, \emph{8}.
 
 \bibitem{Machado2017}
-M.~R. Machado, H.~C. Gonz{\'{a}}lez, and S.~Pantano, ``{MD Simulations of
-  Viruslike Particles with Supra CG Solvation Affordable to Desktop
-  Computers},'' {\em Journal of Chemical Theory and Computation}, vol.~13,
-  pp.~5106--5116, oct 2017.
+Machado, M.~R.; Gonz{\'{a}}lez, H.~C.; Pantano, S. \emph{Journal of Chemical
+  Theory and Computation} \textbf{2017}, \emph{13}, 5106--5116.
 
 \bibitem{Samsudin2017}
-F.~Samsudin, A.~Boags, T.~J. Piggot, and S.~Khalid, ``{Braun's Lipoprotein
-  Facilitates OmpA Interaction with the Escherichia coli Cell Wall},'' {\em
-  Biophysical Journal}, vol.~113, pp.~1496--1504, oct 2017.
+Samsudin, F.; Boags, A.; Piggot, T.~J.; Khalid, S. \emph{Biophysical Journal}
+  \textbf{2017}, \emph{113}, 1496--1504.
 
 \bibitem{Maier2015}
-J.~A. Maier, C.~Martinez, K.~Kasavajhala, L.~Wickstrom, K.~E. Hauser, and
-  C.~Simmerling, ``{ff14SB: Improving the Accuracy of Protein Side Chain and
-  Backbone Parameters from ff99SB},'' {\em Journal of Chemical Theory and
-  Computation}, vol.~11, pp.~3696--3713, aug 2015.
+Maier, J.~A.; Martinez, C.; Kasavajhala, K.; Wickstrom, L.; Hauser, K.~E.;
+  Simmerling, C. \emph{Journal of Chemical Theory and Computation}
+  \textbf{2015}, \emph{11}, 3696--3713.
 
 \bibitem{Dickson2014}
-C.~J. Dickson, B.~D. Madej, {\AA}.~A. Skjevik, R.~M. Betz, K.~Teigen, I.~R.
-  Gould, and R.~C. Walker, ``{Lipid14: The Amber Lipid Force Field},'' {\em
-  Journal of Chemical Theory and Computation}, vol.~10, pp.~865--879, feb 2014.
+Dickson, C.~J.; Madej, B.~D.; Skjevik, {\AA}.~A.; Betz, R.~M.; Teigen, K.;
+  Gould, I.~R.; Walker, R.~C. \emph{Journal of Chemical Theory and Computation}
+  \textbf{2014}, \emph{10}, 865--879.
 
 \bibitem{Wang2004_amber}
-J.~Wang, R.~M. Wolf, J.~W. Caldwell, P.~A. Kollman, and D.~A. Case,
-  ``{Development and testing of a general amber force field},'' {\em Journal of
-  Computational Chemistry}, vol.~25, pp.~1157--1174, jul 2004.
+Wang, J.; Wolf, R.~M.; Caldwell, J.~W.; Kollman, P.~A.; Case, D.~A.
+  \emph{Journal of Computational Chemistry} \textbf{2004}, \emph{25},
+  1157--1174.
 
 \bibitem{MacKerell1998}
-A.~D. MacKerell, D.~Bashford, M.~Bellott, R.~L. Dunbrack, J.~D. Evanseck, M.~J.
-  Field, S.~Fischer, J.~Gao, H.~Guo, S.~Ha, D.~Joseph-McCarthy, L.~Kuchnir,
-  K.~Kuczera, F.~T.~K. Lau, C.~Mattos, S.~Michnick, T.~Ngo, D.~T. Nguyen,
-  B.~Prodhom, W.~E. Reiher, B.~Roux, M.~Schlenkrich, J.~C. Smith, R.~Stote,
-  J.~Straub, M.~Watanabe, J.~Wi{\'{o}}rkiewicz-Kuczera, D.~Yin, and M.~Karplus,
-  ``{All-Atom Empirical Potential for Molecular Modeling and Dynamics Studies
-  of Proteins },'' {\em The Journal of Physical Chemistry B}, vol.~102,
-  pp.~3586--3616, apr 1998.
+MacKerell, A.~D.; \bbletal{} \emph{The Journal of Physical Chemistry B}
+  \textbf{1998}, \emph{102}, 3586--3616.
 
 \bibitem{Klauda2010}
-J.~B. Klauda, R.~M. Venable, J.~A. Freites, J.~W. O'Connor, D.~J. Tobias,
-  C.~Mondragon-Ramirez, I.~Vorobyov, A.~D. MacKerell, and R.~W. Pastor,
-  ``{Update of the CHARMM All-Atom Additive Force Field for Lipids: Validation
-  on Six Lipid Types},'' {\em The Journal of Physical Chemistry B}, vol.~114,
-  pp.~7830--7843, jun 2010.
+Klauda, J.~B.; Venable, R.~M.; Freites, J.~A.; O'Connor, J.~W.; Tobias, D.~J.;
+  Mondragon-Ramirez, C.; Vorobyov, I.; MacKerell, A.~D.; Pastor, R.~W.
+  \emph{The Journal of Physical Chemistry B} \textbf{2010}, \emph{114},
+  7830--7843.
 
 \bibitem{Huang2013}
-J.~Huang and A.~D. MacKerell, ``{CHARMM36 all-atom additive protein force
-  field: Validation based on comparison to NMR data},'' {\em Journal of
-  Computational Chemistry}, vol.~34, pp.~2135--2145, sep 2013.
+Huang, J.; MacKerell, A.~D. \emph{Journal of Computational Chemistry}
+  \textbf{2013}, \emph{34}, 2135--2145.
 
 \bibitem{Jorgensen1988}
-W.~L. Jorgensen and J.~Tirado-Rives, ``{The OPLS [optimized potentials for
-  liquid simulations] potential functions for proteins, energy minimizations
-  for crystals of cyclic peptides and crambin},'' {\em Journal of the American
-  Chemical Society}, vol.~110, pp.~1657--1666, mar 1988.
+Jorgensen, W.~L.; Tirado-Rives, J. \emph{Journal of the American Chemical
+  Society} \textbf{1988}, \emph{110}, 1657--1666.
 
 \bibitem{Jorgensen1996}
-.~{William L. Jorgensen}, , {David S. Maxwell}, and J.~Tirado-Rives,
-  ``{Development and Testing of the OPLS All-Atom Force Field on Conformational
-  Energetics and Properties of Organic Liquids},'' 1996.
+{William L. Jorgensen}, .; ; {David S. Maxwell}; Tirado-Rives, J.
+  \textbf{1996}.
 
 \bibitem{Marrink2007}
-S.~J. Marrink, H.~J. Risselada, S.~Yefimov, D.~P. Tieleman, and A.~H. {De
-  Vries}, ``{The MARTINI force field: Coarse grained model for biomolecular
-  simulations},'' {\em Journal of Physical Chemistry B}, vol.~111, no.~27,
-  pp.~7812--7824, 2007.
+Marrink, S.~J.; Risselada, H.~J.; Yefimov, S.; Tieleman, D.~P.; {De Vries},
+  A.~H. \emph{Journal of Physical Chemistry B} \textbf{2007}, \emph{111},
+  7812--7824.
 
 \bibitem{Monticelli2008}
-L.~Monticelli, S.~K. Kandasamy, X.~Periole, R.~G. Larson, D.~P. Tieleman, and
-  S.~J. Marrink, ``{The MARTINI Coarse-Grained Force Field: Extension to
-  Proteins.},'' {\em Journal of chemical theory and computation}, vol.~4,
-  pp.~819--34, may 2008.
+Monticelli, L.; Kandasamy, S.~K.; Periole, X.; Larson, R.~G.; Tieleman, D.~P.;
+  Marrink, S.~J. \emph{Journal of chemical theory and computation}
+  \textbf{2008}, \emph{4}, 819--34.
 
 \bibitem{DeJong2013}
-D.~H. de~Jong, G.~Singh, W.~F.~D. Bennett, C.~Arnarez, T.~A. Wassenaar, L.~V.
-  Sch{\"{a}}fer, X.~Periole, D.~P. Tieleman, and S.~J. Marrink, ``{Improved
-  Parameters for the Martini Coarse-Grained Protein Force Field},'' {\em
-  Journal of Chemical Theory and Computation}, vol.~9, pp.~687--697, jan 2013.
+de~Jong, D.~H.; Singh, G.; Bennett, W. F.~D.; Arnarez, C.; Wassenaar, T.~A.;
+  Sch{\"{a}}fer, L.~V.; Periole, X.; Tieleman, D.~P.; Marrink, S.~J.
+  \emph{Journal of Chemical Theory and Computation} \textbf{2013}, \emph{9},
+  687--697.
 
 \bibitem{Machado2018}
-M.~R. Machado, E.~E.~B. Guisasola, F.~Klein, M.~S{\'{o}}{\~{n}}ora, S.~Silva,
-  and S.~Pantano, ``{The SIRAH force field 2.0: Altius, Fortius, Citius},''
-  {\em bioRxiv}, p.~436774, oct 2018.
+Machado, M.~R.; Guisasola, E. E.~B.; Klein, F.; S{\'{o}}{\~{n}}ora, M.; Silva,
+  S.; Pantano, S. \emph{bioRxiv} \textbf{2018}, 436774.
 
 \bibitem{Barrera2019}
-E.~E. Barrera, M.~R. Machado, and S.~Pantano, ``{Fat SIRAH: Coarse-grained
-  phospholipids to explore membrane-protein dynamics},'' {\em bioRxiv},
-  p.~627570, may 2019.
+Barrera, E.~E.; Machado, M.~R.; Pantano, S. \emph{bioRxiv} \textbf{2019},
+  627570.
 
 \bibitem{Oostenbrink2005}
-C.~Oostenbrink, T.~A. Soares, N.~F.~A. van~der Vegt, and W.~F. van Gunsteren,
-  ``{Validation of the 53A6 GROMOS force field},'' {\em European Biophysics
-  Journal}, vol.~34, pp.~273--284, jun 2005.
+Oostenbrink, C.; Soares, T.~A.; van~der Vegt, N. F.~A.; van Gunsteren, W.~F.
+  \emph{European Biophysics Journal} \textbf{2005}, \emph{34}, 273--284.
 
 \bibitem{Reif2013}
-M.~M. Reif, M.~Winger, and C.~Oostenbrink, ``{Testing of the GROMOS Force-Field
-  Parameter Set 54A8: Structural Properties of Electrolyte Solutions, Lipid
-  Bilayers, and Proteins},'' {\em Journal of Chemical Theory and Computation},
-  vol.~9, pp.~1247--1264, feb 2013.
+Reif, M.~M.; Winger, M.; Oostenbrink, C. \emph{Journal of Chemical Theory and
+  Computation} \textbf{2013}, \emph{9}, 1247--1264.
 
 \bibitem{Berendsen1981}
-H.~Berendsen, J.~Postma, W.~Van~Gunsteren, and J.~Hermans, ``Interaction models
-  for water in relation to protein hydration.,'' in {\em Intermolecular Forces}
-  (B.~Pullman, ed.), pp.~331--342, Dordrecht: D. Reidel Publishing Company,
-  1981.
+Berendsen, H.; Postma, J.; Van~Gunsteren, W.; Hermans, J. \capitalize\bblin{}
+  \emph{Intermolecular Forces}; Pullman, B., \capitalize\bbled{}; D. Reidel
+  Publishing Company: Dordrecht, 1981; \bblpp{} 331--342.
 
 \bibitem{Periole2009}
-X.~Periole, M.~Cavalli, S.-J. Marrink, and M.~A. Ceruso, ``{Combining an
-  Elastic Network With a Coarse-Grained Molecular Force Field: Structure,
-  Dynamics, and Intermolecular Recognition},'' {\em Journal of Chemical Theory
-  and Computation}, vol.~5, pp.~2531--2543, sep 2009.
+Periole, X.; Cavalli, M.; Marrink, S.-J.; Ceruso, M.~A. \emph{Journal of
+  Chemical Theory and Computation} \textbf{2009}, \emph{5}, 2531--2543.
 
 \bibitem{Yesylevskyy2010}
-S.~O. Yesylevskyy, L.~V. Sch{\"{a}}fer, D.~Sengupta, and S.~J. Marrink,
-  ``{Polarizable Water Model for the Coarse-Grained MARTINI Force Field},''
-  {\em PLoS Computational Biology}, vol.~6, p.~e1000810, jun 2010.
+Yesylevskyy, S.~O.; Sch{\"{a}}fer, L.~V.; Sengupta, D.; Marrink, S.~J.
+  \emph{PLoS Computational Biology} \textbf{2010}, \emph{6}, e1000810.
 
 \bibitem{Khalid2019}
-S.~Khalid, T.~J. Piggot, and F.~Samsudin, ``{Atomistic and Coarse Grain
-  Simulations of the Cell Envelope of Gram-Negative Bacteria: What Have We
-  Learned?},'' {\em Accounts of Chemical Research}, vol.~52, pp.~180--188, jan
-  2019.
+Khalid, S.; Piggot, T.~J.; Samsudin, F. \emph{Accounts of Chemical Research}
+  \textbf{2019}, \emph{52}, 180--188.
 
 \bibitem{Song2019}
-C.~Song, B.~L. de~Groot, and M.~S. Sansom, ``{Lipid Bilayer Composition
-  Influences the Activity of the Antimicrobial Peptide Dermcidin Channel},''
-  {\em Biophysical Journal}, vol.~116, pp.~1658--1666, may 2019.
+Song, C.; de~Groot, B.~L.; Sansom, M.~S. \emph{Biophysical Journal}
+  \textbf{2019}, \emph{116}, 1658--1666.
 
 \bibitem{Wassenaar2015}
-T.~A. Wassenaar, H.~I. Ing{\'{o}}lfsson, R.~A. B{\"{o}}ckmann, D.~P. Tieleman,
-  and S.~J. Marrink, ``{Computational Lipidomics with \textit{insane} : A
-  Versatile Tool for Generating Custom Membranes for Molecular Simulations},''
-  {\em Journal of Chemical Theory and Computation}, vol.~11, pp.~2144--2155,
-  may 2015.
+Wassenaar, T.~A.; Ing{\'{o}}lfsson, H.~I.; B{\"{o}}ckmann, R.~A.; Tieleman,
+  D.~P.; Marrink, S.~J. \emph{Journal of Chemical Theory and Computation}
+  \textbf{2015}, \emph{11}, 2144--2155.
 
 \bibitem{Lee2012}
-O.-S. Lee, V.~Cho, and G.~C. Schatz, ``{Modeling the Self-Assembly of Peptide
-  Amphiphiles into Fibers Using Coarse-Grained Molecular Dynamics},'' {\em Nano
-  Letters}, vol.~12, pp.~4907--4913, sep 2012.
+Lee, O.-S.; Cho, V.; Schatz, G.~C. \emph{Nano Letters} \textbf{2012},
+  \emph{12}, 4907--4913.
 
 \bibitem{Ren2003}
-P.~Ren and J.~W. Ponder, ``{Polarizable Atomic Multipole Water Model for
-  Molecular Mechanics Simulation},'' {\em Jurnal of Physical Chemistry B},
-  vol.~24, pp.~5933--5947, may 2003.
+Ren, P.; Ponder, J.~W. \emph{Jurnal of Physical Chemistry B} \textbf{2003},
+  \emph{24}, 5933--5947.
 
 \bibitem{Ponder2010}
-J.~W. Ponder, C.~Wu, P.~Ren, V.~S. Pande, J.~D. Chodera, M.~J. Schnieders,
-  I.~Haque, D.~L. Mobley, D.~S. Lambrecht, R.~A. DiStasio, M.~Head-Gordon,
-  G.~N.~I. Clark, M.~E. Johnson, and T.~Head-Gordon, ``{Current Status of the
-  AMOEBA Polarizable Force Field},'' {\em The Journal of Physical Chemistry B},
-  vol.~114, pp.~2549--2564, mar 2010.
+Ponder, J.~W.; Wu, C.; Ren, P.; Pande, V.~S.; Chodera, J.~D.; Schnieders,
+  M.~J.; Haque, I.; Mobley, D.~L.; Lambrecht, D.~S.; DiStasio, R.~A.;
+  Head-Gordon, M.; Clark, G. N.~I.; Johnson, M.~E.; Head-Gordon, T. \emph{The
+  Journal of Physical Chemistry B} \textbf{2010}, \emph{114}, 2549--2564.
 
 \bibitem{Anisimov2004}
-V.~M. Anisimov, G.~Lamoureux, I.~V. Vorobyov, N.~Huang, B.~Roux, and A.~D.
-  MacKerell, ``{Determination of Electrostatic Parameters for a Polarizable
-  Force Field Based on the Classical Drude Oscillator},'' {\em Journal of
-  Chemical Theory and Computation}, vol.~1, pp.~153--168, may 2005.
+Anisimov, V.~M.; Lamoureux, G.; Vorobyov, I.~V.; Huang, N.; Roux, B.;
+  MacKerell, A.~D. \emph{Journal of Chemical Theory and Computation}
+  \textbf{2005}, \emph{1}, 153--168.
 
 \bibitem{Cieplak2001}
-P.~Cieplak, J.~Caldwell, and P.~Kollman, ``{Molecular mechanical models for
-  organic and biological systems going beyond the atom centered two body
-  additive approximation: aqueous solution free energies of methanol and
-  N-methyl acetamide, nucleic acid base, and amide hydrogen bonding and
-  chloroform/water partition coefficients of the nucleic acid bases},'' {\em
-  Journal of Computational Chemistry}, vol.~22, pp.~1048--1057, jul 2001.
+Cieplak, P.; Caldwell, J.; Kollman, P. \emph{Journal of Computational
+  Chemistry} \textbf{2001}, \emph{22}, 1048--1057.
 
 \bibitem{Orsi2011}
-M.~Orsi and J.~W. Essex, ``{The ELBA Force Field for Coarse-Grain Modeling of
-  Lipid Membranes},'' {\em PLoS ONE}, vol.~6, p.~e28637, dec 2011.
+Orsi, M.; Essex, J.~W. \emph{PLoS ONE} \textbf{2011}, \emph{6}, e28637.
 
 \bibitem{Ahmadi2018}
-S.~Ahmadi, L.~{Barrios Herrera}, M.~Chehelamirani, J.~Hosta{\v{s}}, S.~Jalife,
-  and D.~R. Salahub, ``{Multiscale modeling of enzymes: QM-cluster, QM/MM, and
-  QM/MM/MD: A tutorial review},'' {\em International Journal of Quantum
-  Chemistry}, vol.~118, p.~e25558, may 2018.
+Ahmadi, S.; {Barrios Herrera}, L.; Chehelamirani, M.; Hosta{\v{s}}, J.; Jalife,
+  S.; Salahub, D.~R. \emph{International Journal of Quantum Chemistry}
+  \textbf{2018}, \emph{118}, e25558.
 
 \bibitem{Shao2015}
-Y.~Shao, Z.~Gan, E.~Epifanovsky, A.~T. Gilbert, M.~Wormit, J.~Kussmann, A.~W.
-  Lange, A.~Behn, J.~Deng, X.~Feng, D.~Ghosh, M.~Goldey, P.~R. Horn, L.~D.
-  Jacobson, I.~Kaliman, R.~Z. Khaliullin, T.~Ku{\'{s}}, A.~Landau, J.~Liu,
-  E.~I. Proynov, Y.~M. Rhee, R.~M. Richard, M.~A. Rohrdanz, R.~P. Steele, E.~J.
-  Sundstrom, H.~L. Woodcock, P.~M. Zimmerman, D.~Zuev, B.~Albrecht, E.~Alguire,
-  B.~Austin, G.~J.~O. Beran, Y.~A. Bernard, E.~Berquist, K.~Brandhorst, K.~B.
-  Bravaya, S.~T. Brown, D.~Casanova, C.-M. Chang, Y.~Chen, S.~H. Chien, K.~D.
-  Closser, D.~L. Crittenden, M.~Diedenhofen, R.~A. DiStasio, H.~Do, A.~D.
-  Dutoi, R.~G. Edgar, S.~Fatehi, L.~Fusti-Molnar, A.~Ghysels,
-  A.~Golubeva-Zadorozhnaya, J.~Gomes, M.~W. Hanson-Heine, P.~H. Harbach, A.~W.
-  Hauser, E.~G. Hohenstein, Z.~C. Holden, T.-C. Jagau, H.~Ji, B.~Kaduk,
-  K.~Khistyaev, J.~Kim, J.~Kim, R.~A. King, P.~Klunzinger, D.~Kosenkov,
-  T.~Kowalczyk, C.~M. Krauter, K.~U. Lao, A.~D. Laurent, K.~V. Lawler, S.~V.
-  Levchenko, C.~Y. Lin, F.~Liu, E.~Livshits, R.~C. Lochan, A.~Luenser,
-  P.~Manohar, S.~F. Manzer, S.-P. Mao, N.~Mardirossian, A.~V. Marenich, S.~A.
-  Maurer, N.~J. Mayhall, E.~Neuscamman, C.~M. Oana, R.~Olivares-Amaya, D.~P.
-  O'Neill, J.~A. Parkhill, T.~M. Perrine, R.~Peverati, A.~Prociuk, D.~R. Rehn,
-  E.~Rosta, N.~J. Russ, S.~M. Sharada, S.~Sharma, D.~W. Small, A.~Sodt,
-  T.~Stein, D.~St{\"{u}}ck, Y.-C. Su, A.~J. Thom, T.~Tsuchimochi, V.~Vanovschi,
-  L.~Vogt, O.~Vydrov, T.~Wang, M.~A. Watson, J.~Wenzel, A.~White, C.~F.
-  Williams, J.~Yang, S.~Yeganeh, S.~R. Yost, Z.-Q. You, I.~Y. Zhang, X.~Zhang,
-  Y.~Zhao, B.~R. Brooks, G.~K. Chan, D.~M. Chipman, C.~J. Cramer, W.~A.
-  Goddard, M.~S. Gordon, W.~J. Hehre, A.~Klamt, H.~F. Schaefer, M.~W. Schmidt,
-  C.~D. Sherrill, D.~G. Truhlar, A.~Warshel, X.~Xu, A.~Aspuru-Guzik, R.~Baer,
-  A.~T. Bell, N.~A. Besley, J.-D. Chai, A.~Dreuw, B.~D. Dunietz, T.~R. Furlani,
-  S.~R. Gwaltney, C.-P. Hsu, Y.~Jung, J.~Kong, D.~S. Lambrecht, W.~Liang,
-  C.~Ochsenfeld, V.~A. Rassolov, L.~V. Slipchenko, J.~E. Subotnik, T.~{Van
-  Voorhis}, J.~M. Herbert, A.~I. Krylov, P.~M. Gill, and M.~Head-Gordon,
-  ``{Advances in molecular quantum chemistry contained in the Q-Chem 4 program
-  package},'' {\em Molecular Physics}, vol.~113, pp.~184--215, jan 2015.
+Shao, Y.; \bbletal{} \emph{Molecular Physics} \textbf{2015}, \emph{113},
+  184--215.
 
 \bibitem{Kleinjung2014}
-J.~Kleinjung and F.~Fraternali, ``{Design and application of implicit solvent
-  models in biomolecular simulations},'' {\em Current Opinion in Structural
-  Biology}, vol.~25, pp.~126--134, apr 2014.
+Kleinjung, J.; Fraternali, F. \emph{Current Opinion in Structural Biology}
+  \textbf{2014}, \emph{25}, 126--134.
 
 \bibitem{Fraternali1996}
-F.~Fraternali and W.~van Gunsteren, ``{An Efficient Mean Solvation Force Model
-  for Use in Molecular Dynamics Simulations of Proteins in Aqueous Solution},''
-  {\em Journal of Molecular Biology}, vol.~256, pp.~939--948, mar 1996.
+Fraternali, F.; van Gunsteren, W. \emph{Journal of Molecular Biology}
+  \textbf{1996}, \emph{256}, 939--948.
 
 \bibitem{Kleinjung2003}
-J.~Kleinjung, F.~Fraternali, S.~R. Martin, and P.~M. Bayley, ``{Thermal
-  unfolding simulations of apo-calmodulin using leap-dynamics},'' {\em
-  Proteins: Structure, Function, and Bioinformatics}, vol.~50, pp.~648--656,
-  feb 2003.
+Kleinjung, J.; Fraternali, F.; Martin, S.~R.; Bayley, P.~M. \emph{Proteins:
+  Structure, Function, and Bioinformatics} \textbf{2003}, \emph{50}, 648--656.
 
 \bibitem{Kleinjung2012}
-J.~Kleinjung, W.~R.~P. Scott, J.~R. Allison, W.~F. van Gunsteren, and
-  F.~Fraternali, ``{Implicit Solvation Parameters Derived from Explicit Water
-  Forces in Large-Scale Molecular Dynamics Simulations},'' {\em Journal of
-  Chemical Theory and Computation}, vol.~8, pp.~2391--2403, jul 2012.
+Kleinjung, J.; Scott, W. R.~P.; Allison, J.~R.; van Gunsteren, W.~F.;
+  Fraternali, F. \emph{Journal of Chemical Theory and Computation}
+  \textbf{2012}, \emph{8}, 2391--2403.
 
 \bibitem{Fornili2012}
-A.~Fornili, F.~Autore, N.~Chakroun, P.~Martinez, and F.~Fraternali,
-  ``{Protein–Water Interactions in MD Simulations: POPS/POPSCOMP Solvent
-  Accessibility Analysis, Solvation Forces and Hydration Sites},''
-  pp.~375--392, Springer, New York, NY, 2012.
+Fornili, A.; Autore, F.; Chakroun, N.; Martinez, P.; Fraternali, F.; Springer,
+  New York, NY, 2012; \bblpp{} 375--392.
 
 \bibitem{Zhu2005}
-J.~Zhu, E.~Alexov, and B.~Honig, ``{Comparative Study of Generalized Born
-  Models: Born Radii and Peptide Folding},'' {\em The Journal of Physical
-  Chemistry B}, vol.~109, pp.~3008--3022, feb 2005.
+Zhu, J.; Alexov, E.; Honig, B. \emph{The Journal of Physical Chemistry B}
+  \textbf{2005}, \emph{109}, 3008--3022.
 
 \bibitem{Milano2009}
-G.~Milano and T.~Kawakatsu, ``{Hybrid particle-field molecular dynamics
-  simulations for dense polymer systems},'' {\em The Journal of Chemical
-  Physics}, vol.~130, p.~214106, jun 2009.
+Milano, G.; Kawakatsu, T. \emph{The Journal of Chemical Physics} \textbf{2009},
+  \emph{130}, 214106.
 
 \bibitem{Okamoto2004}
-Y.~Okamoto, ``{Generalized-ensemble algorithms: enhanced sampling techniques
-  for Monte Carlo and molecular dynamics simulations},'' {\em Journal of
-  Molecular Graphics and Modelling}, vol.~22, pp.~425--439, may 2004.
+Okamoto, Y. \emph{Journal of Molecular Graphics and Modelling} \textbf{2004},
+  \emph{22}, 425--439.
 
 \bibitem{Huber1994}
-T.~Huber, A.~E. Torda, and W.~F. van Gunsteren, ``{Local elevation: A method
-  for improving the searching properties of molecular dynamics simulation},''
-  {\em The Journal of Physical Chemistry A}, vol.~101, pp.~5926--5930, aug
-  1994.
+Huber, T.; Torda, A.~E.; van Gunsteren, W.~F. \emph{The Journal of Physical
+  Chemistry A} \textbf{1994}, \emph{101}, 5926--5930.
 
 \bibitem{Laio2002}
-A.~Laio and M.~Parrinello, ``{Escaping free-energy minima.},'' {\em Proceedings
-  of the National Academy of Sciences of the United States of America},
-  vol.~99, pp.~12562--6, oct 2002.
+Laio, A.; Parrinello, M. \emph{Proceedings of the National Academy of Sciences
+  of the United States of America} \textbf{2002}, \emph{99}, 12562--6.
 
 \bibitem{Torrie1977}
-G.~Torrie and J.~Valleau, ``{Nonphysical sampling distributions in Monte Carlo
-  free-energy estimation: Umbrella sampling},'' {\em Journal of Computational
-  Physics}, vol.~23, pp.~187--199, feb 1977.
+Torrie, G.; Valleau, J. \emph{Journal of Computational Physics} \textbf{1977},
+  \emph{23}, 187--199.
 
 \bibitem{Kirkpatrick1983}
-S.~Kirkpatrick, C.~D. Gelatt, and M.~P. Vecchi, ``{Optimization by Simulated
-  Annealing},'' {\em Science}, vol.~220, pp.~671--680, may 1983.
+Kirkpatrick, S.; Gelatt, C.~D.; Vecchi, M.~P. \emph{Science} \textbf{1983},
+  \emph{220}, 671--680.
+
+\bibitem{Bonomi2017}
+Bonomi, M.; Heller, G.~T.; Camilloni, C.; Vendruscolo, M. \emph{Current Opinion
+  in Structural Biology} \textbf{2017}, \emph{42}, 106--116.
+
+\bibitem{Kikhney2015}
+Kikhney, A.~G.; Svergun, D.~I. \emph{FEBS Letters} \textbf{2015}, \emph{589},
+  2570--2577.
+
+\bibitem{Kleckner2011}
+Kleckner, I.~R.; Foster, M.~P. \emph{Biochimica et Biophysica Acta (BBA) -
+  Proteins and Proteomics} \textbf{2011}, \emph{1814}, 942--968.
 
 \bibitem{VanGunsteren2008}
-W.~F. van Gunsteren, J.~Dolenc, and A.~E. Mark, ``{Molecular simulation as an
-  aid to experimentalists},'' {\em Current Opinion in Structural Biology},
-  vol.~18, pp.~149--153, apr 2008.
+van Gunsteren, W.~F.; Dolenc, J.; Mark, A.~E. \emph{Current Opinion in
+  Structural Biology} \textbf{2008}, \emph{18}, 149--153.
 
 \bibitem{Goncalves2013}
-M.~B. Gon{\c{c}}alves, J.~Dreyer, P.~Lupieri, C.~Barrera-Pati{\~{n}}o,
-  E.~Ippoliti, M.~R. Webb, J.~E.~T. Corrie, and P.~Carloni, ``{Structural
-  prediction of a rhodamine-based biosensor and comparison with biophysical
-  data},'' {\em Phys. Chem. Chem. Phys.}, vol.~15, pp.~2177--2183, jan 2013.
+Gon{\c{c}}alves, M.~B.; Dreyer, J.; Lupieri, P.; Barrera-Pati{\~{n}}o, C.;
+  Ippoliti, E.; Webb, M.~R.; Corrie, J. E.~T.; Carloni, P. \emph{Phys. Chem.
+  Chem. Phys.} \textbf{2013}, \emph{15}, 2177--2183.
 
 \bibitem{Meissner2014}
-R.~H. Mei{\ss}ner, J.~Schneider, P.~Schiffels, and L.~{Colombi Ciacchi},
-  ``{Computational Prediction of Circular Dichroism Spectra and Quantification
-  of Helicity Loss upon Peptide Adsorption on Silica},'' {\em Langmuir},
-  vol.~30, pp.~3487--3494, apr 2014.
+Mei{\ss}ner, R.~H.; Schneider, J.; Schiffels, P.; {Colombi Ciacchi}, L.
+  \emph{Langmuir} \textbf{2014}, \emph{30}, 3487--3494.
 
 \bibitem{Bernardi2015}
-R.~C. Bernardi, M.~C.~R. Melo, and K.~Schulten, ``{Enhanced sampling techniques
-  in molecular dynamics simulations of biological systems.},'' {\em Biochimica
-  et biophysica acta}, vol.~1850, pp.~872--7, may 2015.
+Bernardi, R.~C.; Melo, M. C.~R.; Schulten, K. \emph{Biochimica et biophysica
+  acta} \textbf{2015}, \emph{1850}, 872--7.
 
 \bibitem{Best2005}
-R.~B. Best, J.~Clarke, and M.~Karplus, ``{What Contributions to Protein
-  Side-chain Dynamics are Probed by NMR Experiments? A Molecular Dynamics
-  Simulation Analysis},'' {\em Journal of Molecular Biology}, vol.~349,
-  pp.~185--203, may 2005.
+Best, R.~B.; Clarke, J.; Karplus, M. \emph{Journal of Molecular Biology}
+  \textbf{2005}, \emph{349}, 185--203.
 
 \bibitem{Barducci2010}
-A.~Barducci, M.~Bonomi, and M.~Parrinello, ``{Linking Well-Tempered
-  Metadynamics Simulations with Experiments},'' {\em Biophysical Journal},
-  vol.~98, pp.~L44--L46, may 2010.
+Barducci, A.; Bonomi, M.; Parrinello, M. \emph{Biophysical Journal}
+  \textbf{2010}, \emph{98}, L44--L46.
 
 \bibitem{Barducci2011}
-A.~Barducci, M.~Bonomi, and M.~Parrinello, ``{Metadynamics},'' {\em Wiley
-  Interdisciplinary Reviews: Computational Molecular Science}, vol.~1,
-  pp.~826--843, sep 2011.
+Barducci, A.; Bonomi, M.; Parrinello, M. \emph{Wiley Interdisciplinary Reviews:
+  Computational Molecular Science} \textbf{2011}, \emph{1}, 826--843.
 
 \bibitem{Mills2008}
-M.~Mills and I.~Andricioaei, ``{An experimentally guided umbrella sampling
-  protocol for biomolecules.},'' {\em The Journal of chemical physics},
-  vol.~129, p.~114101, sep 2008.
+Mills, M.; Andricioaei, I. \emph{The Journal of chemical physics}
+  \textbf{2008}, \emph{129}, 114101.
 
 \bibitem{Wang2012}
-Y.~Wang, D.~E. Schlamadinger, J.~E. Kim, and J.~A. McCammon, ``{Comparative
-  molecular dynamics simulations of the antimicrobial peptide CM15 in model
-  lipid bilayers},'' {\em Biochimica et Biophysica Acta (BBA) - Biomembranes},
-  vol.~1818, no.~5, pp.~1402--1409, 2012.
+Wang, Y.; Schlamadinger, D.~E.; Kim, J.~E.; McCammon, J.~A. \emph{Biochimica et
+  Biophysica Acta (BBA) - Biomembranes} \textbf{2012}, \emph{1818}, 1402--1409.
 
 \bibitem{Ulmschneider2017}
-J.~P. Ulmschneider, ``{Charged Antimicrobial Peptides Can Translocate across
-  Membranes without Forming Channel-like Pores},'' {\em Biophysical Journal},
-  vol.~113, pp.~73--81, jul 2017.
+Ulmschneider, J.~P. \emph{Biophysical Journal} \textbf{2017}, \emph{113},
+  73--81.
 
 \bibitem{Sun2015}
-D.~Sun, J.~Forsman, and C.~E. Woodward, ``{Atomistic Molecular Simulations
-  Suggest a Kinetic Model for Membrane Translocation by Arginine-Rich
-  Peptides},'' {\em The Journal of Physical Chemistry B}, vol.~119,
-  pp.~14413--14420, nov 2015.
+Sun, D.; Forsman, J.; Woodward, C.~E. \emph{The Journal of Physical Chemistry
+  B} \textbf{2015}, \emph{119}, 14413--14420.
 
 \bibitem{Zhao2018}
-L.~Zhao, Z.~Cao, Y.~Bian, G.~Hu, J.~Wang, and Y.~Zhou, ``{Molecular Dynamics
-  Simulations of Human Antimicrobial Peptide LL-37 in Model POPC and POPG Lipid
-  Bilayers},'' {\em International Journal of Molecular Sciences}, vol.~19,
-  p.~1186, apr 2018.
+Zhao, L.; Cao, Z.; Bian, Y.; Hu, G.; Wang, J.; Zhou, Y. \emph{International
+  Journal of Molecular Sciences} \textbf{2018}, \emph{19}, 1186.
 
 \bibitem{Chen2019}
-C.~Chen, C.~G. Starr, E.~P. Troendle, G.~Wiedman, W.~C. Wimley, J.~P.
-  Ulmschneider, and M.~B. Ulmschneider, ``{Simulation-guided rational
-  \textit{de novo} design of a small pore-forming antimicrobial peptide},''
-  {\em Journal of the American Chemical Society}, p.~jacs.8b11939, mar 2019.
+Chen, C.; Starr, C.~G.; Troendle, E.~P.; Wiedman, G.; Wimley, W.~C.;
+  Ulmschneider, J.~P.; Ulmschneider, M.~B. \emph{Journal of the American
+  Chemical Society} \textbf{2019}, jacs.8b11939.
 
 \bibitem{Risselada2008}
-H.~J. Risselada and S.~J. Marrink, ``{The molecular face of lipid rafts in
-  model membranes.},'' {\em Proceedings of the National Academy of Sciences of
-  the United States of America}, vol.~105, pp.~17367--72, nov 2008.
+Risselada, H.~J.; Marrink, S.~J. \emph{Proceedings of the National Academy of
+  Sciences of the United States of America} \textbf{2008}, \emph{105},
+  17367--72.
 
 \bibitem{Piggot2011}
-T.~J. Piggot, D.~A. Holdbrook, and S.~Khalid, ``{Electroporation of the E. coli
-  and S. Aureus Membranes: Molecular Dynamics Simulations of Complex Bacterial
-  Membranes},'' {\em The Journal of Physical Chemistry B}, vol.~115,
-  pp.~13381--13388, nov 2011.
+Piggot, T.~J.; Holdbrook, D.~A.; Khalid, S. \emph{The Journal of Physical
+  Chemistry B} \textbf{2011}, \emph{115}, 13381--13388.
 
 \bibitem{Carpenter2016}
-T.~S. Carpenter, J.~Parkin, and S.~Khalid, ``{The Free Energy of Small Solute
-  Permeation through the \textit{Escherichia coli} Outer Membrane Has a
-  Distinctly Asymmetric Profile},'' {\em The Journal of Physical Chemistry
-  Letters}, vol.~7, pp.~3446--3451, sep 2016.
+Carpenter, T.~S.; Parkin, J.; Khalid, S. \emph{The Journal of Physical
+  Chemistry Letters} \textbf{2016}, \emph{7}, 3446--3451.
 
 \bibitem{Wang2014}
-Y.~Wang, T.~Zhao, D.~Wei, E.~Strandberg, A.~S. Ulrich, and J.~P. Ulmschneider,
-  ``{How reliable are molecular dynamics simulations of membrane active
-  antimicrobial peptides?},'' {\em BBA - Biomembranes}, vol.~1838, no.~9,
-  pp.~2280--2288, 2014.
+Wang, Y.; Zhao, T.; Wei, D.; Strandberg, E.; Ulrich, A.~S.; Ulmschneider, J.~P.
+  \emph{BBA - Biomembranes} \textbf{2014}, \emph{1838}, 2280--2288.
 
 \bibitem{Jorgensen1983}
-W.~L. Jorgensen, J.~Chandrasekhar, J.~D. Madura, R.~W. Impey, and M.~L. Klein,
-  ``{Comparison of simple potential functions for simulating liquid water},''
-  {\em The Journal of Chemical Physics}, vol.~79, pp.~926--935, jul 1983.
+Jorgensen, W.~L.; Chandrasekhar, J.; Madura, J.~D.; Impey, R.~W.; Klein, M.~L.
+  \emph{The Journal of Chemical Physics} \textbf{1983}, \emph{79}, 926--935.
 
 \bibitem{Chowdhary2013}
-J.~Chowdhary, E.~Harder, P.~E.~M. Lopes, L.~Huang, A.~D. MacKerell, and
-  B.~Roux, ``{A Polarizable Force Field of Dipalmitoylphosphatidylcholine Based
-  on the Classical Drude Model for Molecular Dynamics Simulations of Lipids},''
-  {\em The Journal of Physical Chemistry B}, vol.~117, pp.~9142--9160, aug
-  2013.
+Chowdhary, J.; Harder, E.; Lopes, P. E.~M.; Huang, L.; MacKerell, A.~D.; Roux,
+  B. \emph{The Journal of Physical Chemistry B} \textbf{2013}, \emph{117},
+  9142--9160.
 
 \bibitem{Phillips2005}
-J.~C. Phillips, R.~Braun, W.~Wang, J.~Gumbart, E.~Tajkhorshid, E.~Villa,
-  C.~Chipot, R.~D. Skeel, L.~Kal{\'{e}}, and K.~Schulten, ``{Scalable molecular
-  dynamics with NAMD},'' {\em Journal of Computational Chemistry}, vol.~26,
-  pp.~1781--1802, dec 2005.
+Phillips, J.~C.; Braun, R.; Wang, W.; Gumbart, J.; Tajkhorshid, E.; Villa, E.;
+  Chipot, C.; Skeel, R.~D.; Kal{\'{e}}, L.; Schulten, K. \emph{Journal of
+  Computational Chemistry} \textbf{2005}, \emph{26}, 1781--1802.
 
 \bibitem{Bennett2016}
-W.~F.~D. Bennett, C.~K. Hong, Y.~Wang, and D.~P. Tieleman, ``{Antimicrobial
-  Peptide Simulations and the Influence of Force Field on the Free Energy for
-  Pore Formation in Lipid Bilayers},'' {\em Journal of Chemical Theory and
-  Computation}, vol.~12, pp.~4524--4533, sep 2016.
+Bennett, W. F.~D.; Hong, C.~K.; Wang, Y.; Tieleman, D.~P. \emph{Journal of
+  Chemical Theory and Computation} \textbf{2016}, \emph{12}, 4524--4533.
 
 \bibitem{Sandoval-Perez2017}
-A.~Sandoval-Perez, K.~Pluhackova, and R.~A. B{\"{o}}ckmann, ``{Critical
-  Comparison of Biomembrane Force Fields: Protein–Lipid Interactions at the
-  Membrane Interface},'' {\em Journal of Chemical Theory and Computation},
-  vol.~13, pp.~2310--2321, may 2017.
+Sandoval-Perez, A.; Pluhackova, K.; B{\"{o}}ckmann, R.~A. \emph{Journal of
+  Chemical Theory and Computation} \textbf{2017}, \emph{13}, 2310--2321.
 
 \bibitem{Jambeck2012}
-J.~P.~M. J{\"{a}}mbeck and A.~P. Lyubartsev, ``{Derivation and Systematic
-  Validation of a Refined All-Atom Force Field for Phosphatidylcholine
-  Lipids},'' {\em The Journal of Physical Chemistry B}, vol.~116,
-  pp.~3164--3179, mar 2012.
+J{\"{a}}mbeck, J. P.~M.; Lyubartsev, A.~P. \emph{The Journal of Physical
+  Chemistry B} \textbf{2012}, \emph{116}, 3164--3179.
 
 \bibitem{Leontiadou2006}
-H.~Leontiadou, A.~E. Mark, and S.~J. Marrink, ``{Antimicrobial Peptides in
-  Action},'' {\em Journal of the American Chemical Society}, vol.~128,
-  pp.~12156--12161, aug 2006.
+Leontiadou, H.; Mark, A.~E.; Marrink, S.~J. \emph{Journal of the American
+  Chemical Society} \textbf{2006}, \emph{128}, 12156--12161.
 
 \bibitem{Wang2016}
-Y.~Wang, C.~H. Chen, D.~Hu, M.~B. Ulmschneider, and J.~P. Ulmschneider,
-  ``{Spontaneous formation of structurally diverse membrane channel
-  architectures from a single antimicrobial peptide},'' {\em Nature
-  Communications}, vol.~7, p.~13535, nov 2016.
+Wang, Y.; Chen, C.~H.; Hu, D.; Ulmschneider, M.~B.; Ulmschneider, J.~P.
+  \emph{Nature Communications} \textbf{2016}, \emph{7}, 13535.
 
 \bibitem{Haria2014}
-N.~R. Haria, L.~Monticelli, F.~Fraternali, and C.~D. Lorenz, ``{Plasticity and
-  conformational equilibria of influenza fusion peptides in model lipid
-  bilayers},'' {\em BBA - Biomembranes}, vol.~1838, no.~4, pp.~1169--1179,
-  2014.
+Haria, N.~R.; Monticelli, L.; Fraternali, F.; Lorenz, C.~D. \emph{BBA -
+  Biomembranes} \textbf{2014}, \emph{1838}, 1169--1179.
 
 \bibitem{Collu2015}
-F.~Collu, E.~Spiga, C.~D. Lorenz, and F.~Fraternali, ``{Assembly of Influenza
-  Hemagglutinin Fusion Peptides in a Phospholipid Bilayer by Coarse-grained
-  Computer Simulations.},'' {\em Frontiers in molecular biosciences}, vol.~2,
-  p.~66, 2015.
+Collu, F.; Spiga, E.; Lorenz, C.~D.; Fraternali, F. \emph{Frontiers in
+  molecular biosciences} \textbf{2015}, \emph{2}, 66.
 
 \bibitem{Balatti2017}
-G.~E. Balatti, E.~E. Ambroggio, G.~D. Fidelio, M.~F. Martini, and M.~Pickholz,
-  ``{Differential Interaction of Antimicrobial Peptides with Lipid Structures
-  Studied by Coarse-Grained Molecular Dynamics Simulations.},'' {\em Molecules
-  (Basel, Switzerland)}, vol.~22, oct 2017.
+Balatti, G.~E.; Ambroggio, E.~E.; Fidelio, G.~D.; Martini, M.~F.; Pickholz, M.
+  \emph{Molecules (Basel, Switzerland)} \textbf{2017}, \emph{22}.
 
 \bibitem{Marrink2013}
-S.~J. Marrink and D.~P. Tieleman, ``{Perspective on the Martini model.},'' {\em
-  Chemical Society reviews}, vol.~42, pp.~6801--22, aug 2013.
+Marrink, S.~J.; Tieleman, D.~P. \emph{Chemical Society reviews} \textbf{2013},
+  \emph{42}, 6801--22.
 
 \bibitem{Khandelia2005}
-H.~Khandelia and Y.~N. Kaznessis, ``{Molecular dynamics simulations of helical
-  antimicrobial peptides in SDS micelles: What do point mutations achieve?},''
-  {\em Peptides}, vol.~26, pp.~2037--2049, nov 2005.
+Khandelia, H.; Kaznessis, Y.~N. \emph{Peptides} \textbf{2005}, \emph{26},
+  2037--2049.
 
 \bibitem{Tsai2009}
-C.-W. Tsai, N.-Y. Hsu, C.-H. Wang, C.-Y. Lu, Y.~Chang, H.-H.~G. Tsai, and R.-C.
-  Ruaan, ``{Coupling Molecular Dynamics Simulations with Experiments for the
-  Rational Design of Indolicidin-Analogous Antimicrobial Peptides},'' {\em
-  Journal of Molecular Biology}, vol.~392, pp.~837--854, sep 2009.
+Tsai, C.-W.; Hsu, N.-Y.; Wang, C.-H.; Lu, C.-Y.; Chang, Y.; Tsai, H.-H.~G.;
+  Ruaan, R.-C. \emph{Journal of Molecular Biology} \textbf{2009}, \emph{392},
+  837--854.
 
 \bibitem{Wu2012}
-D.~Wu and X.~Yang, ``{Coarse-Grained Molecular Simulation of Self-Assembly for
-  Nonionic Surfactants on Graphene Nanostructures},'' {\em The Journal of
-  Physical Chemistry B}, vol.~116, pp.~12048--12056, oct 2012.
+Wu, D.; Yang, X. \emph{The Journal of Physical Chemistry B} \textbf{2012},
+  \emph{116}, 12048--12056.
 
 \bibitem{Wang2012poly}
-H.~Wang, H.~Zhang, C.~Liu, and S.~Yuan, ``{Coarse-grained molecular dynamics
-  simulation of self-assembly of polyacrylamide and sodium dodecylsulfate in
-  aqueous solution},'' {\em Journal of Colloid and Interface Science},
-  vol.~386, pp.~205--211, nov 2012.
+Wang, H.; Zhang, H.; Liu, C.; Yuan, S. \emph{Journal of Colloid and Interface
+  Science} \textbf{2012}, \emph{386}, 205--211.
 
 \bibitem{Bochicchio2017}
-D.~Bochicchio and G.~M. Pavan, ``{From Cooperative Self-Assembly to
-  Water-Soluble Supramolecular Polymers Using Coarse-Grained Simulations},''
-  {\em ACS Nano}, vol.~11, pp.~1000--1011, jan 2017.
+Bochicchio, D.; Pavan, G.~M. \emph{ACS Nano} \textbf{2017}, \emph{11},
+  1000--1011.
 
 \bibitem{Lee2011}
-H.~Lee and R.~W. Pastor, ``{Coarse-Grained Model for PEGylated Lipids: Effect
-  of PEGylation on the Size and Shape of Self-Assembled Structures},'' {\em The
-  Journal of Physical Chemistry B}, vol.~115, pp.~7830--7837, jun 2011.
+Lee, H.; Pastor, R.~W. \emph{The Journal of Physical Chemistry B}
+  \textbf{2011}, \emph{115}, 7830--7837.
 
 \bibitem{Brocos2012}
-P.~Brocos, P.~Mendoza-Espinosa, R.~Castillo, J.~Mas-Oliva, and
-  {\'{A}}.~Pi{\~{n}}eiro, ``{Multiscale molecular dynamics simulations of
-  micelles: coarse-grain for self-assembly and atomic resolution for finer
-  details},'' {\em Soft Matter}, vol.~8, p.~9005, aug 2012.
+Brocos, P.; Mendoza-Espinosa, P.; Castillo, R.; Mas-Oliva, J.; Pi{\~{n}}eiro,
+  {\'{A}}. \emph{Soft Matter} \textbf{2012}, \emph{8}, 9005.
 
 \bibitem{Guo2012}
-C.~Guo, Y.~Luo, R.~Zhou, and G.~Wei, ``{Probing the Self-Assembly Mechanism of
-  Diphenylalanine-Based Peptide Nanovesicles and Nanotubes},'' {\em ACS Nano},
-  vol.~6, pp.~3907--3918, may 2012.
+Guo, C.; Luo, Y.; Zhou, R.; Wei, G. \emph{ACS Nano} \textbf{2012}, \emph{6},
+  3907--3918.
 
 \bibitem{Seo2012}
-M.~Seo, S.~Rauscher, R.~Pom{\`{e}}s, and D.~P. Tieleman, ``{Improving Internal
-  Peptide Dynamics in the Coarse-Grained MARTINI Model: Toward Large-Scale
-  Simulations of Amyloid- and Elastin-like Peptides},'' {\em Journal of
-  Chemical Theory and Computation}, vol.~8, pp.~1774--1785, may 2012.
+Seo, M.; Rauscher, S.; Pom{\`{e}}s, R.; Tieleman, D.~P. \emph{Journal of
+  Chemical Theory and Computation} \textbf{2012}, \emph{8}, 1774--1785.
 
 \bibitem{Gudlur2012}
-S.~Gudlur, P.~Sukthankar, J.~Gao, L.~A. Avila, Y.~Hiromasa, J.~Chen,
-  T.~Iwamoto, and J.~M. Tomich, ``{Peptide Nanovesicles Formed by the
-  Self-Assembly of Branched Amphiphilic Peptides},'' {\em PLoS ONE}, vol.~7,
-  no.~9, 2012.
+Gudlur, S.; Sukthankar, P.; Gao, J.; Avila, L.~A.; Hiromasa, Y.; Chen, J.;
+  Iwamoto, T.; Tomich, J.~M. \emph{PLoS ONE} \textbf{2012}, \emph{7}.
 
 \bibitem{Grime2016}
-J.~M.~A. Grime, J.~F. Dama, B.~K. Ganser-Pornillos, C.~L. Woodward, G.~J.
-  Jensen, M.~Yeager, and G.~A. Voth, ``{Coarse-grained simulation reveals key
-  features of HIV-1 capsid self-assembly.},'' {\em Nature communications},
-  vol.~7, p.~11568, may 2016.
+Grime, J. M.~A.; Dama, J.~F.; Ganser-Pornillos, B.~K.; Woodward, C.~L.; Jensen,
+  G.~J.; Yeager, M.; Voth, G.~A. \emph{Nature communications} \textbf{2016},
+  \emph{7}, 11568.
 
 \bibitem{Perilla2016}
-J.~R. Perilla, J.~A. Hadden, B.~C. Goh, C.~G. Mayne, and K.~Schulten,
-  ``{All-Atom Molecular Dynamics of Virus Capsids as Drug Targets.},'' {\em The
-  journal of physical chemistry letters}, vol.~7, no.~10, pp.~1836--44, 2016.
+Perilla, J.~R.; Hadden, J.~A.; Goh, B.~C.; Mayne, C.~G.; Schulten, K. \emph{The
+  journal of physical chemistry letters} \textbf{2016}, \emph{7}, 1836--44.
 
 \bibitem{Hadden2018}
-J.~A. Hadden and J.~R. Perilla, ``{All-atom virus simulations},'' {\em Current
-  Opinion in Virology}, vol.~31, pp.~82--91, aug 2018.
+Hadden, J.~A.; Perilla, J.~R. \emph{Current Opinion in Virology} \textbf{2018},
+  \emph{31}, 82--91.
 
 \bibitem{AbiMansour2014}
-A.~{Abi Mansour} and P.~J. Ortoleva, ``{Multiscale Factorization Method for
-  Simulating Mesoscopic Systems with Atomic Precision},'' {\em Journal of
-  Chemical Theory and Computation}, vol.~10, pp.~518--523, feb 2014.
+{Abi Mansour}, A.; Ortoleva, P.~J. \emph{Journal of Chemical Theory and
+  Computation} \textbf{2014}, \emph{10}, 518--523.
 
 \bibitem{moe}
-C.~C.~G. ULC, ``Molecular operating environment (moe), 2013.08,'' 2018.
-\newblock {1010 Sherbooke St. West, Suite 910, Montreal, QC, Canada, H3A 2R7}.
+ULC, C. C.~G.; \emph{Molecular Operating Environment (MOE), 2013.08}; 2018;
+  {1010 Sherbooke St. West, Suite 910, Montreal, QC, Canada, H3A 2R7}.
 
 \bibitem{Malde2011}
-A.~Malde, L.~Zuo, M.~Breeze, M.~Stroet, D.~Poger, P.~Nair, C.~Oostenbrink, and
-  A.~Mark, ``{An Automated Force Field Topology Builder (ATB) and Repository:
-  Version 1.0},'' {\em Journal of Chemical Theory and Computation}, vol.~7,
-  pp.~4026--4037, dec 2011.
+Malde, A.; Zuo, L.; Breeze, M.; Stroet, M.; Poger, D.; Nair, P.; Oostenbrink,
+  C.; Mark, A. \emph{Journal of Chemical Theory and Computation} \textbf{2011},
+  \emph{7}, 4026--4037.
 
 \bibitem{Koziara2014}
-K.~Koziara, M.~Stroet, A.~Malde, and A.~Mark, ``{Testing and validation of the
-  Automated Topology Builder (ATB) version 2.0: prediction of hydration free
-  enthalpies},'' {\em Journal of Computer-Aided Molecular Design}, vol.~28,
-  pp.~221--233, mar 2014.
+Koziara, K.; Stroet, M.; Malde, A.; Mark, A. \emph{Journal of Computer-Aided
+  Molecular Design} \textbf{2014}, \emph{28}, 221--233.
 
 \bibitem{Martinez2009}
-L.~Mart{\'{i}}nez, R.~Andrade, E.~G. Birgin, and J.~M. Mart{\'{i}}nez,
-  ``{PACKMOL: A package for building initial configurations for molecular
-  dynamics simulations},'' {\em Journal of Computational Chemistry}, vol.~30,
-  pp.~2157--2164, oct 2009.
+Mart{\'{i}}nez, L.; Andrade, R.; Birgin, E.~G.; Mart{\'{i}}nez, J.~M.
+  \emph{Journal of Computational Chemistry} \textbf{2009}, \emph{30},
+  2157--2164.
 
 \bibitem{PogerOrig}
-D.~Poger, W.~F. {Van Gunsteren}, and A.~E. Mark, ``{A new force field for
-  simulating phosphatidylcholine bilayers},'' {\em Journal of Computational
-  Chemistry}, vol.~31, pp.~1117--1125, apr 2010.
+Poger, D.; {Van Gunsteren}, W.~F.; Mark, A.~E. \emph{Journal of Computational
+  Chemistry} \textbf{2010}, \emph{31}, 1117--1125.
 
 \bibitem{Kukol2009}
-A.~Kukol, ``{Lipid Models for United-Atom Molecular Dynamics Simulations of
-  Proteins},'' {\em Journal of Chemical Theory and Computation}, vol.~5,
-  pp.~615--626, mar 2009.
+Kukol, A. \emph{Journal of Chemical Theory and Computation} \textbf{2009},
+  \emph{5}, 615--626.
 
 \bibitem{Kucerka2011}
-N.~Ku{\v{c}}erka, M.-P. Nieh, and J.~Katsaras, ``{Fluid phase lipid areas and
-  bilayer thicknesses of commonly used phosphatidylcholines as a function of
-  temperature},'' {\em Biochimica et Biophysica Acta (BBA) - Biomembranes},
-  vol.~1808, no.~11, pp.~2761--2771, 2011.
+Ku{\v{c}}erka, N.; Nieh, M.-P.; Katsaras, J. \emph{Biochimica et Biophysica
+  Acta (BBA) - Biomembranes} \textbf{2011}, \emph{1808}, 2761--2771.
 
 \bibitem{Pan2012}
-J.~Pan, F.~A. Heberle, S.~Tristram-Nagle, M.~Szymanski, M.~Koepfinger,
-  J.~Katsaras, and N.~Ku{\v{c}}erka, ``{Molecular structures of fluid phase
-  phosphatidylglycerol bilayers as determined by small angle neutron and X-ray
-  scattering},'' {\em Biochimica et Biophysica Acta (BBA) - Biomembranes},
-  vol.~1818, pp.~2135--2148, sep 2012.
+Pan, J.; Heberle, F.~A.; Tristram-Nagle, S.; Szymanski, M.; Koepfinger, M.;
+  Katsaras, J.; Ku{\v{c}}erka, N. \emph{Biochimica et Biophysica Acta (BBA) -
+  Biomembranes} \textbf{2012}, \emph{1818}, 2135--2148.
 
 \bibitem{Kandt2007}
-C.~Kandt, W.~Ash, and D.~{Peter Tieleman}, ``{Setting up and running molecular
-  dynamics simulations of membrane proteins},'' {\em Methods}, vol.~41,
-  pp.~475--488, apr 2007.
+Kandt, C.; Ash, W.; {Peter Tieleman}, D. \emph{Methods} \textbf{2007},
+  \emph{41}, 475--488.
 
 \bibitem{Wilson2011}
-J.~R. Wilson, R.~B. Clark, U.~Banderali, and W.~R. Giles, ``{Measurement of the
-  membrane potential in small cells using patch clamp methods},'' {\em
-  Channels}, vol.~5, pp.~530--537, nov 2011.
+Wilson, J.~R.; Clark, R.~B.; Banderali, U.; Giles, W.~R. \emph{Channels}
+  \textbf{2011}, \emph{5}, 530--537.
 
 \bibitem{Tieleman2004}
-D.~P. Tieleman, ``{The molecular basis of electroporation.},'' {\em BMC
-  Biochemistry}, vol.~5, p.~10, jul 2004.
+Tieleman, D.~P. \emph{BMC Biochemistry} \textbf{2004}, \emph{5}, 10.
 
 \bibitem{Bockmann2008}
-R.~A. B{\"{o}}ckmann, B.~L. de~Groot, S.~Kakorin, E.~Neumann, and
-  H.~Grubm{\"{u}}ller, ``{Kinetics, Statistics, and Energetics of Lipid
-  Membrane Electroporation Studied by Molecular Dynamics Simulations},'' {\em
-  Biophysical Journal}, vol.~95, pp.~1837--1850, aug 2008.
+B{\"{o}}ckmann, R.~A.; de~Groot, B.~L.; Kakorin, S.; Neumann, E.;
+  Grubm{\"{u}}ller, H. \emph{Biophysical Journal} \textbf{2008}, \emph{95},
+  1837--1850.
 
 \bibitem{Graham2017}
-J.~A. Graham, J.~W. Essex, and S.~Khalid, ``{PyCGTOOL: Automated Generation of
-  Coarse-Grained Molecular Dynamics Models from Atomistic Trajectories},'' {\em
-  Journal of Chemical Information and Modeling}, vol.~57, pp.~650--656, apr
-  2017.
+Graham, J.~A.; Essex, J.~W.; Khalid, S. \emph{Journal of Chemical Information
+  and Modeling} \textbf{2017}, \emph{57}, 650--656.
 
 \bibitem{SiewertJ.Marrink2003}
-.~{Siewert J. Marrink}, , {Alex H. de Vries}, and A.~E. Mark, ``{Coarse Grained
-  Model for Semiquantitative Lipid Simulations},'' 2003.
+{Siewert J. Marrink}, .; ; {Alex H. de Vries}; Mark, A.~E. \textbf{2003}.
 
 \bibitem{Uppulury2015}
-K.~Uppulury, P.~S. Coppock, and J.~T. Kindt, ``{Molecular Simulation of the
-  DPPE Lipid Bilayer Gel Phase: Coupling between Molecular Packing Order and
-  Tail Tilt Angle},'' {\em J. Phys. Chem. B}, vol.~119, p.~6, 2015.
+Uppulury, K.; Coppock, P.~S.; Kindt, J.~T. \emph{J. Phys. Chem. B}
+  \textbf{2015}, \emph{119}, 6.
 
 \bibitem{Pluhackova2016}
-K.~Pluhackova, S.~A. Kirsch, J.~Han, L.~Sun, Z.~Jiang, T.~Unruh, and R.~A.
-  B{\"{o}}ckmann, ``{A Critical Comparison of Biomembrane Force Fields:
-  Structure and Dynamics of Model DMPC, POPC, and POPE Bilayers},'' {\em The
-  Journal of Physical Chemistry B}, vol.~120, pp.~3888--3903, apr 2016.
+Pluhackova, K.; Kirsch, S.~A.; Han, J.; Sun, L.; Jiang, Z.; Unruh, T.;
+  B{\"{o}}ckmann, R.~A. \emph{The Journal of Physical Chemistry B}
+  \textbf{2016}, \emph{120}, 3888--3903.
 
 \end{thebibliography}
