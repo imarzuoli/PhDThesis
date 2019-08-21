@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: front.aux
@@ -9,7 +9,7 @@ A level-1 auxiliary file: 3results_capsule/results_capsule.aux
 A level-1 auxiliary file: 4lip_par/lip_par.aux
 A level-1 auxiliary file: appendix.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 11417 items from 5000.
+Reallocated field_info (elt_size=4) to 11463 items from 5000.
 Database file #1: thesis_ref2.bib
 Warning--entry type for "poly" isn't style-file defined
 --line 3060 of file thesis_ref2.bib
@@ -36,45 +36,45 @@ Warning--empty publisher in gromacs_man
 Warning--empty journal in Jorgensen1996
 Warning--empty booktitle in Fornili2012
 Warning--empty journal in SiewertJ.Marrink2003
-You've used 270 entries,
+You've used 272 entries,
             1876 wiz_defined-function locations,
-            2199 strings with 68321 characters,
-and the built_in function-call counts, 96542 in all, are:
-= -- 9754
-> -- 4528
+            2210 strings with 68833 characters,
+and the built_in function-call counts, 97170 in all, are:
+= -- 9813
+> -- 4562
 < -- 0
-+ -- 1607
-- -- 1337
-* -- 7658
-:= -- 13451
-add.period$ -- 269
-call.type$ -- 270
-change.case$ -- 269
++ -- 1619
+- -- 1347
+* -- 7710
+:= -- 13544
+add.period$ -- 271
+call.type$ -- 272
+change.case$ -- 271
 chr.to.int$ -- 0
-cite$ -- 277
-duplicate$ -- 4470
-empty$ -- 7482
-format.name$ -- 1337
-if$ -- 23045
+cite$ -- 279
+duplicate$ -- 4499
+empty$ -- 7532
+format.name$ -- 1347
+if$ -- 23194
 int.to.chr$ -- 0
-int.to.str$ -- 270
-missing$ -- 266
-newline$ -- 815
-num.names$ -- 272
-pop$ -- 383
+int.to.str$ -- 272
+missing$ -- 268
+newline$ -- 821
+num.names$ -- 274
+pop$ -- 387
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 4241
+skip$ -- 4263
 stack$ -- 0
-substring$ -- 8069
-swap$ -- 2553
+substring$ -- 8111
+swap$ -- 2567
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 965
-width$ -- 273
-write$ -- 2673
+while$ -- 971
+width$ -- 275
+write$ -- 2693
 (There were 20 warnings)

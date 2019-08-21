@@ -1516,4 +1516,15 @@ J.~A. Graham, J.~W. Essex, and S.~Khalid, ``{PyCGTOOL: Automated Generation of
 .~{Siewert J. Marrink}, , {Alex H. de Vries}, and A.~E. Mark, ``{Coarse Grained
   Model for Semiquantitative Lipid Simulations},'' 2003.
 
+\bibitem{Uppulury2015}
+K.~Uppulury, P.~S. Coppock, and J.~T. Kindt, ``{Molecular Simulation of the
+  DPPE Lipid Bilayer Gel Phase: Coupling between Molecular Packing Order and
+  Tail Tilt Angle},'' {\em J. Phys. Chem. B}, vol.~119, p.~6, 2015.
+
+\bibitem{Pluhackova2016}
+K.~Pluhackova, S.~A. Kirsch, J.~Han, L.~Sun, Z.~Jiang, T.~Unruh, and R.~A.
+  B{\"{o}}ckmann, ``{A Critical Comparison of Biomembrane Force Fields:
+  Structure and Dynamics of Model DMPC, POPC, and POPE Bilayers},'' {\em The
+  Journal of Physical Chemistry B}, vol.~120, pp.~3888--3903, apr 2016.
+
 \end{thebibliography}
