@@ -2,16 +2,16 @@
 
 \lettrine{M}{olecular Dynamics} simulations have been rightly defined as the `Computational Microscope' \cite{Lee2009,Dror2012} as they offer otherwise inaccessible insights into the molecular details underlying conformational changes of proteins and nucleic acids. Computational methods and tools based on MD are routinely applied in structural biology to quantitatively characterise the dynamics and thermodynamics of proteins and their complexes. The increasing computational power available, and the flexibility of the algorithms which can be implemented on different platforms, have made possible to access molecular dynamical properties inaccessible to experiments. These techniques and the associated force fields are also commonly used in the process of structure determination from NMR data and theoretical structure prediction \cite{Vogel2017,Heo2018}.
 %
-Modelling and simulating a biological system consists in describing its components and their mutual interactions, and implementing the laws of physics to reproduce its natural evolution. A quantum mechanic description would be more accurate but expensive to achieve for large systems. To facilitate the task, several simplified models have been devised, each most suitable to investigate particular cases.
+Modelling and simulating a biological system consists in describing its components and their mutual interactions, and implementing the laws of physics in the attempt to reproduce its natural evolution. A quantum mechanic description would be more accurate but expensive to achieve for large systems. To facilitate the task, several simplified models have been devised, each most suitable to investigate particular cases.
 %
-In particular, a large class of models focuses on a classical mechanics description of the dynamics: for increasing sizes of the systems and longer time spans described, the classical approximations will be increasingly accurate, and also the only possible representation computationally affordable.
+In particular, a large class of models focuses on a classical mechanics description of the dynamics: by increasing the size of the systems and with longer time spans described, the classical approximations will become more accurate, and objectively the only possible representation computationally affordable.
 
 We briefly present here the core theory and implementation of classical MD simulations, together with a discussion of their strengths, limitations and comparison with experiments. Understanding their methodology provides the interpretative key with which simulations must be designed, run and interpreted in each specific case \cite{vanGunsteren2006}. A review of relevant examples will complete the chapter.
 
 
 \section{Algorithms for Molecular Dynamics}
 
-\hl{In this section, the core algorithm behind MD simulations is presented, together with the corrections and refinements implemented on it, as it sets the ground for the approximations to follow: as much accurately the system can be modelled, in a classical MD framework it will always be processed by an engine based on classical mechanics rules and finite steps approximations, which inevitable influences the outcome.}
+\hl{In this section, the core algorithm behind MD simulations is presented, together with the corrections and refinements implemented on it, as it sets the ground for the approximations to follow: as much accurately the system can be modelled, in a classical MD framework it will always be processed by an engine based on classical mechanics rules and finite steps approximations, which inevitably influences the outcome.}
 
 \subsection{The Newton's law}
 
@@ -27,7 +27,7 @@ As the acceleration $\textbf{a}(t)$ is the second derivative of the position $\t
 %
 In the case of complex biomolecular systems with many particles and multiple interactions acting between them, it is impossible to integrate analytically Equations \ref{eq:analytical}-\ref{eq:analytical2}, while a different and feasible approach consists in discretising the equation of motion \ref{eq:newton}.
 %
-The idea is to consider very short time steps of length $\Delta t$, so that in such intervals the forces are (almost) constant, and the integration of Equations \ref{eq:analytical}-\ref{eq:analytical2} becomes trivial.
+The idea is to consider very short time steps of length $\Delta t$, so that in such intervals the forces can be considered constant, and the integration of Equations \ref{eq:analytical}-\ref{eq:analytical2} becomes trivial.
 %
 \hl{The simplest choice consists in considering for the integration both the acceleration and the velocity at time $t_0$, producing the Euler algorithm:}
 \begin{eqnarray} \label{eq:euler}
@@ -45,7 +45,7 @@ This algorithm can thus ``solve" every possible Newton equation, at the expenses
 \hl{Considering that MD deals with bonded atoms belonging to multi-atoms molecules, the length of these bonds must be kept within a physically meaningful value. Despite the forces acting between single atoms tend to maintain them in the correct geometry, the approximate procedure mentioned above may give raise to unphysical configurations. To correct this, constraint algorithms are applied after the update of atoms positions. The ones used in this work are LINCS (Linear Constraint Solver) \cite{Hess1997} and SETTLE \cite{Miyamoto1992}: the first finds a solution iteratively within an approximation tolerance, as the problem of constraints is hardly solvable analytically; the second is an exact implementation of the solution for rigid bodies of three elements only, and as such is useful for the treatment of water molecules (which have three atoms in their atomistic description).}
 
 \subsection{Thermostats and barostats}
-\hl{As an addition to the constraints algorithms mentioned above, other specific algorithms have been developed to more realistically reproduce the simulation's conditions of choice, for example Temperature and Pressure.}
+\hl{As an addition to the geometrical constraints algorithms mentioned above, other specific algorithms have been developed to more realistically reproduce the simulation's conditions of choice, for example Temperature and Pressure.}
 
 Most experiments are conducted under constant temperature, so that it is desirable to reproduce this condition in simulations.
 %
