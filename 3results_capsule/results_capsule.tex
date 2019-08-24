@@ -138,7 +138,7 @@ Throughout all the simulations, the temperature was maintained by independently 
  System (Nr peptides) & Model & Time (ns) & Replicas \\
  \hline
  $\beta$-sheet (Fraction) & GR & 100 & 32 \\
- Pentagon-bilayer (10) & GR & 100 & 1 \\
+ Pentagonal subunit (10) & GR & 100 & 1 \\
  Buckyball bilayer (120) & GR & 100 & 3 \\
  Buckyball bilayer \& monolayer (120) & SI & 1000 & 3 \& 1 \\
  Buckyball bilayer \& monolayer (120) & MA & 1000 & 3 \& 2 \\
@@ -180,34 +180,38 @@ An overview of simulations of peptide-membrane systems is given in Table \ref{ta
 \begin{figure}[t]
 \centering
  \def\arraystretch{1.6}
-\begin{tabular}{ll|ccc}
-\multicolumn{5}{c}{\textbf{Capzip on membrane simulations}} \\
+\begin{tabular}{lccccc}
+\multicolumn{6}{c}{\textbf{Capzip on membrane simulations}} \\
 \hline
- & System &  Model & Time (ns) & Replicas\\
+ & Peptides & Lipids &  $\,$Model$\,$ & Time ($\mu$s) & Replicas\\
  \hline
- \multirow{4}{*}{\rotatebox{90}{Bacterial}} & 10 peptides, 512 lipids & GR & 500 & 2 \\
- & 10 peptides, 740 lipids & GR & 500 & 1 \\
- & Buckyball, 2880 lipids & MA & 10000 & 2 \\
- & Buckyball, 2880 lipids & MA\_P & 10000 & 1 \\
+ \multirow{4}{*}{\rotatebox{90}{Bacterial}} & 10 & 512 & GR & 500 & 2 \\
+ & 10 & 740 & GR & 0.5 & 1 \\
+ & 120 & 2880 & MA & 10 & 2 \\
+ & 120 & 2880 & MA\_P & 10 & 1 \\
  \hline
- \multirow{3}{*}{\rotatebox{90}{Mammalian}} & 10 peptides, 740 lipids & GR & 500 & 1 \\
- & Buckyball, 2880 lipids & MA & 10000 & 1 \\
- & Buckyball, 2880 lipids & MA\_P & 10000 & 1 \\
+ \multirow{3}{*}{\rotatebox{90}{Mammalian}} & 10 & 740 & GR & 0.5 & 1 \\
+ & 120 & 2880 & MA & 10 & 1 \\
+ & 120 & 2880 & MA\_P & 10 & 1 \\
  \end{tabular}
- \begin{tabular}{ll|cccc}
+ \begin{tabular}{lcccccc}
  \hline
- \multicolumn{6}{c}{\textbf{Electroporation simulations}} \\
+ \multicolumn{7}{c}{\textbf{Electroporation simulations}} \\
   \hline
-  & System & Model & Time (ns) & Replicas & E (mV/nm) \\
+  & Peptides & Lipids & $\,$Model$\,$ & $\,$Time (ns)$\,$ & Rep. & E (mV/nm) \\
  \hline
- \multirow{2}{*}{\rotatebox{90}{Bact.}} & 10 peptides, 512 lipids & GR & 75, 20, 71 & 3 & -130 \\
- & 10 peptides, 740 lipids & GR & 60, 50, 70 & 3 & -130 \\
+ \multirow{4}{*}{\rotatebox{90}{Bacterial}} & 10 & 512 & GR & 75, 20, 71 & 3 & 130 \\
+ & 10 & 740 & GR & 60, 50, 70 & 3 & 130 \\
+ %\hline
+ & 120 & 2880 & MA\_P & ($>$500) & 1 & 20 \\
+ & 120 & 2880 & MA\_P & 168 & 1 & 40 \\
  \hline
- \multirow{2}{*}{\rotatebox{90}{Bact.}} & Buckyball, 2880 lipids & MA\_P & ?? & 1 & ??\\
- & Buckyball, 2880 lipids & MA\_P & ?? & 1 & ?? \\
+ \multirow{3}{*}{\rotatebox{90}{Mamm.}} & 10 & 740 & GR & 20, 28, 39 & 3 & 130 \\
+ & 10 & 2888 & MA\_P & ($>$500) & 1 & 20 \\
+ & 10 & 2888 & MA\_P & ?? & 1 & 40 \\
  \hline
 \end{tabular}
-\captionof{table}{Table of simulations of peptide-membrane complexes. All the mentioned ones run at 150 mM concentration of NaCl. Models: GR = united atom GROMOS, MA = coarse-grain MARTINI, MA\_P = coarse-grain MARTINI with polar water. For electroporation simulations, the time refer to the rupture of the membrane. For electroporation simulations on pure membranes, see SI Table \ref{table:SI_sim_E}.}
+\captionof{table}{Table of simulations of peptide-membrane complexes. All the mentioned ones run at 150 mM concentration of NaCl. Models: GR = united atom GROMOS, MA = coarse-grain MARTINI, MA\_P = coarse-grain MARTINI with polar water. For electroporation simulations, the time refer to the rupture of the membrane. For electroporation simulations on pure membranes, see SI Table \ref{table:SI_sim_E}. A number of 10 peptides denotes the pentagonal subunit, 120 the buckyball bilayer.}
 \label{table:sim_membr}
 \end{figure}
 
@@ -529,32 +533,25 @@ Based on this, we deemed that the capsules observed experimentally must have a n
 The multiscale investigation of this system provided both information on how it is structured, and a useful comparison between force fields, proving how the same system can be described in different ways from different models. This limited comparison might still be useful especially in the light of the comparatively new SIRAH force field, which has been less assessed than the MARTINI description.
 
 
-%\begin{figure}[h]
-%\centering
-%%\includegraphics[width=0.5\textwidth]{pics/noSI_stAll_sasa_fractions.png}
-%\caption{\textbf{[REDO BETTER AND PUT PANEL LETTER]} Break down of the total Solvent Accessible Surface Area (SASA) in the residue types of which the molecule is composed. }
-%\label{fig:BTI_sasa_exposed}
-%\end{figure}
-
-
 %\paragraph{Backmapped simulations} Two of the coarse-grain MARTINI final configurations are backmapped to atomistic resolution, and they are simulated for additional 200 ns. The structures expand and their sizes tend to the one obtained in direct atomistic simulations (SI Figure \ref{fig:backmap_Rg_SI} shows the evolution of the radius of gyration).
 %%
 %The pattern of contacts per residue from backmapping, computed on the last 100 ns of simulations, resemble the one found for the original atomistic simulations, except for the backbone ones, which are still influenced by their initial coarse-grain configuration. This suggest that the interaction of the side chains is very strong and thus quickly restored after the backmapping, pointing out the role of charge-charge recognition for the cohesion of the system. 
 %
 %
 %is similar to the one in direct atomistic simulations (SI Fig. \ref{fig:SI_BTI_contacts}, bottom), and some of the amino acid type patterns are recovered, like a larger role of Tryptophan in the interactions and less contacts for Threonine.
-%
-%
 
 
 
 \section{Results: peptide-membrane interactions}
 
-kkk
+We now discuss the results obtained from atomistic simulations of the pentagonal peptidic subunit in contact with a model bacterial or mammal membrane, both under standard simulation conditions and with an applied external electric field. In this we elucidate the local effect of the peptide on the lipid organisation within the bilayer.
+%
+We then assess the process of membrane binding through coarse grain simulations, without and with electric field, comparing the MARTINI and Polar MARTINI force fields for the simulation without an external potential, and necessarily resorting to Polar MARTINI for the ones involving the electric contribution. 
 
-\subsection{Bacterial model membrane: influence of the peptide}
 
-\paragraph{512-lipids patches} For the model of bacterial membrane chosen (composition DLPC/DLPG 3:1), the ApL obtained from simulations was, according to the setup, $0.5796\pm0.0052$ nm$^2$ or $0.5686\pm0.0036$ nm$^2$ (respectively 512 lipids with GROMOS 54a7 force field or 740 lipids with GROMOS 54a8 force field - Figure \ref{fig:lip_apl}, lines 1 and 5).
+\subsection{Atomistic simulations of the bacterial model membrane}
+
+\paragraph{Influence of the peptide on the 512-lipids patch} For the model of bacterial membrane chosen (composition DLPC/DLPG 3:1), the ApL obtained from simulations was, according to the setup, $0.5796\pm0.0052$ nm$^2$ or $0.5686\pm0.0036$ nm$^2$ (respectively 512 lipids with GROMOS 54a7 force field or 740 lipids with GROMOS 54a8 force field - Figure \ref{fig:lip_apl}, lines 1 and 5).
 %
 The differences can be attributed to the force field, however extensive tests on many phosphocholine lipids (see Chapter \ref{chapter:lip_par}) suggests that the trend is generally the opposite, with 54a8 giving larger values than 54a7.
 %
@@ -597,11 +594,13 @@ Computing the hexagonal order parameter $S_6$ for the bottom leaflet of the syst
 \label{fig:S6_pb4}
 \end{figure}
 
-\paragraph{740-lipids patches} It is remarkable that when the same perturbations were applied to a larger membrane, ApL and tail order parameter S$^{avg}_{CD}$ were equal within the error between the different conditions tested, while the diffusion coefficient D was still significantly affected, being reduced by 2.5 times (Figure \ref{fig:lip_apl}-\subcaptionref{fig:lip_ord}, lines 5 to 8).
+\paragraph{Influence of the peptide on the 740-lipids patch} It is remarkable that when the same perturbations were applied to a larger membrane, ApL and tail order parameter S$^{avg}_{CD}$ were equal within the error between the different conditions tested, while the diffusion coefficient D was still significantly affected, being reduced by 2.5 times (Figure \ref{fig:lip_apl}-\subcaptionref{fig:lip_ord}, lines 5 to 8).
 
 This suggests that the simulation conditions can affect remarkably the outcome and the possible interpretation: we reckon that the larger impact on the smaller membrane is due to the fact that local perturbations are effectively communicated to other parts of the membrane through periodic boundary conditions, while this is less effective in a larger patch.
 %
-Alternatively, this can also hint at the fact that the 54a8 force field proposes a more rigid structure of the membrane with respect to GROMOS 54a7. However, ???
+Alternatively, this can also hint at the fact that the 54a8 force field proposes a more rigid structure of the membrane with respect to GROMOS 54a7. However, results from simulations of the membrane alone presents similar values of both ApL and D (with a slight reduction in the ApL when going to the larger membrane).
+%
+We reserve further tests on this subject for simulations under an applied electric field, as it will speed up the appearance of any differences between the two setups.
 
 
 \paragraph{Locally reduced mobility} The common effect observed on both membrane sizes is a diminished mobility of the lipids.
@@ -676,7 +675,7 @@ These interactions, together with the electrostatic coupling between positive re
 We think that this reduced ``fluidity" is an important perturbation of the membrane structure, as it allows for less rearrangements in case of further external stimuli.
 
 
-\subsection{Bacterial model membrane: electroporation results}
+\paragraph{Electroporation results}
 As it is not possible to witness penetration of the peptide through the membrane within the available simulation time, we opted to perform electroporation simulations.
 %
 An electric field of increasing intensity was applied along the negative $z$ direction perpendicular to the membrane, with the peptide on the positive $z$ side, to model the field generated by the transmembrane potential.
@@ -687,18 +686,17 @@ An electric field of increasing intensity was applied along the negative $z$ dir
 \centering
 \begin{minipage}[b]{0.26\linewidth}
 \centering
-%\includegraphics[width=45mm]{pics/cg-130_600ns.png}
-\caption{}\label{fig:pore_pics_1}
+\subbottom[]{\includegraphics[width=45mm]{3results_capsule/pics/cg-130_600ns.png} \label{fig:pore_pics_1}}
 \end{minipage}
 \begin{minipage}[b]{0.4\linewidth}
 \centering
-%\includegraphics[width=60mm]{pics/pore_large_130.png}
-\caption{}\label{fig:pore_pics_2}
+\subbottom[]{\includegraphics[width=60mm]{3results_capsule/pics/pore_large_130.png}
+\label{fig:pore_pics_2}}
 \end{minipage}
 \begin{minipage}[b]{0.26\linewidth}
 \centering
-%\includegraphics[width=40mm]{pics/pore_arg.png}
-\caption{}\label{fig:pore_pics_3}
+\subbottom[]{\includegraphics[width=40mm]{3results_capsule/pics/pore_arg.png}
+\label{fig:pore_pics_3}}
 \end{minipage}
 \caption{Panel a: Membrane deformation due to an electric field applied to the membrane (512 lipids, E = -130 mV/nm). Panel b: pore formation due to the action of the peptide. Panel c: pore precursor due to Arginine insertion and water penetration.}
 \label{fig:pore_pics}
@@ -708,7 +706,11 @@ The field was increased of 20 mV/nm every 200 ns (or 10 mV/nm when approaching t
 %
 Similarly, for simulations with the same field on a larger patch (740 lipids) poration occurs at 60 ns, 50 ns and 70 ns respectively.
 %
-As a control, a 512 lipids bacterial membrane is simulated under the same conditions, for 600 ns in three replicates: despite a reduced area per lipid and diffusion coefficient, and the appearance curved regions, no poration was observed. The electroporation threshold for the membrane alone was set at the higher value of 140 mV/nm: out of three simulations run with such value of the electric field, two resulted in disruption around time equal to 160 ns, while another presented a curved but still intact membrane after 200 ns (Figure \ref{fig:pore_pics_1}).
+As a control, a 512 lipids bacterial membrane is simulated under the same conditions, for 600 ns in three replicates: despite a reduced diffusion coefficient and the appearance curved regions, no poration was observed (Figure \ref{fig:pore_pics_1}). The electroporation threshold for the membrane alone was set at the higher value of 140 mV/nm: out of three simulations run with such value of the electric field, two resulted in disruption around time equal to 160 ns, while another presented a curved but still intact membrane after 200 ns.
+
+The appearance of the curvature corresponds to a diminished area per lipid when this is computed from the sides of the simulation box (the values reported in Figure \ref{fig:lip_apl} follow this approach).
+%
+More sophisticated measures can be performed which taking into account the local orientation of the patch and thus give a more faithful area per lipid. Performing this on the ...
 
 These simulations also showed that the poration mechanism is different when caused by an electric field or by the peptide (in cooperation with a field).
 %
@@ -729,29 +731,43 @@ Additionally, the peptide enhances the invagination of the membrane and these tw
 This findings, together with the previous results, suggests that the rigidification process (measured by the reduction of the diffusion coefficient), regardless the membrane compactness (measured by the area per lipid), is a proxy for poration as it makes the lipids less able to accommodate perturbations and to seal a forming water channel.
 
 
-\subsection{Mammalian model membrane}
+\subsection{Atomistic simulations of the mammalian model membrane}
 
 After the investigation of a model bacterial membrane, we focussed on a mammalian one, modelled as a DLPC patch. 
 
 
 
-\section{Extra table}
+\subsection{Extra table}
 
 \begin{figure}[t]
 \centering
  \def\arraystretch{1.6}
 \begin{tabular}{l|l|l}
- & Bacterial & Mammalian \\
+\hline
+ \textbf{No peptide} & Bacterial & Mammalian \\
  \hline
  \multirow{2}{*}{E = 0} & 512 a7 (1) & 512 a7 (1) \\
  & 740 a8 (1) & 748 a8 (1R) \\
  \hline
+ \multirow{2}{*}{E = 130} & 512 a7 (3) & 512 a7 (X) \\
+ & 740 a8 (3) & 748 a8 (1) \\
+ \hline
+ \hline
+ \textbf{Peptide} & Bacterial & Mammalian \\
+ \hline
+ \multirow{2}{*}{E = 0} & 512 a7 (1) & 512 a7 (X) \\
+ & 740 a8 (1) & 748 a8 (1R) \\
+ \hline
+ \multirow{2}{*}{E = 130} & 512 a7 (3) & 512 a7 (X) \\
+ & 740 a8 (3) & 748 a8 (3) \\
+ \hline
+ \multicolumn{3}{l}{+ Bact/512/a8/E-140 for curvature (1R)}
  \end{tabular}
-\captionof{table}{Table of simulations of capzip assembly in water. Model specifies the force field: GR = united atom GROMOS 53a6 \cite{Oostenbrink2004}, SI = coarse-grain SIRAH \cite{Machado2018}, MA = coarse-grain MARTINI \cite{Marrink2007, Monticelli2008}, MA\_P = coarse-grain MARTINI with polar water \cite{Yesylevskyy2010}.}
+\captionof{table}{ff}
 \label{table:sim_solution}
 \end{figure}
 
-
+\subsection{Coarse grain simulations of the buckyball on membranes}
 
 
 \section{Rest}

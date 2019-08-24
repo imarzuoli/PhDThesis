@@ -649,7 +649,7 @@ FUNCTION {format.authors}
 FUNCTION {format.booktitle}
 {
   booktitle bibinfo.check
-  emphasize
+%%  emphasize
   select.language
 }
 FUNCTION {format.chapter}
@@ -804,15 +804,20 @@ FUNCTION {format.thesis.type}
   if$
 }
 FUNCTION {format.title}
-{
-  title bibinfo.check
-  duplicate$ empty$
-    'skip$
-    {
-      emphasize
-      select.language
-    }
-  if$
+{ title empty$
+    { "" } 
+    { title ". " * "t" change.case$
+      % title "t" change.case$       % original line
+    }    
+  if$ 
+%%  title bibinfo.check
+%%  duplicate$ empty$
+%%    'skip$
+%%    {
+%%%%      emphasize
+%%      select.language
+%%    }
+%%  if$
 }
 FUNCTION {format.tr.number}
 {
@@ -1173,6 +1178,7 @@ FUNCTION {article}
   output.bibitem
   format.authors "author"
   output.check.blank
+  format.title "title" output.check
   format.article.journal "journal"
   output.check.blank
   format.article.date "year"
