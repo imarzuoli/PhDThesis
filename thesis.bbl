@@ -1101,11 +1101,20 @@ Berendsen, H.; Postma, J.; Van~Gunsteren, W.; Hermans, J. \capitalize\bblin{}
   Intermolecular Forces; Pullman, B., \capitalize\bbled{}; D. Reidel Publishing
   Company: Dordrecht, 1981; \bblpp{} 331--342.
 
+\bibitem{sirah_web}
+{Group of BioMolecular Simulations Institut Pasteur de Montevideo}; Sirah force
+  field for amino acids, solvent and nucleotides. ; 2019.
+  \urlprefix\url{http://www.sirahff.com/2012/06/sirah-forcefield.html}.
+
 \bibitem{Periole2009}
 Periole, X.; Cavalli, M.; Marrink, S.-J.; Ceruso, M.~A.; {Combining an Elastic
   Network With a Coarse-Grained Molecular Force Field: Structure, Dynamics, and
   Intermolecular Recognition}.  \emph{Journal of Chemical Theory and
   Computation} \textbf{2009}, \emph{5}, 2531--2543.
+
+\bibitem{calgary_site}
+{https://www.ucalgary.ca/tieleman/gallery/image-gallery}; Image gallery. ;
+  2016. \urlprefix\url{https://www.ucalgary.ca/tieleman/gallery/image-gallery}.
 
 \bibitem{Yesylevskyy2010}
 Yesylevskyy, S.~O.; Sch{\"{a}}fer, L.~V.; Sengupta, D.; Marrink, S.~J.;
@@ -1336,11 +1345,27 @@ Piggot, T.~J.; Holdbrook, D.~A.; Khalid, S.; {Electroporation of the E. coli
   Membranes}.  \emph{The Journal of Physical Chemistry B} \textbf{2011},
   \emph{115}, 13381--13388.
 
+\bibitem{Asmar2018}
+Asmar, A.~T.; Collet, J.-F.; {Lpp, the Braun lipoprotein, turns 50—major
+  achievements and remaining issues}.  \emph{FEMS Microbiology Letters}
+  \textbf{2018}, \emph{365}.
+
+\bibitem{Sun2016}
+Sun, R.; Dama, J.~F.; Tan, J.~S.; Rose, J.~P.; Voth, G.~A.;
+  {Transition-Tempered Metadynamics Is a Promising Tool for Studying the
+  Permeation of Drug-like Molecules through Membranes}.  \emph{Journal of
+  Chemical Theory and Computation} \textbf{2016}, \emph{12}, 5157--5169.
+
 \bibitem{Carpenter2016}
 Carpenter, T.~S.; Parkin, J.; Khalid, S.; {The Free Energy of Small Solute
   Permeation through the \textit{Escherichia coli} Outer Membrane Has a
   Distinctly Asymmetric Profile}.  \emph{The Journal of Physical Chemistry
   Letters} \textbf{2016}, \emph{7}, 3446--3451.
+
+\bibitem{Pokhrel2018}
+Pokhrel, N.; Maibaum, L.; {Free Energy Calculations of Membrane Permeation:
+  Challenges Due to Strong Headgroup–Solute Interactions}.  \emph{Journal of
+  Chemical Theory and Computation} \textbf{2018}, \emph{14}, 1762--1771.
 
 \bibitem{Wang2014}
 Wang, Y.; Zhao, T.; Wei, D.; Strandberg, E.; Ulrich, A.~S.; Ulmschneider,
@@ -1360,17 +1385,23 @@ Chowdhary, J.; Harder, E.; Lopes, P. E.~M.; Huang, L.; MacKerell, A.~D.; Roux,
   \emph{The Journal of Physical Chemistry B} \textbf{2013}, \emph{117},
   9142--9160.
 
+\bibitem{Bennett2016}
+Bennett, W. F.~D.; Hong, C.~K.; Wang, Y.; Tieleman, D.~P.; {Antimicrobial
+  Peptide Simulations and the Influence of Force Field on the Free Energy for
+  Pore Formation in Lipid Bilayers}.  \emph{Journal of Chemical Theory and
+  Computation} \textbf{2016}, \emph{12}, 4524--4533.
+
 \bibitem{Phillips2005}
 Phillips, J.~C.; Braun, R.; Wang, W.; Gumbart, J.; Tajkhorshid, E.; Villa, E.;
   Chipot, C.; Skeel, R.~D.; Kal{\'{e}}, L.; Schulten, K.; {Scalable molecular
   dynamics with NAMD}.  \emph{Journal of Computational Chemistry}
   \textbf{2005}, \emph{26}, 1781--1802.
 
-\bibitem{Bennett2016}
-Bennett, W. F.~D.; Hong, C.~K.; Wang, Y.; Tieleman, D.~P.; {Antimicrobial
-  Peptide Simulations and the Influence of Force Field on the Free Energy for
-  Pore Formation in Lipid Bilayers}.  \emph{Journal of Chemical Theory and
-  Computation} \textbf{2016}, \emph{12}, 4524--4533.
+\bibitem{Reisser2017}
+Rei{\ss}er, S.; Poger, D.; Stroet, M.; Mark, A.~E.; {Real Cost of Speed: The
+  Effect of a Time-Saving Multiple-Time-Stepping Algorithm on the Accuracy of
+  Molecular Dynamics Simulations}.  \emph{Journal of Chemical Theory and
+  Computation} \textbf{2017}, \emph{13}, 2367--2372.
 
 \bibitem{Sandoval-Perez2017}
 Sandoval-Perez, A.; Pluhackova, K.; B{\"{o}}ckmann, R.~A.; {Critical Comparison
@@ -1388,6 +1419,12 @@ J{\"{a}}mbeck, J. P.~M.; Lyubartsev, A.~P.; {Derivation and Systematic
 Leontiadou, H.; Mark, A.~E.; Marrink, S.~J.; {Antimicrobial Peptides in
   Action}.  \emph{Journal of the American Chemical Society} \textbf{2006},
   \emph{128}, 12156--12161.
+
+\bibitem{Sengupta2008}
+Sengupta, D.; Leontiadou, H.; Mark, A.~E.; Marrink, S.-J.; {Toroidal pores
+  formed by antimicrobial peptides show significant disorder}.
+  \emph{Biochimica et Biophysica Acta (BBA) - Biomembranes} \textbf{2008},
+  \emph{1778}, 2308--2317.
 
 \bibitem{Wang2016}
 Wang, Y.; Chen, C.~H.; Hu, D.; Ulmschneider, M.~B.; Ulmschneider, J.~P.;
@@ -1426,6 +1463,16 @@ Tsai, C.-W.; Hsu, N.-Y.; Wang, C.-H.; Lu, C.-Y.; Chang, Y.; Tsai, H.-H.~G.;
   Ruaan, R.-C.; {Coupling Molecular Dynamics Simulations with Experiments for
   the Rational Design of Indolicidin-Analogous Antimicrobial Peptides}.
   \emph{Journal of Molecular Biology} \textbf{2009}, \emph{392}, 837--854.
+
+\bibitem{Frederix2018}
+Frederix, P. W. J.~M.; Patmanidis, I.; Marrink, S.~J.; {Molecular simulations
+  of self-assembling bio-inspired supramolecular systems and their connection
+  to experiments}.  \emph{Chemical Society Reviews} \textbf{2018}, \emph{47},
+  3470--3489.
+
+\bibitem{Orsi2018}
+Orsi, M.; {Molecular simulation of self-assembly}.  \emph{Self-assembling
+  Biomaterials} \textbf{2018}, 305--318.
 
 \bibitem{Wu2012}
 Wu, D.; Yang, X.; {Coarse-Grained Molecular Simulation of Self-Assembly for
