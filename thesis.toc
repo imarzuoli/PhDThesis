@@ -62,32 +62,32 @@
 \contentsline {section}{\numberline {3.1}Modelling the assembly}{83}{section.3.1}
 \contentsline {section}{\numberline {3.2}Simulations details}{87}{section.3.2}
 \contentsline {paragraph}{Atomistic simulations}{87}{section*.50}
-\contentsline {paragraph}{SIRAH coarse-grain simulations}{92}{section*.53}
+\contentsline {paragraph}{SIRAH coarse-grain simulations}{91}{section*.53}
 \contentsline {paragraph}{MARTINI coarse-grain simulations}{93}{section*.54}
 \contentsline {section}{\numberline {3.3}Analysis}{94}{section.3.3}
 \contentsline {paragraph}{Simulations in solution}{94}{section*.55}
 \contentsline {paragraph}{Simulations on a membrane}{96}{section*.56}
-\contentsline {section}{\numberline {3.4}Results: capsule in solution}{97}{section.3.4}
+\contentsline {section}{\numberline {3.4}Results: capsule in solution}{98}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Atomistic simulations}{98}{subsection.3.4.1}
-\contentsline {paragraph}{Global capsule structure}{98}{section*.59}
+\contentsline {paragraph}{Global capsule structure}{100}{section*.59}
 \contentsline {paragraph}{Contacts between molecules}{100}{section*.61}
-\contentsline {paragraph}{Hydrogen bonds interaction}{103}{section*.64}
-\contentsline {paragraph}{Chemical characteristics of the surface: SASA}{103}{section*.66}
-\contentsline {subsection}{\numberline {3.4.2}Multiscale comparison of model capsule}{104}{subsection.3.4.2}
-\contentsline {paragraph}{Force field comparison}{105}{section*.68}
-\contentsline {paragraph}{Bilayer versus monolayer capsules}{109}{section*.70}
-\contentsline {subsection}{\numberline {3.4.3}Discussion}{111}{subsection.3.4.3}
+\contentsline {paragraph}{Hydrogen bonds interaction}{102}{section*.64}
+\contentsline {paragraph}{Chemical characteristics of the surface: SASA}{104}{section*.66}
+\contentsline {subsection}{\numberline {3.4.2}Multiscale comparison of model capsule}{105}{subsection.3.4.2}
+\contentsline {paragraph}{Force field comparison}{106}{section*.68}
+\contentsline {paragraph}{Bilayer versus monolayer capsules}{110}{section*.70}
+\contentsline {subsection}{\numberline {3.4.3}Discussion}{113}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Results: peptide-membrane interactions}{113}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Atomistic simulations of the bacterial model membrane}{113}{subsection.3.5.1}
 \contentsline {paragraph}{Influence of the peptide on the 512-lipids patch}{113}{section*.74}
-\contentsline {paragraph}{Influence of the peptide on the 740-lipids patch}{115}{section*.77}
+\contentsline {paragraph}{Influence of the peptide on the 740-lipids patch}{114}{section*.77}
 \contentsline {paragraph}{Locally reduced mobility}{116}{section*.78}
-\contentsline {paragraph}{Electroporation results}{116}{section*.80}
-\contentsline {subsection}{\numberline {3.5.2}Atomistic simulations of the mammalian model membrane}{119}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Extra table}{120}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Coarse grain simulations of the buckyball on membranes}{120}{subsection.3.5.4}
-\contentsline {section}{\numberline {3.6}Rest}{120}{section.3.6}
-\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{121}{chapter.4}
-\contentsline {appendix}{\chapternumberline {}Appendices}{122}{appendix.}
-\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{122}{section.A.1}
-\contentsline {chapter}{Bibliography}{123}{section*.84}
+\contentsline {paragraph}{Electroporation results}{118}{section*.80}
+\contentsline {subsection}{\numberline {3.5.2}Atomistic simulations of the mammalian model membrane}{120}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Coarse grain simulations of the buckyball on model membranes}{120}{subsection.3.5.3}
+\contentsline {paragraph}{Standard MARTINI simulations}{120}{section*.82}
+\contentsline {section}{\numberline {3.6}Rest}{121}{section.3.6}
+\contentsline {section}{\numberline {3.7}Additional material}{123}{section.3.7}
+\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{125}{chapter.4}
+\contentsline {appendix}{\chapternumberline {}Appendices}{126}{appendix.}
+\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{126}{section.A.1}
