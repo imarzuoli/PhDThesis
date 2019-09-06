@@ -70,8 +70,15 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{124}{figure.caption.81}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{124}{figure.caption.81}
 \addvspace {10pt}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison between methods to compute ApL}}{132}{figure.caption.86}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Control computation on bilayer electron density calculation}}{134}{figure.caption.87}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{134}{figure.caption.87}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{134}{figure.caption.87}
+=======
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison between methods to compute ApL}}{181}{figure.caption.86}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Control computation on bilayer electron density calculation}}{182}{figure.caption.87}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{182}{figure.caption.87}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{182}{figure.caption.87}
+>>>>>>> 955964c0b525b9a3a6ada6e3e2ba179dc022b114
 \addvspace {10pt}
