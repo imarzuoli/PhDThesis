@@ -1348,9 +1348,9 @@ FUNCTION {misc}
   output.bibitem
   format.authors output
   format.title output
-  howpublished bibinfo.check output
-  format.date output
-  format.note output
+%  howpublished bibinfo.check output
+  format.date "year" output.check
+%  format.note output
   format.url output
   fin.entry
   misc.empty.check
