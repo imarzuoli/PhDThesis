@@ -9,7 +9,7 @@ A level-1 auxiliary file: 3results_capsule/results_capsule.aux
 A level-1 auxiliary file: 4lip_par/lip_par.aux
 A level-1 auxiliary file: appendix.aux
 The style file: my_apalike.bst
-Reallocated field_info (elt_size=4) to 14086 items from 5000.
+Reallocated field_info (elt_size=4) to 14064 items from 5000.
 Database file #1: thesis_ref2.bib
 Warning--I'm ignoring PDB's extra "howpublished" field
 --line 1360 of file thesis_ref2.bib
@@ -26,11 +26,9 @@ Warning--entry type for "sirah_web" isn't style-file defined
 --line 7340 of file thesis_ref2.bib
 Warning--entry type for "calgary_site" isn't style-file defined
 --line 7348 of file thesis_ref2.bib
-Warning--I didn't find a database entry for "???"
 Warning--I didn't find a database entry for "??"
 Warning--I didn't find a database entry for "pops"
 Warning--I didn't find a database entry for "--"
-Warning--to sort, need author or key in nanotube
 Warning--empty publisher in gromacs_man
 Warning--empty booktitle in Fornili2012
 Warning--empty journal in Jorgensen1996
@@ -40,43 +38,43 @@ Warning--empty booktitle in Pattni2015
 Warning--empty booktitle in Vogel2017
 You've used 409 entries,
             1958 wiz_defined-function locations,
-            2963 strings with 96697 characters,
-and the built_in function-call counts, 191602 in all, are:
-= -- 19399
-> -- 9517
-< -- 128
-+ -- 3968
-- -- 3107
-* -- 17359
-:= -- 32390
+            2964 strings with 96946 characters,
+and the built_in function-call counts, 191942 in all, are:
+= -- 19433
+> -- 9556
+< -- 129
++ -- 3987
+- -- 3124
+* -- 17391
+:= -- 32457
 add.period$ -- 1222
 call.type$ -- 409
-change.case$ -- 3886
-chr.to.int$ -- 403
-cite$ -- 418
+change.case$ -- 3901
+chr.to.int$ -- 402
+cite$ -- 416
 duplicate$ -- 5770
-empty$ -- 12095
-format.name$ -- 3679
-if$ -- 37083
-int.to.chr$ -- 7
+empty$ -- 12096
+format.name$ -- 3697
+if$ -- 37141
+int.to.chr$ -- 8
 int.to.str$ -- 0
 missing$ -- 400
 newline$ -- 2039
-num.names$ -- 1226
-pop$ -- 3307
+num.names$ -- 1229
+pop$ -- 3318
 preamble$ -- 1
-purify$ -- 3890
+purify$ -- 3905
 quote$ -- 0
-skip$ -- 5545
+skip$ -- 5549
 stack$ -- 0
-substring$ -- 14598
+substring$ -- 14605
 swap$ -- 487
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 2446
-warning$ -- 8
-while$ -- 1527
+warning$ -- 7
+while$ -- 1528
 width$ -- 0
-write$ -- 5279
-(There were 19 warnings)
+write$ -- 5280
+(There were 17 warnings)
