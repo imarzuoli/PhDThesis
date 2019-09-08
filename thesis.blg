@@ -9,7 +9,7 @@ A level-1 auxiliary file: 3results_capsule/results_capsule.aux
 A level-1 auxiliary file: 4lip_par/lip_par.aux
 A level-1 auxiliary file: appendix.aux
 The style file: my_apalike.bst
-Reallocated field_info (elt_size=4) to 14064 items from 5000.
+Reallocated field_info (elt_size=4) to 14174 items from 5000.
 Database file #1: thesis_ref2.bib
 Warning--I'm ignoring PDB's extra "howpublished" field
 --line 1360 of file thesis_ref2.bib
@@ -36,45 +36,45 @@ Warning--empty journal in SiewertJ.Marrink2003
 Warning--empty journal in Oneill2016
 Warning--empty booktitle in Pattni2015
 Warning--empty booktitle in Vogel2017
-You've used 409 entries,
+You've used 414 entries,
             1958 wiz_defined-function locations,
-            2964 strings with 96946 characters,
-and the built_in function-call counts, 191942 in all, are:
-= -- 19433
-> -- 9556
+            2994 strings with 98616 characters,
+and the built_in function-call counts, 194594 in all, are:
+= -- 19698
+> -- 9730
 < -- 129
-+ -- 3987
-- -- 3124
-* -- 17391
-:= -- 32457
-add.period$ -- 1222
-call.type$ -- 409
-change.case$ -- 3901
-chr.to.int$ -- 402
-cite$ -- 416
-duplicate$ -- 5770
-empty$ -- 12096
-format.name$ -- 3697
-if$ -- 37141
++ -- 4064
+- -- 3186
+* -- 17637
+:= -- 32916
+add.period$ -- 1236
+call.type$ -- 414
+change.case$ -- 3968
+chr.to.int$ -- 407
+cite$ -- 421
+duplicate$ -- 5836
+empty$ -- 12230
+format.name$ -- 3764
+if$ -- 37640
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 400
-newline$ -- 2039
-num.names$ -- 1229
-pop$ -- 3318
+missing$ -- 404
+newline$ -- 2063
+num.names$ -- 1244
+pop$ -- 3376
 preamble$ -- 1
-purify$ -- 3905
+purify$ -- 3972
 quote$ -- 0
-skip$ -- 5549
+skip$ -- 5622
 stack$ -- 0
-substring$ -- 14605
-swap$ -- 487
+substring$ -- 14758
+swap$ -- 491
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2446
+type$ -- 2476
 warning$ -- 7
-while$ -- 1528
+while$ -- 1545
 width$ -- 0
-write$ -- 5280
+write$ -- 5342
 (There were 17 warnings)

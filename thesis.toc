@@ -24,71 +24,71 @@
 \contentsline {paragraph}{Organic materials for delivery: lipids and DNA}{41}{section*.21}
 \contentsline {subsection}{\numberline {1.4.1}Peptidic scaffolds}{42}{subsection.1.4.1}
 \contentsline {section}{\numberline {1.5}Closing the circle: an antimicrobial drug delivery vehicle}{43}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Capzip}{45}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.1}The capzip molecule}{45}{subsection.1.5.1}
 \contentsline {paragraph}{Lactoferrin}{46}{section*.23}
 \contentsline {paragraph}{The designed block}{49}{section*.26}
-\contentsline {subsection}{\numberline {1.5.2}A viable systems: experimental background and question}{49}{subsection.1.5.2}
-\contentsline {paragraph}{Experimental results}{49}{section*.28}
-\contentsline {paragraph}{Open questions}{53}{section*.31}
-\contentsline {section}{\numberline {1.6}A computational approach to understand capzip}{54}{section.1.6}
-\contentsline {chapter}{\chapternumberline {2}Methods}{56}{chapter.2}
-\contentsline {section}{\numberline {2.1}Algorithms for Molecular Dynamics}{57}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}The Newton's law}{57}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Thermostats and barostats}{59}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}The force field problem}{60}{section.2.2}
-\contentsline {paragraph}{Covalent (bonded) interactions}{61}{section*.32}
-\contentsline {paragraph}{Non bonded interactions}{62}{section*.33}
-\contentsline {subsection}{\numberline {2.2.1}Force fields: classifications}{63}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}The GROMOS force field}{65}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}The SIRAH force field}{66}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}The MARTINI force field}{68}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Backmapping techniques}{70}{subsection.2.2.5}
-\contentsline {section}{\numberline {2.3}Beyond the classical framework}{71}{section.2.3}
-\contentsline {paragraph}{Polarisability and quantum effects}{71}{section*.37}
-\contentsline {paragraph}{Reduction of the number of degrees of freedom}{72}{section*.38}
-\contentsline {paragraph}{Enhanced MD techniques}{72}{section*.39}
-\contentsline {section}{\numberline {2.4}MD and experiments: ensembles versus averages}{73}{section.2.4}
-\contentsline {section}{\numberline {2.5}MD simulations: successes}{75}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Simulations of antimicrobial peptides}{75}{subsection.2.5.1}
-\contentsline {paragraph}{Systems}{76}{section*.40}
-\contentsline {paragraph}{Model membranes}{76}{section*.41}
-\contentsline {paragraph}{Force field comparison}{78}{section*.42}
-\contentsline {paragraph}{Simulations of membrane-peptide interaction: examples}{80}{section*.43}
-\contentsline {paragraph}{Simulation-aided AMPs design}{84}{section*.46}
-\contentsline {subsection}{\numberline {2.5.2}Simulations of self-assembling peptides}{86}{subsection.2.5.2}
-\contentsline {paragraph}{}{87}{section*.48}
-\contentsline {paragraph}{}{88}{section*.49}
-\contentsline {chapter}{\chapternumberline {3}Capzip simulations}{89}{chapter.3}
-\contentsline {section}{\numberline {3.1}Modelling the assembly}{90}{section.3.1}
-\contentsline {section}{\numberline {3.2}Simulations details}{94}{section.3.2}
-\contentsline {paragraph}{Atomistic simulations}{94}{section*.54}
-\contentsline {paragraph}{SIRAH coarse-grain simulations}{98}{section*.57}
-\contentsline {paragraph}{MARTINI coarse-grain simulations}{100}{section*.58}
-\contentsline {section}{\numberline {3.3}Analysis}{102}{section.3.3}
-\contentsline {paragraph}{Simulations in solution}{102}{section*.59}
-\contentsline {paragraph}{Simulations on a membrane}{103}{section*.60}
-\contentsline {section}{\numberline {3.4}Results: capsule in solution}{105}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Atomistic simulations}{105}{subsection.3.4.1}
-\contentsline {paragraph}{Global capsule structure}{106}{section*.63}
-\contentsline {paragraph}{Contacts between molecules}{108}{section*.65}
-\contentsline {paragraph}{Hydrogen bonds interaction}{111}{section*.68}
-\contentsline {paragraph}{Chemical characteristics of the surface: SASA}{111}{section*.70}
-\contentsline {subsection}{\numberline {3.4.2}Multiscale comparison of model capsule}{112}{subsection.3.4.2}
-\contentsline {paragraph}{Force field comparison}{113}{section*.72}
-\contentsline {paragraph}{Bilayer versus monolayer capsules}{117}{section*.74}
-\contentsline {subsection}{\numberline {3.4.3}Discussion}{119}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Results: peptide-membrane interactions}{121}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Atomistic simulations of the bacterial model membrane}{121}{subsection.3.5.1}
-\contentsline {paragraph}{Influence of the peptide on the 512-lipids patch}{121}{section*.78}
-\contentsline {paragraph}{Influence of the peptide on the 740-lipids patch}{123}{section*.81}
-\contentsline {paragraph}{Locally reduced mobility}{124}{section*.82}
-\contentsline {paragraph}{Electroporation results}{124}{section*.84}
-\contentsline {subsection}{\numberline {3.5.2}Atomistic simulations of the mammalian model membrane}{128}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Coarse grain simulations of the buckyball on model membranes}{128}{subsection.3.5.3}
-\contentsline {paragraph}{Standard MARTINI simulations}{128}{section*.86}
-\contentsline {section}{\numberline {3.6}Rest}{129}{section.3.6}
-\contentsline {section}{\numberline {3.7}Additional material}{130}{section.3.7}
-\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{132}{chapter.4}
-\contentsline {section}{\numberline {4.1}Additional material: effects of membrane undulation}{182}{section.4.1}
-\contentsline {appendix}{\chapternumberline {}Appendices}{185}{appendix.}
-\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{185}{section.A.1}
+\contentsline {subsection}{\numberline {1.5.2}A viable systems: experimental background and question}{50}{subsection.1.5.2}
+\contentsline {paragraph}{Experimental results}{50}{section*.28}
+\contentsline {paragraph}{Open questions}{55}{section*.33}
+\contentsline {section}{\numberline {1.6}A computational approach to understand capzip}{56}{section.1.6}
+\contentsline {chapter}{\chapternumberline {2}Methods}{58}{chapter.2}
+\contentsline {section}{\numberline {2.1}Algorithms for Molecular Dynamics}{59}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}The Newton's law}{59}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Thermostats and barostats}{61}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}The force field problem}{62}{section.2.2}
+\contentsline {paragraph}{Covalent (bonded) interactions}{63}{section*.34}
+\contentsline {paragraph}{Non bonded interactions}{64}{section*.35}
+\contentsline {subsection}{\numberline {2.2.1}Force fields: classifications}{65}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}The GROMOS force field}{67}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}The SIRAH force field}{68}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}The MARTINI force field}{70}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Backmapping techniques}{72}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Beyond the classical framework}{73}{section.2.3}
+\contentsline {paragraph}{Polarisability and quantum effects}{73}{section*.39}
+\contentsline {paragraph}{Reduction of the number of degrees of freedom}{74}{section*.40}
+\contentsline {paragraph}{Enhanced MD techniques}{74}{section*.41}
+\contentsline {section}{\numberline {2.4}MD and experiments: ensembles versus averages}{75}{section.2.4}
+\contentsline {section}{\numberline {2.5}MD simulations: successes}{77}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Simulations of antimicrobial peptides}{77}{subsection.2.5.1}
+\contentsline {paragraph}{Systems}{78}{section*.42}
+\contentsline {paragraph}{Model membranes}{78}{section*.43}
+\contentsline {paragraph}{Force field comparison}{80}{section*.44}
+\contentsline {paragraph}{Simulations of membrane-peptide interaction: examples}{82}{section*.45}
+\contentsline {paragraph}{Simulation-aided AMPs design}{86}{section*.48}
+\contentsline {subsection}{\numberline {2.5.2}Simulations of self-assembling peptides}{88}{subsection.2.5.2}
+\contentsline {paragraph}{}{89}{section*.50}
+\contentsline {paragraph}{}{90}{section*.51}
+\contentsline {chapter}{\chapternumberline {3}Capzip simulations}{91}{chapter.3}
+\contentsline {section}{\numberline {3.1}Modelling the assembly}{92}{section.3.1}
+\contentsline {section}{\numberline {3.2}Simulations details}{96}{section.3.2}
+\contentsline {paragraph}{Atomistic simulations}{96}{section*.56}
+\contentsline {paragraph}{SIRAH coarse-grain simulations}{100}{section*.59}
+\contentsline {paragraph}{MARTINI coarse-grain simulations}{102}{section*.60}
+\contentsline {section}{\numberline {3.3}Analysis}{104}{section.3.3}
+\contentsline {paragraph}{Simulations in solution}{104}{section*.61}
+\contentsline {paragraph}{Simulations on a membrane}{105}{section*.62}
+\contentsline {section}{\numberline {3.4}Results: capsule in solution}{107}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Atomistic simulations}{107}{subsection.3.4.1}
+\contentsline {paragraph}{Global capsule structure}{108}{section*.65}
+\contentsline {paragraph}{Contacts between molecules}{110}{section*.67}
+\contentsline {paragraph}{Hydrogen bonds interaction}{113}{section*.70}
+\contentsline {paragraph}{Chemical characteristics of the surface: SASA}{113}{section*.72}
+\contentsline {subsection}{\numberline {3.4.2}Multiscale comparison of model capsule}{114}{subsection.3.4.2}
+\contentsline {paragraph}{Force field comparison}{115}{section*.74}
+\contentsline {paragraph}{Bilayer versus monolayer capsules}{119}{section*.76}
+\contentsline {subsection}{\numberline {3.4.3}Discussion}{121}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Results: peptide-membrane interactions}{123}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Atomistic simulations of the bacterial model membrane}{123}{subsection.3.5.1}
+\contentsline {paragraph}{Influence of the peptide on the 512-lipids patch}{123}{section*.80}
+\contentsline {paragraph}{Influence of the peptide on the 740-lipids patch}{125}{section*.83}
+\contentsline {paragraph}{Locally reduced mobility}{126}{section*.84}
+\contentsline {paragraph}{Electroporation results}{126}{section*.86}
+\contentsline {subsection}{\numberline {3.5.2}Atomistic simulations of the mammalian model membrane}{130}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Coarse grain simulations of the buckyball on model membranes}{130}{subsection.3.5.3}
+\contentsline {paragraph}{Standard MARTINI simulations}{130}{section*.88}
+\contentsline {section}{\numberline {3.6}Rest}{131}{section.3.6}
+\contentsline {section}{\numberline {3.7}Additional material}{132}{section.3.7}
+\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{134}{chapter.4}
+\contentsline {section}{\numberline {4.1}Additional material: effects of membrane undulation}{184}{section.4.1}
+\contentsline {appendix}{\chapternumberline {}Appendices}{187}{appendix.}
+\contentsline {section}{\numberline {A.1}On the derivation of the GP predictive distribution}{187}{section.A.1}
