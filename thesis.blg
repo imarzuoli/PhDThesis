@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: front.aux
@@ -9,23 +9,19 @@ A level-1 auxiliary file: 3results_capsule/results_capsule.aux
 A level-1 auxiliary file: 4lip_par/lip_par.aux
 A level-1 auxiliary file: appendix.aux
 The style file: my_apalike.bst
-Reallocated field_info (elt_size=4) to 14174 items from 5000.
+Reallocated field_info (elt_size=4) to 14218 items from 5000.
 Database file #1: thesis_ref2.bib
-Warning--I'm ignoring PDB's extra "howpublished" field
---line 1360 of file thesis_ref2.bib
 Warning--entry type for "poly" isn't style-file defined
 --line 3065 of file thesis_ref2.bib
 Warning--entry type for "lipo" isn't style-file defined
 --line 3196 of file thesis_ref2.bib
 Warning--entry type for "phage" isn't style-file defined
 --line 3234 of file thesis_ref2.bib
-Warning--I'm ignoring Leontiadou2006's extra "publisher" field
---line 4464 of file thesis_ref2.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--entry type for "sirah_web" isn't style-file defined
---line 7340 of file thesis_ref2.bib
+--line 7339 of file thesis_ref2.bib
 Warning--entry type for "calgary_site" isn't style-file defined
---line 7348 of file thesis_ref2.bib
+--line 7347 of file thesis_ref2.bib
 Warning--I didn't find a database entry for "??"
 Warning--I didn't find a database entry for "pops"
 Warning--I didn't find a database entry for "--"
@@ -36,45 +32,45 @@ Warning--empty journal in SiewertJ.Marrink2003
 Warning--empty journal in Oneill2016
 Warning--empty booktitle in Pattni2015
 Warning--empty booktitle in Vogel2017
-You've used 414 entries,
+You've used 416 entries,
             1958 wiz_defined-function locations,
-            2994 strings with 98616 characters,
-and the built_in function-call counts, 194594 in all, are:
-= -- 19698
-> -- 9730
+            3006 strings with 99032 characters,
+and the built_in function-call counts, 195511 in all, are:
+= -- 19789
+> -- 9778
 < -- 129
-+ -- 4064
-- -- 3186
-* -- 17637
-:= -- 32916
-add.period$ -- 1236
-call.type$ -- 414
-change.case$ -- 3968
-chr.to.int$ -- 407
-cite$ -- 421
-duplicate$ -- 5836
-empty$ -- 12230
-format.name$ -- 3764
-if$ -- 37640
++ -- 4084
+- -- 3201
+* -- 17717
+:= -- 33075
+add.period$ -- 1244
+call.type$ -- 416
+change.case$ -- 3986
+chr.to.int$ -- 409
+cite$ -- 423
+duplicate$ -- 5864
+empty$ -- 12287
+format.name$ -- 3781
+if$ -- 37821
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 404
-newline$ -- 2063
-num.names$ -- 1244
-pop$ -- 3376
+missing$ -- 406
+newline$ -- 2075
+num.names$ -- 1250
+pop$ -- 3390
 preamble$ -- 1
-purify$ -- 3972
+purify$ -- 3990
 quote$ -- 0
-skip$ -- 5622
+skip$ -- 5649
 stack$ -- 0
-substring$ -- 14758
-swap$ -- 491
+substring$ -- 14818
+swap$ -- 493
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2476
+type$ -- 2488
 warning$ -- 7
-while$ -- 1545
+while$ -- 1551
 width$ -- 0
-write$ -- 5342
-(There were 17 warnings)
+write$ -- 5372
+(There were 15 warnings)
