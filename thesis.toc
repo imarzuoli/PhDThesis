@@ -60,36 +60,36 @@
 \contentsline {paragraph}{}{90}{section*.51}
 \contentsline {chapter}{\chapternumberline {3}Capzip simulations}{91}{chapter.3}
 \contentsline {section}{\numberline {3.1}Modelling the assembly}{92}{section.3.1}
-\contentsline {section}{\numberline {3.2}Simulations details}{98}{section.3.2}
-\contentsline {paragraph}{Atomistic simulations}{98}{section*.56}
+\contentsline {section}{\numberline {3.2}Simulations details}{97}{section.3.2}
+\contentsline {paragraph}{Atomistic simulations}{97}{section*.56}
 \contentsline {paragraph}{SIRAH coarse-grain simulations}{101}{section*.59}
 \contentsline {paragraph}{MARTINI coarse-grain simulations}{103}{section*.60}
 \contentsline {section}{\numberline {3.3}Analysis}{106}{section.3.3}
-\contentsline {paragraph}{Simulations in solution}{106}{section*.61}
-\contentsline {paragraph}{Simulations on a membrane}{107}{section*.62}
-\contentsline {section}{\numberline {3.4}Results: capsule in solution}{110}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Atomistic simulations}{110}{subsection.3.4.1}
-\contentsline {paragraph}{Global capsule structure}{110}{section*.66}
-\contentsline {paragraph}{Contacts between molecules}{112}{section*.68}
-\contentsline {paragraph}{Hydrogen bonds interaction}{115}{section*.71}
-\contentsline {paragraph}{Chemical characteristics of the surface: SASA}{115}{section*.73}
-\contentsline {subsection}{\numberline {3.4.2}Multiscale comparison of model capsule}{117}{subsection.3.4.2}
-\contentsline {paragraph}{Force field comparison}{117}{section*.75}
-\contentsline {paragraph}{Bilayer versus monolayer capsules}{122}{section*.77}
-\contentsline {subsection}{\numberline {3.4.3}Discussion}{123}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Results: peptide-membrane interactions}{125}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Atomistic simulations of the bacterial model membrane}{125}{subsection.3.5.1}
-\contentsline {paragraph}{Influence of the peptide on the 512-lipids patch}{125}{section*.81}
-\contentsline {paragraph}{Influence of the peptide on the 740-lipids patch}{126}{section*.84}
-\contentsline {paragraph}{Locally reduced mobility}{126}{section*.85}
-\contentsline {paragraph}{Electroporation results}{130}{section*.87}
-\contentsline {subsection}{\numberline {3.5.2}Atomistic simulations of the mammalian model membrane}{132}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Coarse grain simulations of the buckyball on model membranes}{132}{subsection.3.5.3}
-\contentsline {paragraph}{Standard MARTINI simulations}{132}{section*.89}
-\contentsline {section}{\numberline {3.6}Rest}{134}{section.3.6}
-\contentsline {section}{\numberline {3.7}Additional material}{135}{section.3.7}
-\contentsline {section}{\numberline {3.8}Supplementary material}{135}{section.3.8}
-\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{137}{chapter.4}
-\contentsline {section}{\numberline {4.1}Additional material: effects of membrane undulation}{138}{section.4.1}
-\contentsline {appendix}{\chapternumberline {}Appendices}{142}{appendix.}
-\contentsline {section}{\numberline {A.1}Software developed}{142}{section.A.1}
+\contentsline {subsection}{\numberline {3.3.1}Simulations in solution}{106}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Simulations on a membrane}{108}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Results: capsule in solution}{111}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Atomistic simulations}{111}{subsection.3.4.1}
+\contentsline {paragraph}{Global capsule structure}{111}{section*.64}
+\contentsline {paragraph}{Contacts between arms}{114}{section*.66}
+\contentsline {paragraph}{Contacts between residues}{114}{section*.69}
+\contentsline {paragraph}{Hydrogen bonds interaction}{116}{section*.70}
+\contentsline {paragraph}{Chemical characteristics of the surface: SASA}{116}{section*.72}
+\contentsline {subsection}{\numberline {3.4.2}Multiscale comparison of model capsule}{118}{subsection.3.4.2}
+\contentsline {paragraph}{Force field comparison}{118}{section*.74}
+\contentsline {subsection}{\numberline {3.4.3}Bilayer versus monolayer: coarse grain simulations}{123}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Backmapped simulations}{126}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Results: peptide-membrane interactions}{127}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Atomistic simulations of the bacterial model membrane}{128}{subsection.3.5.1}
+\contentsline {paragraph}{Influence of the peptide on the 512-lipids bacterial patch}{128}{section*.81}
+\contentsline {paragraph}{Influence of the peptide on the 740-lipids patch}{130}{section*.84}
+\contentsline {paragraph}{Electroporation results}{131}{section*.86}
+\contentsline {subsection}{\numberline {3.5.2}Atomistic simulations of the mammalian model membrane}{135}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Coarse grain simulations of the buckyball on model membranes}{136}{subsection.3.5.3}
+\contentsline {paragraph}{Standard MARTINI simulations}{136}{section*.89}
+\contentsline {section}{\numberline {3.6}Rest}{137}{section.3.6}
+\contentsline {section}{\numberline {3.7}Additional material}{138}{section.3.7}
+\contentsline {section}{\numberline {3.8}Supplementary material}{138}{section.3.8}
+\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{140}{chapter.4}
+\contentsline {section}{\numberline {4.1}Additional material: effects of membrane undulation}{142}{section.4.1}
+\contentsline {appendix}{\chapternumberline {}Appendices}{145}{appendix.}
+\contentsline {section}{\numberline {A.1}Software developed}{145}{section.A.1}
