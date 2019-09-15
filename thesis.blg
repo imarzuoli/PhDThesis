@@ -9,7 +9,7 @@ A level-1 auxiliary file: 3results_capsule/results_capsule.aux
 A level-1 auxiliary file: 4lip_par/lip_par.aux
 A level-1 auxiliary file: appendix.aux
 The style file: my_apalike.bst
-Reallocated field_info (elt_size=4) to 14218 items from 5000.
+Reallocated field_info (elt_size=4) to 14372 items from 5000.
 Database file #1: thesis_ref2.bib
 Warning--entry type for "poly" isn't style-file defined
 --line 3065 of file thesis_ref2.bib
@@ -19,11 +19,9 @@ Warning--entry type for "phage" isn't style-file defined
 --line 3234 of file thesis_ref2.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--entry type for "sirah_web" isn't style-file defined
---line 7339 of file thesis_ref2.bib
+--line 7325 of file thesis_ref2.bib
 Warning--entry type for "calgary_site" isn't style-file defined
---line 7347 of file thesis_ref2.bib
-Warning--I didn't find a database entry for "??"
-Warning--I didn't find a database entry for "pops"
+--line 7333 of file thesis_ref2.bib
 Warning--I didn't find a database entry for "--"
 Warning--empty publisher in gromacs_man
 Warning--empty booktitle in Fornili2012
@@ -32,45 +30,45 @@ Warning--empty journal in SiewertJ.Marrink2003
 Warning--empty journal in Oneill2016
 Warning--empty booktitle in Pattni2015
 Warning--empty booktitle in Vogel2017
-You've used 416 entries,
+You've used 425 entries,
             1958 wiz_defined-function locations,
-            3006 strings with 99032 characters,
-and the built_in function-call counts, 195511 in all, are:
-= -- 19789
-> -- 9778
-< -- 129
-+ -- 4084
-- -- 3201
-* -- 17717
-:= -- 33075
-add.period$ -- 1244
-call.type$ -- 416
-change.case$ -- 3986
-chr.to.int$ -- 409
-cite$ -- 423
-duplicate$ -- 5864
-empty$ -- 12287
-format.name$ -- 3781
-if$ -- 37821
+            3052 strings with 100717 characters,
+and the built_in function-call counts, 199605 in all, are:
+= -- 20195
+> -- 9985
+< -- 131
++ -- 4170
+- -- 3267
+* -- 18089
+:= -- 33775
+add.period$ -- 1271
+call.type$ -- 425
+change.case$ -- 4067
+chr.to.int$ -- 418
+cite$ -- 432
+duplicate$ -- 5989
+empty$ -- 12549
+format.name$ -- 3858
+if$ -- 38612
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 406
-newline$ -- 2075
-num.names$ -- 1250
-pop$ -- 3390
+missing$ -- 414
+newline$ -- 2120
+num.names$ -- 1277
+pop$ -- 3459
 preamble$ -- 1
-purify$ -- 3990
+purify$ -- 4072
 quote$ -- 0
-skip$ -- 5649
+skip$ -- 5769
 stack$ -- 0
-substring$ -- 14818
-swap$ -- 493
+substring$ -- 15120
+swap$ -- 503
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2488
+type$ -- 2542
 warning$ -- 7
-while$ -- 1551
+while$ -- 1582
 width$ -- 0
-write$ -- 5372
-(There were 15 warnings)
+write$ -- 5489
+(There were 13 warnings)
