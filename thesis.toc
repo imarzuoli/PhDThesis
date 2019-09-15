@@ -80,17 +80,20 @@
 \contentsline {subsection}{\numberline {3.4.4}Backmapped simulations}{126}
 \contentsline {section}{\numberline {3.5}Results: peptide-membrane interactions}{128}
 \contentsline {subsection}{\numberline {3.5.1}Atomistic simulations of the bacterial model membrane}{129}
-\contentsline {paragraph}{Influence of the peptide on the 512-lipids bacterial patch}{130}
+\contentsline {paragraph}{Influence of the peptide on the 512-lipids bacterial patch}{131}
 \contentsline {paragraph}{Influence of the peptide on the 740-lipids patch}{132}
-\contentsline {paragraph}{Electroporation results}{134}
+\contentsline {paragraph}{Electroporation results}{133}
 \contentsline {subsection}{\numberline {3.5.2}Atomistic simulations of the mammalian model membrane}{137}
 \contentsline {subsection}{\numberline {3.5.3}CG simulations of the buckyball on model membranes}{140}
 \contentsline {paragraph}{Standard MARTINI simulations}{140}
-\contentsline {paragraph}{Polar MARTINI simulations}{141}
-\contentsline {section}{\numberline {3.6}Rest}{142}
+\contentsline {paragraph}{Polar MARTINI simulations}{142}
+\contentsline {section}{\numberline {3.6}Rest}{143}
 \contentsline {section}{\numberline {3.7}Additional material}{144}
 \contentsline {section}{\numberline {3.8}Supplementary material}{144}
-\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{146}
-\contentsline {section}{\numberline {4.1}Additional material: effects of membrane undulation}{148}
-\contentsline {appendix}{\chapternumberline {}Appendices}{151}
-\contentsline {section}{\numberline {A.1}Software developed}{151}
+\contentsline {subsection}{\numberline {3.8.1}On the long range electrostatic cut off}{144}
+\contentsline {subsection}{\numberline {3.8.2}Supplementary figures}{146}
+\contentsline {subsection}{\numberline {3.8.3}Supplementary tables}{146}
+\contentsline {chapter}{\chapternumberline {4}Lipid parametrisation}{147}
+\contentsline {section}{\numberline {4.1}Additional material: effects of membrane undulation}{149}
+\contentsline {appendix}{\chapternumberline {}Appendices}{152}
+\contentsline {section}{\numberline {A.1}Software developed}{152}

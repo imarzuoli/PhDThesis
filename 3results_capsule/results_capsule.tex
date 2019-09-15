@@ -603,42 +603,13 @@ Once more, this supports the reliability of the simulations performed so far.
 
 \section{Results: peptide-membrane interactions}
 
-We now discuss the simulations of capzip in contact with a membrane. First we focus on atomistic simulations of the pentagonal peptidic subunit in contact with a model bacterial or mammal membrane, both under standard simulation conditions and with an applied external electric field. In this we elucidate the local effect that the peptide has on the lipid organisation.
+We now discuss the simulations of capzip in contact with a membrane. First we focus on atomistic simulations of the pentagonal peptidic subunit in contact with a model bacterial or mammalian membrane, both under standard simulation conditions and with an applied external electric field. In this, we elucidate the local effect that the peptide has on the local lipid organisation.
 %
 We then analyse the process of membrane binding which is observed in coarse grain simulations, comparing the MARTINI and Polar MARTINI force fields for the simulation without an external electric field, and necessarily resorting to Polar MARTINI for the ones involving it. 
 
 
 \subsection{Atomistic simulations of the bacterial model membrane} \label{sec:lip_atom_bact}
 
-Preliminary simulations were run on the pure membranes, to equilibrate the patches and compute their characteristics in absence of the peptide.
-%
-For the bacterial model chosen (DLPC/DLPG 3:1), we obtained an ApL of $0.580(5)$ nm$^2$ for the 512 lipids patch (simulated with GROMOS 54a7 force field), and  $0.569(4)$ nm$^2$ for the 740 one (GROMOS 54a8) as shown in Figure \ref{fig:lip_apl}, lines 1 and 5.
-
-The difference is small but statistically significant (the two measures are not compatible within the error).
-%
-This can be attributed to the force field (54a7 versus 54a8), the long range electrostatic treatment (RF versus PME), or to the size of the patch (512 versus 740). %
-%
-Extensive tests on phosphocholine lipids (see Chapter \ref{chapter:lip_par}) suggests that generally 54a8 gives larger ApL values than the ones computed with 54a7.
-%
-Moreover a control simulations on the 512 patch where RF was switched to PME produced an ApL of 0.586(5), slightly larger that RF, but compatible with its value.
-%
-Therefore we attribute the discrepancy to the different sizes of the patches. Later in this section other cases are reported in which the size has a great influence on the simulation outcome.
-
-Regarding the diffusion coefficient, we report in Figure \ref{fig:lip_diff}, both the value computed removing the centre of mass (COM) movement of each leaflet, or the one for the full bilayer. While the former measure the pure random movement of a lipid with respect to its neighbours, the latter is influences by possible collective movement of one leaflet with respect to the other. While not exactly falling in the definition of lateral diffusion, such mutual movement is perfectly compatible with a COM of the whole system staying in the original position. Thus, we deemed this measure interesting and we want to keep track of this movement as well. We will call the two measures pure diffusion and global diffusion in the following.
-
-Considering the pure diffusion (D(L$_{COM}$) in Figure \ref{lip:diff}), the larger membrane has a smaller coefficient with respect to the 512 lipids patch. However, considering the global one we observe the opposite.
-%
-In general, differences are expected between the two patches, because of their different size. It is well known that periodic boundary conditions affect the computed diffusion coefficient \citep{Camley2015,Venable2017}. Previous studies have found that, for atomistic simulations of the size employed here, this is systematically underestimated \citep{Camley2015}: increasing the size would increase the coefficient, toward its real value (which is obtained for an infinite box). This is consistent with our global diffusion results. It is not clear whether in the publications mentioned, they refer to what is here called pure or global diffusion, but we suspect it is the latter.
-
-To exclude that the difference between the two patches is given by the force field chosen, we refer the reader to the next chapter, where, for simulations of monolipid patches the 54a7 or 54a8 force field gave very similar values of pure diffusion (keeping all the other simulation conditions identical).
-
-
-\paragraph{Influence of the peptide on the 512-lipids bacterial patch}
-For the small patch, the presence of the pentagonal peptide subunit (made of ten antimicrobial molecules, bearing a $+60\,e$ charge) made the ApL decrease by 9\% with respect to the apo value (Figure \ref{fig:lip_apl}, line 3).
-%
-A similar effect was observed applying an electric field of 70 mV/nm intensity or combining the peptide with a 20 mV/nm field, comparable with physiological values (Figure \ref{fig:lip_apl}, lines 2 and 4).
-%
-Given the high net charge of capzip, it produces an electric field, thus the perturbation on the membrane is similar to the one obtained when an electric field is applied externally.
 
 \begin{sidewaysfigure}[p!]
 \centering
@@ -658,13 +629,42 @@ Given the high net charge of capzip, it produces an electric field, thus the per
 \label{fig:lipids_ApL_D}
 \end{sidewaysfigure}
 
+Preliminary simulations were run on the pure membranes, to equilibrate the patches and compute their characteristics in absence of the peptide.
+%
+For the bacterial model chosen (DLPC/DLPG 3:1), we obtained an ApL of $0.580(5)$ nm$^2$ for the 512 lipids patch (simulated with GROMOS 54a7 force field), and  $0.569(4)$ nm$^2$ for the 740 one (GROMOS 54a8) as shown in Figure \ref{fig:lip_apl}, lines 1 and 5.
+
+The difference is small but statistically significant (the two measures are not compatible within the error).
+%
+This can be attributed to the force field (54a7 versus 54a8), the long range electrostatic treatment (RF versus PME), or to the size of the patch (512 versus 740). %
+%
+Extensive tests on phosphocholine lipids (see Chapter \ref{chapter:lip_par}) suggests that generally 54a8 gives larger ApL values than the ones computed with 54a7.
+%
+Moreover a control simulations on the 512 patch where RF was switched to PME produced an ApL of 0.586(5), slightly larger that RF, but compatible with its value.
+%
+Therefore we attribute the discrepancy to the different sizes of the patches. Later in this section other cases are reported in which the size has a great influence on the simulation outcome.
+
+Regarding the diffusion coefficient, we report in Figure \ref{fig:lip_diff}, the value averaged between the two leaflets, computed both removing the centre of mass (COM) movement of each leaflet, or the COM movement of the full bilayer. While the former measures the pure random movement of a lipid with respect to its neighbours, the latter is influenced by possible collective movements of one leaflet with respect to the other. While not exactly falling in the definition of lateral diffusion, such mutual movement is perfectly compatible with a COM of the whole system staying in the original position. Thus, we deemed this measure interesting and we want to keep track of this movement as well. We will call the two measures respectively pure diffusion and global diffusion in the following.
+
+Considering the pure diffusion (L$_{COM}$) in Figure \ref{fig:lip_diff}), the larger membrane has a smaller diffusion coefficient with respect to the 512 lipids patch. However, considering the global one (BI$_{COM}$) we observe the opposite.
+%
+In general, differences are expected between the two patches, because of their different size: it is well known that periodic boundary conditions affect the computed diffusion coefficient \citep{Camley2015,Venable2017}. Previous studies have found that, for atomistic simulations of the size employed here, this is systematically underestimated \citep{Camley2015}: increasing the size would increase the coefficient, toward its real value (which is obtained for an infinite box). This is consistent with our global diffusion results, but not the pure ones. It is not clear whether, in the publications mentioned, they refer to what is here called pure or global diffusion, but we suspect it is the latter.
+
+To exclude that the difference between the two patches is given by the force field chosen, we refer the reader to the next chapter, where, for simulations of monolipid patches the 54a7 or 54a8 force field gave very similar values of pure diffusion (keeping all the other simulation conditions identical).
+
+\paragraph{Influence of the peptide on the 512-lipids bacterial patch}
+For the small patch, the presence of the pentagonal peptide subunit (made of ten antimicrobial molecules, bearing a $+60\,e$ total charge) made the ApL decrease by 9\% with respect to the apo value (Figure \ref{fig:lip_apl}, line 3).
+%
+A similar effect was observed applying an electric field of 70 mV/nm intensity or combining the peptide with a 20 mV/nm field, comparable with physiological values (Figure \ref{fig:lip_apl}, lines 2 and 4).
+%
+Given the high net charge of capzip, the molecule itself produces an electric field, thus the perturbation on the membrane is similar to the one obtained when the field is externally applied.
+
 The fact that all the different perturbations lead to reduction of ApL of a similar amount suggests that the membrane is approaching the maximum packing allowed.
 %
 Consistently, the diffusion coefficient D had a 6-fold reduction for both species of lipids (Figure \ref{fig:lip_diff}). Pure and global diffusion are very similar, suggesting there is little translation between the leaflets.
 %
-The order parameter S$^{avg}_{CD}$ increased slightly and (Figure \ref{fig:lip_ord}). The variability on S$^{avg}_{CD}$ is high, showing that some regions reached a value larger than 0.3, which is often associated to transition to the gel phase, characterised by highly order lipid chains \citep{Pluhackova2016}.
+The order parameter S$^{avg}_{CD}$ increased slightly (Figure \ref{fig:lip_ord}). The variability on S$^{avg}_{CD}$ is high, showing that some regions reached a value larger than 0.3, which is often associated to transition to the gel phase, characterised by highly order lipid chains \citep{Pluhackova2016}.
 %
-Moreover, in simulations in presence of capzip, the hexagonal order parameter $S_6$ computed for the bottom leaflet of the membrane (the one not hosting the pentagonal subunit) shows a few lipids in the gel phase, i.e.\ S$_6 \ge 0.72$ (Figure \ref{fig:S6_pb4}). There is no formation of ordered clusters, but it is clear that the shrinking of the membrane due to the presence of capzip increase the lateral order. Indeed no lipid reaches the S$_6$ gel threshold in the apo simulations.
+To investigate this, in the simulation in presence of capzip, the hexagonal order parameter $S_6$ is computed for the bottom leaflet of the membrane (the one not hosting the pentagonal subunit). It shows a few lipids in the gel phase, i.e.\ S$_6 \ge 0.72$ (Figure \ref{fig:S6_pb4}). There is no formation of ordered clusters, but it is clear that the shrinking of the membrane due to the presence of capzip increase the lateral order. Indeed no lipid reaches the S$_6$ gel threshold in the apo simulations (not shown).
 %
 \begin{figure}[h!]
 \centering
@@ -675,11 +675,11 @@ Moreover, in simulations in presence of capzip, the hexagonal order parameter $S
 
 \paragraph{Influence of the peptide on the 740-lipids patch} When the same perturbations described above, namely electric field and/or capzip, were applied to a larger membrane, ApL and tail order parameter S$^{avg}_{CD}$ remained equal within the error to the apo values. However the global diffusion coefficient D was still significantly affected, being reduced between 2.5 and 5 times (Figure \ref{fig:lipids_ApL_D}, lines 5 to 8).
 %
-In the case of the large patch, the effect is observed on the global and not local diffusion: the external perturbations diminish the rearrangement of lipids through a more correlated motion between upper and lower leaflet.
+In the case of the large patch, this effect is observed on the global and not local diffusion: the external perturbations diminish the rearrangement of lipids through a more correlated motion between upper and lower leaflet.
 
 While for the small patch the reduced diffusion was consistent with the smaller ApL when a perturbation was applied, the results on the larger patch show that the two are disentangled.
 %
-To understand the local determinants of this outcome in presence of the peptide, we computed the diffusion coefficient for subsets of lipids based on their distance from the peptide at the initial frame of the production run (Table \ref{table:D_space}). This time, the trajectory was centred around the peptide COM, to understand the lipid movement with respect to it. The lipids closer to the protein resulted the most slowed down. DLPG is slightly more mobile than DLPC, as observed in all the 740 lipids simulations (Figure \ref{lip:diff}).
+To understand the local determinants of this outcome in presence of the peptide, we computed the diffusion coefficient for subsets of lipids based on their distance from the peptide at the initial frame of the production run (Table \ref{table:D_space}). This time, the trajectory was centred around the peptide COM, to understand the lipid movement with respect to it. The lipids closer to the protein resulted the most slowed down. DLPG is slightly more mobile than DLPC, as observed in all the 740 lipids simulations (Figure \ref{fig:lip_diff}).
 %
 \begin{figure}[t!]
 \centering
@@ -741,7 +741,11 @@ The local slow down of lipids is due to electrostatic and hydrogen bond interact
 %
 Arginine promotes many persistent bonds, and the number of them is equally divided between DLPC and DLPG residues, despite the latter ones are less in number. Tryptophan promotes fewer persistent bonds; the remaining ones that exist for more than 50\% of the time involve Threonine residues.
 %
-These interactions, together with the electrostatic coupling between positive residues and DLPG, force the lipids to remain close to the peptide, slowing down their dynamics, which in turn influences the one of the molecule nearby.
+
+COMMENT ON THEIR INSERTION
+
+%
+These interactions, together with the electrostatic coupling between positive residues and DLPG, force the lipids to remain close to the peptide, slowing down their dynamics, which in turn influences the one of the molecules nearby.
 
 We think that this reduced ``fluidity" is an important perturbation of the membrane structure, as it diminishes the ability of the membrane to accommodate external stimuli. With coarse grain simulations (see Section \ref{sec:results_lip_cg}) it will be evident that on the long time scale, these interactions are also able to recruiting anionic lipids around the peptide, creating a local imbalance in the membrane composition.
 
@@ -771,7 +775,7 @@ An electric field of increasing intensity was applied along the negative $z$ dir
 \label{fig:pore_pics}
 \end{figure}
 
-The field was increased of 20 mV/nm every 200 ns (or 10 mV/nm when approaching the poration threshold), showing that the critical value of 130 mV/nm triggered poration in presence of the peptide.
+The field was increased of 20 mV/nm every 200 ns (or 10 mV/nm when approaching the poration threshold), showing that the critical value of 130 mV/nm triggered poration in presence of the peptide. The initial value of 20 mV/nm was chosen as it is an approximation of the physiologic value of the transmembrane potential.
 %
 This was confirmed by three replicas run with a 130 mV/nm field from the initial unperturbed membrane configuration (poration after 20 ns, 75 ns and 71 ns respectively).
 %
@@ -784,8 +788,10 @@ The appearance of a curvature made necessary to compute the area per lipid takin
 It is observed that once a deformation appears it can be quickly enhanced by the electric field. Small casual variations in its initial onset can bring to very different shapes of the membrane.
 
 The electroporation threshold for the membrane alone was set at the higher value of 140 mV/nm: out of three simulations run with such value of the electric field, two resulted in disruption at 150 ns and 154 ns, while the third presented a curved but still intact membrane after 200 ns.
+%
+This shows that the effect of the peptide shift the threshold by a small amount in absolute terms, but its action is clearly accelerating the disruption process.
 
-The simulations with high electric field performed on the 512 lipids patch resulted all in curved geometry before the poration event (independently from the presence of the peptide). However this does not happen with the large patch, for which simulations in presence of the peptide and an electric field of 130 mV/nm lead to poration, but this was initiated from a flatter membrane conformation (Figure \ref{fig:pore_pics_2}).
+The simulations with high electric field performed on the 512 lipids patch resulted all in curved geometry before the poration event (independently from the presence of the peptide). However this does not happen with the large patch, for which the poration was always initiated from a flat membrane conformation (Figure \ref{fig:pore_pics_2}).
 %
 To rule out once more the hypothesis that the difference is due to the force field used (54a7 versus 54a8), we run an additional control simulation of the 512 lipids patch with the 54a8 force field and the electric field set at the electroporation threshold of 140 mV/nm. The patch developed a curved shape similar to the outcome from the corresponding 54a7 simulations. The membrane was not electroporated in the 200 ns run, as was observed in one out of the three replicas of the 54a7 simulations.
 %
@@ -793,7 +799,7 @@ The ApL values of these two simulations (512 lipids, 140 mV/nm, no peptide) diff
 %
 However, from the previous electroporation simulations it emerges that there is a high variability in ApL computed from highly curved configurations, so that the consistency of the two values might be fortuitous.
 %
-Once more, this proves that the size of the patch has a large influence in the outcome of the simulations.
+Once more, this analysis proves that the size of the patch has a large influence in the outcome of the simulations.
 
 Regardless the shape that the membrane assumes before disruption, the peptide speeds up the collapse mechanism. This is due to the charged Arginine residues which insert into the membrane core interacting with the negatively charged phosphate of the lipids, and promote the penetration of water molecule (Figure \ref{fig:pore_pics_3}).
 %
@@ -825,14 +831,12 @@ This findings, together with the previous results, suggests that the decrease in
 
 After the investigation of a model bacterial membrane, we focussed on a mammalian one, modelled as a DLPC patch. Given the information accumulated in the previous investigation, we simulated directly a large patch (748 lipids), as we deemed this size more appropriate to run the subsequent simulations with the peptide. The force field employed is GROMOS 54a8.
 
-The properties of the stand alone membrane are computed as before and compared with the experimental data. Indeed for mono-lipid membranes several results are available. The computed ApL is 0.592(3) nm$^2$, while the experimental range at 303 K of temperature is 0.608-0.632 nm$^2$ (see Table 1 in \citet{Poger2016}). To motivate the discrepancies, two factors must be considered. First, these experiments are performed on a variety of lipid geometries, from vesicle to supported lipid bilayers (resting on a solid surface), justifying the broad range of values found. Second, the membrane is simulated in presence of a 150 mM salt concentration, while the experiments do not adopt it. Several computational studies report a reduction of area per lipid when salt concentration is introduced \citep{Bockmann2003,Jarerattanachat2013,Reif2017}. This is consistent with the experimental evidence \citep{Pabst2007}, even though simulations are reported to overestimate this variation \citep{Reif2017}.
+The properties of the stand alone membrane are computed as before and compared with the experimental data. Indeed for mono-lipid membranes several experimental results are available. The computed ApL is 0.592(3) nm$^2$, while the experimental range at 303 K of temperature is 0.608-0.632 nm$^2$ (see Table 1 in \citet{Poger2016}). To motivate the discrepancies, two factors must be considered. First, these experiments are performed on a variety of lipid geometries, from vesicle to supported lipid bilayers (resting on a solid surface), justifying the broad range of values. Second, the membrane is simulated in presence of a 150 mM salt concentration, while the experiments do not adopt it. Several computational studies report a reduction of area per lipid when salt concentration is introduced \citep{Bockmann2003,Jarerattanachat2013,Reif2017}. This is consistent with the experimental evidence \citep{Pabst2007}, even though simulations are reported to overestimate this variation \citep{Reif2017}.
 
-This hypothesis is supported by the results from a simulation of a 512 patch without salt, which gives ApL of 0.626(5) nm$^2$. This is 0.034 nm$^2$ larger than the run with 748 lipids and salt mentioned above, and compatible with the experimental values (see Table \ref{table:dlpc_apl} for a summary).
-
-As a not, the 512 lipids simulation was run in the context of the parametrisation work presented in Chapter \ref{chapter:lip_par}. Thus it employs a cut off radius for non bonded interactions of 1.4 nm rather than 1.2 nm. This change was performed for consistency with previous parametrisation work. However, extensive investigations on the effects of long range electrostatic treatment - even though not specifically comparing the two conditions presented here - suggests that electrostatics have an influence on the ApL up to 0.010-0.015 nm$^2$ only. Change in the cut off treatment (single or double) \citep{Silva2018,Reisser2017}, or the switch from PME to RF [\citep{Poger2012}; Table 1 in Chapter \ref{chapter:lip_par}] were tested, and the only conditions which severely affects the ApL seems the complete neglect of the long range electrostatic, choosing a plain cut off scheme \citep{Patra2003}.
+This hypothesis is supported by the results from a simulation of a 512 patch without salt, which gives ApL of 0.626(5) nm$^2$. This is 0.034 nm$^2$ larger than the run with 748 lipids and salt mentioned above, and compatible with the experimental values (see Table \ref{table:dlpc_apl} for a summary). We do not have a similar comparison for the 748 lipids membrane, but this trend of salt induced shrinking has been confirmed by simulations of various patches for which the salt concentration was the only difference (see SI Table --).
 %
 Therefore, we conclude that the effect of the salt concentration is the main responsible for the membrane shrinking we observe in the simulations run at 150 mM.
-%
+
 The ApL of the DLPC patch is larger than the one for the model bacterial membrane, likely due to the presence of DLPG which diminishes the repulsion between the positively charged Choline heads of DLPC. Somewhat counter intuitively, the lateral diffusion coefficient is significantly smaller (0.495(1) $\mu$m$^2$/s). This is confirmed by the values found for the 512 lipid DLPC patch without salt (see Figure 8 in Chapter \ref{chapter:lip_par}).
 %
 The motivation for this augmented mobility when DLPG is present is hard to establish [COMMENT?].
@@ -850,21 +854,21 @@ The motivation for this augmented mobility when DLPG is present is hard to estab
 \cline{2-5}
 & Exp.$^b$ & 0 & 0.608-0.632 & 3 \\
 \hline
-\multirow{1}{*}{\textbf{Peptide}} & 748 & 150 & 0.592(4) & see Table \ref{table:dlpc_prot_apl} \\
+\textbf{Peptide} & 748 & 150 & 0.592(4) & see Table \ref{table:dlpc_D_space} \\
 \hline
  \end{tabular}
 \captionof{table}[ApL and D of DLPC (atomistic simulations)]{Area per lipid and pure diffusion coefficient of DLPC (atomistic simulations). All simulations run with the GROMOS 54a8 force field. $^a$ Run with 1.4 nm cut off. $^b$ Experimental values. Area per lipid from Table 1 of \citet{Poger2016}, diffusion coefficients from \citet{Lindblom2009}.}
 \label{table:dlpc_apl}
 \end{figure}
 
-The presence of the peptide does not affect the ApL of the DLPC patch, as it was observed for the bacterial counterpart. Regarding the diffusion, if we compute the diffusion centring the trajectory with respect to the peptide (Table \ref{table:dlpc_D_space}), we observe an increase in the diffusion coefficient with respect to the pure one displayed in Table \ref{table:dlpc_apl}, likely because of the movement of one leaflet with respect to the other. Moreover, the lipids closer to the peptide are still slowed down in their diffusion as observed in the bacterial membrane, albeit they are more mobile in absolute terms.
+The presence of the peptide does not affect the ApL of the DLPC patch, as it was observed for the bacterial counterpart (on the same size patch). Computing the diffusion centring the trajectory with respect to the peptide (Table \ref{table:dlpc_D_space}), we observe an increase in the diffusion coefficient with respect to the pure one displayed in Table \ref{table:dlpc_apl}, likely because of the movement of one leaflet with respect to the other. The lipids closer to the peptide are still slowed down as observed in the bacterial membrane, albeit they are more mobile in absolute terms.
 
-Analysing the number of hydrogen bonds formed with the peptide, there are 590 bonds, of which 19 present more than 50\% of the time. Of them, 11 involves Arginine residues, which coordinate with ester groups in 6 cases, and with phosphate in 5 cases. This figures are smaller than the one obtained for the bacterial membrane. In particular, the absence of the charged lipids makes the protein-membrane interaction less favourable.
+Analysing the number of hydrogen bonds formed with the peptide, there are 590 bonds, of which 19 present more than 50\% of the time. Of them, 11 involves Arginine residues, which coordinate with ester groups in 6 cases, and with phosphate in 5 cases. This figures are smaller than the ones obtained for the bacterial membrane. In particular, the absence of the charged lipids makes the protein-membrane interaction less favourable.
 
 \begin{figure}[t!]
 \centering
  \def\arraystretch{1.7}
-\begin{tabular}{llll}
+\begin{tabular}{ll|ll}
  \multicolumn{4}{c}{\textbf{Pure DLPC}} \\
  \hline
  & Region & Nr. & D ($\mu m^2/s$) \\
@@ -882,34 +886,28 @@ Analysing the number of hydrogen bonds formed with the peptide, there are 590 bo
 \label{table:dlpc_D_space}
 \end{figure}
 
-On the DLPC patch, we did not perform the same extensive electroporation analysis carried on for the bacterial membrane. Instead, we simulated directly the threshold electric field value (130 mV/nm). This was sufficient to observe poration in presence of the peptide but not on the pure membrane for the bacterial model.
+On the DLPC patch, we did not perform the same extensive electroporation analysis carried on for the bacterial membrane. Instead, we simulated directly the threshold electric field value (130 mV/nm). 
 
-However, for the DLPC patch this value is sufficient to cause poration both with and without peptide. Despite the absence of lipids with a net charge, which are expected to interact more strongly with the electric field, this membrane is more sensitive to the external perturbation. We think this is due to larger ApL it presents. Indeed, being the lipids less packed, water penetration is easier. This, combined with the electric field, generate a water defect which promote pore formation.
+However, for the DLPC patch this value is sufficient to cause poration both with and without peptide. Despite the absence of lipids with a net charge, which are expected to interact more strongly with the electric field, this membrane seems more sensitive to such external perturbation. We think this is due to larger ApL: indeed, being the lipids less packed, water penetration is easier. This, combined with the electric field, generate a water defect which promote pore formation.
 
-Once the membrane start disrupting, the peptide detaches from the membrane, while it remained firmly attach to the bcterial one, following its deformations. This lower propensity for binding on the mammalian case will be proven also by coarse grain simulations as well.
+Once the membrane start disrupting, the peptide detaches from the membrane, while it remained firmly attach to the bacterial one, following its deformations. This lower propensity for binding on the mammalian case will be proven also by coarse grain simulations.
 
 In interpreting these results, it must be considered that the transmembrane potential of a mammal cell is lower than the one present in the bacterial membrane \citep{Yeaman2003,Wilson2011}, so that the conditions to which the peptide is exposed to are different in proximity of different cells. We do not pursue the investigation of the electroporation threshold for the DLPC patch, as we focus here only on the action of the peptide on it.
 
-Finally, if the lower interaction with DLPC is consistent with the selectivity of capzip against bacterial membrane, it must be reconciled with the fact that capzip internalisation is observed on HeLa cells. This will be discussed more extensively in the next section, where the approach of a capsule to model membranes is investigate by coarse grain simulations.
+Finally, if the lower interaction with DLPC is consistent with the selectivity of capzip against bacterial membrane, it must be reconciled with the fact that capzip internalisation is observed on HeLa cells. This will be discussed more extensively in the next section, where the approach of a capsule to model membranes is investigate by coarse grain simulations. [COMMENT - DO DISCUSS]
 
 
 \subsection{CG simulations of the buckyball on model membranes} \label{sec:results_lip_cg}
+
 \paragraph{Standard MARTINI simulations} Coarse grain simulations allow to model the behaviour of the full capsule interacting with the membrane.
 %
 At first, simulations with the standard MARTINI model were run, due to their higher computational speed (the full system, comprising a 2880 lipids patch and the capsule, measures approximately 30 nm along each side of the simulation box).
 
 Coarse grain simulations of the full buckyball on a DLPC:DLPG membrane (3:1 ratio) confirms the binding of the peptide on the latter, driven by charge-charge recognition: in both the replicas run, the peptide approaches the membrane after about 2 $\mu$s, remaining bound up to the 10 $\mu$s simulated.
 %
-Post-binding, the capsule diffuses on the membrane and produces an increasingly high curvature on it, in a process which tends to maximize the contact area (see Figure \ref{fig:pL6_vmd_2} and SI Movie --). No poration is observed, probably due to the force field characteristics which stabilise the structure of both the membrane and the peptide assembly. Additionally, longer time scales might be needed to observe poration. In the next paragraph, we will show the results from electroporation simulations, which was performed in line with what done in the atomistic case.
+Post-binding, the capsule diffuses on the membrane and produces an increasingly high curvature on it, in a process which tends to maximize the contact area (see Figure \ref{fig:pL6_vmd_2} and SI Movie --). No poration is observed, probably due to the force field characteristics which stabilise the structure of both the membrane and the peptide assembly. Additionally, longer time scales might be needed to observe poration. In the next paragraph, we will perform simulations with an additional electric field, in line with what done in the atomistic case, which speed up the process and allow to observe membrane disruption.
 
-An analysis of the diffusion coefficient has been performed: the value obtained before the binding has been computed removing the movement of the membrane centre of mass, while the one after binding centring the trajectory around the capsule.
-
-The lipids diffusion coefficient is decreased after the binding, by 5\% for DLPC and by 15\% (Table \ref{table:SI_martini_diff}). Moreover, as DLPG is negatively charged, it is recruited around the peptide and remain bound to it, diffusing much slower than the surrounding lipids. Indeed the average number of lipids which are within 2 nm of distance from the capsule after its binding to the membrane is 167(10) for DLPC and 131(7) for DLPG. Considering that DLPG constitutes only 25\% of the membrane, this proportion indicated that negatively charged lipids migrate toward the peptide. This is confirmed by the RDF of the phosphate bead of DLPC and DLPG around the protein: ----
-To analyse the mechanism of poration we then resorted to Polar MARTINI, where we can apply an electric field to promote a stronger interaction between peptide and membrane.
-
-To conclude the investigation performed with standard MARTINI, we simulated the capsule together with a pure DLPC membrane. The capsule does not bind to it in the 10 $\mu$s simulated: it comes close to it multiple times, with an average distance of 3 nm and a minimum of 1 nm, but never gets in contact with the lipids. This, together with what already observed in the atomistic simulations, suggest once more that the interaction with non charged lipids is not favourable.
-
-\begin{figure}[p!]
+\begin{figure}[h!]
 \centering
  \def\arraystretch{1.5}
 \begin{tabular}{ll|ll|ll}
@@ -927,8 +925,9 @@ To conclude the investigation performed with standard MARTINI, we simulated the 
 					& Prot. & NA & NA & \multicolumn{2}{l}{Poration} \\
  \hline
 \end{tabular}
+\captionof{table}[Lipid diffusion coefficient for coarse grain bacterial membranes]{Analysis of lipid diffusion in a coarse grain simulation of the buckyball binding to a model bacterial membrane (DLPC:DLPG 3:1). Diffusion is computed removing the centre of mass movement of the bilayer for simulations without the capsule, and of the protein for simulations where the peptide is bound to the membrane.}
+\label{table:martini_diff_bact}
 
- 
 \begin{tabular}{l|ll}
 \multicolumn{3}{c}{\textbf{DLPC membrane}} \\
  \hline
@@ -939,23 +938,52 @@ To conclude the investigation performed with standard MARTINI, we simulated the 
  E = 40 & NA & 77.88(4) \\
  \hline
 \end{tabular}
-\captionof{table}[Lipid diffusion coefficient for coarse grain membranes]{Analysis of lipid diffusion in a coarse grain simulation of the buckyball binding to a model bacterial membrane (DLPC:DLPG 3:1). Data for Replica 1, binding time 2.14 $\mu$s. Protein lateral diffusion after binding to the membrane 16.50(2) $\mu$m$^2$/s. $^a \, $Number of lipids within 2 nm distance from the buckyball in the last 5 $\mu$s of simulations. $^b \, $In a simplistic model in which the dumping of lipid lateral diffusion coefficient is due to some lipids bound to the buckyball, and thus they diffuse at its pace, while the other are free to move as before, it is valid the following equation: $D_{post} = D_{pre} \cdot (N_{lipid} - N_{bound}) + D_{protein} \cdot N_{bound}$.}
-\label{table:SI_martini_diff}
+\captionof{table}[Lipid diffusion coefficient for coarse grain mammalian membranes]{Analysis of lipid diffusion in a coarse grain simulations of a mammalian model membrane (DLPC) in presence of the capsule. Details on computation of diffusion as in Table \ref{table:martini_diff_bact}.}
+\label{table:martini_diff_dlpc}
+\end{figure}
+%
+When analysing the diffusion coefficient, the values obtained before the binding have been computed removing the movement of the membrane centre of mass, while the ones after by centring the trajectory around the capsule.
+%
+The lipids diffusion is decreased after the binding, by 5\% for DLPC and by 15\% for DLPG (Table \ref{table:martini_diff_bact}). Moreover, as DLPG is negatively charged, it is recruited around the peptide and remains bound to it, so that some molecule of this specie diffuse much slower than the surrounding lipids. Indeed the average number of lipids which are within 2 nm of distance from the capsule after its binding to the membrane is 167(10) for DLPC and 131(7) for DLPG. Considering that DLPG constitutes only 25\% of the membrane, this proportion indicated that negatively charged lipids migrate toward the peptide.
+%
+Additionally, each of this molecule is closer the peptide than the average DLPC molecule: computing the RDF of the phosphate beads (PO4) of DLPC and DLPG around the protein, a much stronger signal comes from DLPG beads rather than DLPC ones (Figure \ref{fig:PO4_RDF}).
+%
+\begin{figure}[t!]
+\centering\includegraphics[width=0.6\linewidth]{3results_capsule/pics/RDF_PO4_around_Prot.png} 
+\caption[Proximity of lipids phosphate to bound capsule]{RDF of phosphate bead (named PO4 in both MARTINI models) of DLPC and DLPG around the Protein.}
+\label{fig:PO4_RDF}
 \end{figure}
 
+To conclude the investigation performed with standard MARTINI, we simulated the capsule together with a pure DLPC membrane. The capsule does not bind to it in the 10 $\mu$s simulated: it comes close to it multiple times, with an average distance of 3 nm and a minimum of 1 nm, but never gets in contact with the lipids. This, together with what already observed in the atomistic simulations, suggest once more that the interaction with non charged lipids is not favourable.
+
 \paragraph{Polar MARTINI simulations} 
-The Polar MARTINI simulations focussed on electroporation \emph{in silico} experiments, to set a parallel with the atomistic ones.
+The Polar MARTINI simulations focussed on \emph{in silico} experiments with an external electric field, to set a parallel with the analogous atomistic ones.
 
-We took as the equilibrated membrane patches from the standard MARTINI and employed them to run the simulations with the capsule, without performing a further equilibration. We run control simulations with the external field of the values chosen, to exclude the eventuality of electroporation.
+We took the membrane patches equilibrated with the standard MARTINI and employed them without performing a further equilibration. The structure of the capsule was taken from a Polar MARTINI run. As performed in the atomistic case, together with the simulations with the capsule, we run control simulations of the membrane only with the external field of the values chosen, to exclude the possibility of electroporation.
 
-Regarding simulations with the capsule, we first run a simulation without electric field, to test the behaviour of the system with the new parametrisation. The binding happens much faster than what observed in the standard MARTINI simulations, and the membrane starts to be deformed by the capsule already after 100 ns. However, we did not observe poration on the timescale of the simulation (500 ns). A longer simulation might allow to observe membrane disruption but, as mentioned before, we preferred to focus on the action of the electric field. As such, we simulated the binding under the action of a 20 mV/nm electric field. The curvature of the membrane is slightly more pronounced than in the case without field, and the membrane seems more rigid (see SI Movie --), but to without any disruption. Finally, from the final configuration of this run we doubled the electric field, which was sufficient to observe poration within 200 ns.
+Regarding simulations with the capsule, we first run a simulation without electric field, to test the interaction between the two components with the new parametrisation. The binding happens much faster than what observed in the standard MARTINI simulations, and the membrane starts to be deformed by the capsule already after 100 ns. However, we did not observe poration on the timescale of the simulation (500 ns). A longer simulation might allow to observe membrane disruption but, as mentioned before, we preferred to focus on the action of the electric field. As such, we simulated the binding under the action of a 20 mV/nm electric field. The curvature of the membrane is slightly more pronounced than in the case without field, and the membrane seems more rigid (Figure \ref{fig:martini_stMem} and SI Movie --), but without any disruption. From the final configuration of this run we doubled the electric field, which was sufficient to observe poration within 200 ns.
+
+\begin{figure}[t!]
+\centering\includegraphics[width=0.95\linewidth]{3results_capsule/pics/picmartiniPW.png} 
+\caption[MARTINI simulations of capsule on membrane]{[REDO]}
+\label{fig:martini_stMem}
+\end{figure}
 
 As in membrane simulations the pressure coupling is performed semi isotropically, once a pore is formed, the box undergoes a large and unphysical deformation if the pore keeps expanding. To obviate to that, we took a frame at the early staged of pore formation and continue the run, with the same electric field, with isotropic pressure coupling. This allowed to observe how the capsule penetrated the membrane causing a whole in it: the lipids do not seal around the capsule, allowing for passage of water and ions. This is consistent with what found in the atomistic simulations. Moreover, in the passage, the capsule deforms and partially opens.
+%
+Being the field still present, the capsule is pushed through the simulation box, and keeps spanning its range.
 
 As a control, the same simulations were run with a DLPC membrane: for none of the values of the electric field tested (0, 20 and 40 mV/nm) the capsule bound to the membrane.
 
-The diffusion coefficient was measured also for simulations with Polar MARTINI. 
+The diffusion coefficient was measured also for simulations with Polar MARTINI. For the DLPC membrane, the increase of the electric field...
 
+
+
+DISCUSS
+why small field (only 20/40)
+
+
+ADDSelf assembly, new model lammps what to do, D amino acids
 
 \section{Rest}
 %
@@ -1063,8 +1091,26 @@ The diffusion coefficient was measured also for simulations with Polar MARTINI.
 
 \section{Supplementary material} \label{sec:ch3_SI}
 
-We include here additional Figures and Tables referenced in the chapter which can help the reader in interpreting the results.
+We include here additional material, Figures and Tables referenced in the chapter which can help the reader in interpreting the results.
 
+
+\subsection{On the long range electrostatic cut off}
+In a few paragraphs of this chapter we compare the simulations run here with the ones from the parametrisation work in the next chapter. As the reader will see, these are run on 512 lipids patches, with a simulation set up very similar to the one employed here.
+
+However, the long range electrostatic are treated with a Reaction Field scheme and cut off radius of 1.4 nm. This choice was performed for consistency with previous parametrisation work.
+%
+Instead, the simulations run in the present chapter are run either with the Reaction Field and a cut off of 1.2 nm (512 lipids patches) or with a Particle Mesh Ewald treatment, and the same cut off (740 lipids patches).
+
+Although briefly mentioned in the body of the chapter, we want to reiterate that these discrepancies might affect the simulations, but in measure smaller than the peptide or the electric field, which effect we want to assess.
+
+Indeed, extensive literature on the effects of long range electrostatic treatment suggests that electrostatics have an influence on the ApL up to 0.010-0.015 nm$^2$ only. This is confirmed for the change in the cut off treatment (single or double) \citep{Silva2018,Reisser2017}, and the switch from PME to RF [\citet{Poger2012}; Table 1 in Chapter \ref{chapter:lip_par}].
+%
+The only conditions which severely affects the ApL seems the complete neglect of the long range electrostatic, choosing a plain cut off scheme \citep{Patra2003}.
+
+Regarding the different cut off values, we did not find previous work testing the difference. However, given that we apply a long range correction, the cut off simply discriminated which positions are treated in the exact way and which instead through the long range approximation of choice. As these approximations seem consistent among them and robust, we foresee that a small shift in the cut off length does not have a high impact on the simulation outcome.
+
+
+\subsection{Supplementary figures}
 \begin{figure}[t]
 \centering
 \subbottom[]{\includegraphics[width=0.45\linewidth]{3results_capsule/pics/bb_contacts.png} \label{fig:si}}
@@ -1072,7 +1118,7 @@ We include here additional Figures and Tables referenced in the chapter which ca
 \label{fig:penta_results_SI}
 \end{figure}
 
-
+\subsection{Supplementary tables}
 \begin{figure}[t]
 \centering
  \def\arraystretch{1.6}
