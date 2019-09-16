@@ -55,44 +55,49 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{114}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{114}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Correlation of motion between molecules of the buckyball}}{115}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Branch pairing during simulations of the buckyball}}{115}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Branch pairing during simulations of the buckyball}}{116}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Contacts between molecules during simulations of the buckyball}}{117}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Hydrogen bonds in the buckyball molecule}}{118}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces SASA per residue of a buckyball in solution}}{119}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{119}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{119}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Non-bonded protein energy contribution to capsule structures}}{122}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{122}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{122}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Comparison of monolayer and bilayer structural properties}}{124}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{124}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{124}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Snapshot of SIRAH monolayer simulation}}{125}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Hydrogen bonds in the buckyball molecule}}{119}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces SASA per residue of a buckyball in solution}}{120}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{120}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{120}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Non-bonded protein energy contribution to capsule structures}}{123}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{123}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{123}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Comparison of monolayer and bilayer structural properties}}{125}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{125}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{125}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Snapshot of SIRAH monolayer simulation}}{126}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{126}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{126}
 \contentsline {figure}{\numberline {3.16}{\ignorespaces SASA per residue of monolayer and bilater}}{127}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{127}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{127}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Backmapping simulations: R$_g$ and RDF}}{127}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{127}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{127}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Backmapping simulations: contacts}}{128}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces ApL, D and S$_{CD}$ for membrane simulations}}{130}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{130}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{130}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{130}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Hexagonal order parameter of lipids in protein-lipid simulation}}{132}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Snapshot from relevant membrane-peptide simulations}}{135}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{135}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{135}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{135}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Proximity of lipids phosphate to bound capsule}}{142}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces MARTINI simulations of capsule on membrane}}{143}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces SI: pentagonal subunit simulations}}{145}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{145}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Backmapping simulations: R$_g$ and RDF}}{128}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{128}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{128}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Backmapping simulations: contacts}}{129}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Self-assembly simulations, final configurations}}{130}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Self-assembly simulations: contacts}}{131}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Self-assembly simulations: SASA}}{131}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{131}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{131}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces ApL, D and S$_{CD}$ for membrane simulations}}{133}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{133}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{133}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{133}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Hexagonal order parameter of lipids in protein-lipid simulation}}{135}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Snapshot from relevant membrane-peptide simulations}}{138}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{138}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{138}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces }}{138}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Proximity of lipids phosphate to bound capsule}}{145}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces MARTINI simulations of capsule on membrane}}{146}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces SI: pentagonal subunit simulations}}{149}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{149}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison between methods to compute ApL}}{150}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Control computation on bilayer electron density calculation}}{151}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{151}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{151}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison between methods to compute ApL}}{154}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Control computation on bilayer electron density calculation}}{155}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces }}{155}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces }}{155}
 \addvspace {10pt}

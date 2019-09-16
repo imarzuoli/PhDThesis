@@ -99,6 +99,8 @@ From the final configurations of the MARTINI coarse-grain model (standard water)
 %
 %Proving the stability at different timescales ascertains the characteristics that favour the assembly and identify the ones with suboptimal fitness to select them for improvement.
 Moreover, additional simulations were run at all the coarse-grain levels on a structure made of one layer only (i.e.\ built from pentagonal subunit make by one pentagon only), to prove whether the bilayer structure is more energetically favoured.
+%
+Finally, a preliminary study on self-assembly was performed with one of the coarse grain representation chosen (MARTINI), starting from molecule of capzip randomly placed in a box of solution.
 
 A multiscale analysis is needed also to investigate the antimicrobial activity. Being highly costing to simulate a full truncated icosahedron on a bilayer patch at the atomistic level, the pentagonal subunit employed to build the complete structure (Figure \ref{fig:BTI_vmd_2}) was taken as representative of the latter. It was simulated close to the membrane plane, parallel to it, to avoid spending time in sampling conformations with the peptide far from the membrane (Figure \ref{fig:pL6_vmd_1}). This, together with a tailored use of an applied electric field (see Section \ref{sec:details}), speeds up simulations considerably.
 %
@@ -120,8 +122,8 @@ Two membrane patches were simulated for both resolutions, a model bacterial and 
 
 All simulations were performed with the GROMACS software, version 5.5 and 2016 \citep{Berendsen1995,Abraham2015,gromacs_man}. 
 
-\paragraph{Atomistic simulations}
-The atomistic coordinates for the peptidic supramolecular assemblies described in Section \ref{sec:build} were built combining GROMACS tools and the MOE software \citep{moe}.
+\subsection{Atomistic simulations}
+\paragraph{Simulations in solution} The atomistic coordinates for the peptidic supramolecular assemblies described in Section \ref{sec:build} were built combining GROMACS tools and the MOE software \citep{moe}.
 %
 Simulations were run with the GROMOS 53a6 force field \citep{Oostenbrink2004}. Parameters for the central residue connected with the peptidic chains were computed with the ATB software \citep{Malde2011, Koziara2014}; the ones for the bonds joining it to the antimicrobial side chains were derived from the values tabulated in the force field for analogous ones.
 %
@@ -156,13 +158,14 @@ Throughout all the simulations, the temperature was maintained by independently 
  Bucky. bi (120) \& mono (60) & MA & 1000 & 3 \& 2 \\
  Bucky. bi (120) \& mono (60) & MA\_P & 1000 & 2 \& 2 \\
  Backmapped bucky. (120) & GR & 200 & 2 \\
+ Random (60, 120, 480) & MA & 10000 & 1 \\
  \hline
  \end{tabular}
-\captionof{table}[Simulations of capzip assembly in water]{Table of simulations of capzip assembly in water. \emph{Bucky.\ bi} = buckyball bilayer; \emph{Bucky.\ mono} = buckyball monolayer. Force field (FF): GR = united atom GROMOS 53a6 \citep{Oostenbrink2004}, SI = coarse-grain SIRAH \citep{Machado2018}, MA = coarse-grain MARTINI \citep{Marrink2007, Monticelli2008}, MA\_P = coarse-grain MARTINI with polar water \citep{Yesylevskyy2010}.}
+\captionof{table}[Simulations of capzip assembly in water]{Table of simulations of capzip assembly in water. \emph{Bucky.\ bi} = buckyball bilayer; \emph{Bucky.\ mono} = buckyball monolayer. \emph{Random} = random configuration of capzip molecules in a box (see Section \ref{sec:MARTINI_sim_det}). Force field (FF): GR = united atom GROMOS 53a6 \citep{Oostenbrink2004}, SI = coarse-grain SIRAH \citep{Machado2018}, MA = coarse-grain MARTINI \citep{Marrink2007, Monticelli2008}, MA\_P = coarse-grain MARTINI with polar water \citep{Yesylevskyy2010}.}
 \label{table:sim_solution}
 \end{figure}
 
-The atomistic coordinates for the bacterial membrane patch were built with the PACKMOL software \citep{Martinez2009}, from pdb files of a single DLPC \citep{PogerOrig} and DLPG \citep{Kukol2009} molecule. Two patches were built, made respectively of 512 and 740 lipids, with composition DLPC:DLPG (3:1). The initial area per lipid was set to 0.70 nm$^2$, above the values found experimentally for either lipid species (0.608(12) nm$^2$ for DLPC \citep{Kucerka2011} and 0.656(12) nm$^2$ for DLPG \citep{Pan2012}). The correct area per lipid of the mixture was reached during a 400 ns equilibration, the final configuration of which was used for simulations with the peptide.
+\paragraph{Simulation with membranes} The atomistic coordinates for the bacterial membrane patch were built with the PACKMOL software \citep{Martinez2009}, from pdb files of a single DLPC \citep{PogerOrig} and DLPG \citep{Kukol2009} molecule. Two patches were built, made respectively of 512 and 740 lipids, with composition DLPC:DLPG (3:1). The initial area per lipid was set to 0.70 nm$^2$, above the values found experimentally for either lipid species (0.608(12) nm$^2$ for DLPC \citep{Kucerka2011} and 0.656(12) nm$^2$ for DLPG \citep{Pan2012}). The correct area per lipid of the mixture was reached during a 400 ns equilibration, the final configuration of which was used for simulations with the peptide.
 % VERIFY WE CAN RUN IT!!!
 Given the analysis performed on the bacterial patch (see Section \ref{sec:lip_atom_bact}), for DLPC we opted for simulating a large membrane only. Accordingly, we produced a patch with 748 lipids and initial area per lipid of 0.68 nm$^2$.
 
@@ -227,7 +230,7 @@ An overview of simulations of peptide-membrane systems is given in Table \ref{ta
 \label{table:sim_membr}
 \end{figure}
 
-\paragraph{SIRAH coarse-grain simulations}
+\subsection{SIRAH coarse-grain simulations}
 SIRAH coarse-grain simulations were run with the SIRAH force field \citep{Machado2018}. Peptide coordinates for the buckyball geometry were obtained from the atomistic ones using the converter distributed with force field. Parameters for the central residue were built from comparison with similar chemical moieties. All simulations were run adding Cl$^-$ counter ions to balance the positive charges of the peptide and additional Na$^+$  and Cl$^-$ ones to reach a 150 mM concentration (of Na$^+$, slightly higer for Cl$^-$).
 
 While for simulations of peptide assembly in solution our multiscale procedure includes SIRAH, for simulations on membranes we focussed on atomistic and MARTINI simulations only. This has been performed in the interest of time, and following some technical difficulties in preliminary SIRAH runs with membranes (where the membrane contracted or expanded excessively).
@@ -238,11 +241,15 @@ For SIRAH simulations, the temperature coupling was performed with a velocity re
 
 After energy minimization, a 4 ns NVT equilibration was run at 300 K, followed by a 10 ns NPT run, both with positional restraints (1000 kJ/mol$\cdot$nm$^2$) on the solute. Two 10 ns run (NPT ensemble, 300 K) were then performed with backbone restraints of 1000 and 100 kJ/mol$\cdot$nm$^2$, respectively. Similar to the procedure adopted for atomistic simulations, during the latter flat bottom positional restraints (1000 kJ/mol$\cdot$nm$^2$) were enforced on the unpaired branches. After this, three additional 10 ns equilibrations were run at 300 K, with no backbone restraints and decreasing flat bottom ones (respectively 750, 500 and 250 kJ/mol$\cdot$nm$^2$). Finally the production run was carried on for 1 $\mu$s. All runs were performed with a 20 fs time step.
 
-\paragraph{MARTINI coarse-grain simulations}
+\subsection{MARTINI coarse-grain simulations} \label{sec:MARTINI_sim_det}
 For MARTINI \citep{Marrink2007, Monticelli2008} coarse-grain simulations, peptide coordinates were obtained from the atomistic ones using martinize.py \citep{DeJong2013} with a customised mapping for the central residue. Parameters were obtained with the same script for the arms, while pycgtool.py \citep{Graham2017} was used for the central residue. Parameters for the joining bonds were derived from tabulated values of analogous ones.
 
-The bacterial and mammalian model membranes, hosting 2880 lipids each, were built with insane.py \citep{Wassenaar2015}, with composition DLPC:DLPG 3:1 and pure DLPC respectively. The simulations parameters used for lipids are consistent with \citet{SiewertJ.Marrink2003}. The peptide-membrane systems were built placing the buckyball at a minimum distance of 1 nm from the membrane surface.
+Initial coordinate for the self-assembly simulations were obtained with GROMACS tools, placing the desired amount of molecules with random positions in the simulation box.
 %
+The side of the cubic box chosen was 44 nm, and three different peptide concentrations were simulated: 1.25 mM (60 molecules), 2.50 mM (120 molecules) and 10 mM (480 molecules), all for 10 $\mu$s.
+
+The bacterial and mammalian model membranes, hosting 2880 lipids each, were built with insane.py \citep{Wassenaar2015}, with composition DLPC:DLPG 3:1 and pure DLPC respectively. The simulations parameters used for lipids are consistent with \citet{SiewertJ.Marrink2003}. The peptide-membrane systems were built placing the buckyball at a minimum distance of 1 nm from the membrane surface.
+
 For all standard MARTINI simulations, counter ions only were added, while for the ones run with Polar MARTINI, additional Na$^+$ and Cl$^-$ were inserted to reach a 150 mM concentration.
 
 For simulations performed with the standard water model, the temperature coupling was performed with a velocity rescale thermostat \citep{Bussi2007} with a coupling constant $\tau _T$ of 1 ps. An isotropic or semi-isotropic pressure coupling was applied (simulations of peptide in solution and peptide on membrane respectively) at 1 bar pressure, with 4.6 $\times$ 10$^{-5}$ bar$^{-1}$ isothermal compressibility, using a Berendsen \citep{Berendsen1984} or Parrinello-Rahman barostat \citep{Parrinello1981} (equilibration and production phase respectively) with $\tau _P$ of 12 ps. An isotropic or semi-isotropic coupling has been used for simulation without and with membranes respectively.
@@ -258,6 +265,8 @@ Finally the production run was carried on for 1 $\mu$s. All runs were performed 
 It is interesting to notice that the MARTINI force field with the standard water model produce very similar results with or without such refined equilibration procedure, as confirmed by simulations of the buckyball run after a only short unrestrained equilibration (500 ps, 1 fs timestep). However, we choose to follow the same procedure as for the other force fields to have more consistent results, and be certain that the differences observed are due only to the parametrisation an not the equilibration procedure.
 
 From the final configurations of two out of the three standard MARTINI replicas, atomistic coordinates are obtained using the MARTINI backward tool (version 5) \citep{Wassenaar2014} and run for additional 200 ns with the set up used for atomistic simulations.
+
+The equilibration for the self-assembly simulations (run only with the standard MARTINI model) included only an energy minimization, followed by a 1 ns equilibration with the Berendsen barostat, before switching to Parrinello-Rahman for the 10 $\mu$s production.
 
 The membranes used in MARTINI simulations are equilibrated for 1 $\mu$s with standard water and the final configuration is used to build the peptide-membrane systems, together with the equilibrated capsule structure (before the production run). The full system is energy minimised, equilibrated for 500 ps and production is followed for 10 $\mu$s for simulations with the standard water, and 1 $\mu$s with polar water.
 
@@ -447,6 +456,12 @@ For atomistic simulations, we can compare the SASA per each residue of type X wi
 \label{fig:BTI_sasa_exposed}
 \end{figure}
 
+\paragraph{D-amino acids} The results presented are from simulations of the capsule composed by standard amino acid (L- form). As explained in Chapter \ref{chapter:intro}, some experiments focussed on the opposite chiral form (D-version) for stability and immunogenicity reasons. Experimental works shows similar behaviour for the two epimers in solution, as it would be expected when they are in a non-chiral environment.
+
+Accordingly, simulations of D-amino acids should not give any discrepancy which what found before as they reproduce the behaviour of a mirror image of the system. As a control, we performed one run with such mirror system - and suitable amino acids parameters to keep the D- chirality - finding a similar behaviour of the capsule (i.e.\ differing from the L- simulations as much as the L- replicas differ among them).
+
+This investigation can be performed only at the atomistic level as the coarse grain model employed model the C$_\alpha$ and the hydrogen attached to it as a unique bead, loosing then the chirality of the centre.
+
 
 \subsection{Multiscale comparison of model capsule} \label{sec:res_multiscale}
 
@@ -594,11 +609,59 @@ In particular, at the side chain level, is recovered the strong interaction betw
 The expansion of the structure suggests that the atomistic simulations analysed before have indeed reached (or are reaching) an equilibrium: even if the atomistic radius of gyration in Figure \ref{fig:Rg} has not reached a plateau, the structure is unlikely to contract much more because when it is contracted (as it is after the backmapping) it expands back to the larger size observed in Figure \ref{fig:Rg}.
 Once more, this supports the reliability of the simulations performed so far.
 
-\begin{figure}[h!]
+\begin{figure}[t!]
 \centering\includegraphics[width=0.95\linewidth]{3results_capsule/pics/contacts_BM.png} 
 \caption[Backmapping simulations: contacts]{Number of contacts per residue type in each branch of capzip for an atomistic simulation backmapped from standard MARTINI (Replica 1). Only contacts existing more than 50\% of the simulation time are considered. Bars are split by the identity of the partner residue (color coded as in the $x$-axis legend). For mixed contacts the residue on the $x$-axis contributes with its backbone. Results are shown for Replica 1 of each simulation setup.}
 \label{fig:BM_contacts}
 \end{figure}
+
+\subsection{Self-assembly simulations}
+Preliminary simulations on the self-assembly properties of capzip were run with the standard MARTINI model. Indeed, the analysis above is a careful investigation on the determinants that can drive the assembly, but a vision of the process happening is still lacking.
+%
+In Chapter \ref{chapter:intro} we already highlighted that simulating an assembly process requires a great amount of resources. For this reason, we focus on the MARTINI model only, and we explore concentration of the order of mM, which are much higher than the experimental ones employed (around $\mu$M).
+
+Results from 1.25 mM, 2.50 mM and 10 mM runs showed the formation of increasingly larger and interconnected clusters when raising the concentration. Respectively the molecules aggregated into 7, 4 and 2 clusters within the first 6, 4 and 2.5 $\mu$s (Figure \ref{fig:SA_final}). It is not excluded that longer simulation would result in all the clusters joined together.
+%
+\begin{figure}[t!]
+\centering\includegraphics[width=0.4\linewidth]{3results_capsule/pics/lSA120.png} 
+\caption[Self-assembly simulations, final configurations]{Final configurations obtained from 10 $\mu$s standard MARTINI simulations of the self-assembly of capzip molecules from random initial configuration. Respectively (a) 1.25 mM , (b) 2.50 mM, (c) 10 mM concentration.}
+\label{fig:SA_final}
+\end{figure}
+
+The two properties we want to assess on these simulations are the contacts between the molecules, classified by amino acid type, and the SASA of each residue type, to be compared with the results form the capsule model. This would confirm the general rules we derived first on the drivers of the assembly. However, from the previous simulations we also know that the MARTINI parametrisation promotes a very tight assembly of the molecules once they get in proximity, and that this is partially reverted back when backmapping a structure to an atomistic description. Therefore, the results from self-assembly simulations must be interpreted with the caveat that the protein-protein interactions might be overestimated.
+
+The backbone contacts (Figure \ref{fig:SA_contacts}) show between 10 and 20 contacts per residue, which is about three times higher than the figure obtained for the ordered capsule structure (Figure \ref{fig:BTI_cont}). There is a slight increase with the concentration. The pattern of contacts suggest that Trypthopan interact with most partners. Interestingly, the contacts are distributed in a way which resemble more the atomistic pattern found for the capsule rather than the MARTINI one. In general, this confirms the role of the hydrophobic residues in keeping the assembly compact, but also suggests a collapse of the structure when a high concentration is simulated. Again, one must remember that a backmapping to atomistic would produce more open structure. Second, also at the experimental level, too high concentration (of the order of mM as the one simulated here) resulted in aggregation, i.e.\ the appearance of amorphous aggregates (not published).
+%
+\begin{figure}[t!]
+\centering\includegraphics[width=0.95\linewidth]{3results_capsule/pics/contacts_SA.png} 
+\caption[Self-assembly simulations: contacts]{Number of contacts per residue type in each branch of capzip for an MARTINI self assembly simulations at different initial concentrations. Backbone contacts displayed only. Only contacts existing more than 50\% of the simulation time are considered. Bars are split by the identity of the partner residue (color coded as in the $x$-axis legend).}
+\label{fig:SA_contacts}
+\end{figure}
+%
+Regarding the SASA values, they confirm what found also in the capsule conformation, with Arginine being exposed and Tryptophan buried. The SASA is decreasing with the concentration, as for low concentration several clusters are formed and float in solution separately (up to the timescale simulated), while for higher concentrations hte molecules can merge in larger clusters, which have more buried components.
+%
+\begin{figure}[t!]
+\subbottom[]{\includegraphics[height=0.3\linewidth]{3results_capsule/pics/st_SA_sasa_fractions.png} \label{fig:SA_sasa}} 
+\subbottom[]{\includegraphics[height=0.3\linewidth]{3results_capsule/pics/st_All_sasa_fractions.png} \label{fig:sasa_again}}
+\caption[Self-assembly simulations: SASA]{(a) Solvent Accessible Surface Area (SASA) per molecule, divided by residue types, for self-assembly simulations at different concentrations. (b) We report again for comparison the SASA obtained from simulations of the capsule in solution (Figure \ref{fig:BTI_sasa_exposed}).}
+\label{fig:SA_sasa_all}
+\end{figure}
+
+Interestingly, the decrease in SASA and increase in contacts does not scale linearly with the concentration, as expected when the systems reach saturation and the clusters cannot favourably accommodate more molecules. However, the conditions simulated are not enough to extract more precise conclusion on the dependence of such properties from the concentration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \section{Results: peptide-membrane interactions}
@@ -984,6 +1047,9 @@ why small field (only 20/40)
 
 
 ADDSelf assembly, new model lammps what to do, D amino acids
+
+\section{Outlook}
+
 
 \section{Rest}
 %

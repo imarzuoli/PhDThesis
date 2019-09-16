@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  15 SEP 2019 18:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  16 SEP 2019 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1516,7 +1516,7 @@ Package pdftex.def Info: 3results_capsule/pics/chain_COM_distance.png used on i
 nput line 83.
 (pdftex.def)             Requested size: 191.0383pt x 147.90082pt.
  [96]
-Overfull \hbox (2.59328pt too wide) in paragraph at lines 96--102
+Overfull \hbox (2.59328pt too wide) in paragraph at lines 96--104
 \OT1/cmr/m/n/12 spec-tively with the GRO-MOS 53a6 [Oost-en-brink et al., 2004],
  SIRAH [Machado
  []
@@ -1528,7 +1528,7 @@ File: 3results_capsule/pics/pL6_Pramp_pic2.png Graphic file (type png)
 
 <use 3results_capsule/pics/pL6_Pramp_pic2.png>
 Package pdftex.def Info: 3results_capsule/pics/pL6_Pramp_pic2.png used on input
- line 112.
+ line 114.
 (pdftex.def)             Requested size: 179.09879pt x 110.14014pt.
 
 <3results_capsule/pics/fig7_irene.png, id=560, 1809.76125pt x 1355.0625pt>
@@ -1536,105 +1536,99 @@ File: 3results_capsule/pics/fig7_irene.png Graphic file (type png)
 
 <use 3results_capsule/pics/fig7_irene.png>
 Package pdftex.def Info: 3results_capsule/pics/fig7_irene.png used on input lin
-e 113.
+e 115.
 (pdftex.def)             Requested size: 179.09879pt x 134.0875pt.
 
-Overfull \hbox (14.9179pt too wide) in paragraph at lines 124--129
-\OT1/cmr/bx/n/12 Atom-istic sim-u-la-tions[] \OT1/cmr/m/n/12 The atom-istic co-
-or-di-nates for the pep-tidic supramolec-
+Overfull \hbox (20.77344pt too wide) in paragraph at lines 126--131
+\OT1/cmr/bx/n/12 Sim-u-la-tions in so-lu-tion[] \OT1/cmr/m/n/12 The atom-istic 
+co-or-di-nates for the pep-tidic supramolec-
  []
 
 [98] [99 <./3results_capsule/pics/pL6_Pramp_pic2.png> <./3results_capsule/pics/
 fig7_irene.png>] [100] [101] [102] [103] [104]
-Overfull \hbox (13.50551pt too wide) in paragraph at lines 244--247
+Overfull \hbox (13.50551pt too wide) in paragraph at lines 251--252
 \OT1/cmr/m/n/12 were built with in-sane.py [Wasse-naar et al., 2015], with com-
 po-si-tion DLPC:DLPG
  []
 
-[105]
-Overfull \hbox (4.62082pt too wide) in paragraph at lines 270--271
+[105] [106]
+Overfull \hbox (4.62082pt too wide) in paragraph at lines 279--280
 []\OT1/cmr/m/n/12 We se-lected a con-fig-u-ra-tion from the early stages of po-
 ra-tion (at 40 mV/nm),
  []
 
-[106] [107] [108] [109]
+[107] [108] [109]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-
-<3results_capsule/pics/s6_theory.pdf, id=600, 796.9775pt x 597.23125pt>
+ [110]
+<3results_capsule/pics/s6_theory.pdf, id=604, 796.9775pt x 597.23125pt>
 File: 3results_capsule/pics/s6_theory.pdf Graphic file (type pdf)
 
 <use 3results_capsule/pics/s6_theory.pdf>
 Package pdftex.def Info: 3results_capsule/pics/s6_theory.pdf used on input line
- 335.
+ 344.
 (pdftex.def)             Requested size: 218.90121pt x 164.03406pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[110] [111 <./3results_capsule/pics/s6_theory.pdf>]
-<3results_capsule/pics/staR3_render.png, id=625, 1535.7375pt x 1261.71375pt>
+ [111 <./3results_capsule/pics/s6_theory.pdf>] [112]
+<3results_capsule/pics/staR3_render.png, id=628, 1535.7375pt x 1261.71375pt>
 File: 3results_capsule/pics/staR3_render.png Graphic file (type png)
 
 <use 3results_capsule/pics/staR3_render.png>
 Package pdftex.def Info: 3results_capsule/pics/staR3_render.png used on input l
-ine 360.
+ine 369.
 (pdftex.def)             Requested size: 199.0pt x 163.48949pt.
 
-<3results_capsule/pics/Rg_all.png, id=626, 349.305pt x 337.26pt>
+<3results_capsule/pics/Rg_all.png, id=629, 349.305pt x 337.26pt>
 File: 3results_capsule/pics/Rg_all.png Graphic file (type png)
 
 <use 3results_capsule/pics/Rg_all.png>
-Package pdftex.def Info: 3results_capsule/pics/Rg_all.png used on input line 36
-9.
+Package pdftex.def Info: 3results_capsule/pics/Rg_all.png used on input line 37
+8.
 (pdftex.def)             Requested size: 191.0383pt x 184.45404pt.
 
-<3results_capsule/pics/RMSD_all.png, id=627, 349.305pt x 337.26pt>
+<3results_capsule/pics/RMSD_all.png, id=630, 349.305pt x 337.26pt>
 File: 3results_capsule/pics/RMSD_all.png Graphic file (type png)
 
 <use 3results_capsule/pics/RMSD_all.png>
 Package pdftex.def Info: 3results_capsule/pics/RMSD_all.png used on input line 
-370.
+379.
 (pdftex.def)             Requested size: 191.0383pt x 184.45404pt.
 
-<3results_capsule/pics/RDF_all.png, id=628, 349.305pt x 289.08pt>
+<3results_capsule/pics/RDF_all.png, id=631, 349.305pt x 289.08pt>
 File: 3results_capsule/pics/RDF_all.png Graphic file (type png)
 
 <use 3results_capsule/pics/RDF_all.png>
 Package pdftex.def Info: 3results_capsule/pics/RDF_all.png used on input line 3
-71.
+80.
 (pdftex.def)             Requested size: 191.0383pt x 158.10345pt.
- [112]
-<3results_capsule/pics/RKGBcorr_boxplot_all.png, id=632, 602.25pt x 240.9pt>
+ [113 <./3results_capsule/pics/staR3_render.png>] [114 <./3results_capsule/pics
+/Rg_all.png (PNG copy)> <./3results_capsule/pics/RMSD_all.png (PNG copy)> <./3r
+esults_capsule/pics/RDF_all.png (PNG copy)>]
+<3results_capsule/pics/RKGBcorr_boxplot_all.png, id=638, 602.25pt x 240.9pt>
 File: 3results_capsule/pics/RKGBcorr_boxplot_all.png Graphic file (type png)
 
 <use 3results_capsule/pics/RKGBcorr_boxplot_all.png>
 Package pdftex.def Info: 3results_capsule/pics/RKGBcorr_boxplot_all.png used on
- input line 388.
+ input line 397.
 (pdftex.def)             Requested size: 378.09879pt x 151.24582pt.
 
-<3results_capsule/pics/stAll_beta_90_R1.png, id=633, 433.62pt x 204.765pt>
+<3results_capsule/pics/stAll_beta_90_R1.png, id=639, 433.62pt x 204.765pt>
 File: 3results_capsule/pics/stAll_beta_90_R1.png Graphic file (type png)
 
 <use 3results_capsule/pics/stAll_beta_90_R1.png>
 Package pdftex.def Info: 3results_capsule/pics/stAll_beta_90_R1.png used on inp
-ut line 401.
+ut line 410.
 (pdftex.def)             Requested size: 338.30243pt x 159.76291pt.
- [113 <./3results_capsule/pics/staR3_render.png>] [114 <./3results_capsule/pics
-/Rg_all.png (PNG copy)> <./3results_capsule/pics/RMSD_all.png (PNG copy)> <./3r
-esults_capsule/pics/RDF_all.png (PNG copy)>] [115 <./3results_capsule/pics/RKGB
-corr_boxplot_all.png (PNG copy)> <./3results_capsule/pics/stAll_beta_90_R1.png 
-(PNG copy)>]
+ [115 <./3results_capsule/pics/RKGBcorr_boxplot_all.png (PNG copy)>]
 <3results_capsule/pics/new_rep1_allFF.png, id=644, 578.16pt x 674.52pt>
 File: 3results_capsule/pics/new_rep1_allFF.png Graphic file (type png)
 
 <use 3results_capsule/pics/new_rep1_allFF.png>
 Package pdftex.def Info: 3results_capsule/pics/new_rep1_allFF.png used on input
- line 412.
+ line 421.
 (pdftex.def)             Requested size: 378.09879pt x 441.10881pt.
 
-Overfull \hbox (3.12778pt too wide) in paragraph at lines 423--426
+Overfull \hbox (3.12778pt too wide) in paragraph at lines 432--435
 []\OT1/cmr/m/n/12 The bar plot shows also that there is no rigid ar-range-ment 
 be-tween branches:
  []
@@ -1643,263 +1637,292 @@ be-tween branches:
 File: 3results_capsule/pics/Hb_all.png Graphic file (type png)
 
 <use 3results_capsule/pics/Hb_all.png>
-Package pdftex.def Info: 3results_capsule/pics/Hb_all.png used on input line 43
-4.
+Package pdftex.def Info: 3results_capsule/pics/Hb_all.png used on input line 44
+3.
 (pdftex.def)             Requested size: 338.30243pt x 281.93457pt.
-
-<3results_capsule/pics/st_All_sasa_fractions.png, id=646, 349.305pt x 216.81pt>
+ [116 <./3results_capsule/pics/stAll_beta_90_R1.png (PNG copy)>] [117 <./3resul
+ts_capsule/pics/new_rep1_allFF.png (PNG copy)>]
+<3results_capsule/pics/st_All_sasa_fractions.png, id=652, 349.305pt x 216.81pt>
 File: 3results_capsule/pics/st_All_sasa_fractions.png Graphic file (type png)
 <use 3results_capsule/pics/st_All_sasa_fractions.png>
 Package pdftex.def Info: 3results_capsule/pics/st_All_sasa_fractions.png used o
-n input line 444.
+n input line 453.
 (pdftex.def)             Requested size: 192.36884pt x 119.40121pt.
 
-<3results_capsule/pics/st_Qsasa.png, id=647, 349.305pt x 216.81pt>
+<3results_capsule/pics/st_Qsasa.png, id=653, 349.305pt x 216.81pt>
 File: 3results_capsule/pics/st_Qsasa.png Graphic file (type png)
 
 <use 3results_capsule/pics/st_Qsasa.png>
 Package pdftex.def Info: 3results_capsule/pics/st_Qsasa.png used on input line 
-445.
+454.
 (pdftex.def)             Requested size: 192.36884pt x 119.40121pt.
- [116] [117 <./3results_capsule/pics/new_rep1_allFF.png (PNG copy)>] [118 <./3r
-esults_capsule/pics/Hb_all.png (PNG copy)>]
-Overfull \hbox (2.68748pt too wide) in paragraph at lines 460--465
+ [118] [119 <./3results_capsule/pics/Hb_all.png (PNG copy)>]
+Overfull \hbox (2.68748pt too wide) in paragraph at lines 475--480
 \OT1/cmr/bx/n/12 Force field com-par-i-son[] \OT1/cmr/m/n/12 As fore-see-able, 
 each struc-ture ob-tained with coarse-
  []
 
-[119 <./3results_capsule/pics/st_All_sasa_fractions.png (PNG copy)> <./3results
-_capsule/pics/st_Qsasa.png (PNG copy)>] [120]
-<3results_capsule/pics/many_energies_brief.png, id=663, 433.62pt x 216.81pt>
+[120 <./3results_capsule/pics/st_All_sasa_fractions.png (PNG copy)> <./3results
+_capsule/pics/st_Qsasa.png (PNG copy)>] [121]
+<3results_capsule/pics/many_energies_brief.png, id=667, 433.62pt x 216.81pt>
 File: 3results_capsule/pics/many_energies_brief.png Graphic file (type png)
 
 <use 3results_capsule/pics/many_energies_brief.png>
 Package pdftex.def Info: 3results_capsule/pics/many_energies_brief.png used on 
-input line 490.
+input line 505.
 (pdftex.def)             Requested size: 318.40121pt x 159.20952pt.
 
-<3results_capsule/pics/ratio_energies_brief.png, id=664, 433.62pt x 216.81pt>
+<3results_capsule/pics/ratio_energies_brief.png, id=668, 433.62pt x 216.81pt>
 File: 3results_capsule/pics/ratio_energies_brief.png Graphic file (type png)
 
 <use 3results_capsule/pics/ratio_energies_brief.png>
 Package pdftex.def Info: 3results_capsule/pics/ratio_energies_brief.png used on
- input line 491.
+ input line 506.
 (pdftex.def)             Requested size: 318.40121pt x 159.20952pt.
- [121] [122 <./3results_capsule/pics/many_energies_brief.png (PNG copy)> <./3re
-sults_capsule/pics/ratio_energies_brief.png (PNG copy)>] [123]
-<3results_capsule/pics/compare_MonoBi_rmsd_init.png, id=675, 349.305pt x 289.08
+ [122] [123 <./3results_capsule/pics/many_energies_brief.png (PNG copy)> <./3re
+sults_capsule/pics/ratio_energies_brief.png (PNG copy)>] [124]
+<3results_capsule/pics/compare_MonoBi_rmsd_init.png, id=678, 349.305pt x 289.08
 pt>
 File: 3results_capsule/pics/compare_MonoBi_rmsd_init.png Graphic file (type png
 )
  <use 3results_capsule/pics/compare_MonoBi_rmsd_init.png>
 Package pdftex.def Info: 3results_capsule/pics/compare_MonoBi_rmsd_init.png use
-d on input line 536.
+d on input line 551.
 (pdftex.def)             Requested size: 191.0383pt x 158.10345pt.
 
-<3results_capsule/pics/compare_MonoBi_RDF.png, id=676, 349.305pt x 289.08pt>
+<3results_capsule/pics/compare_MonoBi_RDF.png, id=679, 349.305pt x 289.08pt>
 File: 3results_capsule/pics/compare_MonoBi_RDF.png Graphic file (type png)
 
 <use 3results_capsule/pics/compare_MonoBi_RDF.png>
 Package pdftex.def Info: 3results_capsule/pics/compare_MonoBi_RDF.png used on i
-nput line 537.
+nput line 552.
 (pdftex.def)             Requested size: 191.0383pt x 158.10345pt.
- [124 <./3results_capsule/pics/compare_MonoBi_rmsd_init.png (PNG copy)> <./3res
+ [125 <./3results_capsule/pics/compare_MonoBi_rmsd_init.png (PNG copy)> <./3res
 ults_capsule/pics/compare_MonoBi_RDF.png (PNG copy)>]
-<3results_capsule/pics/sirah_mono_all.png, id=680, 934.49126pt x 970.62625pt>
+<3results_capsule/pics/sirah_mono_all.png, id=683, 934.49126pt x 970.62625pt>
 File: 3results_capsule/pics/sirah_mono_all.png Graphic file (type png)
 
 <use 3results_capsule/pics/sirah_mono_all.png>
 Package pdftex.def Info: 3results_capsule/pics/sirah_mono_all.png used on input
- line 553.
+ line 568.
 (pdftex.def)             Requested size: 139.30243pt x 144.6842pt.
 
-<3results_capsule/pics/sirah_mono_detail.png, id=681, 1294.8375pt x 894.34125pt
+<3results_capsule/pics/sirah_mono_detail.png, id=684, 1294.8375pt x 894.34125pt
 >
 File: 3results_capsule/pics/sirah_mono_detail.png Graphic file (type png)
  <use 3results_capsule/pics/sirah_mono_detail.png>
 Package pdftex.def Info: 3results_capsule/pics/sirah_mono_detail.png used on in
-put line 554.
+put line 569.
 (pdftex.def)             Requested size: 199.0pt x 137.44786pt.
- [125 <./3results_capsule/pics/sirah_mono_all.png> <./3results_capsule/pics/sir
+ [126 <./3results_capsule/pics/sirah_mono_all.png> <./3results_capsule/pics/sir
 ah_mono_detail.png>]
-<3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png, id=685, 349.305pt x 21
+<3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png, id=688, 349.305pt x 21
 6.81pt>
 File: 3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png Graphic file (type
  png)
  <use 3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png>
 Package pdftex.def Info: 3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png
- used on input line 572.
+ used on input line 587.
 (pdftex.def)             Requested size: 191.0383pt x 118.57759pt.
 
-<3results_capsule/pics/st_sasaRes_mono_bi_bars.png, id=686, 349.305pt x 216.81p
+<3results_capsule/pics/st_sasaRes_mono_bi_bars.png, id=689, 349.305pt x 216.81p
 t>
 File: 3results_capsule/pics/st_sasaRes_mono_bi_bars.png Graphic file (type png)
 
  <use 3results_capsule/pics/st_sasaRes_mono_bi_bars.png>
 Package pdftex.def Info: 3results_capsule/pics/st_sasaRes_mono_bi_bars.png used
- on input line 573.
+ on input line 588.
 (pdftex.def)             Requested size: 191.0383pt x 118.57759pt.
 
-<3results_capsule/pics/Rg_backmap.png, id=687, 349.305pt x 289.08pt>
+<3results_capsule/pics/Rg_backmap.png, id=690, 349.305pt x 289.08pt>
 File: 3results_capsule/pics/Rg_backmap.png Graphic file (type png)
 
 <use 3results_capsule/pics/Rg_backmap.png>
 Package pdftex.def Info: 3results_capsule/pics/Rg_backmap.png used on input lin
-e 583.
+e 598.
 (pdftex.def)             Requested size: 191.0383pt x 158.10345pt.
 
-<3results_capsule/pics/RDF_BM.png, id=688, 349.305pt x 289.08pt>
+<3results_capsule/pics/RDF_BM.png, id=691, 349.305pt x 289.08pt>
 File: 3results_capsule/pics/RDF_BM.png Graphic file (type png)
 
 <use 3results_capsule/pics/RDF_BM.png>
-Package pdftex.def Info: 3results_capsule/pics/RDF_BM.png used on input line 58
-4.
+Package pdftex.def Info: 3results_capsule/pics/RDF_BM.png used on input line 59
+9.
 (pdftex.def)             Requested size: 191.0383pt x 158.10345pt.
- [126] [127 <./3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png (PNG copy
-)> <./3results_capsule/pics/st_sasaRes_mono_bi_bars.png (PNG copy)> <./3results
+ [127 <./3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png (PNG copy)> <./
+3results_capsule/pics/st_sasaRes_mono_bi_bars.png (PNG copy)>] [128 <./3results
 _capsule/pics/Rg_backmap.png (PNG copy)> <./3results_capsule/pics/RDF_BM.png (P
 NG copy)>]
-<3results_capsule/pics/contacts_BM.png, id=696, 578.16pt x 216.81pt>
+<3results_capsule/pics/contacts_BM.png, id=699, 578.16pt x 216.81pt>
 File: 3results_capsule/pics/contacts_BM.png Graphic file (type png)
 
 <use 3results_capsule/pics/contacts_BM.png>
 Package pdftex.def Info: 3results_capsule/pics/contacts_BM.png used on input li
-ne 598.
+ne 613.
 (pdftex.def)             Requested size: 378.09879pt x 141.78496pt.
- [128 <./3results_capsule/pics/contacts_BM.png (PNG copy)>]
-<3results_capsule/pics/apl.png, id=700, 1575.8875pt x 1003.75pt>
+
+<3results_capsule/pics/lSA120.png, id=700, 1381.16pt x 1031.855pt>
+File: 3results_capsule/pics/lSA120.png Graphic file (type png)
+
+<use 3results_capsule/pics/lSA120.png>
+Package pdftex.def Info: 3results_capsule/pics/lSA120.png used on input line 62
+6.
+(pdftex.def)             Requested size: 159.19757pt x 118.92061pt.
+ [129 <./3results_capsule/pics/contacts_BM.png (PNG copy)>]
+<3results_capsule/pics/contacts_SA.png, id=704, 578.16pt x 216.81pt>
+File: 3results_capsule/pics/contacts_SA.png Graphic file (type png)
+
+<use 3results_capsule/pics/contacts_SA.png>
+Package pdftex.def Info: 3results_capsule/pics/contacts_SA.png used on input li
+ne 636.
+(pdftex.def)             Requested size: 378.09879pt x 141.78496pt.
+
+<3results_capsule/pics/st_SA_sasa_fractions.png, id=705, 349.305pt x 216.81pt>
+File: 3results_capsule/pics/st_SA_sasa_fractions.png Graphic file (type png)
+
+<use 3results_capsule/pics/st_SA_sasa_fractions.png>
+Package pdftex.def Info: 3results_capsule/pics/st_SA_sasa_fractions.png used on
+ input line 644.
+(pdftex.def)             Requested size: 192.36884pt x 119.40121pt.
+File: 3results_capsule/pics/st_All_sasa_fractions.png Graphic file (type png)
+
+<use 3results_capsule/pics/st_All_sasa_fractions.png>
+Package pdftex.def Info: 3results_capsule/pics/st_All_sasa_fractions.png used o
+n input line 645.
+(pdftex.def)             Requested size: 192.36884pt x 119.40121pt.
+ [130 <./3results_capsule/pics/lSA120.png>] [131 <./3results_capsule/pics/conta
+cts_SA.png (PNG copy)> <./3results_capsule/pics/st_SA_sasa_fractions.png (PNG c
+opy)>]
+<3results_capsule/pics/apl.png, id=712, 1575.8875pt x 1003.75pt>
 File: 3results_capsule/pics/apl.png Graphic file (type png)
 
 <use 3results_capsule/pics/apl.png>
-Package pdftex.def Info: 3results_capsule/pics/apl.png used on input line 618.
+Package pdftex.def Info: 3results_capsule/pics/apl.png used on input line 681.
 (pdftex.def)             Requested size: 268.01756pt x 170.71652pt.
 
-Overfull \hbox (3.90929pt too wide) in paragraph at lines 618--619
+Overfull \hbox (3.90929pt too wide) in paragraph at lines 681--682
  [][] 
  []
 
-<3results_capsule/pics/diff2_3.png, id=701, 245.20178pt x 258.10715pt>
+<3results_capsule/pics/diff2_3.png, id=713, 245.20178pt x 258.10715pt>
 File: 3results_capsule/pics/diff2_3.png Graphic file (type png)
 
 <use 3results_capsule/pics/diff2_3.png>
 Package pdftex.def Info: 3results_capsule/pics/diff2_3.png used on input line 6
-22.
+85.
 (pdftex.def)             Requested size: 162.18536pt x 170.71652pt.
 
-Overfull \hbox (3.92137pt too wide) in paragraph at lines 622--623
+Overfull \hbox (3.92137pt too wide) in paragraph at lines 685--686
  [][] 
  []
 
-<3results_capsule/pics/order2.png, id=702, 953.5625pt x 1003.75pt>
+<3results_capsule/pics/order2.png, id=714, 953.5625pt x 1003.75pt>
 File: 3results_capsule/pics/order2.png Graphic file (type png)
 
 <use 3results_capsule/pics/order2.png>
-Package pdftex.def Info: 3results_capsule/pics/order2.png used on input line 62
-6.
+Package pdftex.def Info: 3results_capsule/pics/order2.png used on input line 68
+9.
 (pdftex.def)             Requested size: 162.17622pt x 170.71652pt.
 
-Overfull \hbox (3.91223pt too wide) in paragraph at lines 626--627
+Overfull \hbox (3.91223pt too wide) in paragraph at lines 689--690
  [][] 
  []
 
-[129] [130 <./3results_capsule/pics/apl.png> <./3results_capsule/pics/diff2_3.p
-ng (PNG copy)> <./3results_capsule/pics/order2.png>]
-<3results_capsule/pics/pb4_S6.png, id=711, 1505.625pt x 1304.875pt>
+[132] [133 <./3results_capsule/pics/apl.png> <./3results_capsule/pics/diff2_3.p
+ng (PNG copy)> <./3results_capsule/pics/order2.png>] [134]
+<3results_capsule/pics/pb4_S6.png, id=727, 1505.625pt x 1304.875pt>
 File: 3results_capsule/pics/pb4_S6.png Graphic file (type png)
 
 <use 3results_capsule/pics/pb4_S6.png>
-Package pdftex.def Info: 3results_capsule/pics/pb4_S6.png used on input line 67
-1.
+Package pdftex.def Info: 3results_capsule/pics/pb4_S6.png used on input line 73
+4.
 (pdftex.def)             Requested size: 199.0pt x 172.46703pt.
- [131] [132 <./3results_capsule/pics/pb4_S6.png>]
-<3results_capsule/pics/cg-130_600ns.png, id=719, 1326.9575pt x 1098.1025pt>
+ [135 <./3results_capsule/pics/pb4_S6.png>] [136] [137]
+<3results_capsule/pics/cg-130_600ns.png, id=739, 1326.9575pt x 1098.1025pt>
 File: 3results_capsule/pics/cg-130_600ns.png Graphic file (type png)
 
 <use 3results_capsule/pics/cg-130_600ns.png>
 Package pdftex.def Info: 3results_capsule/pics/cg-130_600ns.png used on input l
-ine 762.
+ine 825.
 (pdftex.def)             Requested size: 128.0374pt x 105.94612pt.
 
-Overfull \hbox (28.47621pt too wide) in paragraph at lines 762--763
+Overfull \hbox (28.47621pt too wide) in paragraph at lines 825--826
  [][] 
  []
 
 
-<3results_capsule/pics/pore_large_130.png, id=720, 1414.28375pt x 1267.73625pt>
+<3results_capsule/pics/pore_large_130.png, id=740, 1414.28375pt x 1267.73625pt>
 File: 3results_capsule/pics/pore_large_130.png Graphic file (type png)
 <use 3results_capsule/pics/pore_large_130.png>
 Package pdftex.def Info: 3results_capsule/pics/pore_large_130.png used on input
- line 767.
+ line 830.
 (pdftex.def)             Requested size: 170.71652pt x 153.01161pt.
 
-Overfull \hbox (15.43558pt too wide) in paragraph at lines 766--768
+Overfull \hbox (15.43558pt too wide) in paragraph at lines 829--831
  [][] 
  []
 
-<3results_capsule/pics/pore_arg.png, id=721, 345.4506pt x 376.2858pt>
+<3results_capsule/pics/pore_arg.png, id=741, 345.4506pt x 376.2858pt>
 File: 3results_capsule/pics/pore_arg.png Graphic file (type png)
 
 <use 3results_capsule/pics/pore_arg.png>
 Package pdftex.def Info: 3results_capsule/pics/pore_arg.png used on input line 
-772.
+835.
 (pdftex.def)             Requested size: 113.81102pt x 123.96799pt.
 
-Overfull \hbox (14.24983pt too wide) in paragraph at lines 771--773
+Overfull \hbox (14.24983pt too wide) in paragraph at lines 834--836
  [][] 
  []
 
-[133] [134] [135 <./3results_capsule/pics/cg-130_600ns.png> <./3results_capsule
-/pics/pore_large_130.png> <./3results_capsule/pics/pore_arg.png>] [136]
-[137] [138] [139]
-Overfull \hbox (1.53667pt too wide) in paragraph at lines 902--905
+[138 <./3results_capsule/pics/cg-130_600ns.png> <./3results_capsule/pics/pore_l
+arge_130.png> <./3results_capsule/pics/pore_arg.png>] [139] [140] [141]
+[142]
+Overfull \hbox (1.53667pt too wide) in paragraph at lines 965--968
 \OT1/cmr/bx/n/12 Stan-dard MAR-TINI sim-u-la-tions[] \OT1/cmr/m/n/12 Coarse gra
 in sim-u-la-tions al-low to model
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<3results_capsule/pics/RDF_PO4_around_Prot.png, id=748, 349.305pt x 289.08pt>
+[143]
+<3results_capsule/pics/RDF_PO4_around_Prot.png, id=763, 349.305pt x 289.08pt>
 File: 3results_capsule/pics/RDF_PO4_around_Prot.png Graphic file (type png)
 
 <use 3results_capsule/pics/RDF_PO4_around_Prot.png>
 Package pdftex.def Info: 3results_capsule/pics/RDF_PO4_around_Prot.png used on 
-input line 952.
+input line 1015.
 (pdftex.def)             Requested size: 238.80243pt x 197.63043pt.
- [140] [141] [142 <./3results_capsule/pics/RDF_PO4_around_Prot.png (PNG copy)>]
-
-<3results_capsule/pics/picmartiniPW.png, id=758, 1172.38pt x 463.7325pt>
+ [144] [145 <./3results_capsule/pics/RDF_PO4_around_Prot.png (PNG copy)>]
+<3results_capsule/pics/picmartiniPW.png, id=771, 1172.38pt x 463.7325pt>
 File: 3results_capsule/pics/picmartiniPW.png Graphic file (type png)
 
 <use 3results_capsule/pics/picmartiniPW.png>
 Package pdftex.def Info: 3results_capsule/pics/picmartiniPW.png used on input l
-ine 967.
+ine 1030.
 (pdftex.def)             Requested size: 378.09879pt x 149.55081pt.
 
-Overfull \hbox (3.64583pt too wide) in paragraph at lines 972--973
+Overfull \hbox (3.64583pt too wide) in paragraph at lines 1035--1038
 []\OT1/cmr/m/n/12 As in mem-brane sim-u-la-tions the pres-sure cou-pling is per
 -formed semi isotrop-
  []
 
-[143 <./3results_capsule/pics/picmartiniPW.png>] [144
+[146 <./3results_capsule/pics/picmartiniPW.png>] [147] [148
 
 ]
 File: 3results_capsule/pics/bb_contacts.png Graphic file (type png)
 
 <use 3results_capsule/pics/bb_contacts.png>
 Package pdftex.def Info: 3results_capsule/pics/bb_contacts.png used on input li
-ne 1110.
+ne 1182.
 (pdftex.def)             Requested size: 179.09879pt x 138.65536pt.
- [145]) [146]
+ [149]) [150]
 \openout2 = `4lip_par/lip_par.aux'.
 
 
-(./4lip_par/lip_par.tex [147
+(./4lip_par/lip_par.tex [151
 
 
 
-] [148]
-<4lip_par/pics/apl_localVSbox.pdf, id=778, 325.215pt x 325.215pt>
+] [152]
+<4lip_par/pics/apl_localVSbox.pdf, id=794, 325.215pt x 325.215pt>
 File: 4lip_par/pics/apl_localVSbox.pdf Graphic file (type pdf)
 
 <use 4lip_par/pics/apl_localVSbox.pdf>
@@ -1910,13 +1933,13 @@ Package pdftex.def Info: 4lip_par/pics/apl_localVSbox.pdf used on input line 48
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[149
+[153
 
-] [150 <./4lip_par/pics/apl_localVSbox.pdf>]
+] [154 <./4lip_par/pics/apl_localVSbox.pdf>]
 
 pdfTeX warning: pdflatex (file ./4lip_par/pics/compare_density.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<4lip_par/pics/compare_density.pdf, id=788, 704.6325pt x 569.12625pt>
+<4lip_par/pics/compare_density.pdf, id=804, 704.6325pt x 569.12625pt>
 File: 4lip_par/pics/compare_density.pdf Graphic file (type pdf)
 
 <use 4lip_par/pics/compare_density.pdf>
@@ -1924,31 +1947,31 @@ Package pdftex.def Info: 4lip_par/pics/compare_density.pdf used on input line 6
 7.
 (pdftex.def)             Requested size: 218.90121pt x 176.80074pt.
 
-<4lip_par/pics/patches.png, id=789, 1211.52625pt x 1031.855pt>
+<4lip_par/pics/patches.png, id=805, 1211.52625pt x 1031.855pt>
 File: 4lip_par/pics/patches.png Graphic file (type png)
 
 <use 4lip_par/pics/patches.png>
 Package pdftex.def Info: 4lip_par/pics/patches.png used on input line 68.
 (pdftex.def)             Requested size: 139.30243pt x 118.6372pt.
-) [151 <./4lip_par/pics/compare_density.pdf> <./4lip_par/pics/patches.png>]
+) [155 <./4lip_par/pics/compare_density.pdf> <./4lip_par/pics/patches.png>]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
 
-LaTeX Warning: Reference `eq:predictive_distribution' on page 152 undefined on 
+LaTeX Warning: Reference `eq:predictive_distribution' on page 156 undefined on 
 input line 12.
 
 
-Package natbib Warning: Citation `--' on page 152 undefined on input line 12.
+Package natbib Warning: Citation `--' on page 156 undefined on input line 12.
 
 
-Package natbib Warning: Citation `--' on page 152 undefined on input line 12.
+Package natbib Warning: Citation `--' on page 156 undefined on input line 12.
 
-) [152
+) [156
 
 
 
-] (./thesis.bbl [153
+] (./thesis.bbl [157
 
 
 
@@ -1962,62 +1985,62 @@ Class memoir Warning: The \sl font command is deprecated.
 (memoir)              Use \textsl{...} or {\slshape... } instead on input line 
 117.
 
-[154]
+[158]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [155] [156] [157] [158]
+ [159] [160] [161] [162]
 Underfull \hbox (badness 1189) in paragraph at lines 361--366
 \OT1/cmr/m/n/12 rich an-timi-cro-bial pep-tides: Struc-tures and mech-a-nisms o
 f ac-tion.
  []
 
-[159]
+[163]
 Underfull \hbox (badness 1005) in paragraph at lines 450--454
 []\OT1/cmr/m/n/12 City of Vi-enna Cli-mate Pro-tec-tion Pro-gramme (2012).  The
  Vi-en-nese
  []
 
-[160]
+[164]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [161]
+ [165]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no π in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Å in font cmr12!
 Missing character: There is no ¥ in font cmr12!
- [162] [163]
+ [166] [167]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [164] [165] [166] [167] [168] [169] [170] [171]
-[172] [173] [174] [175] [176] [177]
+ [168] [169] [170] [171] [172] [173] [174] [175]
+[176] [177] [178] [179] [180] [181]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [178] [179] [180] [181]
+ [182] [183] [184] [185]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [182] [183]
+ [186] [187]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 
-[184] [185] [186] [187] [188]
+[188] [189] [190] [191] [192]
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 2179.
 
- [189] [190] [191] [192]
+ [193] [194] [195] [196]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ∂ in font cmr12!
- [193] [194])
+ [197] [198])
 
 Package natbib Warning: There were undefined citations.
 
-[195]
+[199]
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
@@ -2034,15 +2057,12 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 22380 strings out of 493029
- 405853 string characters out of 6136233
- 484451 words of memory out of 5000000
- 25261 multiletter control sequences out of 15000+600000
+ 22405 strings out of 493029
+ 406564 string characters out of 6136233
+ 482785 words of memory out of 5000000
+ 25281 multiletter control sequences out of 15000+600000
  20019 words of font info for 75 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  70i,14n,92p,1274b,1188s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2066,10 +2086,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (195 pages, 44438058 bytes).
+Output written on thesis.pdf (199 pages, 44884051 bytes).
 PDF statistics:
- 1014 PDF objects out of 1200 (max. 8388607)
- 632 compressed objects within 7 object streams
+ 1030 PDF objects out of 1200 (max. 8388607)
+ 641 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 378 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 393 words of extra memory for PDF output out of 10000 (max. 10000000)
 
