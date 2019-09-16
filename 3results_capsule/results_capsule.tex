@@ -20,9 +20,9 @@ Out of the pre-built capzip structures, a few selected ones were simulated in co
 \includegraphics[width=0.9\linewidth]{3results_capsule/pics/merged_figures_beta_sheet} \label{fig:hb_beta_SIhere_hb}} \\
 \bigskip
 \subbottom[]{%
-\includegraphics[width=0.47\linewidth]{3results_capsule/pics/pi_stacking_plot_part2} \label{fig:hb_beta_SIhere_pi1}} \hspace{0.2cm}
+\includegraphics[width=0.47\linewidth]{3results_capsule/pics/pi_stacking_0} \label{fig:hb_beta_SIhere_pi1}} \hspace{0.2cm}
 \subbottom[]{%
-\includegraphics[width=0.47\linewidth]{3results_capsule/pics/pi_stacking_plot_part1} \label{fig:hb_beta_SIhere_pi2}}
+\includegraphics[width=0.47\linewidth]{3results_capsule/pics/pi_stacking_90} \label{fig:hb_beta_SIhere_pi2}}
 \caption[Hydrogen bonds and $\pi$-stacking in a RRWTWE $\beta$-sheet]{(a) Presence of backbone hydrogen bonds between two facing antiparallel RRWTWE chains. The top right inset shows a scheme of the initial configuration. All the pairs highlighted in blue, green and pink are monitored and reported in the histogram (labels by amino acid pairs, named as in the inset figure and underlined with matching color); occupancy is averaged over 16 simulations of 20 ns. (b, c) For each replica and possible pair of facing Tryptophan residues in the $\beta$-sheet, the map gives the fraction of time for which a parallel or perpendicular $\pi$-stacking interaction has been observed. The second and third column correspond to pairs interacting by backbone hydrogen bonds.}
 \label{fig:hb_beta_SIhere}
 \end{figure}
@@ -98,13 +98,13 @@ The final structure was simulated at atomistic and coarse-grain levels, respecti
 From the final configurations of the MARTINI coarse-grain model (standard water), atomistic coordinates were obtained and simulated, to be compared with the original atomistic dynamics.
 %
 %Proving the stability at different timescales ascertains the characteristics that favour the assembly and identify the ones with suboptimal fitness to select them for improvement.
-Moreover, additional simulations were run at all the coarse-grain levels on a structure made of one layer only (i.e.\ built from pentagonal subunit make by one pentagon only), to prove whether the bilayer structure is more energetically favoured.
-%
-Finally, a preliminary study on self-assembly was performed with one of the coarse grain representation chosen (MARTINI), starting from molecule of capzip randomly placed in a box of solution.
+Moreover, additional simulations were run at all the coarse-grain levels on a structure made of one layer only (i.e.\ built from pentagonal subunit make by one pentagon only), to prove whether the bilayer is more energetically favoured.
+
+Finally, a preliminary study on self-assembly was performed with one of the coarse grain representations (namely MARTINI with standard water), starting from capzip molecules randomly placed in a box of solution.
 
 A multiscale analysis is needed also to investigate the antimicrobial activity. Being highly costing to simulate a full truncated icosahedron on a bilayer patch at the atomistic level, the pentagonal subunit employed to build the complete structure (Figure \ref{fig:BTI_vmd_2}) was taken as representative of the latter. It was simulated close to the membrane plane, parallel to it, to avoid spending time in sampling conformations with the peptide far from the membrane (Figure \ref{fig:pL6_vmd_1}). This, together with a tailored use of an applied electric field (see Section \ref{sec:details}), speeds up simulations considerably.
 %
-To observe the natural binding of the peptide to the membrane, the process of the full buckyball approaching a model membrane was simulated with a MARTINI coarse-grain description (Figure \ref{fig:pL6_vmd_2}). The use of the MARTINI polar water\citep{Yesylevskyy2010} allowed the introduction of an external electric field, to compare the coarse grain simulations with the atomistic ones which employ analogous conditions.
+To observe the natural binding of the peptide to the membrane, the process of the full buckyball approaching a model membrane was simulated with a MARTINI coarse-grain description (Figure \ref{fig:pL6_vmd_2}). The use of the MARTINI polar water \citep{Yesylevskyy2010} allowed the introduction of an external electric field, to compare the coarse grain simulations with the atomistic ones which employ analogous conditions.
 
 % TRUE ONLY IF COMPLETED DPPC
 Two membrane patches were simulated for both resolutions, a model bacterial and a model mammalian membrane, to identify the different interactions with the peptide. The first one presents 25\% of anionic lipids (DLPG), and the remaining zwitterionic (DLPC), while the second has only DLPC lipids. The choice of the bacterial model was dictated by the experiments performed on capzip \citep{Castelletto2016}, and the mammalian one was built with the same zwitterionic lipid as for the bacterial, to simplify the comparison, e.g.\ to have membranes with comparable thickness and mechanical properties.
@@ -246,7 +246,7 @@ For MARTINI \citep{Marrink2007, Monticelli2008} coarse-grain simulations, peptid
 
 Initial coordinate for the self-assembly simulations were obtained with GROMACS tools, placing the desired amount of molecules with random positions in the simulation box.
 %
-The side of the cubic box chosen was 44 nm, and three different peptide concentrations were simulated: 1.25 mM (60 molecules), 2.50 mM (120 molecules) and 10 mM (480 molecules), all for 10 $\mu$s.
+The side of the cubic box was chosen as 44 nm, and three different peptide concentrations were simulated: 1.25 mM (60 molecules), 2.50 mM (120 molecules) and 10 mM (480 molecules), all for 10 $\mu$s.
 
 The bacterial and mammalian model membranes, hosting 2880 lipids each, were built with insane.py \citep{Wassenaar2015}, with composition DLPC:DLPG 3:1 and pure DLPC respectively. The simulations parameters used for lipids are consistent with \citet{SiewertJ.Marrink2003}. The peptide-membrane systems were built placing the buckyball at a minimum distance of 1 nm from the membrane surface.
 
@@ -435,9 +435,9 @@ Nevertheless, this specific residue has clearly a prominent role in forming cont
 
 \paragraph{Hydrogen bonds interaction} As some of these contacts are mediated by an hydrogen bond interaction, their average number of inter molecular hydrogen bonds occurring during the simulations is computed, divided by the number of molecules and classified by residue type.
 % SAY THAT THEY ARE THE ONE OCCURRING AT ANY MOMENT, AND NOT THE ONES SURVIVING MORE THAN 50%?
-We further classify the hydrogen bonds occurring between backbones and/or side chains. Tryptophan contributes to a large number of backbone hydrogen bonds (Figure \ref{fig:BTI_hbonds}, a), especially with other Tryoptophan residues, consistently with what found in the analysis of contacts carried on previously. Arginine side chains are the most prone to establish H-bonds as a donor with many different amino acid side chains (Figure \ref{fig:BTI_hbonds}, b), but especially with Glutammic acid as expected from the facing positions they occupy in the network arrangement.
+We further classify the hydrogen bonds occurring between backbones and/or side chains. Tryptophan contributes to a large number of backbone hydrogen bonds (Figure \ref{fig:BTI_hbonds}, A), especially with other Tryoptophan residues, consistently with what found in the analysis of contacts carried on previously. Arginine side chains are the most prone to establish H-bonds as a donor with many different amino acid side chains (Figure \ref{fig:BTI_hbonds}, B), but especially with Glutammic acid as expected from the facing positions they occupy in the network arrangement.
 %
-Similarly, a common interactions is between Glu backbone and Arg side chain (Figure \ref{fig:BTI_hbonds}, c), and between Arg backbone and most of the other side chains (Figure \ref{fig:BTI_hbonds}, d).
+Similarly, a common interactions is between Glu backbone and Arg side chain (Figure \ref{fig:BTI_hbonds}, C), and between Arg backbone and most of the other side chains (Figure \ref{fig:BTI_hbonds}, D).
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.85\linewidth]{3results_capsule/pics/Hb_all.png} 
@@ -458,9 +458,9 @@ For atomistic simulations, we can compare the SASA per each residue of type X wi
 
 \paragraph{D-amino acids} The results presented are from simulations of the capsule composed by standard amino acid (L- form). As explained in Chapter \ref{chapter:intro}, some experiments focussed on the opposite chiral form (D-version) for stability and immunogenicity reasons. Experimental works shows similar behaviour for the two epimers in solution, as it would be expected when they are in a non-chiral environment.
 
-Accordingly, simulations of D-amino acids should not give any discrepancy which what found before as they reproduce the behaviour of a mirror image of the system. As a control, we performed one run with such mirror system - and suitable amino acids parameters to keep the D- chirality - finding a similar behaviour of the capsule (i.e.\ differing from the L- simulations as much as the L- replicas differ among them).
+Accordingly, simulations of D-amino acids should not give any discrepancy with what found before, as they reproduce the behaviour of a mirror image of the system. As a control, we performed one run with such mirror system - and suitable amino acids parameters to keep the D- chirality - finding a similar behaviour of the capsule (i.e.\ differing from the L- simulations as much as the L- replicas differ among them).
 
-This investigation can be performed only at the atomistic level as the coarse grain model employed model the C$_\alpha$ and the hydrogen attached to it as a unique bead, loosing then the chirality of the centre.
+This investigation can be performed only at the atomistic level as the coarse grain models employed represent the C$_\alpha$ and the hydrogen attached to it as a unique bead, loosing then the chirality of this centre.
 
 
 \subsection{Multiscale comparison of model capsule} \label{sec:res_multiscale}
@@ -616,29 +616,33 @@ Once more, this supports the reliability of the simulations performed so far.
 \end{figure}
 
 \subsection{Self-assembly simulations}
-Preliminary simulations on the self-assembly properties of capzip were run with the standard MARTINI model. Indeed, the analysis above is a careful investigation on the determinants that can drive the assembly, but a vision of the process happening is still lacking.
+Preliminary simulations on the self-assembly properties of capzip were run with the standard MARTINI model. Indeed, the analysis above is a careful investigation of the determinants that can drive the assembly, but a vision of the process happening is still lacking.
 %
-In Chapter \ref{chapter:intro} we already highlighted that simulating an assembly process requires a great amount of resources. For this reason, we focus on the MARTINI model only, and we explore concentration of the order of mM, which are much higher than the experimental ones employed (around $\mu$M).
+In Chapter \ref{chapter:intro} we already highlighted that simulating an assembly process requires a great amount of computational resources. For this reason, we focus on the MARTINI model with standard water only, and we explore concentrations of the order of mM, which are much higher than the ones employed in experiments (around $\mu$M).
 
-Results from 1.25 mM, 2.50 mM and 10 mM runs showed the formation of increasingly larger and interconnected clusters when raising the concentration. Respectively the molecules aggregated into 7, 4 and 2 clusters within the first 6, 4 and 2.5 $\mu$s (Figure \ref{fig:SA_final}). It is not excluded that longer simulation would result in all the clusters joined together.
+Results from 1.25 mM, 2.50 mM and 10 mM runs showed the formation of increasingly larger and interconnected clusters when raising the concentration. Respectively, the molecules aggregated into 7, 4 and 2 clusters within the first 6, 4 and 2.5 $\mu$s of the simulations (Figure \ref{fig:SA_final}). It is not excluded that longer simulation would result in all the clusters joined together.
 %
 \begin{figure}[t!]
-\centering\includegraphics[width=0.4\linewidth]{3results_capsule/pics/lSA120.png} 
-\caption[Self-assembly simulations, final configurations]{Final configurations obtained from 10 $\mu$s standard MARTINI simulations of the self-assembly of capzip molecules from random initial configuration. Respectively (a) 1.25 mM , (b) 2.50 mM, (c) 10 mM concentration.}
+\centering\includegraphics[width=0.95\linewidth]{3results_capsule/pics/final_SA.png} 
+\caption[Self-assembly simulations, final configurations]{Final configurations obtained from 10 $\mu$s standard MARTINI simulations of the self-assembly of capzip molecules, from random initial configuration, at different concentrations. Boundaries of the simuation box in blue; different clusters are circled in red (the remaining ones are periodic copies of the ones highlighted).}
 \label{fig:SA_final}
 \end{figure}
 
-The two properties we want to assess on these simulations are the contacts between the molecules, classified by amino acid type, and the SASA of each residue type, to be compared with the results form the capsule model. This would confirm the general rules we derived first on the drivers of the assembly. However, from the previous simulations we also know that the MARTINI parametrisation promotes a very tight assembly of the molecules once they get in proximity, and that this is partially reverted back when backmapping a structure to an atomistic description. Therefore, the results from self-assembly simulations must be interpreted with the caveat that the protein-protein interactions might be overestimated.
+The two properties we want to assess from these simulations are the contacts between the molecules, classified by amino acid type, and the SASA of each residue type, to be compared with the results from the capsule model. However, from the previous simulations we also know that the MARTINI parametrisation promotes a very tight assembly of the molecules once they get in proximity, and that this is partially reverted back when backmapping a structure to an atomistic description. Therefore, the results from self-assembly simulations must be interpreted with the caveat that the protein-protein interactions might be overestimated.
 
-The backbone contacts (Figure \ref{fig:SA_contacts}) show between 10 and 20 contacts per residue, which is about three times higher than the figure obtained for the ordered capsule structure (Figure \ref{fig:BTI_cont}). There is a slight increase with the concentration. The pattern of contacts suggest that Trypthopan interact with most partners. Interestingly, the contacts are distributed in a way which resemble more the atomistic pattern found for the capsule rather than the MARTINI one. In general, this confirms the role of the hydrophobic residues in keeping the assembly compact, but also suggests a collapse of the structure when a high concentration is simulated. Again, one must remember that a backmapping to atomistic would produce more open structure. Second, also at the experimental level, too high concentration (of the order of mM as the one simulated here) resulted in aggregation, i.e.\ the appearance of amorphous aggregates (not published).
+The backbone contacts (Figure \ref{fig:SA_contacts}) show between 10 and 20 contacts per residue, which is about three times higher than the figure obtained for the ordered capsule structure (Figure \ref{fig:BTI_cont}), in line with a densely packed assembly.
 %
+Furthermore, there is a slight increase with the concentration.
+
+The pattern of contacts suggest once more that Trypthopan interact with most partners. Interestingly, the contacts are distributed in a way which resemble more the atomistic pattern found for the capsule rather than the MARTINI one. In general, this confirms the role of the hydrophobic residues in keeping the assembly compact, but also suggests a collapse of the structure when a high concentration is simulated.
+
 \begin{figure}[t!]
 \centering\includegraphics[width=0.95\linewidth]{3results_capsule/pics/contacts_SA.png} 
 \caption[Self-assembly simulations: contacts]{Number of contacts per residue type in each branch of capzip for an MARTINI self assembly simulations at different initial concentrations. Backbone contacts displayed only. Only contacts existing more than 50\% of the simulation time are considered. Bars are split by the identity of the partner residue (color coded as in the $x$-axis legend).}
 \label{fig:SA_contacts}
 \end{figure}
 %
-Regarding the SASA values, they confirm what found also in the capsule conformation, with Arginine being exposed and Tryptophan buried. The SASA is decreasing with the concentration, as for low concentration several clusters are formed and float in solution separately (up to the timescale simulated), while for higher concentrations hte molecules can merge in larger clusters, which have more buried components.
+Regarding SASA values (Figure \ref{fig:SA_sasa_all}), they confirm what found also in the capsule conformation, with Arginine being exposed and Tryptophan buried. The SASA is decreasing with the concentration, as for low concentration several clusters are formed and float in solution separately (up to the timescale simulated), while for higher concentrations the molecules can merge in fewer larger clusters, which have less exposed surface.
 %
 \begin{figure}[t!]
 \subbottom[]{\includegraphics[height=0.3\linewidth]{3results_capsule/pics/st_SA_sasa_fractions.png} \label{fig:SA_sasa}} 
@@ -647,10 +651,9 @@ Regarding the SASA values, they confirm what found also in the capsule conformat
 \label{fig:SA_sasa_all}
 \end{figure}
 
-Interestingly, the decrease in SASA and increase in contacts does not scale linearly with the concentration, as expected when the systems reach saturation and the clusters cannot favourably accommodate more molecules. However, the conditions simulated are not enough to extract more precise conclusion on the dependence of such properties from the concentration.
+Interestingly, the decrease in SASA and increase in contacts does not scale linearly with the concentration, as expected when the systems reach saturation and the clusters cannot favourably accommodate more molecules. However, the number of concentration simulated here are not enough to extract a more precise dependence between these properties.
 
-
-
+Again, when interpreting these results, one must remember that a backmapping to an atomistic resolution would produce more open structures. However, also at the experimental level, high concentrations (of the order of mM as the ones simulated here) resulted in aggregation, i.e.\ the appearance of amorphous aggregates rather than geometrical capsules (not published). The MARTINI simulations are likely capturing this behaviour, and one would need a long simulation of a diluted solution to observe an ordered assembly. As it is almost impossible to simulate the micromolar regime used in experiments, the simulations of pre-assembled structures, as the ones presented previously in this chapter, are, so far, the only ones able to explore the relevant range of concentrations.
 
 
 
@@ -1177,15 +1180,9 @@ Regarding the different cut off values, we did not find previous work testing th
 
 
 \subsection{Supplementary figures}
-\begin{figure}[t]
-\centering
-\subbottom[]{\includegraphics[width=0.45\linewidth]{3results_capsule/pics/bb_contacts.png} \label{fig:si}}
-\caption[SI: pentagonal subunit simulations]{Pentagonal subunit simulations: (a) initial configuration; (b) final configuration after 100 ns of atomistic simulations.}
-\label{fig:penta_results_SI}
-\end{figure}
 
 \subsection{Supplementary tables}
-\begin{figure}[t]
+\begin{figure}[h!]
 \centering
  \def\arraystretch{1.6}
 \begin{tabular}{lccccc}

@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: front.aux
@@ -9,7 +9,7 @@ A level-1 auxiliary file: 3results_capsule/results_capsule.aux
 A level-1 auxiliary file: 4lip_par/lip_par.aux
 A level-1 auxiliary file: appendix.aux
 The style file: my_apalike.bst
-Reallocated field_info (elt_size=4) to 14372 items from 5000.
+Reallocated field_info (elt_size=4) to 14042 items from 5000.
 Database file #1: thesis_ref2.bib
 Warning--entry type for "poly" isn't style-file defined
 --line 3065 of file thesis_ref2.bib
@@ -30,45 +30,45 @@ Warning--empty journal in SiewertJ.Marrink2003
 Warning--empty journal in Oneill2016
 Warning--empty booktitle in Pattni2015
 Warning--empty booktitle in Vogel2017
-You've used 425 entries,
+You've used 410 entries,
             1958 wiz_defined-function locations,
-            3052 strings with 100717 characters,
-and the built_in function-call counts, 199605 in all, are:
-= -- 20195
-> -- 9985
-< -- 131
-+ -- 4170
-- -- 3267
-* -- 18089
-:= -- 33775
-add.period$ -- 1271
-call.type$ -- 425
-change.case$ -- 4067
-chr.to.int$ -- 418
-cite$ -- 432
-duplicate$ -- 5989
-empty$ -- 12549
-format.name$ -- 3858
-if$ -- 38612
-int.to.chr$ -- 8
+            2965 strings with 97298 characters,
+and the built_in function-call counts, 192671 in all, are:
+= -- 19499
+> -- 9624
+< -- 129
++ -- 4017
+- -- 3150
+* -- 17458
+:= -- 32590
+add.period$ -- 1226
+call.type$ -- 410
+change.case$ -- 3924
+chr.to.int$ -- 405
+cite$ -- 417
+duplicate$ -- 5779
+empty$ -- 12119
+format.name$ -- 3724
+if$ -- 37279
+int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 414
-newline$ -- 2120
-num.names$ -- 1277
-pop$ -- 3459
+missing$ -- 399
+newline$ -- 2045
+num.names$ -- 1232
+pop$ -- 3335
 preamble$ -- 1
-purify$ -- 4072
+purify$ -- 3929
 quote$ -- 0
-skip$ -- 5769
+skip$ -- 5571
 stack$ -- 0
-substring$ -- 15120
-swap$ -- 503
+substring$ -- 14628
+swap$ -- 488
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2542
+type$ -- 2452
 warning$ -- 7
-while$ -- 1582
+while$ -- 1525
 width$ -- 0
-write$ -- 5489
+write$ -- 5294
 (There were 13 warnings)
