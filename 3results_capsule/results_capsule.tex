@@ -355,10 +355,13 @@ The diffusion coefficient D was obtained from a linear fit of the MSD(t), follow
 \langle \left( x - x_0 \right)^2 \rangle = 4Dt.
 \end{equation}
 The fit was performed in the regions which showed a linear dependence. This implied discarding the first interval of the profile, where the behaviour is not linear, and the last one, where the poorer statistics leads to more noisy data. We choose 50 ns each for atomistic simulations and 100 ns each for MARTINI ones to be suitable for each simulation condition of the respective resolution. 
+\end{itemize}
 
-\item For atomistic simulations of the protein on the membrane, the network of hydrogen bonds between the protein and lipids has been computed, classifying the interactions by the protein residue type and the lipid species they occur between.
-%
-Finally, the aforementioned diffusion constant can also be computed selectively on the lipids which, at the initial time, are within this threshold distance from the protein or, conversely, which are further away from it.
+For atomistic simulations of the protein on the membrane, further analysis includes the following:
+\begin{itemize}
+\item we analysed the network of hydrogen bonds between the protein and lipids has been computed, classifying the interactions by the protein residue type and the lipid species between which they occur;
+\item the aforementioned diffusion constant can also be computed selectively on the lipids which, at the initial time, are within this threshold distance from the protein or, conversely, which are further away from it;
+\item the insertion depthh of each amino acid in the membrane was calculated as the difference between the $z$ position of the lowest atom of the amino acid and the average of the maximum $z$ coordinate of the five lipids closest to it.
 \end{itemize}
 
 \section{Results: capsule in solution} \label{sec:results_cap}
