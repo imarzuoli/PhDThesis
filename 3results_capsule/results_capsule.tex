@@ -10,9 +10,9 @@ This description has an high computational cost though, preventing the simulatio
 %
 Thus, we simulated increasingly complex pre-assembled blocks, verifying each time their behaviour in solution and inferring whether they are suitable to form a stable supramolecular structure. This approach, fully explained in Section \ref{sec:build}, lead to the model of a minimal capsule, which has been subsequently investigated at coarser levels to explore its behaviour on longer time scales.
 
-This multiscale approach constitutes also an interesting methodological investigation as, to our knowledge, it compares for the first time the performances of the SIRAH force field \cite{Machado2018} versus the MARTINI \citep{Marrink2007, Monticelli2008} one, without or with polar water \citep{Yesylevskyy2010}. Indeed, when choosing a coarse grain representation, it is crucial to understand which aspects of the parametrisation are closer to its atomistic counterpart and which are instead more approximate. This helps in choosing the appropriate description for the system and the questions investigated.
+This multiscale approach constitutes also an interesting methodological investigation as, to our knowledge, it compares for the first time the performances of the SIRAH force field \citep{Machado2018} versus the MARTINI \citep{Marrink2007, Monticelli2008} one, without or with polar water \citep{Yesylevskyy2010}. Indeed, when choosing a coarse grain representation, it is crucial to understand which aspects of the parametrisation are closer to its atomistic counterpart and which are instead more approximate. This helps in selecting the appropriate description for the system and the questions investigated.
 
-Out of the pre-built capzip structures, a few selected ones were simulated in contact with model membranes, bacterial and mammalian, to understand the determinants of their antimicrobial activity. Details on these simulations and the specific techniques employed to enhance the sampling are given in Section \ref{sec:details}.
+Out of the pre-built capzip structures, a few selected ones were simulated in contact with model membranes, bacterial and mammalian, to understand the determinants of their antimicrobial activity. Details on these simulations and the specific techniques employed to promote the interaction are given in Section \ref{sec:details}.
 
 \begin{figure}[p]
 \centering
@@ -31,13 +31,13 @@ Out of the pre-built capzip structures, a few selected ones were simulated in co
 
 As previously mentioned, the antimicrobial sequence of capzip is designed with opposite charges at its extremes to favour an antiparallel $\beta$-sheets pairing with other copies of itself.
 %
-MD simulations of two RRWTWE sequences paired in this fashion confirm that the assembly is stabilised by opposite charge interactions (statistics gathered over 16 replicas, each run for 20 ns).
+MD simulations of two RRWTWE sequences paired in this fashion confirm that the assembly is stabilised by the interactions between opposite charges (statistics gathered over 16 replicas, each run for 20 ns).
 %
-Moreover, backbone hydrogen bonds form between Tryptophan residues of facing strands, after a rearrangement of the mutual position of the backbones (Figure \ref{fig:hb_beta_SIhere_hb}).
+Moreover, backbone hydrogen bonds form between Tryptophan residues of facing strands, after a rearrangement of the mutual position of the residues which brings Trp ones in front of each other (Figure \ref{fig:hb_beta_SIhere_hb}).
 %
-Finally, $\pi$-stacking contributes to the interaction as well, albeit in minor measure (Figure \ref{fig:hb_beta_SIhere_pi1}, \subcaptionref{fig:hb_beta_SIhere_pi2}. Details on its computation in Section \ref{sec:analysis}).
+Finally, $\pi$-stacking between Tryptophan side chains contributes to the interaction as well, albeit in minor measure (Figure \ref{fig:hb_beta_SIhere_pi1}, \subcaptionref{fig:hb_beta_SIhere_pi2}; details on its computation are explained in Section \ref{sec:analysis}).
 
-Analogous simulations of two RRWTWE sequences paired in a parallel way show loosening of the pairing and in some cases a flip of one sequence to rearrange with respect to the other in the antiparallel manner.
+Analogous simulations of two RRWTWE sequences paired in a parallel way show loosening of the pairing and in some cases the flip of one sequence to rearrange with respect to the other in the antiparallel manner, confirming that the antiparallel arrangement is favoured.
 
 \begin{figure}[p!]
 \centering
@@ -55,27 +55,25 @@ Analogous simulations of two RRWTWE sequences paired in a parallel way show loos
 \end{figure}
 %PUT YELLOW-GREEN SCHEME COLOUR AS IN THE FOLLOWING + SUPERIMPOSE TRANSPARENT SURFACE TO SHOW RESIDUE TYPE
 
-The favourable hydrophobic interactions between Tryptophan residues (in white in Figure \ref{fig:BTI_vmd_1}) result in a hydrophobic patch which includes four of them on one side of the $\beta$-sheet plane.
+The hydrophobic interactions between Tryptophan residues (in white in Figure \ref{fig:BTI_vmd_1}) result in the creation of a hydrophobic patch which includes four of them on one side of the $\beta$-sheet plane.
 %
-This creates an amphiphilic structure where the hydrophobic core is segregated from the remaining charged residues distributed at the other positions.
+This creates an amphiphilic structure where the hydrophobic core is segregated from the remaining charged residues distributed around.
 %
-The combination of two stacking $\beta$-sheets, paired to match their hydrophobic patches, constitutes an effective supramolecular assemblies to reduce solvent exposure of such residues.
+The combination of two stacking $\beta$-sheets, paired to match their hydrophobic patches, constitutes an effective supramolecular assemblies to reduce the solvent exposure of such residues.
 
 This pairing strategy, however, needs to be applied in the context of assembly of complete molecules.
 %
-The quasi three-fold symmetry of capzip suggests a regular geometric arrangement; even if simulations of a single molecule in solution highlight its flexibility, proposing that more than one arrangement can be accommodated by the molecule.
+The quasi three-fold symmetry of capzip suggests a regular geometric arrangement; even if simulations of a single molecule in solution highlight its flexibility, proposing that multiple arrangements can be accommodated by the molecule.
 %
 The best examples of geometrically organised protein structures can be found in viral capsids, which are composed by the regular repetition of highly symmetric protein subunits.
 %
-Inspired by this, we tested whether a geometrical organisation can represent a stable capsule, choosing as minimal representative geometry a truncated icosahedron (buckyball).
+Inspired by this, we tested whether a geometrical organisation can represent a stable capsule, choosing as minimal representative geometry a truncated icosahedron (buckyball). This shape has 12 pentagonal faces and 20 hexagonal ones.
 
-Preliminary atomistic simulations (100 ns) were run on a pentagonal subunit (Figure \ref{fig:BTI_vmd_2}), where ten antimicrobial molecules arranged in two stack-
-ing pentagons. Capzip arms are paired in antiparallel $\beta$-sheets to form each
-pentagon, and the two of them are facing with their Tryptophan residues in contact.
+Preliminary atomistic simulations (100 ns) were run on a pentagonal subunit (Figure \ref{fig:BTI_vmd_2}), where ten antimicrobial molecules arranged in two stacking pentagons. Capzip arms are paired in antiparallel $\beta$-sheets to form each pentagon, and the two of them are facing with their Tryptophan residues in contact.
 %
-The simulations prove the cohesion between molecules belonging to the subunit. Specifically, the number of contacts between backbone $C_\alpha$s did not decrease in time but augmented slightly at the beginning (Figure \ref{fig:penta_results_here_1}), due to the compaction of the unpaired external arms toward the core of the structure (see Figure \ref{fig:penta_results_SI} in SI Section \ref{sec:ch3_SI}).
+The simulations prove the cohesion between molecules belonging to the subunit. Specifically, the number of contacts between backbone $C_\alpha$s augmented slightly in the first 20 ns (Figure \ref{fig:penta_results_here_1}), due to the compaction of the unpaired external arms toward the core of the structure (see Figure \ref{fig:penta_results_SI} in SI Section \ref{sec:ch3_SI}).
 %
-Moreover, for each pair of facing chains (see definition in Figure \ref{fig:penta_results_here_2} legend), we computed the distance between their centres of mass. Figure \ref{fig:penta_results_here_2} reports the variance of these distances normalised by their average value, as a measure of the cohesion of the subunit, showing that in the majority of the cases less than 2\% of variability is observed. Overall, the block is not rigid, and does indeed deform and go back to the pentagonal shape multiple times in the simulations, but it is keeping the network of the original molecule pairing.
+Moreover, for each pair of facing chains (see definition in Figure \ref{fig:penta_results_here_2} legend), we computed the distance between their centres of mass. Figure \ref{fig:penta_results_here_2} reports the variance of these distances normalised by their average value, as a measure of the cohesion of the subunit, showing that in the majority of the cases less than 2\% of variability is observed. Overall, the block is not rigid, and does indeed deform and go back to the pentagonal shape multiple times in the simulations, but it is keeping the original pairing of the molecules.
 % RUN SECOND SIMULATION?
 \begin{figure}[t]
 \centering
@@ -85,29 +83,29 @@ Moreover, for each pair of facing chains (see definition in Figure \ref{fig:pent
 \label{fig:penta_results_here}
 \end{figure}
 
-The pentagonal subunit respects the building principles of a) $\beta$-sheet pairing between antimicrobial sequences and b) double layer structure to screen the hydrophobic patches. It can thus be used to build an icosahedron, constituting each of its faces.
-%
-Thus, each capzip molecule is centred in one vertex of the polygon, with the branches laying alongside the edges departing from it. On each edge two branches coming from opposite sides meet in an antiparallel fashion. When possible, they are tightly paired by a $\beta$-sheets with paired Tryptophan residues (as in Figure \ref{fig:BTI_vmd_1}). The stacking pentagons interact through the hydrophobic patches of their $\beta$-sheet which are arranged in facing positions.
+The pentagonal subunit respects the building principles of a) $\beta$-sheet pairing between antimicrobial sequences and b) double layer structure to screen the hydrophobic patches. Thus twelve of these units can be used to build a truncated icosahedron (Figure \ref{fig:BTI_vmd_3}), constituting its pentagonal faces (the hexagonal ones are formed by consequence by the branches extending from the pentagon).
 
-The full truncated icosahedron was assembled from twelve pentagonal subunits (Figure \ref{fig:BTI_vmd_3}). As each subunit is formed by two stacked pentagons, the resulting structure has two concentric layers, for a total of 120 molecules, and initial radius of 7.7 nm.
+Each capzip molecule is centred in one vertex of the polygon, with the branches laying alongside the edges departing from it. On each edge two branches coming from opposite sides meet in an antiparallel fashion. When possible, they are tightly paired in $\beta$-sheets with facing Tryptophan residues (as in Figure \ref{fig:BTI_vmd_1}). The stacking pentagons interact through the hydrophobic patches of their $\beta$-sheet, which are arranged in facing positions, with interdigitating Tryptophan if possible.
 %
-As anticipated, this geometry represents a minimal model of the possible structures of capzip assembly in solution. Given the flexibility of the molecule, different arrangements are possible, though they are likely proceeding from analogous interactions between the minimal components (the arms of capzip).
+The full truncated icosahedron (Figure \ref{fig:BTI_vmd_3}) has two concentric layers, for a total of 120 molecules, and initial radius of 7.7 nm.
+%
+As anticipated, this geometry represents a minimal model of the possible structures capzip adopts in solution. Given the flexibility of the molecule, different arrangements are possible, though they are likely proceeding from analogous interactions between the minimal components (the arms of capzip).
 
-The final structure was simulated at atomistic and coarse-grain levels, respectively with the GROMOS 53a6 \citep{Oostenbrink2004}, SIRAH \citep{Machado2018} and MARTINI \citep{Marrink2007, Monticelli2008} force fields (with both standard and polar water \citep{Yesylevskyy2010}).
+The final structure was simulated at atomistic and coarse-grain levels, respectively with the GROMOS 53A6 \citep{Oostenbrink2004}, SIRAH \citep{Machado2018} and MARTINI \citep{Marrink2007, Monticelli2008} force fields (with both standard and polar water \citep{Yesylevskyy2010}).
 % LEAVE?
 From the final configurations of the MARTINI coarse-grain model (standard water), atomistic coordinates were obtained and simulated, to be compared with the original atomistic dynamics.
 %
 %Proving the stability at different timescales ascertains the characteristics that favour the assembly and identify the ones with suboptimal fitness to select them for improvement.
-Moreover, additional simulations were run at all the coarse-grain levels on a structure made of one layer only (i.e.\ built from pentagonal subunit make by one pentagon only), to prove whether the bilayer is more energetically favoured.
+Moreover, additional simulations were run at all the coarse-grain levels on a structure made of one layer only (i.e.\ built from pentagonal subunits made by one pentagon only), to prove whether the bilayer is more energetically favoured.
 
-Finally, a preliminary study on self-assembly was performed with one of the coarse grain representations (namely MARTINI with standard water), starting from capzip molecules randomly placed in a box of solution.
+Finally, a preliminary study on self-assembly was performed with one of the coarse grain representations (MARTINI with standard water), starting from capzip molecules randomly placed in solution.
 
 A multiscale analysis is needed also to investigate the antimicrobial activity. Being highly costing to simulate a full truncated icosahedron on a bilayer patch at the atomistic level, the pentagonal subunit employed to build the complete structure (Figure \ref{fig:BTI_vmd_2}) was taken as representative of the latter. It was simulated close to the membrane plane, parallel to it, to avoid spending time in sampling conformations with the peptide far from the membrane (Figure \ref{fig:pL6_vmd_1}). This, together with a tailored use of an applied electric field (see Section \ref{sec:details}), speeds up simulations considerably.
 %
 To observe the natural binding of the peptide to the membrane, the process of the full buckyball approaching a model membrane was simulated with a MARTINI coarse-grain description (Figure \ref{fig:pL6_vmd_2}). The use of the MARTINI polar water \citep{Yesylevskyy2010} allowed the introduction of an external electric field, to compare the coarse grain simulations with the atomistic ones which employ analogous conditions.
 
 % TRUE ONLY IF COMPLETED DPPC
-Two membrane patches were simulated for both resolutions, a model bacterial and a model mammalian membrane, to identify the different interactions with the peptide. The first one presents 25\% of anionic lipids (DLPG), and the remaining zwitterionic (DLPC), while the second has only DLPC lipids. The choice of the bacterial model was dictated by the experiments performed on capzip \citep{Castelletto2016}, and the mammalian one was built with the same zwitterionic lipid as for the bacterial, to simplify the comparison, e.g.\ to have membranes with comparable thickness and mechanical properties.
+Two membrane patches were simulated for both resolutions, a model bacterial and a model mammalian membrane, to identify the different interactions with the peptide. The first one presents 25\% of anionic lipids (DLPG), and the remaining zwitterionic (DLPC), while the second has only DLPC lipids. The choice of the bacterial model was dictated by the experiments performed on capzip \citep{Castelletto2016}, and the mammalian one was built with the same zwitterionic lipid as for the bacterial to simplify the comparison, e.g.\ to have membranes with comparable thickness and mechanical properties.
 
 \begin{figure}[t]
 \centering
@@ -116,24 +114,22 @@ Two membrane patches were simulated for both resolutions, a model bacterial and 
 \caption[Snapshot of simulations of capzip on model membranes]{(a) Atomistic structure of a pentagonal subunit on a 740 lipid bacterial model membrane of composition DLPC:DLPG 3:1 (initial configuration). Peptide backbone in line and cartoon representation; lipid in cyan lines (DLPC) and blue ones (DLPC), all lipids phosphate in golden van der Waals beads. (b) coarse-grain (MARTINI) representation of the buckyball on a 2880 lipids bacterial model membrane (final configuration of the trajectory). Protein in bonds representation: green outer buckyball layer, yellow inner one. Lipid in line representation, coloured by bead type, and lipids phosphate in golden van der Waals beads. [VMD software \citet{HUMP96}]}
 \label{fig:pL6_vmd}
 \end{figure}
-
-
 \section{Simulations details} \label{sec:details}
 
 All simulations were performed with the GROMACS software, version 5.5 and 2016 \citep{Berendsen1995,Abraham2015,gromacs_man}. 
 
 \subsection{Atomistic simulations}
-\paragraph{Simulations in solution} The atomistic coordinates for the peptidic supramolecular assemblies described in Section \ref{sec:build} were built combining GROMACS tools and the MOE software \citep{moe}.
+\paragraph{Simulations in solution} The atomistic coordinates for the peptidic supramolecular assemblies described in Section \ref{sec:build} (Figure \ref{fig:BTI_vmd_3}) were built combining GROMACS tools and the MOE software \citep{moe}.
 %
-Simulations were run with the GROMOS 53a6 force field \citep{Oostenbrink2004}. Parameters for the central residue connected with the peptidic chains were computed with the ATB software \citep{Malde2011, Koziara2014}; the ones for the bonds joining it to the antimicrobial side chains were derived from the values tabulated in the force field for analogous ones.
+Simulations were run with the GROMOS 53A6 force field \citep{Oostenbrink2004}. Parameters for the central residue connected with the peptidic chains were computed with the ATB software \citep{Malde2011, Koziara2014}; the ones for the bonds joining this residue to the antimicrobial side chains were derived from the values tabulated in the force field for analogous ones.
 %
-An python module has been designed to manipulate GROMACS topology objects and ease the process of compiling them for multibranched peptides which is not supported by the standard GROMACS tools, and for which a manual implementation would be otherwise needed (see Appendix \ref{sec:Appendix_software} for details).
+A python module has been designed to manipulate GROMACS topology objects for the GROMOS force field and add peptide bonds at the location required (see Appendix \ref{sec:Appendix_software} for details). This is useful for multibranched peptides which are not supported by the standard GROMACS tools, and for which a manual implementation would be otherwise needed.
 
-The systems were solvated with single point charge (SPC) water \citep{Berendsen1981} and counter ions were added (Na$^+$ or Cl$^-$); further ions are introduced to reach the concentration of 150 mM, to reproduce the experimental conditions. Given the presence of counter ions, the species to which they belong had a slightly higher concentration.
+The systems were solvated with single point charge (SPC) water \citep{Berendsen1981} and counter ions were added (Na$^+$ or Cl$^-$); further ions were introduced to reach the concentration of 150 mM, to reproduce the experimental conditions. Given the presence of counter ions, the species to which they belong had a slightly higher concentration.
 %
-For simulations of a single $\beta$-sheets and of the pentagonal subunit, the systems were energy minimised with a steepest descent algorithm, then equilibrated in the NVT ensemble with decreasing positional restraints at increasing temperatures (100 K, 200 K, 250 K, 300 K and respectively 1000, 1000, 500, 250 kJ/mol$\cdot$nm$^2$ restraints, 100 ps each); then in the NPT ensemble, without restraints, at the same temperatures steps and for the same time. Production was followed for 100 ns.
+For simulations of a single $\beta$-sheets and of the pentagonal subunit, the systems were energy minimised with a steepest descent algorithm, then equilibrated in the NVT ensemble with decreasing positional restraints at increasing temperatures (100 K, 200 K, 250 K, 300 K and respectively 1000, 1000, 500, 250 kJ/mol$\cdot$nm$^2$ restraints, 100 ps each); then in the NPT ensemble, without restraints, at the same temperatures steps and for the same time. Production followed for 100 ns.
 
-For the truncated icosahedron structure the above equilibration was still insufficient. Due to the construction procedure, two thirds of the branches are not properly paired along the edges.
+For the truncated icosahedron structure the above equilibration was insufficient. Due to the construction procedure, two thirds of the branches are not properly paired along the edges.
 %
 Therefore, after an NVT equilibration as above, strong flat-bottom restrains (1000 kJ/mol$\cdot$nm$^2$) were placed between the center of mass of imperfectly aligned branches throughout the NPT heating, to penalise their mutual separation with respect to their initial distance (100 ps runs at 100 K, 200 K and 250 K and 35 ns at 300 K).
 %
@@ -141,7 +137,7 @@ This was followed by a series of 10 ns runs at 300 K with decreasing flat-bottom
 %
 Three different replicas were run, generated from the final configuration of the 300 K NPT run with 1000 kJ/mol$\cdot$nm$^2$ restraints.
 
-Throughout all the simulations, the temperature was maintained by independently coupling the protein and the solvent (plus ions) to two external temperature baths using a velocity rescale thermostat \citep{Bussi2007} with coupling constant $\tau _T$ of 0.1 ps. The pressure was kept at 1 bar by Berendsen \citep{Berendsen1984} or Parrinello-Rahman barostat \citep{Parrinello1981} (for the equilibration phases and the production run respectively) using an isotropic coupling, with isothermal compressibility 4.5 $\times$ 10$^{-5}$ bar$^{-1}$ and coupling constant $\tau_P$ of 1 ps. Electrostatic interactions were treated using the smooth Particle Mesh Ewald (PME) algorithm \citep{Essmann1995}, with a short-range cutoff of 0.9 nm. The van der Waals interactions were treated with a plain 0.9 nm cutoff. All atomistic runs were performed using a 2 fs time step. An overview of simulations of peptide assembly in solution is given in Table \ref{table:sim_solution}.
+Throughout all the simulations, the temperature was maintained by independently coupling the protein and the solvent (plus ions) to two external temperature baths using a velocity rescale thermostat \citep{Bussi2007} with coupling constant $\tau _T$ of 0.1 ps. The pressure was kept at 1 bar by Berendsen \citep{Berendsen1984} or Parrinello-Rahman barostat \citep{Parrinello1981} (for the equilibration phases and the production run respectively) using an isotropic coupling, with isothermal compressibility of 4.5 $\times$ 10$^{-5}$ bar$^{-1}$ and coupling constant $\tau_P$ of 1 ps. Electrostatic interactions were treated using the smooth Particle Mesh Ewald (PME) algorithm \citep{Essmann1995}, with a short-range cutoff of 0.9 nm. The van der Waals interactions were treated with a plain 0.9 nm cutoff. All atomistic runs were performed using a 2 fs time step. An overview of the simulations of peptide assemblies in solution is given in Table \ref{table:sim_solution}.
 
 \begin{figure}[t]
 \centering
@@ -161,39 +157,42 @@ Throughout all the simulations, the temperature was maintained by independently 
  Random (60, 120, 480) & MA & 10000 & 1 \\
  \hline
  \end{tabular}
-\captionof{table}[Simulations of capzip assembly in water]{Table of simulations of capzip assembly in water. \emph{Bucky.\ bi} = buckyball bilayer; \emph{Bucky.\ mono} = buckyball monolayer. \emph{Random} = random configuration of capzip molecules in a box (see Section \ref{sec:MARTINI_sim_det}). Force field (FF): GR = united atom GROMOS 53a6 \citep{Oostenbrink2004}, SI = coarse-grain SIRAH \citep{Machado2018}, MA = coarse-grain MARTINI \citep{Marrink2007, Monticelli2008}, MA\_P = coarse-grain MARTINI with polar water \citep{Yesylevskyy2010}.}
+\captionof{table}[Simulations of capzip assemblies in water]{Table of simulations of capzip assembly in water. \emph{Bucky.\ bi} = buckyball bilayer; \emph{Bucky.\ mono} = buckyball monolayer. \emph{Random} = random configuration of capzip molecules in a box (see Section \ref{sec:MARTINI_sim_det}). Force field (FF): GR = united atom GROMOS 53A6 \citep{Oostenbrink2004}, SI = coarse-grain SIRAH \citep{Machado2018}, MA = coarse-grain MARTINI \citep{Marrink2007, Monticelli2008}, MA\_P = coarse-grain MARTINI with polar water \citep{Yesylevskyy2010}.}
 \label{table:sim_solution}
 \end{figure}
 
-\paragraph{Simulation with membranes} The atomistic coordinates for the bacterial membrane patch were built with the PACKMOL software \citep{Martinez2009}, from pdb files of a single DLPC \citep{PogerOrig} and DLPG \citep{Kukol2009} molecule. Two patches were built, made respectively of 512 and 740 lipids, with composition DLPC:DLPG (3:1). The initial area per lipid was set to 0.70 nm$^2$, above the values found experimentally for either lipid species (0.608(12) nm$^2$ for DLPC \citep{Kucerka2011} and 0.656(12) nm$^2$ for DLPG \citep{Pan2012}). The correct area per lipid of the mixture was reached during a 400 ns equilibration, the final configuration of which was used for simulations with the peptide.
+\paragraph{Simulation with membranes} The atomistic coordinates for the bacterial membrane patch were built with the PACKMOL software \citep{Martinez2009}, from pdb files of a single DLPC \citep{PogerOrig} and DLPG \citep{Kukol2009} molecule. Two patches were built, made respectively of 512 and 740 lipids, with composition DLPC:DLPG (3:1). The initial area per lipid was set to 0.70 nm$^2$, above the values found experimentally for either lipid species (0.608(12) nm$^2$ for DLPC \citep{Kucerka2011} and 0.656(12) nm$^2$ for DLPG \citep{Pan2012}). The correct area per lipid of the mixture was reached during a 400 ns equilibration (see details below), the final configuration of which was used for simulations with the peptide.
 % VERIFY WE CAN RUN IT!!!
 Given the analysis performed on the bacterial patch (see Section \ref{sec:lip_atom_bact}), for DLPC we opted for simulating a large membrane only. Accordingly, we produced a patch with 748 lipids and initial area per lipid of 0.68 nm$^2$.
 
-For membrane-peptide atomistic simulations, the initial configuration was generated from the equilibrated bilayer (after 400 ns run) and the equilibrated pentagonal subunit (after 100 ns run with positional restraints on the C$_\alpha$), placing the subunit plane parallel to the membrane and close to it (Figure \ref{fig:pL6_vmd}).
+For membrane-peptide atomistic simulations, the initial configuration was generated from the equilibrated bilayer and the equilibrated pentagonal subunit (after 100 ns run with positional restraints on the C$_\alpha$), placing the subunit plane parallel to the membrane and close to it (Figure \ref{fig:pL6_vmd}).
 %
 The inflategro script \citep{Kandt2007} was used to solve the partial overlap of peptide side chains with lipid molecules, removing the overlapping lipids if necessary.
 %In the configuration chosen, 6 and 3 lipids are removed from the 512 and 740 lipids bacteria membrane patch respectively and 13 from the 748 mammalian membrane one.
 %
 The sizes of the two patches fit the pentagonal subunit with respectively 3.5 nm and 5.4 nm distance between its periodic boundary images (along both $x$ and $y$).
 
-For simulations involving membranes, the version 54a7 of the GROMOS force field \citep{Schmid2011} was initially chosen and used for simulations of the 512 lipids patches, but upon further research version 54a8 \citep{Oostenbrink2005, Reif2013} was deemed more suitable ad thus selected for runs on the 740 lipids patches. Lipid parameters were taken from \citep{PogerOrig} for DLPC, while for DLPG they were built from the ones available in the literature for POPG \citep{Kukol2009}.
+For simulations involving membranes, the version 54A7 of the GROMOS force field \citep{Schmid2011} was initially chosen and it is thus used for simulations of the 512 lipids patches, but upon further research version 54A8 \citep{Oostenbrink2005, Reif2013} was deemed more suitable ad thus selected for the runs on the larger patches. Lipid parameters were taken from \citep{PogerOrig} for DLPC, while for DLPG they were built from the ones available in the literature for POPG \citep{Kukol2009}.
 
 The simulations set-up is as above, except for the use of three thermal coupling groups (peptide, membrane, water plus ions), a semi-isotropic pressure coupling, and a larger cut off radius for both Coulomb and van der Waals interactions (1.2 nm). Additionally, for the 512 lipids membrane, a Reaction Field \citep{Tironi1995} was used instead of PME long range electrostatic treatment (with cut off radius 1.4 nm). Control simulations on membrane patches without peptide showed that the results in terms of area per lipid are compatible with the ones obtained using PME.
 
 Each membrane patch was first equilibrated for 50 ps in NPT conditions at 50 K, then the temperature was gradually increased up to 300 K in 500 ps, and finally a 400 ns production was run. A similar equilibration procedure was followed for peptide-membrane systems.
 
-Additional simulations were performed applying an external electric field to the membrane, pointing from the side hosting the peptide to the opposite one, to mimic the membrane potential and verify how the peptide affects the membrane response to external stimuli.
+Additional simulations were performed applying an external electric field to the membrane, pointing from the side hosting the peptide to the opposite one, to mimic the membrane potential and verify how the peptide affects the response to external stimuli.
 %
-As a control, test simulations were run on the 512 lipids bacterial patch, where the field was increased by 20 mV/nm steps every 200 ns, until reaching the electroporation value, which resulted to be 140 mV/nm.
+In a first run the field was increased by 20 mV/nm steps every 200 ns (or 10 mV/ns when reaching the critical value), until poration was induced (at 130 mV/nm).
 %
-Additional control simulations were performed for the 512 and 740 lipids patch (thre replicas each) starting from the unperturbed membrane configuration and the threshold field, and one replica each at the higher value of 140 mV/nm.
+Another simulation was performed for both the 512 and 740 lipids patches, with the threshold field, starting from the unperturbed membrane configuration (three replicas each).
+%
+As a control, analogous test simulations were run on the 512 lipids bacterial patch, assessing the electroporation threshold at the higher value of 140 mV/nm.
 
-To be noticed that the field across the bacterial inner membrane can be estimated around 35 mV/nm, and 20 mV/nm across mammalian one (from, respectively, a -130/-150 mV and -70/-90 mV potential \citep{Yeaman2003,Wilson2011} and an estimate membrane thickness of 4 nm). However, previous computational work often explored the effects of higher fields, up to 500 mV/nm \citep{Tieleman2004, Bockmann2008, Piggot2011}, to witness poration within the simulations time, according to the resources available.
+To be noticed that the field across the bacterial inner membrane can be estimated around 35 mV/nm, and across the mammalian one 20 mV/nm (from, respectively, a -130/-150 mV and -70/-90 mV potential \citep{Yeaman2003,Wilson2011} and an estimate membrane thickness of 4 nm). However, previous computational work often explored the effects of higher fields, up to 500 mV/nm \citep{Tieleman2004, Bockmann2008, Piggot2011}, to witness poration within the simulations time, according to the resources available.
 
-An overview of simulations of peptide-membrane systems is given in Table \ref{table:sim_membr} (control simulations on pure membrane are listed in SI Table \ref{table:SI_membrane}).
-
-\begin{figure}[p!]
+An overview of the simulations of peptide-membrane systems is given in Table \ref{table:sim_membr} (control simulations on pure membrane are listed in SI Table \ref{table:SI_membrane}).
+%
+\begin{figure}[t!]
 \centering
+\vspace{3cm}
  \def\arraystretch{1.6}
 \begin{tabular}{lccccc}
 \multicolumn{6}{c}{\textbf{Capzip on membrane simulations}} \\
@@ -228,31 +227,32 @@ An overview of simulations of peptide-membrane systems is given in Table \ref{ta
 \end{tabular}
 \captionof{table}[Simulations of capzip assembly on membranes]{Table of simulations of peptide-membrane complexes. A number of 10 peptides denotes the pentagonal subunit, 120 the buckyball bilayer. Force fields (FF): GR = united atom GROMOS, MA = coarse-grain MARTINI, MA\_P = coarse-grain MARTINI with polar water. Superscript P denotes poration. For electroporation simulations on pure membranes, see SI Table \ref{table:SI_membrane}.}
 \label{table:sim_membr}
+\vspace{3cm}
 \end{figure}
 
 \subsection{SIRAH coarse-grain simulations}
-SIRAH coarse-grain simulations were run with the SIRAH force field \citep{Machado2018}. Peptide coordinates for the buckyball geometry were obtained from the atomistic ones using the converter distributed with force field. Parameters for the central residue were built from comparison with similar chemical moieties. All simulations were run adding Cl$^-$ counter ions to balance the positive charges of the peptide and additional Na$^+$  and Cl$^-$ ones to reach a 150 mM concentration (of Na$^+$, slightly higer for Cl$^-$).
+SIRAH coarse-grain simulations were run with the SIRAH force field \citep{Machado2018}. Peptide coordinates for the buckyball geometry were obtained from the atomistic ones using the converter distributed with force field. Parameters for the central residue were built from comparison with similar chemical moieties. All simulations were run adding Cl$^-$ counter ions to balance the positive charges of the peptide and additional Na$^+$  and Cl$^-$ ones to reach a 150 mM concentration (of Na$^+$, slightly higher for Cl$^-$).
 
-While for simulations of peptide assembly in solution our multiscale procedure includes SIRAH, for simulations on membranes we focussed on atomistic and MARTINI simulations only. This has been performed in the interest of time, and following some technical difficulties in preliminary SIRAH runs with membranes (where the membrane contracted or expanded excessively).
+While for simulations of the peptide buckyball in solution our multiscale procedure includes SIRAH, for simulations on membranes we focussed on atomistic and MARTINI simulations only. This has been performed in the interest of time, and due to technical difficulties in preliminary SIRAH runs with membranes (in particular in tuning the pressure coupling).
 %
-This is likely due to a suboptimal equilibration procedure; indeed, there are little benchmarks SIRAH lipids so far \citep{Barrera2019}, and none for systems as large as the one studied here. We are continuing to explore the system, collaborating with the developers of the force field to help elucidating its limitations and work out the best equilibration procedure to treat large membrane patches.
+This is likely due to a suboptimal equilibration procedure; indeed, there are few benchmarks on SIRAH for lipids so far \citep{Barrera2019}, and none for systems as large as the one studied here. We are continuing to explore the system, collaborating with the developers of the force field to work out the best equilibration procedure to treat large membrane patches.
 
 For SIRAH simulations, the temperature coupling was performed with a velocity rescale thermostat \citep{Bussi2007} and coupling constant $\tau _T$ of 0.1 ps, and the pressure coupling at 1 bar pressure, with 4.5 $\times$ 10$^{-5}$ bar$^{-1}$ isothermal compressibility, using a Parrinello-Rahman barostat \citep{Parrinello1981} with a $\tau _P$ of 6 ps. Electrostatic interactions were treated using the PME algorithm \citep{Essmann1995}, with a short-range cutoff of 1.2 nm and relative dielectric constant of 1. The van der Waals interactions are treated with a plain 1.2 nm cutoff.
 
-After energy minimization, a 4 ns NVT equilibration was run at 300 K, followed by a 10 ns NPT run, both with positional restraints (1000 kJ/mol$\cdot$nm$^2$) on the solute. Two 10 ns run (NPT ensemble, 300 K) were then performed with backbone restraints of 1000 and 100 kJ/mol$\cdot$nm$^2$, respectively. Similar to the procedure adopted for atomistic simulations, during the latter flat bottom positional restraints (1000 kJ/mol$\cdot$nm$^2$) were enforced on the unpaired branches. After this, three additional 10 ns equilibrations were run at 300 K, with no backbone restraints and decreasing flat bottom ones (respectively 750, 500 and 250 kJ/mol$\cdot$nm$^2$). Finally the production run was carried on for 1 $\mu$s. All runs were performed with a 20 fs time step.
+After energy minimization, a 4 ns NVT equilibration was run at 300 K, followed by a 10 ns NPT run, both with positional restraints (1000 kJ/mol$\cdot$nm$^2$) on the solute. Two 10 ns run (NPT ensemble, 300 K) were then performed with backbone restraints of 1000 and 100 kJ/mol$\cdot$nm$^2$, respectively. Similar to the procedure adopted for atomistic simulations, flat bottom positional restraints (1000 kJ/mol$\cdot$nm$^2$) were enforced on the unpaired branches during the latter. After this, three additional 10 ns equilibrations were run at 300 K, with no backbone restraints and decreasing flat bottom ones (respectively 750, 500 and 250 kJ/mol$\cdot$nm$^2$). Finally the production run was carried on for 1 $\mu$s. All runs were performed with a 20 fs time step.
 
 \subsection{MARTINI coarse-grain simulations} \label{sec:MARTINI_sim_det}
 For MARTINI \citep{Marrink2007, Monticelli2008} coarse-grain simulations, peptide coordinates were obtained from the atomistic ones using martinize.py \citep{DeJong2013} with a customised mapping for the central residue. Parameters were obtained with the same script for the arms, while pycgtool.py \citep{Graham2017} was used for the central residue. Parameters for the joining bonds were derived from tabulated values of analogous ones.
 
-Initial coordinate for the self-assembly simulations were obtained with GROMACS tools, placing the desired amount of molecules with random positions in the simulation box.
+Initial coordinates for the self-assembly simulations were obtained with GROMACS tools, placing the desired amount of coarse grained molecules in the simulation box with random positions.
 %
 The side of the cubic box was chosen as 44 nm, and three different peptide concentrations were simulated: 1.25 mM (60 molecules), 2.50 mM (120 molecules) and 10 mM (480 molecules), all for 10 $\mu$s.
 
-The bacterial and mammalian model membranes, hosting 2880 lipids each, were built with insane.py \citep{Wassenaar2015}, with composition DLPC:DLPG 3:1 and pure DLPC respectively. The simulations parameters used for lipids are consistent with \citet{SiewertJ.Marrink2003}. The peptide-membrane systems were built placing the buckyball at a minimum distance of 1 nm from the membrane surface.
+The bacterial and mammalian model membranes, hosting 2880 lipids each, were built with insane.py \citep{Wassenaar2015}, with composition DLPC:DLPG (3:1) and pure DLPC respectively. The simulations parameters used for lipids are consistent with \citet{SiewertJ.Marrink2003}. The peptide-membrane systems were built placing the buckyball at a minimum distance of 1 nm from the membrane surface.
 
 For all standard MARTINI simulations, counter ions only were added, while for the ones run with Polar MARTINI, additional Na$^+$ and Cl$^-$ were inserted to reach a 150 mM concentration.
 
-For simulations performed with the standard water model, the temperature coupling was performed with a velocity rescale thermostat \citep{Bussi2007} with a coupling constant $\tau _T$ of 1 ps. An isotropic or semi-isotropic pressure coupling was applied (simulations of peptide in solution and peptide on membrane respectively) at 1 bar pressure, with 4.6 $\times$ 10$^{-5}$ bar$^{-1}$ isothermal compressibility, using a Berendsen \citep{Berendsen1984} or Parrinello-Rahman barostat \citep{Parrinello1981} (equilibration and production phase respectively) with $\tau _P$ of 12 ps. An isotropic or semi-isotropic coupling has been used for simulation without and with membranes respectively.
+For simulations with the standard water model, the temperature coupling was performed with a velocity rescale thermostat \citep{Bussi2007} with a coupling constant $\tau _T$ of 1 ps. An isotropic or semi-isotropic pressure coupling was applied (simulations of peptide in solution and peptide on membrane respectively) at 1 bar pressure, with 4.6 $\times$ 10$^{-5}$ bar$^{-1}$ isothermal compressibility, using a Berendsen \citep{Berendsen1984} or Parrinello-Rahman barostat \citep{Parrinello1981} (equilibration and production phase respectively) with $\tau _P$ of 2 ps and 12 ps. An isotropic or semi-isotropic coupling has been used for simulation without and with membranes respectively.
 %
 Coulomb interactions were treated with a Reaction Field scheme \citep{Tironi1995} and cut off radius of 1.1 nm, van der Waals interaction with a cut off scheme and the same cut off radius. The relative dielectric constant is set to 15.
 %
@@ -262,13 +262,13 @@ For simulations of the capsule in solution, for both water models, after energy 
 %
 Finally the production run was carried on for 1 $\mu$s. All runs were performed with a 20 fs time step.
 
-It is interesting to notice that the MARTINI force field with the standard water model produce very similar results with or without such refined equilibration procedure, as confirmed by simulations of the buckyball run after a only short unrestrained equilibration (500 ps, 1 fs timestep). However, we choose to follow the same procedure as for the other force fields to have more consistent results, and be certain that the differences observed are due only to the parametrisation an not the equilibration procedure.
+It is interesting to notice that the MARTINI force field with the standard water model produced very similar results with or without such refined equilibration procedure, as confirmed by simulations of the buckyball run after a short unrestrained equilibration only (500 ps, 1 fs timestep). However, we choose to follow the same procedure as for the other force fields to have more consistent results, and be certain that the differences observed are due only to the parametrisation an not to the equilibration procedure.
 
-From the final configurations of two out of the three standard MARTINI replicas, atomistic coordinates are obtained using the MARTINI backward tool (version 5) \citep{Wassenaar2014} and run for additional 200 ns with the set up used for atomistic simulations.
+From the final configurations of two out of the three standard MARTINI replicas, atomistic coordinates were obtained using the MARTINI backward tool (version 5) \citep{Wassenaar2014} and run for additional 200 ns with the set up used for atomistic simulations.
 
 The equilibration for the self-assembly simulations (run only with the standard MARTINI model) included only an energy minimization, followed by a 1 ns equilibration with the Berendsen barostat, before switching to Parrinello-Rahman for the 10 $\mu$s production.
 
-The membranes used in MARTINI simulations are equilibrated for 1 $\mu$s with standard water and the final configuration is used to build the peptide-membrane systems, together with the equilibrated capsule structure (before the production run). The full system is energy minimised, equilibrated for 500 ps and production is followed for 10 $\mu$s for simulations with the standard water, and 1 $\mu$s with polar water.
+The membranes used in MARTINI simulations are equilibrated for 1 $\mu$s with standard water and the final configuration is used to build the peptide-membrane systems, together with the capsule structure (obtained after the equilibration runs). The full system is energy minimised, equilibrated for 500 ps and production is followed for 10 $\mu$s for simulations with the standard water, and 1 $\mu$s with polar water.
 
 The adoption of polar water allows to perform electroporation experiments also with the MARTINI force field (while the standard water, not bearing a dipole, is unable to screen the externally applied electric field, resulting in unphysical effects).
 %
@@ -276,7 +276,7 @@ We thus resorted to a procedure similar to the one employed for atomistic simula
 %
 It is possible that longer simulations would allow to observe this behaviour even with lower values of the force field, however, in the interest of time, we selected these two values for further investigation.
 
-We selected a configuration from the early stages of poration (at 40 mV/nm), where the pore showed a diameter of 2 nm, and prolonged the simulation switching to isotropic pressure coupling. This allows the pore to expand in a controlled manner. Indeed, in a semi-isotropic pressure coupling scenario, the pressure in the $z$ direction suddenly decreases when a pore forms (as water can pass through the membrane). The barostat algorithm then decreases the $z$ side of the box, in an effort to restore the target pressure in this direction, but to accommodate all the molecules the box must necessarily expand in the $x$ and $y$ directions.
+We selected a configuration from the early stages of poration (at 40 mV/nm), where the pore showed a diameter of 2 nm, and prolonged the simulation switching to isotropic pressure coupling. This allows the pore to expand in a controlled manner. Indeed, in a semi-isotropic pressure coupling scenario, the pressure in the $z$ direction suddenly decreases when a pore forms (as water can pass through the membrane). The barostat algorithm reacts decreasing the $z$ side of the box, in an effort to restore the target pressure in this direction, but to accommodate all the molecules the box must necessarily expand in the $x$ and $y$ directions.
 
 Control simulations with the two values of the electric field mentioned were performed on the membrane alone. The same procedure, i.e.\ simulations with capsule and electric field plus control simulations on the membrane only was applied to the pure DLPC membrane as well (save the additional simulation after poration, as this is not observed for this system).
 
@@ -381,7 +381,7 @@ We list here the results for simulations of the capsule in solution: starting fr
 \subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/Rg_all.png} \label{fig:Rg}} 
 \subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/RMSD_all.png} \label{fig:RMSD}} \\
 \subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/RDF_all.png} \label{fig:RDF}}
-\caption[Structural measures on buckyball in solution]{(a) R$_g$ and (b) RMSD computed on the Protein backbone. Results are displayed for simulations performed in GROMOS (100 ns), SIRAH, MARTINI and MARTINI with polar water (all 1 $\mu$s). Inset: zoom on the GROMOS values. (c) RDF of Protein masses around their center of mass, computed on both layers, displayed for the same simulation set up as in (a,b). For each label of the legend, the bar has length of the respective FWHM of the Gaussian function fitting the data (thickness estimate). All results are showed for Replica 1 of each simulation setup.}
+\caption[Structural measures on buckyball in solution]{(a) R$_g$ and (b) RMSD computed on the Protein backbone. Results are displayed for simulations performed in GROMOS (100 ns), SIRAH, MARTINI and MARTINI with polar water (all 1 $\mu$s). Inset: zoom on the GROMOS values. (c) RDF of Protein masses around their center of mass, computed on both layers, displayed for the same simulation set up as in (a,b). For each label of the legend, the bar has length of the respective FWHM of the Gaussian function fitting the data (thickness estimate). All results are showed for Replica 1 of each simulation set-up.}
 \label{fig:struct_UA_SIhere}
 \end{figure}
 %
@@ -398,7 +398,7 @@ A similar computation is repeated for the inner and outer layer separately, prov
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.95\linewidth]{3results_capsule/pics/RKGBcorr_boxplot_all.png} 
-\caption[Correlation of motion between molecules of the buckyball]{Distribution of the correlation of motion between different molecules in the buckyball simulations. Black band: median of the distribution; box: first and third quartiles; whiskers: maximum and minimum, outliers excluded (hollow dots). Results are shown for Replica 1 of each simulation setup.}
+\caption[Correlation of motion between molecules of the buckyball]{Distribution of the correlation of motion between different molecules in the buckyball simulations. Black band: median of the distribution; box: first and third quartiles; whiskers: maximum and minimum, outliers excluded (hollow dots). Results are shown for Replica 1 of each simulation set-up.}
 \label{fig:BTI_corr}
 \end{figure}
 %
@@ -411,7 +411,7 @@ molecules at the same polar coordinates (i.e.\ stacking radially one on the othe
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.85\linewidth]{3results_capsule/pics/stAll_beta_90_R1.png}
-\caption[Branch pairing during simulations of the buckyball]{Number of paired branches within the same layer and between layers. Cut off distance between branches center of mass equal to 1.2 nm. Only contacts existing more than 90\% of the simulation time are counted. Results are shown for Replica 1 of each simulation setup.}
+\caption[Branch pairing during simulations of the buckyball]{Number of paired branches within the same layer and between layers. Cut off distance between branches center of mass equal to 1.2 nm. Only contacts existing more than 90\% of the simulation time are counted. Results are shown for Replica 1 of each simulation set-up.}
 \label{fig:BTI_beta}
 \end{figure}
 %
@@ -422,7 +422,7 @@ On the contrary, few inter layer contacts are observed within 1.2 nm distance cu
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.95\linewidth]{3results_capsule/pics/new_rep1_allFF.png}
-\caption[Contacts between molecules during simulations of the buckyball]{Number of contacts per residue type in each branch of capzip. Only contacts existing more than 50\% of the simulation time are considered. Bars are split by the identity of the partner residue (color coded as in the $x$-axis legend). For mixed contacts the residue on the $x$-axis contributes with its backbone. The parametrisation is reported along the $y$-axis. Results are shown for Replica 1 of each simulation setup.}
+\caption[Contacts between molecules during simulations of the buckyball]{Number of contacts per residue type in each branch of capzip. Only contacts existing more than 50\% of the simulation time are considered. Bars are split by the identity of the partner residue (color coded as in the $x$-axis legend). For mixed contacts the residue on the $x$-axis contributes with its backbone. The parametrisation is reported along the $y$-axis. Results are shown for Replica 1 of each simulation set-up.}
 \label{fig:BTI_cont}
 \end{figure}
 
@@ -455,7 +455,7 @@ For atomistic simulations, we can compare the SASA per each residue of type X wi
 \centering
 \subbottom[]{\includegraphics[height=0.3\linewidth]{3results_capsule/pics/st_All_sasa_fractions.png} \label{fig:all_sasa}} 
 \subbottom[]{\includegraphics[height=0.3\linewidth]{3results_capsule/pics/st_Qsasa.png} \label{fig:Q_sasa}} 
-\caption[SASA per residue of a buckyball in solution]{(a) Solvent Accessible Surface Area (SASA) per molecule, divided by residue types. Results are shown for Replica 1 of each simulation setup. (b) Normalised SASA over the reference SASA computed for each amino acid type X as the value in a Gly-X-Gly tripeptide.}
+\caption[SASA per residue of a buckyball in solution]{(a) Solvent Accessible Surface Area (SASA) per molecule, divided by residue types. Results are shown for Replica 1 of each simulation set-up. (b) Normalised SASA over the reference SASA computed for each amino acid type X as the value in a Gly-X-Gly tripeptide.}
 \label{fig:BTI_sasa_exposed}
 \end{figure}
 
@@ -507,7 +507,7 @@ Figure \ref{fig:value_eng_cg} plots these value averaged over the second half of
 \centering
 \subbottom[]{\includegraphics[width=0.8\linewidth]{3results_capsule/pics/many_energies_brief.png} \label{fig:value_eng_cg}} 
 \subbottom[]{\includegraphics[width=0.8\linewidth]{3results_capsule/pics/ratio_energies_brief.png} \label{fig:ratio_eng_cg}} 
-\caption[Non-bonded protein energy contribution to capsule structures]{(a) Protein-Protein and Protein-Water non-bonded interactions, normalised per molecule. Values obtained as average on the second half of the trajectory of Replica 1 for each setup. (b) Ratio between the Protein-Protein and Protein-Water interactions for each force field, for Coulomb and Lennard-Jones respectively; or between Coulomb and Lennard/Jones, for Protein-Protein an Protein-Water interactions separately (note the log scale on $y$). Values computed as for plot (a). Points are misaligned along $x$ to facilitate the reading.}
+\caption[Non-bonded protein energy contribution to capsule structures]{(a) Protein-Protein and Protein-Water non-bonded interactions, normalised per molecule. Values obtained as average on the second half of the trajectory of Replica 1 for each set-up. (b) Ratio between the Protein-Protein and Protein-Water interactions for each force field, for Coulomb and Lennard-Jones respectively; or between Coulomb and Lennard/Jones, for Protein-Protein an Protein-Water interactions separately (note the log scale on $y$). Values computed as for plot (a). Points are misaligned along $x$ to facilitate the reading.}
 \label{fig:eng_cg}
 \end{figure}
 
@@ -553,7 +553,7 @@ To prove also on large scale objects that the bilayer structure is indeed essent
 \begin{figure}[h!]
     \subbottom[]{\includegraphics[width=0.48\linewidth, align=c]{3results_capsule/pics/compare_MonoBi_rmsd_init.png} \label{fig:rmsd_mono_bi}}
     \subbottom[]{\includegraphics[width=0.48\linewidth, align=c]{3results_capsule/pics/compare_MonoBi_RDF.png} \label{fig:rdf_mono_bi}}
-    \caption[Comparison of monolayer and bilayer structural properties]{(a) RMSD of the monolayer and bilayer structures for SIRAH and Polar MARTINI force field, with respect to the initial geometrical configuration (external layer of Figure \ref{fig:BTI_vmd_3}). (b) RDF of Protein masses around their center of mass. For each label of the legend, the bar has length of the respective RDF FWHM (thickness estimate). Results are shown for Replica 1 of each simulation setup.}
+    \caption[Comparison of monolayer and bilayer structural properties]{(a) RMSD of the monolayer and bilayer structures for SIRAH and Polar MARTINI force field, with respect to the initial geometrical configuration (external layer of Figure \ref{fig:BTI_vmd_3}). (b) RDF of Protein masses around their center of mass. For each label of the legend, the bar has length of the respective RDF FWHM (thickness estimate). Results are shown for Replica 1 of each simulation set-up.}
 \label{fig:mono_bi}
 \end{figure}
 We focus here on the results obtained with the SIRAH and Polar MARTINI models, as the ones observed with standard MARTINI resemble closely the Polar version.
@@ -589,7 +589,7 @@ Overall, the multiscale investigation of this system provided information on how
 \centering
 \subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png} \label{fig:monobi_sasa_init}} 
 \subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/st_sasaRes_mono_bi_bars.png} \label{fig:monobi_sasa_fin}} 
-\caption[SASA per residue of monolayer and bilater]{Solvent Accessible Surface Area (SASA) per molecule, divided by residue types for simulations of the bilayer and monolayer structure. Results are shown for Replica 1 of each simulation setup. (a) SASA computed from the initial configuration; (b) from the average over the production run.}
+\caption[SASA per residue of monolayer and bilater]{Solvent Accessible Surface Area (SASA) per molecule, divided by residue types for simulations of the bilayer and monolayer structure. Results are shown for Replica 1 of each simulation set-up. (a) SASA computed from the initial configuration; (b) from the average over the production run.}
 \label{fig:mono_bi_sasa}
 \end{figure}
 
@@ -614,7 +614,7 @@ Once more, this supports the reliability of the simulations performed so far.
 
 \begin{figure}[t!]
 \centering\includegraphics[width=0.95\linewidth]{3results_capsule/pics/contacts_BM.png} 
-\caption[Backmapping simulations: contacts]{Number of contacts per residue type in each branch of capzip for an atomistic simulation backmapped from standard MARTINI (Replica 1). Only contacts existing more than 50\% of the simulation time are considered. Bars are split by the identity of the partner residue (color coded as in the $x$-axis legend). For mixed contacts the residue on the $x$-axis contributes with its backbone. Results are shown for Replica 1 of each simulation setup.}
+\caption[Backmapping simulations: contacts]{Number of contacts per residue type in each branch of capzip for an atomistic simulation backmapped from standard MARTINI (Replica 1). Only contacts existing more than 50\% of the simulation time are considered. Bars are split by the identity of the partner residue (color coded as in the $x$-axis legend). For mixed contacts the residue on the $x$-axis contributes with its backbone. Results are shown for Replica 1 of each simulation set-up.}
 \label{fig:BM_contacts}
 \end{figure}
 
@@ -672,13 +672,12 @@ Again, when interpreting these results, one must remember that a backmapping to 
 
 \section{Results: peptide-membrane interactions}
 
-We now discuss the simulations of capzip in contact with a membrane. First we focus on atomistic simulations of the pentagonal peptidic subunit in contact with a model bacterial or mammalian membrane, both under standard simulation conditions and with an applied external electric field. In this, we elucidate the local effect that the peptide has on the local lipid organisation.
+We now discuss simulations of capzip in contact with a membrane. First we focus on atomistic simulations of the pentagonal peptidic subunit in contact with a model bacterial or mammalian membrane, both under standard simulation conditions and with an applied external electric field. In this, we elucidate the local effect that the peptide has on the local lipid organisation.
 %
 We then analyse the process of membrane binding which is observed in coarse grain simulations, comparing the MARTINI and Polar MARTINI force fields for the simulation without an external electric field, and necessarily resorting to Polar MARTINI for the ones involving it. 
 
 
 \subsection{Atomistic simulations of the bacterial model membrane} \label{sec:lip_atom_bact}
-
 
 \begin{sidewaysfigure}[p!]
 \centering
@@ -694,38 +693,48 @@ We then analyse the process of membrane binding which is observed in coarse grai
 \centering
 \subbottom[]{\includegraphics[height=6cm]{3results_capsule/pics/order2.png} \label{fig:lip_ord}} 
 \end{minipage}
-\caption[ApL, D and S$_{CD}$ for membrane simulations]{(a) Area per lipid (ApL); (b) lateral lipid diffusion coefficient (D), (c) average tail order S$_{CD}$ from simulations of model bacterial membrane patches simulated under different conditions. On the left of (a) and (c) a schematic of the system setup shows the number of lipids L, number of peptides P, and electric field E applied in the z direction (in mV/nm) in each case. Black and maroon points refer to simulations on 512 lipids patches, blue and cyan ones on 740 lipids patches; squares denotes presence of peptide molecules; in (b) full symbol are for DLPC and hollow for DLPG; L$_{COM}$ refers to D values obtained removing each leaflet drift, BI$_{COM}$ removing the full bilayer drift. Bars denote the standard error; for the diffusion coefficient, these are smaller than the point size. When more replicas are run, results are shown from replica 1. Analysis performed discarding the first 200 ns of simulations.}
+\caption[ApL, D and S$_{CD}$ for membrane simulations]{(a) Area per lipid (ApL); (b) lateral lipid diffusion coefficient (D), (c) average tail order S$_{CD}$ from simulations of model bacterial membrane patches simulated under different conditions. On the left of (a) and (c) a schematic of the system set-up shows the number of lipids L, number of peptides P, and electric field E applied in the z direction (in mV/nm) in each case. Black and maroon points refer to simulations on 512 lipids patches, blue and cyan ones on 740 lipids patches; squares denotes presence of peptide molecules; in (b) full symbol are for DLPC and hollow for DLPG; L$_{COM}$ refers to D values obtained removing each leaflet drift, BI$_{COM}$ removing the full bilayer drift. Bars denote the standard error; for the diffusion coefficient, these are smaller than the point size. When more replicas are run, results are shown from replica 1. Analysis performed discarding the first 200 ns of simulations.}
 \label{fig:lipids_ApL_D}
 \end{sidewaysfigure}
 
-Preliminary simulations were run on the pure membranes, to equilibrate the patches and compute their characteristics in absence of the peptide.
+Preliminary simulations were run on the pure bacterial membranes, to equilibrate the patches and compute their characteristics in absence of the peptide.
 %
-For the bacterial model chosen (DLPC/DLPG 3:1), we obtained an ApL of $0.580(5)$ nm$^2$ for the 512 lipids patch (simulated with GROMOS 54a7 force field), and  $0.569(4)$ nm$^2$ for the 740 one (GROMOS 54a8) as shown in Figure \ref{fig:lip_apl}, lines 1 and 5.
+For the bacterial model chosen (DLPC/DLPG 3:1), we obtained an ApL of $0.580(5)$ nm$^2$ for the 512 lipids patch (simulated with GROMOS 54A7 force field), and  $0.569(4)$ nm$^2$ for the 740 one (GROMOS 54A8) as shown in Figure \ref{fig:lip_apl}, lines 1 and 5.
 
 The difference is small but statistically significant (the two measures are not compatible within the error).
 %
-This can be attributed to the force field (54a7 versus 54a8), the long range electrostatic treatment (RF versus PME), or to the size of the patch (512 versus 740). %
+This can be attributed to the force field (54A7 versus 54A8), the long range electrostatic treatment (RF versus PME), or to the size of the patch (512 versus 740). %
 %
-Extensive tests on phosphocholine lipids (see Chapter \ref{chapter:lip_par}) suggests that generally 54a8 gives larger ApL values than the ones computed with 54a7.
+Extensive tests on phosphocholine lipids (see Chapter \ref{chapter:lip_par}) suggests that generally 54A8 gives larger ApL values than the ones computed with 54A7.
 %
 Moreover a control simulations on the 512 patch where RF was switched to PME produced an ApL of 0.586(5), slightly larger that RF, but compatible with its value.
 %
 Therefore we attribute the discrepancy to the different sizes of the patches. Later in this section other cases are reported in which the size has a great influence on the simulation outcome.
 
-Regarding the diffusion coefficient, we report in Figure \ref{fig:lip_diff}, the value averaged between the two leaflets, computed both removing the centre of mass (COM) movement of each leaflet, or the COM movement of the full bilayer. While the former measures the pure random movement of a lipid with respect to its neighbours, the latter is influenced by possible collective movements of one leaflet with respect to the other. While not exactly falling in the definition of lateral diffusion, such mutual movement is perfectly compatible with a COM of the whole system staying in the original position. Thus, we deemed this measure interesting and we want to keep track of this movement as well. We will call the two measures respectively pure diffusion and global diffusion in the following.
-
-Considering the pure diffusion (L$_{COM}$) in Figure \ref{fig:lip_diff}), the larger membrane has a smaller diffusion coefficient with respect to the 512 lipids patch. However, considering the global one (BI$_{COM}$) we observe the opposite.
+Regarding the diffusion coefficient, we report in Figure \ref{fig:lip_diff}, the value averaged between the two leaflets, computed both removing the centre of mass (COM) movement of each leaflet, or the COM movement of the full bilayer (for a scheme of the proceduree see Figure \ref{fig:com_rem_scheme}). While the former measures the pure random movement of a lipid with respect to its neighbours, the latter is influenced by possible collective movements of one leaflet with respect to the other. While not exactly falling in the definition of lateral diffusion, such mutual movement is compatible with a COM of the whole system staying in the original position. Thus, we deemed this measure interesting and we want to keep track of this movement as well. We will call the two measures respectively pure diffusion and global diffusion in the following.
 %
-In general, differences are expected between the two patches, because of their different size: it is well known that periodic boundary conditions affect the computed diffusion coefficient \citep{Camley2015,Venable2017}. Previous studies have found that, for atomistic simulations of the size employed here, this is systematically underestimated \citep{Camley2015}: increasing the size would increase the coefficient, toward its real value (which is obtained for an infinite box). This is consistent with our global diffusion results, but not the pure ones. It is not clear whether, in the publications mentioned, they refer to what is here called pure or global diffusion, but we suspect it is the latter.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\linewidth]{3results_capsule/pics/pb4_S6.png} 
+\caption[Procedure for diffusion coefficient computation]{ggg}
+\label{fig:com_rem_scheme}
+\end{figure}
 
-To exclude that the difference between the two patches is given by the force field chosen, we refer the reader to the next chapter, where, for simulations of monolipid patches the 54a7 or 54a8 force field gave very similar values of pure diffusion (keeping all the other simulation conditions identical).
+Considering the pure diffusion (tagged L$_{COM}$ in Figure \ref{fig:lip_diff}), the larger membrane has a smaller diffusion coefficient with respect to the 512 lipids patch. However, considering the global one (tagged BI$_{COM}$) we observe the opposite.
+%
+In general, differences are expected between the two patches, because of their different size: it is well known that periodic boundary conditions affect the computed diffusion coefficient \citep{Camley2015,Venable2017}. Previous studies have found that, for atomistic simulations of the size employed here, this is systematically underestimated \citep{Camley2015}: increasing the size would increase the coefficient, toward its real value (which is obtained for an infinite box). This is consistent with our global diffusion results, but not the pure ones. Unfortunately, it is not clear whether, in the publications mentioned, they refer to what is here called pure or global diffusion.
+
+To exclude that the difference between the two patches is given by the force field chosen, we refer the reader to the next chapter, where, for simulations of monolipid patches the 54A7 or 54A8 force fields gave very similar values of pure diffusion (keeping all the other simulation conditions identical).
+%
+Moreover, in these simulations we observed drift of one leaflet with respect to the other in a non consistent manner: some simulations present it while other
+
 
 \paragraph{Influence of the peptide on the 512-lipids bacterial patch}
-For the small patch, the presence of the pentagonal peptide subunit (made of ten antimicrobial molecules, bearing a $+60\,e$ total charge) made the ApL decrease by 9\% with respect to the apo value (Figure \ref{fig:lip_apl}, line 3).
+For the small patch, the presence of the pentagonal peptide subunit (made of ten antimicrobial molecules, and bearing a $+60\,e$ total charge) made the ApL decrease by 9\% with respect to the apo value (Figure \ref{fig:lip_apl}, line 3).
 %
 A similar effect was observed applying an electric field of 70 mV/nm intensity or combining the peptide with a 20 mV/nm field, comparable with physiological values (Figure \ref{fig:lip_apl}, lines 2 and 4).
 %
-Given the high net charge of capzip, the molecule itself produces an electric field, thus the perturbation on the membrane is similar to the one obtained when the field is externally applied.
+Given the high net charge of capzip, the molecule itself produces an electric field, thus the perturbation on the membrane is similar to the one obtained when a field is externally applied.
 
 The fact that all the different perturbations lead to reduction of ApL of a similar amount suggests that the membrane is approaching the maximum packing allowed.
 %
@@ -744,7 +753,7 @@ To investigate this, in the simulation in presence of capzip, the hexagonal orde
 
 \paragraph{Influence of the peptide on the 740-lipids patch} When the same perturbations described above, namely electric field and/or capzip, were applied to a larger membrane, ApL and tail order parameter S$^{avg}_{CD}$ remained equal within the error to the apo values. However the global diffusion coefficient D was still significantly affected, being reduced between 2.5 and 5 times (Figure \ref{fig:lipids_ApL_D}, lines 5 to 8).
 %
-In the case of the large patch, this effect is observed on the global and not local diffusion: the external perturbations diminish the rearrangement of lipids through a more correlated motion between upper and lower leaflet.
+In the case of the large patch, this effect is observed on the global and not local diffusion: the external perturbations seems to diminish the rearrangement of lipids through a more correlated motion between upper and lower leaflet.
 
 While for the small patch the reduced diffusion was consistent with the smaller ApL when a perturbation was applied, the results on the larger patch show that the two are disentangled.
 %
@@ -810,11 +819,17 @@ The local slow down of lipids is due to electrostatic and hydrogen bond interact
 %
 Arginine promotes many persistent bonds, and the number of them is equally divided between DLPC and DLPG residues, despite the latter ones are less in number. Tryptophan promotes fewer persistent bonds; the remaining ones that exist for more than 50\% of the time involve Threonine residues.
 %
-
-COMMENT ON THEIR INSERTION
-
-%
 These interactions, together with the electrostatic coupling between positive residues and DLPG, force the lipids to remain close to the peptide, slowing down their dynamics, which in turn influences the one of the molecules nearby.
+
+Regarding the insertion of the amino acid within the lipid membrane, Figure -- shows a plot of the average insertion during the last 100 ns of the simulation. This is computed taking into account for each amino acid the atom with the lowest $z$ coordinate, and this is compared with the maximum $z$ coordinates of the lipids around it. In this way, the local position of the membrane is taken into account.
+%
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\linewidth]{3results_capsule/pics/pL6_avg_depth_mix.png} 
+\includegraphics[width=0.5\linewidth]{3results_capsule/pics/pZ11_avg_depth_mix.png} 
+\caption[ggg]{...}
+\label{nnn}
+\end{figure}
 
 We think that this reduced ``fluidity" is an important perturbation of the membrane structure, as it diminishes the ability of the membrane to accommodate external stimuli. With coarse grain simulations (see Section \ref{sec:results_lip_cg}) it will be evident that on the long time scale, these interactions are also able to recruiting anionic lipids around the peptide, creating a local imbalance in the membrane composition.
 
@@ -862,9 +877,9 @@ This shows that the effect of the peptide shift the threshold by a small amount 
 
 The simulations with high electric field performed on the 512 lipids patch resulted all in curved geometry before the poration event (independently from the presence of the peptide). However this does not happen with the large patch, for which the poration was always initiated from a flat membrane conformation (Figure \ref{fig:pore_pics_2}).
 %
-To rule out once more the hypothesis that the difference is due to the force field used (54a7 versus 54a8), we run an additional control simulation of the 512 lipids patch with the 54a8 force field and the electric field set at the electroporation threshold of 140 mV/nm. The patch developed a curved shape similar to the outcome from the corresponding 54a7 simulations. The membrane was not electroporated in the 200 ns run, as was observed in one out of the three replicas of the 54a7 simulations.
+To rule out once more the hypothesis that the difference is due to the force field used (54A7 versus 54A8), we run an additional control simulation of the 512 lipids patch with the 54A8 force field and the electric field set at the electroporation threshold of 140 mV/nm. The patch developed a curved shape similar to the outcome from the corresponding 54A7 simulations. The membrane was not electroporated in the 200 ns run, as was observed in one out of the three replicas of the 54A7 simulations.
 %
-The ApL values of these two simulations (512 lipids, 140 mV/nm, no peptide) differing only for the force field (54a7 or 54a8) are quite similar: 0.554 versus 0.556 nm$^2$, which were computed taking into account the curvature.
+The ApL values of these two simulations (512 lipids, 140 mV/nm, no peptide) differing only for the force field (54A7 or 54A8) are quite similar: 0.554 versus 0.556 nm$^2$, which were computed taking into account the curvature.
 %
 However, from the previous electroporation simulations it emerges that there is a high variability in ApL computed from highly curved configurations, so that the consistency of the two values might be fortuitous.
 %
@@ -898,7 +913,7 @@ This findings, together with the previous results, suggests that the decrease in
 
 \subsection{Atomistic simulations of the mammalian model membrane} \label{sec:lip_atom_mamm}
 
-After the investigation of a model bacterial membrane, we focussed on a mammalian one, modelled as a DLPC patch. Given the information accumulated in the previous investigation, we simulated directly a large patch (748 lipids), as we deemed this size more appropriate to run the subsequent simulations with the peptide. The force field employed is GROMOS 54a8.
+After the investigation of a model bacterial membrane, we focussed on a mammalian one, modelled as a DLPC patch. Given the information accumulated in the previous investigation, we simulated directly a large patch (748 lipids), as we deemed this size more appropriate to run the subsequent simulations with the peptide. The force field employed is GROMOS 54A8.
 
 The properties of the stand alone membrane are computed as before and compared with the experimental data. Indeed for mono-lipid membranes several experimental results are available. The computed ApL is 0.592(3) nm$^2$, while the experimental range at 303 K of temperature is 0.608-0.632 nm$^2$ (see Table 1 in \citet{Poger2016}). To motivate the discrepancies, two factors must be considered. First, these experiments are performed on a variety of lipid geometries, from vesicle to supported lipid bilayers (resting on a solid surface), justifying the broad range of values. Second, the membrane is simulated in presence of a 150 mM salt concentration, while the experiments do not adopt it. Several computational studies report a reduction of area per lipid when salt concentration is introduced \citep{Bockmann2003,Jarerattanachat2013,Reif2017}. This is consistent with the experimental evidence \citep{Pabst2007}, even though simulations are reported to overestimate this variation \citep{Reif2017}.
 
@@ -926,7 +941,7 @@ The motivation for this augmented mobility when DLPG is present is hard to estab
 \textbf{Peptide} & 748 & 150 & 0.592(4) & see Table \ref{table:dlpc_D_space} \\
 \hline
  \end{tabular}
-\captionof{table}[ApL and D of DLPC (atomistic simulations)]{Area per lipid and pure diffusion coefficient of DLPC (atomistic simulations). All simulations run with the GROMOS 54a8 force field. $^a$ Run with 1.4 nm cut off. $^b$ Experimental values. Area per lipid from Table 1 of \citet{Poger2016}, diffusion coefficients from \citet{Lindblom2009}.}
+\captionof{table}[ApL and D of DLPC (atomistic simulations)]{Area per lipid and pure diffusion coefficient of DLPC (atomistic simulations). All simulations run with the GROMOS 54A8 force field. $^a$ Run with 1.4 nm cut off. $^b$ Experimental values. Area per lipid from Table 1 of \citet{Poger2016}, diffusion coefficients from \citet{Lindblom2009}.}
 \label{table:dlpc_apl}
 \end{figure}
 
@@ -1139,21 +1154,21 @@ ADDSelf assembly, new model lammps what to do, D amino acids
 \hline
  \multicolumn{2}{l|}{\textbf{No peptide}} & Bacterial & Mamm. \\
  \hline
- \multirow{2}{*}{E = 0} & 512 & \emph{54a7} (1) & \emph{54a7} no salt (1) \\
- & 740 & \emph{54a8} (1) & \emph{54a8} (1R) \\
+ \multirow{2}{*}{E = 0} & 512 & \emph{54A7} (1) & \emph{54A7} no salt (1) \\
+ & 740 & \emph{54A8} (1) & \emph{54A8} (1R) \\
  \hline
- \multirow{2}{*}{E = 130} & 512 & \emph{54a7} (3) & -- \\
- & 740 & -- & \emph{54a8} (1) \\
+ \multirow{2}{*}{E = 130} & 512 & \emph{54A7} (3) & -- \\
+ & 740 & -- & \emph{54A8} (1) \\
  \hline
- \multicolumn{4}{l}{+ Bact/512/E-140: \emph{54a8} (1R)} \\
+ \multicolumn{4}{l}{+ Bact/512/E-140: \emph{54A8} (1R)} \\
  \hline
  \multicolumn{2}{l|}{\textbf{Peptide}} & Bacterial & Mamm. \\
  \hline
- \multirow{2}{*}{E = 0} & 512 & \emph{54a7} (1) & -- \\
- & 740 & \emph{54a8} (1) & \emph{54a8} (1R) \\
+ \multirow{2}{*}{E = 0} & 512 & \emph{54A7} (1) & -- \\
+ & 740 & \emph{54A8} (1) & \emph{54A8} (1R) \\
  \hline
- \multirow{2}{*}{E = 130} & 512 & \emph{54a7} (3) & -- \\
- & 740 & \emph{54a8} (3) & \emph{54a8} (3) \\
+ \multirow{2}{*}{E = 130} & 512 & \emph{54A7} (3) & -- \\
+ & 740 & \emph{54A8} (3) & \emph{54A8} (3) \\
  \hline
  \end{tabular}
 \captionof{table}[Force fields employed for atomistic runs of model membranes]{Table of the simulations run for different systems. Electric field expressed in mV/nm. For each cell, the syntax reports: Nr. of lipids \emph{Force field} (Nr. of replicas).}
@@ -1183,6 +1198,12 @@ Regarding the different cut off values, we did not find previous work testing th
 
 
 \subsection{Supplementary figures}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.6\linewidth]{3results_capsule/pics/bb_contacts.png}
+\caption[Final configuration of a pentagonal subunit simulation]{Final configuration from a 100 ns simulation of the pentagonal subunit in solution. Bonds and cartoon representation, coloured by name. [VMD software \citet{HUMP96}]}
+\label{fig:penta_results_SI}
+\end{figure}
 
 \subsection{Supplementary tables}
 \begin{figure}[h!]
@@ -1194,18 +1215,18 @@ Regarding the different cut off values, we did not find previous work testing th
   \hline
   & Lipids & $\,$FF$\,$ & $\,$Time (ns)$\,$ & E (mV/nm) & Rep. \\
  \hline
- \multirow{8}{*}{\rotatebox{90}{Bacterial}} & 512 & GR (54a7) & 400 & 0, 70, 120 & 1 \\
- & 512 & GR (54a7) & 600 & 130 & 3 \\
- & 512 & GR (54a7) & 150$^{P}$, 154$^{P}$, 200 & 140 & 3 \\
- & 512 & GR (54a8) & 200 & 140 & 1 \\
- & 740 & GR (54a8) & 400 (350) & 0 & 1 \\
- & 740 & GR (54a8) & 400 & 20 & 1 \\
+ \multirow{8}{*}{\rotatebox{90}{Bacterial}} & 512 & GR (54A7) & 400 & 0, 70, 120 & 1 \\
+ & 512 & GR (54A7) & 600 & 130 & 3 \\
+ & 512 & GR (54A7) & 150$^{P}$, 154$^{P}$, 200 & 140 & 3 \\
+ & 512 & GR (54A8) & 200 & 140 & 1 \\
+ & 740 & GR (54A8) & 400 (350) & 0 & 1 \\
+ & 740 & GR (54A8) & 400 & 20 & 1 \\
  %\hline
  & 720 & MA & 1000 & 0 & 1 \\
  & 2880 & MA\_P & 500 & 20, 40 & 1 \\
  \hline
- \multirow{4}{*}{\rotatebox{90}{Mamm.}} & 748 & GR (54a8) & 400 & 0 & 1 \\
- & 748 & GR (54a8) & 20$^{P}$, 28$^{P}$, 39$^{P}$ & 130 & 3 \\
+ \multirow{4}{*}{\rotatebox{90}{Mamm.}} & 748 & GR (54A8) & 400 & 0 & 1 \\
+ & 748 & GR (54A8) & 20$^{P}$, 28$^{P}$, 39$^{P}$ & 130 & 3 \\
  & 722 & MA & 1000 & 0 & 1 \\
  & 2888 & MA\_P & 500 & 20, 40 & 1 \\
  \hline
