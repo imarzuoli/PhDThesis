@@ -339,13 +339,22 @@ For each chain $j$ the neighbouring chains $\{n\}$ were identified as the ones w
 S_{6,j} = \frac{1}{6} \left| \sum_{k \,\in \{n\}} e^{6i\theta_{jk}} \right|
 \end{equation}
 with $\theta_{jk}$ the angle between the vector connecting $j$ and $k$, and the $x$ axis (and $i$ the imaginary unit) (Figure \ref{fig:S6_theory}). A chain is in gel phase if it has an hexagonal order parameter larger than 0.72 \citep{Uppulury2015}.
-\begin{figure}[h!]
+\begin{figure}[t!]
 \centering
 \includegraphics[width=0.55\linewidth]{3results_capsule/pics/s6_theory.pdf}
 \caption[Scheme of S$_6$ computation]{Scheme of S$_6$ computation: in black the reference chain $i$, in red the chains belonging to the neighbouring chains set $\{n\}$; $r$ was chosen as 0.65 nm.} \label{fig:S6_theory}
 \end{figure}
 
-\item To evaluate the mobility of lipids on the membrane plane, for each simulation we extracted the trajectory of the phosphorus atom of every lipid, in the top and bottom leaflet separately, removing the collective motion of the leaflet with respect to the simulation box frame. In some cases it is also interesting to perform the computation removing the collective motion of the whole bilayer. \\ The Mean Square Displacement of each lipid was computed as a function of time: for a lipid $i$ and a given time $t$, the displacement $r_i^2(t_{start}+t)$ was computed for all $t_{start}$ such that $(t_{start}+t)$ is within the simulated time. The average over the start times and over the lipids (belonging to the same specie and leaflet) gave the MSD(t):
+\item To evaluate the mobility of lipids on the membrane plane, for each simulation we extracted the trajectory of the phosphorus atom of every lipid, removing the jumps derived from the periodic boundary conditions to have a continuous trajectory. The resulting trajectory must be centred to remove the drift of the whole system, and this can be achieved in two ways: either considering the bilayer as a unique object and translating its center of mass (COM) at the origin of the simulation box for each time frame, or considering the two leaflets separately and centring each of them within the simulation box at each time frame. Figure \ref{fig:com_rem_scheme} illustrates the procedure in two cases, showing how they differ if a leaflet translate with respect to the other one.
+%
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.95\linewidth]{3results_capsule/pics/diff_comrem.pdf} 
+\caption[Procedure for diffusion coefficient computation]{Scheme of two different procedures (``Actions") for centring a trajectory of a lipid bilayer. The final configuration (``Used") is employed to compute the MSD of lipids.}
+\label{fig:com_rem_scheme}
+\end{figure}
+
+The MSD of each lipid in one leaflet was computed as a function of time: for a lipid $i$ and a given time $t$, the displacement $r_i^2(t_{start}+t)$ was computed for all $t_{start}$ such that $(t_{start}+t)$ is within the simulated time. The average over the start times and over the lipids (belonging to the same specie and leaflet) gave the MSD(t):
 \begin{equation}
 MSD(t) = \langle \langle r_i^2(t_{start}+t) \rangle_{start} \rangle_i
 \end{equation}
@@ -354,7 +363,7 @@ The diffusion coefficient D was obtained from a linear fit of the MSD(t), follow
 \begin{equation}
 \langle \left( x - x_0 \right)^2 \rangle = 4Dt.
 \end{equation}
-The fit was performed in the regions which showed a linear dependence. This implied discarding the first interval of the profile, where the behaviour is not linear, and the last one, where the poorer statistics leads to more noisy data. We choose 50 ns each for atomistic simulations and 100 ns each for MARTINI ones to be suitable for each simulation condition of the respective resolution. 
+The fit was performed in the regions which showed a linear dependence. This implied discarding the first interval of the profile, where the behaviour is not linear, and the last one, where the poorer statistics leads to more noisy data. We choose 50 ns each for atomistic simulations and 100 ns each for MARTINI ones to be suitable for each simulation condition of the respective resolution. As a final step, the D values from the two leaflets are averaged
 \end{itemize}
 
 For atomistic simulations of the protein on the membrane, further analysis includes the following:
@@ -711,22 +720,16 @@ Moreover a control simulations on the 512 patch where RF was switched to PME pro
 %
 Therefore we attribute the discrepancy to the different sizes of the patches. Later in this section other cases are reported in which the size has a great influence on the simulation outcome.
 
-Regarding the diffusion coefficient, we report in Figure \ref{fig:lip_diff}, the value averaged between the two leaflets, computed both removing the centre of mass (COM) movement of each leaflet, or the COM movement of the full bilayer (for a scheme of the proceduree see Figure \ref{fig:com_rem_scheme}). While the former measures the pure random movement of a lipid with respect to its neighbours, the latter is influenced by possible collective movements of one leaflet with respect to the other. While not exactly falling in the definition of lateral diffusion, such mutual movement is compatible with a COM of the whole system staying in the original position. Thus, we deemed this measure interesting and we want to keep track of this movement as well. We will call the two measures respectively pure diffusion and global diffusion in the following.
-%
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.5\linewidth]{3results_capsule/pics/pb4_S6.png} 
-\caption[Procedure for diffusion coefficient computation]{ggg}
-\label{fig:com_rem_scheme}
-\end{figure}
+Regarding the diffusion coefficient, we report in Figure \ref{fig:lip_diff}, the value averaged between the two leaflets, computed both removing the centre of mass (COM) movement of each leaflet, or the COM movement of the full bilayer (as explained in Section \ref{sec:analysis}). While the former measures the pure random movement of a lipid with respect to its neighbours, the latter is influenced by possible collective movements of one leaflet with respect to the other. While not exactly falling in the definition of lateral diffusion, such mutual movement is compatible with a COM of the whole system staying in the original position. Thus, we deemed this measure interesting and we want to keep track of this movement as well. We will call the two measures respectively pure diffusion and global diffusion in the following.
 
 Considering the pure diffusion (tagged L$_{COM}$ in Figure \ref{fig:lip_diff}), the larger membrane has a smaller diffusion coefficient with respect to the 512 lipids patch. However, considering the global one (tagged BI$_{COM}$) we observe the opposite.
 %
 In general, differences are expected between the two patches, because of their different size: it is well known that periodic boundary conditions affect the computed diffusion coefficient \citep{Camley2015,Venable2017}. Previous studies have found that, for atomistic simulations of the size employed here, this is systematically underestimated \citep{Camley2015}: increasing the size would increase the coefficient, toward its real value (which is obtained for an infinite box). This is consistent with our global diffusion results, but not the pure ones. Unfortunately, it is not clear whether, in the publications mentioned, they refer to what is here called pure or global diffusion.
 
-To exclude that the difference between the two patches is given by the force field chosen, we refer the reader to the next chapter, where, for simulations of monolipid patches the 54A7 or 54A8 force fields gave very similar values of pure diffusion (keeping all the other simulation conditions identical).
+To exclude that the difference between the two patches is given by the force field chosen, we refer the reader to the next chapter, where, for simulations of monolipid patches, the 54A7 or 54A8 force fields gave very similar values of pure diffusion (keeping all the other simulation conditions identical).
 %
-Moreover, in these simulations we observed drift of one leaflet with respect to the other in a non consistent manner: some simulations present it while other
+Moreover, also in these simulations we observed drift of one leaflet with respect to the other. This appeared in some of the simulations only, and not in a consistent manner: it did not happen for a lipid in particular, or for a set of parameters, suggesting that the variability due to the initial conditions can initiate the drift in a random manner.
+Once it is started, such motion seems to persist throughout the simulation length, as by inertia.
 
 
 \paragraph{Influence of the peptide on the 512-lipids bacterial patch}
