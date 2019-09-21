@@ -1039,9 +1039,12 @@ Simulations on the pure membranes show an increased ApL with respect to the stan
 %
 For the pure DLPC membrane, the diffusion coefficient increases slightly, which can be expected when the ApL is increased as well. However, we see the opposite in the mixed membrane. We leave the discussion of this discrepancy for the following, where these data are compared with the results obtained when the peptidic capsule is bound to the membrane.
 
-Regarding simulations with the capsule, we first run one without electric field, to test the interaction between membrane and capsule with the new parametrisation. The binding happens much faster than what observed in the standard MARTINI simulations (within the first 50 ns), and the membrane starts to be deformed by the capsule already after 100 ns (Figure \ref{fig:martini_stMem}, left). However, we did not observe poration on the timescale of the simulation (500 ns).
+Regarding simulations with the capsule, we first run one without electric field, to test the interaction between membrane and capsule with the new parametrisation. The binding happens much faster than what observed in the standard MARTINI simulations (within the first 50 ns), and the membrane starts to be deformed by the capsule already after 100 ns.
+%(Figure \ref{fig:martini_stMem}, left)
+However, we did not observe poration on the timescale of the simulation (500 ns).
 %
-A longer simulation might allow to observe membrane disruption but, as mentioned before, we preferred to focus on the action of the electric field. As such, we simulated the binding under the action of a 20 mV/nm electric field. The curvature of the membrane is slightly more pronounced than in the case without field, but without any disruption (Figure \ref{fig:martini_stMem}, right).
+A longer simulation might allow to observe membrane disruption but, as mentioned before, we preferred to focus on the action of the electric field. As such, we simulated the binding under the action of a 20 mV/nm electric field. The curvature of the membrane is slightly more pronounced than in the case without field, but without any disruption.
+%(Figure \ref{fig:martini_stMem}, right)
 From the final configuration of this run we doubled the electric field, which was sufficient to observe poration within 200 ns.
 
 As in membrane simulations the pressure coupling is performed semi isotropically, once a pore is formed, the box undergoes a large and unphysical deformation if the pore keeps expanding. The analysis of the events happening after poration are thus affected by this artefact.
@@ -1053,9 +1056,9 @@ Being the field still present, the capsule is pushed through the whole length si
 The fact that we observed poration at a much lower value of the electric field than what found with the atomistic model can be explained by several factors: first, the parametrisation is different and favour a more dynamical rearrangement between lipids (see the discussion on diffusion in the following). Second, the parametrisation itself is known for smoothing the energy barriers and thus speed up the course of the event (the effective time sampled in MARTINI simulations is 3 to 6 times larger than the one simulated \citep{SiewertJ.Marrink2003}). Finally, in these simulations the full capsule with 120 molecules is present, interacting more strongly with the electric field, as opposed to the pentagonal subunit used in the atomistic simulations, which hosted 10 molecules only.
 
 \begin{figure}[t!]
-\centering\includegraphics[width=0.95\linewidth]{3results_capsule/pics/picmartiniPW.png} 
-\caption[MARTINI simulations of capsule on membrane]{[REDO]}
-\label{fig:martini_stMem}
+\centering\includegraphics[width=0.95\linewidth]{3results_capsule/pics/poration_martini.png} 
+\caption[MARTINI simulations of capsule on membrane]{Bacterial membrane poration due to the action of the capzip capsule and an external electric field of 40 mV/nm. Capsule in bond representation, green external layer, yellow internal one. Lipids in surface representation [VMD software \citet{HUMP96}]}
+\label{fig:martini_poration}
 \end{figure}
 
 For the simulations without electric field and with a 20 mV/nm one, we retrieve the increase of the diffusion coefficient already observed for the DLPC membrane (without peptide). As mentioned before, for the bacterial membrane simulated without the capsule the trend was opposite - which is not in agreement with the remaining results.
@@ -1073,11 +1076,6 @@ This definitely prove that the peptide has a low propensity to bound to non anio
 In general [COMMENTS on assembly, on ANTIMICROBIAL activity, on value of these simulations even if they are done on simple membranes]
 
 \clearpage
-\section{Additional material}
-
-
-
-
 %\begin{figure}[h]%[p!]
 %\centering
 % \def\arraystretch{1.6}
@@ -1127,16 +1125,23 @@ The only conditions which severely affects the ApL seems the complete neglect of
 
 Regarding the different cut off values, we did not find previous work testing the difference. However, given that we apply a long range correction, the cut off simply discriminated which positions are treated in the exact way and which instead through the long range approximation of choice. As these approximations seem consistent among them and robust, we foresee that a small shift in the cut off length does not have a high impact on the simulation outcome.
 
+\clearpage
 
-\subsection{Supplementary figures}
+\subsection{Figures and Table}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.6\linewidth]{3results_capsule/pics/bb_contacts.png}
+%\includegraphics[width=0.6\linewidth]{3results_capsule/pics/bb_contacts.png}
 \caption[Final configuration of a pentagonal subunit simulation]{Final configuration from a 100 ns simulation of the pentagonal subunit in solution. Bonds and cartoon representation, coloured by name. [VMD software \citet{HUMP96}]}
 \label{fig:penta_results_SI}
 \end{figure}
 
-\subsection{Supplementary tables}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.6\linewidth]{3results_capsule/pics/msd_MARTINI.png}
+\caption[Typical lipid lateral MSD profile computed on Polar MARTINI simulations.]{Typical lipid lateral MSD profile computed on Polar MARTINI simulations: MSD computed on the PO4 bead of DLPC for a 2880 lipids membrane, with an externally applied electric field of 20 mV/nm.}
+\label{fig:fig:MSD_martini}
+\end{figure}
+
 \begin{figure}[h!]
 \centering
  \def\arraystretch{1.6}
