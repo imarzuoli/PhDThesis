@@ -2,14 +2,14 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: front.aux
-A level-1 auxiliary file: 1introduction/introduction.aux
-A level-1 auxiliary file: 2methods/methods.aux
+A level-1 auxiliary file: 1introduction/introduction2.aux
+A level-1 auxiliary file: 2methods/methods2.aux
 A level-1 auxiliary file: 3results_capsule/results_capsule.aux
 A level-1 auxiliary file: 4lip_par/lip_par.aux
 A level-1 auxiliary file: 5conclusions/conclusions.aux
 A level-1 auxiliary file: appendix.aux
 The style file: my_apalike.bst
-Reallocated field_info (elt_size=4) to 14042 items from 5000.
+Reallocated field_info (elt_size=4) to 12898 items from 5000.
 Database file #1: thesis_ref2.bib
 Warning--entry type for "poly" isn't style-file defined
 --line 3075 of file thesis_ref2.bib
@@ -23,46 +23,45 @@ Warning--entry type for "sirah_web" isn't style-file defined
 Warning--entry type for "calgary_site" isn't style-file defined
 --line 7357 of file thesis_ref2.bib
 Warning--empty publisher in gromacs_man
-Warning--empty journal in Oneill2016
-You've used 411 entries,
+You've used 359 entries,
             1958 wiz_defined-function locations,
-            2974 strings with 97665 characters,
-and the built_in function-call counts, 193600 in all, are:
-= -- 19586
-> -- 9655
-< -- 127
-+ -- 4027
-- -- 3158
-* -- 17624
-:= -- 32769
-add.period$ -- 1240
-call.type$ -- 411
-change.case$ -- 3931
-chr.to.int$ -- 406
-cite$ -- 413
-duplicate$ -- 5753
-empty$ -- 12228
-format.name$ -- 3735
-if$ -- 37442
+            2683 strings with 83012 characters,
+and the built_in function-call counts, 166311 in all, are:
+= -- 16790
+> -- 8163
+< -- 109
++ -- 3384
+- -- 2621
+* -- 15091
+:= -- 28180
+add.period$ -- 1083
+call.type$ -- 359
+change.case$ -- 3293
+chr.to.int$ -- 354
+cite$ -- 360
+duplicate$ -- 5016
+empty$ -- 10648
+format.name$ -- 3120
+if$ -- 32220
 int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 401
-newline$ -- 2061
-num.names$ -- 1241
-pop$ -- 3307
+missing$ -- 349
+newline$ -- 1801
+num.names$ -- 1083
+pop$ -- 2744
 preamble$ -- 1
-purify$ -- 3936
+purify$ -- 3298
 quote$ -- 0
-skip$ -- 5517
+skip$ -- 4815
 stack$ -- 0
-substring$ -- 14839
-swap$ -- 444
-text.length$ -- 6
+substring$ -- 12884
+swap$ -- 384
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2458
-warning$ -- 2
-while$ -- 1537
+type$ -- 2146
+warning$ -- 1
+while$ -- 1340
 width$ -- 0
-write$ -- 5339
-(There were 7 warnings)
+write$ -- 4663
+(There were 6 warnings)

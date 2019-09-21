@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  20 SEP 2019 18:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  21 SEP 2019 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -996,8 +996,8 @@ Package csquotes Info: ... none found.
 LaTeX Warning: Unused global option(s):
     [UKenglish].
 
-(./thesis.aux (./front.aux) (./1introduction/introduction.aux)
-(./2methods/methods.aux) (./3results_capsule/results_capsule.aux)
+(./thesis.aux (./front.aux) (./1introduction/introduction2.aux)
+(./2methods/methods2.aux) (./3results_capsule/results_capsule.aux)
 (./4lip_par/lip_par.aux) (./5conclusions/conclusions.aux) (./appendix.aux))
 \openout1 = `thesis.aux'.
 
@@ -1071,339 +1071,17 @@ e
 ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\openout2 = `front.aux'.
-
- (./front.tex
-<KCL_logo.pdf, id=4, 282.656pt x 187.902pt>
-File: KCL_logo.pdf Graphic file (type pdf)
- <use KCL_logo.pdf>
-Package pdftex.def Info: KCL_logo.pdf used on input line 45.
-(pdftex.def)             Requested size: 128.40166pt x 85.35826pt.
- [1
-
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./KCL_logo.pdf>]
-
-Class memoir Warning: The \it font command is deprecated. 
-(memoir)              Use \textit{...} or {\itshape... } instead on input line 
-76.
-
-[2
-
-]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
- [3
-
-] [4
-
-] [5
-
-
-] (./thesis.toc
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 1.
-
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [6
-
-]) [7]
-(./thesis.lof [8
-
-]) [9] (./thesis.lot)
-\nomitemorigsep=\skip271
-
-No file thesis.nls.
-[10
-
-]) [11
-
-]
-\openout2 = `1introduction/introduction.aux'.
-
- (./1introduction/introduction.tex [12
-
-
-
-] [13]
-<1introduction/pics/scheme_intro.pdf, id=62, 537.00626pt x 759.83875pt>
-File: 1introduction/pics/scheme_intro.pdf Graphic file (type pdf)
-
-<use 1introduction/pics/scheme_intro.pdf>
-Package pdftex.def Info: 1introduction/pics/scheme_intro.pdf used on input line
- 26.
-(pdftex.def)             Requested size: 404.6987pt x 572.62547pt.
-
-
-LaTeX Warning: Float too large for page by 2.81226pt on input line 29.
-
-[14] [15 <./1introduction/pics/scheme_intro.pdf>]
-<1introduction/pics/amr1.jpg, id=163, 929.4725pt x 569.12625pt>
-File: 1introduction/pics/amr1.jpg Graphic file (type jpg)
-
-<use 1introduction/pics/amr1.jpg>
-Package pdftex.def Info: 1introduction/pics/amr1.jpg used on input line 61.
-(pdftex.def)             Requested size: 255.6026pt x 156.50586pt.
-
-<1introduction/pics/amr3.jpg, id=164, 929.4725pt x 850.17625pt>
-File: 1introduction/pics/amr3.jpg Graphic file (type jpg)
-
-<use 1introduction/pics/amr3.jpg>
-Package pdftex.def Info: 1introduction/pics/amr3.jpg used on input line 62.
-(pdftex.def)             Requested size: 266.60432pt x 243.86452pt.
-
-<1introduction/pics/amr4_half.png, id=165, 401.5pt x 838.13126pt>
-File: 1introduction/pics/amr4_half.png Graphic file (type png)
-
-<use 1introduction/pics/amr4_half.png>
-Package pdftex.def Info: 1introduction/pics/amr4_half.png used on input line 64
-.
-(pdftex.def)             Requested size: 116.81798pt x 243.86452pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16] [17 <./1introduction/pics/amr1.jpg> <./1introduction/pics/amr3.jpg> <./1in
-troduction/pics/amr4_half.png>] [18] [19]
-<1introduction/pics/amp_mech.jpg, id=180, 520.59982pt x 401.00256pt>
-File: 1introduction/pics/amp_mech.jpg Graphic file (type jpg)
-
-<use 1introduction/pics/amp_mech.jpg>
-Package pdftex.def Info: 1introduction/pics/amp_mech.jpg used on input line 142
-.
-(pdftex.def)             Requested size: 340.8013pt x 262.50868pt.
- [20 <./1introduction/pics/amp_mech.jpg>]
-[21]
-<1introduction/pics/bacterial_membrane.jpg, id=187, 1284.8pt x 736.7525pt>
-File: 1introduction/pics/bacterial_membrane.jpg Graphic file (type jpg)
-
-<use 1introduction/pics/bacterial_membrane.jpg>
-Package pdftex.def Info: 1introduction/pics/bacterial_membrane.jpg used on inpu
-t line 173.
-(pdftex.def)             Requested size: 340.8013pt x 195.4296pt.
- [22 <./1introduction/pics/bacterial_membrane.jpg>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [23]
-Overfull \hbox (58.29185pt too wide) in paragraph at lines 198--205
-[]\OT1/cmr/m/n/10.95 The li-pidic com-po-nent is abun-dant in zwit-te-ri-onic p
-hos-pho-lipids such as phos-phatidylethanolamine,
- []
-
-[24] <1introduction/pics/AMP_many.jpg, id=198, 520.59982pt x 326.17433pt>
-File: 1introduction/pics/AMP_many.jpg Graphic file (type jpg)
-
-<use 1introduction/pics/AMP_many.jpg>
-Package pdftex.def Info: 1introduction/pics/AMP_many.jpg used on input line 225
-.
-(pdftex.def)             Requested size: 340.8013pt x 213.5238pt.
- [25] [26 <./1introduction/pics/AMP_many.jpg>] [27]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
- [28] [29] [30]
-Overfull \hbox (0.71176pt too wide) in paragraph at lines 334--336
-[]\OT1/cmr/m/n/10.95 A part from pre-dic-tions re-gard-ing ex-ist-ing se-quence
-s, the knowl-edge of AMPs sequence-
- []
-
-[31] [32] [33] [34]
-<1introduction/pics/gene_therapy.jpeg, id=231, 435.90855pt x 327.98535pt>
-File: 1introduction/pics/gene_therapy.jpeg Graphic file (type jpg)
-
-<use 1introduction/pics/gene_therapy.jpeg>
-Package pdftex.def Info: 1introduction/pics/gene_therapy.jpeg used on input lin
-e 411.
-(pdftex.def)             Requested size: 340.8013pt x 256.4231pt.
- [35 <./1introduction/pics/gene_therapy.jpeg>] [36] [37] [38] [39]
-<1introduction/pics/triskelion_chem.jpg, id=248, 304.13625pt x 185.19188pt>
-File: 1introduction/pics/triskelion_chem.jpg Graphic file (type jpg)
-
-<use 1introduction/pics/triskelion_chem.jpg>
-Package pdftex.def Info: 1introduction/pics/triskelion_chem.jpg used on input l
-ine 520.
-(pdftex.def)             Requested size: 170.3974pt x 103.7576pt.
-
-<1introduction/pics/triskelion_surf.png, id=249, 1585.925pt x 1175.39125pt>
-File: 1introduction/pics/triskelion_surf.png Graphic file (type png)
-
-<use 1introduction/pics/triskelion_surf.png>
-Package pdftex.def Info: 1introduction/pics/triskelion_surf.png used on input l
-ine 521.
-(pdftex.def)             Requested size: 191.6987pt x 142.06316pt.
- [40] [41 <./1introduction/pics/triskelion_chem.jpg> <./1introduction/pics/tris
-kelion_surf.png>]
-<1introduction/pics/blf.png, id=256, 1494.58376pt x 1031.855pt>
-File: 1introduction/pics/blf.png Graphic file (type png)
-
-<use 1introduction/pics/blf.png>
-Package pdftex.def Info: 1introduction/pics/blf.png used on input line 554.
-(pdftex.def)             Requested size: 170.3974pt x 117.62953pt.
-
-<1introduction/pics/lfc.png, id=257, 1494.58376pt x 879.285pt>
-File: 1introduction/pics/lfc.png Graphic file (type png)
-
-<use 1introduction/pics/lfc.png>
-Package pdftex.def Info: 1introduction/pics/lfc.png used on input line 555.
-(pdftex.def)             Requested size: 170.3974pt x 100.23685pt.
- [42 <./1introduction/pics/blf.png> <./1introduction/pics/lfc.png>]
-<1introduction/pics/trp_zip.png, id=261, 1672.2475pt x 1031.855pt>
-File: 1introduction/pics/trp_zip.png Graphic file (type png)
-
-<use 1introduction/pics/trp_zip.png>
-Package pdftex.def Info: 1introduction/pics/trp_zip.png used on input line 573.
-
-(pdftex.def)             Requested size: 213.0pt x 131.422pt.
- [43] [44 <./1introduction/pics/trp_zip.png>] <1introduction/pics/paper_npl_2.j
-pg, id=269, 426.84468pt x 484.05844pt>
-File: 1introduction/pics/paper_npl_2.jpg Graphic file (type jpg)
-
-<use 1introduction/pics/paper_npl_2.jpg>
-Package pdftex.def Info: 1introduction/pics/paper_npl_2.jpg used on input line 
-607.
-(pdftex.def)             Requested size: 227.62204pt x 258.13776pt.
-
-<1introduction/pics/Dcapzip_afm_tem.png, id=270, 810.02625pt x 825.0825pt>
-File: 1introduction/pics/Dcapzip_afm_tem.png Graphic file (type png)
-
-<use 1introduction/pics/Dcapzip_afm_tem.png>
-Package pdftex.def Info: 1introduction/pics/Dcapzip_afm_tem.png used on input l
-ine 608.
-(pdftex.def)             Requested size: 241.84842pt x 246.34322pt.
-Missing character: There is no Œ in font cmr10!
-Missing character: There is no º in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ä in font cmr10!
-Missing character: There is no Œ in font cmr10!
-Missing character: There is no º in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ä in font cmr10!
- [45] [46 <./1introduction/pics/paper_npl_2.jpg> <./1introduction/pics/Dcapzip_
-afm_tem.png>]
-<1introduction/pics/CD_capzip.png, id=278, 635.37375pt x 473.77pt>
-File: 1introduction/pics/CD_capzip.png Graphic file (type png)
-
-<use 1introduction/pics/CD_capzip.png>
-Package pdftex.def Info: 1introduction/pics/CD_capzip.png used on input line 62
-5.
-(pdftex.def)             Requested size: 255.6026pt x 190.589pt.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 632.
- [47 <./1introduction/pics/CD_capzip.png>] <1introduction/pics/capzip_delivery.
-png, id=282, 346.29375pt x 457.71pt>
-File: 1introduction/pics/capzip_delivery.png Graphic file (type png)
-
-<use 1introduction/pics/capzip_delivery.png>
-Package pdftex.def Info: 1introduction/pics/capzip_delivery.png used on input l
-ine 646.
-(pdftex.def)             Requested size: 255.6026pt x 337.84804pt.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 647.
- [48]
-<1introduction/pics/ecoli_disruption.png, id=289, 1158.3275pt x 760.8425pt>
-File: 1introduction/pics/ecoli_disruption.png Graphic file (type png)
-
-<use 1introduction/pics/ecoli_disruption.png>
-Package pdftex.def Info: 1introduction/pics/ecoli_disruption.png used on input 
-line 665.
-(pdftex.def)             Requested size: 340.8013pt x 223.8545pt.
-
-<1introduction/pics/AFM_on_SLB.png, id=290, 820.06375pt x 509.905pt>
-File: 1introduction/pics/AFM_on_SLB.png Graphic file (type png)
-
-<use 1introduction/pics/AFM_on_SLB.png>
-Package pdftex.def Info: 1introduction/pics/AFM_on_SLB.png used on input line 6
-76.
-(pdftex.def)             Requested size: 340.8013pt x 211.91006pt.
- [49 <./1introduction/pics/capzip_delivery.png>] [50 <./1introduction/pics/ecol
-i_disruption.png>] [51 <./1introduction/pics/AFM_on_SLB.png>] [52]) [53]
-\openout2 = `2methods/methods.aux'.
-
- (./2methods/methods.tex [54
-
-
-
-] [55] [56]
-[57] [58] [59] [60]
-<2methods/pics/picture_chapter.pdf, id=334, 537.00626pt x 654.445pt>
-File: 2methods/pics/picture_chapter.pdf Graphic file (type pdf)
-
-<use 2methods/pics/picture_chapter.pdf>
-Package pdftex.def Info: 2methods/pics/picture_chapter.pdf used on input line 1
-49.
-(pdftex.def)             Requested size: 349.04993pt x 425.38422pt.
- [61] [62 <./2methods/pics/picture_chapter.pdf>] [63]
-Overfull \hbox (6.06635pt too wide) in paragraph at lines 175--176
-[]\OT1/cmr/m/n/10.95 The im-prove-ment of com-pu-ta-tional tech-niques and repa
-rametri-sa-tion strate-gies prompts
- []
-
-<2methods/pics/sirah_aa.png, id=407, 1065.9825pt x 786.94pt>
-File: 2methods/pics/sirah_aa.png Graphic file (type png)
-
-<use 2methods/pics/sirah_aa.png>
-Package pdftex.def Info: 2methods/pics/sirah_aa.png used on input line 192.
-(pdftex.def)             Requested size: 340.8013pt x 251.58578pt.
- [64] [65 <./2methods/pics/sirah_aa.png>]
-[66] <2methods/pics/martini_aa.jpeg, id=418, 240.9pt x 148.3944pt>
-File: 2methods/pics/martini_aa.jpeg Graphic file (type jpg)
-
-<use 2methods/pics/martini_aa.jpeg>
-Package pdftex.def Info: 2methods/pics/martini_aa.jpeg used on input line 222.
-(pdftex.def)             Requested size: 298.1987pt x 183.70825pt.
-
-<2methods/pics/martini_lipids.jpg, id=419, 2006.49625pt x 1714.405pt>
-File: 2methods/pics/martini_lipids.jpg Graphic file (type jpg)
-
-<use 2methods/pics/martini_lipids.jpg>
-Package pdftex.def Info: 2methods/pics/martini_lipids.jpg used on input line 22
-3.
-(pdftex.def)             Requested size: 170.3974pt x 145.57861pt.
-
-<2methods/pics/martini_polar.png, id=420, 1241.45161pt x 545.0873pt>
-File: 2methods/pics/martini_polar.png Graphic file (type png)
-
-<use 2methods/pics/martini_polar.png>
-Package pdftex.def Info: 2methods/pics/martini_polar.png used on input line 224
-.
-(pdftex.def)             Requested size: 149.1026pt x 65.46587pt.
- [67] [68 <./2methods/pics/martini_aa.jpeg> <./2methods/pics/martini_lipids.jpg
-> <./2methods/pics/martini_polar.png>]
-[69] [70] [71] [72] [73] [74] [75] [76]
-<2methods/pics/disordered_pore.jpg, id=453, 340.24716pt x 156.8259pt>
-File: 2methods/pics/disordered_pore.jpg Graphic file (type jpg)
-
-<use 2methods/pics/disordered_pore.jpg>
-Package pdftex.def Info: 2methods/pics/disordered_pore.jpg used on input line 3
-57.
-(pdftex.def)             Requested size: 340.8013pt x 157.0935pt.
- [77] [78 <./2methods/pics/disordered_pore.jpg>] <2methods/pics/polyarg.jpeg, i
-d=460, 162.3666pt x 135.3858pt>
-File: 2methods/pics/polyarg.jpeg Graphic file (type jpg)
-
-<use 2methods/pics/polyarg.jpeg>
-Package pdftex.def Info: 2methods/pics/polyarg.jpeg used on input line 385.
-(pdftex.def)             Requested size: 213.0pt x 177.61078pt.
- [79] [80 <./2methods/pics/polyarg.jpeg>]
-[81] [82] [83] <2methods/pics/PA.jpeg, id=477, 240.9pt x 92.7465pt>
-File: 2methods/pics/PA.jpeg Graphic file (type jpg)
-
-<use 2methods/pics/PA.jpeg>
-Package pdftex.def Info: 2methods/pics/PA.jpeg used on input line 457.
-(pdftex.def)             Requested size: 340.8013pt x 131.2212pt.
- [84 <./2methods/pics/PA.jpeg>]) [85]
 \openout2 = `3results_capsule/results_capsule.aux'.
 
+ (./3results_capsule/results_capsule.tex
+[1
 
-(./3results_capsule/results_capsule.tex [86
 
 
 
-]
-<3results_capsule/pics/merged_figures_beta_sheet.pdf, id=488, 796.9775pt x 540.
-0175pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<3results_capsule/pics/merged_figures_beta_sheet.pdf, id=11, 796.9775pt x 540.0
+175pt>
 File: 3results_capsule/pics/merged_figures_beta_sheet.pdf Graphic file (type pd
 f)
  <use 3results_capsule/pics/merged_figures_beta_sheet.pdf>
@@ -1411,7 +1089,7 @@ Package pdftex.def Info: 3results_capsule/pics/merged_figures_beta_sheet.pdf us
 ed on input line 20.
 (pdftex.def)             Requested size: 383.3974pt x 259.78224pt.
 
-<3results_capsule/pics/pi_stacking_0.png, id=489, 2006.49625pt x 1582.91376pt>
+<3results_capsule/pics/pi_stacking_0.png, id=12, 2006.49625pt x 1582.91376pt>
 File: 3results_capsule/pics/pi_stacking_0.png Graphic file (type png)
 
 <use 3results_capsule/pics/pi_stacking_0.png>
@@ -1419,14 +1097,19 @@ Package pdftex.def Info: 3results_capsule/pics/pi_stacking_0.png used on input
 line 23.
 (pdftex.def)             Requested size: 200.22052pt x 157.93834pt.
 
-<3results_capsule/pics/pi_stacking_90.png, id=490, 2006.49625pt x 1582.91376pt>
+<3results_capsule/pics/pi_stacking_90.png, id=14, 2006.49625pt x 1582.91376pt>
 File: 3results_capsule/pics/pi_stacking_90.png Graphic file (type png)
+
 <use 3results_capsule/pics/pi_stacking_90.png>
 Package pdftex.def Info: 3results_capsule/pics/pi_stacking_90.png used on input
  line 25.
 (pdftex.def)             Requested size: 200.22052pt x 157.93834pt.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 26.
 
-<3results_capsule/pics/beta_trpHbonds.pdf, id=491, 845.0471pt x 597.52231pt>
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+<3results_capsule/pics/beta_trpHbonds.pdf, id=15, 845.0471pt x 597.52231pt>
 File: 3results_capsule/pics/beta_trpHbonds.pdf Graphic file (type pdf)
 
 <use 3results_capsule/pics/beta_trpHbonds.pdf>
@@ -1434,7 +1117,7 @@ Package pdftex.def Info: 3results_capsule/pics/beta_trpHbonds.pdf used on input
  line 45.
 (pdftex.def)             Requested size: 170.3974pt x 120.48703pt.
 
-<3results_capsule/pics/beta_surf.pdf, id=492, 845.0471pt x 597.52231pt>
+<3results_capsule/pics/beta_surf.pdf, id=16, 845.0471pt x 597.52231pt>
 File: 3results_capsule/pics/beta_surf.pdf Graphic file (type pdf)
 
 <use 3results_capsule/pics/beta_surf.pdf>
@@ -1442,16 +1125,15 @@ Package pdftex.def Info: 3results_capsule/pics/beta_surf.pdf used on input line
  48.
 (pdftex.def)             Requested size: 170.3974pt x 120.48703pt.
 
-<3results_capsule/pics/pentamer_restype.png, id=493, 1857.94125pt x 1403.2425pt
->
+<3results_capsule/pics/pentamer_restype.png, id=17, 1857.94125pt x 1403.2425pt>
 File: 3results_capsule/pics/pentamer_restype.png Graphic file (type png)
- <use 3results_capsule/pics/pentamer_restype.png>
+<use 3results_capsule/pics/pentamer_restype.png>
 Package pdftex.def Info: 3results_capsule/pics/pentamer_restype.png used on inp
 ut line 50.
 (pdftex.def)             Requested size: 191.6987pt x 144.7647pt.
 
-<3results_capsule/pics/soccer_empos_extern_superimposed.png, id=494, 597.73312p
-t x 597.73312pt>
+<3results_capsule/pics/soccer_empos_extern_superimposed.png, id=18, 597.73312pt
+ x 597.73312pt>
 File: 3results_capsule/pics/soccer_empos_extern_superimposed.png Graphic file (
 type png)
 
@@ -1459,12 +1141,12 @@ type png)
 Package pdftex.def Info: 3results_capsule/pics/soccer_empos_extern_superimposed
 .png used on input line 52.
 (pdftex.def)             Requested size: 191.6987pt x 191.69806pt.
- [87] [88 <./3results_capsule/pics/merged_figures_beta_sheet.pdf> <./3results_c
-apsule/pics/pi_stacking_0.png> <./3results_capsule/pics/pi_stacking_90.png>] [8
-9 <./3results_capsule/pics/beta_trpHbonds.pdf> <./3results_capsule/pics/beta_su
-rf.pdf> <./3results_capsule/pics/pentamer_restype.png> <./3results_capsule/pics
-/soccer_empos_extern_superimposed.png>]
-<3results_capsule/pics/bb_contacts.png, id=550, 373.395pt x 289.08pt>
+ [2] [3 <./3results_capsule/pics/merged_figures_beta_sheet.pdf> <./3results_cap
+sule/pics/pi_stacking_0.png> <./3results_capsule/pics/pi_stacking_90.png>] [4 <
+./3results_capsule/pics/beta_trpHbonds.pdf> <./3results_capsule/pics/beta_surf.
+pdf> <./3results_capsule/pics/pentamer_restype.png> <./3results_capsule/pics/so
+ccer_empos_extern_superimposed.png>]
+<3results_capsule/pics/bb_contacts.png, id=77, 373.395pt x 289.08pt>
 File: 3results_capsule/pics/bb_contacts.png Graphic file (type png)
 
 <use 3results_capsule/pics/bb_contacts.png>
@@ -1472,16 +1154,16 @@ Package pdftex.def Info: 3results_capsule/pics/bb_contacts.png used on input li
 ne 80.
 (pdftex.def)             Requested size: 204.47818pt x 158.30637pt.
 
-<3results_capsule/pics/chain_COM_distance.png, id=551, 373.395pt x 289.08pt>
+<3results_capsule/pics/chain_COM_distance.png, id=78, 373.395pt x 289.08pt>
 File: 3results_capsule/pics/chain_COM_distance.png Graphic file (type png)
 
 <use 3results_capsule/pics/chain_COM_distance.png>
 Package pdftex.def Info: 3results_capsule/pics/chain_COM_distance.png used on i
 nput line 81.
 (pdftex.def)             Requested size: 204.47818pt x 158.30637pt.
- [90] [91 <./3results_capsule/pics/bb_contacts.png> <./3results_capsule/pics/ch
-ain_COM_distance.png>]
-<3results_capsule/pics/pL6_Pramp_pic2.png, id=561, 2208.25pt x 1358.07375pt>
+ [5] [6 <./3results_capsule/pics/bb_contacts.png> <./3results_capsule/pics/chai
+n_COM_distance.png>]
+<3results_capsule/pics/pL6_Pramp_pic2.png, id=88, 2208.25pt x 1358.07375pt>
 File: 3results_capsule/pics/pL6_Pramp_pic2.png Graphic file (type png)
 
 <use 3results_capsule/pics/pL6_Pramp_pic2.png>
@@ -1489,24 +1171,27 @@ Package pdftex.def Info: 3results_capsule/pics/pL6_Pramp_pic2.png used on input
  line 112.
 (pdftex.def)             Requested size: 191.6987pt x 117.89035pt.
 
-<3results_capsule/pics/fig7_irene.png, id=562, 1809.76125pt x 1355.0625pt>
+<3results_capsule/pics/fig7_irene.png, id=89, 1809.76125pt x 1355.0625pt>
 File: 3results_capsule/pics/fig7_irene.png Graphic file (type png)
 
 <use 3results_capsule/pics/fig7_irene.png>
 Package pdftex.def Info: 3results_capsule/pics/fig7_irene.png used on input lin
 e 113.
 (pdftex.def)             Requested size: 191.6987pt x 143.516pt.
- [92 <./3results_capsule/pics/pL6_Pramp_pic2.png> <./3results_capsule/pics/fig7
-_irene.png>] [93] [94] [95] [96]
+ [7 <./3results_capsule/pics/pL6_Pramp_pic2.png> <./3results_capsule/pics/fig7_
+irene.png>] [8] [9] [10] [11]
 
-LaTeX Warning: Text page 97 contains only floats.
+LaTeX Warning: Text page 12 contains only floats.
 
-[97] [98] [99] [100] [101] [102] [103]
+[12] [13] [14] [15]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 292.
+ [16] [17] [18]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [104]
-<3results_capsule/pics/s6_theory.pdf, id=605, 796.9775pt x 597.23125pt>
+ [19]
+<3results_capsule/pics/s6_theory.pdf, id=139, 796.9775pt x 597.23125pt>
 File: 3results_capsule/pics/s6_theory.pdf Graphic file (type pdf)
 
 <use 3results_capsule/pics/s6_theory.pdf>
@@ -1514,16 +1199,16 @@ Package pdftex.def Info: 3results_capsule/pics/s6_theory.pdf used on input line
  344.
 (pdftex.def)             Requested size: 234.3013pt x 175.5711pt.
 
-<3results_capsule/pics/diff_comrem.pdf, id=606, 722.7pt x 454.69875pt>
+<3results_capsule/pics/diff_comrem.pdf, id=140, 722.7pt x 454.69875pt>
 File: 3results_capsule/pics/diff_comrem.pdf Graphic file (type pdf)
 
 <use 3results_capsule/pics/diff_comrem.pdf>
 Package pdftex.def Info: 3results_capsule/pics/diff_comrem.pdf used on input li
 ne 352.
 (pdftex.def)             Requested size: 404.6987pt x 254.62262pt.
- [105 <./3results_capsule/pics/s6_theory.pdf>] [106 <./3results_capsule/pics/di
-ff_comrem.pdf>]
-<3results_capsule/pics/staR3_render.png, id=652, 1535.7375pt x 1261.71375pt>
+ [20 <./3results_capsule/pics/s6_theory.pdf>] [21 <./3results_capsule/pics/diff
+_comrem.pdf>]
+<3results_capsule/pics/staR3_render.png, id=186, 1535.7375pt x 1261.71375pt>
 File: 3results_capsule/pics/staR3_render.png Graphic file (type png)
 
 <use 3results_capsule/pics/staR3_render.png>
@@ -1531,7 +1216,7 @@ Package pdftex.def Info: 3results_capsule/pics/staR3_render.png used on input l
 ine 383.
 (pdftex.def)             Requested size: 213.0pt x 174.98303pt.
 
-<3results_capsule/pics/Rg_all.png, id=653, 349.305pt x 337.26pt>
+<3results_capsule/pics/Rg_all.png, id=187, 349.305pt x 337.26pt>
 File: 3results_capsule/pics/Rg_all.png Graphic file (type png)
 
 <use 3results_capsule/pics/Rg_all.png>
@@ -1539,7 +1224,7 @@ Package pdftex.def Info: 3results_capsule/pics/Rg_all.png used on input line 39
 2.
 (pdftex.def)             Requested size: 204.47818pt x 197.42752pt.
 
-<3results_capsule/pics/RMSD_all.png, id=654, 349.305pt x 337.26pt>
+<3results_capsule/pics/RMSD_all.png, id=188, 349.305pt x 337.26pt>
 File: 3results_capsule/pics/RMSD_all.png Graphic file (type png)
 
 <use 3results_capsule/pics/RMSD_all.png>
@@ -1547,25 +1232,25 @@ Package pdftex.def Info: 3results_capsule/pics/RMSD_all.png used on input line
 393.
 (pdftex.def)             Requested size: 204.47818pt x 197.42752pt.
 
-<3results_capsule/pics/RDF_all.png, id=655, 349.305pt x 289.08pt>
+<3results_capsule/pics/RDF_all.png, id=189, 349.305pt x 289.08pt>
 File: 3results_capsule/pics/RDF_all.png Graphic file (type png)
 
 <use 3results_capsule/pics/RDF_all.png>
 Package pdftex.def Info: 3results_capsule/pics/RDF_all.png used on input line 3
 94.
 (pdftex.def)             Requested size: 204.47818pt x 169.22359pt.
- [107]
-<3results_capsule/pics/RKGBcorr_boxplot_all.png, id=659, 602.25pt x 240.9pt>
+ [22]
+<3results_capsule/pics/RKGBcorr_boxplot_all.png, id=193, 602.25pt x 240.9pt>
 File: 3results_capsule/pics/RKGBcorr_boxplot_all.png Graphic file (type png)
 
 <use 3results_capsule/pics/RKGBcorr_boxplot_all.png>
 Package pdftex.def Info: 3results_capsule/pics/RKGBcorr_boxplot_all.png used on
  input line 411.
 (pdftex.def)             Requested size: 404.6987pt x 161.88736pt.
- [108 <./3results_capsule/pics/staR3_render.png>] [109 <./3results_capsule/pics
-/Rg_all.png (PNG copy)> <./3results_capsule/pics/RMSD_all.png (PNG copy)> <./3r
-esults_capsule/pics/RDF_all.png (PNG copy)>]
-<3results_capsule/pics/stAll_beta_90_R1.png, id=668, 433.62pt x 204.765pt>
+ [23 <./3results_capsule/pics/staR3_render.png>] [24 <./3results_capsule/pics/R
+g_all.png (PNG copy)> <./3results_capsule/pics/RMSD_all.png (PNG copy)> <./3res
+ults_capsule/pics/RDF_all.png (PNG copy)>]
+<3results_capsule/pics/stAll_beta_90_R1.png, id=202, 433.62pt x 204.765pt>
 File: 3results_capsule/pics/stAll_beta_90_R1.png Graphic file (type png)
 
 <use 3results_capsule/pics/stAll_beta_90_R1.png>
@@ -1573,41 +1258,41 @@ Package pdftex.def Info: 3results_capsule/pics/stAll_beta_90_R1.png used on inp
 ut line 428.
 (pdftex.def)             Requested size: 362.1026pt x 171.00159pt.
 
-<3results_capsule/pics/new_rep1_allFF.png, id=669, 578.16pt x 674.52pt>
+<3results_capsule/pics/new_rep1_allFF.png, id=203, 578.16pt x 674.52pt>
 File: 3results_capsule/pics/new_rep1_allFF.png Graphic file (type png)
 
 <use 3results_capsule/pics/new_rep1_allFF.png>
 Package pdftex.def Info: 3results_capsule/pics/new_rep1_allFF.png used on input
  line 435.
 (pdftex.def)             Requested size: 404.6987pt x 472.1402pt.
- [110 <./3results_capsule/pics/RKGBcorr_boxplot_all.png (PNG copy)>]
-<3results_capsule/pics/Hb_all.png, id=673, 2006.49625pt x 1659.19875pt>
+ [25 <./3results_capsule/pics/RKGBcorr_boxplot_all.png (PNG copy)>]
+<3results_capsule/pics/Hb_all.png, id=208, 2006.49625pt x 1659.19875pt>
 File: 3results_capsule/pics/Hb_all.png Graphic file (type png)
 
 <use 3results_capsule/pics/Hb_all.png>
 Package pdftex.def Info: 3results_capsule/pics/Hb_all.png used on input line 45
 7.
 (pdftex.def)             Requested size: 362.1026pt x 299.42772pt.
- [111 <./3results_capsule/pics/stAll_beta_90_R1.png (PNG copy)>] [112 <./3resul
-ts_capsule/pics/new_rep1_allFF.png (PNG copy)>]
-<3results_capsule/pics/st_All_sasa_fractions.png, id=680, 349.305pt x 216.81pt>
+ [26 <./3results_capsule/pics/stAll_beta_90_R1.png (PNG copy)>] [27 <./3results
+_capsule/pics/new_rep1_allFF.png (PNG copy)>]
+<3results_capsule/pics/st_All_sasa_fractions.png, id=215, 349.305pt x 216.81pt>
 File: 3results_capsule/pics/st_All_sasa_fractions.png Graphic file (type png)
 <use 3results_capsule/pics/st_All_sasa_fractions.png>
 Package pdftex.def Info: 3results_capsule/pics/st_All_sasa_fractions.png used o
 n input line 467.
 (pdftex.def)             Requested size: 205.90161pt x 127.8013pt.
 
-<3results_capsule/pics/st_Qsasa.png, id=681, 349.305pt x 216.81pt>
+<3results_capsule/pics/st_Qsasa.png, id=216, 349.305pt x 216.81pt>
 File: 3results_capsule/pics/st_Qsasa.png Graphic file (type png)
 
 <use 3results_capsule/pics/st_Qsasa.png>
 Package pdftex.def Info: 3results_capsule/pics/st_Qsasa.png used on input line 
 468.
 (pdftex.def)             Requested size: 205.90161pt x 127.8013pt.
- [113 <./3results_capsule/pics/Hb_all.png>] [114 <./3results_capsule/pics/st_Al
-l_sasa_fractions.png (PNG copy)> <./3results_capsule/pics/st_Qsasa.png (PNG cop
-y)>] [115] [116]
-<3results_capsule/pics/many_energies_brief.png, id=696, 433.62pt x 216.81pt>
+ [28 <./3results_capsule/pics/Hb_all.png>] [29 <./3results_capsule/pics/st_All_
+sasa_fractions.png (PNG copy)> <./3results_capsule/pics/st_Qsasa.png (PNG copy)
+>] [30] [31]
+<3results_capsule/pics/many_energies_brief.png, id=231, 433.62pt x 216.81pt>
 File: 3results_capsule/pics/many_energies_brief.png Graphic file (type png)
 
 <use 3results_capsule/pics/many_energies_brief.png>
@@ -1615,16 +1300,16 @@ Package pdftex.def Info: 3results_capsule/pics/many_energies_brief.png used on
 input line 519.
 (pdftex.def)             Requested size: 340.8013pt x 170.40794pt.
 
-<3results_capsule/pics/ratio_energies_brief.png, id=697, 433.62pt x 216.81pt>
+<3results_capsule/pics/ratio_energies_brief.png, id=232, 433.62pt x 216.81pt>
 File: 3results_capsule/pics/ratio_energies_brief.png Graphic file (type png)
 
 <use 3results_capsule/pics/ratio_energies_brief.png>
 Package pdftex.def Info: 3results_capsule/pics/ratio_energies_brief.png used on
  input line 520.
 (pdftex.def)             Requested size: 340.8013pt x 170.40794pt.
- [117] [118 <./3results_capsule/pics/many_energies_brief.png (PNG copy)> <./3re
-sults_capsule/pics/ratio_energies_brief.png (PNG copy)>]
-<3results_capsule/pics/compare_MonoBi_rmsd_init.png, id=704, 349.305pt x 289.08
+ [32] [33 <./3results_capsule/pics/many_energies_brief.png (PNG copy)> <./3resu
+lts_capsule/pics/ratio_energies_brief.png (PNG copy)>]
+<3results_capsule/pics/compare_MonoBi_rmsd_init.png, id=239, 349.305pt x 289.08
 pt>
 File: 3results_capsule/pics/compare_MonoBi_rmsd_init.png Graphic file (type png
 )
@@ -1633,7 +1318,7 @@ Package pdftex.def Info: 3results_capsule/pics/compare_MonoBi_rmsd_init.png use
 d on input line 565.
 (pdftex.def)             Requested size: 204.47818pt x 169.22359pt.
 
-<3results_capsule/pics/compare_MonoBi_RDF.png, id=705, 349.305pt x 289.08pt>
+<3results_capsule/pics/compare_MonoBi_RDF.png, id=240, 349.305pt x 289.08pt>
 File: 3results_capsule/pics/compare_MonoBi_RDF.png Graphic file (type png)
 
 <use 3results_capsule/pics/compare_MonoBi_RDF.png>
@@ -1644,8 +1329,8 @@ nput line 566.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[119]
-<3results_capsule/pics/sirah_mono_all.png, id=709, 934.49126pt x 970.62625pt>
+[34]
+<3results_capsule/pics/sirah_mono_all.png, id=244, 934.49126pt x 970.62625pt>
 File: 3results_capsule/pics/sirah_mono_all.png Graphic file (type png)
 
 <use 3results_capsule/pics/sirah_mono_all.png>
@@ -1653,16 +1338,16 @@ Package pdftex.def Info: 3results_capsule/pics/sirah_mono_all.png used on input
  line 582.
 (pdftex.def)             Requested size: 149.1026pt x 154.85905pt.
 
-<3results_capsule/pics/sirah_mono_detail.png, id=710, 1294.8375pt x 894.34125pt
+<3results_capsule/pics/sirah_mono_detail.png, id=245, 1294.8375pt x 894.34125pt
 >
 File: 3results_capsule/pics/sirah_mono_detail.png Graphic file (type png)
  <use 3results_capsule/pics/sirah_mono_detail.png>
 Package pdftex.def Info: 3results_capsule/pics/sirah_mono_detail.png used on in
 put line 583.
 (pdftex.def)             Requested size: 213.0pt x 147.1096pt.
- [120 <./3results_capsule/pics/compare_MonoBi_rmsd_init.png (PNG copy)> <./3res
-ults_capsule/pics/compare_MonoBi_RDF.png (PNG copy)>]
-<3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png, id=714, 349.305pt x 21
+ [35 <./3results_capsule/pics/compare_MonoBi_rmsd_init.png (PNG copy)> <./3resu
+lts_capsule/pics/compare_MonoBi_RDF.png (PNG copy)>]
+<3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png, id=249, 349.305pt x 21
 6.81pt>
 File: 3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png Graphic file (type
  png)
@@ -1671,7 +1356,7 @@ Package pdftex.def Info: 3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png
  used on input line 601.
 (pdftex.def)             Requested size: 204.47818pt x 126.9177pt.
 
-<3results_capsule/pics/st_sasaRes_mono_bi_bars.png, id=715, 349.305pt x 216.81p
+<3results_capsule/pics/st_sasaRes_mono_bi_bars.png, id=250, 349.305pt x 216.81p
 t>
 File: 3results_capsule/pics/st_sasaRes_mono_bi_bars.png Graphic file (type png)
 
@@ -1679,9 +1364,9 @@ File: 3results_capsule/pics/st_sasaRes_mono_bi_bars.png Graphic file (type png)
 Package pdftex.def Info: 3results_capsule/pics/st_sasaRes_mono_bi_bars.png used
  on input line 602.
 (pdftex.def)             Requested size: 204.47818pt x 126.9177pt.
- [121 <./3results_capsule/pics/sirah_mono_all.png> <./3results_capsule/pics/sir
-ah_mono_detail.png>]
-<3results_capsule/pics/Rg_backmap.png, id=720, 349.305pt x 289.08pt>
+ [36 <./3results_capsule/pics/sirah_mono_all.png> <./3results_capsule/pics/sira
+h_mono_detail.png>]
+<3results_capsule/pics/Rg_backmap.png, id=254, 349.305pt x 289.08pt>
 File: 3results_capsule/pics/Rg_backmap.png Graphic file (type png)
 
 <use 3results_capsule/pics/Rg_backmap.png>
@@ -1689,7 +1374,7 @@ Package pdftex.def Info: 3results_capsule/pics/Rg_backmap.png used on input lin
 e 618.
 (pdftex.def)             Requested size: 204.47818pt x 169.22359pt.
 
-<3results_capsule/pics/RDF_BM.png, id=721, 349.305pt x 289.08pt>
+<3results_capsule/pics/RDF_BM.png, id=255, 349.305pt x 289.08pt>
 File: 3results_capsule/pics/RDF_BM.png Graphic file (type png)
 
 <use 3results_capsule/pics/RDF_BM.png>
@@ -1697,26 +1382,26 @@ Package pdftex.def Info: 3results_capsule/pics/RDF_BM.png used on input line 61
 9.
 (pdftex.def)             Requested size: 204.47818pt x 169.22359pt.
 
-<3results_capsule/pics/contacts_BM.png, id=722, 578.16pt x 216.81pt>
+<3results_capsule/pics/contacts_BM.png, id=256, 578.16pt x 216.81pt>
 File: 3results_capsule/pics/contacts_BM.png Graphic file (type png)
 
 <use 3results_capsule/pics/contacts_BM.png>
 Package pdftex.def Info: 3results_capsule/pics/contacts_BM.png used on input li
 ne 624.
 (pdftex.def)             Requested size: 404.6987pt x 151.75934pt.
- [122 <./3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png (PNG copy)> <./
-3results_capsule/pics/st_sasaRes_mono_bi_bars.png (PNG copy)>] [123 <./3results
-_capsule/pics/Rg_backmap.png (PNG copy)> <./3results_capsule/pics/RDF_BM.png (P
-NG copy)> <./3results_capsule/pics/contacts_BM.png (PNG copy)>]
-<3results_capsule/pics/final_SA.png, id=729, 2007.5pt x 633.36626pt>
+ [37 <./3results_capsule/pics/st_sasaRes_mono_bi_init_bars.png (PNG copy)> <./3
+results_capsule/pics/st_sasaRes_mono_bi_bars.png (PNG copy)>] [38 <./3results_c
+apsule/pics/Rg_backmap.png (PNG copy)> <./3results_capsule/pics/RDF_BM.png (PNG
+ copy)> <./3results_capsule/pics/contacts_BM.png (PNG copy)>]
+<3results_capsule/pics/final_SA.png, id=264, 2007.5pt x 633.36626pt>
 File: 3results_capsule/pics/final_SA.png Graphic file (type png)
 
 <use 3results_capsule/pics/final_SA.png>
 Package pdftex.def Info: 3results_capsule/pics/final_SA.png used on input line 
 640.
 (pdftex.def)             Requested size: 404.6987pt x 127.6761pt.
- [124 <./3results_capsule/pics/final_SA.png>] <3results_capsule/pics/contacts_S
-A.png, id=735, 578.16pt x 216.81pt>
+ [39 <./3results_capsule/pics/final_SA.png>] <3results_capsule/pics/contacts_SA
+.png, id=269, 578.16pt x 216.81pt>
 File: 3results_capsule/pics/contacts_SA.png Graphic file (type png)
 
 <use 3results_capsule/pics/contacts_SA.png>
@@ -1724,7 +1409,7 @@ Package pdftex.def Info: 3results_capsule/pics/contacts_SA.png used on input li
 ne 654.
 (pdftex.def)             Requested size: 404.6987pt x 151.75934pt.
 
-<3results_capsule/pics/st_SA_sasa_fractions.png, id=736, 349.305pt x 216.81pt>
+<3results_capsule/pics/st_SA_sasa_fractions.png, id=270, 349.305pt x 216.81pt>
 File: 3results_capsule/pics/st_SA_sasa_fractions.png Graphic file (type png)
 
 <use 3results_capsule/pics/st_SA_sasa_fractions.png>
@@ -1737,9 +1422,9 @@ File: 3results_capsule/pics/st_All_sasa_fractions.png Graphic file (type png)
 Package pdftex.def Info: 3results_capsule/pics/st_All_sasa_fractions.png used o
 n input line 663.
 (pdftex.def)             Requested size: 205.90161pt x 127.8013pt.
- [125 <./3results_capsule/pics/contacts_SA.png (PNG copy)>] [126 <./3results_ca
-psule/pics/st_SA_sasa_fractions.png (PNG copy)>]
-<3results_capsule/pics/apl.png, id=743, 1575.8875pt x 1003.75pt>
+ [40 <./3results_capsule/pics/contacts_SA.png (PNG copy)>] [41 <./3results_caps
+ule/pics/st_SA_sasa_fractions.png (PNG copy)>]
+<3results_capsule/pics/apl.png, id=277, 1575.8875pt x 1003.75pt>
 File: 3results_capsule/pics/apl.png Graphic file (type png)
 
 <use 3results_capsule/pics/apl.png>
@@ -1750,7 +1435,7 @@ Overfull \hbox (3.64265pt too wide) in paragraph at lines 686--687
  [][] 
  []
 
-<3results_capsule/pics/diff2_3.png, id=744, 245.20178pt x 258.10715pt>
+<3results_capsule/pics/diff2_3.png, id=278, 245.20178pt x 258.10715pt>
 File: 3results_capsule/pics/diff2_3.png Graphic file (type png)
 
 <use 3results_capsule/pics/diff2_3.png>
@@ -1762,7 +1447,7 @@ Overfull \hbox (3.65474pt too wide) in paragraph at lines 690--691
  [][] 
  []
 
-<3results_capsule/pics/order2.png, id=745, 953.5625pt x 1003.75pt>
+<3results_capsule/pics/order2.png, id=279, 953.5625pt x 1003.75pt>
 File: 3results_capsule/pics/order2.png Graphic file (type png)
 
 <use 3results_capsule/pics/order2.png>
@@ -1774,17 +1459,17 @@ Overfull \hbox (3.6456pt too wide) in paragraph at lines 694--695
  [][] 
  []
 
-[127] [128 <./3results_capsule/pics/apl.png> <./3results_capsule/pics/diff2_3.p
-ng (PNG copy)> <./3results_capsule/pics/order2.png>]
-<3results_capsule/pics/pb4_S6.png, id=755, 1505.625pt x 1304.875pt>
+[42] [43 <./3results_capsule/pics/apl.png> <./3results_capsule/pics/diff2_3.png
+ (PNG copy)> <./3results_capsule/pics/order2.png>]
+<3results_capsule/pics/pb4_S6.png, id=289, 1505.625pt x 1304.875pt>
 File: 3results_capsule/pics/pb4_S6.png Graphic file (type png)
 
 <use 3results_capsule/pics/pb4_S6.png>
 Package pdftex.def Info: 3results_capsule/pics/pb4_S6.png used on input line 74
 3.
 (pdftex.def)             Requested size: 213.0pt x 184.59268pt.
- [129] [130 <./3results_capsule/pics/pb4_S6.png>]
-<3results_capsule/pics/pL6_avg_depth_mix.png, id=763, 1405.25pt x 1405.25pt>
+ [44] [45 <./3results_capsule/pics/pb4_S6.png>]
+<3results_capsule/pics/pL6_avg_depth_mix.png, id=297, 1405.25pt x 1405.25pt>
 File: 3results_capsule/pics/pL6_avg_depth_mix.png Graphic file (type png)
 
 <use 3results_capsule/pics/pL6_avg_depth_mix.png>
@@ -1792,7 +1477,7 @@ Package pdftex.def Info: 3results_capsule/pics/pL6_avg_depth_mix.png used on in
 put line 811.
 (pdftex.def)             Requested size: 191.6987pt x 191.6947pt.
 
-<3results_capsule/pics/pZ11_avg_depth_mix.png, id=764, 1405.25pt x 1405.25pt>
+<3results_capsule/pics/pZ11_avg_depth_mix.png, id=298, 1405.25pt x 1405.25pt>
 File: 3results_capsule/pics/pZ11_avg_depth_mix.png Graphic file (type png)
 
 <use 3results_capsule/pics/pZ11_avg_depth_mix.png>
@@ -1803,8 +1488,8 @@ nput line 813.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[131] [132]
-<3results_capsule/pics/cg-130_600ns.png, id=771, 1326.9575pt x 1098.1025pt>
+[46] [47]
+<3results_capsule/pics/cg-130_600ns.png, id=305, 1326.9575pt x 1098.1025pt>
 File: 3results_capsule/pics/cg-130_600ns.png Graphic file (type png)
 
 <use 3results_capsule/pics/cg-130_600ns.png>
@@ -1817,7 +1502,7 @@ Overfull \hbox (20.92973pt too wide) in paragraph at lines 836--837
  []
 
 
-<3results_capsule/pics/pore_large_130.png, id=772, 1414.28375pt x 1267.73625pt>
+<3results_capsule/pics/pore_large_130.png, id=306, 1414.28375pt x 1267.73625pt>
 File: 3results_capsule/pics/pore_large_130.png Graphic file (type png)
 <use 3results_capsule/pics/pore_large_130.png>
 Package pdftex.def Info: 3results_capsule/pics/pore_large_130.png used on input
@@ -1828,7 +1513,7 @@ Overfull \hbox (3.96912pt too wide) in paragraph at lines 840--842
  [][] 
  []
 
-<3results_capsule/pics/pore_arg.png, id=773, 345.4506pt x 376.2858pt>
+<3results_capsule/pics/pore_arg.png, id=307, 345.4506pt x 376.2858pt>
 File: 3results_capsule/pics/pore_arg.png Graphic file (type png)
 
 <use 3results_capsule/pics/pore_arg.png>
@@ -1840,11 +1525,11 @@ Overfull \hbox (6.70335pt too wide) in paragraph at lines 845--847
  [][] 
  []
 
-[133 <./3results_capsule/pics/pL6_avg_depth_mix.png> <./3results_capsule/pics/p
-Z11_avg_depth_mix.png>] [134 <./3results_capsule/pics/cg-130_600ns.png> <./3res
-ults_capsule/pics/pore_large_130.png> <./3results_capsule/pics/pore_arg.png>]
-[135] [136] [137] [138] [139] [140]
-<3results_capsule/pics/RDF_PO4_around_Prot.png, id=804, 349.305pt x 289.08pt>
+[48 <./3results_capsule/pics/pL6_avg_depth_mix.png> <./3results_capsule/pics/pZ
+11_avg_depth_mix.png>] [49 <./3results_capsule/pics/cg-130_600ns.png> <./3resul
+ts_capsule/pics/pore_large_130.png> <./3results_capsule/pics/pore_arg.png>]
+[50] [51] [52] [53] [54] [55]
+<3results_capsule/pics/RDF_PO4_around_Prot.png, id=338, 349.305pt x 289.08pt>
 File: 3results_capsule/pics/RDF_PO4_around_Prot.png Graphic file (type png)
 
 <use 3results_capsule/pics/RDF_PO4_around_Prot.png>
@@ -1852,16 +1537,16 @@ Package pdftex.def Info: 3results_capsule/pics/RDF_PO4_around_Prot.png used on
 input line 1025.
 (pdftex.def)             Requested size: 191.6987pt x 158.65042pt.
 
-<3results_capsule/pics/densX2.png, id=805, 349.305pt x 289.08pt>
+<3results_capsule/pics/densX2.png, id=339, 349.305pt x 289.08pt>
 File: 3results_capsule/pics/densX2.png Graphic file (type png)
 
 <use 3results_capsule/pics/densX2.png>
 Package pdftex.def Info: 3results_capsule/pics/densX2.png used on input line 10
 26.
 (pdftex.def)             Requested size: 191.6987pt x 158.65042pt.
- [141 <./3results_capsule/pics/RDF_PO4_around_Prot.png (PNG copy)> <./3results_
-capsule/pics/densX2.png (PNG copy)>]
-[142] <3results_capsule/pics/picmartiniPW.png, id=812, 1172.38pt x 463.7325pt>
+ [56 <./3results_capsule/pics/RDF_PO4_around_Prot.png (PNG copy)> <./3results_c
+apsule/pics/densX2.png (PNG copy)>]
+[57] <3results_capsule/pics/picmartiniPW.png, id=346, 1172.38pt x 463.7325pt>
 File: 3results_capsule/pics/picmartiniPW.png Graphic file (type png)
 
 <use 3results_capsule/pics/picmartiniPW.png>
@@ -1870,1445 +1555,23 @@ ine 1056.
 (pdftex.def)             Requested size: 404.6987pt x 160.07278pt.
 
 
-LaTeX Warning: Reference `fig:MSD_martini' on page 143 undefined on input line 
-1063.
+LaTeX Warning: Reference `fig:MSD_martini' on page 58 undefined on input line 1
+063.
 
-[143 <./3results_capsule/pics/picmartiniPW.png>] [144]
+[58 <./3results_capsule/pics/picmartiniPW.png>] [59]
 File: 3results_capsule/pics/bb_contacts.png Graphic file (type png)
 
 <use 3results_capsule/pics/bb_contacts.png>
 Package pdftex.def Info: 3results_capsule/pics/bb_contacts.png used on input li
 ne 1134.
 (pdftex.def)             Requested size: 255.6026pt x 197.88626pt.
- [145
+ [60
 
 ]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [146] [147]
-\openout2 = `4lip_par/lip_par.aux'.
-
- (./4lip_par/lip_par.tex [148
-
-
-
-]
-<4lip_par/acs_jctc_9b00509.pdf, id=832, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf used on input line 17.
-(pdftex.def)             Requested size: 609.7977pt x 803.44675pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
- <use 4lip_par/acs_jctc_9b00509.pdf>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf used on input line 17.
-(pdftex.def)             Requested size: 609.7977pt x 803.44675pt.
-
-<4lip_par/acs_jctc_9b00509.pdf, id=835, page=1, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 1>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page1 used on input lin
-e 17.
-(pdftex.def)             Requested size: 609.7977pt x 803.44675pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 1>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page1 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [149]
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 1>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page1 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 1>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page1 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 1>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page1 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [150 <./4lip_par/acs_jctc_9b00509.pdf>] <4lip_par/acs_jctc_9b00509.pdf, id=928
-, page=2, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 2>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page2 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 2>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page2 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 2>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page2 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [151 <./4lip_par/acs_jctc_9b00509.pdf>] <4lip_par/acs_jctc_9b00509.pdf, id=112
-7, page=3, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 3>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page3 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 3>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page3 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 3>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page3 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [152 <./4lip_par/acs_jctc_9b00509.pdf>] <4lip_par/acs_jctc_9b00509.pdf, id=114
-6, page=4, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 4>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page4 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 4>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page4 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 4>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page4 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [153 <./4lip_par/acs_jctc_9b00509.pdf>] <4lip_par/acs_jctc_9b00509.pdf, id=116
-2, page=5, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 5>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page5 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 5>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page5 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 5>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page5 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [154 <./4lip_par/acs_jctc_9b00509.pdf>] <4lip_par/acs_jctc_9b00509.pdf, id=120
-3, page=6, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 6>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page6 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 6>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page6 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 6>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page6 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [155 <./4lip_par/acs_jctc_9b00509.pdf>] <4lip_par/acs_jctc_9b00509.pdf, id=121
-0, page=7, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 7>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page7 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 7>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page7 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 7>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page7 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [156 <./4lip_par/acs_jctc_9b00509.pdf>] <4lip_par/acs_jctc_9b00509.pdf, id=123
-2, page=8, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 8>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page8 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 8>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page8 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 8>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page8 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [157 <./4lip_par/acs_jctc_9b00509.pdf>] <4lip_par/acs_jctc_9b00509.pdf, id=124
-5, page=9, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 9>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page9 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 9>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page9 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 9>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page9 used on input lin
-e 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [158 <./4lip_par/acs_jctc_9b00509.pdf>]
-<4lip_par/acs_jctc_9b00509.pdf, id=1257, page=10, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 10>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page10 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 10>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page10 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 10>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page10 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [159 <./4lip_par/acs_jctc_9b00509.pdf>]
-<4lip_par/acs_jctc_9b00509.pdf, id=1265, page=11, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 11>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page11 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 11>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page11 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 11>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page11 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [160 <./4lip_par/acs_jctc_9b00509.pdf>]
-<4lip_par/acs_jctc_9b00509.pdf, id=1273, page=12, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 12>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page12 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 12>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page12 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 12>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page12 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [161 <./4lip_par/acs_jctc_9b00509.pdf>]
-<4lip_par/acs_jctc_9b00509.pdf, id=1281, page=13, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 13>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page13 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 13>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page13 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 13>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page13 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [162 <./4lip_par/acs_jctc_9b00509.pdf>]
-<4lip_par/acs_jctc_9b00509.pdf, id=1325, page=14, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 14>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page14 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 14>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page14 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 14>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page14 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [163 <./4lip_par/acs_jctc_9b00509.pdf>]
-<4lip_par/acs_jctc_9b00509.pdf, id=1333, page=15, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 15>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page15 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 15>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page15 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 15>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page15 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [164 <./4lip_par/acs_jctc_9b00509.pdf>]
-<4lip_par/acs_jctc_9b00509.pdf, id=1348, page=16, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 16>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page16 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 16>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page16 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 16>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page16 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [165 <./4lip_par/acs_jctc_9b00509.pdf>]
-<4lip_par/acs_jctc_9b00509.pdf, id=1359, page=17, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 17>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page17 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 17>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page17 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 17>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page17 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [166 <./4lip_par/acs_jctc_9b00509.pdf>]
-<4lip_par/acs_jctc_9b00509.pdf, id=1368, page=18, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 18>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page18 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 18>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page18 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 18>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page18 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [167 <./4lip_par/acs_jctc_9b00509.pdf>]
-<4lip_par/acs_jctc_9b00509.pdf, id=1374, page=19, 609.7992pt x 803.4487pt>
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 19>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page19 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 19>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page19 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
-File: 4lip_par/acs_jctc_9b00509.pdf Graphic file (type pdf)
-
-<use 4lip_par/acs_jctc_9b00509.pdf, page 19>
-Package pdftex.def Info: 4lip_par/acs_jctc_9b00509.pdf, page19 used on input li
-ne 17.
-(pdftex.def)             Requested size: 487.84001pt x 642.75984pt.
- [168 <./4lip_par/acs_jctc_9b00509.pdf>] <4lip_par/Supplementary.pdf, id=1380, 
-614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf used on input line 19.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
- <use 4lip_par/Supplementary.pdf>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf used on input line 19.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-<4lip_par/Supplementary.pdf, id=1383, page=1, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 1>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page1 used on input line 1
-9.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 1>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page1 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 1>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page1 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 1>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page1 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 1>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page1 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [169 <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1415, page=2, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 2>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page2 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 2>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page2 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 2>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page2 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [170 <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1429, page=3, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 3>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page3 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 3>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page3 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 3>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page3 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [171 <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1433, page=4, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 4>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page4 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 4>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page4 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 4>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page4 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [172 <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1441, page=5, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 5>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page5 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 5>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page5 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 5>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page5 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [173 <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1445, page=6, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 6>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page6 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 6>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page6 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 6>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page6 used on input line 1
-9.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [174 <./4lip_par/Supplementary.pdf>]
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf used on input line 20.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
- <use 4lip_par/Supplementary.pdf>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf used on input line 20.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-<4lip_par/Supplementary.pdf, id=1456, page=7, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 7>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page7 used on input line 2
-0.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 7>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page7 used on input line 2
-0.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 7>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page7 used on input line 2
-0.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 7>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page7 used on input line 2
-0.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1457, page=8, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 8>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page8 used on input line 2
-0.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 8>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page8 used on input line 2
-0.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 7>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page7 used on input line 2
-0.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 8>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page8 used on input line 2
-0.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [175 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1477, page=9, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 9>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page9 used on input line 2
-0.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 9>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page9 used on input line 2
-0.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1478, page=10, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 10>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page10 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 10>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page10 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 9>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page9 used on input line 2
-0.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 10>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page10 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [176 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1482, page=11, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 11>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page11 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 11>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page11 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1483, page=12, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 12>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page12 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 12>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page12 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 11>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page11 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 12>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page12 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [177 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1491, page=13, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 13>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page13 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 13>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page13 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1492, page=14, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 14>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page14 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 14>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page14 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 13>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page13 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 14>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page14 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [178 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1504, page=15, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 15>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page15 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 15>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page15 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1505, page=16, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 16>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page16 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 16>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page16 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 15>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page15 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 16>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page16 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [179 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1517, page=17, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 17>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page17 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 17>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page17 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1518, page=18, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 18>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page18 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 18>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page18 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 17>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page17 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 18>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page18 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [180 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1530, page=19, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 19>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page19 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 19>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page19 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1531, page=20, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 20>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page20 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 20>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page20 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 19>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page19 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 20>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page20 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [181 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1544, page=21, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 21>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page21 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 21>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page21 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1545, page=22, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 22>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page22 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 22>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page22 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 21>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page21 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 22>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page22 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [182 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1557, page=23, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 23>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page23 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 23>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page23 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1558, page=24, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 24>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page24 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 24>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page24 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 23>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page23 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 24>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page24 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [183 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1570, page=25, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 25>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page25 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 25>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page25 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1571, page=26, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 26>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page26 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 26>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page26 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 25>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page25 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 26>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page26 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [184 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1583, page=27, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 27>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page27 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 27>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page27 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1584, page=28, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 28>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page28 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 28>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page28 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 27>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page27 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 28>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page28 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [185 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1597, page=29, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 29>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page29 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 29>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page29 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1598, page=30, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 30>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page30 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 30>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page30 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 29>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page29 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 30>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page30 used on input line 
-20.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [186 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
- <use 4lip_par/Supplementary.pdf>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf used on input line 21.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf used on input line 21.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-<4lip_par/Supplementary.pdf, id=1612, page=31, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 31>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page31 used on input line 
-21.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 31>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page31 used on input line 
-21.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 31>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page31 used on input line 
-21.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 31>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page31 used on input line 
-21.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 31>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page31 used on input line 
-21.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [187 <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1621, page=32, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 32>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page32 used on input line 
-21.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 32>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page32 used on input line 
-21.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 32>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page32 used on input line 
-21.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [188 <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1629, page=33, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 33>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page33 used on input line 
-21.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 33>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page33 used on input line 
-21.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 33>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page33 used on input line 
-21.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [189 <./4lip_par/Supplementary.pdf>]
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf used on input line 22.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
- <use 4lip_par/Supplementary.pdf>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf used on input line 22.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-<4lip_par/Supplementary.pdf, id=1639, page=34, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 34>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page34 used on input line 
-22.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 34>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page34 used on input line 
-22.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 34>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page34 used on input line 
-22.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 34>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page34 used on input line 
-22.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1640, page=35, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 35>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page35 used on input line 
-22.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 35>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page35 used on input line 
-22.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 34>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page34 used on input line 
-22.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 35>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page35 used on input line 
-22.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [190 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1663, page=36, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 36>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page36 used on input line 
-22.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 36>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page36 used on input line 
-22.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-
-<4lip_par/Supplementary.pdf, id=1664, page=37, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 37>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page37 used on input line 
-22.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 37>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page37 used on input line 
-22.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 36>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page36 used on input line 
-22.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 37>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page37 used on input line 
-22.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [191 <./4lip_par/Supplementary.pdf> <./4lip_par/Supplementary.pdf>]
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
- <use 4lip_par/Supplementary.pdf>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf used on input line 23.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf used on input line 23.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-<4lip_par/Supplementary.pdf, id=1678, page=38, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 38>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page38 used on input line 
-23.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 38>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page38 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 38>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page38 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 38>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page38 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 38>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page38 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [192 <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1686, page=39, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 39>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page39 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 39>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page39 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 39>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page39 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [193 <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1787, page=40, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 40>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page40 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 40>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page40 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 40>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page40 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [194 <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1815, page=41, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 41>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page41 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 41>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page41 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 41>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page41 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [195 <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1834, page=42, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 42>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page42 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 42>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page42 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 42>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page42 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [196 <./4lip_par/Supplementary.pdf>]
-<4lip_par/Supplementary.pdf, id=1838, page=43, 614.295pt x 794.97pt>
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 43>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page43 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 43>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page43 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: 4lip_par/Supplementary.pdf Graphic file (type pdf)
-
-<use 4lip_par/Supplementary.pdf, page 43>
-Package pdftex.def Info: 4lip_par/Supplementary.pdf, page43 used on input line 
-23.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [197 <./4lip_par/Supplementary.pdf>]
-<4lip_par/pics/apl_localVSbox.pdf, id=1842, 325.215pt x 325.215pt>
-File: 4lip_par/pics/apl_localVSbox.pdf Graphic file (type pdf)
-
-<use 4lip_par/pics/apl_localVSbox.pdf>
-Package pdftex.def Info: 4lip_par/pics/apl_localVSbox.pdf used on input line 48
-.
-(pdftex.def)             Requested size: 213.0pt x 213.00497pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[198
-
-] [199 <./4lip_par/pics/apl_localVSbox.pdf>]
-
-pdfTeX warning: pdflatex (file ./4lip_par/pics/compare_density.pdf): PDF inclus
-ion: found PDF version <1.7>, but at most version <1.5> allowed
-<4lip_par/pics/compare_density.pdf, id=1853, 704.6325pt x 569.12625pt>
-File: 4lip_par/pics/compare_density.pdf Graphic file (type pdf)
-
-<use 4lip_par/pics/compare_density.pdf>
-Package pdftex.def Info: 4lip_par/pics/compare_density.pdf used on input line 6
-7.
-(pdftex.def)             Requested size: 234.3013pt x 189.23643pt.
-
-<4lip_par/pics/patches.png, id=1854, 1211.52625pt x 1031.855pt>
-File: 4lip_par/pics/patches.png Graphic file (type png)
-
-<use 4lip_par/pics/patches.png>
-Package pdftex.def Info: 4lip_par/pics/patches.png used on input line 68.
-(pdftex.def)             Requested size: 149.1026pt x 126.98196pt.
-) [200 <./4lip_par/pics/compare_density.pdf> <./4lip_par/pics/patches.png>]
-\openout2 = `5conclusions/conclusions.aux'.
-
- (./5conclusions/conclusions.tex [201
-
-
-
-] [202]
-[203]) [204]
+) [61] [62]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
@@ -3318,11 +1581,11 @@ RAH _ buckyball _ BIandMONO . mp4$ \OT1/cmr/m/n/10.95 and *$\OT1/cmtt/m/n/10.95
  SI _ M3 _ PolarMARTINI _ buckyball _
  []
 
-[205
+[63
 
 
 
-]) [206] (./thesis.bbl [207
+]) [64] (./thesis.bbl [65
 
 
 
@@ -3330,27 +1593,22 @@ RAH _ buckyball _ BIandMONO . mp4$ \OT1/cmr/m/n/10.95 and *$\OT1/cmtt/m/n/10.95
 
 Class memoir Warning: The \sl font command is deprecated. 
 (memoir)              Use \textsl{...} or {\slshape... } instead on input line 
-117.
+171.
 
-[208] [209] [210] [211] [212] [213] [214] [215]
+[66] [67] [68] [69]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no π in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Å in font cmr10!
 Missing character: There is no ¥ in font cmr10!
- [216]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
- [217] [218] [219]
-[220] [221] [222] [223] [224] [225] [226] [227] [228] [229] [230]
-Underfull \hbox (badness 1803) in paragraph at lines 1422--1426
+ [70] [71] [72] [73] [74] [75] [76] [77] [78]
+Underfull \hbox (badness 1803) in paragraph at lines 1227--1231
 []\OT1/cmr/m/n/10.95 Mettler Toledo (2018).  Poly-mer-iza-tion re-ac-tions.  $\
 OT1/cmtt/m/n/10.95 https : / / www . mt . com / au / en /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1422--1426
+Underfull \hbox (badness 10000) in paragraph at lines 1227--1231
 \OT1/cmtt/m/n/10.95 home / applications / L1 _ AutoChem _ Applications / L2 _ R
 eactionAnalysis / L2 _
  []
@@ -3358,103 +1616,62 @@ eactionAnalysis / L2 _
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[231] [232]
-Underfull \hbox (badness 1189) in paragraph at lines 1556--1561
-[]\OT1/cmr/m/n/10.95 O'neill, J. (2016).  TACK-LING DRUG-RESISTANT IN-FEC-TIONS
- GLOB-ALLY:
- []
-
-
-Underfull \hbox (badness 3386) in paragraph at lines 1556--1561
-\OT1/cmr/m/n/10.95 CRO-BIAL RE-SIS-TANCE.  $\OT1/cmtt/m/n/10.95 https : / / amr
- -[] review . org / sites / default / files /
- []
-
-[233] [234] [235] [236]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
- [237] [238] [239] [240]
-Underfull \hbox (badness 2393) in paragraph at lines 2046--2050
+[79] [80] [81] [82] [83] [84]
+Underfull \hbox (badness 2393) in paragraph at lines 1776--1780
 []\OT1/cmr/m/n/10.95 The In-no-va-tion So-ci-ety (2019).  Car-bon Nan-otubes ca
 n be Toxic to Aquatic
  []
 
-[241] [242] [243] [244] [245] [246]
-Underfull \hbox (badness 1264) in paragraph at lines 2379--2382
+[85] [86] [87]
+Underfull \hbox (badness 1264) in paragraph at lines 2091--2094
 []\OT1/cmr/m/n/10.95 Yeates, T. O. (2019).  Pro-tein as-sem-bles into Archimede
 an ge-om-e-try.  \OT1/cmr/m/it/10.95 Na-ture\OT1/cmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 2407--2410
+Underfull \hbox (badness 1342) in paragraph at lines 2108--2111
 []\OT1/cmr/m/n/10.95 Zasloff, M. (2002).  An-timi-cro-bial pep-tides of mul-ti-
 cel-lu-lar or-gan-isms.  \OT1/cmr/m/it/10.95 Na-ture\OT1/cmr/m/n/10.95 ,
  []
 
-[247]) [248]
-\tf@toc=\write6
-\openout6 = `thesis.toc'.
-
-\tf@lof=\write7
-\openout7 = `thesis.lof'.
-
-\tf@lot=\write8
-\openout8 = `thesis.lot'.
-
- (./thesis.aux (./front.aux) (./1introduction/introduction.aux)
-(./2methods/methods.aux) (./3results_capsule/results_capsule.aux)
-(./4lip_par/lip_par.aux) (./5conclusions/conclusions.aux) (./appendix.aux))
+[88]) [89] (./thesis.aux (./3results_capsule/results_capsule.aux)
+(./appendix.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 22623 strings out of 493029
- 414122 string characters out of 6136233
- 483731 words of memory out of 5000000
- 25461 multiletter control sequences out of 15000+600000
- 20890 words of font info for 79 fonts, out of 8000000 for 9000
+ 21950 strings out of 493029
+ 397008 string characters out of 6136233
+ 481808 words of memory out of 5000000
+ 24953 multiletter control sequences out of 15000+600000
+ 18155 words of font info for 70 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 70i,20n,92p,1274b,1166s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sftt1095.pfb>
-Output written on thesis.pdf (248 pages, 80181243 bytes).
+ 70i,14n,92p,1081b,1095s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on thesis.pdf (89 pages, 22833438 bytes).
 PDF statistics:
- 2118 PDF objects out of 2487 (max. 8388607)
- 1113 compressed objects within 12 object streams
+ 512 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 793 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 
