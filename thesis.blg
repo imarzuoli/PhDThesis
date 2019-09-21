@@ -2,53 +2,67 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: front.aux
-A level-1 auxiliary file: nomenclature.aux
+A level-1 auxiliary file: 1introduction/introduction.aux
+A level-1 auxiliary file: 2methods/methods.aux
 A level-1 auxiliary file: 3results_capsule/results_capsule.aux
+A level-1 auxiliary file: 4lip_par/lip_par.aux
+A level-1 auxiliary file: 5conclusions/conclusions.aux
 A level-1 auxiliary file: appendix.aux
 The style file: my_apalike.bst
+Reallocated field_info (elt_size=4) to 14042 items from 5000.
 Database file #1: thesis_ref2.bib
-Warning--I didn't find a database entry for "--"
+Warning--entry type for "poly" isn't style-file defined
+--line 3075 of file thesis_ref2.bib
+Warning--entry type for "lipo" isn't style-file defined
+--line 3206 of file thesis_ref2.bib
+Warning--entry type for "phage" isn't style-file defined
+--line 3244 of file thesis_ref2.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--entry type for "sirah_web" isn't style-file defined
+--line 7349 of file thesis_ref2.bib
+Warning--entry type for "calgary_site" isn't style-file defined
+--line 7357 of file thesis_ref2.bib
 Warning--empty publisher in gromacs_man
-Warning--empty journal in SiewertJ.Marrink2003
-You've used 58 entries,
+Warning--empty journal in Oneill2016
+You've used 411 entries,
             1958 wiz_defined-function locations,
-            887 strings with 16820 characters,
-and the built_in function-call counts, 27421 in all, are:
-= -- 2746
-> -- 1400
-< -- 12
-+ -- 585
-- -- 448
-* -- 2453
-:= -- 4638
-add.period$ -- 175
-call.type$ -- 58
-change.case$ -- 539
-chr.to.int$ -- 58
-cite$ -- 60
-duplicate$ -- 845
-empty$ -- 1726
-format.name$ -- 516
-if$ -- 5339
-int.to.chr$ -- 1
+            2974 strings with 97665 characters,
+and the built_in function-call counts, 193600 in all, are:
+= -- 19586
+> -- 9655
+< -- 127
++ -- 4027
+- -- 3158
+* -- 17624
+:= -- 32769
+add.period$ -- 1240
+call.type$ -- 411
+change.case$ -- 3931
+chr.to.int$ -- 406
+cite$ -- 413
+duplicate$ -- 5753
+empty$ -- 12228
+format.name$ -- 3735
+if$ -- 37442
+int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 58
-newline$ -- 293
-num.names$ -- 176
-pop$ -- 477
+missing$ -- 401
+newline$ -- 2061
+num.names$ -- 1241
+pop$ -- 3307
 preamble$ -- 1
-purify$ -- 542
+purify$ -- 3936
 quote$ -- 0
-skip$ -- 834
+skip$ -- 5517
 stack$ -- 0
-substring$ -- 2034
-swap$ -- 92
-text.length$ -- 3
+substring$ -- 14839
+swap$ -- 444
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 344
+type$ -- 2458
 warning$ -- 2
-while$ -- 212
+while$ -- 1537
 width$ -- 0
-write$ -- 754
-(There were 3 warnings)
+write$ -- 5339
+(There were 7 warnings)

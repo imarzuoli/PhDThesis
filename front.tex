@@ -81,21 +81,20 @@ the degree of Doctor of Philosophy}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\cleardoublepage
+%\cleardoublepage
 %%% empty page
-\newpage
-\thispagestyle{plain} % empty
-\mbox{}
+%\newpage
+%\thispagestyle{plain} % empty
+%\mbox{}
 %%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\thispagestyle{empty}
+%\thispagestyle{empty}
 \chapter*{Declaration}
+\begin{onehalfspacing}
 
-%\section*{Declaration of Originality} 
-
-\noindent This dissertation describes work I have carried out between October 2016 and September 2019 at the Randall Centre for Cell and Molecular Biophysics of King's College London, under the supervision of Prof. Franca Fraternali (first supervisor) and Dr. Chris D. Lorenz (second supervisor).
+\noindent This dissertation describes work I have carried out between October 2016 and September 2019 at the Randall Centre for Cell and Molecular Biophysics of King's College London, under the supervision of Prof. Franca Fraternali (first supervisor) and Dr. Chris D. Lorenz (second supervisor, Department of Physics).
 
 \vspace{.2cm}
 
@@ -103,18 +102,19 @@ the degree of Doctor of Philosophy}}
 
 \begin{itemize}
 %\end{itemize}}[(i)]
-\item ...
+\item Marzuoli, I., Margreitter, C., Fraternali, F. (2019). Lipid Head Group Parameterization for GROMOS 54A8: A Consistent Approach with Protein Force Field Description. \emph{Journal of Chemical Theory and Computation}. DOI: 10.1021/acs.jctc.9b00509  \\
+\emph{This paper is presented in Chapter \ref{chapter:lip_par}}
+%\item Kepiro, I. E., Marzuoli, I., Hammond, K., et al. (in prep.). Engineering chirally blind protein pseudo-capsids into nanoprecise antibacterial persisters. \\
+%\emph{Chapter \ref{chapter:capzip_results} contains material from this paper}
 \end{itemize}
 
 \noindent In addition to the above, I have contributed to the following publications during the course of my PhD:
 
 \begin{itemize}
 %
-\item ...
+\item Milano, G., Marzuoli, I., Lorenz, C. D., and Fraternali, F. (2017). Self-assembly at the multi-scale level: challenges and new avenues for inspired synthetic biology modelling. In Ryadnov, M., Brunsveld, L., and Suga, H., editors, \emph{Synthetic Biology: Volume 2}, pages 35-64. The Royal Society of Chemistry, London.
 %
 \end{itemize}
-%
-
 
 %\section*{Statement of Length}
 
@@ -128,9 +128,10 @@ It has not been submitted in whole or in part for any degree or diploma at this 
 
 \begin{raggedleft}
 Irene Marzuoli \\
-September 2019
+October 2019
 
 \end{raggedleft}
+\end{onehalfspacing}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -146,19 +147,25 @@ September 2019
 
 \thispagestyle{empty}
 \chapter*{Acknowledgements}
-%%
-%Many people have contributed to my scientific and personal growth throughout my PhD, and this thesis would have not been possible without them.
 %
-%First of all, Franca, an excellent scientist, supervisor and woman: she showed me how true enthusiasm for research, and life, can withstand the thousand everyday difficulties.
-%
-%Then, all the present and past members of the Fraternali's group: Anna, Carlos, Christian, Jamie, Joseph, Marius and Sun, each of you made the office a more enjoyable and scientifically stimulating place. A special thanks to Carlos and Christian, for great (and sometimes unexpected) collaborations, and to the people who shared these years at the same pace: Joseph, whose cheerfulness made working days and scientific discussions more pleasant (not to mention your delicious treats), and Marius, for the curious and caring attitude which granted great serendipitous conversations (and lunches in the sun).
-%
-%I am also grateful to my second supervisor, Chris, and all his group, for the concrete and prompt support on practical - or less practical - problems whenever I needed it.
-%
-%A big thank you to all the members of the CANES CDT, students and academics, for the community environment which pushed me to stay updated on all aspects of science. Among them, I want single out the ``italian core": for the warmth, the support, and encounters in all the corners of the world. In particular, thanks to Claudio, for his presence in good and bad moments, but mostly for introducing me to climbing and the Ronnie Scott's; to Aldo, for challenging my ideas about research, universe and everything; and finally to Carla, a colleague, a flatmate, a friend: navigating our job and every day life together made me a more serene person.
-%
-%Finally, my fondest gratitude goes to my parents. For supporting and trusting me in this adventure, without asking back anything, a part from brief stories of my research efforts - those were the only presentations I truly enjoyed giving.
+\begin{onehalfspacing}
+Many people contributed to my scientific and personal growth throughout my PhD, and this thesis would have not been possible without them.
 
+First of all, Franca, an excellent scientist, supervisor and woman: she showed me how true enthusiasm for research, and life, can withstand the thousand everyday difficulties.
+
+Then, all the present and past members of the Fraternali's group: Anna, Carlos, Christian, Jamie, Joseph, Marius and Sun, each of you made the office a more enjoyable and scientifically stimulating place. A special thanks to Carlos and Christian, for the great (and sometimes unexpected) collaborations; and to the people who shared these three years at the same pace: Joseph, whose cheerfulness made working days and scientific discussions more pleasant (not to mention the treats he supplied), and Marius, for the curious and caring attitude which granted rewarding, serendipitous, conversations (and lunches in the sun).
+
+I am also grateful to my second supervisor, Chris, and all his group, for the concrete and prompt support on practical - or less practical - problems whenever I needed it.
+
+A thank you to Prof. Giuseppe Milano for hosting me and sharing his knowledge; and to Dr. Jens Kleinjung for help and suggestions in the initial stages of my project.
+
+To all the members of the CANES CDT, students and academics, thank you for the community environment which pushed me to stay updated on all aspects of science. Among all of them, I want to single out the ``italian subset", for the warmth, the support, and the encounters at the opposite corners of the world. In particular, thanks to Claudio, for his presence in good and difficult moments, and all the jazz music; to Aldo, for challenging (\emph{and} supporting) my ideas about research, universe and everything; and mostly to Carla, a colleague, a flatmate, and a friend: navigating our job and every day life together made me a more serene person.
+
+I owed my perseverance also to Laura, Celeste and Nicola, for comparing their PhD experience with mine and forming an international, and interdisciplinary, support network.
+
+Finally, my fondest gratitude goes to my parents. For encouraging and trusting me in this adventure, without asking back anything, a part from brief stories from my research life - those were the presentations I truly enjoyed giving.
+
+\end{onehalfspacing}
 
 
 
@@ -173,30 +180,40 @@ September 2019
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\clearpage
 \thispagestyle{empty}
-\chapter*{Summary}
+\chapter*{Abstract}
 
-\begin{center}
+%\begin{center}
+%{\Large\sffamily \textbf{Abstract}}
+%\vspace{1cm}
+%\end{center}
 
-{\Large\sffamily Elucidating self-assembly and antimicrobial strategies of synthetic peptides an in silico investigation}
+\begin{onehalfspacing}
 
-\vspace{.2cm}
-
-{\large\sffamily Irene Marzuoli}
-
-\vspace{.03cm}
-
-{\large\sffamily King's College London}
-%
-\vspace{.2cm}
-
-\end{center}
-%
 \noindent
 %
-...
+The modern insurgence of antimicrobial resistance prompted the research of new molecules to be used as drug alternatives. In parallel, the problem of their delivery has stimulated research of novel biomimietic vehicles.
 %
-...
+Synthetic materials can be designed to perform both functions at the same time. Recently engineered nanocapsules were shown to promote bacterial membrane poration and gene delivery into mammalian cells. The constituting molecule, capzip, is a three branched peptide, which contains sequences inspired from a naturally occurring antimicrobial peptide. This class of molecules acts on bacteria disrupting their membrane, a mechanism which does not strongly promote resistance.
+
+As the atomistic details of the capzip nanocapsule assembly are still unknown, this project studied its structure in water and its interaction with model membranes, by means of multiscale Molecular Dynamics simulations. 
+%
+The \emph{in silico} investigation clarified the preferred structure that capzip adopts in order to form robust capsules.
+In particular, the original formulation of capzip included an amphiphilic structure to promote antimicrobial activity, but simulations proved that this has a key role in granting the structure stability as well. This provides insight for the development of the next generation of multi-branched antimicrobial molecules.
+%
+The multiscale investigation performed prompted also a comparison between coarse-grained force fields, which will contribute to inform the choice of the most adapt one for future simulations of large peptidic assembly.
+
+The structures found to be stable in solution were selected for further simulations at the interface with a model bacterial and mammalian membrane.
+%
+The insertion of the charged residues in the membrane ester region produced a local decrease in lipid mobility and, under the effect of an externally applied electric field, pore formation with subsequent membrane disruption.
+%
+Coarse-grained simulations confirmed the findings, clarifying the attraction mechanism between the capsule and the model bacterial membrane. Moreover, they suggested a lower affinity with the model mammalian membrane.
+%
+The exploration of the peptide-membrane interactions prompted an investigation of the currently used lipid parameters in the GROMOS force field. Given the inconsistency between the parametrisation of proteins and of lipids found in the latest versions of the force field, we proposed a new parametrisation. The new parameters shows improved peptide-membrane interaction, as this is less biased by the simulation initial conditions. As such, this allows for a better exploration of the phase space.
+
+\end{onehalfspacing}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \cleardoublepage

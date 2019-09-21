@@ -6,9 +6,28 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\section{Supplementary material}
+\label{sec:SI}
+Supplementary material can be found at \url{https://github.com/imarzuoli/????} and includes Supplementary videos of:
+\begin{itemize}
+\item atomistic simulation of the buckyball bilayer - 100 ns (\url{SI_M1_GROMOS_buckyball.mp4});
+\item SIRAH and Polar MARTINI simulations of the buckyball bilayer and monolayer - 1 $\mu$s (\url{SI_M2_SIRAH_buckyball_BIandMONO.mp4} and *\url{SI_M3_PolarMARTINI_buckyball_BIandMONO.mp4});
+\item atomistic simulation of poration of a model bacterial model membrane under the combined action of the pentagonal capzip subunit and an external electric field of 130 mV/nm - 60 ns (\url{SI_M4_GROMOS_capzip_bacterial_E130.mp4});
+\item standard MARTINI simulation of a buckyball bilayer approaching a bacterial and mammalian model membrane - 10 $\mu$s (\url{SI_M5_stdMARTINI_capzip_bacterial.mp4} and \url{SI_M6_stdMARTINI_capzip_mammalian.mp4});
+\item Polar MARTINI simulation of a buckyball bilayer porating a model bacterial membrane under the effect of a 40 mV/nm external electric field - 200 ns (*\url{SI_M7_PolarMARTINI_capzip_bacterial_E40_poration.mp4}).
+\end{itemize}
+
+
 \section{Software developed}
 \label{sec:Appendix_software}
 
-This appendix gives a sketch of the procedure by which Eq.~(\ref{eq:predictive_distribution}) is obtained, which substantially relies on the properties of multivariate Gaussian distributions. For full details on this one can consult the excellent Refs.~\citep{--}~and~\citep{--}.
+The simulations and analysis of capzip systems prompted the development of tools to facilitate the set up of simulations, or their analysis.
 %
+The scripts and packages developed, to be used in conjunction with the standard analysis tools provided by the GROMACS and MDAnalysis softwares, can be found at \url{https://github.com/imarzuoli/MDtools} and include:
+\begin{itemize}
+\item python functions to perform the analysis of contacts as in Section \ref{sec:results_cap} (\url{contacts_analysis.py}); functions to perform the hydration analysis as in Section 3.4 of Chapter \ref{chapter:lip_par} (\url{an_min_hist.py});
+%\emph{delete_water.py}: a script to delete water molecules in a given slice of space (perpendicular to either x, y or z)
 
+\item a python module to manipulate multi-branched peptide topology files in the GROMACS format for GROMOS simulations (\url{MD_mutate_and_manipulate.py}).
+
+\end{itemize}
