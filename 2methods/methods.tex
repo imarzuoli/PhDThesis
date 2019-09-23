@@ -3,9 +3,9 @@
 \lettrine{M}{olecular Dynamics} simulations have been rightly defined as the `Computational Microscope' \citep{Lee2009,Dror2012} as they offer otherwise inaccessible insights into the molecular details underlying conformational changes of proteins and nucleic acids. Computational methods and tools based on MD are routinely applied in structural biology to quantitatively characterise the dynamics and thermodynamics of proteins and their complexes. The increasing computational power available, and the 
 ease of implementation of simulation algorithms,
 %flexibility of the algorithms which can be implemented on different platforms,
-have made possible to access molecular and dynamical properties inaccessible to experiments. MD simulations and the associated force fields are commonly used in the process of structure determination from NMR data or of theoretical structure prediction from homology models \citep{Vogel2017,Heo2018}. In particular, simulations of the structure suggested from the method of choice help in relieving the artefacts deriving from the experiments or in determining the correct conformation in cases when the experimental measure or the homology modelling has a large uncertainty.
+have made possible to access molecular and dynamical properties inaccessible to experiments. MD simulations and the associated force fields are commonly used in the process of structure determination from NMR data or in theoretical structure prediction from homology models \citep{Vogel2017,Heo2018}. In particular, simulations of the structure help in relieving the artefacts deriving from the experiments, or in determining the correct conformation in cases when the experimental measure or the homology modelling has a large uncertainty.
 
-Modelling and simulating a biological system consists in describing its components and their mutual interactions, by implementing the laws of physics in the attempt to reproduce the evolution observed in nature. A quantum mechanics description would be the most accurate but computationally expensive to achieve for large systems. To facilitate the task, several simplified models have been devised, each more suitable to investigate particular cases.
+Modelling and simulating a biological system consists in describing its components and their mutual interactions, by implementing the laws of physics in the attempt to reproduce the evolution observed in nature. A quantum mechanics description would be the most accurate, but it is computationally expensive to achieve for large systems. To facilitate the task, several simplified models have been devised, each more suitable to investigate particular cases.
 %
 In particular, a popular approach is a classical mechanics description of the dynamics: for increasing sizes of the systems and longer simulation time, the classical approximations will become more accurate, and the only possible model computationally affordable.
 
@@ -52,7 +52,7 @@ Considering that MD deals with bonded atoms belonging to multi-atoms molecules, 
 To correct this, constraint algorithms are applied after the update of atoms positions, to limit the change in bond length. The ones used in this work are LINCS (Linear Constraint Solver) \citep{Hess1997} and SETTLE \citep{Miyamoto1992}: the first finds a solution iteratively within an approximation tolerance, as the problem of constraints is hardly solvable analytically; the second is an exact implementation of the solution for rigid bodies of three elements only, and as such is useful for the treatment of water molecules (which have three atoms in their atomistic description).
 
 \subsection{Thermostats and barostats}
-As an addition to the geometrical constraints algorithms mentioned above, other specific algorithms have been developed in order to realistically reproduce the simulation's conditions of choice, for example Temperature and Pressure.
+Additionally to the geometrical constraints algorithms mentioned above, other specific algorithms have been developed in order to realistically reproduce the simulation's conditions of choice, for example Temperature and Pressure.
 
 To set up a temperature, at the beginning of a simulation, all particles are given random initial velocities sampled from the Maxwell-Boltzmann distribution, which describes noble gas atom velocities at temperature $T$. The velocity of each will be influenced by the specific interactions occurring in the system but, in a constant temperature environment, the total average kinetic energy (proportional to $T$) must remain constant.
 %
@@ -64,7 +64,7 @@ Moreover, it is strongly recommended to couple solute and solvent to separate he
 %
 The most used thermostat algorithms are the Berendsen \citep{Berendsen1984}, Nos\'{e}-Hoover \citep{Nose1983,Hoover1985}, Andersen \citep{Andersen1980} and velocity rescale \citep{Bussi2007}, which differ in the quantities selected for velocity rescaling.
 
-Another macroscopic condition one wishes to maintain is either the volume or the pressure of the system. While maintaining the volume constant is straightforward (and, combined with constant temperature, gives the NVT ensemble), pressure regulation (i.e.\ maintaining a NPT ensemble) requires a barostat.
+Another condition one wishes to maintain is either the volume or the pressure of the system. While maintaining the volume constant is straightforward (and, combined with constant temperature, gives the NVT ensemble), pressure regulation (i.e.\ maintaining a NPT ensemble) requires a barostat.
 %
 Pressure is directly proportional to the average quantity of motion exchanged between the particles and the walls of the box they are confined to, which depends on the frequency of collision and thus on the extent of the box. Barostats change the box size to regulate the pressure.
 %
@@ -83,7 +83,7 @@ Force fields for classical MD simulations provide the expression of the potentia
 %
 They usually rely on the breakdown of interactions into several independent, additive and derivable terms, identified on an empirical physical basis.
 
-We report here the functional form of GROMOS force field \citep{Oostenbrink2004,Schmid2011} as implemented in GROMACS MD engine \citep{Berendsen1995,Abraham2015,gromacs_man}, as an example of a classical force field.
+We report here the functional form of GROMOS force field \citep{Oostenbrink2004,Schmid2011,Reif2012} implemented in GROMACS MD simulation engine \citep{Berendsen1995,Abraham2015,gromacs_man}, as an example of a classical force field.
 %
 Other force fields can have slightly different implementations, however the general classification of interactions and the type of functional forms used are similar.
 
@@ -97,18 +97,17 @@ Specifically, in the GROMOS force field, a bond between atoms $i$ and $j$ is des
 \end{eqnarray}
 where the force constant $k^b_{ij}$ is given in kJ/mol/m$^2$ and $b_{ij}$ is the equilibrium position of the bond between atom $i$ and $j$.
 
-The deviation of the angle between three atoms $i$, $j$ and $k$ from the preferred value $\theta^{\, 0}_{ijk}$ is implemented through a cosine based angle potential:
+The deviation of the angle between three atoms $i$, $j$ and $k$ from the preferred value $\theta^{\, 0}_{ijk}$ is implemented through a cosine based angle potential ($k^\theta_{ijk}$ in kJ/mol):
 \begin{eqnarray}
 && V_a(\theta_{ijk}) = \frac{1}{2}\,k^\theta_{ijk}\,\left(\cos\left(\theta_{ijk}\right) - cos\left(\theta^{\, 0}_{ijk}\right)\right)^2 \\
-&& \text{with:} \ \cos\left(\theta_{ijk}\right) = \frac{\textbf{r}_{ij}\cdot \textbf{r}_{kj}}{r_{ij}\,r_{kj}}
+&& \text{with:} \ \cos\left(\theta_{ijk}\right) = \frac{\textbf{r}_{ij}\cdot \textbf{r}_{kj}}{r_{ij}\,r_{kj}}.
 \end{eqnarray}
-with $k^\theta_{ijk}$ in kJ/mol.
 
 Improper dihedrals are used to ensure ring planarity and control the chirality of some tetrahedral centres. They are described through a harmonic potential:
 \begin{eqnarray}
 && V_{id} (\xi_{ijkl}) = \frac{1}{2}\,k_{ijkl}^\xi \left( \xi_{ijkl} - \xi_{ijkl}^{\, 0} \right)^2
 \end{eqnarray}
-where the $\xi$ values are given in degrees and the force constant in kJ/mol/rad$^2$. By convention, the improper dihedral for a set of four atoms $i$, $j$, $k$ and $l$, is taken as the angle between the plane defined by atoms ($i$, $j$, $k$) and the one defined by atoms ($j$, $k$, $l$).
+where the $\xi$ values are given in degrees and the force constant in kJ/mol/rad$^2$. By convention, the improper dihedral for a set of four atoms $i$, $j$, $k$ and $l$, is taken as the angle between the planes defined by atoms ($i$, $j$, $k$) and by atoms ($j$, $k$, $l$).
 
 Finally, the last bonded interaction is represented by proper dihedrals, described though a periodic potential:
 \begin{eqnarray}
@@ -122,11 +121,11 @@ It must be noticed that these potentials can not model bond breaking: for this, 
 \paragraph{Non-bonded interactions}
 Non-bonded interactions include the short range Pauli repulsion, the ``mid"-range van der Waals attraction, and the long range electrostatic term.
 
-The first two terms can be modelled together by a Lennard-Jones potential. Its functional form, describing the interaction between two neutral atoms at distance $r$, models the long range dispersion with a $r^-6$ behaviour typical of the dipole-dipole interactions found in noble gases (London dispersion forces), while the Pauli term is represented by a $r^{12}$ behaviour to ease the computation in relation with the previous one:
+The first two terms can be modelled together by a Lennard-Jones potential. Its functional form, describing the interaction between two neutral atoms at distance $r$, models the long range dispersion with a $r^{-6}$ behaviour typical of the dipole-dipole interactions found in noble gases (London dispersion forces), while the Pauli term is represented by a $r^{-12}$ behaviour to ease the computation in relation with the previous term:
 \begin{equation}
 V_{LJ}(r) = 4 \epsilon \left[ \left( \frac{\sigma}{r} \right)^{12} - \left( \frac{\sigma}{r} \right)^6 \right].
 \end{equation}
-Two parameters, $\epsilon$ and $\sigma$, tune the interaction strength and the equilibrium distance, respectively. They are parametrised by fitted to experimental data and are specific of each pair of atoms species.
+Two parameters, $\epsilon$ and $\sigma$, tune the interaction strength and the equilibrium distance, respectively. They are parametrised by fit to experimental data and are specific of each pair of atoms species.
 
 The Coulomb energy between two charges $q_1$ and $q_2$ at distance $r$ is represented by the Coulomb law:
 \begin{equation}
@@ -134,12 +133,11 @@ V_C(r) = \frac{1}{4 \pi \epsilon_0} \, \frac{q_i q_j}{\epsilon_r r_{ij}}
 \end{equation}
 with $\epsilon_0$ the dielectric constant of vacuum and $\epsilon_r$ the relative dielectric constant, introduced to properly take into account the screening provided by the material surrounding the object. Indeed, as electrons are not present in classical force fields, the screening effect due to the atom polarisation must be modelled with this mean field approach.
 
-The treatment of non-bonded interactions requires particular care because of their long range nature: in every point of the simulation box many forces from distant atoms are acting at the same time, making the prediction of the outcome difficult, moreover small shift in the parameters choice can give very different ``macroscopic" results.
+The treatment of non-bonded interactions requires particular care because of their long range nature: in every point of the simulation box many forces from distant atoms are acting at the same time, making the prediction of the outcome difficult.
 %
 The van der Waals forces decay fast, therefore the tail of their functional can be cut after a threshold distance with little impact on the outcome; while Coulomb interactions, with their slower decay, must be taken into account throughout the whole simulation box. Many algorithms have been devised to efficiently compute them, like the Particle Mesh Ewald \citep{Essmann1995} or the Reaction Field \citep{Tironi1995} approaches.
-[FIGURE???]
 
-Finally, all force fields designed to describe biomolecule are parametrised to describe systems at room temperature. Therefore care should be taken when interpreting simulations performed at substantially different temperatures.
+Finally, all force fields designed to describe biomolecules are parametrised for systems at room temperature. Therefore care should be taken when interpreting simulations performed at substantially different temperatures.
 
 
 \subsection{Force fields: classifications} \label{sec:ff_ex}
@@ -155,22 +153,22 @@ Finally, all force fields designed to describe biomolecule are parametrised to d
 Many force fields for classical MD simulations adopt a functional form equal or similar to the one described above. Their difference lies in the number of degrees of freedom modelled, in a hierarchy of descriptions proceeding from detailed to coarse (Figure \ref{fig:ff}). Three possible classes of descriptions are:
 \begin{itemize}
 \item all-atoms force fields, where all the atoms are present in the description, represented as spheres of variable size according to their van der Waals radius (e.g.\ proportional to $\sigma$ in a Lennard-Jones model). Examples of all-atoms force fields are AMBER \citep{Maier2015,Dickson2014,Wang2004_amber}, CHARMM \citep{MacKerell1998,Klauda2010,Huang2013} and OPLS all-atom \citep{Jorgensen1988}.
-\item united atoms force fields, similar to the previous ones but where non-polar hydrogens are incorporated in the heavy atom they are bonded to. The ``united atom" is given a new $\sigma$ parameter and increased mass according to how many hydrogen it includes. The GROMOS force field \citep{Oostenbrink2004,Schmid2011} follows this philosophy. In addition, OPLS has a united atom version \citep{Jorgensen1996}.
+\item united-atoms force fields, similar to the previous ones but where non-polar hydrogens are incorporated in the heavy atom they are bonded to. The ``united" atom is given a new $\sigma$ parameter and increased mass according to how many hydrogen it includes. The GROMOS force field \citep{Oostenbrink2004,Schmid2011,Reif2012} follows this philosophy. In addition, OPLS has a united-atom version \citep{Jorgensen1996}.
 \item coarse-grained force fields, which group together few atoms in one unique bead, to reduce the number of variables to compute. The clustered atoms are such that their mutual distances are expected to vary little with respect to the ample movements of components of the system far away from each other (which will be grouped in different beads). The MARTINI \citep{Marrink2007,Monticelli2008,DeJong2013}, SIRAH \citep{Machado2018,Barrera2019}, ELBA \citep{Orsi2011} force fields belong to this category.
 \end{itemize}
 %
 We now give a more detailed insight in the characteristics and parametrisation strategies of the atomistic and coarse-grained force fields which will be employed in the work of this thesis.
 
 \subsection{The GROMOS force field}
-All-atoms and united atoms force fields are parametrised against first-principle or experimental values.
+All-atoms and united-atoms force fields are parametrised against first-principle or experimental values.
 %
-While for the all-atom force fields AMBER and CHARMM the parametrisation is based on \emph{ab initio} quantum mechanics calculations refined against experimental data \citep{Maier2015,Dickson2014,Wang2004_amber,MacKerell1998,Klauda2010}, the united atom GROMOS force field relies on the reproduction of heat of vaporization of small molecules and free enthalpies of solvation of small compounds in different solvents, at physiological temperatures and pressures \citep{Oostenbrink2005,Schmid2011,Reif2013}.
+While for the all-atom force fields AMBER and CHARMM the parametrisation is based on \emph{ab initio} quantum mechanics calculations refined against experimental data \citep{Maier2015,Dickson2014,Wang2004_amber,MacKerell1998,Klauda2010}, the united-atom GROMOS force field relies on the reproduction of heat of vaporization of small molecules and free enthalpies of solvation of small compounds in different solvents, at physiological temperatures and pressures \citep{Oostenbrink2005,Schmid2011,Reif2013}.
 %
 This procedure sets not only the constants of the bonded interactions, but also the partial charges of the atoms inside a molecule: as no electrons are included for the sake of efficiency, their redistribution across atoms which are bonded is modelled through fractional charges assigned to each atom (while the total charge of a molecule must sum to an integer).
 %
 Moreover, it is assumed that the parametrisation performed for small moieties can be transferred to a larger compound including these moieties. This limits the number of chemical groups to be described in order to simulate biomolecules.
 
-In every MD simulation, the description of water is crucial. Out of the many water model proposed, the GROMOS parametrisation has been performed with a flexible simple point charge (SPC \citep{Berendsen1981}) model. This description represents water as a three atoms molecule, with a negative charge on the oxygen and positive complementary charges on the two hydrogen atoms, and allows flexible hydrogen-oxygen bonds. This model reproduces correctly the density and dielectric permittivity of water \cite{Mark2001}. To be noticed that, computationally wise, water molecules are the vast majority of the particles involved in a simulation and thus a significant fraction of the computer time is spent in updating their positions and calculating solvent-solvent interactions.
+In every MD simulation, the description of water is crucial. Out of the many water model proposed, the GROMOS parametrisation has been performed with a flexible simple point charge (SPC \citep{Berendsen1981}) model. This description represents water as a three atoms molecule, with a negative charge on the oxygen and positive complementary charges on the two hydrogen atoms, and allows flexible hydrogen-oxygen bonds. This model reproduces correctly the density and dielectric permittivity of water \citep{Mark2001}. To be noticed that, computationally wise, water molecules are the vast majority of the particles involved in a simulation and thus a significant fraction of the computer time is spent in updating their positions and calculating solvent-solvent interactions.
 
 The improvement of computational techniques and reparametrisation strategies prompts the periodical release of newer versions of force fields. In the present work, we employed version 53A6 of the GROMOS force field \citep{Oostenbrink2004} for the set of simulations involving peptidic assembly in solution, while we switched to 54A7 \citep{Schmid2011} and 54A8 \citep{Reif2013} for the simulations involving biological membranes. While it is advisable to always have a coherent set of parameters across simulations, to compare their outcome in a consistent manner, when extending the system simulated to include membranes, we deemed the newer parameter sets more suitable because of the improvements introduced in the phosphocholine head parametrisation (see Chapter \ref{chapter:lip_par} for a complete discussion on lipid parametrisation in GROMOS).
 
@@ -195,11 +193,11 @@ The dual granularity approach is based on physico-chemical intuition, and is mor
 \label{fig:sirah}
 \end{figure}
 
-The modelling of water in a coarse-grained force field is also critical: usually, a few water molecules are grouped together in one bead. This has two implications: water particles are large and thus cannot solvate very narrow pockets; moreover, collapsing the molecules in one single point in space removes the separation of charges and the characteristic dipole every water molecule should have is lost. The dipole of water is responsible for hydrogen bonds formation and for the electrostatic screening observed in an aqueous solution. Such screening can be roughly modelled tuning the relative dielectric constant, but as this is a mean field approach, it cannot account for local effects.
+The modelling of water in a coarse-grained force field is also critical: usually, a few water molecules are grouped together in one bead. This has two implications: water particles are large and thus cannot solvate very narrow pockets; moreover, collapsing the molecules in one single point in space removes the separation of charges and the characteristic dipole every water molecule should have. The dipole of water is responsible for hydrogen bonds formation and for the electrostatic screening observed in an aqueous solution. Such screening can be roughly modelled tuning the relative dielectric constant, but as this is a mean field approach, it cannot account for local effects.
 %
-To partially obviate to that, SIRAH force field maps four waters to a tetrahedral molecule, with one bead on each vertex: all the bonds are rigid, and the structure serves the purpose of having a repartition of plus and minus charges, by assigning a positive charge to two vertices and the opposite charge to the other two, giving a polarisable structure. The geometrical arrangement reproduces the tetrahedral network of water molecules observed in its liquid state, which is characteristic of this fluid and tunes its remarkable properties.
+To partially obviate to that, SIRAH force field maps four waters to a tetrahedral molecule, with one bead on each vertex: all the bonds are rigid, and the structure serves the purpose of having a repartition of plus and minus charges, by assigning a positive charge to two vertices and the opposite charge to the other two, giving a polarisable structure. The geometrical arrangement reproduces the tetrahedral network of water molecules typical of its liquid state.
 
-Based on the above premises, SIRAH force field simulations of different peptides and proteins in solution proved to match the relative NMR results, showing a good reproduction of secondary structures; simulations of lipids randomly oriented in water showed the formation of an organised bilayer, and the expected behaviour of a few transmembrane proteins in model membranes was correctly reproduced \citep{Machado2018,Barrera2019}.
+SIRAH force field simulations of different peptides and proteins in solution proved to match the relative NMR results, showing a good reproduction of secondary structures; simulations of lipids randomly oriented in water showed the formation of an organised bilayer, and the expected behaviour of a few transmembrane proteins in model membranes was correctly reproduced \citep{Machado2018,Barrera2019}.
 
  
 \subsection{The MARTINI force field}
@@ -207,13 +205,13 @@ The MARTINI force field is another popular coarse-grain description of biologica
 
 MARTINI opts for a four-to-one approach, i.e.\ four heavy atoms are grouped in one bead, resulting in a uniform graining and a coarser description than the SIRAH one. The only exception to this scheme is represented by rings molecules, where a two-to-one approach is needed to maintain the circular topology (consequently, these beads have a reduced mass with respect to the others, all described with the same mass value).
 
-The number of bead types has been kept to the minimum necessary to represent biological molecules. They are organised systematically in polar, non-polar, apolar, or charged, and each type has a number of subtypes with increasing polarity to differentiate the chemical nature of the underlying atomistic structures.
+The MARTINI beads are organised systematically in polar, non-polar, apolar, or charged, and each type has a number of subtypes with increasing polarity to differentiate the chemical nature of the underlying atomistic structures.
 %
 This systematic parametrisation can be easily transferred to new compounds, without the need of introducing new bead types, analogously to what GROMOS does when parametrising small moieties.
 
 Similarly to GROMOS, the MARTINI force field chooses a top-down approach to parametrise non-bonded interactions, tuning them against experimental partitioning free energies between polar and apolar phases, while bonded interactions are derived from reference all-atom information, in a bottom-up approach.
 %
-Specifically, they are designed so that the results from coarse-grained simulations match the structural data of the underlying atomistic geometry, derived either from available structures or atomistic simulations. For example the distribution of the length of a bond in a molecule would be mapped to its coarse-grained version (i.e. computing the corresponding bead-to-bead distance) and compared with the respective one obtained from coarse-grained simulations.
+Specifically, they are designed so that the results from coarse-grained simulations match the structural data of the underlying atomistic geometry, derived either from available structures or atomistic simulations. %sFor example the distribution of the length of a bond in a molecule would be mapped to its coarse-grained version (i.e. computing the corresponding bead-to-bead distance) and compared with the respective one obtained from coarse-grained simulations.
 
 The four-to-one mapping implies that the amino acid backbone is represented by one bead only (Figure \ref{fig:martini_aa}), preventing the description of directional bonds which are key to reproduce the secondary structure. The bonded parameters partially account for this, favouring for each residue type the backbone conformation in which it is most likely found (as computed from the Protein Data Bank - PDB \citep{PDB}). When this is not sufficient, the protein can be constrained around a given structure through an elastic network model approach (ElNeDyn \citep{Periole2009}). However, both the backbone parametrisation and the use of ElNeDyn imply that conformational changes in the structure are penalised and therefore not well sampled in MARTINI simulations.
 %
@@ -227,11 +225,11 @@ The four-to-one mapping implies that the amino acid backbone is represented by o
 \label{fig:martini}
 \end{figure}
 
-The MARTINI force field provides two water models. The standard one groups four water molecules in one bead only (Figure \ref{fig:martini_w}, left), loosing the polarisability typical of water molecules, the effect of which is partially restored with the use of a high dielectric constant. The polarisable water model \citep{Yesylevskyy2010} maps instead four water molecule to a three-beads molecule (Figure \ref{fig:martini_w}, right) with a positive and negative charge on two of them, which can account for the water dipole. This model allows to revert the dielectric constant back to a value closer to 1.
+The MARTINI force field provides two water models. The standard one groups four water molecules in one bead only (Figure \ref{fig:martini_w}, left), loosing the polarisability typical of water, the effect of which is partially restored with the use of a high dielectric constant. The polarisable water model \citep{Yesylevskyy2010} maps instead four molecules to a three-beads molecule (Figure \ref{fig:martini_w}, right) with a positive and negative charge spatially separate, which can account for the water dipole. This model allows to revert the dielectric constant back to a value closer to 1.
 
 Overall, the MARTINI force field pushes the limits of simplification to enhance the simulations speed-up, with considerable gain in efficiency with respect to atomistic or even SIRAH simulations. Despite it can not capture some fine details of the systems studied, it has been successfully applied to describe the behaviour of many biological membranes \citep{Khalid2019,Samsudin2017}, lipid self-assembly \citep{Marrink2007} and peptide-membrane binding \citep{Song2019}. The (re)introduction of a more detailed water model allowed the description of electroporation processes and the translocation of ions through bilayers \citep{Yesylevskyy2010}.
 
-\subsection{Backmapping techniques} coarse-grained descriptions are very effective in reproducing long time scales; however, to retrieve finer details after such extensive exploration, backmapping techniques have been designed to obtain atomistic configurations from the coarse-grained ones \citep{Wassenaar2015}. These backmapped structures can in turn be simulated at the atomistic level to explore the short time scale movements around such interesting conformation. The easy conversion between the two resolution, gave rise to many multiscale studies applied to biomolecular systems \citep{Lee2012}.
+\subsection{Backmapping techniques} Coarse-grained descriptions are very effective in reproducing long time scales; however, to retrieve finer details after such extensive exploration, backmapping techniques have been designed to obtain atomistic configurations from the coarse-grained ones \citep{Wassenaar2015}. These backmapped structures can in turn be simulated at the atomistic level to explore the short time scale movements around such interesting conformation. The easy conversion between the two resolution, gave rise to many multiscale studies applied to biomolecular systems \citep{Lee2012}.
 
 
 \section{Beyond the classical framework}
@@ -264,7 +262,7 @@ In the simulations of proteins, this would often correspond to a structure deriv
 %
 An alternative could be the use of different pre-modelled initial structures so to reduce the sampling of states far from the equilibrium.
 
-The challenges mentioned above have promoted the development of enhanced MD techniques. As a non comprehensive list, we mention replica-exchange algorithms \citep{Okamoto2004} which combine together multiple simulations performed under different conditions, local potential-energy elevation (or metadynamics) \citep{Huber1994,Laio2002} which avoids the re-sampling of already visited conformations adding an energy penalty to them, umbrella sampling \citep{Torrie1977} which reconstructs free-energy barriers from simulations held at specific values of the coordinate along which the barrier exists, or finally simply the use of higher temperature to overcome energy barriers \citep{Kirkpatrick1983}.
+The challenges mentioned above have promoted the development of enhanced MD techniques. As a non comprehensive list, we mention replica-exchange algorithms \citep{Okamoto2004} which combine together multiple simulations performed under different conditions, local potential-energy elevation (or metadynamics) \citep{Huber1994,Laio2002} which avoids the re-sampling of already visited conformations adding an energy penalty to them, umbrella sampling \citep{Torrie1977} which reconstructs free-energy barriers from simulations held at specific values of the coordinate along which the barrier exists, or finally simply the use of a higher temperature to overcome energy barriers \citep{Kirkpatrick1983}.
 %
 To be noticed that a coarse-grained description of a system, by reducing the number of degrees of freedom, discards the high-frequency or less interesting ones, giving a smoother energy surface, so that the search is speed up both by the reduced computational load and by the fact that the system is not trapped into local minima due to the landscape roughness.
 
@@ -275,16 +273,16 @@ The validation of MD simulations is performed by comparison with experiments: th
 Once the simulation has been validated, one can identify, from the conformations in the trajectory, the details of the processes responsible for the experimental outcome of interest, as such information is not accessible by the experiment itself.
 
 The comparison however is not always easy, because of a fundamentally different focus that experiments and simulations have.
+%
+The former measures often a temporal or spatial average, while simulations access the (hopefully complete) \emph{ensemble} of states that the system can visit and their occupancy, which in turn determines the macroscopic behaviour measured in the experiments.
 
-The former measures often a temporal or spatial averages, while simulations access the (hopefully complete) \emph{ensemble} of states that the system can visits and their occupancy, which in turn determines the macroscopic behaviour measured in the experiments.
-
-In the case of a protein in solution, the \emph{ensemble} corresponds to the variety of conformations it adopts, which can differ significantly from the experimentally determined X-ray structures available. Such flexibility can be investigated using techniques such as small angle X-ray scattering (SAXS) and nuclear magnetic resonance (NMR) experiments \citep{Bonomi2017,Kikhney2015,Kleckner2011}. In this context, only simulations can help in deconvoluting the results to map them back to the conformations and their relative contribution responsible for the outcome, uncovering their relative importance.
+In the case of a protein in solution, the \emph{ensemble} corresponds to the variety of conformations it adopts, which can differ significantly from the experimentally determined X-ray structures available. Such flexibility can be investigated using techniques such as small angle X-ray scattering (SAXS) and nuclear magnetic resonance (NMR) experiments \citep{Bonomi2017,Kikhney2015,Kleckner2011}. In this context, only simulations can help in deconvoluting the results to map them back to the conformations and their relative contribution responsible for the outcome.
 
 However, it is still challenging to compare experimental and simulations derived ensembles. Following from the example above, many different combinations of structures can match a SAXS profile, so in each specific case it is important to understand which are the relevant properties playing a role in the measured ensemble before attempting comparisons.
 
 In general, in the validation of MD outcomes, it is necessary to have a critical attitude both in the case of agreement and disagreement with the experiment, and to interpret the result within the validity of the approximations performed by both of them \citep{VanGunsteren2008}.
 %
-Agreement may indeed arise from either a simulation that reflects correctly the experimental system. But it can be achieved also when the property examined is insensitive to the details of the simulated trajectory. Again, it can be a result of compensation of errors, which is more likely to occur for systems with a high number of degrees of freedom (as biomolecular ones).
+Agreement may indeed arise from a simulation that reflects correctly the experimental system. But it can be achieved also when the property examined is insensitive to the details of the simulated trajectory. Again, it can be a result of compensation of errors, which is more likely to occur for systems with a high number of degrees of freedom (as biomolecular ones).
 %
 Similarly, disagreement may hint at an error in the simulation (either in the model, the implementation, or simply the estimated simulation's convergence) or an error in the interpretation and/or conditions of experimental set-up (either in the result itself or its interpretation), so that both must be carefully checked to improve a convergence in the agreement.
 %

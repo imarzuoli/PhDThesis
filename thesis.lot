@@ -1,16 +1,2 @@
 \addvspace {10pt}
-\addvspace {10pt}
-\addvspace {10pt}
-\contentsline {table}{\numberline {3.1}{\ignorespaces Simulations of capzip assemblies in water}}{83}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Simulations of capzip assembly on membranes}}{85}
-\contentsline {table}{\numberline {3.3}{\ignorespaces D coefficient in proximity of capzip (bacterial membrane, atomistic)}}{120}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Hydrogen bonds between capzip and a model bacterial membrane}}{120}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Hydrogen bonds between Arg and selected lipid moieties}}{123}
-\contentsline {table}{\numberline {3.6}{\ignorespaces ApL and D of DLPC (atomistic simulations)}}{125}
-\contentsline {table}{\numberline {3.7}{\ignorespaces D coefficient in proximity of capzip (mammalian membrane, atomistic)}}{126}
-\contentsline {table}{\numberline {3.8}{\ignorespaces Properties of coarse grain bacterial membrane}}{128}
-\contentsline {table}{\numberline {3.9}{\ignorespaces Properties of coarse grain mammalian membrane}}{128}
-\contentsline {table}{\numberline {3.10}{\ignorespaces Control atomistic simulations of pure membranes}}{135}
-\addvspace {10pt}
-\addvspace {10pt}
-\addvspace {10pt}
+\contentsline {table}{\numberline {1.1}{\ignorespaces Functional form of GROMOS}}{14}

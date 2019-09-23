@@ -2,80 +2,87 @@
 
 In Chapter \ref{chapter:intro} we introduced the molecule capzip and its properties, highlighting the unknowns of its mechanisms of action. In Chapter \ref{chapter:MD} we presented a review on Molecular Dynamics simulations, proving their past successes in elucidating the behaviour of self-assembling and antimicrobial peptides.
 %
-Now, we employ this technique to understand better our system of interest. Given the exoticism of the unit, and the little atomistic information at disposal, modelling such peptide must proceed in a stepwise manner.
+Now, we employ this technique to understand better our system of interest. Given the complexity of the unit, and the little atomistic information at disposal, modelling the assembly of such peptide must proceed in a stepwise manner.
 
-The first aim is to elucidate which structures it forms in solution and what interactions are keeping the molecules together. To understand the latter it is important to retain the highest level of detail possible, and for this reason we resorted to atomistic simulations first.
+The first aim is to elucidate which structures it can form in solution and what interactions are keeping the molecules together. To understand the latter it is important to retain the highest level of detail possible, and for this reason we resorted to atomistic simulations first.
 %
-This description has an high computational cost though, preventing the simulation of very large systems for a very long time, as it would be required to reproduce the natural assembly from a dispersed solution.
+However, to reproduce the natural assembly from a dispersed solution as observed in the experiments, with the atomistic level of detail, has an high computational cost though.
 %
 Thus, we simulated increasingly complex pre-assembled blocks, verifying each time their behaviour in solution and inferring whether they are suitable to form a stable supramolecular structure. This approach, fully explained in Section \ref{sec:build}, lead to the model of a minimal capsule, which has been subsequently investigated at coarser levels to explore its behaviour on longer time scales.
 
-This multiscale approach constitutes also an interesting methodological investigation as, to our knowledge, it compares for the first time the performances of the SIRAH force field \citep{Machado2018} versus the MARTINI \citep{Marrink2007, Monticelli2008} one, without or with polar water \citep{Yesylevskyy2010}. Indeed, when choosing a coarse grain representation, it is crucial to understand which aspects of the parametrisation are closer to its atomistic counterpart and which are instead more approximate. This helps in selecting the appropriate description for the system and the questions investigated.
+This multiscale approach constitutes also an interesting methodological investigation as, to our knowledge, it compares for the first time the performances of the SIRAH force field \citep{Machado2018,Barrera2019} versus the MARTINI \citep{Marrink2007, Monticelli2008}, without or with polar water \citep{Yesylevskyy2010} at the level of protein description (while for lipids a comparison is included in \citet{Barrera2019}). Indeed, when choosing a coarse-grained representation, it is crucial to understand how the simulations results deviate from the atomistic counterpart due to the coarse-grained representation - assuming that the atomistic is more accurate. This helps in selecting the appropriate description for the system and the questions that can be investigated with it.
 
 Out of the pre-built capzip structures, a few selected ones were simulated in contact with model membranes, bacterial and mammalian, to understand the determinants of their antimicrobial activity. Details on these simulations and the specific techniques employed to promote the interaction are given in Section \ref{sec:details}.
-
-\begin{figure}[p]
+%
+\begin{figure}[p!]
 \centering
-\subbottom[]{%
-\includegraphics[width=0.9\linewidth]{3results_capsule/pics/merged_figures_beta_sheet} \label{fig:hb_beta_SIhere_hb}} \\
-\bigskip
-\subbottom[]{%
-\includegraphics[width=0.47\linewidth]{3results_capsule/pics/pi_stacking_0} \label{fig:hb_beta_SIhere_pi1}} \hspace{0.2cm}
-\subbottom[]{%
-\includegraphics[width=0.47\linewidth]{3results_capsule/pics/pi_stacking_90} \label{fig:hb_beta_SIhere_pi2}}
-\caption[Hydrogen bonds and $\pi$-stacking in a RRWTWE $\beta$-sheet]{(a) Presence of backbone hydrogen bonds between two facing antiparallel RRWTWE chains. The top right inset shows a scheme of the initial configuration. All the pairs highlighted in blue, green and pink are monitored and reported in the histogram (labels by amino acid pairs, named as in the inset figure and underlined with matching color); occupancy is averaged over 16 simulations of 20 ns. (b, c) For each replica and possible pair of facing Tryptophan residues in the $\beta$-sheet, the map gives the fraction of time for which a parallel or perpendicular $\pi$-stacking interaction has been observed. The second and third column correspond to pairs interacting by backbone hydrogen bonds.}
-\label{fig:hb_beta_SIhere}
+	\includegraphics[width=0.95\linewidth]{3results_capsule/pics/img_build.png}
+\caption[Building blocks of capzip assembly]{A. Capzip molecule: formula, with arms in blue characters and central scaffold (residue RKGB) in black lines; and bonds/surface representation, with surface color coded by amino acod type (blue positive, green polar, red negative, white hydrophobic).
+%
+B: detail of two arms paired in an antiparallel $\beta$-sheet (bond representation, backbone in green and side chain color coded by amino acid type).
+%
+C: pentagonal subunit (bonds and cartoon representation): ten antimicrobial molecules arranged in two stacking pentagons. 
+%
+D: detail of the double layer of each pentagonal subunit (bonds representation color coded by amino acid type, and backbone in cartoon representation, green and yellow for the two different layers).
+%
+E: atomistic structure of the buckyball bilayer simulated (bonds and cartoon representation of backbone only, green outer layer, yellow inner layer). [VMD software \citet{HUMP96}]}
+\label{fig:BTI_vmd}
 \end{figure}
+
+
 
 \section{Modelling the assembly} \label{sec:build}
 
-As previously mentioned, the antimicrobial sequence of capzip is designed with opposite charges at its extremes to favour an antiparallel $\beta$-sheets pairing with other copies of itself.
+\paragraph{Subunits simulations} As previously mentioned, the antimicrobial sequence of capzip is designed with opposite charges at its extremes to favour an antiparallel $\beta$-sheets pairing with other copies of itself (Figure \ref{fig:BTI_vmd}, A-B).
 %
 MD simulations of two RRWTWE sequences paired in this fashion confirm that the assembly is stabilised by the interactions between opposite charges (statistics gathered over 16 replicas, each run for 20 ns).
 %
 Moreover, backbone hydrogen bonds form between Tryptophan residues of facing strands, after a rearrangement of the mutual position of the residues which brings Trp ones in front of each other (Figure \ref{fig:hb_beta_SIhere_hb}).
 %
-Finally, $\pi$-stacking between Tryptophan side chains contributes to the interaction as well, albeit in minor measure (Figure \ref{fig:hb_beta_SIhere_pi1}, \subcaptionref{fig:hb_beta_SIhere_pi2}; details on its computation are explained in Section \ref{sec:analysis}).
-
-Analogous simulations of two RRWTWE sequences paired in a parallel way show loosening of the pairing and in some cases the flip of one sequence to rearrange with respect to the other in the antiparallel manner, confirming that the antiparallel arrangement is favoured.
+Finally, $\pi$-stacking interaction (parallel or T-shaped) between Tryptophan side chains contributes to the interaction as well, albeit in minor measure (Figure \ref{fig:hb_beta_SIhere_pi1}, \subcaptionref{fig:hb_beta_SIhere_pi2}; details on its computation are explained in Section \ref{sec:analysis}).
+%
+Thus, Tryptophan residues dictate the interdigitation of facing residues in the two chains.
+%
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.9\linewidth]{3results_capsule/pics/merged_figures_beta_sheet}
+\caption[Hydrogen bonds in a RRWTWE $\beta$-sheet]{Presence of backbone hydrogen bonds between two facing antiparallel RRWTWE chains. The top right inset shows a scheme of the initial configuration. All the pairs highlighted in blue, green and pink are monitored and reported in the histogram (labels by amino acid pairs, named as in the inset figure and underlined with matching color); occupancy is averaged over 16 simulations of 20 ns.}
+\label{fig:hb_beta_SIhere_hb}
+\end{figure}
 
 \begin{figure}[p!]
 \centering
 \subbottom[]{%
-    \includegraphics[width=0.4\linewidth]{3results_capsule/pics/beta_trpHbonds} \label{fig:BTI_vmd_1} }
-\hspace{0.05\linewidth}
+\includegraphics[width=0.75\linewidth]{3results_capsule/pics/pi_stacking_0} \label{fig:hb_beta_SIhere_pi1}} \hspace{0.2cm}
 \subbottom[]{%
-	\includegraphics[width=0.4\linewidth]{3results_capsule/pics/beta_surf} \label{fig:BTI_vmd_1a}}
-\subbottom[]{%
-	\includegraphics[width=0.45\linewidth]{3results_capsule/pics/pentamer_restype.png} \label{fig:BTI_vmd_2}}
-\subbottom[]{%
-	\includegraphics[width=0.45\linewidth]{3results_capsule/pics/soccer_empos_extern_superimposed.png} \label{fig:BTI_vmd_3}}
-\caption[Building blocks of capzip assembly]{(a) Detail of $\beta$-sheet pairing with facing Tryptophan residues forming hydrogen bonds between their backbone atoms (bonds representation coloured by residue type, hydrogen bond in dashes). (b) Two stacking $\beta$-sheets in surface representation, coloured by residue type. In white the partially buried hydrophobic surface. (c) A pentagonal subunit (bonds and cartoon representation): ten antimicrobial molecules arranged in two stacking pentagons. Capzip arms are paired in antiparallel $\beta$-sheets to form each pentagon, and the two are facing with their Tryptophan residues in contact. (d) Atomistic structure of the buckyball simulated (bonds and cartoon representation) and geometrical model for comparison. [VMD software \citet{HUMP96}]}
-\label{fig:BTI_vmd}
+\includegraphics[width=0.75\linewidth]{3results_capsule/pics/pi_stacking_90} \label{fig:hb_beta_SIhere_pi2}}
+\caption[$\pi$-stacking interaction in a RRWTWE $\beta$-sheet]{Presence of parallel or T-shaped $\pi$-stacking between each possible pair of facing Tryptophan residues between two facing antiparallel RRWTWE chains. For each replica the map gives the fraction of time for which a parallel or T-shaped $\pi$-stacking interaction has been observed.}
+\label{fig:hb_beta_SIhere}
 \end{figure}
-%PUT YELLOW-GREEN SCHEME COLOUR AS IN THE FOLLOWING + SUPERIMPOSE TRANSPARENT SURFACE TO SHOW RESIDUE TYPE
 
-The hydrophobic interactions between Tryptophan residues (in white in Figure \ref{fig:BTI_vmd_1}) result in the creation of a hydrophobic patch which includes four of them on one side of the $\beta$-sheet plane.
+Analogous simulations of two RRWTWE sequences paired in a parallel way show loosening of the pairing and in some cases the flip of one sequence to rearrange with respect to the other in the antiparallel manner, confirming that the antiparallel arrangement is favoured.
+
+The hydrophobic interactions between Tryptophan residues (in white in Figure \ref{fig:BTI_vmd}, B) result in the creation of a hydrophobic patch which includes four of them on one side of the $\beta$-sheet plane.
 %
 This creates an amphiphilic structure where the hydrophobic core is segregated from the remaining charged residues distributed around.
 %
 The combination of two stacking $\beta$-sheets, paired to match their hydrophobic patches, constitutes an effective supramolecular assemblies to reduce the solvent exposure of such residues.
 
-This pairing strategy, however, needs to be applied in the context of assembly of complete molecules.
+\paragraph{Oligomer simulations} This pairing strategy, however, needs to be applied in the context of assembly of complete molecules.
 %
 The quasi three-fold symmetry of capzip suggests a regular geometric arrangement; even if simulations of a single molecule in solution highlight its flexibility, proposing that multiple arrangements can be accommodated by the molecule.
 %
 The best examples of geometrically organised protein structures can be found in viral capsids, which are composed by the regular repetition of highly symmetric protein subunits.
 %
-Inspired by this, we tested whether a geometrical organisation can represent a stable capsule, choosing as minimal representative geometry a truncated icosahedron (buckyball). This shape has 12 pentagonal faces and 20 hexagonal ones.
+Inspired by this, we tested whether a geometrical organisation can represent a stable capsule, choosing as minimal representative geometry a truncated icosahedron (buckyball, Figure \ref{fig:BTI_vmd}, E). This shape has 12 pentagonal faces and 20 hexagonal ones.
 
-Preliminary atomistic simulations (100 ns) were run on a pentagonal subunit (Figure \ref{fig:BTI_vmd_2}), where ten antimicrobial molecules arranged in two stacking pentagons. Capzip arms are paired in antiparallel $\beta$-sheets to form each pentagon, and the two of them are facing with their Tryptophan residues in contact.
+Preliminary atomistic simulations (100 ns) were run on a pentagonal subunit (Figure \ref{fig:BTI_vmd}, C), where ten antimicrobial molecules arranged in two stacking pentagons. Capzip arms are paired in antiparallel $\beta$-sheets to form each pentagon, and the two of them are facing with their Tryptophan residues in contact (Figure \ref{fig:BTI_vmd}, D).
 %
-The simulations prove the cohesion between molecules belonging to the subunit. Specifically, the number of contacts between backbone $C_\alpha$s augmented slightly in the first 20 ns (Figure \ref{fig:penta_results_here_1}), due to the compaction of the unpaired external arms toward the core of the structure (see Figure \ref{fig:penta_results_SI} in SI Section \ref{sec:ch3_SI}).
+The simulations prove the cohesion between molecules belonging to the subunit. Specifically, the number of contacts between backbone $C^\alpha$s augmented slightly in the first 20 ns (Figure \ref{fig:penta_results_here_1}), due to the compaction of the unpaired external arms toward the core of the structure (see Figure \ref{fig:penta_results_SI} in SI Section \ref{sec:ch3_SI}).
 %
 Moreover, for each pair of facing chains (see definition in Figure \ref{fig:penta_results_here_2} legend), we computed the distance between their centres of mass. Figure \ref{fig:penta_results_here_2} reports the variance of these distances normalised by their average value, as a measure of the cohesion of the subunit, showing that in the majority of the cases less than 2\% of variability is observed. Overall, the block is not rigid, and does indeed deform and go back to the pentagonal shape multiple times in the simulations, but it is keeping the original pairing of the molecules.
 % RUN SECOND SIMULATION?
-\begin{figure}[t]
+\begin{figure}[t!]
 \centering
 \subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/bb_contacts.png} \label{fig:penta_results_here_1}}
 \subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/chain_COM_distance.png} \label{fig:penta_results_here_2}}
@@ -83,26 +90,29 @@ Moreover, for each pair of facing chains (see definition in Figure \ref{fig:pent
 \label{fig:penta_results_here}
 \end{figure}
 
-The pentagonal subunit respects the building principles of a) $\beta$-sheet pairing between antimicrobial sequences and b) double layer structure to screen the hydrophobic patches. Thus twelve of these units can be used to build a truncated icosahedron (Figure \ref{fig:BTI_vmd_3}), constituting its pentagonal faces (the hexagonal ones are formed by consequence by the branches extending from the pentagon).
+\paragraph{Capsule simulations} The pentagonal subunit respects the building principles of $\beta$-sheet pairing between antimicrobial sequences. Moreover, the double layer structure allows to partially screen the hydrophobic residues from the solvent, as they are in favourable contact with each other rather than with polar side chains (Figure \ref{fig:BTI_vmd}, D).
+%
+Twelve of these units can be used to build a truncated icosahedron (Figure \ref{fig:BTI_vmd}, E), as they constitutes its pentagonal faces (the hexagonal ones are formed by consequence by the arms extending from the pentagon).
 
-Each capzip molecule is centred in one vertex of the polygon, with the branches laying alongside the edges departing from it. On each edge two branches coming from opposite sides meet in an antiparallel fashion. When possible, they are tightly paired in $\beta$-sheets with facing Tryptophan residues (as in Figure \ref{fig:BTI_vmd_1}). The stacking pentagons interact through the hydrophobic patches of their $\beta$-sheet, which are arranged in facing positions, with interdigitating Tryptophan if possible.
+Each capzip molecule is centred in one vertex of the polygon, with the arms laying alongside the edges departing from it. On each edge two arms coming from opposite sides meet in an antiparallel fashion. When possible, they are tightly paired in $\beta$-sheets with facing Tryptophan residues (as in Figure \ref{fig:BTI_vmd}, B). The stacking pentagons interact through the hydrophobic patches of their $\beta$-sheet, which are arranged in facing positions, with interdigitating Tryptophan if possible.
 %
-The full truncated icosahedron (Figure \ref{fig:BTI_vmd_3}) has two concentric layers, for a total of 120 molecules, and initial radius of 7.7 nm.
+The full truncated icosahedron (Figure \ref{fig:BTI_vmd}, E) has two concentric layers, for a total of 120 molecules, and initial radius of 7.7 nm. Thus it will be called \emph{buckyball bilayer} in the following.
 %
-As anticipated, this geometry represents a minimal model of the possible structures capzip adopts in solution. Given the flexibility of the molecule, different arrangements are possible, though they are likely proceeding from analogous interactions between the minimal components (the arms of capzip).
+As anticipated, this geometry represents a minimal model of the possible structures capzip adopts in solution.
+%Given the flexibility of the molecule, different arrangements are possible, though they are likely proceeding from analogous interactions between the minimal components (the arms of capzip).
 
 The final structure was simulated at atomistic and coarse-grained levels, respectively with the GROMOS 53A6 \citep{Oostenbrink2004}, SIRAH \citep{Machado2018} and MARTINI \citep{Marrink2007, Monticelli2008} force fields (with both standard and polar water \citep{Yesylevskyy2010}).
 % LEAVE?
 From the final configurations of the MARTINI coarse-grained model (standard water), atomistic coordinates were obtained and simulated, to be compared with the original atomistic dynamics.
 %
 %Proving the stability at different timescales ascertains the characteristics that favour the assembly and identify the ones with suboptimal fitness to select them for improvement.
-Moreover, additional simulations were run at all the coarse-grained levels on a structure made of one layer only (i.e.\ built from pentagonal subunits made by one pentagon only), to prove whether the bilayer is more energetically favoured.
+Moreover, additional simulations were run at all the coarse-grained levels on a buckyball monolayer (i.e.\ built from pentagonal subunits made by one pentagon only), to prove whether the bilayer is more energetically favoured.
 
-Finally, a preliminary study on self-assembly was performed with one of the coarse grain representations (MARTINI with standard water), starting from capzip molecules randomly placed in solution.
+Finally, a preliminary study on self-assembly was performed with one of the coarse-grained representations (MARTINI with standard water), starting from capzip molecules randomly placed in solution.
 
-A multiscale analysis is needed also to investigate the antimicrobial activity. Being highly costing to simulate a full truncated icosahedron on a bilayer patch at the atomistic level, the pentagonal subunit employed to build the complete structure (Figure \ref{fig:BTI_vmd_2}) was taken as representative of the latter. It was simulated close to the membrane plane, parallel to it, to avoid spending time in sampling conformations with the peptide far from the membrane (Figure \ref{fig:pL6_vmd_1}). This, together with a tailored use of an applied electric field (see Section \ref{sec:details}), speeds up simulations considerably.
+\paragraph{Capzip-membrane simulations} A multiscale analysis is needed also to investigate the antimicrobial activity. Being highly costing to simulate buckyball bilayer on a bilayer patch at the atomistic level, the pentagonal subunit employed to build the complete structure (Figure \ref{fig:BTI_vmd}, C) was taken as representative of the latter. It was simulated parallel to the membrane plane, with its center of mass as -- nm from the phosphate plane, to avoid spending time in sampling conformations with the peptide far from the membrane (Figure \ref{fig:pL6_vmd_1}). This, together with a tailored use of an applied electric field (see Section \ref{sec:details}), speeds up simulations considerably.
 %
-To observe the natural binding of the peptide to the membrane, the process of the full buckyball approaching a model membrane was simulated with a MARTINI coarse-grained description (Figure \ref{fig:pL6_vmd_2}). The use of the MARTINI polar water \citep{Yesylevskyy2010} allowed the introduction of an external electric field, to compare the coarse grain simulations with the atomistic ones which employ analogous conditions.
+To observe the natural binding of the peptide to the membrane, the process of the buckyball bilayer approaching a model membrane was simulated with a MARTINI coarse-grained description (Figure \ref{fig:pL6_vmd_2}). The use of the MARTINI polar water \citep{Yesylevskyy2010} allowed the introduction of an external electric field, to compare the coarse-grained simulations with the atomistic ones which employ analogous conditions.
 
 % TRUE ONLY IF COMPLETED DPPC
 Two membrane patches were simulated for both resolutions, a model bacterial and a model mammalian membrane, to identify the different interactions with the peptide. The first one presents 25\% of anionic lipids (DLPG), and the remaining zwitterionic (DLPC), while the second has only DLPC lipids. The choice of the bacterial model was dictated by the experiments performed on capzip \citep{Castelletto2016}, and the mammalian one was built with the same zwitterionic lipid as for the bacterial to simplify the comparison, e.g.\ to have membranes with comparable thickness and mechanical properties.
@@ -111,7 +121,7 @@ Two membrane patches were simulated for both resolutions, a model bacterial and 
 \centering
 \subbottom[]{\includegraphics[width=0.45\linewidth]{3results_capsule/pics/pL6_Pramp_pic2.png} \label{fig:pL6_vmd_1}}
 \subbottom[]{\includegraphics[width=0.45\linewidth]{3results_capsule/pics/fig7_irene.png} \label{fig:pL6_vmd_2}}
-\caption[Snapshot of simulations of capzip on model membranes]{(a) Atomistic structure of a pentagonal subunit on a 740 lipid bacterial model membrane of composition DLPC/DLPG 3:1 (initial configuration). Peptide backbone in line and cartoon representation; lipid in cyan lines (DLPC) and blue ones (DLPC), all lipids phosphate in golden van der Waals beads. (b) coarse-grained (MARTINI) representation of the buckyball on a 2880 lipids bacterial model membrane (final configuration of the trajectory). Protein in bonds representation: green outer buckyball layer, yellow inner one. Lipid in line representation, coloured by bead type, and lipids phosphate in golden van der Waals beads. [VMD software \citet{HUMP96}]}
+\caption[Snapshot of simulations of capzip on model membranes]{(a) Atomistic structure of a pentagonal subunit on a 740 lipid bacterial model membrane of composition DLPC/DLPG 3:1 (initial configuration). Peptide backbone in line and cartoon representation; lipid in cyan lines (DLPC) and blue ones (DLPC), all lipids phosphate in golden van der Waals beads. (b) coarse-grained (MARTINI) representation of the buckyball bilayer on a 2880 lipids bacterial model membrane (final configuration of the trajectory). Protein in bonds representation: green outer buckyball layer, yellow inner one. Lipid in line representation, coloured by bead type, and lipids phosphate in golden van der Waals beads. [VMD software \citet{HUMP96}]}
 \label{fig:pL6_vmd}
 \end{figure}
 \section{Simulations details} \label{sec:details}
@@ -119,53 +129,188 @@ Two membrane patches were simulated for both resolutions, a model bacterial and 
 All simulations were performed with the GROMACS software, version 5.5 and 2016 \citep{Berendsen1995,Abraham2015,gromacs_man}. 
 
 \subsection{Atomistic simulations}
-\paragraph{Simulations in solution} The atomistic coordinates for the peptidic supramolecular assemblies described in Section \ref{sec:build} (Figure \ref{fig:BTI_vmd_3}) were built combining GROMACS tools and the MOE software \citep{moe}.
+\paragraph{Simulations in solution} The atomistic coordinates for the peptidic supramolecular assemblies described in Section \ref{sec:build} (Figure \ref{fig:BTI_vmd}, E) were built combining GROMACS tools and the MOE software \citep{moe}.
 %
 Simulations were run with the GROMOS 53A6 force field \citep{Oostenbrink2004}. Parameters for the central residue connected with the peptidic chains were computed with the ATB software \citep{Malde2011, Koziara2014}; the ones for the bonds joining this residue to the antimicrobial side chains were derived from the values tabulated in the force field for analogous ones.
 %
 A python module has been designed to manipulate GROMACS topology objects for the GROMOS force field and add peptide bonds at the location required (see Appendix \ref{sec:Appendix_software} for details). This is useful for multibranched peptides which are not supported by the standard GROMACS tools, and for which a manual implementation would be otherwise needed.
 
-The systems were solvated with single point charge (SPC) water \citep{Berendsen1981} and counter ions were added (Na$^+$ or Cl$^-$); further ions were introduced to reach the concentration of 150 mM, to reproduce the experimental conditions. Given the presence of counter ions, the species to which they belong had a slightly higher concentration.
+The systems were solvated with single point charge (SPC) water \citep{Berendsen1981} and counter ions were added (Na$^+$ or Cl$^-$); further ions were introduced to reach the concentration of 150 mM, to reproduce the experimental conditions.
 %
 For simulations of a single $\beta$-sheets and of the pentagonal subunit, the systems were energy minimised with a steepest descent algorithm, then equilibrated in the NVT ensemble with decreasing positional restraints at increasing temperatures (100 K, 200 K, 250 K, 300 K and respectively 1000, 1000, 500, 250 kJ/mol$\cdot$nm$^2$ restraints, 100 ps each); then in the NPT ensemble, without restraints, at the same temperatures steps and for the same time. Production followed for 100 ns.
 
-For the truncated icosahedron structure the above equilibration was insufficient. Due to the construction procedure, two thirds of the branches are not properly paired along the edges.
+For the truncated icosahedron structure the above equilibration was insufficient. Due to the construction procedure, two thirds of the arms are not properly paired along the edges.
 %
-Therefore, after an NVT equilibration as above, strong flat-bottom restrains (1000 kJ/mol$\cdot$nm$^2$) were placed between the center of mass of imperfectly aligned branches throughout the NPT heating, to penalise their mutual separation with respect to their initial distance (100 ps runs at 100 K, 200 K and 250 K and 35 ns at 300 K).
+Therefore, after an NVT equilibration as above, strong flat-bottom restrains (1000 kJ/mol$\cdot$nm$^2$) were placed between the center of mass of imperfectly aligned arms throughout the NPT heating, to penalise their mutual separation with respect to their initial distance (100 ps runs at 100 K, 200 K and 250 K and 35 ns at 300 K).
 %
 This was followed by a series of 10 ns runs at 300 K with decreasing flat-bottom restraints strength (750, 500 and 250 kJ/mol$\cdot$nm$^2$) and by a free production run (100 ns).
 %
 Three different replicas were run, generated from the final configuration of the 300 K NPT run with 1000 kJ/mol$\cdot$nm$^2$ restraints.
 
-Throughout all the simulations, the temperature was maintained by independently coupling the protein and the solvent (plus ions) to two external temperature baths using a velocity rescale thermostat \citep{Bussi2007} with coupling constant $\tau _T$ of 0.1 ps. The pressure was kept at 1 bar by Berendsen \citep{Berendsen1984} or Parrinello-Rahman barostat \citep{Parrinello1981} (for the equilibration phases and the production run respectively) using an isotropic coupling, with isothermal compressibility of 4.5 $\times$ 10$^{-5}$ bar$^{-1}$ and coupling constant $\tau_P$ of 1 ps. Electrostatic interactions were treated using the smooth Particle Mesh Ewald (PME) algorithm \citep{Essmann1995}, with a short-range cutoff of 0.9 nm. The van der Waals interactions were treated with a plain 0.9 nm cutoff. All atomistic runs were performed using a 2 fs time step. An overview of the simulations of peptide assemblies in solution is given in Table \ref{table:sim_solution}.
+Throughout all the simulations, the temperature was maintained by independently coupling the protein and the solvent (plus ions) to two external temperature baths using a velocity rescale thermostat \citep{Bussi2007} with coupling constant $\tau _T$ of 0.1 ps. The pressure was kept at 1 bar by Berendsen \citep{Berendsen1984} or Parrinello-Rahman barostat \citep{Parrinello1981} (for the equilibration phases and the production run respectively) using an isotropic coupling, with isothermal compressibility of 4.5 $\times$ 10$^{-5}$ bar$^{-1}$ and coupling constant $\tau_P$ of 1 ps. Electrostatic interactions were treated using the smooth Particle Mesh Ewald (PME) algorithm \citep{Essmann1995}, with a short-range cutoff of 0.9 nm. The van der Waals interactions were treated with a plain 0.9 nm cutoff. All atomistic runs were performed using a 2 fs time step. An overview of the simulations of peptide assemblies in solution is given in Table \ref{table:sim_all}.
 
-\begin{figure}[t]
+\begin{figure}[p!]
 \centering
+%\small
+\scriptsize
  \def\arraystretch{1.6}
-\begin{tabular}{l|ccc}
- \multicolumn{4}{c}{\textbf{Capzip in solution simulations}} \\
+\begin{tabular}{llccccc}
+\multicolumn{7}{c}{\small\textbf{Table of simulations of capzip assemblies}} \\
  \hline
- System (Nr peptides) & FF & Time (ns) & Replicas \\
+Peptides & Lipids & Box (nm) & C (mM) & E & Time (ns) & Rep. \\
  \hline
- $\beta$-sheet (Fraction) & GR & 20 & 16 \\
- Pentagonal subunit (10) & GR & 100 & 1 \\
- Buckyball bilayer (120) & GR & 100 & 3 \\
- Bucky. bi (120) \& mono (60) & SI & 1000 & 3 \& 2 \\
- Bucky. bi (120) \& mono (60) & MA & 1000 & 3 \& 2 \\
- Bucky. bi (120) \& mono (60) & MA\_P & 1000 & 2 \& 2 \\
- Backmapped bucky. (120) & GR & 200 & 2 \\
- Random (60, 120, 480) & MA & 10000 & 1 \\
+\multicolumn{7}{c}{\textbf{United atom GROMOS (GR)}} \\
+ $\beta$-sheet & -- & 4 & 0 & -- & 20 & 16 \\
+ PS (10) & -- & 12 & 0 & -- & 100 & 1 \\
+ BB (120) & -- & 22 & 150 & -- & 100 & 3 \\
+ BB-back (120) & -- & 22 & 150 & -- & 200 & 2 \\
+ PS (10) & 512 (b) & 12 & 150 & -- & 500 & 2 \\
+ PS (10) & 740 (b) & 14 & 150 & -- & 500 & 1 \\
+ PS (10) & 740 (m) & 14 & 150 & -- & 500 & 1 \\
+ PS (10) & 512 (b) & 12 & 150 & 130 & 75$^P$, 20$^P$, 71$^P$ & 3 \\
+ PS (10) & 740 (b) & 14 & 150 & 130 & 60$^P$, 50$^P$, 70$^P$ & 3 \\
+ PS (10) & 740 (m) & 14 & 150 & 130 & 20$^P$, 28$^P$, 39$^P$ & 3 \\
+ \hline
+\multicolumn{7}{c}{\textbf{Coarse-grained SIRAH (SI)}} \\
+ BB (120) & -- & 22 & 150 & -- & 1000 & 3 \\
+ BM (60) & -- & 22 & 150 & -- & 1000 & 2 \\
+ \hline
+\multicolumn{7}{c}{\textbf{Coarse-grained Polar MARTINI (MA\_P)}} \\
+ BB (120) & -- & 22 & 150 & -- & 1000 & 2 \\
+ BM (60) & -- & 22 & 150 & -- & 1000 & 2 \\
+ BB (120) & 2880 (b) & 30 & 150 & -- & 10000 & 1 \\
+ BB (120) & 2880 (b) & 30 & 150 & 20 & 500 & 1 \\
+ BB (120) & 2880 (b) & 30 & 150 & 40 & 168$^P$ & 1 \\
+ BB (120) & 2880 (m) & 30 & 150 & -- & 10000 & 1 \\
+ BB (120) & 2888 (m) & 30 & 150 & 20 & 500 & 1 \\
+ BB (120) & 2888 (m) & 30 & 150 & 40 & 500 & 1 \\
+ \hline
+\multicolumn{7}{c}{\textbf{Coarse-grained MARTINI (MA)}} \\
+ BB (120) & -- & 22 & 150 & -- & 1000 & 3 \\
+ BM (60) & -- & 22 & 150 & -- & 1000 & 2 \\
+ Random (60) & -- & 22 & 0 & -- & 10000 & 1 \\
+ Random (120) & -- & 22 & 0 & -- & 10000 & 1 \\
+ Random (480) & -- & 22 & 0 & -- & 10000 & 1 \\
+ BB (120) & 2880 (b) & 30 & 0 & -- & 10000 & 2 \\
+ BB (120) & 2880 (m) & 30 & 0 & -- & 10000 & 1 \\
  \hline
  \end{tabular}
-\captionof{table}[Simulations of capzip assemblies in water]{Table of simulations of capzip assembly in water. \emph{Bucky.\ bi} = buckyball bilayer; \emph{Bucky.\ mono} = buckyball monolayer. \emph{Random} = random configuration of capzip molecules in a box (see Section \ref{sec:MARTINI_sim_det}). Force field (FF): GR = united atom GROMOS 53A6 \citep{Oostenbrink2004}, SI = coarse-grained SIRAH \citep{Machado2018}, MA = coarse-grained MARTINI \citep{Marrink2007, Monticelli2008}, MA\_P = coarse-grained MARTINI with polar water \citep{Yesylevskyy2010}.}
-\label{table:sim_solution}
+ \begin{tabular}{lcccccc}
+ \hline
+ \hline
+\end{tabular}
+\captionof{table}[Simulations of capzip assemblies, in water and on membranes]{Table of simulations of capzip assembly in water and on membranes.
+%
+Peptides: PS - pentagonal subunit; BB - buckyball bilayer; BB-back - buckyball bilayer backmapped; BM - buckyball monolayer; Random - random initial configuration.
+%
+Lipids: b - bacterial model (DLPC/DLPG 3:1), m - mammalian model (DLPC).
+%
+%Force field (FF): GR = united atom GROMOS 53A6 \citep{Oostenbrink2004}, SI = coarse-grained SIRAH \citep{Machado2018}, MA = coarse-grained MARTINI \citep{Marrink2007, Monticelli2008}, MA\_P = coarse-grained MARTINI with polar water \citep{Yesylevskyy2010}.
+%
+For electroporation simulations on pure membranes, see SI Table \ref{table:SI_membrane}.}
+\label{table:sim_all}
 \end{figure}
+
+%\begin{figure}[p!]
+%\centering
+%%\small
+%\scriptsize
+% \def\arraystretch{1.6}
+%\begin{tabular}{lllccc}
+% \hline
+%& Peptides & Lipids & FF & Time (ns) & Rep. \\
+% \hline
+% \multirow{8}{*}{\rotatebox{90}{\textbf{Capzip assemblies in water}}}
+%  & $\beta$-sheet (Fraction) & -- & GR & 20 & 16 \\
+% & PS (10) & -- & GR & 100 & 1 \\
+% & BB (120) & -- & GR & 100 & 3 \\
+% & BB (120) \& BM (60) & -- & SI & 1000 & 3 \& 2 \\
+% & BB (120) \& BM (60) & -- & MA & 1000 & 3 \& 2 \\
+% & BB (120) \& BM (60) & -- & MA\_P & 1000 & 2 \& 2 \\
+% & BB backmapped (120) & -- & GR & 200 & 2 \\
+% & Random (60, 120, 480) & -- & MA & 10000 & 1 \\
+% \hline
+%%\multicolumn{6}{c}{\textbf{Simulations of capzip assembly on membranes}} \\
+% \multirow{4}{*}{\rotatebox{90}{Bacterial}} & 10 & 512 & GR & 500 & 2 \\
+% & 10 & 740 & GR & 500 & 1 \\
+% & 120 & 2880 & MA & 10000 & 2 \\
+% & 120 & 2880 & MA\_P & 10000 & 1 \\
+% \hline
+% \multirow{3}{*}{\rotatebox{90}{Mammalian}} & 10 & 740 & GR & 500 & 1 \\
+% & 120 & 2880 & MA & 10000 & 1 \\
+% & 120 & 2880 & MA\_P & 10000 & 1 \\
+% \end{tabular}
+% \begin{tabular}{lcccccc}
+% \hline
+% \multicolumn{7}{c}{\textbf{Simulations of capzip assembly on membranes + electric field E}} \\
+%  \hline
+%  & Peptides & Lipids & $\,$FF$\,$ & $\,$Time (ns)$\,$ & E (mV/nm) & Rep. \\
+% \hline
+% \multirow{4}{*}{\rotatebox{90}{Bacterial}} & 10 & 512 & GR & 75$^P$, 20$^P$, 71$^P$ & 130 & 3 \\
+% & 10 & 740 & GR & 60$^P$, 50$^P$, 70$^P$ & 130 & 3 \\
+% %\hline
+% & 120 & 2880 & MA\_P & 500 & 20 & 1 \\
+% & 120 & 2880 & MA\_P & 168$^P$ & 40 & 1 \\
+% \hline
+% \multirow{3}{*}{\rotatebox{90}{Mamm.}} & 10 & 740 & GR & 20$^P$, 28$^P$, 39$^P$ & 130 & 3 \\
+% & 10 & 2888 & MA\_P & 500 & 20 & 1 \\
+% & 10 & 2888 & MA\_P & 500 & 40 & 1 \\
+% \hline
+%\end{tabular}
+%\captionof{table}[Simulations of capzip assemblies in water and on membranes]{Table of simulations of capzip assembly in water and on membranes.
+%%
+%Peptides: PS - pentagonal subunit; BB - buckyball bilayer; BM - buckyball monolayer; Random - random initial configuration.
+%%
+%Force field (FF): GR = united atom GROMOS 53A6 \citep{Oostenbrink2004}, SI = coarse-grained SIRAH \citep{Machado2018}, MA = coarse-grained MARTINI \citep{Marrink2007, Monticelli2008}, MA\_P = coarse-grained MARTINI with polar water \citep{Yesylevskyy2010}. A number of 10 peptides denotes the pentagonal subunit, 120 the buckyball bilayer. For electroporation simulations on pure membranes, see SI Table \ref{table:SI_membrane}.}
+%\label{table:sim_membr}
+%\end{figure}
+%
+%\begin{figure}[t!]
+%\centering
+%\vspace{3cm}
+% \def\arraystretch{1.6}
+%\begin{tabular}{lccccc}
+%\multicolumn{6}{c}{\textbf{Simulations of capzip assembly on membranes}} \\
+%\hline
+% & Peptides & Lipids &  $\,$Model$\,$ & Time ($\mu$s) & Replicas\\
+% \hline
+% \multirow{4}{*}{\rotatebox{90}{Bacterial}} & 10 & 512 & GR & 500 & 2 \\
+% & 10 & 740 & GR & 500 & 1 \\
+% & 120 & 2880 & MA & 10000 & 2 \\
+% & 120 & 2880 & MA\_P & 10000 & 1 \\
+% \hline
+% \multirow{3}{*}{\rotatebox{90}{Mammalian}} & 10 & 740 & GR & 500 & 1 \\
+% & 120 & 2880 & MA & 10000 & 1 \\
+% & 120 & 2880 & MA\_P & 10000 & 1 \\
+% \end{tabular}
+% \begin{tabular}{lcccccc}
+% \hline
+% \multicolumn{7}{c}{\textbf{Simulations of capzip assembly on membranes + electric field E}} \\
+%  \hline
+%  & Peptides & Lipids & $\,$Model$\,$ & $\,$Time (ns)$\,$ & E (mV/nm) & Rep. \\
+% \hline
+% \multirow{4}{*}{\rotatebox{90}{Bacterial}} & 10 & 512 & GR & 75$^P$, 20$^P$, 71$^P$ & 130 & 3 \\
+% & 10 & 740 & GR & 60$^P$, 50$^P$, 70$^P$ & 130 & 3 \\
+% %\hline
+% & 120 & 2880 & MA\_P & 500 & 20 & 1 \\
+% & 120 & 2880 & MA\_P & 168$^P$ & 40 & 1 \\
+% \hline
+% \multirow{3}{*}{\rotatebox{90}{Mamm.}} & 10 & 740 & GR & 20$^P$, 28$^P$, 39$^P$ & 130 & 3 \\
+% & 10 & 2888 & MA\_P & 500 & 20 & 1 \\
+% & 10 & 2888 & MA\_P & 500 & 40 & 1 \\
+% \hline
+%\end{tabular}
+%\caption[Scheme of simulations performed]{Table of simulations of capzip assembly on membranes. A number of 10 peptides denotes the pentagonal subunit, 120 the buckyball bilayer. Force fields (FF): GR = united atom GROMOS, MA = coarse-grained MARTINI, MA\_P = coarse-grained MARTINI with polar water. Superscript P denotes observation of poration. For electroporation simulations on pure membranes, see SI Table \ref{table:SI_membrane}.}
+%\label{table:sim_all}
+%\vspace{3cm}
+%\end{figure}
+
 
 \paragraph{Simulation with membranes} The atomistic coordinates for the bacterial membrane patch were built with the PACKMOL software \citep{Martinez2009}, from pdb files of a single DLPC \citep{PogerOrig} and DLPG \citep{Kukol2009} molecule. Two patches were built, made respectively of 512 and 740 lipids, with composition DLPC/DLPG (3:1). The initial area per lipid was set to 0.70 nm$^2$, above the values found experimentally for either lipid species (0.608(12) nm$^2$ for DLPC \citep{Kucerka2011} and 0.656(12) nm$^2$ for DLPG \citep{Pan2012}). The correct area per lipid of the mixture was reached during a 400 ns equilibration (see details below), the final configuration of which was used for simulations with the peptide.
 % VERIFY WE CAN RUN IT!!!
 Given the analysis performed on the bacterial patch (see Section \ref{sec:lip_atom_bact}), for DLPC we opted for simulating a large membrane only. Accordingly, we produced a patch with 748 lipids and initial area per lipid of 0.68 nm$^2$.
 
-For membrane-peptide atomistic simulations, the initial configuration was generated from the equilibrated bilayer and the equilibrated pentagonal subunit (after 100 ns run with positional restraints on the C$_\alpha$), placing the subunit plane parallel to the membrane and close to it (Figure \ref{fig:pL6_vmd}).
+For membrane-peptide atomistic simulations, the initial configuration was generated from the equilibrated bilayer and the equilibrated pentagonal subunit (after 100 ns run with positional restraints on the C$^\alpha$), placing the subunit plane parallel to the membrane and close to it (Figure \ref{fig:pL6_vmd}).
 %
 The inflategro script \citep{Kandt2007} was used to solve the partial overlap of peptide side chains with lipid molecules, removing the overlapping lipids if necessary.
 %In the configuration chosen, 6 and 3 lipids are removed from the 512 and 740 lipids bacteria membrane patch respectively and 13 from the 748 mammalian membrane one.
@@ -188,63 +333,23 @@ As a control, analogous test simulations were run on the 512 lipids bacterial pa
 
 To be noticed that the field across the bacterial inner membrane can be estimated around 35 mV/nm, and across the mammalian one 20 mV/nm (from, respectively, a -130/-150 mV and -70/-90 mV potential \citep{Yeaman2003,Wilson2011} and an estimate membrane thickness of 4 nm). However, previous computational work often explored the effects of higher fields, up to 500 mV/nm \citep{Tieleman2004, Bockmann2008, Piggot2011}, to witness poration within the simulations time, according to the resources available.
 
-An overview of the simulations of peptide-membrane systems is given in Table \ref{table:sim_membr} (control simulations on pure membrane are listed in SI Table \ref{table:SI_membrane}).
-%
-\begin{figure}[t!]
-\centering
-\vspace{3cm}
- \def\arraystretch{1.6}
-\begin{tabular}{lccccc}
-\multicolumn{6}{c}{\textbf{Capzip on membrane simulations}} \\
-\hline
- & Peptides & Lipids &  $\,$Model$\,$ & Time ($\mu$s) & Replicas\\
- \hline
- \multirow{4}{*}{\rotatebox{90}{Bacterial}} & 10 & 512 & GR & 500 & 2 \\
- & 10 & 740 & GR & 500 & 1 \\
- & 120 & 2880 & MA & 10000 & 2 \\
- & 120 & 2880 & MA\_P & 10000 & 1 \\
- \hline
- \multirow{3}{*}{\rotatebox{90}{Mammalian}} & 10 & 740 & GR & 500 & 1 \\
- & 120 & 2880 & MA & 10000 & 1 \\
- & 120 & 2880 & MA\_P & 10000 & 1 \\
- \end{tabular}
- \begin{tabular}{lcccccc}
- \hline
- \multicolumn{7}{c}{\textbf{Capip on membrane \& electric field sim.}} \\
-  \hline
-  & Peptides & Lipids & $\,$Model$\,$ & $\,$Time (ns)$\,$ & E (mV/nm) & Rep. \\
- \hline
- \multirow{4}{*}{\rotatebox{90}{Bacterial}} & 10 & 512 & GR & 75$^P$, 20$^P$, 71$^P$ & 130 & 3 \\
- & 10 & 740 & GR & 60$^P$, 50$^P$, 70$^P$ & 130 & 3 \\
- %\hline
- & 120 & 2880 & MA\_P & 500 & 20 & 1 \\
- & 120 & 2880 & MA\_P & 168$^P$ & 40 & 1 \\
- \hline
- \multirow{3}{*}{\rotatebox{90}{Mamm.}} & 10 & 740 & GR & 20$^P$, 28$^P$, 39$^P$ & 130 & 3 \\
- & 10 & 2888 & MA\_P & 500 & 20 & 1 \\
- & 10 & 2888 & MA\_P & 500 & 40 & 1 \\
- \hline
-\end{tabular}
-\captionof{table}[Simulations of capzip assembly on membranes]{Table of simulations of peptide-membrane complexes. A number of 10 peptides denotes the pentagonal subunit, 120 the buckyball bilayer. Force fields (FF): GR = united atom GROMOS, MA = coarse-grained MARTINI, MA\_P = coarse-grained MARTINI with polar water. Superscript P denotes poration. For electroporation simulations on pure membranes, see SI Table \ref{table:SI_membrane}.}
-\label{table:sim_membr}
-\vspace{3cm}
-\end{figure}
+An overview of the simulations of peptide-membrane systems is given as well in Figure \ref{table:sim_all} (control simulations on pure membrane are listed in SI Table \ref{table:SI_membrane}).
 
 \subsection{SIRAH coarse-grained simulations}
 SIRAH coarse-grained simulations were run with the SIRAH force field \citep{Machado2018}. Peptide coordinates for the buckyball geometry were obtained from the atomistic ones using the converter distributed with force field. Parameters for the central residue were built from comparison with similar chemical moieties. All simulations were run adding Cl$^-$ counter ions to balance the positive charges of the peptide and additional Na$^+$  and Cl$^-$ ones to reach a 150 mM concentration (of Na$^+$, slightly higher for Cl$^-$).
 
 While for simulations of the peptide buckyball in solution our multiscale procedure includes SIRAH, for simulations on membranes we focussed on atomistic and MARTINI simulations only. This has been performed in the interest of time, and due to technical difficulties in preliminary SIRAH runs with membranes (in particular in tuning the pressure coupling).
 %
-This is likely due to a suboptimal equilibration procedure; indeed, there are few benchmarks on SIRAH for lipids so far \citep{Barrera2019}, and none for systems as large as the one studied here. We are continuing to explore the system, collaborating with the developers of the force field to work out the best equilibration procedure to treat large membrane patches.
+This is likely due to a suboptimal equilibration procedure; indeed, there are few benchmarks on SIRAH for lipids so far \citep{Barrera2019}, and none for systems as large as the one studied here.
 
-For SIRAH simulations, the temperature coupling was performed with a velocity rescale thermostat \citep{Bussi2007} and coupling constant $\tau _T$ of 0.1 ps, and the pressure coupling at 1 bar pressure, with 4.5 $\times$ 10$^{-5}$ bar$^{-1}$ isothermal compressibility, using a Parrinello-Rahman barostat \citep{Parrinello1981} with a $\tau _P$ of 6 ps. Electrostatic interactions were treated using the PME algorithm \citep{Essmann1995}, with a short-range cutoff of 1.2 nm and relative dielectric constant of 1. The van der Waals interactions are treated with a plain 1.2 nm cutoff.
+For SIRAH simulations, the temperature coupling was performed with a velocity rescale thermostat \citep{Bussi2007} and coupling constant $\tau _T$ of 0.1 ps, and the pressure coupling at 1 bar pressure, with 4.5 $\times$ 10$^{-5}$ bar$^{-1}$ isothermal compressibility, using a Parrinello-Rahman barostat \citep{Parrinello1981} with a $\tau _P$ of 6 ps. Electrostatic interactions were treated using the PME algorithm \citep{Essmann1995}, with a short-range cutoff of 1.2 nm and relative dielectric constant of 1. The van der Waals interactions are treated with a 1.2 nm cutoff and no long range corrections.
 
-After energy minimization, a 4 ns NVT equilibration was run at 300 K, followed by a 10 ns NPT run, both with positional restraints (1000 kJ/mol$\cdot$nm$^2$) on the solute. Two 10 ns run (NPT ensemble, 300 K) were then performed with backbone restraints of 1000 and 100 kJ/mol$\cdot$nm$^2$, respectively. Similar to the procedure adopted for atomistic simulations, flat bottom positional restraints (1000 kJ/mol$\cdot$nm$^2$) were enforced on the unpaired branches during the latter. After this, three additional 10 ns equilibrations were run at 300 K, with no backbone restraints and decreasing flat bottom ones (respectively 750, 500 and 250 kJ/mol$\cdot$nm$^2$). Finally the production run was carried on for 1 $\mu$s. All runs were performed with a 20 fs time step.
+After energy minimization, a 4 ns NVT equilibration was run at 300 K, followed by a 10 ns NPT run, both with positional restraints (1000 kJ/mol$\cdot$nm$^2$) on the solute. Two 10 ns run (NPT ensemble, 300 K) were then performed with backbone restraints of 1000 and 100 kJ/mol$\cdot$nm$^2$, respectively. Similar to the procedure adopted for atomistic simulations, flat bottom positional restraints (1000 kJ/mol$\cdot$nm$^2$) were enforced on the unpaired arms during the latter. After this, three additional 10 ns equilibrations were run at 300 K, with no backbone restraints and decreasing flat bottom ones (respectively 750, 500 and 250 kJ/mol$\cdot$nm$^2$). Finally the production run was carried on for 1 $\mu$s. All runs were performed with a 20 fs time step.
 
 \subsection{MARTINI coarse-grained simulations} \label{sec:MARTINI_sim_det}
 For MARTINI \citep{Marrink2007, Monticelli2008} coarse-grained simulations, peptide coordinates were obtained from the atomistic ones using martinize.py \citep{DeJong2013} with a customised mapping for the central residue. Parameters were obtained with the same script for the arms, while pycgtool.py \citep{Graham2017} was used for the central residue. Parameters for the joining bonds were derived from tabulated values of analogous ones.
 
-Initial coordinates for the self-assembly simulations were obtained with GROMACS tools, placing the desired amount of coarse grained molecules in the simulation box with random positions.
+Initial coordinates for the self-assembly simulations were obtained with GROMACS tools, placing the desired amount of coarse-grained molecules in the simulation box with random positions.
 %
 The side of the cubic box was chosen as 44 nm, and three different peptide concentrations were simulated: 1.25 mM (60 molecules), 2.50 mM (120 molecules) and 10 mM (480 molecules), all for 10 $\mu$s.
 
@@ -254,11 +359,11 @@ For all standard MARTINI simulations, counter ions only were added, while for th
 
 For simulations with the standard water model, the temperature coupling was performed with a velocity rescale thermostat \citep{Bussi2007} with a coupling constant $\tau _T$ of 1 ps. An isotropic or semi-isotropic pressure coupling was applied (simulations of peptide in solution and peptide on membrane respectively) at 1 bar pressure, with 4.6 $\times$ 10$^{-5}$ bar$^{-1}$ isothermal compressibility, using a Berendsen \citep{Berendsen1984} or Parrinello-Rahman barostat \citep{Parrinello1981} (equilibration and production phase respectively) with $\tau _P$ of 2 ps and 12 ps. An isotropic or semi-isotropic coupling has been used for simulation without and with membranes respectively.
 %
-Coulomb interactions were treated with a Reaction Field scheme \citep{Tironi1995} and cut off radius of 1.1 nm, van der Waals interaction with a cut off scheme and the same cut off radius. The relative dielectric constant is set to 15.
+Coulomb interactions were treated with a Reaction Field scheme \citep{Tironi1995} and cut off radius of 1.1 nm, van der Waals interactions with a cut off scheme and the same cut off radius. The relative dielectric constant is set to 15.
 %
 Simulations performed with the polar water model were run with the parameters above, except the relative dielectric constant set to 2.5, and the choice of a PME scheme for the long range Coulomb interaction (1.2 nm cut off radius).
 
-For simulations of the capsule in solution, for both water models, after energy minimization, four 10 ns equilibration runs (NPT ensemble, 300 K, 10 fs time step) were performed with flat bottom positional restraints on the unpaired branches (respectively at 1000, 750, 500 and 250 kJ/mol$\cdot$nm$^2$) - as done for the other force fields.
+For simulations of the capsule in solution, for both water models, after energy minimization, four 10 ns equilibration runs (NPT ensemble, 300 K, 10 fs time step) were performed with flat bottom positional restraints on the unpaired arms (respectively at 1000, 750, 500 and 250 kJ/mol$\cdot$nm$^2$) - as done for the other force fields.
 %
 Finally the production run was carried on for 1 $\mu$s. All runs were performed with a 20 fs time step.
 
@@ -268,7 +373,7 @@ From the final configurations of two out of the three standard MARTINI replicas,
 
 The equilibration for the self-assembly simulations (run only with the standard MARTINI model) included only an energy minimization, followed by a 1 ns equilibration with the Berendsen barostat, before switching to Parrinello-Rahman for the 10 $\mu$s production.
 
-The membranes used in MARTINI simulations are equilibrated for 1 $\mu$s with standard water and the final configuration is used to build the peptide-membrane systems, together with the capsule structure (obtained after the equilibration runs). The full system is energy minimised, equilibrated for 500 ps and production is followed for 10 $\mu$s for simulations with the standard water, and 1 $\mu$s with polar water.
+The membranes used in MARTINI simulations are equilibrated for 1 $\mu$s with standard water and the final configuration is used to build the peptide-membrane systems, together with the capsule structure (obtained after the equilibration runs). The full system is energy minimised, equilibrated for 500 ps and production is followed for 10 $\mu$s for simulations with the standard water, and 1 $\mu$s with polar water (due to the faster binding and the speed up granted by the electric field).
 
 The adoption of polar water allows to perform electroporation experiments also with the MARTINI force field (while the standard water, not bearing a dipole, is unable to screen the externally applied electric field, resulting in unphysical effects).
 %
@@ -276,9 +381,9 @@ We thus resorted to a procedure similar to the one employed for atomistic simula
 %
 It is possible that longer simulations would allow to observe this behaviour even with lower values of the force field, however, in the interest of time, we selected these two values for further investigation.
 
-We selected a configuration from the early stages of poration (at 40 mV/nm), where the pore showed a diameter of 2 nm, and prolonged the simulation switching to isotropic pressure coupling. This allows the pore to expand in a controlled manner. Indeed, in a semi-isotropic pressure coupling scenario, the pressure in the $z$ direction suddenly decreases when a pore forms (as water can pass through the membrane). The barostat algorithm reacts decreasing the $z$ side of the box, in an effort to restore the target pressure in this direction, but to accommodate all the molecules the box must necessarily expand in the $x$ and $y$ directions.
+We selected a configuration from the early stages of poration (at 40 mV/nm), where the pore showed a diameter of 2 nm, and prolonged the simulation switching to isotropic pressure coupling. This allows the pore to expand in a controlled manner. Indeed, in a semi-isotropic pressure coupling scenario, the pressure in the $z$ direction suddenly decreases when a pore forms, as water can pass through the membrane. This is also the direction of the applied electric field. The barostat algorithm reacts decreasing the $z$ side of the box, in an effort to restore the target pressure in this direction, but to accommodate all the molecules the box must necessarily expand in the $x$ and $y$ directions.
 
-Control simulations with the two values of the electric field mentioned were performed on the membrane alone. The same procedure, i.e.\ simulations with capsule and electric field plus control simulations on the membrane only was applied to the pure DLPC membrane as well (save the additional simulation after poration, as this is not observed for this system).
+Control simulations with the two values of the electric field mentioned were performed on the membrane alone. The same procedure, i.e.\ simulations with capsule and electric field plus control simulations on the membrane only was applied to the pure DLPC membrane as well (except for the additional simulation after poration, as this is not observed for the DLPC membrane).
 
 
 \section{Analysis} \label{sec:analysis}
@@ -286,29 +391,29 @@ Control simulations with the two values of the electric field mentioned were per
 In Section \ref{sec:build} we presented an evaluation of the occurrence of $\pi$-stacking between Tryptophan residues in the $\beta$-sheet simulations. The computation was performed as follow: for each pair of Trp residues, we computed the minimum distance between the benzene ring of their side chain (in function of time), as well as the angle formed by their two planes. We defined a parallel $\pi$-stacking if the minimum distance was below 0.6 nm and the angle smaller than 45$^{\circ}$, while a perpendicular one if the minimum distance was below 0.6 nm and the angle between 75$^{\circ}$ and 105$^{\circ}$. Occupancy was found normalising the number of frames in which the interaction appeared by the number of frames considered for the analysis.    
     
 \subsection{Simulations in solution}
-Several analysis on the structure and chemico-physical properties of the buckyball in solution were performed on the outcome of the simulations.
+Several analysis on the structure and chemico-physical properties of the buckyball bilayer in solution were performed on the outcome of the simulations.
 
 \begin{itemize}
 \item Radius of gyration ($R_g$), and Root Mean Square Deviation with respect to the initial configuration (RMSD) were computed (GROMACS).
 
-\item To get the average distribution of the mass of the capsule around its center, the Radial Distribution Function (RDF) of protein masses around their center of mass was computed (GROMACS). The profile was fitted with a Gaussian function (R software \citep{R}): the position of its maximum can be taken as the average radius of the capsule, and its Full Width at Half Maximum (FWHM) as an estimate of the capsule wall thickness.
+\item To get the average distribution of the mass of the capsule around its center, the Radial Distribution Function (RDF) of protein masses around their center of mass was computed (GROMACS), considering only the second half of the trajectory. The profile was fitted with a Gaussian function (R software \citep{R}): the position of its maximum can be taken as the average radius of the capsule, and its Full Width at Half Maximum (FWHM) as an estimate of the capsule wall thickness.
 
-\item The dynamical character of the structure was assessed computing the correlation of motion between the molecules. The central atom (or bead) from which the branches depart was taken as reference. For all the pairs ($i, \, j$) of such reference positions, the covariance of motion was computed along each direction (GROMACS). The total covariance was obtained as: $\sigma^2(i,j) = \sigma_x^2(i,j) + \sigma_y^2(i,j) + \sigma_z^2(i,j)$. Finally the measure was normalised to obtain the correlation:
+\item The dynamical character of the structure was assessed computing the correlation of motion between the molecules. The central atom (or bead) from which the arms depart was taken as reference. For all the pairs ($i, \, j$) of such reference positions, the covariance of motion was computed along each direction (GROMACS). The total covariance was obtained as: $\sigma^2(i,j) = \sigma_x^2(i,j) + \sigma_y^2(i,j) + \sigma_z^2(i,j)$. Finally the measure was normalised to obtain the correlation:
 \begin{equation}
 corr(i,j) = \frac{\sigma^2(i,j)}{\sqrt{\sigma^2(i,i)\,\cdot\,\sigma^2(j,j)}}.
 \end{equation}
 
-\item The pairing of the branches was quantified as follow. Two branches are defined as paired if their center of mass is closer than a cut off distance of 1.2 nm. This simple measure discards more precise information on the orientation of the chains with respect to each other, and aims at checking whether the network of molecules present in an ideal buckyball structure is maintained. In the ideal buckyball, contacts within the same layer sum up to 90 for each layer (180 in a bilayer). This measure can be easily applied to any description (atomistic or coarse-grained) without disagreement in the interpretation. Given the loose character of the measure, we considered only the pairings surviving more than 90\% of the simulation time.
+\item The pairing of the arms was quantified as follow. Two arms are defined as paired if their center of mass is closer than a cut off distance of 1.2 nm. This simple measure discards more precise information on the orientation of the chains with respect to each other, and aims at checking whether the network of molecules present in an ideal buckyball structure is maintained. In the ideal buckyball, contacts within the same layer sum up to 90 for each layer (180 in a bilayer). This measure can be easily applied to any description (atomistic or coarse-grained) without disagreement in the interpretation. Given the loose character of the measure, we considered only the pairings surviving more than 90\% of the simulation time.
 
 \item To characterise the chemical determinants that promote the assembly, we investigated the interactions between amino acids of different types, computing the number of contacts between backbone and side chains of single amino acids, filtering for the ones present a least 50\% of the simulation time, and classifying them by amino acid type.
 %
-We define a contact between amino acids backbones if the C$\alpha$ of two residues (or the corresponding coarse-grained bead) are closer than a cutoff distance of 0.6 nm; and between side chains if selected reference atoms in the side chain are closer than the same cut off; finally mixed ones if the proximity is between a C$\alpha$ and the side chain reference atom. As side chains reference, we took the heavy atom or bead farthest away from the backbone (respectively for GROMOS, SIRAH and MARTINI: CZ/SC2/BCZ for Arg, CZ2/SC4/BNE for Trp, OG1/SC1/BPG for Thr and CD/SC1/BCD for Glu). The functions to perform the analysis were built on the ones implemented in the MDAnalysis software (see Appendix \ref{sec:Appendix_software}).
+We define a contact between amino acids backbones if the C$\alpha$ of two residues (or the corresponding coarse-grained bead) are closer than a cutoff distance of 0.6 nm; and between side chains if selected reference atoms in the side chain are closer than the same cut off; finally mixed ones if the proximity is between a C$\alpha$ and the side chain reference atom. As side chains reference, we took the heavy atom or bead farthest away from the backbone (respectively for GROMOS, SIRAH and MARTINI: CZ/BCZ/SC2 for Arg, CZ2/BNE/SC4 for Trp, OG1/BPG/SC1 for Thr and CD/BCD/SC1 for Glu). The functions to perform the analysis were built on the ones implemented in the MDAnalysis software (see Appendix \ref{sec:Appendix_software}).
 
 \item For atomistic simulations the inter molecular hydrogen bonds between amino acids have been computed and grouped by amino acid type, and by region of occurrence (e.g.\ between two backbones, side chains or connecting a backbone atom and a side chain one).
 
 \item The Solvent Accessible Surface Area was computed for each amino acid (GROMACS). Its value was averaged in time and over all the residues of the same type. For atomistic runs, it was also normalised over the reference value for the corresponding residue type X, obtained as the theoretical measure of its SASA from a Gly-X-Gly tripeptide \citep{Tien2013}. The resulting measure (named Q$_{SASA}$) takes into account the size of the side chain, giving a measure of exposure which can be compared between different amino acids. 
 %
-This normalisation is instead inappropriate for coarse-grained models, due to the differences between the atomistic SASA obtained in experiments and the beads employed in the simulations.
+This normalisation is instead inappropriate for coarse-grained models, due to the differences between the atomistic SASA obtained in experiments and the beads employed in the simulations, so that only the absolute SASA values are given.
 
 \item Finally, the contribution to the total energy of the system deriving from Coulomb and Lennard-Jones interactions were compute (GROMACS), breaking them into interactions between protein components and between protein and solvent.
 \end{itemize}
@@ -318,15 +423,15 @@ This normalisation is instead inappropriate for coarse-grained models, due to th
 Many properties can be extracted from a membrane simulation. We report here the ones selected for analysing the simulations including membranes and capzip, while Chapter \ref{chapter:lip_par} gives an extensive overview of many of them, reiterating and expanding the description of the ones listed below.
 
 \begin{itemize}
-\item We monitored the area per lipid (ApL) is monitored, i.e.\ how much space each lipid molecule has on the membrane plane. In the case of approximately flat membranes aligned to the $xy$ plane, this can be assessed from the product of the lateral dimensions of the simulation box divided by the number of lipids in one leaflet.
+\item We monitored the area per lipid (ApL), i.e.\ the average space available to each lipid on the (local) membrane plane. In the case of approximately flat membranes aligned to the $xy$ plane, this can be assessed from the product of the lateral dimensions of the simulation box divided by the number of lipids in one leaflet.
 %
-For highly curved membranes, as the ones obtained under the effect of a strong electric field, this measure does not reflect the true spacing between lipids. In that case the true ApL was computed through the algorithm developed by Braun et al. \citep{Braun2011}: it first identifies the undulating reference surface of the membrane $u(\textbf{r})$ fitting a Fourier series to a set of reference positions (one atom per lipid, presently the Phosphorus), then it computes the true ApL based on $u(\textbf{r})$ as:
+For highly curved membranes, as the ones obtained under the effect of a strong electric field, this measure does not reflect the true spacing between lipids. In that case the true ApL was computed through the algorithm developed by Braun et al. \citep{Braun2011}: this first identifies the undulating reference surface of the membrane $u(\textbf{r})$ fitting a Fourier series to a set of reference positions (one atom per lipid, presently the Phosphorus atom or the Phosphate bead for coarse-grained simulations), then it computes the true ApL based on $u(\textbf{r})$ as:
 \begin{equation}
 ApL = \frac{1}{N} \int_{x_{box}} \int_{y_{box}} \left[ \sqrt{1 + \left( \nabla u(\textbf{r}) \right)^2} \, \right] dx\,dy
 \end{equation}
 where the gradient $\nabla u(\textbf{r})$ is zero for a perfectly flat surface.
 
-\item For atomistic simulations, the average order of lipid tails has been assessed, computing the deuterium order parameters S$_{CD}$ of the acyl chains for each lipid bilayer leaflet separately. S$_{CD}$ measures the orientation with respect to the bilayer normal of a carbon-hydrogen bond in a given position along the chain for each lipid in the bilayer. Their spread is evaluated according to the ensemble average:
+\item For atomistic simulations, thedeuterium order parameters S$_{CD}$ of the acyl chains is a good measure of the packing of the lipids within each leaflet of the bilayer. The orientation $\theta$ with respect to the outward leaflet normal is computed for each carbon-hydrogen bond in a given position along the chain, for each lipid in the bilayer. Their spread is evaluated according to the ensemble average:
 \begin{equation}
 S_{CD} = \frac{1}{2} \langle 3\cos^2 \theta - 1 \rangle.
 \end{equation}
@@ -349,8 +454,8 @@ with $\theta_{jk}$ the angle between the vector connecting $j$ and $k$, and the 
 %
 \begin{figure}[t!]
 \centering
-\includegraphics[width=0.95\linewidth]{3results_capsule/pics/diff_comrem.pdf} 
-\caption[Procedure for diffusion coefficient computation]{Scheme of two different procedures for centring a trajectory of a lipid bilayer: from the \emph{Original} configuration, some \emph{Action} are perform on the bilayer or leaflets centre of mass, to get the configuration \emph{Used} to compute the MSD of lipids.}
+\includegraphics[width=0.95\linewidth]{3results_capsule/pics/diff_comrem} 
+\caption[Preparation of trajectories for diffusion coefficient computation]{Scheme of two different procedures for centring a trajectory of a lipid bilayer: from the \emph{Original} configuration, coordinates are translated to remove either the bilayer or each leaflet movement. The collection of \emph{final} frames, one for each time step, gives the trajectory used to compute the MSD of lipids.}
 \label{fig:com_rem_scheme}
 \end{figure}
 
@@ -365,18 +470,18 @@ The diffusion coefficient D was obtained from a linear fit of the MSD(t), follow
 \end{equation}
 The fit was performed in the regions which showed a linear dependence. This implied discarding the first interval of the profile, where the behaviour is not linear, and the last one, where the poorer statistics leads to more noisy data. We choose 50 ns each for atomistic simulations and 100 ns each for MARTINI ones to be suitable for each simulation condition of the respective resolution. As a final step, the D values from the two leaflets are averaged.
 
-As a short hand notation, we will call the D coefficient obtained from a L$_{COM}$ removal \emph{pure diffusion}, while the one obtained from a B$_{COM}$ removal \emph{global diffusion}.
+As a short hand notation, we will call the D coefficient obtained from a L$_{COM}$ removal as \emph{pure diffusion}, while the one obtained from a B$_{COM}$ removal as \emph{global diffusion}.
 \end{itemize}
 
-For atomistic simulations of the protein on the membrane, further analysis includes the following:
+For atomistic simulations of the protein on the membrane, further analysis included the following:
 \begin{itemize}
-\item we analysed the network of hydrogen bonds between the protein and lipids has been computed, classifying the interactions by the protein residue type and the lipid species between which they occur;
+\item we analysed the network of hydrogen bonds between the protein and lipids, classifying the interactions by the protein residue type and the lipid species between which they occur;
 \item the aforementioned diffusion constant can also be computed selectively on the lipids which, at the initial time, are within a threshold distance from the protein or, conversely, which are further away from it. In this case, the trajectory was centred with respect to the peptide centre of mass, to understand how lipids move with respect to it;
-\item the insertion depth of each amino acid in the membrane was calculated as the difference between the $z$ position of the lowest atom of the amino acid and the average of the maximum $z$ coordinate of the five lipids closest to it.
+\item the insertion depth of each amino acid in the membrane was calculated as the difference between the $z$ position of the lowest atom of the amino acid and the average of the maximum $z$ coordinate of the five lipids closest to it. This allows to take into account undulations of the membrane by considering the local $z$ coordinate. As for an optimally packed patch in gel phase each lipids has 6 neighbours, the value of 5 reflects approximately the number of first neighbours in a bilayer in fluid phase.
 \end{itemize}
 
 \section{Results: capsule in solution} \label{sec:results_cap}
-We list here the results for simulations of the capsule in solution: starting from the atomistic simulations, we then proceed to compare them with different coarse-grained models. In all the plots of the section, atomistic results are color coded in black or in shades of grey, as opposed to red (SIRAH), green (standard MARTINI) and blue (polar water MARTINI). However, when applicable, the plots present back to back the results from all the parametrisations, anticipating the discussion of Section \ref{sec:res_multiscale}, as this make the comparison easier.
+We list here the results for simulations of the capsule in solution: starting from the atomistic simulations, we then proceed to compare them with different coarse-grained models. In all the plots of the section, atomistic results are color coded in black or in shades of grey, as opposed to red (SIRAH), green (standard MARTINI) and blue (polar water MARTINI). However, when applicable, the plots present the results from all the parametrisations, anticipating the discussion of Section \ref{sec:res_multiscale}, as this make the comparison easier.
 
 \begin{figure}[t]
 \centering
@@ -398,9 +503,9 @@ We list here the results for simulations of the capsule in solution: starting fr
 %
 \paragraph{Global capsule structure} Atomistic simulations of the buckyball in solution show a consistently equilibrated structure across the three replicas (Figure \ref{fig:BTI_snap} and SI movie 1).
 %
-This is proven by both the stable value of the protein R$_g$ and the almost plateauing backbone RMSD (Figure \ref{fig:Rg} and \subcaptionref{fig:RMSD}). It is interesting to notice that previous simulations performed with a shorter equilibration, without the phase employing flat bottom restraints, resulted in the immediate disruption of several connections in the buckyball network, resulting in larger R$_g$. This suggests that the structural pairing present in the buckyball can form only when the chains are in close contact. This is compatible with the long time of assembly observed experimentally (up to 7-10 hours): the closer the chains need to be to trigger the assembly, the rarer this event is statistically happening.
+This is proven by both the stable value of the protein R$_g$ and the almost plateauing backbone RMSD (Figure \ref{fig:Rg} and \subcaptionref{fig:RMSD}). It is interesting to notice that previous simulations performed with a shorter equilibration, without the phase of employing flat bottom restraints, lead to the immediate disruption of several connections in the buckyball network, resulting in larger R$_g$. This suggests that the structural pairing present in the buckyball can form only when the chains are in close contact. This is compatible with the long time of assembly observed experimentally (up to 7-10 hours): the closer the chains need to be to trigger the assembly, the rarer this event is statistically happening. Also, this implicitly proves that the self-assembly process starting from disordered states will not lead easily to such ordered configurations.
 
-The RDF of the protein masses around the buckyball show no masses nearby the origin (Figure \ref{fig:RDF}): this means that the molecules do not collapse toward the center and a cavity is maintained (given the way RDF is computed and normalised, a uniformly full object would display a flat distribution).
+The RDF of the protein masses around the buckyball shows no masses nearby the origin (Figure \ref{fig:RDF}): this means that the buckyball remains hollow (given the way RDF is computed and normalised, a uniformly full object would display a flat distribution).
 %
 A fit of the RDF to a Gaussian curve returns a mean value of 5.1 nm and a FWHM of 2.2 nm, which gives an estimate of the bilayer thickness.
 %
@@ -417,51 +522,53 @@ This thickness value hints at the fact that the two layers are closely packed. T
 %
 molecules at the same polar coordinates (i.e.\ stacking radially one on the other) have a positive correlation and so move coherently, while the ones at opposite poles, as well the ensemble of all possible pairs, do not show particular correlation (Figure \ref{fig:BTI_corr}). 
 
-\paragraph{Contacts between arms} The measure how many branches in the buckyball network remain paired for more than 90\% of the simulation time is shown in Figure \ref{fig:BTI_beta}. An average of 160 pairings is observed between arms belonging to the same layer (summing over inner and outer), and around 20 only for inter-layer ones.
+\paragraph{Contacts between arms} The measure how many arms in the buckyball network remain paired for more than 90\% of the simulation time is shown in Figure \ref{fig:BTI_beta}. An average of 160 pairings is observed between arms belonging to the same layer (summing over inner and outer), and around 20 only for inter-layer ones.
 %
-This first value correspond to slightly less than 3 pairing per molecule, which would be the value in a perfectly icosahedral structure. This 10\% reduction of the branches shows that the structure is not rigid, and some pairings are lost, but nevertheless it maintains the majority of its network of interaction in place.
+This first value correspond to slightly less than 3 pairing per molecule, which would be the value in a perfectly icosahedral structure. This 10\% reduction of the arms shows that the structure is not rigid, and some pairings are lost, but nevertheless it maintains the majority of its network of interaction in place.
 %
-On the contrary, few inter layer contacts are observed within 1.2 nm distance cut off because of the steric hindrance of the side chains which are located in between the two layers, which keep the average positions of their backbones at a distance greater than the cut off chosen.
+On the contrary, few inter layer contacts are observed within 1.2 nm distance cut off: the arms belonging to two different layers are separated by the space spanned by their side chains, which keep the average positions of their backbones at a distance greater than the cut off chosen.
 %
 \begin{figure}[t!]
 \centering
 \includegraphics[width=0.85\linewidth]{3results_capsule/pics/stAll_beta_90_R1.png}
-\caption[Branch pairing during simulations of the buckyball]{Number of paired branches within the same layer and between layers. Cut off distance between branches center of mass equal to 1.2 nm. Only contacts existing more than 90\% of the simulation time are counted. Results are shown for Replica 1 of each simulation set-up.}
+\caption[Arm pairing during simulations of the buckyball]{Number of paired arms within the same layer and between layers. Cut off distance between arms center of mass equal to 1.2 nm. Only contacts existing more than 90\% of the simulation time are counted. Results are shown for Replica 1 of each simulation set-up.}
 \label{fig:BTI_beta}
 \end{figure}
 
 \begin{figure}[p!]
 \centering
 \includegraphics[width=0.95\linewidth]{3results_capsule/pics/new_rep1_allFF.png}
-\caption[Contacts between molecules during simulations of the buckyball]{Number of contacts per residue type in each branch of capzip. Only contacts existing more than 50\% of the simulation time are considered. Bars are split by the identity of the partner residue (color coded as in the $x$-axis legend). For mixed contacts the residue on the $x$-axis contributes with its backbone. The parametrisation is reported along the $y$-axis. Results are shown for Replica 1 of each simulation set-up.}
+\caption[Contacts between molecules during simulations of the buckyball]{Number of contacts per residue type in each arm of capzip: each bar shows the average number for the residue on the $x$-axis; its color is split by the identity of the partner residue (color coded as in the $x$-axis legend). For mixed contacts the residue on the $x$-axis contributes with its backbone. The parametrisation is reported along the $y$-axis. Results are shown for Replica 1 of each simulation set-up. Only contacts existing more than 50\% of the simulation time are considered.}
 \label{fig:BTI_cont}
 \end{figure}
 
 \paragraph{Contacts between residues} The number of contacts between backbone and/or side chains of amino acids which survive more that 50\% of the simulation time, normalised by the number of molecules present, and classified by residue type is shown in Figure \ref{fig:BTI_cont}. 
 %
-The number of backbone contacts per molecule is around 3 for Threonine (Thr) and Glutammic acid (Glu), 4 for Arginine (Arg), and between 6 and 7 for Tryptophan (Trp) residues.
+The number of backbone contacts per residue is around 1 for Threonine (Thr) and Glutamic acid (Glu), 0.7 for Arginine (Arg), and between 1.2 for Tryptophan (Trp) residues.
 %
-As in each molecule there are 3 Thr and 3 Glu, but 6 Arg and 6 Trp, on average each residue is paired with another one, except for Arginines: only two thirds of them are engaged, likely because of their terminal position.
+This takes already in account the fact that there are two Arg and Trp per arm of capzip (Figure \ref{fig:BTI_vmd}, B).
 
-The bar plot shows also that there is no rigid arrangement between branches: for example, Tryptophan residues are not chiefly paired to Tryptophan ones, as the optimal arrangement would be, suggesting flexibility in the structure.
+Thus, on average each residue is paired with another one, except for Arginines: only two thirds of them are engaged, likely because of some Arg residues are at a terminal positions, and as such they tend to extend in solution, unpaired, more easily.
+
+The bar plot shows also that there is no rigid arrangement between arms: for example, Tryptophan residues are not paired mainly to Tryptophan ones, as the optimal arrangement would be, suggesting flexibility in the structure.
 %
 Nevertheless, this specific residue has clearly a prominent role in forming contacts with the neighbours both at the backbone level and at the side chains one through cation-$\pi$ interaction with Arginine (central column of Figure \ref{fig:BTI_cont}).
 
 \paragraph{Hydrogen bonds interaction} As some of these contacts are mediated by an hydrogen bond interaction, their average number of inter molecular hydrogen bonds occurring during the simulations is computed, divided by the number of molecules and classified by residue type.
 % SAY THAT THEY ARE THE ONE OCCURRING AT ANY MOMENT, AND NOT THE ONES SURVIVING MORE THAN 50%?
-We further classify the hydrogen bonds occurring between backbones and/or side chains. Tryptophan contributes to a large number of backbone hydrogen bonds (Figure \ref{fig:BTI_hbonds}, A), especially with other Tryoptophan residues, consistently with what found in the analysis of contacts carried on previously. Arginine side chains are the most prone to establish H-bonds as a donor with many different amino acid side chains (Figure \ref{fig:BTI_hbonds}, B), but especially with Glutammic acid as expected from the facing positions they occupy in the network arrangement.
+We further classify the hydrogen bonds occurring between backbones and/or side chains. Tryptophan contributes to a large number of backbone hydrogen bonds (Figure \ref{fig:BTI_hbonds}, A), especially with other Tryoptophan residues, consistently with what found in the analysis of contacts carried on previously. Arginine side chains are the most prone to establish H-bonds as a donor with many different amino acid side chains (Figure \ref{fig:BTI_hbonds}, B), but especially with Glutamic acid as expected from the facing positions they occupy in the network arrangement.
 %
 Similarly, a common interactions is between Glu backbone and Arg side chain (Figure \ref{fig:BTI_hbonds}, C), and between Arg backbone and most of the other side chains (Figure \ref{fig:BTI_hbonds}, D).
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.85\linewidth]{3results_capsule/pics/Hb_all.png} 
-\caption[Hydrogen bonds in the buckyball molecule]{Average number of hydrogen bonds per molecule occurring between amino acids, including the central scaffold RKGB, in a 100 ns atomistic simulation of the buckyball in solution. Result are shown for Replica 1. For each bar, the residue on the $x$-axis is the acceptor, and the bar is split by the identity of the donors. In the case of Backbone - Side chain and Side chain - backbone, the first mentioned correspond to the acceptor (and thus the residue on the $x$-axis).}
+\caption[Hydrogen bonds in the buckyball molecule]{Average number of hydrogen bonds per residue occurring between amino acids, including the central scaffold RKGB, for a 100 ns atomistic simulation of the buckyball in solution. Result are shown for Replica 1. For each bar, the residue on the $x$-axis is the acceptor, and the bar is split by the identity of the donors. In the case of Backbone - Side chain and Side chain - backbone, the first mentioned correspond to the acceptor (and thus the residue on the $x$-axis).}
 \label{fig:BTI_hbonds}
 \end{figure}
 
-\paragraph{Chemical characteristics of the surface: SASA} Finally, it is important to understand what residues are exposed at the surface of the structure, especially in view of future applications: in order to make the peptide co-assemble with other products, the two must have a compatible chemical character. The average Solvent Accessible Surface Area (SASA) per amino acid type (Figure \ref{fig:BTI_sasa_exposed}) shows that half of the accessible surface is represented by the charged residues Arginine, while Tryptophan contribute to it for less than one quarter, despite having bulky side chains.
+\paragraph{Chemical characteristics of the surface: SASA} Finally, it is important to understand what residues are exposed at the surface of the structure, especially in view of future applications: in order to make the peptide co-assemble with other products, the two must have a compatible chemical character. The average Solvent Accessible Surface Area (SASA) for every amino acid type (Figure \ref{fig:BTI_sasa_exposed}) shows that half of the accessible surface is represented by the charged residues Arginine, while Tryptophan contribute to it for less than one quarter, despite having bulky side chains.
 %
-For atomistic simulations, we can compare the SASA per each residue of type X with the reference SASA computed by theoretical modelling of a Gly-X-Gly tripeptide \citep{Tien2013}. The resulting ratio $Q_{SASA}$ is greater than one for both the Arginines: while for the terminal one (ARG1) it is consistent with the absence of a residue on one of the side, the fact that also the second has $Q_{SASA}>1$ proves that these residues are highly exposed in solution. On the contrary, Tryptophan has values around $0.5$, due to its propensity to be buried inside the structure, while Glutammic acid and Threonine seems mildly affected by the presence of the side chains of the residues around them.
+For atomistic simulations, we can compare the SASA per each residue of type X with the reference SASA computed by theoretical modelling of a Gly-X-Gly tripeptide \citep{Tien2013}. The resulting ratio $Q_{SASA}$ is greater than one for both the Arginines: while for the terminal one (ARG1) it is consistent with the absence of a residue on one of the side, the fact that also the second has $Q_{SASA}>1$ proves that these residues are highly exposed in solution. On the contrary, Tryptophan has values around $0.5$, due to its propensity to be buried inside the structure, while Glutamic acid and Threonine seems mildly affected by the presence of the side chains of the residues around them.
 \begin{figure}[t]
 \centering
 \subbottom[]{\includegraphics[height=0.3\linewidth]{3results_capsule/pics/st_All_sasa_fractions.png} \label{fig:all_sasa}} 
@@ -470,29 +577,36 @@ For atomistic simulations, we can compare the SASA per each residue of type X wi
 \label{fig:BTI_sasa_exposed}
 \end{figure}
 
-\paragraph{D-amino acids} The results presented are from simulations of the capsule composed by standard amino acid (L- form). As explained in Chapter \ref{chapter:intro}, some experiments focussed on the opposite chiral form (D-version) for stability and immunogenicity reasons. Experimental works shows similar behaviour for the two epimers in solution, as it would be expected when they are in a non-chiral environment.
+\paragraph{D-amino acids} The results presented are from simulations of the capsule composed by standard amino acid (L- form). As explained in Chapter \ref{chapter:intro}, some experiments focussed on the opposite chiral form (D-version) for stability and immunogenicity reasons. Experimental work shows similar behaviour for the two enantioners in solution, because they are mirror images of each other.
 
-Accordingly, simulations of D-amino acids should not give any discrepancy with what found before, as they reproduce the behaviour of a mirror image of the system. As a control, we performed one run with such mirror system - and suitable amino acids parameters to keep the D- chirality - finding a similar behaviour of the capsule (i.e.\ differing from the L- simulations as much as the L- replicas differ among them).
+Accordingly, simulations of D-amino acids should not give any discrepancy with what found before, as they reproduce the behaviour of a mirror image of the system. As a control, we performed one run with such mirror system - and suitable amino acids parameters to keep the D-chirality - finding a similar behaviour of the capsule (i.e.\ differing from the L- simulations as much as the L- replicas differ among them - Figure \ref{fig:D_aa}).
 
-This investigation can be performed only at the atomistic level as the coarse grain models employed represent the C$_\alpha$ and the hydrogen attached to it as a unique bead, loosing then the chirality of this centre.
+\begin{figure}[t]
+\centering
+\includegraphics[height=0.3\linewidth]{3results_capsule/pics/st_Qsasa.png}
+\caption[cccc]{}
+\label{fig:D_aa}
+\end{figure}
+
+This investigation can be performed only at the atomistic level as the coarse-grained models employed represent the C$^\alpha$ and the hydrogen attached to it as a unique bead, loosing then the chirality of this centre.
 
 
 \subsection{Multiscale comparison of model capsule} \label{sec:res_multiscale}
 
 We performed a multiscale analysis simulating the capsule structure with different coarse-grained force fields, with a twofold aim: first we wanted to simulate the assembly for a longer time, to observe how its structural properties are maintained on the medium time scale (of the order of the microsecond). Second, we believe that proving the stability of the capsule with different descriptions strengthens the evidence that the assembly proposed is indeed a favourable arrangement of the molecules in solution.
 
-As mentioned before, to this aim we compared simulations run with the SIRAH, MARTINI force fields and MARTINI used in conjunction with polar water. The investigation is also useful to investigate where the descriptions differ and to infer the advantages of each model.
+As mentioned before, to this aim we compared simulations run with the SIRAH, MARTINI force fields and MARTINI used in conjunction with polar water. The investigation is also useful to elucidate where the descriptions differ and to infer the advantages of each model.
 %
-We first comment on the quantities already analysed at the atomistic level (if applicable), and then we extend the analysis to simulations of a monolayer capsule, which has been modelled to prove the greater stability of the bilayer one.
+We first comment on the quantities already analysed at the atomistic level (if applicable), and then we extend the analysis to simulations of a monolayer capsule, which has been modelled to verify whether the hypothesis that a bilayer structure is necessary to grant stability was true.
 
 \paragraph{Force field comparison}
 As foreseeable, each structure obtained with coarse-grained force fields is slightly different, and is different with respect to the atomistic one.
 %
-The SIRAH bilayer capsule has a structure more open with respect to the atomistic one, with a skewed and broader radial density profile, while MARTINI with the standard water model provides a more compact configuration, and finally MARTINI with polar water a slightly larger structure than standard MARTINI, with a comparable thickness (respectively 6.0 nm, 4.6 nm and 4.8 nm average radius, with 2.9 nm, 1.9 nm and 1.9 nm average thickness - see Figure \ref{fig:Rg} and \subcaptionref{fig:RDF}).
+The SIRAH bilayer capsule has a structure more expanded with respect to the atomistic one, with a skewed and broader radial density profile, while MARTINI with the standard water model provides a more compact configuration, and finally MARTINI with polar water a slightly more expanded structure than standard MARTINI, with a comparable thickness (respectively 6.0 nm, 4.6 nm and 4.8 nm average radius, with 2.9 nm, 1.9 nm and 1.9 nm average thickness - see Figure \ref{fig:Rg} and \subcaptionref{fig:RDF}).
 %
-The difference between the two MARTINI model is likely due to the poorer properties of solvation of standard MARTINI water, which cause the protein beads to preferentially interact between themselves rather than with the solvent. 
+The difference between the two MARTINI models is likely due to the better properties of solvation of charged groups in the Polar MARTINI description \citep{Yesylevskyy2010}, united with the fact that the buckyball contains a high number of them.
 
-The correlation of motion between molecules for all the coarse-grained force field is similar to the atomistic one, with a slight anticorrelation between molecules at the opposite poles (Figure \ref{fig:BTI_corr}). This is due to the contraction or expansion happening at the beginning at the simulation, when the capsule adjusts to the equilibrium size, which depends to some extent on the force field.
+The correlation of motion between molecules for all the coarse-grained force fields is similar to the atomistic one, with a slight anticorrelation between molecules at the opposite poles (Figure \ref{fig:BTI_corr}). This is due to the contraction or expansion happening at the beginning at the simulation, when the capsule adjusts to the equilibrium size, which depends to some extent on the force field.
 %
 These effects are slightly more pronounced for the MARTINI force fields, probably due to the greater cohesion between the beads which makes them moving coherently.
 
@@ -500,17 +614,17 @@ These effects are slightly more pronounced for the MARTINI force fields, probabl
 %			GR		SI		MA		MAP
 % SAME 		161,		140, 	189, 	137
 % INTER 		18, 		1, 		79, 		59
-The number of chains paired in the SIRAH simulations is fewer than in the atomistic ones (Figure \ref{fig:BTI_beta}), in line with a more expanded structure, while MARTINI simulations propose a higher number, consistently with the reduced size of the capsule. In particular, the inter layer contacts are significantly higher in MARTINI, as would be expected when the two layers are closer, as suggested by the values of the stacking molecules correlation. Finally, Polar MARTINI agrees with the high number of inter layer contacts of the standard version, but suggests that the precise pairing of the branches is partially lost. However, as the structure is compact, the overall shape is still maintained, even without such precise pairing of the branches.
+The number of chains paired in the SIRAH simulations is fewer than in the atomistic ones (Figure \ref{fig:BTI_beta}), in line with a more expanded structure, while MARTINI simulations propose a higher number, consistently with the reduced size of the capsule. In particular, the contacts between the two layers are significantly higher in MARTINI, as would be expected when the two layers are closer, as suggested by the values of the stacking molecules correlation. Finally, Polar MARTINI agrees with the high number of inter layer contacts of MARTINI, but suggests that the precise pairing of the arms is partially lost. However, as the structure is compact, the overall shape is still maintained, even without such precise pairing of the arms.
 
 Breaking down the contact analysis by residue type (Figure \ref{fig:BTI_cont}), coarse-grained simulations shows necessarily a different organisation, due to the models of the side chains volumes, which thus occupy a different fraction of the space available.
 %
-Never the less, in all the representations, Tryoptophan has a prominent role in establishing contacts with its neighbours at the backbone level, while different force field disagree on the role of the side chains. Quite surprisingly, the SIRAH force field does not promote interactions between side chains a part from the Tryptophan ones with themselves. This seems due to the more expanded structure of the capsule and the larger solvation of the amino acids, which are more exposed in solution (see next paragraph discussing SASA values).
+Nevertheless, in all the representations, Tryoptophan has a prominent role in establishing contacts with its neighbours at the backbone level, while different force field disagree on the role of the side chains. Quite surprisingly, the SIRAH force field does not promote interactions between side chains a part from the Tryptophan ones with themselves. This seems due to the more expanded structure of the capsule and the larger solvation of the amino acids, which are more exposed in solution (see next paragraph discussing SASA values).
 %
 Moreover, none of the coarse-grained descriptions seem to capture the preferential cation-$\pi$ interaction between Arginine and Tryptophan, as can be expected from a less detailed description.
 
-Finally, the values of SASA cannot be compared between force fields, because of the different dimensions of the beads and the number employed to describe the residues. However, it is interesting to notice that consistently across force fields, Arginine constitutes around half of the exposed surface, with the exception of SIRAH, where the more open structure results in other residues to be quite exposed as well (Figure \ref{fig:all_sasa}).
+Finally, the values of SASA cannot be compared between force fields, because of the different dimensions of the beads and the number employed to describe the residues. However, it is interesting to notice that consistently across force fields, Arginine constitutes around half of the exposed surface, with the exception of SIRAH, where the more expanded structure results in other residues to be quite exposed as well (Figure \ref{fig:all_sasa}).
 
-These results point out that every coarse-grained force field has a particular propensity for an equilibrium distance between peptidic components due to the different property of solvation of the water model chosen. To better understand this, we computed the Coulomb and Lennard-Jones contribution to the energy due to peptide-peptide interactions or peptide-solvent ones.
+These results point out that every coarse-grained force field has a particular propensity for an equilibrium distance between peptidic components. This is due to the different solvation property of the water model chosen, and to the balance between the different components of the energy. To better understand this, we computed the Coulomb and Lennard-Jones contribution to the energy due to Protein-Protein interactions or Protein-Water ones.
 %
 Figure \ref{fig:value_eng_cg} plots these value averaged over the second half of the simulated time for the atomistic and each coarse-grained force field (to be noticed that for atomistic and SIRAH description the Protein-Protein terms include both the short range interactions and the 1-4 interactions, i.e.\ the ones computed between atoms separated by three bonds, as they are computed separately. These interactions are not separate for MARTINI models, so only the short range ones are accounted in those cases).
 
@@ -522,7 +636,7 @@ Figure \ref{fig:value_eng_cg} plots these value averaged over the second half of
 \label{fig:eng_cg}
 \end{figure}
 
-Considering the Coulomb component, it is clear that the mean field approach of standard MARTINI, which consists in adopting a high relative dielectric constant ($\epsilon = 15$) to compensate the absence of water dipoles, decreases massively the contribution of the Protein-Protein electrostatics with respect to the two other models.
+Considering the Coulomb component, it is clear that the mean field approach of standard MARTINI, which consists in adopting a high relative dielectric constant ($\epsilon = 15$) to compensate the absence of water dipoles, decreases sensibly the contribution of the Protein-Protein electrostatics with respect to the two other models.
 %
 Indeed this approach would reduce the Coulomb interactions on both long and short range, while in reality the screening effect due to the water can be seen only on long distances (of about 1 nm in a 0.1 M salt solution). Due to the $1/r$ behaviour of the Coulomb interaction, these short scale contributions are clearly important for the total Coulomb energy.
 %
@@ -541,7 +655,7 @@ Finally, the atomistic model ($\epsilon = 1$) suggests even higher (in absolute 
 %C PW:	0.35982317 	0.01633541 	0.13665325
 %LJ PW:	4.216698 	18.098146 	17.340699
 
-This difference in Coulomb energies affects both the Protein-Protein and Protein-Water interactions consistently (Figure \ref{fig:ratio_eng_cg}, left), however it has consequences on the dynamics because it changes the proportion of Coulomb energy with respect to the Lennard-Jones contribution (Figure \ref{fig:ratio_eng_cg}, right). These interactions are not changed between the two MARTINI models, making them predominant in standard MARTINI, where electrostatics are weak, while they are competing with the Coulomb contribution in Polar MARTINI (but are still larger).
+This difference in Coulomb energies affects both the Protein-Protein and Protein-Water interactions consistently (Figure \ref{fig:ratio_eng_cg}, left), however it has consequences on the dynamics because it changes the proportion of Coulomb energy with respect to the Lennard-Jones contribution (Figure \ref{fig:ratio_eng_cg}, right). These interactions are not changed between the two MARTINI models, making them predominant in standard MARTINI, where electrostatics are weak, while they are competing with the Coulomb contribution in Polar MARTINI.
 %
 On the contrary, SIRAH parametrisation opts for a smaller role of Lennard-Jones with respect to the Coulomb contribution, more consistently with the atomistic description, especially regarding the Protein-Protein contribution.
 %
@@ -549,17 +663,17 @@ To recapitulate, protein electrostatics have an increasing contribution in MARTI
 
 This can partially explain the differences in sizes observed across the models: despite the Protein-Protein Coulomb energy is more negative in SIRAH, because of the way it is computed, with a smaller dielectric constant these contributions are less screened, thus the many positive amino acids composing the capsule (giving a positive net charge) can repel each other more effectively.
 
-Regarding instead the balance between Protein-Protein and Protein-Water components (Figure \ref{fig:ratio_eng_cg}), the three coarse grain force fields present values in the same range.
+Regarding instead the balance between Protein-Protein and Protein-Water components (Figure \ref{fig:ratio_eng_cg}), the three coarse-grained force fields present values in the same range.
 %
 For Coulomb, this is slightly higher than the atomistic value, while for Lennard-Jones it is lower by about 15-fold.
 
-As a final remark, Polar MARTINI has a greater Protein-Protein component with respect to standard MARTINI (in absolute value, which means a more negative contribution). From this can be deduced that the slightest more open structure observed in Polar MARTINI is likely not due to the more favourable solvation due to the polar water model, but from a different balance of electostatic versus Lennard-Jones, as explained before.
+As a final remark, Polar MARTINI has a greater Protein-Protein component with respect to standard MARTINI (in absolute value, which means a more negative contribution). From this can be deduced that the slightly more expanded structure observed in Polar MARTINI is likely not due to the more favourable solvation due to the polar water model, but from a different balance of electostatic versus Lennard-Jones, as explained before.
 %
-An interesting follow up on this topic would be investigating whether a tuning of the dielectric constant used in either cases can produce more consistent results between the two water model. However, the choice of the constant was optimised to reproduce at best the properties of bulk water and solvation free energies of ions for both cases. This then raises the question whether the protein parametrisation performs equally good in conjunction with both model, or which one is more compatible.
+An interesting follow up on this topic would be investigating whether a tuning of the dielectric constant used in either cases can produce more consistent results between the two water model. However, the choice of the constant was optimised to reproduce at best the properties of bulk water and solvation free energies of ions for both cases. This then raises the question whether the protein parametrisation performs equally good in conjunction with both model, or whether one reproduces better the atomistic Protein-Water interactions.
 
 
-\subsection{Bilayer versus monolayer: coarse grain simulations}
-To prove also on large scale objects that the bilayer structure is indeed essential to grant a structure which does not disassemble or change shape, we performed simulations of a monolayer capsule (specifically taking the external layer of the capsule already simulated) in the three coarse grain force fields employed so far.
+\subsection{Bilayer versus monolayer: coarse-grained simulations}
+To prove also on large scale objects that the bilayer structure is indeed essential to grant a structure which does not disassemble or change shape, we performed simulations of a monolayer capsule (specifically taking the external layer of the capsule already simulated) in the three coarse-grained force fields employed so far.
 %
 \begin{figure}[h!]
     \subbottom[]{\includegraphics[width=0.48\linewidth, align=c]{3results_capsule/pics/compare_MonoBi_rmsd_init.png} \label{fig:rmsd_mono_bi}}
@@ -575,24 +689,25 @@ As a note, we take as reference structure the regular geometry and not the first
 
 This larger change of the monolayer is due to a larger contraction of the structure, which collapses more toward its center (Figure \ref{fig:rdf_mono_bi}).
 %
-This is evident especially for Polar MARTINI, while for the 1 $\mu$s SIRAH simulations, together with the contraction, another behaviour is observed: Tryptophan side chains have a tendency to become closer, modifying locally the structure and causing a local puckering (see Figure \ref{fig:sirah_mono_pic}). Likely this mechanism is present also in the MARTINI ones, but is it overshadowed by the general contraction, which brings the chains close enough to screen the hydrophobic components without a puckering of the arms as the one observed in SIRAH.
+This is evident especially for Polar MARTINI.
+%, while for the 1 $\mu$s SIRAH simulations, together with the contraction, another behaviour is observed: Tryptophan side chains have a tendency to become closer, modifying locally the structure and causing a local puckering (see Figure \ref{fig:sirah_mono_pic}). Likely this mechanism is present also in the MARTINI ones, but is it overshadowed by the general contraction, which brings the chains close enough to screen the hydrophobic components without a puckering of the arms as the one observed in SIRAH.
 %
-\begin{figure}[t!]
-\centering
-\subbottom[]{\includegraphics[width=0.35\linewidth]{3results_capsule/pics/sirah_mono_all.png} \label{fig:sirah_mono_all}}
-\subbottom[]{\includegraphics[width=0.5\linewidth]{3results_capsule/pics/sirah_mono_detail.png} \label{fig:sirah_mono_detail}} 
-\caption[Snapshot of SIRAH monolayer simulation]{(a) Final configuration of a SIRAH monolayer simulations (Replica 1), with highlighted a protruding puckered structure present in several positions of the capsule. (b) Detail of the puckered structure. Representations: backbone of the full structure in pink bonds; backbone of highlighted triskelion molecules in green, blue and red bonds; side chains of selected molecules in green, blue and red lines, excluded Tryptophan of all the three molecules, whch are in silver bonds. [VMD software \citet{HUMP96}]}
-\label{fig:sirah_mono_pic}
-\end{figure}
+%\begin{figure}[t!]
+%\centering
+%\subbottom[]{\includegraphics[width=0.35\linewidth]{3results_capsule/pics/sirah_mono_all.png} \label{fig:sirah_mono_all}}
+%\subbottom[]{\includegraphics[width=0.5\linewidth]{3results_capsule/pics/sirah_mono_detail.png} \label{fig:sirah_mono_detail}} 
+%\caption[Snapshot of SIRAH monolayer simulation]{(a) Final configuration of a SIRAH monolayer simulations (Replica 1), with highlighted a protruding puckered structure present in several positions of the capsule. (b) Detail of the puckered structure. Representations: backbone of the full structure in pink bonds; backbone of highlighted triskelion molecules in green, blue and red bonds; side chains of selected molecules in green, blue and red lines, excluded Tryptophan of all the three molecules, whch are in silver bonds. [VMD software \citet{HUMP96}]}
+%\label{fig:sirah_mono_pic}
+%\end{figure}
 
-Finally, the SASA of each residue type computed on the initial configuration is higher for the monolayer than the bilayer as expected, but this difference partially levels out during the simulations, due to the rearrangements mentioned above (Figure \ref{fig:mono_bi_sasa}). Therefore, coarse grain representation suggest that the larger deformation observed in the monolayer is due mostly to the decrease in structural robustness when only one layer is present, and only in minor measure to the hydrophobic effect.
+Finally, the SASA of each residue type computed on the initial configuration is higher for the monolayer than the bilayer as expected, but this difference partially levels out during the simulations, due to the rearrangements mentioned above (Figure \ref{fig:mono_bi_sasa}). Therefore, coarse-grained representation suggest that the larger deformation observed in the monolayer is due mostly to the decrease in structural robustness when only one layer is present, and only in minor measure to the hydrophobic effect.
 %
 However the evidence collected through atomistic simulations of assembly of a few capzip molecules suggest the opposite - even if they can tackle a shorter time scale.
 The atomistic simulation of a monolayer would be a useful piece of information to strengthen the conclusion derived, but was not run in the interest of time.
 
-The discrepancy between coarse grain and atomistic conclusions can be solved accepting both mechanisms (structural robustness and hydrophobic effect). Indeed, it is clear that coarse grain descriptions have their weakest point in the ability of reproducing structural solvation, while they provide useful mechanical information.
+The discrepancy between coarse-grained and atomistic conclusions can be solved accepting both mechanisms (structural robustness and hydrophobic effect). Indeed, it is clear that coarse-grained descriptions have their weakest point in the ability of reproducing structural solvation, while they provide useful mechanical information.
  
-Based on this, we deemed that the capsules observed experimentally must have a non-monolayer structure: a single layer would not provide enough structural stability and, moreover, it is not compatible with the thickness observed in the TEM images collected experimentally.
+Based on this, we deemed that the capsules observed experimentally must have a non-monolayer structure: a single layer would not provide enough structural stability and, moreover, it is not compatible with the thickness observed in the TEM images collected experimentally (Figure \ref{fig:afm_D}).
 
 Overall, the multiscale investigation of this system provided information on how it is structured, but also a useful comparison between force fields, proving how the same system can be described in different ways from different models. This can be useful especially in the light of the (comparatively) new SIRAH force field, which has been less assessed than the MARTINI description.
 %
@@ -607,11 +722,11 @@ Overall, the multiscale investigation of this system provided information on how
 
 \subsection{Backmapped simulations} 
 
-Two of the final configurations obtained from standard MARTINI simulations were backmapped to atomistic resolution, and simulated for additional 200 ns. The structures expanded roughly up to the sizes obtained in direct atomistic simulations (Figure \ref{fig:Rg_backmap}). They present however some unpaired branches and slightly deformed shapes, so that the RDF of their masses around the origin results in a broader curve with respect to the original atomistic simulations, centred around the same values (Figure \ref{fig:BM_RDF}).
+Two of the final configurations obtained from standard MARTINI simulations were backmapped to atomistic resolution, and simulated for additional 200 ns. The structures expanded roughly up to the sizes obtained in direct atomistic simulations (Figure \ref{fig:Rg_backmap}). They present however some unpaired arms and slightly deformed shapes, so that the RDF of their masses around the origin results in a broader curve with respect to the original atomistic simulations, centred around the same values (Figure \ref{fig:BM_RDF}).
 
 The pattern of contacts per residue, computed on the last 100 ns of simulations, contains features of both the atomistic and MARTINI profiles \ref{fig:BM_contacts}.
 %
-In particular, at the side chain level, is recovered the strong interaction between Arginine and Tryptophan residues. Also for mixed backbone-side chain contacts the role of Tryoptophan with respect to the other residues is restored. For backbone contacts instead, the pattern resembles more the one from MARTINI. However, the number of total contacts is lower (e.g.\ )5 for Tryptophan versus 7 in original atomistic), probably due to the rapid expansion which follows the backmapping procedure to relieve the unfavourable conformation deriving from the conversion between resolutions.
+In particular, at the side chain level, is recovered the interaction between Arginine and Tryptophan residues. Also for mixed backbone-side chain contacts the role of Tryoptophan with respect to the other residues is restored. For backbone contacts instead, the pattern resembles more the one from MARTINI. However, the number of total contacts is slightly lower, probably due to the rapid expansion which follows the backmapping procedure to relieve the unfavourable conformation deriving from the conversion between resolutions.
 %
 \begin{figure}[p!]
 \centering
@@ -622,7 +737,7 @@ In particular, at the side chain level, is recovered the strong interaction betw
 \vspace{1.5cm}
 \centering
 \includegraphics[width=0.95\linewidth]{3results_capsule/pics/contacts_BM.png} 
-\caption[Backmapping simulations: contacts]{Number of contacts per residue type in each branch of capzip for an atomistic simulation backmapped from standard MARTINI (Replica 1). Only contacts existing more than 50\% of the simulation time are considered. Bars are split by the identity of the partner residue (color coded as in the $x$-axis legend). For mixed contacts the residue on the $x$-axis contributes with its backbone. Results are shown for Replica 1 of each simulation set-up.}
+\caption[Backmapping simulations: contacts]{Number of contacts per residue type in each arm of capzip for an atomistic simulation backmapped from standard MARTINI (Replica 1): each bar shows the average number for the residue on the $x$-axis; its color is split by the identity of the partner residue (color coded as in the $x$-axis legend). For mixed contacts the residue on the $x$-axis contributes with its backbone. The parametrisation is reported along the $y$-axis. Results are shown for Replica 1 of each simulation set-up. Only contacts existing more than 50\% of the simulation time are considered.}
 \label{fig:BM_contacts}
 \end{figure}
 
@@ -644,7 +759,7 @@ Results from 1.25 mM, 2.50 mM and 10 mM runs showed the formation of increasingl
 
 The two properties we want to assess from these simulations are the contacts between the molecules, classified by amino acid type, and the SASA of each residue type, to be compared with the results from the capsule model. However, from the previous simulations we also know that the MARTINI parametrisation promotes a very tight assembly of the molecules once they get in proximity, and that this is partially reverted back when backmapping a structure to an atomistic description. Therefore, the results from self-assembly simulations must be interpreted with the caveat that the protein-protein interactions might be overestimated.
 
-The backbone contacts (Figure \ref{fig:SA_contacts}) show between 10 and 20 contacts per residue, which is about three times higher than the figure obtained for the ordered capsule structure (Figure \ref{fig:BTI_cont}), in line with a densely packed assembly.
+The backbone contacts (Figure \ref{fig:SA_contacts}) show between 3 and 4 contacts per residue, which is about three times higher than the figure obtained for the ordered capsule structure (Figure \ref{fig:BTI_cont}), in line with a densely packed assembly.
 %
 Furthermore, there is a slight increase with the concentration.
 
@@ -652,7 +767,7 @@ The pattern of contacts suggest once more that Trypthopan interact with most par
 
 \begin{figure}[t!]
 \centering\includegraphics[width=0.95\linewidth]{3results_capsule/pics/contacts_SA.png} 
-\caption[Self-assembly simulations: contacts]{Number of contacts per residue type in each branch of capzip for an MARTINI self assembly simulations at different initial concentrations. Backbone contacts displayed only. Only contacts existing more than 50\% of the simulation time are considered. Bars are split by the identity of the partner residue (color coded as in the $x$-axis legend).}
+\caption[Self-assembly simulations: contacts]{Number of contacts per residue type in each arm of capzip for an MARTINI self assembly simulations at different initial concentrations: each bar shows the average number for the residue on the $x$-axis; its color is split by the identity of the partner residue (color coded as in the $x$-axis legend). For mixed contacts the residue on the $x$-axis contributes with its backbone. The parametrisation is reported along the $y$-axis. Results are shown for Replica 1 of each simulation set-up. Only contacts existing more than 50\% of the simulation time are considered.}
 \label{fig:SA_contacts}
 \end{figure}
 %
@@ -667,14 +782,14 @@ Regarding SASA values (Figure \ref{fig:SA_sasa_all}), they confirm what found al
 
 Interestingly, the decrease in SASA and increase in contacts does not scale linearly with the concentration, as expected when the systems reach saturation and the clusters cannot favourably accommodate more molecules. However, the number of concentration simulated here are not enough to extract a more precise dependence between these properties.
 
-Again, when interpreting these results, one must remember that a backmapping to an atomistic resolution would produce more open structures. However, also at the experimental level, high concentrations (of the order of mM as the ones simulated here) resulted in aggregation, i.e.\ the appearance of amorphous aggregates rather than geometrical capsules (not published). The MARTINI simulations are likely capturing this behaviour, and one would need a long simulation of a diluted solution to observe an ordered assembly. As it is almost impossible to simulate the micromolar regime used in experiments, the simulations of pre-assembled structures, as the ones presented previously in this chapter, are, so far, the only ones able to explore the relevant range of concentrations.
+Again, when interpreting these results, one must remember that a backmapping to an atomistic resolution would produce more expanded structures. However, also at the experimental level, high concentrations (of the order of mM as the ones simulated here) resulted in aggregation, i.e.\ the appearance of amorphous aggregates rather than geometrical capsules (not published). The MARTINI simulations are likely capturing this behaviour, and one would need a long simulation of a diluted solution to observe an ordered assembly. As it is almost impossible to simulate the micromolar regime used in experiments, the simulations of pre-assembled structures, as the ones presented previously in this chapter, are, so far, the only ones able to explore the relevant range of concentrations.
 
 
 \section{Results: peptide-membrane interactions}
 
 We now discuss simulations of capzip in contact with a membrane. First we focus on atomistic simulations of the pentagonal peptidic subunit in contact with a model bacterial or mammalian membrane, both under standard simulation conditions and with an applied external electric field. In this, we elucidate the local effect that the peptide has on the local lipid organisation.
 %
-We then analyse the process of membrane binding which is observed in coarse grain simulations, comparing the MARTINI and Polar MARTINI force fields for the simulation without an external electric field, and necessarily resorting to Polar MARTINI for the ones involving it. 
+We then analyse the process of membrane binding which is observed in coarse-grained simulations, comparing the MARTINI and Polar MARTINI force fields for the simulation without an external electric field, and necessarily resorting to Polar MARTINI for the ones involving it. 
 
 
 \subsection{Atomistic simulations of the bacterial model membrane} \label{sec:lip_atom_bact}
@@ -815,7 +930,7 @@ Regarding the insertion of the amino acid within the lipid membrane, Figure \ref
 \label{fig:aa_insertion}
 \end{figure}
 
-We think that this reduced ``fluidity" is an important perturbation of the membrane structure, as it diminishes the ability of the membrane to accommodate external stimuli. With coarse grain simulations (see Section \ref{sec:results_lip_cg}) it will be evident that on the long time scale, these interactions are also able to recruit anionic lipids around the peptide, creating a local imbalance in the membrane composition.
+We think that this reduced ``fluidity" is an important perturbation of the membrane structure, as it diminishes the ability of the membrane to accommodate external stimuli. With coarse-grained simulations (see Section \ref{sec:results_lip_cg}) it will be evident that on the long time scale, these interactions are also able to recruit anionic lipids around the peptide, creating a local imbalance in the membrane composition.
 
 
 \paragraph{Electroporation results}
@@ -959,18 +1074,18 @@ On the DLPC patch, we did not perform the same extensive electroporation analysi
 %
 However, for the DLPC patch this value was sufficient to cause poration both with and without peptide. Despite the absence of lipids with a net charge, which are expected to interact more strongly with the electric field, this membrane seems more sensitive to such external perturbation. We think this is due to larger ApL: indeed, being the lipids less packed, water penetration is easier. This, combined with the electric field, generates more easily water defects which promote pore formation.
 
-We observed that, once the membrane start disrupting, the peptide detaches from the membrane, while it remained firmly attach to the bacterial one, following its deformations. This lower propensity for binding on the mammalian case will be proven also by coarse grain simulations and is consistent with the previous analysis on hydrogen bonds propensity and amino acids insertion. Moreover it confirms that the poration is induced because of the high electric field rather than the presence of the peptide. We do not pursue the investigation of the electroporation threshold for the DLPC patch, as we focussed here only on the action of the peptide on it.
+We observed that, once the membrane start disrupting, the peptide detaches from the membrane, while it remained firmly attach to the bacterial one, following its deformations. This lower propensity for binding on the mammalian case will be proven also by coarse-grained simulations and is consistent with the previous analysis on hydrogen bonds propensity and amino acids insertion. Moreover it confirms that the poration is induced because of the high electric field rather than the presence of the peptide. We do not pursue the investigation of the electroporation threshold for the DLPC patch, as we focussed here only on the action of the peptide on it.
 %
 Finally, in interpreting these results, it must be considered that the transmembrane potential of a mammal cell is lower than the one present in the bacterial membrane \citep{Yeaman2003,Wilson2011}, so that they usually withstand milder electric field conditions than bacterial ones.
 
 
 \subsection{CG simulations of the buckyball on model membranes} \label{sec:results_lip_cg}
 
-\paragraph{Standard MARTINI simulations} Coarse grain simulations allow to model the behaviour of the full capsule interacting with the membrane.
+\paragraph{Standard MARTINI simulations} Coarse-grained simulations allow to model the behaviour of the full capsule interacting with the membrane.
 %
 At first, simulations with the standard MARTINI model were run, due to their higher computational speed (the full system, comprising a 2880 lipids patch and the capsule, measures approximately 30 nm along each side of the simulation box).
 
-Coarse grain simulations of the full buckyball on a DLPC/DLPG membrane (3:1 ratio) confirms the binding of the peptide on the latter, driven by charge-charge recognition: in both the replicas run, the peptide approaches the membrane after about 2 $\mu$s, remaining bound up the remaining of the 10 $\mu$s simulated.
+Coarse-grained simulations of the full buckyball on a DLPC/DLPG membrane (3:1 ratio) confirms the binding of the peptide on the latter, driven by charge-charge recognition: in both the replicas run, the peptide approaches the membrane after about 2 $\mu$s, remaining bound up the remaining of the 10 $\mu$s simulated.
 %
 Post-binding, the capsule diffuses on the membrane and produces an increasingly high curvature on it, in a process which tends to maximize the contact area (see Figure \ref{fig:pL6_vmd_2}). No poration is observed, probably due to the force field characteristics which stabilise the structure of both the membrane and the peptide assembly. Additionally, longer time scales might be needed to observe poration. Later in this section, we will analyse simulations performed with an additional electric field, in line with what done in the atomistic case, which speeds up the process and allow to observe membrane disruption.
 
@@ -992,7 +1107,7 @@ Post-binding, the capsule diffuses on the membrane and produces an increasingly 
  &40 & -- & -- & -- & \multicolumn{3}{l}{Poration} \\
  \hline
 \end{tabular}
-\captionof{table}[Properties of coarse grain bacterial membrane]{Analysis of lipid diffusion in a coarse grain simulation of the buckyball binding to a model bacterial membrane (DLPC/DLPG 3:1, 2880 lipids). \emph{Lip.} denotes pure membranes; \emph{Lip./Pep.} the membrane with the buckyball bound. \emph{E} electric field, expressed in mV/nm; \emph{ApL} expressed in nm$^2$. Diffusion coefficient D ($\mu$m$^2$/s) is computed removing the centre of mass movement of the bilayer for simulations without the capsule, and of the protein for simulations where the peptide is bound to the membrane.}
+\captionof{table}[Properties of coarse-grained bacterial membrane]{Analysis of lipid diffusion in a coarse-grained simulation of the buckyball binding to a model bacterial membrane (DLPC/DLPG 3:1, 2880 lipids). \emph{Lip.} denotes pure membranes; \emph{Lip./Pep.} the membrane with the buckyball bound. \emph{E} electric field, expressed in mV/nm; \emph{ApL} expressed in nm$^2$. Diffusion coefficient D ($\mu$m$^2$/s) is computed removing the centre of mass movement of the bilayer for simulations without the capsule, and of the protein for simulations where the peptide is bound to the membrane.}
 \label{table:martini_diff_bact}
 
 \vspace{1cm}
@@ -1008,17 +1123,17 @@ Post-binding, the capsule diffuses on the membrane and produces an increasingly 
  40 & -- & -- & 0.616(1) & 77.88(4) \\
  \hline
 \end{tabular}
-\captionof{table}[Properties of coarse grain mammalian membrane]{Analysis of lipid diffusion in a coarse grain simulation pure mammalian membrane (DLPC, 2888 lipids). \emph{E} electric field, expressed in mV/nm; \emph{ApL} expressed in nm$^2$. \emph{ApL} expressed in nm$^2$. Diffusion coefficient D ($\mu$m$^2$/s) is computed removing the centre of mass movement of the bilayer.}
+\captionof{table}[Properties of coarse-grained mammalian membrane]{Analysis of lipid diffusion in a coarse-grained simulation pure mammalian membrane (DLPC, 2888 lipids). \emph{E} electric field, expressed in mV/nm; \emph{ApL} expressed in nm$^2$. \emph{ApL} expressed in nm$^2$. Diffusion coefficient D ($\mu$m$^2$/s) is computed removing the centre of mass movement of the bilayer.}
 \label{table:martini_diff_dlpc}
 \end{figure}
 %
 The area per lipid was necessarily computed taking into account the curvature, and does not change significantly in presence of the capsule.
 %
-When analysing the diffusion coefficient, the values obtained for pure membranes have been computed removing the leaflets centre of mass movement, while the ones with the capsule by centring the trajectory around it (and considering the portion of the trajectory after the binding only). The MARTINI diffusion coefficients are about 60 times larger than the ones obtained atomistically. This is consistent with results obtained previously on a variety of other systems \cite{Venable2017} and is due to the coarse grain parametrisation.
+When analysing the diffusion coefficient, the values obtained for pure membranes have been computed removing the leaflets centre of mass movement, while the ones with the capsule by centring the trajectory around it (and considering the portion of the trajectory after the binding only). The MARTINI diffusion coefficients are about 60 times larger than the ones obtained atomistically. This is consistent with results obtained previously on a variety of other systems \cite{Venable2017} and is due to the coarse-grained parametrisation.
 
 The lipids diffusion is decreased after the binding, by 5\% for DLPC and by 15\% for DLPG (Table \ref{table:martini_diff_bact}). The larger effect on DLPG is due to the attraction between the peptide and this negatively charged lipid: computing the RDF of the phosphate beads (PO4) of DLPC and DLPG around the protein, a much stronger signal comes from DLPG beads rather than DLPC ones (Figure \ref{fig:PO4_RDF}), showing they are more attracted toward the peptide.
 
-The mechanism above results in a slower diffusion of the DLPG residues nearby the capsule, as already predicted at the atomistic level. Moreover, the coarse grain simulations allow to see the recruitment of lipids nearby the capsule: Figure \ref{fig:PO4_dens} shows a lateral density profile of the two lipid species across the simulation box. Spanning the $x$ axis, the DLPG density increases around the position of the capsule, at the expenses of the DLPG one. The formation of a DLPG patch enhances the slowing effect on the diffusion of this species, while DLPC, pushed away from the capsule location, is less perturbed.
+The mechanism above results in a slower diffusion of the DLPG residues nearby the capsule, as already predicted at the atomistic level. Moreover, the coarse-grained simulations allow to see the recruitment of lipids nearby the capsule: Figure \ref{fig:PO4_dens} shows a lateral density profile of the two lipid species across the simulation box. Spanning the $x$ axis, the DLPG density increases around the position of the capsule, at the expenses of the DLPG one. The formation of a DLPG patch enhances the slowing effect on the diffusion of this species, while DLPC, pushed away from the capsule location, is less perturbed.
 
 \begin{figure}[t!]
 \centering

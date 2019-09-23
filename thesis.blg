@@ -4,10 +4,11 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: 3results_capsule/results_capsule.aux
 The style file: my_apalike.bst
 Database file #1: thesis_ref2.bib
+Warning--I didn't find a database entry for "Berrera2019"
 Warning--empty publisher in gromacs_man
 You've used 58 entries,
             1958 wiz_defined-function locations,
-            879 strings with 16650 characters,
+            881 strings with 16672 characters,
 and the built_in function-call counts, 27330 in all, are:
 = -- 2732
 > -- 1400
@@ -46,4 +47,4 @@ warning$ -- 1
 while$ -- 212
 width$ -- 0
 write$ -- 758
-(There was 1 warning)
+(There were 2 warnings)

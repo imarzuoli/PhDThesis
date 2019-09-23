@@ -1,19 +1,18 @@
 \chapter{Methods} \label{chapter:MD}
 
-\section{Introduction}
+\lettrine{M}{olecular Dynamics} simulations have been rightly defined as the `Computational Microscope' \citep{Lee2009,Dror2012} as they offer otherwise inaccessible insights into the molecular details underlying conformational changes of proteins and nucleic acids. Computational methods and tools based on MD are routinely applied in structural biology to quantitatively characterise the dynamics and thermodynamics of proteins and their complexes. The increasing computational power available, and the 
+ease of implementation of simulation algorithms,
+%flexibility of the algorithms which can be implemented on different platforms,
+have made possible to access molecular and dynamical properties inaccessible to experiments. MD simulations and the associated force fields are commonly used in the process of structure determination from NMR data or in theoretical structure prediction from homology models \citep{Vogel2017,Heo2018}. In particular, simulations of the structure help in relieving the artefacts deriving from the experiments, or in determining the correct conformation in cases when the experimental measure or the homology modelling has a large uncertainty.
 
-Molecular Dynamics simulations have been rightly defined as the `Computational Microscope' \cite{Lee2009,Dror2012} as they offer otherwise inaccessible insights into the molecular details underlying conformational changes of proteins and nucleic acids. Computational methods and tools based on MD are routinely applied in structural biology to quantitatively characterise the dynamics and thermodynamics of proteins and their complexes. The increasing computational power available, and the flexibility of the algorithms that can be implemented on different platforms, have made possible to access molecular dynamical properties inaccessible to experiments. These techniques and the associated force fields are also commonly used in the process of structure determination from NMR data, and theoretical structure prediction \cite{Vogel2017,Heo2018}.
+Modelling and simulating a biological system consists in describing its components and their mutual interactions, by implementing the laws of physics in the attempt to reproduce the evolution observed in nature. A quantum mechanics description would be the most accurate, but it is computationally expensive to achieve for large systems. To facilitate the task, several simplified models have been devised, each more suitable to investigate particular cases.
 %
-Modelling and simulating a biological system consists in describing its components and their mutual interactions, and implementing the laws of physics to reproduce its natural evolution. A quantum mechanic description would be more accurate but expensive to achieve for large systems. To facilitate the task, several simplified models have been devised, each most suitable to investigate particular cases.
-%
-In particular, a large class of models focuses on a classical mechanics description of the dynamics: for increasing sizes of the systems and longer time spans described, the classical approximations will be more than accurate, and also the only possible representation which is computationally affordable.
+In particular, a popular approach is a classical mechanics description of the dynamics: for increasing sizes of the systems and longer simulation time, the classical approximations will become more accurate, and the only possible model computationally affordable.
 
-Understanding the methodology of classical Molecular Dynamics (MD) provides the interpretative key with which simulations must be designed, run and interpreted in each specific case. We offer here some general background and directions on which are the used algorithms and their applicability in some selected scenarios that we consider representative and challenging.
+We briefly present here the core theory and implementation of classical MD simulations, together with a discussion of their strengths, limitations and comparison with experiments. Understanding their methodology provides an interpretative key with which simulations must be designed, run and interpreted in each specific case \citep{vanGunsteren2006}. A review of relevant successes of MD simulations will complete the chapter.
 
 
-\section{Materials}
-
-\subsection{Extracting the Dynamics of a Molecular System: the Time Evolution Algorithm}
+\section{Algorithms for Molecular Dynamics: the Newton's law}
 In a classical MD framework, Newton's second law of motion rules the dynamics, stating that the acceleration $\textbf{a}$ that a particle is subject to at time $t$, depends on the total force $\textbf{F}$ acting on the particle itself and on its mass $m$ (bold denotes vectorial quantities):
 \begin{equation} \label{eq:newton}
 \textbf{F}(t) =  m \cdot \textbf{a}(t) \, .
@@ -35,12 +34,18 @@ For example, choosing the velocity value at time $t_0 + \Delta t/2$ (and not at 
 \end{eqnarray}
 This algorithm can thus ``solve" every possible Newton equation, at the expenses of some precision.
 
+\paragraph{Constraint algorithms} Considering that MD deals with bonded atoms belonging to multi-atoms molecules, the length of these bonds must be kept within a physically meaningful value. As the approximate procedure mentioned above may however give raise to unphysical configurations, constraint algorithms are applied after the update of atoms positions, to restrict the change in bond length. The ones used in this work are SETTLE \citep{Miyamoto1992} and LINCS (Linear Constraint Solver) \citep{Hess1997}: the first is an exact implementation of the solution for rigid bodies of three elements only (such as water molecules in its atomistic description), while the second finds an approximate solution for molecules with more atoms.
 
-As the integration procedure is not exact, specific algorithms have been developed to compensate for the necessary approximations and to more realistically reproduce the simulation's conditions of choice, for example Temperature and Pressure.
+\paragraph{Thermostats and barostats} Additionally, specific algorithms are needed to realistically reproduce the simulation's conditions of choice, for example Temperature and Pressure.
 
-Indeed, a constant temperature is maintained when the kinetic energy is constant on average, while the pressure is given by the average quantity of motion exchanged between the particles and the walls of the box they are confined to, which depends on the frequency of collision and thus on the extent of the box. As most MD simulations are run under periodic boundary conditions, i.e. a particle which exits from the simulation box during a move is brought back on the opposite side of the box, to mimic the presence of an infinite number of equivalent boxes one next to the other, particles are not bouncing on the box walls, rather a virtual pressure is computed from the velocities of the ones trespassing the box boundaries during a move.
+Indeed, temperature is maintained when the kinetic energy is constant on average. However, the approximations performed by the MD algorithm lead this quantity to drift from its initial value (hence temperature drift), therefore to ensure that temperature is maintained throughout the simulation, thermostat algorithms have been devised to rescale at fixed interval of time the velocities of selected particles.
+%
+The thermostats used in this work are the Berendsen \cite{Berendsen1984} and velocity rescale \cite{Bussi2007} ones, which differ in the way they perform such rescaling.
 
-The thermostat algorithms used in this work are the Berendsen \cite{Berendsen1984} and velocity rescale \cite{Bussi2007}, which differ the way they rescale velocities to grant the correct average kinetic energy, while the barostat, which rescale the simulation box to influence the pressure are the Berendsen \cite{Berendsen1984} and Parrinello-Rahman \cite{Parrinello1981} one.
+Pressure instead is given by the average quantity of motion exchanged between the particles and the walls of the box they are confined to, which depends on the frequency of collision and thus on the extent of the box. Most MD simulations are run under periodic boundary conditions, i.e.\ a particle which exits from the simulation box during a move is brought back on the opposite side of the box, to mimic the presence of an infinite number of equivalent boxes one next to the other. Thus, particles are not bouncing on the box walls, but rather a virtual pressure is computed from the velocities of the ones trespassing the box boundaries during a move.
+Barostat algorithms rescale the size of the simulation box to adjust the collision frequence and thus the pressure to the target value. Usually all the box dimensions are rescaled by the same amount. However, in the case of anisotropic systems like lipids, the directions parallel to the membrane plane can be rescaled separately with respect to the one perpendicular to it.
+%
+Barostats used in this work are the Berendsen \cite{Berendsen1984} and Parrinello-Rahman \cite{Parrinello1981} one.
 
 %\subsection{Thermostats and barostats: rescuing the approximation limit}
 %As the integration procedure is not exact, specific algorithms have been developed to compensate for the necessary approximations and to more realistically reproduce the simulation's conditions of choice, for example Temperature and Pressure.
@@ -74,31 +79,39 @@ The thermostat algorithms used in this work are the Berendsen \cite{Berendsen198
 %or Martyna-Tuckerman-Tobias-Klein (MTTK) \cite{Martyna1996} (to be used in conjunction with the Nos\'{e}-Hoover thermostat), which differ in the way they approach the desired pressure (e.g. exponentially, in an oscillatory way, etc.).
 
 
-\subsection{Force fields} 
+\subsection{Force fields}
 
-\subsubsection{Force field definition} \label{sec:ff}
-
-Once the equations of motion and the control algorithms are set up, the next challenge is represented by modelling the forces and thus the potential energy function.
+Force fields for classical MD simulations provide the expression of the potential energy of a system. Thus they determine the forces employed in Newton's law ruling the dynamics.
 %
-Force fields for classical MD simulations usually rely on the breakdown of interactions into several, independent terms, identified on an empirical physical basis. We report here the functional form adopted for the GROMOS force field \cite{Oostenbrink2004,Schmid2011} as implemented in the GROMACS MD engine \cite{Berendsen1995,Abraham2015,gromacs_man}, as an example of the structure of a classical force field.
+They usually rely on the breakdown of interactions into several independent, additive and derivable terms, identified on an empirical physical basis.
+
+We report here the functional form of GROMOS force field \citep{Oostenbrink2004,Schmid2011,Reif2012} implemented in GROMACS MD simulation engine \citep{Berendsen1995,Abraham2015,gromacs_man}, as an example of a classical force field.
+%
+Other force fields can have slightly different implementations, however the general classification of interactions and the type of functional forms used are similar.
 
 \paragraph{Covalent (bonded) interactions} Covalent interactions are modelled with potential energy terms representing bond stretching, angle bending, improper and proper dihedral angles torsion. 
 %
-The functional form of the potential energy function for each of them aims at a simplified, semi-classical description of the sub atomic motion of molecules. Often, it is modelled as a harmonic-like vibration around the equilibrium position, regulated by a constant with suitable energy units.
+The functional form of the potential energy function for each of them aims at a simplified, classical description of the atomic motion of molecules. Often, it is modelled as a harmonic-like vibration around the equilibrium position, regulated by a constant.
 %
-\begin{equation} \label{eq:ff}
-\begin{array}{lcccl}
-\textbf{Type} & \textbf{Eq. pos.} & \textbf{Const.} & \textbf{[Const.]} & \textbf{Functional form} \\
-\hline 
-  \text{Bond} & b_{ij} & k^b_{ij} & \frac{\text{kJ}}{\text{mol}\,\text{m}^2} & V_b(\textbf{r}_{ij}) = \frac{1}{4}\,k^b_{ij}\,\left(|\textbf{r}_{ij}|^2 - b_{ij}^2\right)^2 \\ 
-  \text{Angle} & \theta^{\, 0}_{ijk} & k^\theta_{ijk} & \frac{\text{kJ}}{\text{mol}}  & V_a(\theta_{ijk}) = \frac{1}{2}\,k^\theta_{ijk}\,\left(\cos\left(\theta_{ijk}\right) - cos\left(\theta^{\, 0}_{ijk}\right)\right)^2 \\
-  \text{Dihedral} & \phi_{ijkl}^{\, 0} & k_{ijkl}^\phi & \frac{\text{kJ}}{\text{mol}\,\text{rad}^2}  & V_d(\phi_{ijkl}) = k_{ijkl}^\phi\,\left( 1 + \cos\left( n \, \phi_{ijkl} - \phi_{ijkl}^{\, 0} \right) \right) \\
-  \text{Improper} & \xi_{ijkl}^{\, 0} & k_{ijkl}^\xi & \frac{\text{kJ}}{\text{mol}}  & V_{id} (\xi_{ijkl}) = \frac{1}{2}\,k_{ijkl}^\xi \left( \xi_{ijkl} - \xi_{ijkl}^{\, 0} \right)^2
- \end{array}
-\end{equation}
-In the GROMOS force field, this translates in the equations displayed in Table \ref{eq:ff}, where for proper dihedrals, the convention states that $\phi_{ijkl}$ is the angle between the ($i$, $j$, $k$) and ($j$, $k$, $l$) planes; with $i$, $j$, $k$, and $l$ four subsequent atoms, for example along a protein backbone. A value of zero for $\phi_{ijkl}$ corresponds to a \textit{cis} configuration and $\pi$ to a \emph{trans}. The integer $n$ denotes the number of equally spaced energy minima available in a 360$^\circ$ turn.
+In the GROMOS force field, this translates in the equations displayed in Table \ref{table:ff}, where for proper dihedrals, the convention states that $\phi_{ijkl}$ is the angle between the ($i$, $j$, $k$) and ($j$, $k$, $l$) planes; with $i$, $j$, $k$, and $l$ four subsequent atoms, for example along a protein backbone. A value of zero for $\phi_{ijkl}$ corresponds to a \textit{cis} configuration and $\pi$ to a \emph{trans}. The integer $n$ denotes the number of equally spaced energy minima available in a 360$^\circ$ turn.
 %
 The same conventions hold for improper dihedrals $\xi_{ijkl}$, which are used to ensure ring planarity and control the chirality of tetrahedric centres.
+
+\begin{figure}[t]
+\centering
+ \def\arraystretch{1.6}
+\begin{tabular}{lllll}
+ \textbf{Type} & \multicolumn{2}{l}{\textbf{Eq. pos.}} & \textbf{Const.} & \textbf{Functional form} \\
+ \hline
+  Bond & b$_{ij}$ & k$^b_{ij}$ & $\frac{\text{kJ}}{\text{mol}\,\text{m}^2}$ & $V_b(\textbf{r}_{ij}) = \frac{1}{4}\,k^b_{ij}\,\left(|\textbf{r}_{ij}|^2 - b_{ij}^2\right)^2 $ \\ 
+  Angle & $\theta^{\, 0}_{ijk}$ & $k^\theta_{ijk}$ & $\frac{\text{kJ}}{\text{mol}}$  & $V_a(\theta_{ijk}) = \frac{1}{2}\,k^\theta_{ijk}\,\left(\cos\left(\theta_{ijk}\right) - cos\left(\theta^{\, 0}_{ijk}\right)\right)^2$ \\
+  Dihedral & $\phi_{ijkl}^{\, 0}$ & $k_{ijkl}^\phi$ & $\frac{\text{kJ}}{\text{mol}\,\text{rad}^2}$  & $V_d(\phi_{ijkl}) = k_{ijkl}^\phi\,\left( 1 + \cos\left( n \, \phi_{ijkl} - \phi_{ijkl}^{\, 0} \right) \right)$ \\
+  Improper & $\xi_{ijkl}^{\, 0}$ & $k_{ijkl}^\xi$ & $\frac{\text{kJ}}{\text{mol}}$  & $V_{id} (\xi_{ijkl}) = \frac{1}{2}\,k_{ijkl}^\xi \left( \xi_{ijkl} - \xi_{ijkl}^{\, 0} \right)^2$ \\
+  \hline
+ \end{tabular}
+\captionof{table}[Functional form of GROMOS]{Functional form of bonded interaction in the GROMOS force field implemented in GROMACS.}
+\label{table:ff}
+\end{figure}
 
 It must be noticed that these types of potentials can not model the rupture of a bond: for this, more sophisticated descriptions are needed.
 
@@ -125,8 +138,8 @@ The van der Waals forces decay fast, therefore the tail of their functional can 
 Finally, all biomolecular force fields, and in particular their van der Waals interactions, are parametrised to describe systems at room temperature, therefore simulations performed at substantially different temperatures must be interpreted carefully.
 
 
-\subsubsection{Force fields: classifications} \label{sec:ff_ex}
-%
+\subsection{Force fields: classifications} \label{sec:ff_ex}
+
 %\begin{figure}[p!]
 %\centering
 %\includegraphics[scale=.65]{picture_chapter}
@@ -135,21 +148,20 @@ Finally, all biomolecular force fields, and in particular their van der Waals in
 %\label{fig:ff}
 %\end{figure}
 
-
 Many force fields for classical MD simulations adopt a functional form equal or similar to the one described above. Their difference lies in the number of degrees of freedom modelled, in a hierarchy of descriptions proceeding from detailed to coarse  (Figure \ref{fig:ff}). Three possible classes of descriptions are:
 \begin{itemize}
 \item all-atoms force fields, where all the atoms are presented in the description, and represented as spheres of variable size according to their van der Waals radius (e.g. proportional to $\sigma$ in a Lennard-Jones model). Examples of all-atoms force fields are AMBER \cite{Maier2015,Dickson2014,Wang2004_amber}, CHARMM \cite{MacKerell1998,Klauda2010,Huang2013} and OPLS all-atom \cite{Jorgensen1988}.
-\item united atoms force fields, similar to the previous ones but where non-polar hydrogens are incorporated in the heavy atom they are bonded to. The ``united atom" is given a new $\sigma$ parameter and increased mass according to how many hydrogen it includes. The GROMOS force field \cite{Oostenbrink2004,Schmid2011} follows this philosophy, and OPLS has also a united atom version \cite{Jorgensen1996}.
-\item coarse grain force fields, which group together in one unique bead few atoms, to reduce the number of variables to compute. The clustered atoms are such that their mutual distances are expected to vary little with respect to the ample movements of components of the system far away from each other (which will be grouped in different beads). The MARTINI \cite{Marrink2007,Monticelli2008,DeJong2013} and SIRAH \cite{Machado2018,Barrera2019} force fields belong to this category.
+\item united-atoms force fields, similar to the previous ones but where non-polar hydrogens are incorporated in the heavy atom they are bonded to. The ``united" atom is given a new $\sigma$ parameter and increased mass according to how many hydrogen it includes. The GROMOS force field \cite{Oostenbrink2004,Schmid2011} follows this philosophy, and OPLS has also a united atom version \cite{Jorgensen1996}.
+\item coarse-grained force fields, which group together in one unique bead few atoms, to reduce the number of variables to compute. The clustered atoms are such that their mutual distances are expected to vary little with respect to the ample movements of components of the system far away from each other (which will be grouped in different beads). The MARTINI \cite{Marrink2007,Monticelli2008,DeJong2013} and SIRAH \cite{Machado2018,Barrera2019} force fields belong to this category.
 \end{itemize}
 %
-We now give a more detailed insight in the characteristics and parametrisation strategies of an atomistic and a coarse grain force field among the ones mentioned.
+We now give a more detailed insight in the characteristics and parametrisation strategies of an atomistic and a coarse-grained force field among the ones mentioned.
 
 
 \subsection{The GROMOS force field}
 All-atoms and united atoms force fields are parametrised against first-principle or experimental values.
 %
-While for the all-atom force fields AMBER and CHARMM the parametrisation is based on \emph{ab initio} quantum mechanics calculations refined against experimental data \citep{Maier2015,Dickson2014,Wang2004_amber,MacKerell1998,Klauda2010}, the united atom GROMOS force field relies on the reproduction of heat of vaporization of small molecules and free enthalpies of solvation of small compounds in different solvents, at physiological temperatures and pressures \citep{Oostenbrink2005,Schmid2011,Reif2013}.
+While for the all-atom force fields AMBER and CHARMM the parametrisation is based on \emph{ab initio} quantum mechanics calculations refined against experimental data \citep{Maier2015,Dickson2014,Wang2004_amber,MacKerell1998,Klauda2010}, the united-atom GROMOS force field relies on the reproduction of heat of vaporization of small molecules and free enthalpies of solvation of small compounds in different solvents, at physiological temperatures and pressures \citep{Oostenbrink2005,Schmid2011,Reif2013}.
 %
 This procedure sets not only the constants of the bonded interactions, but also the partial charges of the atoms inside a molecule: as no electrons are included for the sake of efficiency, their redistribution across atoms which are bonded is modelled through fractional charges assigned to each atom (while the total charge of a molecule must sum to an integer).
 %
@@ -187,9 +199,8 @@ Based on the above premises, SIRAH force field simulations of different peptides
 
  
 \subsection{The MARTINI force field}
-\subsubsection{The MARTINI force field}
 
-The MARTINI force field is a popular coarse grain description of biological molecules \cite{Marrink2007,Monticelli2008,DeJong2013}: developed originally with a focus on lipids, it has been then extended to include proteins, small ligands and DNA/RNA molecules.
+The MARTINI force field is a popular coarse-grained description of biological molecules \cite{Marrink2007,Monticelli2008,DeJong2013}: developed originally with a focus on lipids, it has been then extended to include proteins, small ligands and DNA/RNA molecules.
 
 MARTINI opts for a four-to-one approach, i.e.\ four heavy atoms are grouped in one bead. The number of bead types has been kept to the minimum necessary to represent biological molecules. They are organised systematically in polar, non-polar, apolar, or charged, and each type has a number of subtypes with increasing polarity to differentiate the chemical nature of the underlying atomistic structures.
 %
@@ -197,7 +208,7 @@ This systematic approach can be easily transferred to new compounds, without the
 %
 The only exception is represented by rings molecules, where a two-to-one approach is needed to maintain the circular topology.
 
-Two approaches are possible to develop a coarse grain description: parameters can be fit directly to global quantities derived from experiments, in a top-down approach as the one followed in GROMOS; or fitting the coarse-grain simulations results to the ones from atomistic simulations, in a bottom-up approach.
+Two approaches are possible to develop a coarse-grained description: parameters can be fit directly to global quantities derived from experiments, in a top-down approach as the one followed in GROMOS; or fitting the coarse-grain simulations results to the ones from atomistic simulations, in a bottom-up approach.
 %
 The MARTINI force field chooses a top-down approach to parametrise non-bonded interactions, tuning them against experimental partitioning free energies between polar and apolar phases, while bonded interactions are derived from reference all-atom information, in a bottom-up approach.
 
@@ -214,7 +225,7 @@ The MARTINI force field provides two water models. The standard one groups four 
 \caption[MARTINI force field mapping for amino acids, lipids and water]{Description of amino acids (a), example lipids (b) and water models (c) in the MARTINI force field. In (c) the orange sphere represents the van der Waals radius of the central atom. Reproduced from \citet{Monticelli2008,calgary_site,Yesylevskyy2010}}
 \label{fig:martini}
 \end{figure}
-
+%
 Overall, the MARTINI force field pushes the limits of simplification to enhance the simulations speed-up, with considerable gain in efficiency with respect to atomistic or even SIRAH simulations. Despite it can not capture some fine details of the systems studied, it has been successfully applied to describe the behaviour of many biological membranes \citep{Khalid2019,Samsudin2017}, lipid self-assembly \citep{Marrink2007} and peptide-membrane binding \citep{Song2019}. The (re)introduction of a more detailed water model allowed the description of electroporation processes and the translocation of ions through bilayers \citep{Yesylevskyy2010}.
 
 \subsection{Backmapping techniques} coarse-grained descriptions are very effective in reproducing long time scales; however, to retrieve finer details after such extensive exploration, backmapping techniques have been designed to obtain atomistic configurations from the coarse-grained ones \citep{Wassenaar2015}. These backmapped structures can in turn be simulated at the atomistic level to explore the short time scale movements around such interesting conformation. The easy conversion between the two resolution, gave rise to many multiscale studies applied to biomolecular systems \citep{Lee2012}.
@@ -223,7 +234,7 @@ Overall, the MARTINI force field pushes the limits of simplification to enhance 
 %
 %Without entering into the details, we want to bring to the reader attention two possible refinements of the aforementioned models, and two computational strategies which on the contrary speed up the calculations at the expenses of the loss of some details.
 %
-%Regarding the accuracy of simulations, it must be noticed that none of the force field mentioned above takes into account polarisability, i.e. the displacement of electrons with respect to the nucleus, as a consequence of the surrounding electrostatic environment, because electrons and nucleus of an atom are modelled as a unique object. Specific force fields have been modelled to include this effect, on top of atomistic descriptions, as in the AMOEBA \cite{Ren2003,Ponder2010}, Drude polarisable CHARMM \cite{Anisimov2004} or AMBERff02 \cite{Cieplak2001}, or on coarse grain descriptions, as in the ELBA force field \cite{Orsi2011}. Polarisability does improve the accuracy of simulations, but it can significantly slow down simulations.
+%Regarding the accuracy of simulations, it must be noticed that none of the force field mentioned above takes into account polarisability, i.e. the displacement of electrons with respect to the nucleus, as a consequence of the surrounding electrostatic environment, because electrons and nucleus of an atom are modelled as a unique object. Specific force fields have been modelled to include this effect, on top of atomistic descriptions, as in the AMOEBA \cite{Ren2003,Ponder2010}, Drude polarisable CHARMM \cite{Anisimov2004} or AMBERff02 \cite{Cieplak2001}, or on coarse-grained descriptions, as in the ELBA force field \cite{Orsi2011}. Polarisability does improve the accuracy of simulations, but it can significantly slow down simulations.
 %%
 %Going beyond the classical approximation, for biological processes governed by quantum mechanics - such as photosynthesis, DNA mutation processes or some enzymatic activities - many semi classical hybrid techniques have been developed \cite{Ahmadi2018}. They combine computational quantum mechanical modelling methods, such as Density Functional Theory (DFT) or Hartree-Fock computations (HF) \cite{Shao2015}, with classical Molecular Dynamics to gain the accuracy of a quantum description in the region of interest and the speed up of a classical one in the surrounding areas.
 %
@@ -232,12 +243,12 @@ Overall, the MARTINI force field pushes the limits of simplification to enhance 
 %%
 %Models of implicit solvent can be based on different assumptions: for example the solute-solvent interactions can be taken as proportional to the solvent-accessible surface area (SASA) of every particle of solute \cite{Fraternali1996,Kleinjung2003,Kleinjung2012,Fornili2012}, or instead can be derived from a solution of the Poisson-Boltzmann equation governing the charge density in a material, for example in the form of the Generalised Born equation \cite{Zhu2005} which is valid under particularly simple conditions.
 %%
-%Another speed up technique is constituted by hybrid particle-field algorithms. The idea is to treat non-bonded interactions through a mean field approach, where atoms/beads move in the field generated by the others. The field does not need to be updated at every time step, as it is a collective and thus slowly evolving variable; moreover, for each particle only the interaction with the field, and not with all the neighbour particles needs to be computed, reducing the computations effort further. This approach has been employed with a coarse grain description of polymers and biological molecules in the OCCAM software \cite{Milano2009}.
+%Another speed up technique is constituted by hybrid particle-field algorithms. The idea is to treat non-bonded interactions through a mean field approach, where atoms/beads move in the field generated by the others. The field does not need to be updated at every time step, as it is a collective and thus slowly evolving variable; moreover, for each particle only the interaction with the field, and not with all the neighbour particles needs to be computed, reducing the computations effort further. This approach has been employed with a coarse-grained description of polymers and biological molecules in the OCCAM software \cite{Milano2009}.
 %
 %Finally, further strategies are possible to enhance the sampling performed by a simulation in the case that the one obtained by the natural evolution of the system would exceed the computational time available. As a non comprehensive list of these techniques, we mention replica-exchange algorithms \cite{Okamoto2004} which combine together multiple simulations held at different conditions, local potential-energy elevation (or metadynamics) \cite{Huber1994,Laio2002} which avoids the re-sampling of already visited conformations adding an energy penalty to them, umbrella sampling \cite{Torrie1977} which reconstructs free-energy barriers from simulations held at specific values of the coordinate along which the barrier exists, or finally the simple use of higher temperature to overcome energy barriers \cite{Kirkpatrick1983}.
 
 
-\section{Notes: validation and challenges of MD simulations}
+\section{Validation and challenges of MD simulations}
 
 Validation of MD simulations is performed by comparison with experiments: the same properties obtained experimentally are computed from the MD trajectory as well, and the two compared. If these are correctly reproduced, it is usually assumed that the simulation is sampling the correct ensemble of states and then one can identify in the simulation the determinants responsible for the experimental outcome of interest, which are not accessible by the experiment itself.
 
@@ -259,27 +270,26 @@ Nevertheless, it remains important to note the contribution that Molecular Dynam
 % cite rev
 
 
-
 \section{MD simulations: successes} \label{sec:md_lit}
 Consistently with the focus of this thesis, we will privilege examples of simulations investigating antimicrobial peptides as well as self-assembling ones, showing how computational techniques can help the design of novel molecules with improved specific characteristics.
 
 \subsection{Simulations of antimicrobial peptides}
-MD simulations of antimicrobial peptides are quite well documented since the first developments of the technique. Such peptides are a suitable system for a computational investigation as, in most of the cases, their mechanisms of action are not completely understood from the experimental information available (see Section \ref{AMP_mechs}). As experiments prove that even the mutation of one single residue in short AMPs can change remarkably the antimicrobial activity of the sequence (see Section \ref{sec:amp_design}), it is then clear that their action is governed by subtle atomic interactions, so that MD simulations, with their atomistic resolution, can help in understanding this aspect.
+MD simulations of antimicrobial peptides are quite well documented since the first developments of the technique. Such peptides are a suitable system for a computational investigation as, in most of the cases, their mechanisms of action are not completely understood from the experimental information available (see Section \ref{AMP_mechs}). As experiments prove that even the mutation of one single residue in short AMPs can change remarkably the antimicrobial activity of the sequence (see Section \ref{sec:amp_design}), it is then clear that their action is governed by subtle atomic interactions, so that MD simulations, with their atomistic resolution, can help understanding this aspect.
 
-\paragraph{Systems} As mentioned in the previous chapter, it has been proposed that most AMPs act through a process of attraction to the bacterial membrane, possible aggregation with other copies of the same sequence, insertion, and membrane lysis. The time scales of the overall process are accessible if using coarse-grained techniques, but not - or rarely - atomistic ones.
+\paragraph{Systems} As mentioned in the previous chapter, it has been proposed that most AMPs act through a process of attraction to the bacterial membrane, possible aggregation with other copies of the same sequence, insertion, and membrane lysis. The time scales of the overall process are accessible using coarse-grained techniques, but not - or rarely - atomistic ones.
 %
-For this level of description instead, the different steps are usually investigated separately, based on prior hypotheses: for example, the peptide can be positioned close to the membrane surface with an orientation known to promote binding (from experiments or based on energetic assumptions) \citep{Wang2012}, or again can be placed directly within the membrane core with different insertion depths, tilt angles and oligomerisation states to verify which configurations are the most disruptive ones \citep{Lipkin2017}. In this case, the full insertion process can only be reconstructed from a ``stepwise" knowledge combining the different states sampled and further exploring the intermediate regions if necessary.
+For this level of description instead, the different steps are usually investigated separately, based on prior hypotheses: for example, the peptide can be positioned close to the membrane surface \citep{Wang2012}, or placed directly within the membrane core with different insertion depths to verify which configurations are the most disruptive ones \citep{Lipkin2017}. The full insertion process will be then reconstructed from a ``stepwise" knowledge combining the different states sampled.
 %
-For these reasons, the choice of the conformation to simulate, i.e.\ the initial conditions in terms of the mutual position of peptide and membrane, is crucial, as it likely biases the simulation towards the sampling of a particular subset of configurations, and this must be considered in the interpretation of the results. Recent advances are making possible the simulations of the full process even at the atomistic resolution for simple enough systems \citep{Ulmschneider2017,Sun2015}, as it will be shown in the following, nevertheless the ``stepwise" approach is still common and the preferred one in case of complex AMP systems.
+For these reasons, the choice of the conformation to simulate, i.e.\ the initial conditions in terms of the mutual position of peptide and membrane, is crucial, as it likely biases the simulation towards the sampling of a particular subset of configurations. Recent advances are making possible the simulations of the full process even at the atomistic resolution for simple enough systems \citep{Ulmschneider2017,Sun2015}, nevertheless the ``stepwise" approach is still common and the preferred one in case of complex AMP systems.
 
-\paragraph{Model membranes} The second important choice in the setup of a simulations of antimicrobial peptides concerns the model of the membrane to simulate. In an effort to keep complexity low, bacterial and mammal membranes can be modelled with a minimal number of lipids.
+\paragraph{Model membranes} The second important choice in the setup of a simulations of antimicrobial peptides concerns the model of the membrane to simulate. In an effort to keep complexity low, bacterial and mammal membranes are often modelled with a minimal number of lipids.
 %
-Very often, models of bacterial membrane retain as only key characteristic an overall negative charge, with about 25\% of the lipids being anionic ($-1\,e$ charge) and the rest being zwitterionic, i.e.\ neutral but with positively and negatively charged regions separate in space (see Chapter \ref{chapter:lip_par}) \citep{Lipkin2017,Wang2012,Zhao2018,Chen2019}.
-For a model mammal membrane instead, only zwitterionic lipids are employed, with the occasional inclusion of cholesterol, as it is deemed important in describing more realistically their behaviour. \citep{Lipkin2017,Wang2012,Zhao2018,Chen2019,Risselada2008}.
-Because of their simplicity, very similar or identical systems are used also in experiments \citep{Castelletto2016,Tang2009,Glukhov2005}, making possible a direct comparison with simulations.
-Therefore, even if these simple membranes don't model accurately the structure of the cellular envelope, simulations and experiments of these systems can provide a first explanation of some steps of the antimicrobial activity, with the two techniques complementing and validating each other.
+Usually, models of bacterial membrane retain as only key characteristic an overall negative charge, with about 25\% of the anionic lipids ($-1\,e$ charge) \citep{Lipkin2017,Wang2012,Zhao2018,Chen2019}.
+For a model mammal membrane instead, only zwitterionic lipids are employed, with the occasional inclusion of cholesterol, as it is deemed important in describing more realistically their behaviour \citep{Lipkin2017,Wang2012,Zhao2018,Chen2019,Risselada2008}.
+Because of their simplicity, these systems are used in experiments \citep{Castelletto2016,Tang2009,Glukhov2005}, making possible a direct comparison with simulations.
+Therefore, even if these simple membranes do not model accurately the structure of the cellular envelope, simulations and experiments of these systems provide a first explanation of some steps of the antimicrobial activity, with the two techniques complementing and validating each other.
 
-For example, an \emph{in silico} experiment simulated a dermicidin channel inserted into patches of phospholipids membranes with variable cholesterol content \citep{Song2019}. Nine membrane compositions were tested overall resulting in different membrane thickness, thus in a different orientation of the dermicidin channels inserted into it, with consequent variance in the conductance of the channel itself. This structure-function relationship shows the importance of an accurate membrane model to fully capture all the aspects of transmembrane protein activity as every change influences it. Notably, the simulations were performed with the coarse-grained model MARTINI, showing that a supra atomistic view retains enough details to investigate such systems.
+%For example, an \emph{in silico} experiment simulated a dermicidin channel inserted into patches of phospholipids membranes with variable cholesterol content \citep{Song2019}. Nine membrane compositions were tested overall resulting in different membrane thickness, thus in a different orientation of the dermicidin channels inserted into it, with consequent variance in the conductance of the channel itself. This structure-function relationship shows the importance of an accurate membrane model to fully capture all the aspects of transmembrane protein activity as every change influences it. Notably, the simulations were performed with the coarse-grained model MARTINI, showing that a supra atomistic view retains enough details to investigate such systems.
 
 Nevertheless, attempts to model cell membranes more accurately have been pursued. This can be performed at the atomistic level \citep{Piggot2011}
 but the task is especially suited for a coarse-grained description, as the inclusion of all the elements of the cell membranes results in quite large systems for which atomistic computations started only in recent years to be affordable.
@@ -292,7 +302,17 @@ On the other hand, the permeability of membranes to ions and small compounds nee
 
 \paragraph{Force field comparison} Finally, simulations of the peptide interaction with a model membrane are clearly determined by the parametrisation of the force field employed for protein and lipids (and by their mutual consistency).
 %
-There are multiple evidence suggesting that different force fields produce very different outcomes when simulating the same system, under the same conditions. This is also valid for simulations of pure lipid patches (see Chapter \ref{chapter:lip_par}), resulting in incompatible values of area per lipid, organisation of the tails and energetic profiles across the membrane, and thus has an impact in the simulations of AMPs interacting with a membrane.
+There are multiple evidence suggesting that different force fields produce very different outcomes when simulating the same system, under the same conditions \citep{Wang2014,Bennett2016,Sandoval-Perez2017}. This is valid for simulations of pure lipid patches (see Chapter \ref{chapter:lip_par}), resulting in incompatible values of area per lipid, organisation of the tails and energetic profiles across the membrane, and thus has an impact in the simulations of AMPs interacting with a membrane.
+
+For example \citet{Wang2014} observed significantly different levels of unfolding for the AMP melittin within a model membrane at the change of the force field (namely CHARMM27 and 36 (for protein and lipids respectively) \citep{MacKerell1998,Klauda2010}, OPLS all atoms (for protein) and united atoms (for lipids) \citep{Jorgensen1996} and GROMOS 53A6 \citep{Oostenbrink2004}), while \citet{Bennett2016} proved that the propensity of the synthetic AMP CM15 to form pores strongly depend on the force field used but also on some extent - at least at the time of the work - on the MD engine used (GROMACS compared to NAMD \citep{Phillips2005}).
+
+Finally, a more systematic investigation performed by \citep{Sandoval-Perez2017}, focussed on the reproduction of membrane-protein interactions (in GROMOS 54A7 \citep{Schmid2011}, CHARMM36, Amber14SB/Slipids \citep{Jambeck2012} and Amber14SB/Lipid14 \citep{Dickson2014}).
+%
+While all of them were able to reproduce the overall positioning of transmembrane proteins in the case studies tested, they showed discrepancies for amino acid side chains insertion depth and energy.
+%
+Interestingly, all parametrisations gave a very broad minimum for the insertion position of Tryptophan, in line with the different roles this amino acid is supposed to assume: either an anchoring point positioned deeper in the hyrophobic region, or a partner for hydrogen bonding with the hydrophilic heads.
+
+The subtle differences between parametrisations lead to the conclusion that for every particular system tested, the comparison with at least one experimentally measured quantity would be the only way to assess the simulations performance accurately.
 
 %For example, \citet{Wang2014} run simulations of the antimicrobial peptide melittin with different force fields, namely CHARMM27 and 36 (for protein and lipids respectively) \citep{MacKerell1998,Klauda2010}, OPLS all atoms (for protein) and united atoms (for lipids) \citep{Jorgensen1996} and GROMOS 53A6 \citep{Oostenbrink2004} (and the TIP3P water model for all of them \citep{Jorgensen1983}).
 %%
@@ -308,12 +328,11 @@ There are multiple evidence suggesting that different force fields produce very 
 %%
 %Interestingly, all parametrisations gave a very broad minimum for the insertion of Tryptophan, comprising the phosphate region of the phospholipid membrane tested, but also part of the tail and head regions. This is in line with the different interpretations given on the role of this amino acid for the action of antimicrobial peptides: either as an anchoring point positioned deeper in the hyrophobic region, or as a partner for hydrogen bonding with the hydrophilic heads.
 %%
-The subtle differences between parametrisations lead to the conclusion that for every particular system tested, the comparison with at least one experimentally measured quantity would be the only way to assess the simulation performance accurately.
+%The subtle differences between parametrisations lead to the conclusion that for every particular system tested, the comparison with at least one experimentally measured quantity would be the only way to assess the simulation performance accurately.
 
-\paragraph{Simulations of membrane-peptide interaction: examples} Even in the context of a simplified model scenario and with the caveats coming from the chosen parametrisation, simulations of antibacterial peptides on a membrane have been successful in elucidating some of their mechanisms.
+\paragraph{Simulations of membrane-peptide interaction: examples} Even in the context of a simplified scenario and with the caveats coming from the parametrisation chosen, simulations of antibacterial peptides on a membrane have been successful in elucidating some AMPs mechanisms.
 %
-The first important contribution consists in the introduction of the disordered toroidal pore concept: as explained in the previous chapter (Section \ref{AMP_mechs}), the models of membrane poration due to AMPs consist often in ordered structures (see Figure \ref{fig:amp}) %
-where many peptides gather together to contour a pore, and they are either in contact with the hydrophobic tails of the lipids (barrel-stave model), or with their head, as lipid molecules bend around the pore to keep their tails screened from the outside environment (toroidal pore model). However, simulations of the short helical peptide magainin MG-H2 \citep{Leontiadou2006}, among others, showed that a single copy of the helix, inserted at an angle with the normal to the membrane plane, was sufficient to displace the lipids around in a non organised manner and form a water-filled pore (Figure \ref{fig:dis_pore}).
+The first important contribution consists in the introduction of the disordered toroidal pore concept: as explained in the previous chapter (Section \ref{AMP_mechs}), the models of membrane poration due to AMPs consist often in ordered structures where many peptides gather together to contour a pore (see Figure \ref{fig:amp}), and they are either in contact with the hydrophobic tails of the lipids (barrel-stave model), or with their head, as lipid molecules bend around the pore to keep their tails screened from the outside environment (toroidal pore model). However, simulations of the short helical peptide magainin MG-H2 \citep{Leontiadou2006}, among others, showed that a single copy of the helix inserted at an angle with the normal to the membrane plane, and was sufficient to displace the lipids around in a non organised manner, and form a water-filled pore (Figure \ref{fig:dis_pore}).
 %
 \begin{figure}[t!]
 \centering
@@ -330,74 +349,81 @@ Regarding possible rearrangements of the antimicrobial peptide structure when in
 %Further insights into the role of the secondary structure were obtained simulating the helical antimicrobial peptide CM15 nearby a POPC membrane, starting from a fully structured helix or from a coil configuration: \citet{Wang2012} proved that the interaction with the lipids is stronger when the peptide approaches the membrane in its disordered form rather than in a fully formed helix. This happens because of the larger flexibility of the coil arrangement which allows for more residues to come in contact with the membrane at once. Notable, the $\alpha$-helical fold binds as well to the membrane, but only after a time span larger than 100 ns, which would have been inaccessible up to a few yeas ago, potentially leading to wrong conclusions.
 
 % INITIAL CONDITION - NO PRE-INSERTED PEPTIDE, SEE FULL TRANSLOCATION
-The improvements in computational resources is slowly removing some of these obstacles, pushing the extent of simulation time to the microsecond timescale.
+The improvements in computational resources is slowly pushing the extent of simulation time to the microsecond timescale.
 %
-In a recent example, the translocation of the helical PGLa peptide through the membrane has been observed as a rare event, dependent on the concentration of the peptide, on the multi microsecond timescale without the formation of an organised pore \citep{Ulmschneider2017}. The \emph{in silico} experiment still benefited of an enhanced sampling in the form of a higher temperature used for the simulations, but no pre-insertion of the peptide was performed.  This study shed light on a possible mechanism of permeabilisation which is usually overlooked in favour of processes involving organised channels and pores. The fact that no organised neither disorganised pore is observed matches the experimental results which can not identify such structures for the peptide considered. 
+Thus in a recent example, the translocation of the helical PGLa peptide through the membrane has been observed as a rare event dependent on the concentration of the peptide. This event happened on the multi microsecond timescale without the formation of an organised pore \citep{Ulmschneider2017}. The \emph{in silico} experiment still benefited of an enhanced sampling in the form of a higher temperature used for the simulations, but no pre-insertion of the peptide was performed. This study shed light on a possible mechanism of permeabilisation which is usually overlooked in favour of processes involving organised channels and pores. %The fact that no organised neither disorganised pore is observed matches the experimental results which can not identify such structures for the peptide considered. 
 
 % INITIAL CONDITION - NO PRE-INSERTED PEPTIDE, EXPLAIN POLYARGININES
-Similarly, simulations were able to shed light on the mechanism of translocation of Arginine-rich peptides, proposing a mechanism of action on an otherwise puzzling problem \citep{Sun2015}. These sequences have high positive charge, but despite this, possess a high propensity to penetrate membranes, overcoming the hydrophobic region represented by the lipid tails. Very similar peptides where the Arginines were swapped with Lysins showed no significant penetration.
+Similarly, simulations were able to shed light on the mechanism of translocation of Arginine-rich peptides%, proposing a mechanism of action on an otherwise puzzling problem 
+\citep{Sun2015}. These sequences have high positive charge, but despite this, possess a high propensity to penetrate membranes, overcoming the hydrophobic region represented by the lipid tails. Very similar peptides where the Arginines were swapped with Lysins showed no significant penetration.
 %
 A commonly used explanation considers polyarginine translocation a quasi-equilibrium process, but this does not explain the selectivity against Lysins rich peptides.
 %
-After extensive simulations of the two systems (multiple, hundreds of nanosecond long runs, with two different force fields), the proposed mechanism involves the spontaneous formation of thermal pores: in some if these rare events, the transient pore would be occupied by a peptide (a precursor), which slows down its dynamics and thus closure. In such situation, the translocation of other copies of the peptide is highly favoured if their concentration is sufficiently high. Indeed, other copies of the peptide are driven to aggregate with the precursor inside the membrane and are then pushed toward the opposite side as there is a lower charge density in that region.
+After extensive simulations of the two systems (multiple, hundreds of nanosecond long runs), the proposed mechanism involves the spontaneous formation of thermal pores: in some of these rare events, the transient pore would be occupied by a peptide (a precursor), which slows down the pore closure. In such situation, the translocation of other copies of the peptide is highly favoured (if their concentration is sufficiently high) as they aggregate with the precursor inside the membrane and are then pushed toward the opposite side where there is a lower charge density.
 %
 Differently from polyarginines, polylysins have a much lower aggregation propensity, so that the presence of a precursor peptide inside the membrane does not induce an enhanced insertion of further peptides.
 %
 \begin{figure}[t!]
 \centering
-\includegraphics[width=0.5\linewidth]{2methods/pics/polyarg.jpeg}
+\includegraphics[width=0.65\linewidth]{2methods/pics/polyarg.jpeg}
 %
 \caption[Polyarginine translocation]{Cartoon representation of the different assembly mechanism that allow polyarginine but not polylysin to translocate through spontaneously formed pores. Reproduced from \citet{Sun2015}.}
 \label{fig:polyArg}
 \end{figure}
 
 % OLIGOMERISATION
-The last two examples mentioned bring the attention on whether and for which peptides oligomerisation is necessary for an efficient antimicrobial activity. MD simulations can offer insights on this aspect as well. Contrary to oligomerisation in solution, which can happen on shorter time scales, the spontaneous aggregation of peptides on a membrane surface requires a long time, as the structures must diffuse on the membrane to meet each other, and many other competing processes (such as insertion) are happening at the same time.
+The last example brings the attention on whether oligomerisation is necessary for an efficient antimicrobial activity. Contrary to oligomerisation in solution, which can happen on shorter time scales, the spontaneous aggregation of peptides on a membrane surface requires a long time, as the structures must diffuse on the membrane to meet each other, and many other competing processes (such as insertion) are happening at the same time. MD simulations offer insights on this aspect as well.
 
 % OLIGOMERISATION - NO BIASED SAMPLING
-A recent example of how MD elucidated oligomerisation mechanisms comes from simulations of maculatin (an helical AMP), which showed that the pores it forms can include a variable number of helices and thus assume many different conformations \citep{Wang2016}. The suggested process of pore formation proceeds via insertion of a single residue, closely followed by other ones which are able to penetrate the membrane thanks to the lipid defects already created by the first peptide.
+In a recent example, simulations of maculatin (an helical AMP) showed that the pores it forms can include a variable number of helices and thus assume many different conformations \citep{Wang2016}. The suggested process of pore formation proceeds via insertion of a single residue, closely followed by other ones which are able to penetrate the membrane thanks to the lipid defects already created by the first peptide.
 % This is at odds with other models proposed beforehand, which include the insertion of already pre-formed peptide aggregates and suggest a unique ``rigid" form of the pore, but it is actually consistent with the experimental findings.
 
 % OTHER NON AMP EXAMPLES
-Similar investigations can be carried on also for other cell penetrating peptides, which are not antimicrobial: as such, some of them aim at inserting within cells without necessarily causing poration. One example is constituted by the influenza fusion peptides, which have been extensively studied with a simulation set up similar to the one mentioned for AMPs: a few copies of the peptide were positioned on a model membrane and their oligomerisation and insertion processes were followed in time, showing the formation of aggregates of different sizes which perturbed locally the membrane \citep{Haria2014,Collu2015}.
+Similar investigations were carried on also for other aggregating cell penetrating peptides, which are not antimicrobial: as such, some of them aim at inserting within cells without necessarily causing poration. One example is constituted by the influenza fusion peptides, which have been extensively studied with a simulation set up similar to the one mentioned for AMPs: a few copies of the peptide positioned on a model membrane oligomerised into aggregates of different sizes and inserted into the membrane, perturbing its local curvature \citep{Haria2014,Collu2015}.
 
 % OLIGOMERISATION - PRE-ASSEMBLED
 To be noticed that, when investigating oligomerisation, the size of the system must necessarily be increased to include all the copies necessary to form the aggregates observed experimentally. As such, with the present accessible computer time, not all the systems can be investigated from unbiased initial conditions.
 %
 In the case of protegrin, a $\beta$-hairpin antimicrobial peptide which has been long though to act through the formation of transmembrane $\beta$-barrels, many variables can influence the outcome of the unknown final structure.
 %
-Even with the computer power available now, it is unlikely to sample all the possible conformations resulting in stable or transient $\beta$-barrel pores in simulations starting from a few peptides scattered on the surface, and this hinders the understanding of their relative importance.
+%Even with the computer power available now, it is unlikely to sample all the possible conformations resulting in stable or transient $\beta$-barrel pores in simulations starting from a few peptides scattered on the surface, and this hinders the understanding of their relative importance.
 %
 To overcome such problems, a semi-systematic investigation has been carried on by \citet{Lipkin2017}, simulating different assembly (see Figure \ref{fig:ff}, top).
 %
 Microsecond long simulations discriminated which ones of these initial configuration formed stable pores for the whole length of the simulations, and the ones which were disrupted. As in the previous example, several different possibilities were found stable in solution, suggesting that single AMPs might have multiple mechanisms of insertion into membranes.
 
-Most of the examples above employ atomistic descriptions of the system. Similar investigations have been carried on also using the MARTINI force field, indeed the coarse-grained description does capture the pore-forming behaviour of some AMPs.
+Most of the examples above employ atomistic descriptions of the system but similar investigations have been carried on also using the MARTINI force field. %, indeed the coarse-grained description does capture the pore-forming behaviour of some AMPs.
 %
 As an example, simulations of maculatin and aurein on POPC membranes showed different propensities for pore formation versus aggregation, showing that the model retains enough details and chemical information to reproduce different membrane perturbing behaviours \citep{Balatti2017}.
 %
-Nevertheless, the developers of the MARTINI model themselves pointed out how some aspects of pore formation might not be captured in a satisfactory way \citep{Marrink2013}, for example the penetration of water can be misrepresented as can be intuitively expected from a model which clusters four water molecules together (indeed some pore conformations allow for the passage of fewer water molecule if not one at the time).
+Nevertheless, the developers of the MARTINI model themselves pointed out how some aspects of pore formation might not be captured in a satisfactory way \citep{Marrink2013}, for example the penetration of water can be misrepresented as can be expected from a model which clusters four water molecules together (indeed some pore conformations allow for the passage of fewer water molecule if not one at the time).
 
-In general, the outlook of simulations of antimicrobial peptides interacting with membranes goes in the direction of reproducing longer time scales thanks to the enhanced computational power available, trying to match the experimental findings showing that many antimicrobial related processes happen at the microsecond scale or beyond.
+In general, the outlook of simulations of antimicrobial peptides interacting with membranes goes in the direction of reproducing longer time scales thanks to the enhanced computational power available. %, trying to match the experimental findings showing that many antimicrobial related processes happen at the microsecond scale or beyond.
 %
 This enhanced power would also reduce the need to use biased initial conditions or higher temperatures to speed up the simulations.
 %
-Moreover, gathering the contribution of the whole community, simulations will likely go in the direction of modelling more accurately the bacterial membrane, and while this is already at an advanced stage for coarse-grained simulations, it is still an ongoing process for atomistic ones.
+Moreover, gathering the contribution of the whole community, simulations will likely go in the direction of modelling more accurately the bacterial membrane. %, and while this is already at an advanced stage for coarse-grained simulations, it is still an ongoing process for atomistic ones.
 %
 Finally, the force field issue must be solved in collaboration with experimentalists, finding new tests and experimental quantities to compare the computational outcome with and make the different parameters sets converge toward a similar description of the phenomena observed, which is consistent with the experimental results.
 
 
 \paragraph{Simulation-aided AMPs design} \label{sec:design_md_examples}
 
-The role of simulations in aiding AMPs design has been briefly sketched in Section \ref{sec:amp_design}. As pointed out, MD simulations are hardly a tool to analyse large dataset, therefore a systematic analysis can be performed for very small systems only, or, alternatively, the investigation can focus on a few selected sequences.
+The role of simulations in aiding AMPs design has been briefly sketched in Section \ref{sec:amp_design}. As pointed out, MD simulations are hardly a tool to analyse large dataset, therefore %a systematic analysis can be performed for very small systems only, or, alternatively,
+the investigation focuses on a few selected sequences.
 
-As already mentioned, when classifying AMPs, simulations can be helpful in integrating structural information which is otherwise lacking, when no crystal structure of the peptide is available. Such approach was followed by \citet{Liu2018} to complement the chemical information available on a dataset of short AMPs, and the overall information was used to feed a predictor of AM activity of novel sequences. Preliminary results showed that such structural information of minimal AM sequences improved significantly the ability of the predictor to discriminate whether a new sequence was suitable for antimicrobial activity or not.
+Simulations can be helpful in integrating structural information which is otherwise lacking: such approach was followed by \citet{Liu2018} to complement the chemical features available on a dataset of short AMPs, and the overall information was used to feed a predictor of AM activity of novel sequences. Preliminary results showed that this improved significantly the ability of the predictor to discriminate whether a new sequence was suitable for antimicrobial activity or not.
 
-Another commonly followed approach consists in using simulations to elucidate the reasons why a particular mutation is important and effective in terms of increased activity or decreased toxicity. Indeed, for short sequences, such mutation screenings can be afforded experimentally, thus there is little need to predict whether they would be beneficial. Rather, once assessed they are, it is interesting to understand why: for example, simulations of ovispirin and a mutant peptide with reduced toxicity showed that the bend in the helix in the latter was responsible for mitigating the interaction with mammal membranes and thus reducing haemolysis \citep{Khandelia2005}. Again, the mechanism of lipid disordering and insertion by indolicidin was assessed through MD, and the amino acids responsible for each of them separately were identified, so that mutants could be designed with either reduced toxicity or enhanced potency \citep{Tsai2009}. Finally, temporin and a derived sequence were investigate to discover that the mutant improved activity derived from a reduced aggregation propensity of the peptide in water, so that more copies were ready to bind to the membrane and thus disrupt it \citep{Farrotti2017}.
-
-Many more examples can be listed, each with a slight different focus: the protocol of integrating simulations and design is usually customised according to the system in exam, as the field has not reached yet a systematic organisation.
+Another commonly followed approach consists in using simulations to elucidate the reasons why a particular mutation is effective in terms of increased activity or decreased toxicity. For short sequences, mutation screenings can be afforded experimentally. However, once assessed the importance of a given substitution, it is interesting to understand the mechanism behind it.
 %
-However, it is clear that simulations used in conjunction with experimental testing can be used to optimise  already available AMP sequences, and thus contribute to device design rules for the creation of synthetic sequences with tailored properties.
+For example, simulations of ovispirin and a mutant peptide with reduced toxicity showed that the bend of the helix in the latter was responsible for mitigating the interaction with mammal membranes and thus reducing haemolysis \citep{Khandelia2005}.
+%
+%Again, the mechanism of lipid disordering and insertion by indolicidin was assessed through MD, and the amino acids responsible for each of them separately were identified, so that mutants could be designed with either reduced toxicity or enhanced potency \citep{Tsai2009}. 
+In another example, temporin and a derived sequence with improved activity were investigated. Simulations showed that the mutant had a reduced aggregation propensity in water, so that more copies were ready to bind to the membrane and thus disrupt it \citep{Farrotti2017}.
+
+In general, the protocol of integrating simulations and design is usually customised according to the system in exam, as the field has not reached yet a systematic organisation.
+%
+However, it is clear that simulations used in conjunction with experimental testing can be used to optimise already available AMP sequences, and thus contribute to device design rules for the creation of synthetic peptides with tailored properties.
 
 
 \subsection{Simulations of self-assembling peptides}
@@ -405,13 +431,13 @@ Self-assembling peptides are another fascinating and challenging topic that MD s
 
 In theory, the set up of the system is quite straightforward: only the solvent characteristics and optionally the experimental salt concentration need to be matched, then a random initial configuration of the molecules - in the desired concentration - would allow the simulation of the process of interest.
 %
-In reality, reproducing the experimental conditions often implies working with very large systems: with the level of dilution of the solutions employed in the experiments, a considerable volume needs to be simulated to host enough copies of the peptide to observe the assembly of large enough oligomers.
+In reality, to reproduce the dilution employed in experiments, a considerable volume needs to be simulated to host enough copies of the peptide to observe the assembly of large enough oligomers.
 %
-However with this approach the time scale useful to witness a spontaneous assembly would greatly exceed the computational time available. For that reason, two main strategies have been adopted: coarse-grained simulations and the use of pre-assembled structures. Other routes include the choice of an implicit solvent model, or the use of other techniques such as Monte Carlo (a probabilistic exploration of the phase space rather than a dynamical algorithm) which can sometimes be less time consuming. Here, as we focus on MD simulations, we give a few examples of the first two strategies mentioned, which can be adopted in this framework.
+With this approach the time scale useful to witness a spontaneous assembly would greatly exceed the computational time available. For that reason, two main strategies have been adopted to follow assembly processes: coarse-grained simulations and/or the use of pre-assembled structures. Other routes include the choice of an implicit solvent model, or the use of other techniques such as Monte Carlo (a probabilistic exploration of the phase space rather than a dynamical algorithm) which can sometimes be less time consuming. Here we give a few examples of the first two strategies mentioned.
 
-Many studies have been performed with the coarse-grained MARTINI force field to witness assembly of surfactants \citep{Wu2012}, polymers \citep{Wang2012poly,Bochicchio2017} and lipids \citep{Lee2011,Brocos2012}, and a few focussed on peptides as well \citep{Guo2012,Seo2012}.
+Many studies have been performed with the coarse-grained MARTINI force field to witness assembly of surfactants \citep{Wu2012}, polymers \citep{Wang2012poly,Bochicchio2017}, lipids \citep{Lee2011,Brocos2012} or peptides \citep{Guo2012,Seo2012}.
 %
-For example, the assembly in water of peptide amphiphiles (PAs) into cylindrical fibers has been simulated at the coarse-grained level \citep{Lee2012}, showing a transition from small micelles to longer fibres (Figure \ref{fig:PA}). This example of minimal PA structures is particularly interesting for the study of AMPs as well, as it shares with them the amphiphatic character, so that having a general knowledge on how similar sequences assemble together would help in tuning their aggregation properties in water prior to the delivery to the membrane.
+Regarding the latter, the assembly in water of peptide amphiphiles (PAs) into cylindrical fibers has been simulated \citep{Lee2012}, showing a transition from small micelles to long fibres (Figure \ref{fig:PA}). This example of minimal PA structures is particularly interesting for the study of AMPs as well, as it shares with them the amphiphatic character, so that having a general knowledge on how similar sequences assemble together would help in tuning their aggregation properties in water prior to the delivery to the membrane.
 %
 In the work mentioned, pre-assembled fibres have been simulated as well at the atomistic level, to confirm their stability in solution.
 %
@@ -423,15 +449,14 @@ In the work mentioned, pre-assembled fibres have been simulated as well at the a
 \label{fig:PA}
 \end{figure}
 
-The second approach consists in preparing the system in a pre assemble state that is somewhat suggested by experimental evidences and using MD simulations to verify whether the conformation is kept or it is disrupted, and which one out of many is the one most energetically favoured. It has been widely employed in cases where the final assembly was hypothesised to have a high degree of order, achievable only with a long sampling. 
+The second approach consists in preparing the system in pre assemble states that are somewhat suggested by experimental evidences, using MD simulations to verify whether the conformations are kept or disrupted, and which one is the one most energetically favoured. It has been widely employed in cases where the final assembly was hypothesised to have a high degree of order, achievable only with a long sampling \citep{Gudlur2012}.
 %
 %This approach has been used to prove that a branched peptide can self-assemble in bilayers first, and then that a larger hypothetical structure assembled in the shape of a capsule was stable in the run time of the coarse-grained simulations employed. Specifically, the capsule has been build to match the peptide density on the self-assembled double layer and to respect the constraints derived from the presence of the curvature \citep{Gudlur2012}.
 
-Similar approaches have been crucial in elucidating the assembly process of viral capsids: capsids are very large systems and the assembly of their protein subunits is mediated by energy barriers. For such reasons, already pre-assembled systems have been simulated to understand the interaction between the components and thus the first mechanisms of the assembly. This has been done recurring to ultra coarse-grained or elastic network models \citep{Grime2016} first, and only in the most recent advances to atomistic simulations \citep{Perilla2016,Hadden2018}. Additionally, smaller portions of a capsid can be simulated, to obtain a minimal information on the cohesion of its blocks \citep{AbiMansour2014}.
+Similar approaches have been crucial in elucidating the assembly process of viral capsids. Capsids are very large systems and the assembly of their protein subunits is mediated by energy barriers. For these reasons, pre-assembled systems have been simulated to understand the interaction between the components and thus the first mechanisms of the assembly. This has been done recurring to ultra coarse-grained or elastic network models \citep{Grime2016,AbiMansour2014} first, and only in the most recent computational advances to atomistic simulations \citep{Perilla2016,Hadden2018}. \citep{AbiMansour2014}.
 
 
 \paragraph{}
-The examples above show how Molecular Dynamics simulations have been employed for the investigation of many different systems during the years, adapting the resolution, set up and the techniques related to better query the systems of interest. Such overview suggests then that simulations would be a suitable tool to investigate the system of interest of this work, namely the self-assembling antimicrobial peptide capzip. The two aspects of its behaviour will be studied separately, adopting the necessary approximations and strategies to make the simulations efficient and to query the related questions at each time.
+The examples above show how Molecular Dynamics simulations have been employed for the investigation of many different systems, adapting the resolution, set up and the techniques related to better query the systems of interest. Such overview suggests then that simulations would be a suitable tool to investigate the system of interest of this work, namely the self-assembling antimicrobial peptide capzip. The two aspects of its behaviour will be studied separately, adopting the necessary approximations and strategies to make the simulations efficient and to query the related questions at each time.
 
-\paragraph{}
-The details of the systems simulated and the specific parameters used for each of the system simulated in the following chapters can be found in the relative sections, together with an extensive explanation of the motivation of the choices made.
+The details of the systems simulated and the specific parameters used for each of the systems simulated in the following chapters can be found in the relative sections, together with an extensive explanation of the motivation of the choices made.
