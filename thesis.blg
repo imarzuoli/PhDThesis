@@ -4,47 +4,47 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: 3results_capsule/results_capsule.aux
 The style file: my_apalike.bst
 Database file #1: thesis_ref2.bib
-Warning--I didn't find a database entry for "Berrera2019"
 Warning--empty publisher in gromacs_man
-You've used 58 entries,
+Warning--there's a number but no volume in Hunter2001
+You've used 65 entries,
             1958 wiz_defined-function locations,
-            881 strings with 16672 characters,
-and the built_in function-call counts, 27330 in all, are:
-= -- 2732
-> -- 1400
-< -- 10
-+ -- 585
-- -- 448
-* -- 2474
-:= -- 4644
-add.period$ -- 177
-call.type$ -- 58
-change.case$ -- 539
-chr.to.int$ -- 58
-cite$ -- 59
-duplicate$ -- 819
-empty$ -- 1730
-format.name$ -- 516
-if$ -- 5299
+            926 strings with 18144 characters,
+and the built_in function-call counts, 30618 in all, are:
+= -- 3067
+> -- 1552
+< -- 12
++ -- 647
+- -- 495
+* -- 2778
+:= -- 5192
+add.period$ -- 198
+call.type$ -- 65
+change.case$ -- 599
+chr.to.int$ -- 65
+cite$ -- 67
+duplicate$ -- 917
+empty$ -- 1949
+format.name$ -- 574
+if$ -- 5939
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 58
-newline$ -- 295
-num.names$ -- 176
-pop$ -- 468
+missing$ -- 65
+newline$ -- 330
+num.names$ -- 197
+pop$ -- 519
 preamble$ -- 1
-purify$ -- 542
+purify$ -- 602
 quote$ -- 0
-skip$ -- 800
+skip$ -- 891
 stack$ -- 0
-substring$ -- 2058
-swap$ -- 67
+substring$ -- 2344
+swap$ -- 74
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 344
-warning$ -- 1
-while$ -- 212
+type$ -- 386
+warning$ -- 2
+while$ -- 240
 width$ -- 0
-write$ -- 758
+write$ -- 849
 (There were 2 warnings)
