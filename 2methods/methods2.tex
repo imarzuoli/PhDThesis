@@ -109,7 +109,7 @@ The same conventions hold for improper dihedrals $\xi_{ijkl}$, which are used to
   Improper & $\xi_{ijkl}^{\, 0}$ & $k_{ijkl}^\xi$ & $\frac{\text{kJ}}{\text{mol}}$  & $V_{id} (\xi_{ijkl}) = \frac{1}{2}\,k_{ijkl}^\xi \left( \xi_{ijkl} - \xi_{ijkl}^{\, 0} \right)^2$ \\
   \hline
  \end{tabular}
-\captionof{table}[Functional form of GROMOS]{Functional form of bonded interaction in the GROMOS force field implemented in GROMACS.}
+\captionof{table}[Functional form of GROMOS force field]{Functional form of bonded interaction in the GROMOS force field implemented in GROMACS.}
 \label{table:ff}
 \end{figure}
 
@@ -140,13 +140,13 @@ Finally, all biomolecular force fields, and in particular their van der Waals in
 
 \subsection{Force fields: classifications} \label{sec:ff_ex}
 
-%\begin{figure}[p!]
-%\centering
-%\includegraphics[scale=.65]{picture_chapter}
-%%
-%\caption{List of most popular simulation force field for biomolecules, ordered from detailed to coarse (reference to the relative papers in Section \ref{sec:ff_ex}). On the left, snapshot of notable systems simulated with the force fields CHARMM (adapted with permission from \cite{Lipkin2017}. Copyright (2017) American Chemical Society); GROMOS (adapted with permission from \cite{Macpherson2019}); SIRAH (adapted with permission from \cite{Machado2017}. Copyright (2017) American Chemical Society) and MARTINI (adapted with permission from \cite{Samsudin2017}). Copyright (2017) Elsevier).}
-%\label{fig:ff}
-%\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{2methods/pics/picture_chapter}
+%
+\caption[Scheme of popular simulation force field for biomolecules]{List of popular simulation force field for biomolecules, ordered from detailed to coarse (reference to the relative papers in Section \ref{sec:ff_ex}). On the left, snapshot of notable systems simulated with the force fields CHARMM (adapted with permission from \cite{Lipkin2017}. Copyright (2017) American Chemical Society); GROMOS (adapted with permission from \cite{Macpherson2019}); SIRAH (adapted with permission from \cite{Machado2017}. Copyright (2017) American Chemical Society) and MARTINI (adapted with permission from \cite{Samsudin2017}). Copyright (2017) Elsevier).}
+\label{fig:ff}
+\end{figure}
 
 Many force fields for classical MD simulations adopt a functional form equal or similar to the one described above. Their difference lies in the number of degrees of freedom modelled, in a hierarchy of descriptions proceeding from detailed to coarse  (Figure \ref{fig:ff}). Three possible classes of descriptions are:
 \begin{itemize}

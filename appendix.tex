@@ -8,22 +8,24 @@
 
 \section{Supplementary material}
 \label{sec:SI}
-Supplementary material can be found at \url{https://github.com/imarzuoli/????} and includes Supplementary videos of:
+Supplementary material can be found at \url{https://github.com/imarzuoli/????} and includes Supplementary Movies of:
 \begin{itemize}
-\item atomistic simulation of the buckyball bilayer - 100 ns (\url{SI_M1_GROMOS_buckyball.mp4});
-\item SIRAH and Polar MARTINI simulations of the buckyball bilayer and monolayer - 1 $\mu$s (\url{SI_M2_SIRAH_buckyball_BIandMONO.mp4} and *\url{SI_M3_PolarMARTINI_buckyball_BIandMONO.mp4});
-\item atomistic simulation of poration of a model bacterial model membrane under the combined action of the pentagonal capzip subunit and an external electric field of 130 mV/nm - 60 ns (\url{SI_M4_GROMOS_capzip_bacterial_E130.mp4});
-\item standard MARTINI simulation of a buckyball bilayer approaching a bacterial and mammalian model membrane - 10 $\mu$s (\url{SI_M5_stdMARTINI_capzip_bacterial.mp4} and \url{SI_M6_stdMARTINI_capzip_mammalian.mp4});
-\item Polar MARTINI simulation of a buckyball bilayer porating a model bacterial membrane under the effect of a 40 mV/nm external electric field - 200 ns (*\url{SI_M7_PolarMARTINI_capzip_bacterial_E40_poration.mp4}).
+\item SI\_M1: atomistic simulation of the buckyball bilayer - 100 ns (\url{SI_M1_GROMOS_buckyball.mp4});
+\item SI\_M2, SI\_M3: SIRAH and Polar MARTINI simulations of the buckyball bilayer and monolayer - 1 $\mu$s (\url{SI_M2_SIRAH_buckyball_BIandMONO.mp4} and \url{SI_M3_PolarMARTINI_buckyball_BIandMONO.mp4});
+\item SI\_M4: atomistic simulation of poration of a model bacterial model membrane under the combined action of the pentagonal capzip subunit and an external electric field of 130 mV/nm - 60 ns (\url{SI_M4_GROMOS_capzip_bacterial_E130.mp4});
+\item SI\_M5, SI\_M6: standard MARTINI simulation of a buckyball bilayer approaching a bacterial and mammalian model membrane - 10 $\mu$s (\url{SI_M5_stdMARTINI_capzip_bacterial.mp4} and \url{SI_M6_stdMARTINI_capzip_mammalian.mp4});
+\item SI\_M7: Polar MARTINI simulation of a buckyball bilayer porating a model bacterial membrane under the effect of a 40 mV/nm external electric field - 200 ns (\url{SI_M7_PolarMARTINI_capzip_bacterial_E40_poration.mp4}).
 \end{itemize}
 
 
 \section{Software developed}
 \label{sec:Appendix_software}
 
-The simulations and analysis of capzip systems prompted the development of tools to facilitate the set up of simulations, or their analysis.
+The simulations and analysis of capzip systems prompted the development of tools to facilitate the task.
 %
-The scripts and packages developed, to be used in conjunction with the standard analysis tools provided by the GROMACS and MDAnalysis softwares, can be found at \url{https://github.com/imarzuoli/MDtools} and include:
+These are meant to be used in conjunction with standard analysis tools provided by GROMACS \citep{Berendsen1995,Abraham2015,gromacs_man} and MDAnalysis \cite{Michaud-Agrawal2011,Gowers2016}.
+%
+The scripts and packages developed can be found at \url{https://github.com/imarzuoli/MDtools} and include:
 \begin{itemize}
 \item python functions to perform the analysis of contacts as in Section \ref{sec:results_cap} (\url{contacts_analysis.py}); functions to perform the hydration analysis as in Section 3.4 of Chapter \ref{chapter:lip_par} (\url{an_min_hist.py});
 %\emph{delete_water.py}: a script to delete water molecules in a given slice of space (perpendicular to either x, y or z)
