@@ -478,7 +478,7 @@ As a short hand notation, we will call the D coefficient obtained from a L$_{COM
 The former measures the pure random movement of a lipid with respect to its neighbours, the latter is influenced by possible collective movements of one leaflet with respect to the other.
 \begin{figure}[t!]
 \centering
-\includegraphics[width=0.75\linewidth]{3results_capsule/pics/diff_comrem} 
+\includegraphics[width=0.95\linewidth]{3results_capsule/pics/diff_comrem} 
 \caption[Scheme of trajectories preprocessing for computation of diffusion]{Scheme of two different procedures for centring a trajectory of a lipid bilayer: from the \emph{Original} configuration, coordinates are translated to remove either the bilayer or each leaflet movement. The collection of \emph{final} frames, one for each time step, gives the trajectory used to compute the MSD of lipids and thus diffusion.}
 \label{fig:com_rem_scheme}
 \end{figure}
@@ -684,8 +684,6 @@ An interesting follow up on this topic would be investigating whether a tuning o
 
 \subsection{Bilayer versus monolayer: coarse-grained simulations} \label{sec:mono}
 To prove also on large scale objects that the bilayer structure is indeed essential to grant a structure which does not disassemble or changes shape, we performed simulations of a monolayer capsule (specifically taking the external layer of the capsule already simulated - Figure \ref{fig:BTI_vmd}, E) in the three coarse-grained force fields employed so far (Supplementary Movies SI\_M2 and SI\_M3 show SIRAH and Polar MARTINI runs for the monolayer as well - Replica 1).
-
-).
 %
 \begin{figure}[h!]
     \subbottom[]{\includegraphics[width=0.48\linewidth, align=c]{3results_capsule/pics/compare_MonoBi_rmsd_init.png} \label{fig:rmsd_mono_bi}}
@@ -758,7 +756,7 @@ The expansion of the structure suggests that the atomistic simulations analysed 
 Once more, this supports the reliability of the simulations performed so far.
 
 
-
+\clearpage
 \section{Results: peptide-membrane interactions}
 
 We now discuss simulations of capzip in contact with a membrane. First we focus on atomistic simulations of the pentagonal peptidic subunit in contact with a model bacterial or mammalian membrane, both under standard simulations conditions and with an applied external electric field. In this, we elucidate the local effect that the peptide has on the local lipid organisation.
@@ -767,6 +765,10 @@ We then analyse the process of membrane binding which is observed in coarse-grai
 
 
 \subsection{Atomistic simulations of the bacterial model membrane} \label{sec:lip_atom_bact}
+
+Preliminary simulations were run on bacterial membranes alone (two lipid bilayers with 512 and 740 lipids respectively), to equilibrate them and compute their characteristics in absence of the peptide.
+%
+For the bacterial model chosen (DLPC/DLPG 3:1), we obtained an ApL of $0.580(5)$ nm$^2$ for the 512-lipids bilayer (simulated with GROMOS 54A7 force field), and  $0.569(4)$ nm$^2$ for the 740 one (GROMOS 54A8) as shown in Figure \ref{fig:lip_apl}, lines 1 and 5.
 
 \begin{sidewaysfigure}[p!]
 \centering
@@ -790,10 +792,6 @@ In (b) and (c) staggering along the $y$-axis helps the visualisation.
 Bars denote the standard error; for the diffusion coefficients, these are smaller than the point size. Analysis performed discarding the first 200 ns of the simulations time.}
 \label{fig:lipids_ApL_D}
 \end{sidewaysfigure}
-
-Preliminary simulations were run on bacterial membranes alone (two lipid bilayers with 512 and 740 lipids respectively), to equilibrate them and compute their characteristics in absence of the peptide.
-%
-For the bacterial model chosen (DLPC/DLPG 3:1), we obtained an ApL of $0.580(5)$ nm$^2$ for the 512-lipids bilayer (simulated with GROMOS 54A7 force field), and  $0.569(4)$ nm$^2$ for the 740 one (GROMOS 54A8) as shown in Figure \ref{fig:lip_apl}, lines 1 and 5.
 
 The difference is small but statistically significant (the two measures are not compatible within the error).
 %
@@ -832,7 +830,7 @@ At the same time, the order parameter S$^{avg}_{CD}$ increased slightly (Figure 
 %
 To investigate this, for the simulation in presence of capzip, the hexagonal order parameter $S_6$ is computed for the bottom leaflet of the membrane (the one not hosting the pentagonal subunit, if present). This shows a few lipids in the gel phase, i.e.\ S$_6 \ge 0.72$ (Figure \ref{fig:S6_pb4}): despite there is no formation of ordered clusters, the shrinking of the membrane due to the presence of capzip increases the lateral order. Indeed no lipid reaches the S$_6$ gel threshold in the simulations of a pure membrane (data not shown).
 %
-\begin{figure}[h!]
+\begin{figure}
 \centering
 \includegraphics[width=0.5\linewidth]{3results_capsule/pics/pb4_S6.png} 
 \caption[Lipid hexagonal order parameter in an atomistic protein-lipid simulation]{Hexagonal order parameter S$_6$ for the bottom leaflet lipid acyl chains, computed on the last frame of a simulation of a 512-lipids bacterial bilayer with 10 peptide molecules (line 3 in \ref{fig:lipids_ApL_D}). Chains plotted by the average $xy$ position of their carbon atoms, and colour coded by the S$_6$ value; chains of the periodic images shown faded out; boundaries of the simulation box in solid black lines.}
@@ -1018,7 +1016,7 @@ The fact that salt is responsible for the reduction in ApL is supported by the r
 %
 Therefore, we conclude that the effect of the salt concentration is the main responsible for the smaller ApL observed for the large DLPC membrane simulated with 150 mM NaCl with respect to the experimental values.
 
-The ApL of the DLPC bilayer is larger than the one found for the model bacterial membrane, likely because the presence of DLPG in the latter diminishes the repulsion between the positively charged Choline heads of DLPC. Accordingly, the pure lateral diffusion (0.495(1) $\mu$m$^2$/s) is slightly higher than with what found for the mixed membrane (0.383(1) $\mu$m$^2$/s for DLPC and 0.487(3)$\mu$m$^2$/s for DLPC). Simulations of a 512-lipids DLPC bilayer without salt (see Figure 8 in Chapter \ref{chapter:lip_par}) gave a higher value, and again we deemed the presence of the salt responsible for this.
+The ApL of the DLPC bilayer is larger than the one found for the model bacterial membrane, likely because the presence of DLPG in the latter diminishes the repulsion between the positively charged Choline heads of DLPC. Accordingly, the pure lateral diffusion (0.495(1) $\mu$m$^2$/s) is slightly higher than with what found for the mixed membrane (0.383(1) $\mu$m$^2$/s for DLPC and 0.487(3) $\mu$m$^2$/s for DLPC). Simulations of a 512-lipids DLPC bilayer without salt (see Figure 8 in Chapter \ref{chapter:lip_par}) gave a higher value, and again we deemed the presence of the salt responsible for this.
 
 \begin{figure}[t!]
 \centering
@@ -1100,8 +1098,8 @@ Post-binding, the capsule diffuses on the membrane and produces an increasingly 
 & & & (mM) & (mV/nm) & & (nm$^2$) & ($\mu$m$^2$/s) & ($\mu$m$^2$/s) \\
 % Pept. & Lip. & C (mM) & E (mV/nm) & FF & ApL (nm$^2$) & D$_{DLPC}$ ($\mu$m$^2$/s) & D$_{DLPG}$ ($\mu$m$^2$/s) \\
  \hline
-\textbf{1} & -- & 1248 & 0 & -- & MA & 0.582(3) & 74.06(1) & 73.60(3) \\ 
-\textbf{2} & -- & 2880 & 150 & -- & MA\_P & 0.611(1) & 79.4(5) & 79.0(5) \\
+\textbf{1} & -- & 2880 & 0 & -- & MA & 0.581(3) & 75.84(7) & 76.64(5) \\ 
+\textbf{2} & -- & 2880 & 150 & -- & MA\_P & 0.611(1) & 79.4(4) & 79.0(5) \\
 \textbf{3} & -- & 2880 & 150 & 20 & MA\_P & 0.614(1) & 74.64(5) & 73.67(2) \\
 \textbf{4} & -- & 2880 & 150 & 40 & MA\_P & 0.619(2) & 70.31(4) & 70.45(6) \\
  \hline
@@ -1117,10 +1115,10 @@ Post-binding, the capsule diffuses on the membrane and produces an increasingly 
 & Pept. & Lip. & C & E & FF & ApL & D$_{DLPC}$ & \\
 & & & (mM) & (mV/nm) & & (nm$^2$) & ($\mu$m$^2$/s) & \\
  \hline
-\textbf{1} & -- & 722 & 0 & -- & MA & 0.591(2) & 73.0(3) \\ 
-\textbf{2} & -- & 2888 & 150 & -- & MA\_P & ?? & ? & \\
-\textbf{3} & -- & 2888 & 150 & 20 & MA\_P & 0.610(1) & 85.16(7) & \\
-\textbf{4} & -- & 2888 & 150 & 40 & MA\_P & 0.614(1) & 84.58(24) & \\
+\textbf{1} & -- & 2888 & 0 & -- & MA & 0.590(2) & 83.5(3) \\ 
+\textbf{2} & -- & 2888 & 150 & -- & MA\_P & 0.608(2) & 80.5(4) & \\
+\textbf{3} & -- & 2888 & 150 & 20 & MA\_P & 0.610(1) & 78.3(1) & \\
+\textbf{4} & -- & 2888 & 150 & 40 & MA\_P & 0.614(1) & 76.90(3) & \\
  \hline
 \textbf{5} & 120 (BB) & 2888 & 0 & -- & MA & 0.590(1) & 81.07(3) & \\ 
 \textbf{6} & 120 (BB) & 2888 & 150 & -- & MA\_P & 0.608(1) & 70.52(2) &  \\
@@ -1163,13 +1161,13 @@ Polar MARTINI simulations focussed on \emph{in silico} experiments with an exter
 %
 Together with the simulations of the membrane with the capsule, we run control simulations of the pure membrane with the selected values of the external field, to exclude the possibility of electroporation.
 
-Simulations on the membranes alone (both the bacterial and mammalian model) showed an increased ApL with respect to the standard MARTINI simulations (lines 1-2 in Tables \ref{table:martini_diff}, top and bottom). This is the opposite of what observed in the test case run in the original work that parametrised Polar water \citep{Yesylevskyy2010}, possibly due to the different size and composition of the test one used in \citet{Yesylevskyy2010}.
+Simulations on the membranes alone (both the bacterial and mammalian model) showed an increased ApL with respect to the standard MARTINI simulations (lines 1-2 in Tables \ref{table:martini_diff}, top and bottom). This is the opposite of what observed in the test case run in the original work that parametrised Polar water \citep{Yesylevskyy2010}, possibly due to the different size and composition of the test membrane used in \citet{Yesylevskyy2010}.
 %
 Additionally, the two simulations are run with different values of the salt concentration (MARTINI has only counter ions, Polar MARTINI has 150 mM NaCl): in the atomistic case this discrepancy made the ApL decrease, which is again inconsistent with what observed here and can be attributed to the parametrisation of ions in the coarse-grained model (e.g.\ their van der Waals radius includes the first hydration shell, thus they will penetrate less easily into the lipid head region).
 %
-Regarding the diffusion coefficient it increases slightly from MARTINI to Polar MARTINI, which can be expected when the ApL is increased as well. 
+Regarding the diffusion coefficient it decreases from MARTINI to Polar MARTINI, despite an increase in ApL, and this is likely due to stronger interactions between lipids (especially the charged DLPG). This is due to the Coulomb interaction, which is less screened and thus stronger in the Polar MARTINI model.
 
-When an electric field is applied in Polar MARTINI simulations, there is a slight increase of ApL for higher values of it, while the diffusion decreases (lines 2-4 in Tables \ref{table:martini_diff}, top and bottom). In atomistic simulations the field decreased the ApL for small systems and had negligible effect for larger ones; while the diffusion was reduced, as in the Polar MARTINI case.
+When an electric field is applied in Polar MARTINI simulations, there is a slight increase of ApL for higher values of it, but the diffusion decreases slightly (lines 2-4 in Tables \ref{table:martini_diff}, top and bottom). In atomistic simulations the field decreased the ApL for small systems and had negligible effect for larger ones; while the diffusion was reduced, as in the Polar MARTINI case.
 
 To simulate the binding of the buckyball bilayer, we first focussed on the bacterial membrane. We run one simulation without electric field, to test the interaction between the two with the new parametrisation. The binding happens much faster than what observed in the standard MARTINI simulations (within the first 50 ns), and the membrane starts to be deformed by the capsule already after 100 ns (Figure \ref{fig:martini_stMem0}). For this reason, Table \ref{table:martini_diff} does not report a value of the diffusion \emph{before} binding.
 
@@ -1204,13 +1202,13 @@ As a control, the same simulations with external electric field were run with a 
 %
 %This definitely prove that the peptide has a low propensity to bound to non anionic lipids. This can raise questions in the light of its tranfection properties, as it was experimentally demonstrated that capzip can enhance the internalisation of siRNA on HeLa cells. However, the siRNA material has a high negative charge, which can impact substantially the electrostatic profile of a capsule including it and thus on its binding more to membranes.
 
-Regarding diffusion, we retrieved the slowing down of lipids when the buckyball bilayer is bound to the bacterial model membrane. DLPG is more slowed down with respect to DLPC in simulations with no or 40 mV/nm electric field, while for the 20 mV/nm it is slightly faster. Also, for this membrane model, there is no clear trend of diffusion at increasing electric field.
+Regarding diffusion, we retrieved the slowing down of lipids when the buckyball bilayer is bound to the bacterial model membrane. DLPG is more slowed down with respect to DLPC in simulations with no or 40 mV/nm electric field, while for the 20 mV/nm it is slightly faster.
 %
-Instead, when considering the DLPC membrane simulated in presence of a capsule (which does \emph{not} bind to it), diffusion is increasing with the field. This is the opposite to what observed for simulations of the DLPC membrane alone, showing that the buckyball bilayer has a long range interaction with the membrane and modifies its dynamics, even without binding to it. 
+Instead, when considering the DLPC membrane simulated in presence of a capsule (which does \emph{not} bind to it), diffusion of lipids is increased with the field. This is the opposite to what observed for simulations of the DLPC membrane alone, showing that the buckyball bilayer has a long range interaction with the membrane and modifies its dynamics, even without binding to it. 
 
 As a final comment, it must be noticed that the variability on the diffusion coefficient might be higher than what suggested from the error derived from the fit. The MSD computed on MARTINI membranes has a very precise linear dependence from time, thanks to the length of the simulation and the extent of the system (the MSD is averaged over many time frames and many lipids, see Figure \ref{fig:MSD_martini}). This gives a small error on the fitted slope. However for the MARTINI simulation of the capsule on DLPC/DLPG, we run a second replica and observed a discrepancy of about 2 $\mu$m$^2$/s between the diffusion coefficients, despite both have a very small error from the fit.
 %
-As such, the results presented in Table \ref{table:martini_diff} must be interpreted carefully. However, the differences between the DLPC and DLPG coefficients observed for the simulations after binding of the buckyball bilayer to the membrane remain significant, to confirm that the peptide has a stronger effect on negatively charged lipids.
+As such, the results presented in Table \ref{table:martini_diff} must be interpreted carefully. However, the differences between the DLPC and DLPG coefficients observed for the simulations after binding of the buckyball bilayer to the membrane are large enough to remain significant, confirming that the peptide has a stronger effect on negatively charged lipids.
 
 
 \section{Outlook}
@@ -1323,11 +1321,12 @@ The only conditions which severely affects the ApL seems the complete neglect of
 
 Regarding the different cut off values, we did not find previous work testing the difference. However, given that we apply a long range correction, the cut off simply discriminated which positions are treated in the exact way and which instead through the long range approximation of choice. As these approximations seem consistent among them and robust, we foresee that a small shift in the cut off length does not have a high impact on the simulation outcome.
 
-\clearpage
 
-\subsection{Assembly simulations: results from Replica 2}
+\subsection{Buckyball simulations: results from Replica 2}
 
-\begin{figure}[h!]
+In the following pages we include the results obtained from Replica 2 of the buckyball bilayer and monolayer simulations (analogous to Figures \ref{fig:struct_UA_SIhere}-\ref{fig:BTI_sasa_exposed} and \ref{fig:eng_cg}-\ref{fig:mono_bi_sasa}).
+
+\begin{figure}[p]
 \centering
 \subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/R2_Rg_all.png}} 
 \subbottom[]{\includegraphics[width=0.48\linewidth]{3results_capsule/pics/R2_RMSD_all.png}} \\
@@ -1404,6 +1403,7 @@ Regarding the different cut off values, we did not find previous work testing th
 \subsection{Additional Figures and Table}
 \begin{figure}[h!]
 \centering
+\vspace{2.5cm}
 \includegraphics[width=0.5\linewidth]{3results_capsule/pics/penta_final.png}
 \caption[(SI) Pentagonal subunit atomistic simulation: final configuration]{Final configuration from a 100 ns simulation of the pentagonal subunit in solution. Bonds and cartoon representation, coloured by name. [VMD software \citet{HUMP96}]}
 \label{fig:penta_results_SI}
@@ -1411,6 +1411,7 @@ Regarding the different cut off values, we did not find previous work testing th
 
 \begin{figure}[h!]
 \centering
+\vspace{1cm}
 \includegraphics[width=0.6\linewidth]{3results_capsule/pics/mindist_dlpc_MARTINI.png}
 \caption[(SI) Minimal distance buckyball bilayer - DLPC membrane (MARTINI)]{Minimal distance between the buckyball bilayer and a DLPC membrane during a MARTINI simulation.}
 \label{fig:mindist_buck_dlpc}
