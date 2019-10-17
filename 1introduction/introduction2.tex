@@ -1,24 +1,24 @@
 \chapter{Introduction} \label{chapter:intro}
 
-\lettrine{S}{cience} is a theoretical framework that explains the reality of nature. The scientist's vocation is to navigate the huge gap between theory and reality, allowing the understanding of the world where we live.
+\lettrine{S}{cience} has always thrived thanks to human curiosity and to the desire of modifying the environment around us.
 %
 Out of the many science fields at service of human wealth, the most challenging and still far away from being mastered is the comprehension and manipulation of the human body and mind. It is striking how we are finally scratching the understanding of these two entities in the same historical moment, at a point where computers start imitating human reasoning \citep{AlphaGo,googleAIblog,Alom2019} and biological materials are turned into semi-functional organs \citep{Rossi2018}.
 
-The process of understanding is intermingled with the process of creation, as scientific knowledge funded the field of technology. In the past two centuries we witnessed a technology evolution that condensed the collective expertise we accumulated so far into objects belonging, by now, to our daily life.
+The process of understanding is intertwined with the process of engineering, and goes in parallel with the development of technology. As such, in the past two centuries we witnessed a technological evolution that condensed the collective expertise we accumulated so far into objects belonging, by now, to our daily life.
 
-This boost of technology allowed for the development of novel instruments, and in turn for the accumulation of a broader scientific knowledge. Consequently, the times of all-round scientists left the way to an era in which specialisation is necessary to master and understand a subject, in the hope and trust that piecewise knowledge builds an organic corpus once the effort of many scientists is joined together.
+This boost of technical knowledge allowed for the development of novel instruments, and in turn for the accumulation of a broader scientific knowledge. Consequently, the times of all-round scientists left the way to an era in which specialisation is necessary to master and understand a subject, in the hope and trust that piecewise knowledge builds an organic body once the effort of many scientists is joined together.
 
-The increasing understanding of how we work - or fail to do so sometimes - together with the discovery of bacteria and the symbiotic or disruptive relationship we have with them, poses novel questions to science: why the body, which is carefully design to function effectively, fails sometimes? And why in these cases it defends itself also against beneficial drugs? But mostly, what can we do to repair such faults?
+The increasing understanding of how the body works - or fail to do so sometimes - together with the discovery of bacteria and the symbiotic or disruptive relationship we have with them, poses novel questions to science: why the body, which is carefully design to function effectively, is susceptible to pathogenic diseases, malfunctioning of its organs or failures in controlling itscells growth (tumours)? And why in some cases it defends itself also against beneficial drugs? But mostly, what can we do to repair such faults?
 
-Our biological and emotional push to change the course of nature to improve our lives lead to the development of ``medical technologies" such as drugs and treatments to aid the body in fighting the agents which attack it. Historically, this proceeded from a process of trial and error of natural substances, to an informed synthesis of artificial drugs to repair the body \citep{Wishart2018}, together with disinfectants \citep{WIDES_database} and antibiotics \citep{ABXdatabaseJhopkins} to fight pathogens: all together, we are closer and closer to the \emph{magic bullet} envisioned a century ago by Nobel Prize Paul Ehrlich, who dreamed of a ``personalised and tailored drug" able to target specific molecular defects while being beneficial to other healthy cells \citep{Strebhardt2008}. A success of the kind will be a life saving technology, and condense in a tiny space centuries of efforts to understand nature.
+Our biological and emotional push to change the course of nature to improve our lives lead to the development of ``medical technologies" such as drugs and treatments to aid the body in fighting the agents which attack it. Historically, this proceeded from a process of trial and error of natural substances, to an informed synthesis of artificial drugs to repair the body \citep{Wishart2018}, together with disinfectants \citep{WIDES_database} and antibiotics \citep{ABXdatabaseJhopkins} to fight pathogens: all together, we are closer and closer to the \emph{magic bullet} envisioned a century ago by Nobel Prize Paul Ehrlich, who dreamed of a ``personalised and tailored drug" able to target specific molecular defects, while being beneficial to other healthy cells \citep{Strebhardt2008}. A success of the kind will be a life saving technology, and condense in a single ``bullet" centuries of efforts to understand nature.
 
-Given the vast amount of knowledge on the topic, every research task focusses on single, simplified questions to complete the jigsaw. While new problems arise and are answered, new experimental techniques are developed to investigate them. However, the difficulties of studying micrometric systems as cells and bacteria are manifold, as we often do not possess instruments to look at them with the desired level of detail, or without perturbing their natural conditions. Therefore, in the last decades a new investigation approach emerged, proposing to model the systems of interest from the theoretical knowledge gathered so far, in terms of their structure, behaviour and properties.
+Given the vast amount of knowledge on the topic, every research task focusses on single, simplified questions to complete the full picture. While new problems arise and are answered, new experimental techniques are developed to investigate them. However, the difficulties of studying micrometric systems as cells and bacteria are manifold, as we often do not possess instruments to look at them with the desired level of detail, or to do so without perturbing their natural conditions. Therefore, in the last decades a new investigation approach emerged, proposing to model the systems of interest from the theoretical knowledge gathered so far, in terms of their structure, behaviour and properties.
 %
-Computational Biology is the field that proposes to do that, implementing those models first and then querying them for properties which are still unknown. At times, this proves to be the only method possible to answer the question posed \citep{Lee2009,Dror2012,Chou2015,Leipzig2016}.
+Computational Biology is the field that proposes to do that, implementing those models first and then querying them for properties which are still unknown. At times, this proves to be the only method possible to answer the question posed, for example to uncover the atomistic details of protein unfolding, to monitor the dynamics of transport channels or instead to predict the evolution of a cancer cell population \citep{Lee2009,Dror2012,Wang2015systbio}.
 
 This thesis aims at employing techniques belonging to Computational Biology to answer the specific question of how an artificial molecule behaves within selected biological environments.
 %
-Thus, while studying a structural biology problem, it places itself at the boundary with the fields of Bioengineering and Medicine: the following introduction is meant to give an overview of the many different challenges these fields have faced in recent years and the solutions found to those challenges, motivating the interest in developing novel molecules as the one which will be described in this work. In particular, two problems are highlighted: the insurgence of drug resistance, and the problem of drug delivery, as they are both addressed by the system in exam. Figure \ref{fig:intro} provides a work flow of this introductory chapter, to help the reader in identifying the sections of interest.
+Thus, while studying a structural biology problem, it places itself at the boundary with the fields of Bioengineering and Medicine: the following introduction is meant to give an overview of the many different challenges these fields have faced in recent years and the solutions found to those challenges, motivating the interest the development of novel molecules as the one which will be described in this work. In particular, two problems are highlighted: a) the insurgence of drug and antimicrobial resistance, and b) the problem of drug delivery, as they are both addressed by the system in exam. Figure \ref{fig:intro} provides a work flow of this introductory chapter, to help the reader in identifying the sections of interest.
 
 \begin{figure}[p!]
 \begin{center}
@@ -87,7 +87,7 @@ Mutations of some residues in the binding pocket (upon mutation in the gene codi
 %
 Notable examples of the first include the development of methicillin- (an antibiotic in the penicillin class) resistant strains of S. aureus \citep{Shore2011,Billal2011}. Again, several of these mutations are acquired by horizontal gene transfer from other bacterial species.
 %
-For the second process, the most relevant mechanism of chemical group addition is methylation, which, for example, is very common when the drug target are rRNA subunits \citep{Long2006}).
+For post-translational protection, the most relevant mechanism of chemical group addition is methylation, which, for example, is very common when the drug target are rRNA subunits \citep{Long2006}).
 
 
 \paragraph{Direct modification of antibiotics}
@@ -100,14 +100,14 @@ these enzymes co-evolves with newly developed drugs, to include in their spectru
 Antibiotics constituted by large molecules with many exposed hydroxyl and amide groups are instead particularly susceptible to addition of chemical groups. Many enzymes are responsible for this, and according to the chemical moiety added they are grouped in acetyltransferases, phosphotransferases and nucleotidyltransferases \citep{Wright2005}.
 
 
-%\subsection{Outlook on antimicrobial resistance}
-%All together, the recent progress in understanding the mechanisms of antimicrobial resistance has helped in directing the development of new drugs. In particular, it has promoted the modification of existing compounds to escape the resistance developed by bacteria.
+\subsection{Outlook on antimicrobial resistance}
+All together, the recent progress in understanding the mechanisms of antimicrobial resistance has helped in directing the development of new drugs. In particular, it has promoted the modification of existing compounds to escape the resistance developed by bacteria.
+
+It must be noticed that many of the drugs available drugs are bacteriostatic agents as opposed to bactericidal: i.e.\ they prevent the bacterium growth rather than kill it, as they are meant to slow down the damage while host defence mechanisms eradicate them.
 %
-%It must be noticed that many of the drugs available drugs are bacteriostatic agents as opposed to bactericidal: i.e.\ they prevent the bacterium growth rather than kill it, as they are meant to slow down the damage while host defence mechanisms eradicate them.
-%%
-%Thus, if an high dosage of a bactericidal agent may extinguish the bacterial population and eradicate the disease, bacteriostatic drugs allow bacteria to start again the reproduction cycle once removed (if the host defence could not properly work), and are thus more prone to ``train" resistant bacteria.
-%
-%The severity of the AMR treat is such that it has been raised to the status of national emergency in several countries, including UK. Strict regulations on the health, agricultural and food industry sector must be taken to prevent the misuse of antibiotics, as we are leaving the century in which antibiotics were discovered, to enter a phase in which we count the number of the ones loosing efficacy \citep{Oneill2016}.
+Thus, if an high dosage of a bactericidal agent may extinguish the bacterial population and eradicate the disease, bacteriostatic drugs allow bacteria to start again the reproduction cycle once removed (if the host defence could not properly work), and are thus more prone to ``train" resistant bacteria.
+
+The severity of the AMR treat is such that it has been raised to the status of national emergency in several countries, including UK. Strict regulations on the health, agricultural and food industry sector must be taken to prevent the misuse of antibiotics, as we are leaving the century in which antibiotics were discovered, to enter a phase in which we count the number of the ones loosing efficacy \citep{Oneill2016}.
 
 
 \section{Alternative antibiotic strategies: antimicrobial peptides}
@@ -115,9 +115,9 @@ In the landscape sketched above, the development of novel drugs is of crucial im
 
 However, it would be even more beneficial to have at disposal a new paradigm for their design, in order to attack pathogens in a completely novel way, avoiding to target pathways which are known to lead easily to resistance. Several novel materials have been developed for the task, not to rely on small molecules and to exploit different mechanisms of action, for example antibodies, bacteriophages and antimicrobial peptides \citep{Mantravadi2019}.
 
-While the use of pathogen-specific antibodies relies on mechanisms of the host immune system, bacteriophages therapy employs viruses which infect bacteria and archea rather than eukarya.
+The use of pathogen-specific antibodies relies on mechanisms of the host immune system, and bacteriophages therapy employs viruses which infect bacteria and archea rather than eukarya.
 %
-But antimicrobial peptides are the main focus of this thesis: some peptides can have an active role against bacteria, when their sequence possesses specific characteristics, and are thus referred to as antimicrobial peptides. The following subsections will explore their characteristics, modes of action and the response of bacteria against them. It is indeed crucial to understand the knowledge available on these molecules versus the questions that are still open, in order to direct the efforts of future research. This holds in particular when the investigation proceeds by use of simplified models, as the ones employed in Computational Biology. Meaningful results can be obtained only if such modelling is performed in a sensible and informed fashion.
+Finally, some peptides can have an active role against bacteria, when their sequence possesses specific characteristics, and are thus referred to as antimicrobial peptides and they are the main focus of this thesis. The following subsections will explore their characteristics, modes of action and the response of bacteria against them. It is indeed crucial to understand the knowledge available on these molecules versus the questions that are still open, in order to direct the efforts of future research. This holds in particular when the investigation proceeds by use of simplified models, as the ones employed in Computational Biology. Meaningful results can be obtained only if such modelling is performed in a sensible and informed fashion.
 
 \begin{figure}
 \begin{center}
@@ -165,13 +165,13 @@ In the case of Gram-negative bacteria (Figure \ref{fig:membranes}, right), the i
 %
 Inside the periplasm is situated the peptidoglycan cell wall. This substance is made of a disaccharide cross-linked by penta-peptide side chains, and these repeated units constitute the rigid skeleton of Gram-negative cells \citep{Gan2008}. Peptidoglycan is fundamental for cell life as its damage results usually in living but not viable cells \citep{Joseleau-Petit2007}.
 
-the outer membrane is grafted to the cell wall through Braun’s lipoproteins (or LPP) \citep{Asmar2018}. This membrane presents an asymmetric structure: phospholipids are present in the inner leaflet, while the outer one is composed of glycolipids, mainly lipopolysaccharides (LPS) \citep{Silhavy2010}. These complex molecules consist of lipid A, which presents multiple fatty acids, and a polysaccharide \citep{Raetz2002}. The polysaccharide is made of an inner core, covalently bond to the lipid, an outer core, and finally a repetitive glycan polymer (O-antigen). The O-antigen (top right in Figure \ref{fig:membranes}) is the molecule exposed by Gram-negative bacteria to the external environment and thus is the target of antibodies recognition.
+The outer membrane is grafted to the cell wall through Braun’s lipoproteins (or LPP) \citep{Asmar2018}. This membrane presents an asymmetric structure: phospholipids are present in the inner leaflet, while the outer one is composed of glycolipids, mainly lipopolysaccharides (LPS) \citep{Silhavy2010}. These complex molecules consist of lipid A, which presents multiple fatty acids, and a polysaccharide \citep{Raetz2002}. The polysaccharide is made of an inner core, covalently bond to the lipid, an outer core, and finally a repetitive glycan polymer (O-antigen). The O-antigen (top right in Figure \ref{fig:membranes}) is the molecule exposed by Gram-negative bacteria to the external environment and thus is the target of antibodies recognition.
 
 Given the complexity of the Gram-negative cell envelope, and especially the presence of the LPS layer, these bacteria are particularly impermeable to hydrophilic molecules, which are usually imported within the cell through porins and similar transmembrane proteins.
 
 For Gram-positive bacteria (Figure \ref{fig:membranes}, left) the inner membrane is enveloped in a thick peptidoglycan layer. If its thickness in Gram-negative bacteria reaches a few nanometers, in Gram-positive ones it spans from 30 to 100 nm. This thick layer is threaded by long anionic polymers (the teichoic acids), mainly composed by glycerol phosphate, glucosyl phosphate, or ribitol phosphate repeats \citep{Swoboda2009}. Disseminated in this layer there are several surface proteins with various functions, among which adhesins, which attach to components of the host extracellular matrix.
 
-Gram-positive membranes are generally more permeable because they do not possess a double-membrane structure, nevertheless the peptidoglycan layer they are coated with constitutes a challenge for drug delivery.
+Gram-positive membranes are generally more permeable because they do not possess a double-membrane structure: the peptidoglycan layer is partially permeable to small molecules, however positively charged drugs are likely sequestered by the negative teichoic acids, challenging their penetration but promoting a disruptive action at the membrane level \citep{Malanovic2016}.
 
 
 \paragraph{Comparison with mammalian membrane}
@@ -184,6 +184,8 @@ Furthermore, the mammalian cell membrane has a high content of cholesterol \cite
 Strictly speaking, some negatively charged lipids are present in a few mammal cell types, however they are located in the inner leaflet, while the zwitterionic phospholipids are more abundant in the outer leaflet, in an asymmetric composition \citep{vanMeer2008,Matsuzaki2009}.
 %
 This structure promotes weaker interactions between AMPs and mammalian cells with respect to bacterial ones, as the former is driven mainly by hydrophobic interactions, while the latter by electrostatic ones.
+%
+This feature is useful to quantify the perturbation of AMPs on the membrane, and as such has been analysed in the present work.
 
 Another relevant difference between bacterial and mammalian cells is that the first ones have typically a higher transmembrane potential - the difference of electrostatic potential between the inside and the outside environment. For bacteria it falls between $-130$ and $-150$ mV, while for mammalian cells between $-90$ and $-110$ mV \citep{Yeaman2003,Matsuzaki2009,Ebenhan2014}.
 %
@@ -193,7 +195,7 @@ Given that a potential generates an electric field across the membrane, the high
 \subsection{Common mechanisms of action of AMPs} \label{AMP_mechs}
 Investigating the perturbation and disruption of a bacterial membrane by antimicrobial peptides is a key point of this work, therefore it is important to highlight the mechanisms known so far through which AMPs reach this outcome.
 %
-As already mentioned, many AMPs have a positive charge which facilitates the binding to the membrane via charge-charge recognition; accordingly, Arginine and Lysine residues are usually abundant in AMPs sequences. However, the disruptive action takes place through the interaction of AMPs with the hydrophobic core of the membrane, therefore their sequences contain also hydrophobic aromatic residues, especially Tryptophan, which favours the anchoring to the lipid core \citep{Chan2006}.
+As already mentioned, many AMPs have a positive charge which facilitates the binding to the membrane via charge-charge recognition; accordingly, Arginine and Lysine residues are usually abundant in AMPs sequences. However, the disruptive action takes place through the interaction of AMPs with the hydrophobic core of the membrane, therefore their sequences contain hydrophobic aromatic residues, especially Tryptophan, which favours the anchoring to the lipid core \citep{Chan2006}.
 %
 Overall, AMPs resort often to adopt an amphiphatic structure to segregate the hydrophilic from the hydrophobic amino acids and thus to act at the interface between membrane and solution. It is interesting to notice that some of them fold into the active structure only nearby the membrane, as they can expose their hydrophobic components to face its core, while in solution these ones are preferentially buried inside the peptide fold to be screened from the solvent \citep{Nguyen2011}.
 %
@@ -216,7 +218,7 @@ For a single copy of an amphiphatic helical AMP, the proposed mechanism of actio
 %
 Similarly, for $\beta$-sheet rich structures, it is suggested that they insert within the membrane after a first flat approach.
 %
-The final insertion arrangement depends on the peptide characteristics and length, the presence of kinks in its structure (in case of helices), and the interactions with other copies of the peptide.
+The final insertion arrangement depends on the peptide characteristics, length and specific structure, and the interactions with other copies of the peptide.
 
 The picture becomes more complex for oligomer-mediated insertion, i.e.\ when the action is triggered by the combined action of many copies of the peptide.
 %
@@ -405,7 +407,7 @@ To reach the aimed organ, therapeutic molecules must be compatible with the diff
 
 For the above reasons, research has focused on developing systems to assist the delivery of drugs. A mimetic carrier can not only improve delivery, but also be designed to selectively bind to particular tissues, or to trigger the drug release after a delay in time, or only upon changes in environmental variables (for example pH), to reduce drug concentration in non targeted regions. A stand alone field of research has then focused on the development of delivery vehicles irrespective from the quest for new drugs. The optimised products of the two separate efforts can then be paired according to the condition to address, to give a successful therapy.
 
-At present, many molecules have been employed to build drug vehicles, both organic and inorganic, to offer a range of different physico-chemical characteristics useful to target different cells \citep{Hughes2005}. Inorganic materials, such as metal nanoparticles or carbon nanotubes, are in experimental phases and hold promise for promoting sustained drug release \citep{Boisselier2009,Depan2011}. Polymers, again inorganic compounds, have  instead been employed as drug eccipients in an extensive way so far \citep{Lammers2009,Liechty2010,Nicolas2013}.
+At present, many molecules have been employed to build drug vehicles, both organic and inorganic, to offer a range of different physico-chemical characteristics useful to target different cells \citep{Hughes2005}. Inorganic materials, such as metal nanoparticles or carbon nanotubes, are in experimental phases and hold promise for promoting sustained drug release \citep{Boisselier2009,Depan2011}. Polymers, again inorganic compounds, have instead been employed as drug eccipients in an extensive way so far \citep{Lammers2009,Liechty2010,Nicolas2013}.
 
 The use of organic molecules instead aims at mimicking the materials present in the body, such as lipids, DNA and peptides, in an effort to reduce toxicity and favour the internalisation of the vehicle in the target cells. In particular, lipids have been widely employed for the delivery of both soluble and insoluble drugs thanks to their amphihpatic structure \citep{Pattni2015paper,Jain2017,Yingchoncharoen2016,Bunker2016}. DNA scaffolds instead are a novel tool still at the experimental stage which have been proven successful in delivering anticancer agents \citep{Zhang2014, Jiang2012}. 
 
@@ -445,7 +447,7 @@ A step further in engineering peptidic structures is the design of self-assembli
 %
 The variety of amino acid available makes peptidic structures compatible with both hydrophilic and hydrophobic drugs, according to their amino acid composition \citep{Ma2012}.
 %
-The peptidic self-assembly is modulated by the peptide length and its hydrophobic or hydrophilic character, given by its amino acid composition: simple phenylalanine dipeptides (Figure \ref{fig:intro}, j), inspired from a pathogenic self-assembly pathway, were shown to assemble in a multi-scale process into nanotubes able to load drug molecules \citep{Silva2013}. The relatively small diphenylalanine building block is nevertheless complex as it bears two charged termini (as the process is observed at neutral pH), and two aromatic hydrophobic rings, so that the dipeptide is driven towards assembly by the hydrophobic forces acting on the phenylalanine side chains and the complementary charges of the termini.
+The peptidic self-assembly is modulated by the peptide length and its hydrophobic or hydrophilic character, given by its amino acid composition: simple phenylalanine dipeptides (Figure \ref{fig:intro}, j), were shown to assemble in a multi-scale process into nanotubes able to load drug molecules \citep{Silva2013}. The relatively small diphenylalanine building block is nevertheless complex as it bears two charged termini (as the process is observed at neutral pH), and two aromatic hydrophobic rings, so that the dipeptide is driven towards assembly by the hydrophobic forces acting on the phenylalanine side chains and the complementary charges of the termini.
 
 In a different approach, longer sequences (which organise spatially in well studied $\alpha$-helical or $\beta$-sheet secondary structures) can be employed to guide the assembly at the tertiary structure level (see some examples in Figure \ref{fig:amp_structure}).
 %
@@ -467,7 +469,7 @@ First of all, the assembly is functional to the antimicrobial activity: many AMP
 %
 Second, the assembly can perform additional delivery functions, if it is able to either organise in a tailored structure (for example a capsule able to host a drug), or to co-assemble with the cargo of interest.
 
-Out of all the possible applications, the most promising is perhaps the use of such vehicles to deliver drugs to treat metabolic or genetic diseases: while the cargo tackles a defect of the host system, the vehicle can counteract the proliferation of bacteria. This is particularly important when the host immune response is weakened and normally harmless infections can spread and cause damage.
+Out of all the possible applications, the ideal scope is perhaps the use of such vehicles to deliver drugs to treat metabolic or genetic diseases: while the cargo tackles a defect of the host system, the vehicle can counteract the proliferation of bacteria . This is particularly important when the host immune response is weakened and normally harmless infections can spread and cause damage.
 %
 As such, the cargo is not bound to be a small molecule, as long as it can effectively co-assemble with the peptidic carrier. As mentioned in the previous section, gene therapy is also an actively expanding field which looks with interest at the development of vehicles. Given that viruses have been the first choice for DNA/RNA delivery so far, peptidic carriers seem their natural evolution.
 
@@ -549,16 +551,16 @@ Similar experiments were performed on large unilamellar vesicles, constituted by
 %
 Additional experiments performed on other LfcinB subsequences, some of which introduced mutations \citep{Tsutsumi2012,Arseneault2010}, investigated the binding to different model membranes. However, as both the systems and the experimental conditions are slightly different each time, it is difficult to give a unified interpretation of the modes of action of lactoferricin-derived peptides.
 
-Finally, an alanine scanning has attempted to clarify the role of each amino acid in the antimicrobial activity of the original 25 amino acid LfcinB peptide \citep{Strom2002}. The results suggested a binding function for the Tryptophan residues, in line with one of the roles Tryptophan assumes in antimicrobial sequences \citep{Chan2006}.
+Finally, an alanine scanning has attempted to clarify the role of each amino acid in the antimicrobial activity of the original 25 amino acid LfcinB peptide \citep{Strom2002}. The results suggested a membrane binding function for the Tryptophan residues, in line with one of the roles Tryptophan assumes in antimicrobial sequences \citep{Chan2006}.
 %
-Another possible role, however, involves its propensity to form hydrogen bonds, in which case the residue would position itself at the interface between solution and membrane, rather than inside the latter, which happens when Tryptophan has a binding role \citep{Chan2006}.
+Another possible role, however, involves its propensity to form hydrogen bonds, in which case the residue would position itself at the interface between solution and membrane, rather than inside the latter, which happens when the Tryptophan residue has the function of binding the peptide to the membrane \citep{Chan2006}.
 
 \paragraph{The designed block}
-From the active core of LfcinB (of sequence RRWQWR), a mutated sequence was obtained to comply the design criteria of a self-assembling building block. Two mutations were introduced to favour the assembly of arms belonging to different molecules in an antiparallel fashion. Specifically, given that the original sequence is found in a $\beta$-sheet (at least in the crystal lattice) facing a non-homologous one, the mutations aim at promoting  $\beta$-sheet formation when two pairs of the \emph{same} sequence are in proximity. Therefore, the Glutamine residue and the C-terminal Arginine of the lactoferrin motif were replaced with Threonine and Glutamic acid to have a self-complementary sequence RRWTWE: the pairing is promoted by the attraction of opposite charges at the ends of the sequence.
+From the active core of LfcinB (of sequence RRWQWR), a mutated sequence was obtained to comply the design criteria of a self-assembling building block. Two mutations were introduced to favour the assembly of arms belonging to different molecules in an antiparallel fashion. Specifically, given that the original sequence is found in a $\beta$-sheet (at least in the crystal lattice) facing a non-homologous one, the mutations aim at promoting  $\beta$-sheet formation when two pairs of the \emph{same} sequence are in proximity. Therefore, the Glutamine residue and the C-terminal Arginine of the lactoferrin motif were replaced with Threonine and Glutamic acid residues to have a self-complementary sequence RRWTWE: the pairing is promoted by the attraction of opposite charges at the ends of the sequence.
 %
 Three copies of this sequence were thus covalently bonded to the scaffold as described previously (Figure \ref{fig:capzip_chem}), to obtain a self-assembling molecule hosting multiple copies of an antibacterial sequence.
 
-An additional layer of complexity has been added in the experimental investigation by synthesising a capzip molecule formed by D-amino acids only. The rationale behind this choice lays in the enhanced stability of D-peptides against proteolysis and their possibly low immunogenicity \citep{Uppalapati2016,Arranz-Gibert2018,King1994}, while the fold of the final product remains similar to its L- version.
+An additional layer of complexity has been added in the experimental investigation by synthesising a capzip molecule formed by D-amino acids only. The rationale behind this choice lays in the enhanced stability of D-peptides against proteolysis and their possibly low immunogenicity \citep{Uppalapati2016,Arranz-Gibert2018,King1994}, while the fold of the final molecule remains similar to its L- version.
 %
 Moreover, as antimicrobial peptides bind to membrane rather than dock to a specific protein, their D-epimer is likely to retain the activity of the L- counterpart \citep{King1994,Bland2001}.
 %
@@ -593,7 +595,7 @@ The fine structure of these assemblies appeared irregular to the resolution of t
 \end{center}
 \end{figure}
 
-The assembly process was also tested and monitored in combination with small interfering RNA (siRNA) sequences. The co-assembly of a 21 base pairs duplex with the peptide showed the formation of structures similar to the ones with peptide only: CD spectra highlighted the helical signal from RNA together with the features proper of the peptide (Figure \ref{fig:exp_CD}, dashed line).
+The assembly process was also tested and monitored in combination with small interfering RNA (siRNA) sequences. The co-assembly of a 21 base pairs sequence with the peptide showed the formation of structures similar to the ones with peptide only: CD spectra highlighted the helical signal from RNA together with the features proper of the peptide (Figure \ref{fig:exp_CD}, dashed line).
 %
 These co-assembled structures were tested for siRNA delivery in HeLa cells, thanks to their GPF (Green Fluorescent Protein) silencing activity: in cells expressing GFP, the delivery of such siRNA sequences would stop the fluorescent signal, up to degradation of the siRNA strands. The experiment showed that the internalisation occurred within the first hours from the transfection, suggesting an endocytic uptake (Figure \ref{fig:exp_rna}, a). The presence of the peptide enhanced the internalisation with respect to the one obtained from a pure siRNA control (Figure \ref{fig:exp_rna}, a), and was comparable with the uptake obtained with the standard transfection agent Lipofectamine\textsuperscript{\textregistered}.
 %
@@ -644,7 +646,7 @@ A more detailed view of the effects of a capzip capsule on the bacterial membran
 \end{center}
 \end{figure}
 
-Finally, to prove the viability of capzip as antimicrobial agent in vivo, it was used to counteract methicillin-resistant S. aureus (MRSA) infections in G. mellonella larvae. The particular bacterial strain used was susceptible to vancomycin, which could be used as control: the larvae treated with capzip showed survival rates significantly higher than the untreated control, and comparable to those treated with high doses of vancomycin \citep{Kepiro2019}.
+Finally, to prove the viability of capzip as antimicrobial agent in vivo, it was used to counteract methicillin-resistant S. aureus (MRSA) infections in G. mellonella larvae. The particular bacterial strain used was susceptible to vancomycin, which could be used as control: the larvae treated with capzip showed survival rates significantly higher than the untreated control, and comparable to those treated with high doses of vancomycin \citep{Kepiro2019} (see Appendix \ref{app:paper}).
 
 
 %MANCA: microfluidic results
