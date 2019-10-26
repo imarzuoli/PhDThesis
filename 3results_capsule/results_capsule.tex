@@ -105,7 +105,7 @@ The final structure was simulated at atomistic and coarse-grained levels, respec
 % LEAVE?
 From the final configurations of the MARTINI coarse-grained model (standard water), atomistic coordinates were obtained and simulated, to be compared with the original atomistic dynamics.
 %
-%Proving the stability at different timescales ascertains the characteristics that favour the assembly and identify the ones with suboptimal fitness to select them for improvement.
+%Proving the stability at different time scales ascertains the characteristics that favour the assembly and identify the ones with suboptimal fitness to select them for improvement.
 Moreover, additional simulations were run at all the coarse-grained levels on a buckyball monolayer (i.e.\ built from pentagonal subunits made by one pentagon only), to prove whether the bilayer is more energetically favoured.
 
 Finally, a test study on self-assembly was performed with one of the coarse-grained representations (MARTINI with standard water), starting from capzip molecules randomly placed in solution.
@@ -246,7 +246,7 @@ Throughout all the simulations, the temperature was maintained by independently 
 %\end{figure}
 
 
-\paragraph{Simulation with membranes} The atomistic coordinates for the bacterial membrane bilayer were built with the PACKMOL software \citep{Martinez2009}, from pdb files of a single DLPC \citep{PogerOrig} and DLPG \citep{Kukol2009} molecule. Two bilayers were built, made respectively of 512 and 740 lipids, with composition DLPC/DLPG (3:1). The initial area per lipid was set to 0.70 nm$^2$, above the values found experimentally for either lipid species (0.608(12) nm$^2$ for DLPC \citep{Kucerka2011} and 0.656(12) nm$^2$ for DLPG \citep{Pan2012}). The correct area per lipid of the mixture was reached during a 400 ns equilibration (see details below), the final configuration of which was used for simulations with the peptide.
+\paragraph{Simulation with membranes} The atomistic coordinates for the bacterial membrane bilayer were built with the PACKMOL software \citep{Martinez2009}, from pdb files of a single DLPC \citep{PogerOrig} and DLPG \citep{Kukol2009} molecule. Two bilayers were built, made respectively of 512 and 740 lipids, with composition DLPC/DLPG (3:1). The initial area per lipid was set to 0.70 nm$^2$, above the values found experimentally for either lipid species (0.608(12) nm$^2$ for DLPC \citep{Kucerka2011} and 0.656(12) nm$^2$ for DLPG \citep{Pan2012}). An area per lipid compatible with the experimental values was reached during a 400 ns equilibration (see details below), the final configuration of which was used for simulations with the peptide.
 % VERIFY WE CAN RUN IT!!!
 Given the analysis performed on the bacterial bilayer (see Section \ref{sec:lip_atom_bact}), for DLPC we opted for simulating a large membrane only. Accordingly, we produced a bilayer with 748 lipids and initial area per lipid of 0.68 nm$^2$.
 
@@ -267,11 +267,11 @@ Additional simulations were performed applying an external electric field to the
 %
 In a first run the field was increased by 20 mV/nm steps every 200 ns (or 10 mV/ns when reaching the critical value), until poration was induced (at 130 mV/nm).
 %
-Another simulation was performed for both the 512 and 740-lipids bilayers, with the threshold field, starting from the unperturbed membrane configuration (three replicas each).
+Another simulation was performed for both the 512 and 740-lipids bilayers, with the threshold field of 130 mV/nm, starting from the unperturbed membrane configuration (three replicas each).
 %
 As a control, analogous test simulations were run on the 512-lipids bacterial bilayer, assessing the electroporation threshold at the higher value of 140 mV/nm.
 
-To be noticed that the field across the bacterial inner membrane can be estimated around 35 mV/nm, and across the mammalian one 20 mV/nm (from, respectively, a -130/-150 mV and -70/-90 mV potential \citep{Yeaman2003,Wilson2011} and an estimate membrane thickness of 4 nm). However, previous computational work often explored the effects of higher fields, up to 500 mV/nm \citep{Tieleman2004, Bockmann2008, Piggot2011}, to witness poration within the simulations time, according to the resources available.
+To be noticed that the field across the bacterial inner membrane can be estimated to be around 35 mV/nm, and across the mammalian one around 20 mV/nm (an estimate computed from, respectively, a -130/-150 mV and -70/-90 mV potential \citep{Yeaman2003,Wilson2011} and an estimate membrane thickness of 4 nm). However, previous computational work often explored the effects of higher fields, up to 500 mV/nm \citep{Tieleman2004, Bockmann2008, Piggot2011}, to witness poration within the simulations time, according to the resources available.
 
 An overview of the simulations of peptide-membrane systems is given as well in Figure \ref{table:sim_all} (control simulations on pure membrane are listed in SI Table \ref{table:SI_membrane}).
 
@@ -577,7 +577,7 @@ Similarly, a common interactions is between Arg side chain (donor) and Glu backb
 
 \paragraph{Chemical characteristics of the surface: SASA} Finally, it is important to understand what residues are exposed at the surface of the structure, especially in view of future applications: in order to make the peptide co-assemble with other products, the two must have a compatible chemical character. The average Solvent Accessible Surface Area (SASA) for every amino acid along capzip arm (Figure \ref{fig:BTI_sasa_exposed}) shows that half of the accessible surface is represented by the charged residues Arginine, while Tryptophan contribute to it for less than one quarter, despite having bulky side chains.
 %
-For atomistic simulations, we can compare the SASA of each residue of type X with the reference SASA computed by theoretical modelling of a Gly-X-Gly tripeptide \citep{Tien2013}. The resulting ratio $Q_{SASA}$ is greater than one for both the Arginines: while for the terminal one (ARG1) it is consistent with the absence of a residue on one of the side, the fact that also the second has $Q_{SASA}>1$ proves that these residues are highly exposed in solution. On the contrary, Tryptophan has values around $0.5$, due to its propensity to be buried inside the structure, while Glutamic acid and especially Threonine seem less affected by the presence of the side chains of the residues around them.
+For atomistic simulations, we can compare the SASA of each residue of type X with the reference SASA computed by theoretical modelling of a Gly-X-Gly tripeptide \citep{Tien2013}. The resulting ratio $Q_{SASA}$ is greater than one for both the Arginines: while for the terminal one (ARG1) it is consistent with the absence of a residue on one of the side, the fact that also the second has $Q_{SASA}>1$ proves that these residues are highly exposed in solution. On the contrary, Tryptophan has values around $0.5$, due to its propensity to be buried inside the structure, while Glutamic acid and especially Threonine have value closer to one, showing no particular burying.
 \begin{figure}[t]
 \centering
 \subbottom[]{\includegraphics[height=0.3\linewidth]{3results_capsule/pics/st_All_sasa_fractions.png} \label{fig:all_sasa}} 
@@ -611,7 +611,7 @@ We first comment on the quantities already analysed at the atomistic level (if a
 \paragraph{Coarse-grained global structures}
 As foreseeable, the structures obtained with coarse-grained force fields are slightly different among each other and with respect to the atomistic one.
 %
-The SIRAH bilayer capsule has a structure more expanded with respect to the atomistic one, with a skewed and broader RDF profile, while MARTINI provides a more compact configuration, and finally Polar MARTINI a slightly more expanded structure than standard MARTINI, with a comparable thickness (respectively 6.0 nm, 4.6 nm and 4.8 nm average radius, with 2.9 nm, 1.9 nm and 1.9 nm average thickness - see Figure \ref{fig:Rg} and \subcaptionref{fig:RDF}).
+The SIRAH bilayer capsule has a structure more expanded with respect to the atomistic one, with a skewed and broader RDF profile, while MARTINI provides a more compact configuration, and finally Polar MARTINI a slightly more expanded structure than standard MARTINI, with a comparable thickness. Respectively, for SIRAH, MARTINI and Polar MARTINI the average radius is 6.0 nm, 4.6 nm and 4.8 nm, with 2.9 nm, 1.9 nm and 1.9 nm average thickness - see Figure \ref{fig:Rg} and \subcaptionref{fig:RDF}).
 %
 The difference between the two MARTINI models is likely due to the better properties of solvation of charged groups in the Polar MARTINI description \citep{Yesylevskyy2010}, united with the fact that the buckyball contains a high number of them.
 
@@ -733,7 +733,7 @@ Overall, the multiscale investigation of this system provided information on how
 
 Two of the final configurations obtained from standard MARTINI simulations were backmapped to atomistic resolution, and simulated for additional 200 ns. The structures expanded roughly up to the sizes obtained in direct atomistic simulations (Figure \ref{fig:Rg_backmap}). They present however some unpaired arms and slightly deformed shapes, so that the RDF profiles of their masses around the origin results in a broader curve with respect to the original atomistic simulations, albeit they are centred at the same values (Figure \ref{fig:BM_RDF}).
 
-The pattern of contacts per residue, computed on the last 100 ns of simulations, contains features of both the atomistic and MARTINI profiles \ref{fig:BM_contacts}.
+The pattern of contacts per residue, computed on the last 100 ns of simulations, contains features of both the atomistic and MARTINI profiles (Figure \ref{fig:BM_contacts}).
 %
 \begin{figure}
 \centering
@@ -752,8 +752,7 @@ The pattern of contacts per residue, computed on the last 100 ns of simulations,
 %
 In particular, at the side chain level, is recovered the interaction between Arginine and Tryptophan residues. Also for mixed backbone-side chain contacts the role of Tryoptophan with respect to the other residues is restored. For backbone contacts instead, the pattern resembles more the one from MARTINI. However, the number of total contacts is slightly lower, probably due to the rapid expansion which follows the backmapping procedure. This movement happens to relieve the unfavourable conformation deriving from the conversion between resolutions.
 
-The expansion of the structure suggests that the atomistic simulations analysed before have indeed reached (or are reaching) an equilibrium: even if the atomistic radius of gyration in Figure \ref{fig:Rg} has not reached a plateau, the structure is unlikely to contract much more because when it is contracted (as it is after the backmapping) it expands back to the larger size observed in Figure \ref{fig:Rg}.
-Once more, this supports the reliability of the simulations performed so far.
+The expansion of the structure suggests that the atomistic simulations analysed before have indeed reached (or are reaching) an equilibrium: on one side, the atomistic radius of gyration in Figure \ref{fig:Rg} has not reached a plateau and could possibly decrease more, on the other, when the structure is contracted (as it is after the backmapping) it expands back to the larger size observed in Figure \ref{fig:Rg}. This suggest that the equilibrium value lays between what found with an atomistic and a MARTINI coarse grain approach.
 
 
 \clearpage
@@ -811,7 +810,7 @@ In general, differences are expected between the two systems, because of their d
 
 To exclude that the difference between the two systems is given by the force field chosen, we refer the reader to the next chapter, where, for simulations of monolipid bilayers, the 54A7 or 54A8 force fields gave very similar values of pure diffusion (keeping all the other simulations conditions identical).
 %
-Also in those simulations we observed drift of one leaflet with respect to the other, which would produce discrepancy between the values of pure and global D. The drift appeared in some of the simulations only, and not in a consistent manner: it did not happen for a lipid in particular, nor for a specific set of parameters, suggesting that the variability due to the initial conditions can initiate the drift in a random way.
+Also in those simulations we observed drift of one leaflet with respect to the other, which would produce discrepancy between the values of pure and global D. The drift appeared in some of the simulations only, and not in a consistent manner: it did not happen for a lipid in particular, nor for a specific set of parameters. This suggests that small changes in the the initial conditions can lead to very different values of the drift (if any exist).
 However, once it is started, such motion seems to persist throughout the simulation length, consistently with the inertia gained by the leaflet.
 
 
@@ -962,7 +961,7 @@ It is observed that once a curvature appears it can be quickly enhanced by the e
 
 The electroporation threshold for the bacterial membrane alone was set at the higher value of 140 mV/nm: out of three simulations run with such value of the electric field, two resulted in disruption at 150 ns and 154 ns, while the third presented a curved but still intact membrane after 200 ns.
 %
-This shows that the peptide shifts the threshold field by a small amount (in absolute terms), but its action is clearly accelerating the disruption process.
+This shows that the effect of the field combined with the presence of the peptide accelerates the disruption process. Because of that, a slightly lower field value is sufficient to observe poration when the peptide is present.
 
 The simulations with high electric field performed on the 512-lipids bilayer resulted all in curved geometries before the poration event (independently from the presence of the peptide). However this does not happen with the larger membrane, for which the poration was always initiated from a flat conformation (Figure \ref{fig:pore_pics_2}).
 %
@@ -1071,7 +1070,7 @@ The investigation performed on the bacterial model membrane sets to 130 mV/nm th
 %
 However, for the DLPC membrane this value was sufficient to cause poration both with and without peptide. Despite the absence of lipids with a net charge, which are expected to interact more strongly with the electric field, this membrane seems more sensitive to such external perturbation. We think this is due to larger ApL: indeed, being the lipids less packed, water penetration is easier. This, combined with the electric field, generates more easily water channels which promote pore formation.
 
-We observed that, once the membrane starts disrupting, the peptide detaches from the membrane, while it remained firmly attached to the bacterial one, following its deformations. This lower propensity for binding on the mammalian case will be proven also by coarse-grained simulations and is consistent with the previous analysis on hydrogen bonds propensity and amino acids insertion. Moreover it confirms that the poration is induced because of the high electric field rather than the presence of the peptide. We do not pursue the investigation of the electroporation threshold for the DLPC membrane, as we focussed here only on the action of the peptide on it.
+In the case of the mammalian model membrane, we observed that, once the membrane starts disrupting, the peptide detaches from it, while it remained firmly attached in the simulations with the bacterial one, following its deformations. This lower propensity for binding on the mammalian case will be proven also by coarse-grained simulations and is consistent with the previous analysis on hydrogen bonds propensity and amino acids insertion. Moreover it confirms that the poration is induced because of the high electric field rather than the presence of the peptide. We do not pursue the investigation of the electroporation threshold for the DLPC membrane, as we focussed here only on the action of the peptide on it.
 %
 Finally, in interpreting these results, it must be considered that the transmembrane potential of a mammal cell is lower than the one present in the bacterial membrane \citep{Yeaman2003,Wilson2011}, so that their membranes usually need to withstand milder electric field conditions than bacterial ones.
 
@@ -1154,7 +1153,7 @@ The mechanism above results in the slower diffusion of the DLPG residues nearby 
 \label{fig:PO4_RDF_dens}
 \end{figure}
 
-To conclude the investigation performed with standard MARTINI, we simulated the capsule together with a pure DLPC membrane. The capsule does not bind to it in the 10 $\mu$s simulated (Supplementary Movies SI\_M6): it comes close to it multiple times, keeping an average distance of 3 nm and a minimum of 1 nm (Supplementary Figure \ref{fig:mindist_buck_dlpc}). This, together with what already observed in the atomistic simulations, suggests once more that the interaction with non charged lipids is not leading to attachment of the buckyball to the membrane.
+To conclude the investigation performed with standard MARTINI, we simulated the capsule together with a pure DLPC membrane. The capsule does not bind to the latter in the 10 $\mu$s simulated (Supplementary Movies SI\_M6): it comes close to it multiple times, keeping an average distance of 3 nm and a minimum of 1 nm (Supplementary Figure \ref{fig:mindist_buck_dlpc}). This, together with what already observed in the atomistic simulations, suggests once more that the interaction with non charged lipids is not leading to attachment of the buckyball to the membrane.
 
 \paragraph{Polar MARTINI simulations} 
 Polar MARTINI simulations focussed on \emph{in silico} experiments with an external electric field, to set a parallel with the analogous investigation performed at the atomistic level. The addition of an external electric field is not possible in standard MARTINI simulations because standard water does not provide a long range electrostatic screening. As such, the electric field effect would be overestimated.
@@ -1179,7 +1178,7 @@ To simulate the binding of the buckyball bilayer, we first focussed on the bacte
 \label{fig:martini_stMem}
 \end{figure}
 
-We did not observe poration on the timescale of the simulation (500 ns): a longer simulation might allow to observe membrane disruption but, as mentioned before, we preferred to focus on the action of the electric field. As such, we simulated the binding under the action of a 20 mV/nm electric field. The curvature of the membrane is slightly more pronounced than in the case without field, but again no disruption happens in the 500 ns simulated (Figure \ref{fig:martini_stMem20}).
+We did not observe poration on the time scale of the simulation (500 ns): a longer simulation might allow to observe membrane disruption but, as mentioned before, we preferred to focus on the action of the electric field. As such, we simulated the binding under the action of a 20 mV/nm electric field. The curvature of the membrane is slightly more pronounced than in the case without field, but again no disruption happens in the 500 ns simulated (Figure \ref{fig:martini_stMem20}).
 From the final configuration of this run we doubled the electric field, which was sufficient to observe poration within 200 ns.
 %
 Remarkably, a value of 40 mV/nm is within the physiological range of the transmembrane potential (which is around 35 mV/nm for the bacterial inner membrane, and 20 mV/nm across a mammalian membrane. See discussion in Section \ref{sec:details}).
@@ -1300,7 +1299,7 @@ Furthermore, there is a slight increase with the concentration.
 
 The pattern of contacts suggests once more that Trypthopan interact with most partners. Interestingly, the contacts are distributed in a way which resemble more the atomistic pattern found for the capsule rather than the MARTINI one. In general, this confirms the role of the hydrophobic residues in keeping the assembly compact, but also suggests aggregation of molecules when a high concentration is simulated.
 
-Regarding SASA values (Figure \ref{fig:SA_sasa_all}), they confirm what found also in the capsule conformation, with Arginine being exposed and Tryptophan buried. The SASA is decreasing with the concentration, as for low concentration several clusters are formed and float in solution separately (up to the timescale simulated), while for higher concentrations the molecules can merge in fewer larger clusters, which have less exposed surface.
+Regarding SASA values (Figure \ref{fig:SA_sasa_all}), they confirm what found also in the capsule conformation, with Arginine being exposed and Tryptophan buried. The SASA is decreasing with the concentration, as for low concentration several clusters are formed and float in solution separately (up to the time scale simulated), while for higher concentrations the molecules can merge in fewer larger clusters, which have less exposed surface.
 %
 Interestingly, the decrease in SASA and increase in contacts does not scale linearly with the concentration, as expected when the systems reach saturation and the clusters cannot favourably accommodate more molecules. However, as only three concentrations were simulated here, the data are not enough to extract a more precise dependence between these properties.
 
