@@ -8,7 +8,7 @@
 
 \section{Additional publications} \label{app:paper}
 The following pages present the manuscript:
-Kepiro, I. E., Marzuoli, I., Hammond, K., et al. Engineering chirally blind protein pseudo-capsids into nanoprecise antibacterial persisters, submitted to ACS Nano and currently under revision. Chapter \ref{chapter:capzip_results} includes part of the results presented in the paper, elaborating them further.
+Kepiro, I. E., Marzuoli, I., Hammond, K., et al. Engineering chirally blind protein pseudo-capsids into nanoprecise antibacterial persisters, submitted and in second revision for ACS Nano. Chapter \ref{chapter:capzip_results} includes part of the results presented in the paper, elaborating them further.
 
 \includepdf[pages=1-25, nup=1x2, offset = 5mm 0mm, scale = 0.8, pagecommand = \pagestyle{thesis}, landscape = true]{Kepiro_et_al.pdf}
 \includepdf[pages=1-13, nup=1x2, offset = 5mm 0mm, scale = 0.8, pagecommand = \pagestyle{thesis}, landscape = true]{Kepiro_et_al_SI.pdf}
@@ -16,7 +16,7 @@ Kepiro, I. E., Marzuoli, I., Hammond, K., et al. Engineering chirally blind prot
 
 \section{Supplementary material}
 \label{sec:SI}
-Supplementary material can be found at \url{https://github.com/imarzuoli/????} and includes Supplementary Movies of:
+Supplementary material can be found at \url{https://github.com/imarzuoli/Thesis_marzuoli} and includes Supplementary Movies of:
 \begin{itemize}
 \item \url{SI_M1_GROMOS_buckyball.mp4} \\ GROMOS atomistic simulation of the buckyball bilayer - 100 ns;
 
@@ -38,13 +38,13 @@ The simulations and analysis of capzip systems prompted the development of tools
 %
 These are meant to be used in conjunction with standard analysis tools provided by GROMACS \citep{Berendsen1995,Abraham2015,gromacs_man} and MDAnalysis \citep{Michaud-Agrawal2011,Gowers2016}.
 %
-The scripts and packages developed can be found at \url{https://github.com/imarzuoli/MDtools}, which includes:
+The scripts and packages developed can be found at \url{https://github.com/imarzuoli/MDtools}, which includes (among others):
 \begin{itemize}
+\item a python module to manipulate and prepare multi-branched peptide topology files in the GROMACS format for GROMOS simulations (\url{MD_mutate_and_manipulate.py});
+
 \item python functions to perform the analysis of contacts as in Section \ref{sec:results_cap} of Chapter \ref{chapter:capzip_results} (\url{contacts_analysis.py});
 
-\item functions to perform the hydration analysis as in Section 3.4 of Chapter \ref{chapter:lip_par} (\url{an_min_hist.py});
+\item functions to perform the hydration analysis as in Section 3.4 of Chapter \ref{chapter:lip_par} (\url{an_min_hist.py}).
 %\emph{delete_water.py}: a script to delete water molecules in a given slice of space (perpendicular to either x, y or z)
-
-\item a python module to manipulate multi-branched peptide topology files in the GROMACS format for GROMOS simulations (\url{MD_mutate_and_manipulate.py}).
 
 \end{itemize}

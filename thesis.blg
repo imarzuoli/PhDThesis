@@ -9,7 +9,7 @@ A level-1 auxiliary file: 4lip_par/lip_par.aux
 A level-1 auxiliary file: 5conclusions/conclusions.aux
 A level-1 auxiliary file: appendix.aux
 The style file: my_apalike.bst
-Reallocated field_info (elt_size=4) to 13536 items from 5000.
+Reallocated field_info (elt_size=4) to 13690 items from 5000.
 Database file #1: thesis_ref2.bib
 Warning--entry type for "poly" isn't style-file defined
 --line 3075 of file thesis_ref2.bib
@@ -25,45 +25,45 @@ Warning--entry type for "calgary_site" isn't style-file defined
 Warning--empty publisher in gromacs_man
 Warning--there's a number but no volume in Hunter2001
 Warning--empty journal in Oneill2016
-You've used 388 entries,
+You've used 395 entries,
             1958 wiz_defined-function locations,
-            2846 strings with 90713 characters,
-and the built_in function-call counts, 181043 in all, are:
-= -- 18285
-> -- 8957
-< -- 114
-+ -- 3723
-- -- 2888
-* -- 16442
-:= -- 30657
-add.period$ -- 1171
-call.type$ -- 388
-change.case$ -- 3604
-chr.to.int$ -- 383
-cite$ -- 391
-duplicate$ -- 5431
-empty$ -- 11535
-format.name$ -- 3424
-if$ -- 35062
+            2885 strings with 92063 characters,
+and the built_in function-call counts, 184062 in all, are:
+= -- 18588
+> -- 9081
+< -- 117
++ -- 3772
+- -- 2926
+* -- 16711
+:= -- 31166
+add.period$ -- 1192
+call.type$ -- 395
+change.case$ -- 3658
+chr.to.int$ -- 390
+cite$ -- 398
+duplicate$ -- 5529
+empty$ -- 11749
+format.name$ -- 3471
+if$ -- 35652
 int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 378
-newline$ -- 1947
-num.names$ -- 1170
-pop$ -- 3020
+missing$ -- 386
+newline$ -- 1982
+num.names$ -- 1191
+pop$ -- 3068
 preamble$ -- 1
-purify$ -- 3609
+purify$ -- 3664
 quote$ -- 0
-skip$ -- 5224
+skip$ -- 5311
 stack$ -- 0
-substring$ -- 13992
-swap$ -- 419
+substring$ -- 14255
+swap$ -- 426
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2320
+type$ -- 2360
 warning$ -- 3
-while$ -- 1452
+while$ -- 1477
 width$ -- 0
-write$ -- 5041
+write$ -- 5131
 (There were 8 warnings)

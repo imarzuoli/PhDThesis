@@ -1,6 +1,15 @@
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {2.1}{\ignorespaces Functional form of GROMOS force field}}{55}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Functional form of GROMOS force field}}{57}
+\addvspace {10pt}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Simulations of capzip assemblies, in water and on membranes}}{94}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Local diffusion coefficient for DLPC/DLPG with capzip (atomistic)}}{124}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Hydrogen bonds between capzip and DLPC/DLPG (atomistic)}}{124}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Hydrogen bonds between capzip Arg residues and DLPC/DLPG (atomistic)}}{128}
+\contentsline {table}{\numberline {3.5}{\ignorespaces DLPC atomistic simulations - general properties}}{130}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Diffusion in proximity of capzip for DLPC bilayer (atomistic)}}{131}
+\contentsline {table}{\numberline {3.7}{\ignorespaces Properties of DLPC/DLPG and DLPC membranes (MARTINI)}}{134}
+\contentsline {table}{\numberline {3.8}{\ignorespaces Control simulations of pure membranes}}{152}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
