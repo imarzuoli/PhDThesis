@@ -10,7 +10,7 @@ The set of lipid parameters derived originally from \citet{Chiu1995} and updated
 %
 For this reason, we performed a reparametrisation of the lipid head group which includes these new descriptions, aiming at an improved consistency with the rest of the force field and monitoring whether they would also improve the agreement with the experimental quantities.
 
-The resulting parametrisation was successful in reproducing key properties such as the area per lipid, and proposed a different interaction with a test peptide with respect to the one outlines by the previous parameter set. Specifically, the new parameters promote a weaker protein-membrane interaction allowing simulations to be less biased from the initial conditions chosen. This is of crucial importance for all simulations in general, and in particular when the sampling is reduced due to computational resources issues.
+The resulting parametrisation was successful in reproducing key properties such as the area per lipid, and proposed a different interaction with a test peptide with respect to the one outlined by the previous parameter set. Specifically, the new parameters promote a weaker protein-membrane interaction allowing simulations to be less biased from the initial conditions chosen. This is of crucial importance for all simulations in general, and in particular when the sampling is reduced due to computational resources issues.
 
 This chapter consists of the paper ``Lipid Head Group Parameterization for GROMOS 54A8: A Consistent Approach with Protein Force Field Description", published in the \emph{Journal of Chemical Theory and Computation}, together with its Supporting Information. The project was conceived by Prof.\ Franca Fraternali, Dr.\ Christian Margreitter and myself. I carried out all the work, under their guidance; specifically I implemented the new parameter sets, performed and analysed the simulations and selected the best performing parameters to be released. References for the paper and its supplementary material are included separately after each of them (with a numeric notation). All references feature in the bibliography of this thesis as well.
 
@@ -28,7 +28,7 @@ This chapter consists of the paper ``Lipid Head Group Parameterization for GROMO
 
 \section{Additional material: effects of membrane undulation}
 
-During the revision process of the paper which constitute this Chapter, it was brought to our attention that membrane undulations might be incompatible with the computation of ApL performed from the sides of the simulation box. The more a membrane patch is deviating from a flat geometry, the more approximate would be such method.
+During the revision process of the paper which constitute this Chapter, it was brought to our attention that membrane undulations are incompatible with the computation of ApL performed from the sides of the simulation box. The more a membrane patch is deviating from a flat geometry, the more approximate would be such method.
 %
 Moreover, as the electron density profile is computed as an average over all the $x$ and $y$ positions, undulations of the membrane would result in a broader profile, with more uncertainty on the exact positions of the electron density peaks.
 
@@ -73,6 +73,9 @@ Further analysis must be done on the Luzzati thickness estimate, which depends o
 \caption[Control computation on bilayer electron density calculation]{(a) Electron density of the phosphorus atom computed on the full membrane, a medium and a small patch. (b) van der Waals representation of the phosphorus atoms of the DPPC lipid bilayer (initial configuration) used for simulations. The simulation box is highlighted in blue. The green plus red regions constitute the medium patch mentioned in the analysis; the red one constitute the small patch.}
 \label{fig:density_check}
 \end{figure}
+
+Another valid point raised in the discussion regards the use of the Berendsen barostat. As this algorithm does not reproduce the correct \emph{isobaric ensemble} (see \ref{sec:md_algos}), the estimate of the lateral compressibility module is not accurate and should not be used to validate the parameters. Its computation is still valid as a comparison with the results from previous parametrisation works, but its relevance cannot be extended further.
+
 
 \nocite{Abraham2015,Aurenhammer1991,Berendsen1984,Berendsen1995,Berglund2015,Borle1983, Borle1985,Botan2015,Bransden2003,Braun2011,BULDT1978,Castelletto2016,CelineAnezo2003, Chan2006,Chan2007,Chandrasekhar2003,Chandrasekhar2004,Chandrasekhar_vanGunst2001, Chandrasekhar_vanGunst2002,Chiu1995,Chiu2009,Chowdhary2013,Clarke2001,Cocucci2017, Cooper2000,Davis1981,deVries2004,Dickson2014,Ding2015,Doktorova2017,Douliez1995, Douliez1998,doux2012,Einstein1956,Entova2018,Essmann1995,gromacs_man,gromos43a1, Gurtovenko2007flip,Gurtovenko2009,Leontiadou2006,Hart2012,Hess1997,Hodder2001, Huang1982,Huang2017,Hwang1998,Jean-Louis2006,Jia2011,Johner2016,Kandasamy2004,
 Khalid2015,Klauda2010,Kucerka2011,Kucerka2015,Kukol2009,Lairion2002,Leontiadou2004,
