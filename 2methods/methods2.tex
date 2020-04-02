@@ -67,11 +67,22 @@ Even with larger $\tau_T$ though, this thermostat gives incorrect results as it 
 \end{equation}
 with $N_f$ the number of degrees of freedom in the system and $dW$ a Wiener noise \citep{Durrett2010} which ensure fluctuations are sampled correctly.
 
-The other relevant quantity, pressure, is defined as the average quantity of motion exchanged between the particles and the walls of the box they are confined to, which depends on their frequency of collision. Most MD simulations are run under periodic boundary conditions, i.e.\ a particle which exits from the simulation box during a move is brought back on the opposite side of the box, to mimic the presence of an infinite number of equivalent boxes one next to the other.
+The other relevant quantity, pressure, is defined as the average quantity of motion exchanged between the particles and the walls of the box they are confined to, which depends on their frequency of collision. Most MD simulations are run under periodic boundary conditions, i.e.\ a particle which exits from the simulation box during a move is brought back on the opposite side of the box. This mimics the presence of an infinite number of equivalent boxes one next to the other, and alleviates the finite size effects implicitly modelling an infinite simulation box.
 %
-Thus, particles are not effectively bouncing on the walls, and the pressure is computed from the velocities of the ones trespassing the box boundaries during a move.
+As particles are not effectively bouncing on the walls, the pressure is computed from the velocities of the ones trespassing the box boundaries during a move.
 %
-Barostat algorithms rescale the size of the simulation box to adjust the collision frequency and thus the pressure to the target value. Usually all the box dimensions are rescaled by the same amount. In the case of anisotropic systems like lipid simulations where the membrane patch spans all the plane and joins with its periodic images, the directions parallel to the plane can be rescaled separately with respect to the one perpendicular to it. Indeed the lateral pressure exerted by the lipids can be different with respect to the one of water.
+Barostat algorithms rescale the size of the simulation box to adjust the collision frequency and thus the pressure to the target value.
+
+As a note, pressure is an intensive quantity, i.e. a local physical property of a system and does not depend on the system size or the number of particles in it (extensive quantities). However, both these quantities are involved in its computation in the framework used. From the classic kinetic theory of gases, for a homogeneous gas of $N$ molecules of mass $m$ in a box of volume $V$, in isotropic conditions, the pressure can be computed as:
+\begin{equation}
+P = \frac{Nm\langle v^2\rangle}{3V}.
+\end{equation}
+Thus, rescaling the size of the system (extensive) and dividing $N$ (extensive) by this quantity, will influence the pressure (intensive).
+
+Usually all the box dimensions are rescaled by the same amount. In the case of anisotropic systems like lipid simulations, an anisotropic coupling can be enforced: for these systems, the membrane patch is usually parallel to one side of the simulation box, and spans the whole side area. In this way, it joins with its periodic images, without any water molecules in between. This is convenient as it shields the hydrophobic core of the membrane from water, moreover it ensure that the membrane remains planar. Indeed, isolated patches of membrane tend to fold into vesicles to minimise their energy.
+%
+In the situation where the membrane joins its periodic images, to compute pressure, the box sides parallel to the membrane plane are rescaled separately with respect to the one perpendicular to it.
+This is because lateral pressure exerted by the lipids is expected to be different with respect to the one of water.
 
 The barostats used in this work are the Berendsen \citep{Berendsen1984} and Parrinello-Rahman \citep{Parrinello1981} ones. The Berendsen barostat is analogous to its thermostat counterpart, as it defines a scaling factor for the velocities (and thus the coordinates) based on the target and effective pressure $P_0$ and $P$, and a coupling time $\tau_P$:
 \begin{equation} \label{eq:barostat_bere}

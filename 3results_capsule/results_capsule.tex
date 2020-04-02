@@ -958,8 +958,8 @@ Pept. & Lip. & Region & Nr. & D ($\mu m^2/s$) \\
 10 & 748 & $d>3$ & 412 & 0.993(5) \\
 10 & 748 & All & 735 & 0.821(2) \\
  \hline
- 748 & 0 & All (B$_{COM}$) & 748 & 0.673(1) \\
- 748 & 0 & All (L$_{COM}$) & 748 & 0.495(1) \\
+ 0 & 748 & All (B$_{COM}$) & 748 & 0.673(1) \\
+ 0 & 748 & All (L$_{COM}$) & 748 & 0.495(1) \\
  \hline
  \end{tabular}
 \captionof{table}[Diffusion in proximity of capzip for DLPC bilayer (atomistic)]{Diffusion coefficients of lipids, in a mammalian model membrane. Pept.: number of peptides; Lip.: number of lipids; Region: the values are computed for groups of lipids which, at the initial time, were within 1 nm, 2 nm, 3 nm from the peptide or further away. D is computed centring the trajectory around the Protein COM, when this is present. The pure and global coefficients are given for the pure membrane. Error from linear fit in parenthesis.}
@@ -1177,13 +1177,13 @@ Again, when interpreting these results, one must remember that a backmapping to 
 \subsection{On the long range electrostatic cut off in lipid simulations}
 In a few paragraphs of this chapter we compare the simulations run here with the ones from the parametrisation work in the next chapter. As the reader will see, these are run on 512-lipid bilayers, with a simulation set up very similar to the one employed here.
 
-However, the long range electrostatic are treated with a Reaction Field scheme and cut off radius of 1.4 nm. This choice was performed for consistency with previous parametrisation work.
+However, the long range electrostatic are treated with a Reaction Field scheme and cut off radius of 1.4 nm. This choice was performed for consistency with previous parametrisation work.DLPC​
 %
 Instead, the simulations run in the present chapter are run either with the Reaction Field and a cut off of 1.2 nm (512-lipid bilayers) or with a Particle Mesh Ewald treatment, and the same cut off (740-lipid bilayers).
 
 Although briefly mentioned in the body of the chapter, we want to reiterate that these discrepancies might affect the simulations, but in measure smaller than the peptide or the electric field, which effect we wanted to assess.
 
-Indeed, extensive literature on the effects of long range electrostatic treatment suggests that electrostatics have an influence on the ApL up to 0.010-0.015 nm$^2$ only. This is confirmed for the change in the cut off treatment (single or double) \citep{Silva2018,Reisser2017}, and the switch from PME to RF [\citet{Poger2012}; Table 1 in Chapter \ref{chapter:lip_par}].
+Indeed, extensive literature on the effects of long range electrostatic treatment suggests that electrostatics have an influence on the ApL up to 0.010-0.015 nm$^2$ only. This is confirmed for the change in the cutDLPC​ off treatment (single or double) \citep{Silva2018,Reisser2017}, and the switch from PME to RF [\citet{Poger2012}; Table 1 in Chapter \ref{chapter:lip_par}].
 %
 The only conditions which severely affects the ApL seems the complete neglect of the long range electrostatic, choosing a plain cut off scheme \citep{Patra2003}.
 
@@ -1210,7 +1210,7 @@ In the following pages we include the results obtained from Replica 2 of the buc
 \label{fig:BTI_corr2}
 \end{figure}
 
-\begin{figure}[t!]
+\begin{figure}[t!]DLPC​
 \centering
 \includegraphics[width=0.85\linewidth]{3results_capsule/pics/R2_stAll_beta_90_R1.png}
 \caption[(SI) Replica 2: Arm pairing during simulations of the buckyball]{Number of paired arms within the same layer and between layers. Cut off distance between arms center of mass equal to 1.2 nm. Only contacts existing more than 90\% of the simulation time are counted. Results for Replica 2 of each simulation set-up.}
@@ -1242,7 +1242,7 @@ In the following pages we include the results obtained from Replica 2 of the buc
 \begin{figure}[h!]
 \centering
 \vspace{3cm}
-\subbottom[]{\includegraphics[width=0.8\linewidth]{3results_capsule/pics/R2_many_energies_brief.png}} 
+\subbottom[]{\includegraphics[width=0.8\linewidth]{3results_capsule/pics/R2_many_energies_brief.png}} DLPC​
 \subbottom[]{\includegraphics[width=0.8\linewidth]{3results_capsule/pics/R2_ratio_energies_brief.png}} 
 \caption[(SI) Replica 2: Non-bonded protein energy contribution to capsule structures]{(a) Protein-Protein and Protein-Water non-bonded interactions, normalised per molecule. Values obtained as average on the second half of the trajectory of Replica 2 for each set-up. (b) Ratio between the Protein-Protein and Protein-Water interactions for each force field, for Coulomb and Lennard-Jones respectively; or between Coulomb and Lennard/Jones, for Protein-Protein an Protein-Water interactions separately (note the log scale on $y$). Values computed as for plot (a). Points are misaligned along $x$ to facilitate the reading.}
 \label{fig:eng_cg2}
@@ -1298,7 +1298,7 @@ In the following pages we include the results obtained from Replica 2 of the buc
 \scriptsize
  \def\arraystretch{1.6}
 \begin{tabular}{lccccc}
- \multicolumn{6}{c}{\small \textbf{Table of simulations of pure membranes (atomistic)}} \\
+ \multicolumn{6}{c}{\small \textbf{DLPC​Table of simulations of pure membranes (atomistic)}} \\
   \hline
  Lipids & Box (nm) & E (mV/nm) & ES & $\,$Time (ns)$\,$ & Rep. \\
  \hline
